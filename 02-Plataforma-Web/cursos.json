@@ -1,0 +1,78 @@
+[
+  {
+    "courseId": "bienvenida-desarrollo-institucional",
+    "title": "Bienvenida al Desarrollo Institucional",
+    "description": "Si crees que el Desarrollo Institucional es asunto de comisionados nacionales, este curso es para ti. En 25 minutos vas a entender por qué te aplica, vas a desarmar los 5 mitos más comunes, vas a ubicar los órganos de la ASC y, sobre todo, vas a salir con un primer compromiso chico, concreto y tuyo. Sin tecnicismos. Sin papeleo. Solo claridad sobre lo que ya estás haciendo y lo que sigue.",
+    "icon": "🏛️",
+    "duration": "25 minutos",
+    "modules": 6,
+    "status": "active",
+    "file": "bienvenida-desarrollo-institucional.html",
+    "folder": "bienvenida-desarrollo-institucional"
+  },
+  {
+    "courseId": "politica-pndi",
+    "title": "La Política Nacional de DI — Marco y Principios",
+    "description": "El marco doctrinal del DI: 4 fundamentos, 7 principios, definiciones esenciales. Por construir.",
+    "icon": "📜",
+    "duration": "30 minutos",
+    "modules": 7,
+    "status": "coming-soon",
+    "file": "politica-pndi.html",
+    "level": 1,
+    "levelName": "Fundamentación",
+    "order": 2
+  },
+  {
+    "courseId": "niveles-y-estructura",
+    "title": "Niveles y Estructura del Movimiento",
+    "description": "Los 5 niveles del Movimiento (Mundial, Interamericano, Nacional, Regional, Local) y los 3 órganos por nivel (gobierno, operación, control). Por construir.",
+    "icon": "🏗️",
+    "duration": "30 minutos",
+    "modules": 7,
+    "status": "coming-soon",
+    "file": "niveles-y-estructura.html",
+    "level": 1,
+    "levelName": "Fundamentación",
+    "order": 3
+  },
+  {
+    "courseId": "ocho-ambitos-de-gestion",
+    "title": "Los 8 Ámbitos de Gestión",
+    "description": "Recorrido panorámico de los 8 ámbitos de la PNDI con sus sub-ámbitos. Por construir.",
+    "icon": "🧭",
+    "duration": "35 minutos",
+    "modules": 8,
+    "status": "coming-soon",
+    "file": "ocho-ambitos-de-gestion.html",
+    "level": 1,
+    "levelName": "Fundamentación",
+    "order": 4
+  },
+  {
+    "courseId": "salud-institucional",
+    "title": "Las 6 Áreas Estratégicas y Salud Institucional",
+    "description": "Autodiagnóstico interactivo de salud institucional sobre 6 dimensiones. Por construir.",
+    "icon": "💪",
+    "duration": "30 minutos",
+    "modules": 7,
+    "status": "coming-soon",
+    "file": "salud-institucional.html",
+    "level": 1,
+    "levelName": "Fundamentación",
+    "order": 5
+  },
+  {
+    "courseId": "mi-aporte-al-di",
+    "title": "Mi Aporte al Desarrollo Institucional",
+    "description": "Plan-builder personal/grupo + PDF imprimible para compartir con el consejo. Cierre de la ruta del Nivel 1. Por construir.",
+    "icon": "🗺️",
+    "duration": "30 minutos",
+    "modules": 7,
+    "status": "coming-soon",
+    "file": "mi-aporte-al-di.html",
+    "level": 1,
+    "levelName": "Fundamentación",
+    "order": 6
+  }
+]

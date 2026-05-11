@@ -1,0 +1,552 @@
+{
+  "courseId": "bienvenida-desarrollo-institucional",
+  "title": "Bienvenida al Desarrollo Institucional",
+  "subtitle": "Curso 1 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
+  "description": "Si crees que el Desarrollo Institucional es asunto de comisionados nacionales, este curso es para ti. En 25 minutos vas a entender por qué te aplica, vas a desarmar los 5 mitos más comunes, vas a ubicar los órganos de la ASC y, sobre todo, vas a salir con un primer compromiso chico, concreto y tuyo. Sin tecnicismos. Sin papeleo. Solo claridad sobre lo que ya estás haciendo y lo que sigue.",
+  "icon": "🏛️",
+  "duration": "25 minutos",
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~25 minutos · 6 lecciones cortas.</strong><br>Al final vas a tener claro <strong>qué es Desarrollo Institucional</strong>, <strong>por qué te aplica a ti</strong>, y cuál va a ser <strong>tu primer compromiso</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hola. Bienvenido/a. Si llegaste hasta acá probablemente eres jefe de grupo, miembro del consejo, consejero, comisionado, o simplemente un adulto voluntario que quiere entender qué pasa <em>detrás</em> de las actividades con los chicos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quizás escuchaste el término <strong>“Desarrollo Institucional”</strong> y te sonó a oficina, a comisionados, a cosas que pasan lejos. Este curso existe para mostrarte algo distinto: <strong>el grupo es lo que sus adultos lo hacen ser</strong>. Y casi todo lo que tú haces para que el grupo dure, funcione y crezca con bien <em>ya es</em> Desarrollo Institucional."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a vivir en este curso"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> Qué es Desarrollo Institucional, en realidad (y por qué te aplica a ti)",
+            "<strong>Lección 3 —</strong> Los 5 mitos del DI y cómo desarmarlos",
+            "<strong>Lección 4 —</strong> Tu institución en una página (gobierno, operación, control)",
+            "<strong>Lección 5 —</strong> Por qué un grupo saludable cambia la vida de los chicos",
+            "<strong>Lección 6 —</strong> Tu primer compromiso (chico, concreto y tuyo)"
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Cómo aprovechar este curso:</strong><br>No lo apures. Hazlo lección por lección, pensando todo el tiempo en <em>tu grupo concreto</em>. Las reflexiones y los compromisos los lees tú dentro de un mes — lo que escribas hoy importa.<br><br>El sistema guarda tu avance automáticamente. Puedes hacer una lección hoy y la otra mañana."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 1 — ¿Qué es Desarrollo Institucional, en realidad?",
+      "emoji": "🏛️",
+      "navLabel": "L1",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Desarrollo Institucional es <em>todo lo que hacemos para que el grupo dure, funcione y crezca con bien</em>. Y lo hacen muchas más personas de las que crees."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si abres la <strong>Política Nacional de Desarrollo Institucional</strong> (PNDI 2017), te vas a encontrar con esta frase: <em>“directrices para identificar, definir y articular los ámbitos de gestión que dan soporte al Movimiento Scout para el cumplimiento de la Misión y la Visión.”</em> Es exacta. Y, si nunca has hecho un curso así, es difícil de digerir en frío."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vamos a llegar a esa frase, pero por el camino aterrizado. Empecemos por algo simple: <strong>mira tu propio grupo y vas a ver Desarrollo Institucional por todos lados</strong>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "👀 6 ejemplos cotidianos de DI en tu grupo"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "📝 El secretario del consejo", "description": "Toma acta de cada reunión y la archiva. <strong>Eso es gobernanza.</strong>", "color": "#f3e5f5", "borderColor": "#9c27b0" },
+            { "title": "💰 El tesorero", "description": "Abre la cuenta del grupo en el banco y firma con doble registro. <strong>Eso es administración.</strong>", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🎟️ La mamá del bingo", "description": "Organiza la rifa para financiar el viaje de la tropa. <strong>Eso es gestión de recursos económicos.</strong>", "color": "#fff3e0", "borderColor": "#ff9800" },
+            { "title": "⛺ El intendente", "description": "Cuenta las carpas antes y después del campamento. <strong>Eso es manejo de activos.</strong>", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "🤝 El consejero", "description": "Media un conflicto entre dos dirigentes del grupo. <strong>Eso son relaciones humanas.</strong>", "color": "#fce4ec", "borderColor": "#e91e63" },
+            { "title": "🚨 El jefe del campamento", "description": "Reporta el accidente del scout y activa el protocolo. <strong>Eso es gestión del riesgo.</strong>", "color": "#fff9c4", "borderColor": "#fbc02d" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ninguna de estas personas está pensando <em>“estoy haciendo Desarrollo Institucional”</em>. Pero todas lo están haciendo. Y todas, de alguna forma, son responsables de que el grupo <strong>dure, funcione y crezca con bien</strong>."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que dice la política textualmente",
+          "text": "El área de Desarrollo Institucional se dedica a trabajar para fomentar el progreso y crecimiento integral de nuestras instituciones.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, Introducción, p. 1"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En palabras simples:</strong> el Desarrollo Institucional es <strong>la columna vertebral del grupo</strong>. Lo que lo sostiene cuando nadie está mirando."
+        },
+        {
+          "type": "blockquote",
+          "text": "El grupo es lo que sus adultos lo hacen ser. Tú ya estás haciendo DI — este curso te da el lente para verlo, nombrarlo y mejorarlo."
+        }
+      ],
+      "reflection": {
+        "prompt": "Mira tu grupo o región. Escribe DOS cosas que ya están haciendo bien en términos de DI (cualquiera de los 6 ejemplos del grid sirve) y UNA cosa que sospechas que está floja. Sé específico — no “mejorar finanzas” sino “no tenemos libro contable al día”."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "questions": [
+          {
+            "text": "Según lo que viste en esta lección, ¿cuál de las siguientes es la definición que más se ajusta a Desarrollo Institucional?",
+            "options": [
+              "El conjunto de funciones que cumplen los comisionados nacionales para gestionar la asociación",
+              "Todo lo que se hace para que el grupo, la región o la nación duren, funcionen y crezcan con bien",
+              "La documentación contable y administrativa que exige el Estado a las organizaciones sin ánimo de lucro"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una mamá del grupo organiza un bazar para juntar fondos para el campamento de invierno. Según esta lección, ¿está haciendo Desarrollo Institucional?",
+            "options": [
+              "No, ella no es comisionada ni dirigente formal",
+              "Solo si el bazar está incluido en el plan operativo anual del grupo",
+              "Sí, está aportando al ámbito de Gestión de Recursos Económicos del grupo"
+            ],
+            "correctIndex": 2
+          }
+        ],
+        "nextLabel": "Continuar a Lección 2 →"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Lección 2 — Los 5 mitos del DI (y cómo desarmarlos)",
+      "emoji": "🧨",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Lo que crees que es DI no siempre es DI. Vale la pena revisar tus supuestos antes de seguir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hablemos de los <strong>5 mitos</strong> que escuchamos una y otra vez en los grupos. Si alguna vez has pensado uno de estos, no estás solo. Pero queremos que salgas de aquí pensando distinto y, sobre todo, <em>con qué responderle</em> a quien lo repita."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "❌ Mito 1 — “Eso es trabajo de los comisionados, no mío”"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Falso.</strong> El comisionado coordina, orienta, articula. Pero quien aterriza el DI en la realidad concreta del grupo son los adultos del consejo y todos los voluntarios. La PNDI explícita <strong>3 niveles de aplicación</strong>: Nacional, Regional y <strong>Grupo</strong>. Si tú haces parte de un grupo, esto te aplica."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "❌ Mito 2 — “DI es papeleo y burocracia”"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Falso.</strong> El documento existe para sostener la práctica, no al revés. <em>Acta sin reunión</em> = papel muerto. <em>Reunión sin acta</em> = recuerdo que se borra. Las dos cosas se necesitan. El DI sano es el equilibrio entre el hacer y el dejar registro de cómo se hizo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "❌ Mito 3 — “Si los chicos están bien, lo institucional puede esperar”"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Falso, y peligroso.</strong> Cuando lo institucional falla, los chicos lo sufren primero. El dirigente que se va con la única clave del depósito; los padres que reclaman cuotas mal cobradas; el campamento sin protocolo de transporte. La calidad de la experiencia educativa <strong>depende</strong> de la salud institucional. Lo vas a ver con detalle en la Lección 5."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "❌ Mito 4 — “Eso ya lo hace alguien más”"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Falso.</strong> Hay un cuento clásico que se contó en el taller Flor de Lis II y vale la pena recordarlo:"
+        },
+        {
+          "type": "blockquote",
+          "text": "“Había una vez cuatro personas: Todo el mundo, Alguien, Cualquiera y Nadie. Había una tarea importante que hacer y se le pidió a Todo el mundo que la hiciera. Todo el mundo estaba seguro de que Alguien lo haría. Cualquiera podría haberlo hecho, pero Nadie lo hizo. Alguien se puso furioso porque era una tarea de Todo el mundo. Todo el mundo pensó que Cualquiera podría hacerla pero Nadie se dio cuenta de que Todo el mundo no lo iba a hacer. La historia terminó con que Todo el mundo culpó a Alguien cuando Nadie hizo lo que Cualquiera podría haber hecho.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cuando la responsabilidad es de todos, nadie la asume. <strong>El servicio empieza por uno mismo.</strong>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "❌ Mito 5 — “Para hacer DI hay que ser experto en gerencia”"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Falso.</strong> Hay momentos para los expertos: un revisor fiscal, un abogado, un contador. Pero <strong>la mayor parte del DI cotidiano se hace con sentido común, método y compromiso</strong>. Ningún jefe de grupo nació sabiendo. Aprendió haciendo, equivocándose y siendo acompañado."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🎯 Cierre:</strong> si hubo un mito que reconociste como tuyo: bienvenido al club. Lo importante ahora es que <strong>ya tienes con qué responderle a quien lo repita</strong>."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Cuál de los 5 mitos te resonó más como algo que tú o alguien cercano han pensado o escuchado en tu grupo? Escríbele tu propia refutación, en una o dos frases — con tus palabras."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "Un dirigente nuevo te dice: “yo solo quiero estar con los chicos, no me metas en cosas administrativas.” ¿Cuál es la mejor respuesta según esta lección?",
+            "options": [
+              "“Tienes razón, hay otros para eso. Tú concéntrate en los chicos.”",
+              "“Justamente para que los chicos estén bien, necesitamos que el grupo funcione institucionalmente; tu aporte cuenta.”",
+              "“Mejor no participes en el consejo entonces, dedícate solo a la rama.”"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "En el grupo nadie firma las actas porque “ya alguien lo hará”. Después, nadie recuerda qué se decidió. ¿Qué mito están viviendo?",
+            "options": [
+              "Mito 1 — eso es trabajo de los comisionados",
+              "Mito 4 — eso ya lo hace alguien más",
+              "Mito 5 — para eso hay que ser experto"
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 3 →"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Lección 3 — Tu institución en una página",
+      "emoji": "🇨🇴",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Sé quiénes deciden, quiénes ejecutan y quiénes vigilan en tu Asociación Scouts de Colombia."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el Curso 3 de esta línea entras al detalle de los 5 niveles del Movimiento (Mundial, Interamericano, Nacional, Regional, Local). Pero antes de eso necesitas un mapa simple, que vas a poder mirar muchas veces:"
+        },
+        {
+          "type": "paragraph",
+          "text": "La <strong>Asociación Scouts de Colombia</strong>, como cualquier institución sana, tiene <strong>tres tipos de órganos</strong> en cada nivel."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🏛️ Los 3 tipos de órganos"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🏛️ Gobierno", "description": "<strong>Asambleas y Consejos.</strong> Deciden el rumbo. La Asamblea reúne a los miembros y aprueba lo grande; el Consejo conduce el día a día con autoridad delegada.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
+            { "title": "⚙️ Operación", "description": "<strong>Equipos de Jefatura.</strong> Ejecutan las decisiones. Llevan el plan a la realidad de las unidades, las salidas, las reuniones de dirigentes.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "👁️ Control", "description": "<strong>Cortes de Honor y Comisiones de Vigilancia y Control.</strong> Velan por la legalidad, la ética y el cumplimiento. Son el filtro que protege a la institución.", "color": "#fff9c4", "borderColor": "#fbc02d" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🔭 Cómo se ven en cada nivel"
+        },
+        {
+          "type": "paragraph",
+          "text": "El mismo patrón se repite en los tres niveles de aplicación de la PNDI. Cambia la escala, no la lógica:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "🏠 <strong>En tu grupo:</strong> Asamblea de Grupo (aprueba el rumbo) → Consejo de Grupo (gobierna el día a día) → Equipo de Jefatura (ejecuta) → Buenas prácticas de control internas (libro de actas, libro contable, soportes, conducta del consejo).",
+            "🏘️ <strong>En tu región:</strong> Asamblea Regional → Consejo Regional → Jefatura Regional → <strong>Revisoría Fiscal</strong> (Revisor Fiscal y Suplente) como órgano de control.",
+            "🇨🇴 <strong>En el país:</strong> Asamblea Scout Nacional → Consejo Scout Nacional → Jefatura Scout Nacional → <strong>Comisión Nacional de Vigilancia y Control</strong> + <strong>Corte de Honor Nacional</strong> (estos sí existen como órganos formales del nivel nacional)."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📚 La normatividad marco que rige todo"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Estatuto Nacional 2025</strong> — la norma constitucional de la ASC. Vigente, reemplaza estatutos anteriores.",
+            "<strong>Política Nacional de Desarrollo Institucional 2017</strong> — el marco doctrinal del DI: 4 fundamentos, 7 principios, 8 ámbitos, 3 niveles de aplicación.",
+            "<strong>Plan Estratégico 2023–2026</strong> — el rumbo nacional para el cuatrienio.",
+            "<strong>Reglamentos Nacionales</strong> — Reglamento Nacional, Reglamento Nacional de Grupos Scouts, Reglamento Nacional de Regiones Scout."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Buena noticia:</strong> los puedes consultar todos en <a href=\"https://scout.org.co/biblioteca\" target=\"_blank\" rel=\"noopener\">scout.org.co/biblioteca</a>. <strong>No tienes que aprendértelos.</strong> Solo saber que existen y dónde encontrarlos cuando los necesites."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver definición oficial del Consejo Scout Nacional",
+          "text": "El Consejo Scout Nacional es el órgano que dirige la institución de acuerdo con las normas legales, los Estatutos, los Reglamentos, los acuerdos y las decisiones de la Asamblea Nacional. En receso de la Asamblea Scout Nacional, es la autoridad máxima de la Asociación.",
+          "source": "scout.org.co · Quiénes Somos · Consejo Scout Nacional"
+        }
+      ],
+      "reflection": {
+        "prompt": "En tu grupo o región, ¿sabrías nombrar a la persona que hoy preside el Consejo? ¿Y al jefe? ¿Y a alguien del órgano de control si existe? Anota lo que sepas y lo que no — eso vale más que adivinar."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "El plan anual de actividades y el presupuesto del grupo los <strong>prepara</strong> el Consejo de Grupo. ¿Quién los <strong>aprueba</strong>?",
+            "options": [
+              "El jefe de grupo, como cabeza visible del equipo de Jefatura",
+              "El mismo Consejo de Grupo, en sesión ordinaria, dejándolo registrado en acta",
+              "La Asamblea de Grupo, sobre la propuesta presentada por el Consejo de Grupo"
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "¿Cuál es la norma marco constitucional vigente que rige a toda la Asociación Scouts de Colombia hoy?",
+            "options": [
+              "La Política Nacional de Desarrollo Institucional 2017",
+              "El Estatuto Nacional 2025",
+              "El Plan Estratégico 2023–2026"
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 4 →"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Lección 4 — Por qué un grupo saludable cambia la vida de los chicos",
+      "emoji": "💡",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>La salud institucional protege la experiencia educativa. Cuando el DI falla, los chicos sufren primero."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hasta acá hablamos de estructura, normatividad y mitos. Suena lejano de los chicos. Pero quiero que veas algo que vemos pocas veces: <strong>cuando el Desarrollo Institucional falla, el primero en sufrir es el lobato, el scout, el caminante, el rover</strong>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📖 Tres historias reales (con detalles cambiados)"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "title": "Grupo A — Cuando el dinero se mezcla con el bolsillo personal", "description": "El tesorero llevaba la plata del grupo en su billetera, sin libro contable ni cuenta separada. Renunció en mitad del año por razones personales. El nuevo tesorero recibió un cuaderno con 14 anotaciones a mano. Tres familias dejaron de pagar la cuota porque “no se sabe a dónde va”. <strong>El campamento de fin de año se canceló.</strong>" },
+            { "title": "Grupo B — Cuando el campamento sale sin protocolo", "description": "Un dirigente se llevó a la tropa al cerro un domingo. Un scout se cayó. Sin lista de participantes, sin contactos de padres, sin permiso firmado. La emergencia se atendió, pero el grupo recibió una sanción de la región y el accidente se conoció en redes. <strong>Tres familias retiraron a sus hijos.</strong>" },
+            { "title": "Grupo C — Cuando el grupo se cuida", "description": "Hace acta de cada reunión, cuenta sus carpas antes y después, tiene tesorero y contador, pide permiso firmado de cada salida, capacita a sus dirigentes en A Salvo del Peligro. <strong>Lleva 23 años funcionando.</strong> Sus rovers de antes son hoy los padres de la nueva manada." }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El DI no es un fin en sí mismo. <strong>Es la condición silenciosa para que la experiencia scout funcione</strong>. Es lo que hace la diferencia entre un grupo que dura 23 años y uno que se rompe en uno."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🩺 Las 6 dimensiones de la salud institucional"
+        },
+        {
+          "type": "paragraph",
+          "text": "La PNDI propone mirar el DI como un cuerpo: tiene <strong>6 dimensiones</strong> que se evalúan juntas. Aquí las tienes en panorama. En el <strong>Curso 5</strong> de esta línea vas a aplicarlas como autodiagnóstico real a tu propio grupo o región."
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "🎯 <strong>Propósito</strong> — que el grupo sepa para qué existe y dónde quiere llegar.",
+            "🏛️ <strong>Gobernanza</strong> — que las decisiones sean legítimas, registradas y trazables.",
+            "⚙️ <strong>Gestión</strong> — que los recursos (humanos, financieros, materiales) se manejen con orden.",
+            "🤝 <strong>Relaciones</strong> — que la convivencia interna y con el entorno sea sana.",
+            "📈 <strong>Crecimiento</strong> — que la membresía se sostenga y se renueve.",
+            "✅ <strong>Cumplimiento</strong> — que se respeten leyes, reglamentos y protocolos."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🗺️ Spoiler del Curso 5:</strong> en ese curso vas a evaluar tu propio grupo o región contra estas 6 dimensiones, con un autodiagnóstico interactivo. <strong>Hoy solo guarda el mapa.</strong>"
+        },
+        {
+          "type": "blockquote",
+          "text": "Un grupo institucionalmente sano no es uno donde no pasa nada. Es uno donde, cuando pasa algo, hay con qué responder."
+        }
+      ],
+      "reflection": {
+        "prompt": "De las tres historias, ¿cuál se parece más a algo que has visto en un grupo cercano (no necesariamente el tuyo)? Escribe en una frase qué falló institucionalmente y, en otra, qué pudo haberlo prevenido."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "En la historia del Grupo A, lo que falló fue principalmente…",
+            "options": [
+              "Que el tesorero renunció a mitad de año por razones personales",
+              "Que el grupo no tenía orden contable y mezclaba lo personal con lo institucional",
+              "Que el nuevo tesorero no estaba capacitado para asumir el cargo"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Según esta lección, la relación entre Desarrollo Institucional y la experiencia educativa de los chicos es…",
+            "options": [
+              "Independiente — son temas distintos que no se cruzan",
+              "Inversa — entre más DI, menos espacio queda para los chicos",
+              "Directa — la salud institucional sostiene y protege la experiencia educativa"
+            ],
+            "correctIndex": 2
+          }
+        ],
+        "nextLabel": "Continuar a Lección 5 →"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Lección 5 — Tu primer compromiso",
+      "emoji": "✍️",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 3 minutos · 1 idea central:</strong><br>Saber sin actuar no transforma. El primer paso es chico, concreto y tuyo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Llegaste hasta acá. Antes de pasar al Curso 2 necesitamos algo: <strong>que conviertas lo que viste en un primer paso concreto</strong>. No grande. Chico. Pero tuyo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎨 Imagina tu grupo saludable ideal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Antes de comprometerte, dale forma a lo que estás construyendo. Toma 2 minutos: <strong>dibuja</strong> (en una hoja) o <strong>encuentra una imagen</strong> que represente cómo se vería tu grupo o región si fuera <em>institucionalmente sano</em>. No es un examen artístico — es un ancla visual de lo que quieres construir."
+        },
+        {
+          "type": "photo-upload",
+          "photoId": "bienvenida-di-grupo-saludable",
+          "prompt": "Tu grupo saludable ideal",
+          "hint": "Puedes dibujarlo en papel y tomarle foto, o usar cualquier imagen que para ti represente un grupo institucionalmente sano. Es solo para ti — la guardamos en tu navegador.",
+          "buttonLabel": "📷 Subir mi imagen"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "✍️ Un compromiso chico, concreto y tuyo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ahora vas a escribir <strong>una frase</strong> de compromiso. Sigue esta plantilla:"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>📌 Plantilla:</strong><br>“Esta semana voy a <em>__________</em>. Lo voy a hacer con <em>__________</em>. Y la señal de que se cumplió será <em>__________</em>.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tres reglas para que la frase sirva:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Acción concreta</strong> — algo observable que se haga o se logre. No “mejorar la gobernanza”, sí “proponer firmar el acta antes de salir”.",
+            "<strong>Plazo</strong> — esta semana, este mes, antes del próximo consejo.",
+            "<strong>Algo que TÚ puedas controlar</strong> — no depende de que otros cambien."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 No prometas grande. Promete chico.</strong><br>La diferencia entre un grupo institucionalmente sano y uno frágil son <em>cien promesas chicas cumplidas</em>, no una grande olvidada."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🗺️ Lo que viene después"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tu compromiso de hoy es la primera piedra. Los siguientes 5 cursos del Nivel 1 construyen sobre él:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "📜 Curso 2 — La Política PNDI", "description": "El marco doctrinal: 4 fundamentos, 7 principios, definiciones esenciales.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
+            { "title": "🏗️ Curso 3 — Niveles y Estructura", "description": "Los 5 niveles del Movimiento, los 3 órganos por nivel, el cuento de Todo el mundo–Alguien–Cualquiera–Nadie.", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "🧭 Curso 4 — Los 8 Ámbitos", "description": "Mapa panorámico de los 8 ámbitos de gestión. Te ubica frente a cualquier decisión cotidiana.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "💪 Curso 5 — Salud Institucional", "description": "Las 6 dimensiones aplicadas: autodiagnóstico interactivo de tu grupo o región.", "color": "#fff3e0", "borderColor": "#ff9800" },
+            { "title": "🗺️ Curso 6 — Mi Aporte al DI", "description": "Plan personal de aporte, listo para imprimir y compartir con tu consejo. Cierre del Nivel 1.", "color": "#fce4ec", "borderColor": "#e91e63" }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🤝 Bienvenido al equipo de los que sostienen.</strong><br>Lo que viene vale el viaje. Lo vas a hacer a tu ritmo, una lección a la vez."
+        },
+        {
+          "type": "blockquote",
+          "text": "Desarrollo Institucional no es lo que hacen los de arriba mientras nosotros trabajamos con los chicos. Es lo que hacemos cada vez que cuidamos que el grupo dure, funcione y crezca con bien. Nadie se libra."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe AQUÍ tu compromiso completo siguiendo la plantilla: “Esta semana voy a ___. Lo voy a hacer con ___. Y la señal de que se cumplió será ___.” Esto te lo enviaremos por correo cuando descargues tu certificado para que lo recuerdes en una semana."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5 — Cierre del curso",
+        "questions": [
+          {
+            "text": "¿Cuál de estos compromisos cumple mejor el criterio “chico, concreto y tuyo”?",
+            "options": [
+              "Voy a transformar la cultura institucional del grupo este año",
+              "Voy a proponer en la próxima reunión del consejo que firmemos el acta antes de salir",
+              "Voy a estudiarme la Política Nacional de Desarrollo Institucional completa antes de fin de mes"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Según el cierre del curso, los grupos institucionalmente sanos se construyen sobre…",
+            "options": [
+              "Promesas grandes que inspiran a todo el equipo de adultos voluntarios",
+              "Cien promesas chicas cumplidas, no una grande olvidada",
+              "La carga de trabajo concentrada en el jefe de grupo y el tesorero"
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Obtener Certificado 🏆"
+      }
+    }
+  ],
+  "achievements": [
+    { "id": "achievement-1", "name": "DI está en todo", "emoji": "🏛️", "unlockOnModule": 2 },
+    { "id": "achievement-2", "name": "Mito-buster", "emoji": "🧨", "unlockOnModule": 3 },
+    { "id": "achievement-3", "name": "Conozco mi institución", "emoji": "🇨🇴", "unlockOnModule": 4 },
+    { "id": "achievement-4", "name": "Veo por qué importa", "emoji": "💡", "unlockOnModule": 5 },
+    { "id": "achievement-final", "name": "Constructor Institucional", "emoji": "🏗️", "unlockOnModule": -1 }
+  ],
+  "certificate": {
+    "courseName": "BIENVENIDA AL DESARROLLO INSTITUCIONAL",
+    "description": "ha completado el Curso 1 del Nivel 1 — Fundamentación de la Línea Desarrollo Institucional, reconociendo que el DI atraviesa todas las prácticas de cuidado de la institución scout, desarmando los 5 mitos más comunes, ubicando los órganos de gobierno, operación y control de la Asociación Scouts de Colombia, y formulando un primer compromiso concreto desde su rol actual"
+  }
+}

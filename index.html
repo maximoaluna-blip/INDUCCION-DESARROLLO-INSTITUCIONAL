@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linea Desarrollo Institucional - ASC</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Plataforma de formacion online de la Linea Desarrollo Institucional de la Asociacion Scouts de Colombia. Cursos cortos sobre gobernanza, planeacion, finanzas sanas, salud institucional y los 8 ambitos de gestion.">
+    <meta name="keywords" content="desarrollo institucional, PNDI, gobernanza scout, planeacion scout, finanzas sanas, scouts colombia, ASC, consejo de grupo, salud institucional, ambitos de gestion">
+    <meta name="author" content="Asociacion Scouts de Colombia">
+    <link rel="canonical" href="https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/">
+
+    <!-- Open Graph / Facebook / WhatsApp -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/">
+    <meta property="og:title" content="Linea Desarrollo Institucional - Asociacion Scouts de Colombia">
+    <meta property="og:description" content="Cursos cortos sobre Desarrollo Institucional para adultos voluntarios del movimiento scout. Gobernanza, planeacion, finanzas, salud institucional. Certificados verificables y acceso 24/7.">
+    <meta property="og:image" content="https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/assets/logo-asc.png">
+    <meta property="og:locale" content="es_CO">
+    <meta property="og:site_name" content="Linea Desarrollo Institucional ASC">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Linea Desarrollo Institucional - ASC">
+    <meta name="twitter:description" content="Linea de formacion sobre Desarrollo Institucional para adultos voluntarios del movimiento scout en Colombia.">
+    <meta name="twitter:image" content="https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/assets/logo-asc.png">
+
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    <link rel="icon" type="image/png" href="assets/logo-asc.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/dark-theme.css">
+    <!-- Early theme init para evitar FOUC en modo oscuro -->
+    <script>(function(){try{var t=localStorage.getItem('rover-theme');if(t==='dark'||(!t&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches)){document.documentElement.setAttribute('data-theme','dark');}}catch(e){}})();</script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: #f2f5f7;
+            min-height: 100vh;
+            color: #2c2927;
+            line-height: 1.6;
+        }
+
+        /* --- Top Bar --- */
+        .top-bar {
+            background: #1565C0;
+            padding: 12px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+        }
+
+        .top-bar-inner {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .top-bar .logos {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .top-bar .logos img {
+            height: 45px;
+        }
+
+        .top-bar .logos .separator {
+            width: 1px;
+            height: 35px;
+            background: rgba(255,255,255,0.3);
+        }
+
+        .top-bar-title {
+            color: #ffffff;
+            font-size: 0.95em;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        /* --- Hero --- */
+        .hero {
+            background: linear-gradient(135deg, #1565C0 0%, #0D47A1 100%);
+            padding: 60px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 1.15em;
+            opacity: 0.9;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* --- Stats --- */
+        .stats-container {
+            max-width: 1240px;
+            margin: -30px auto 0;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        .stat-card {
+            background: #ffffff;
+            border-top: 4px solid #1565C0;
+            padding: 25px 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: 700;
+            color: #1565C0;
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.85em;
+            color: #636363;
+            margin-top: 5px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 600;
+        }
+
+        /* --- Courses --- */
+        .container {
+            max-width: 1240px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .section-title {
+            font-size: 1.6em;
+            font-weight: 700;
+            color: #1565C0;
+            margin-bottom: 30px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #FDD835;
+            display: inline-block;
+        }
+
+        .courses-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin-top: 10px;
+        }
+
+        .course-card {
+            background: #ffffff;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+            overflow: hidden;
+            border-top: 4px solid #1565C0;
+        }
+
+        .course-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(21, 101, 192, 0.15);
+        }
+
+        .course-card.new::after {
+            content: 'NUEVO';
+            position: absolute;
+            top: 12px;
+            right: -28px;
+            background: #00afef;
+            color: white;
+            padding: 5px 35px;
+            font-size: 0.75em;
+            font-weight: 700;
+            transform: rotate(45deg);
+            letter-spacing: 1px;
+        }
+
+        .course-card.coming-soon {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+
+        .course-card.coming-soon::after {
+            content: 'PROXIMAMENTE';
+            position: absolute;
+            top: 12px;
+            right: -35px;
+            background: #636363;
+            color: white;
+            padding: 5px 35px;
+            font-size: 0.7em;
+            font-weight: 700;
+            transform: rotate(45deg);
+            letter-spacing: 1px;
+        }
+
+        .course-icon {
+            font-size: 2.5em;
+            margin-bottom: 15px;
+        }
+
+        .course-title {
+            color: #1565C0;
+            font-size: 1.3em;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .course-description {
+            color: #636363;
+            margin-bottom: 20px;
+            font-size: 0.95em;
+        }
+
+        .course-info {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            font-size: 0.85em;
+            color: #636363;
+            font-weight: 600;
+        }
+
+        .course-info span {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .btn {
+            background: transparent;
+            color: #2c2927;
+            border: 2px solid #2c2927;
+            padding: 12px 25px;
+            cursor: pointer;
+            font-size: 0.95em;
+            font-weight: 600;
+            width: 100%;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn:hover {
+            background: #1565C0;
+            color: #ffffff;
+            border-color: #1565C0;
+        }
+
+        .btn.disabled {
+            border-color: #ccc;
+            color: #ccc;
+            cursor: not-allowed;
+        }
+
+        .btn.disabled:hover {
+            background: transparent;
+            color: #ccc;
+        }
+
+        /* --- Footer --- */
+        .footer {
+            background: #2c2927;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 40px;
+            font-size: 0.9em;
+        }
+
+        .footer p {
+            margin: 5px 0;
+            opacity: 0.8;
+        }
+
+        .footer a {
+            color: #FDD835;
+            text-decoration: none;
+        }
+
+        /* --- Responsive --- */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 1.6em;
+            }
+
+            .hero p {
+                font-size: 1em;
+            }
+
+            .courses-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .top-bar-title {
+                font-size: 0.8em;
+            }
+
+            .top-bar img {
+                height: 40px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="top-bar-inner">
+            <div class="logos">
+                <img src="assets/logo-asc.png" alt="Asociacion Scouts de Colombia">
+                <div class="separator"></div>
+                <img src="assets/logo-vallescout.png" alt="Scouts del Valle">
+            </div>
+            <span class="top-bar-title">Linea Desarrollo Institucional</span>
+        </div>
+    </div>
+
+    <!-- Hero -->
+    <div class="hero">
+        <h1>Linea Desarrollo Institucional</h1>
+        <p>Gobernanza, planeacion, finanzas sanas y salud institucional. Cursos cortos para todo adulto que sostiene un grupo scout o una region.</p>
+    </div>
+
+    <!-- Stats -->
+    <div class="stats-container">
+        <div class="stat-card">
+            <span class="stat-number" id="statCursos">—</span>
+            <span class="stat-label">Cursos Disponibles</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number" id="statHoras">—</span>
+            <span class="stat-label">Horas de Contenido</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Gratuito</span>
+        </div>
+        <div class="stat-card">
+            <span class="stat-number">24/7</span>
+            <span class="stat-label">Acceso Ilimitado</span>
+        </div>
+    </div>
+
+    <!-- Courses -->
+    <div class="container">
+        <h2 class="section-title">Cursos Disponibles</h2>
+
+        <div class="courses-grid" id="coursesGrid">
+            <p style="color: #636363; grid-column: 1/-1; text-align: center; padding: 20px;">Cargando catalogo de cursos...</p>
+        </div>
+    </div>
+
+    <script>
+    (function() {
+        // Config para landing raiz (GitHub Pages): cursos.json y los cursos viven en 02-Plataforma-Web/.
+        var CATALOG_URL = '02-Plataforma-Web/cursos.json';
+        var COURSES_BASE = '02-Plataforma-Web/';
+
+        function buildHref(course) {
+            if (course.file) return COURSES_BASE + course.file;
+            if (course.folder) return COURSES_BASE + course.folder + '/index.html';
+            return '#';
+        }
+
+        function parseHours(duration) {
+            var m = (duration || '').match(/(\d+)/);
+            return m ? parseInt(m[1], 10) : 0;
+        }
+
+        function escapeHtml(str) {
+            return String(str == null ? '' : str).replace(/[&<>"']/g, function(c) {
+                return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+            });
+        }
+
+        function renderCard(course) {
+            var status = course.status || 'coming-soon';
+            var isActive = status === 'active';
+            var isNew = status === 'new';
+            var isComingSoon = !isActive && !isNew;
+
+            var classes = ['course-card'];
+            if (isNew) classes.push('new');
+            if (isComingSoon) classes.push('coming-soon');
+
+            var statusText = isActive ? '✅ Activo' : isNew ? '🆕 Nuevo' : '🔒 Proximo';
+
+            var buttonHtml = isComingSoon
+                ? '<button class="btn disabled" disabled>Proximamente</button>'
+                : '<a href="' + escapeHtml(buildHref(course)) + '" class="btn">Iniciar Curso</a>';
+
+            return '<div class="' + classes.join(' ') + '">' +
+                '<div class="course-icon">' + escapeHtml(course.icon) + '</div>' +
+                '<h2 class="course-title">' + escapeHtml(course.title) + '</h2>' +
+                '<p class="course-description">' + escapeHtml(course.description) + '</p>' +
+                '<div class="course-info">' +
+                    '<span>⏱️ ' + escapeHtml(course.duration) + '</span>' +
+                    '<span>📊 ' + escapeHtml(course.modules) + ' modulos</span>' +
+                    '<span>' + statusText + '</span>' +
+                '</div>' +
+                buttonHtml +
+            '</div>';
+        }
+
+        function renderCatalog(courses) {
+            var grid = document.getElementById('coursesGrid');
+            // Solo mostrar cursos activos o nuevos
+            var disponibles = (courses || []).filter(function(c) {
+                return c.status === 'active' || c.status === 'new';
+            });
+            if (!disponibles.length) {
+                grid.innerHTML = '<p style="color: #636363; grid-column: 1/-1; text-align: center;">No hay cursos disponibles por ahora.</p>';
+                return;
+            }
+            grid.innerHTML = disponibles.map(renderCard).join('');
+
+            var totalHoras = disponibles.reduce(function(sum, c) {
+                return sum + parseHours(c.duration);
+            }, 0);
+            document.getElementById('statCursos').textContent = disponibles.length;
+            document.getElementById('statHoras').textContent = totalHoras;
+        }
+
+        fetch(CATALOG_URL, { cache: 'no-cache' })
+            .then(function(r) {
+                if (!r.ok) throw new Error('HTTP ' + r.status);
+                return r.json();
+            })
+            .then(renderCatalog)
+            .catch(function(err) {
+                document.getElementById('coursesGrid').innerHTML =
+                    '<p style="color: #b00; grid-column: 1/-1; text-align: center;">Error al cargar catalogo: ' + escapeHtml(err.message) + '</p>';
+            });
+    })();
+    </script>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>© 2026 Asociacion Scouts de Colombia</p>
+        <p>Linea Desarrollo Institucional - Asociacion Scouts de Colombia</p>
+    </div>
+
+    <script src="assets/theme-toggle.js"></script>
+</body>
+</html>
