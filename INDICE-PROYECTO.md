@@ -201,3 +201,11 @@ Las definiciones doctrinales provienen de los documentos oficiales de la ASC: **
 Cuando el dueño del proyecto diga *"revisa completo el código"* se ejecutan las 4 etapas documentadas en [`AUDITORIA.md`](AUDITORIA.md): scan → report → apply → verify.
 
 Antes de cualquier acción sobre el backend, correr siempre [`05-Generador-Cursos/verificar-backend.js`](05-Generador-Cursos/verificar-backend.js).
+
+---
+
+## Cómo trabaja Claude Code sobre este proyecto
+
+Todos los cambios se aplican **end-to-end automáticamente** (edit → validate → build → preview → verify → commit → push → verify deploy). El usuario no tiene que pedir cada paso del pipeline.
+
+Inventario completo de scripts (`build-course.js`, `preview-course.js`, `verificar-backend.js`, etc.), triggers que activan procesos automáticos, y patrón de "self-applying changes" documentado en [`FLUJOS-AUTONOMOS-Y-SCRIPTS.md`](https://github.com/maximoaluna-blip/PORTAL-ADULTOS-ASC/blob/main/FLUJOS-AUTONOMOS-Y-SCRIPTS.md) (vive en PORTAL-ADULTOS-ASC porque aplica al ecosistema completo).
