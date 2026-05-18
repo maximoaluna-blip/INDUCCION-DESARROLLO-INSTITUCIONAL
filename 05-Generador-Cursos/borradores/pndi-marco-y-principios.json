@@ -106,7 +106,7 @@
         "title": "Mini-quiz Lección 2",
         "questions": [
           {
-            "text": "En el consejo de grupo de Andrés se decide hacer un campamento. Definen objetivos, programa, presupuesto y permisos, todo por escrito. Pero el día del campamento descubren que nadie convocó al revisor fiscal para firmar la salida de plata. ¿Qué acción de la PNDI les falló?",
+            "text": "En el consejo de grupo de Andrés se decide hacer un campamento. Definen objetivos, programa, presupuesto y permisos, todo por escrito. Pero el día del campamento descubren que nadie convocó al tesorero para firmar la salida de plata. ¿Qué acción de la PNDI les falló?",
             "options": [
               "Identificar — no se dieron cuenta de que necesitaban un campamento.",
               "Definir — no acordaron cómo se hace un campamento.",
@@ -221,20 +221,20 @@
         "title": "Mini-quiz Lección 3",
         "questions": [
           {
-            "text": "En un grupo, el jefe toma todas las decisiones operativas sin pasarlas por consejo y firma por todos. ¿Qué fundamento del DI está siendo violado principalmente?",
+            "text": "El comisionado regional recibe en febrero la nueva ley distrital de transporte escolar para menores. Lleva el tema a tres consejos regionales seguidos y nadie le presta atención. En mayo, la región pierde un encuentro porque ningún grupo cumplía la nueva norma. ¿Qué fundamento del DI dejó de operar en la región?",
             "options": [
-              "Orientación a Resultados e Impacto.",
-              "Democracia.",
-              "Entorno y Vigencia."
+              "Democracia — no se votó la nueva ley.",
+              "Entorno y Vigencia — no se leyó el cambio del entorno a tiempo.",
+              "Orientación a Resultados e Impacto — no se midió el impacto."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Un grupo presenta al cierre del año un informe que dice “hicimos 24 actividades, 4 campamentos y la kermés anual.” Pero no dice cuántos chicos crecieron, ni cuántas familias salieron, ni qué cambió en la comunidad. ¿Qué fundamento del DI no se está cumpliendo?",
+            "text": "Un grupo invierte 4 años construyendo una sede propia con donaciones de las familias. Cuando alguien pregunta cuántos chicos pasaron por ahí en esos 4 años, cuántos siguen activos, cuántos crecieron en su progresión, la respuesta es “no llevamos esa cuenta”. ¿Qué fundamento del DI les falló?",
             "options": [
-              "Servicio y Apoyo (Integralidad).",
-              "Democracia.",
-              "Orientación a Resultados e Impacto."
+              "Democracia — la sede se decidió sin consenso.",
+              "Entorno y Vigencia — la sede no respondió al entorno.",
+              "Orientación a Resultados e Impacto — midieron lo invertido, pero no lo logrado."
             ],
             "correctIndex": 2
           }
@@ -307,20 +307,20 @@
         "title": "Mini-quiz Lección 4",
         "questions": [
           {
-            "text": "Un dirigente comete una falta grave por primera vez. Otro dirigente propone expulsarlo de inmediato porque “ya se sabe cómo es”. ¿Qué principio del DI sustenta la respuesta correcta?",
+            "text": "Un papá del grupo se entera de que la región va a sancionar al jefe de grupo y le exige al consejo defenderlo de inmediato. Un consejero veterano propone “antes de actuar, abramos el Código de Honor y veamos qué dice el debido proceso”. ¿Qué principio del DI sostiene esa propuesta?",
             "options": [
-              "Dinamismo y Flexibilidad — adáptense a la situación.",
-              "Colectividad y Consenso — voten entre todos lo que mejor parezca.",
-              "Normatividad — el Código de Honor define un debido proceso que hay que respetar."
+              "Aspiracional y Transformacional — luchen por una regla nueva.",
+              "Dinamismo y Flexibilidad — adáptense a la presión del papá.",
+              "Normatividad — primero abrir el documento vigente, después decidir."
             ],
             "correctIndex": 2
           },
           {
-            "text": "Una jefa de grupo quiere cambiar el local del grupo. ¿Qué principio del DI le indica que NO puede decidirlo sola, aunque sea la cabeza visible del grupo?",
+            "text": "El tesorero propone, sin discutirlo con nadie, cambiar el banco del grupo a uno con menos comisión y lo hace solo. La presidenta del consejo le pide deshacer la operación y traer la propuesta a la próxima reunión. ¿Qué principio del DI defiende la posición de la presidenta?",
             "options": [
-              "Normatividad.",
-              "Colectividad y Consenso.",
-              "Dinamismo y Flexibilidad."
+              "Dinamismo y Flexibilidad — la decisión moderniza al grupo.",
+              "Colectividad y Consenso — una decisión que afecta a varios pasa primero por el consejo.",
+              "Prospectiva — hay que pensar en 10 años, no solo en la comisión."
             ],
             "correctIndex": 1
           }
@@ -412,20 +412,20 @@
         "title": "Mini-quiz Lección 5",
         "questions": [
           {
-            "text": "El Consejo de Grupo va a definir el tema del próximo campamento de tropa. ¿Qué principio sugiere que la patrulla (los propios scouts) participe en esa decisión?",
+            "text": "Una rama de Caminantes va a planear su empresa anual de servicio comunitario. ¿Qué principio del DI debería guiar al equipo de jefatura a involucrar formalmente a los propios caminantes en la elección del proyecto, los aliados y los plazos?",
             "options": [
-              "Coherencia.",
-              "Participación Juvenil.",
-              "Prospectiva."
+              "Prospectiva — pensar a 10 años el servicio.",
+              "Coherencia — alinear discurso y acción del equipo.",
+              "Participación Juvenil — la decisión la moldean los propios jóvenes, no solo los adultos."
             ],
-            "correctIndex": 1
+            "correctIndex": 2
           },
           {
-            "text": "Un grupo está cómodo: tiene 30 chicos hace 6 años, no crece ni decrece. El consejo no propone nada nuevo. ¿Qué principio del DI les está faltando?",
+            "text": "En la asamblea anual, un grupo aprueba la frase “somos un grupo que protege a los más pequeños”. Pero ese año ningún consejero hizo el curso de A Salvo del Peligro y el grupo no tiene un protocolo escrito de protección. ¿Qué principio del DI no se está cumpliendo?",
             "options": [
-              "Aspiracional y Transformacional.",
-              "Normatividad.",
-              "Colectividad y Consenso."
+              "Coherencia — lo que se dice y lo que se hace no apuntan al mismo lado.",
+              "Normatividad — la asamblea aprobó una frase no oficial.",
+              "Prospectiva — el protocolo es para el futuro, no urge."
             ],
             "correctIndex": 0
           }
@@ -436,7 +436,7 @@
     {
       "id": 6,
       "title": "Lección 6 — Los 3 sujetos de la política + tu brújula",
-      "emoji": "🇨🇴",
+      "emoji": "🗺️",
       "navLabel": "L6",
       "sections": [
         {
@@ -450,14 +450,14 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "🇨🇴 Los 3 sujetos de la política"
+          "text": "🗺️ Los 3 sujetos de la política"
         },
         {
           "type": "method-grid",
           "items": [
             { "title": "🏠 Grupo", "description": "El nivel local. <strong>20–80 personas.</strong> La política aterriza en lo concreto: actas, libro contable, asambleas anuales, plan de grupo. La intuición y la confianza personal pesan mucho.", "color": "#e8f5e9", "borderColor": "#4caf50" },
             { "title": "🏘️ Región", "description": "El nivel intermedio. <strong>Varios grupos en un territorio.</strong> La política tiene que armonizar realidades distintas: un grupo grande con uno chico, uno urbano con uno rural. El Revisor Fiscal hace el control fiscal.", "color": "#e3f2fd", "borderColor": "#2196f3" },
-            { "title": "🇨🇴 Nación", "description": "El nivel doctrinal y estratégico. Donde se elaboran las políticas, se aprueba el Plan Estratégico y se vigila el sistema completo. <strong>Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional</strong> como órganos de control.", "color": "#f3e5f5", "borderColor": "#9c27b0" }
+            { "title": "🏛️ Nación", "description": "El nivel doctrinal y estratégico. Donde se elaboran las políticas, se aprueba el Plan Estratégico y se vigila el sistema completo. <strong>Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional</strong> como órganos de control.", "color": "#f3e5f5", "borderColor": "#9c27b0" }
           ]
         },
         {
@@ -542,7 +542,7 @@
     { "id": "achievement-2", "name": "Conozco los 4 fundamentos", "emoji": "🏛️", "unlockOnModule": 3 },
     { "id": "achievement-3", "name": "Manejo los primeros 3 principios", "emoji": "⚖️", "unlockOnModule": 4 },
     { "id": "achievement-4", "name": "Completé los 7 principios", "emoji": "⚖️", "unlockOnModule": 5 },
-    { "id": "achievement-5", "name": "Sé aplicar la PNDI en los 3 sujetos", "emoji": "🇨🇴", "unlockOnModule": 6 },
+    { "id": "achievement-5", "name": "Sé aplicar la PNDI en los 3 sujetos", "emoji": "🗺️", "unlockOnModule": 6 },
     { "id": "achievement-final", "name": "Conozco mi brújula", "emoji": "🧭", "unlockOnModule": -1 }
   ],
   "certificate": {
