@@ -1,0 +1,552 @@
+{
+  "courseId": "pndi-marco-y-principios",
+  "title": "La Política PNDI: Marco y Principios",
+  "subtitle": "Curso 2 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
+  "description": "Una política no es un papel para enmarcar — es la brújula que usas cuando el camino se bifurca. En ~30 minutos vas a recorrer los 4 fundamentos, los 7 principios y los 3 sujetos de la Política Nacional de Desarrollo Institucional con casos concretos del grupo scout, no con definiciones de manual. Al final saldrás con una brújula personal: un principio elegido por ti para guiar tu próximo dilema institucional.",
+  "icon": "📜",
+  "duration": "30 minutos",
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~30 minutos · 6 lecciones cortas.</strong><br>Al final vas a saber distinguir una política de un plan, vas a tener claros los <strong>4 fundamentos</strong> y los <strong>7 principios</strong>, y vas a escoger una <strong>brújula personal</strong> para tus próximas decisiones de grupo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Volviste. Si hiciste el Curso 1, ya entendiste que Desarrollo Institucional no es asunto de los de arriba. Ahora vamos al marco doctrinal — pero tranquilo, no es un curso de derecho."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cuando uno escucha <em>“política”</em>, <em>“fundamento”</em>, <em>“principio”</em>, se le viene la imagen del documento de 80 páginas que nadie lee. Vamos a darle vuelta a eso. La PNDI 2017 es, en realidad, el <strong>manual del usuario del grupo scout</strong> — la que te dice qué hacer cuando dos dirigentes están en desacuerdo, cuando hay que decidir si el campamento sigue o se cancela, o cuando un papá pregunta a dónde va la cuota."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a vivir en este curso"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> ¿Para qué sirve una política? + las 4 acciones de la PNDI",
+            "<strong>Lección 3 —</strong> Los 4 fundamentos del DI",
+            "<strong>Lección 4 —</strong> Los 7 principios — Parte 1 (Normatividad, Colectividad y Consenso, Dinamismo y Flexibilidad)",
+            "<strong>Lección 5 —</strong> Los 7 principios — Parte 2 (Aspiracional, Coherencia, Prospectiva, Participación Juvenil)",
+            "<strong>Lección 6 —</strong> Los 3 sujetos de la política + tu brújula"
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tip de uso:</strong><br>Cada vez que aparezca un fundamento o principio, no lo memorices. Piensa en un <em>caso concreto de tu grupo</em> donde lo hayas vivido cumplido o violado. Si no se te ocurre ninguno, ese fundamento o principio es justo el que tienes que practicar."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — ¿Para qué sirve una política? + las 4 acciones de la PNDI",
+      "emoji": "🧭",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>La PNDI sirve para <strong>identificar, definir, articular y cumplir</strong> lo que sostiene la institución."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una política dice <strong>por qué</strong>. Un reglamento dice <strong>qué se puede y qué no</strong>. Un plan dice <strong>qué vamos a hacer este año</strong>. Ejemplo: la <strong>política</strong> del grupo dice <em>“cuidamos a los chicos”</em>. El <strong>reglamento</strong> dice <em>“todo dirigente cumple A Salvo del Peligro”</em>. El <strong>plan</strong> dice <em>“este año capacitamos a 8 dirigentes nuevos”</em>. Las tres se necesitan, pero la política es la que da sentido a las otras dos."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "📜 Política", "description": "Da el <strong>porqué</strong>. Inspira y orienta. Pocas, estables, doctrinales.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
+            { "title": "📘 Reglamento", "description": "Da el <strong>qué se hace y qué no</strong>. Operacional. Cambia más seguido.", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "🗓️ Plan", "description": "Da el <strong>cuándo y cuánto</strong>. Aterriza en el año o el cuatrienio.", "color": "#e8f5e9", "borderColor": "#4caf50" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La <strong>Política Nacional de Desarrollo Institucional</strong> (PNDI 2017) cumple el primer rol: da el porqué del DI. Y para hacerlo, define cuatro acciones que cualquier adulto del movimiento puede usar para revisar si está haciendo bien su parte."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🔧 Las 4 acciones de la PNDI"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🔎 Identificar", "description": "Ver qué ámbitos de gestión están operando en mi grupo y cuáles están descuidados. <em>Ejemplo: “tenemos plan, tesorería y campamentos, pero nadie está pensando en crecimiento”.</em>", "color": "#f3e5f5", "borderColor": "#9c27b0" },
+            { "title": "🧱 Definir", "description": "Acordar cómo se hace cada cosa, por escrito. <em>Ejemplo: “el acta se firma antes de cerrar la reunión, no después”.</em>", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "🔗 Articular", "description": "Conectar lo que hacemos con el plan de la región, el nacional y el mundial. <em>Ejemplo: “nuestro campamento alinea con la prioridad 3 del Plan Regional 2022-2025”.</em>", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "✅ Cumplir", "description": "Hacer realmente lo que está acordado, no solo escribirlo. <em>Ejemplo: “el libro de actas existe Y está al día con las últimas 6 reuniones”.</em>", "color": "#fff3e0", "borderColor": "#ff9800" }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la frase exacta de la PNDI",
+          "text": "directrices para identificar, definir y articular los ámbitos de gestión que dan soporte al Movimiento Scout para el cumplimiento de la Misión y la Visión.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, Objeto, p. 1"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En palabras simples:</strong> la PNDI te da el método para que tu grupo, región o nación <strong>vea, acuerde, conecte y haga</strong>. Las 4 acciones son la mecánica del DI."
+        }
+      ],
+      "reflection": {
+        "prompt": "De las 4 acciones (identificar, definir, articular, cumplir), ¿cuál crees que tu grupo o región hace mejor? ¿Cuál es la más débil? Anota un ejemplo concreto de cada una — no abstracto."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "En el consejo de grupo de Andrés se decide hacer un campamento. Definen objetivos, programa, presupuesto y permisos, todo por escrito. Pero el día del campamento descubren que nadie convocó al revisor fiscal para firmar la salida de plata. ¿Qué acción de la PNDI les falló?",
+            "options": [
+              "Identificar — no se dieron cuenta de que necesitaban un campamento.",
+              "Definir — no acordaron cómo se hace un campamento.",
+              "Cumplir — acordaron el procedimiento, pero no lo ejecutaron."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Una política institucional, según la distinción de esta lección, se diferencia de un reglamento porque…",
+            "options": [
+              "La política dice por qué; el reglamento dice qué se puede y qué no.",
+              "La política se cambia cada año; el reglamento es permanente.",
+              "La política es para el nivel nacional; el reglamento es para los grupos."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 3 →"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — Los 4 fundamentos del DI",
+      "emoji": "🏛️",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>Los fundamentos son las <strong>vigas del edificio del DI</strong>. Sin ellas, todo se cae."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si la PNDI fuera una casa, los 4 fundamentos serían las vigas. No los ves todos los días, pero cuando una falla, lo notas inmediatamente. La PNDI nombra cuatro: <strong>Democracia</strong>, <strong>Entorno y Vigencia</strong>, <strong>Servicio y Apoyo (Integralidad)</strong>, <strong>Orientación a Resultados e Impacto</strong>. Vamos uno por uno con un ejemplo donde el grupo cumple y otro donde lo viola — para que los reconozcas en la práctica, no de memoria."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Fundamento 1 — Democracia 🗳️"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>En palabras simples:</strong> las decisiones se toman entre todos los que deben decidir, con voz y voto explícitos, y queda registro."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "title": "✅ Grupo cumple", "description": "En el Grupo <em>“San Juan Bautista”</em>, el Consejo de Grupo discute durante 45 minutos si subir o no la cuota mensual. Hay tres posiciones distintas. Se vota. Pasa por 5 a 2. Queda en acta el resultado y los argumentos de los dos disidentes. Nadie sale con resentimiento." },
+            { "title": "❌ Grupo viola", "description": "En otro grupo, el jefe anuncia en WhatsApp que la cuota subió desde el lunes. No hubo consejo, no hubo votación. Dos meses después, tres familias se retiran y el tesorero descubre que no tiene cómo justificarles el cobro." }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Fundamento 2 — Entorno y Vigencia 🌍"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>En palabras simples:</strong> el grupo, la región y la nación se mantienen vigentes leyendo lo que pasa afuera — en la comunidad, en la ley, en el mundo scout — y ajustándose."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "title": "✅ Grupo cumple", "description": "El Grupo <em>“Cumbres”</em> nota que en el barrio crecieron las consultas sobre Safe from Harm. Anticipan, capacitan a los 12 dirigentes en A Salvo del Peligro y se vuelven el grupo de referencia para las familias preocupadas. Crecen 30 % en un año." },
+            { "title": "❌ Grupo viola", "description": "Otro grupo lleva 8 años haciendo el mismo campamento al mismo cerro. Cuando el municipio cambia la regulación de transporte escolar y exige seguro nuevo, el grupo no se entera. La región intercepta y suspende la salida 3 días antes. Pérdida de credibilidad." }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Fundamento 3 — Servicio y Apoyo (Integralidad) 🤝"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>En palabras simples:</strong> ningún ámbito del grupo trabaja aislado. Programa, Adultos, Comunicaciones, Finanzas, Riesgo — todos se sirven entre sí porque sirven a lo mismo: al chico, al grupo, al movimiento."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "title": "✅ Grupo cumple", "description": "En el Grupo <em>“Río Claro”</em>, la jefa de tropa quiere hacer una salida a un río. Antes de proponerla en consejo, habla con el tesorero (¿alcanza el presupuesto?), con el intendente (¿hay carpas?), con el de A Salvo del Peligro (¿está el protocolo?), y con el secretario (¿en qué fecha cabe en el plan?). Llega al consejo con la salida ya integrada." },
+            { "title": "❌ Grupo viola", "description": "En otro grupo, cada rama hace lo suyo: la manada hace bingo para su campamento, la tropa hace bingo para el suyo, el clan hace rifa para el suyo. Las familias se cansan, los recursos se duplican y nadie sabe cuánta plata mueve el grupo en realidad." }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Fundamento 4 — Orientación a Resultados e Impacto 📊"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>En palabras simples:</strong> no se mide solo lo que se hizo (cantidad de actividades, eventos, reuniones), sino lo que cambió en los chicos, las familias y la comunidad gracias a haberlo hecho."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "title": "✅ Grupo cumple", "description": "Al cerrar el año, el Grupo <em>“Bosque”</em> no presenta solo cuántas actividades hizo. Presenta cuántos chicos avanzaron en su progresión, cuántas familias se sumaron y cuántas se retiraron, cuántos rovers están aún en el movimiento al cumplir 22, y qué dijeron las encuestas a padres. El consejo decide qué ajustar para el año siguiente." },
+            { "title": "❌ Grupo viola", "description": "Otro grupo presenta solo <em>“hicimos 24 actividades, 4 campamentos y 1 carrera”</em>. Cuántos chicos progresaron, cuántos abandonaron, qué aprendieron, qué cambió en sus vidas — no se sabe. El plan del año siguiente se hace adivinando." }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🎯 Cierre:</strong> Los 4 fundamentos no son alternativas — los necesitas <strong>TODOS</strong>. Cuando uno falta, los otros tres no compensan."
+        },
+        {
+          "type": "blockquote",
+          "text": "Un grupo que vota pero no se adapta, se adapta pero no integra ámbitos, o integra ámbitos pero no mide impacto, está construyendo una casa con tres vigas. Tarde o temprano se cae."
+        }
+      ],
+      "reflection": {
+        "prompt": "De los 4 fundamentos, ¿en cuál crees que tu grupo o región está más sólido? ¿En cuál está más flojo? Escribe un caso concreto que ilustre cada uno — el bueno y el flojo."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "En un grupo, el jefe toma todas las decisiones operativas sin pasarlas por consejo y firma por todos. ¿Qué fundamento del DI está siendo violado principalmente?",
+            "options": [
+              "Orientación a Resultados e Impacto.",
+              "Democracia.",
+              "Entorno y Vigencia."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un grupo presenta al cierre del año un informe que dice “hicimos 24 actividades, 4 campamentos y la kermés anual.” Pero no dice cuántos chicos crecieron, ni cuántas familias salieron, ni qué cambió en la comunidad. ¿Qué fundamento del DI no se está cumpliendo?",
+            "options": [
+              "Servicio y Apoyo (Integralidad).",
+              "Democracia.",
+              "Orientación a Resultados e Impacto."
+            ],
+            "correctIndex": 2
+          }
+        ],
+        "nextLabel": "Continuar a Lección 4 →"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — Los 7 principios — Parte 1",
+      "emoji": "⚖️",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Los principios son los <strong>criterios para decidir cuando no hay regla clara</strong>. Acá vienen los tres primeros: Normatividad, Colectividad y Consenso, Dinamismo y Flexibilidad."
+        },
+        {
+          "type": "paragraph",
+          "text": "Los fundamentos son las vigas. Los principios son los criterios cotidianos — los que te ayudan a decidir cuando el reglamento no tiene una respuesta exacta. La PNDI 2017 nombra siete. Los partimos en dos lecciones para que no se mezclen."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Principio 1 — Normatividad 📚"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Lo que dice:</strong> primero, lo que está escrito en la ley civil, en el estatuto, en los reglamentos y acuerdos vigentes. Cuando dudas, abres el documento."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Caso:</strong> un consejero quiere expulsar a un dirigente porque <em>“siempre llega tarde”</em>. ¿Se puede? El <strong>Código de Honor, Disciplinario y de Conducta</strong> (Resolución C.S.N. N° 004-22 de 2022) dice que las sanciones siguen un debido proceso: amonestación verbal → escrita → suspensión → expulsión, con derecho a ser oído. <strong>No se puede saltar al final.</strong> El principio de Normatividad protege tanto al dirigente como al grupo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Principio 2 — Colectividad y Consenso 🫂"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Lo que dice:</strong> las decisiones que afectan a varios se toman entre los afectados, buscando el mayor consenso posible antes de votar."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Caso:</strong> la jefa de grupo quiere cambiar el local del grupo a otra parroquia. ¿Lo decide ella? El Principio dice <strong>no</strong>. Convoca al consejo, expone razones, escucha las objeciones (¿qué pasa con las familias del barrio actual?), busca alternativas (¿se puede mantener una sede satélite?), y solo cuando el consenso está cerca, pasa a la votación. Si gana 4 a 3, sabe que tiene que cuidar a los 3 que perdieron — no son enemigos, son consejeros que pensaron distinto."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Principio 3 — Dinamismo y Flexibilidad 🔄"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Lo que dice:</strong> la institución cambia con su tiempo. Lo que sirvió hace 20 años puede no servir hoy. Adaptarse no es traicionar la identidad — es protegerla."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Caso:</strong> un grupo siempre cobró cuota en efectivo. En 2024 el banco les pide trazabilidad para mantener la cuenta. El tesorero propone migrar a transferencia y código QR. Un consejero veterano dice <em>“siempre lo hicimos en efectivo”</em>. El Principio dice: la identidad del grupo es educar a los chicos, no el medio de pago. <strong>Cambien el medio, conserven el método.</strong>"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Síntesis intermedia:</strong> Estos tres principios sostienen el día a día. <strong>Normatividad</strong> te dice <strong>dónde mirar primero</strong>. <strong>Colectividad y Consenso</strong> te dice <strong>con quién decidir</strong>. <strong>Dinamismo y Flexibilidad</strong> te dice <strong>cuándo es momento de cambiar</strong>."
+        }
+      ],
+      "reflection": {
+        "prompt": "En tu grupo, ¿hay alguna práctica que se mantiene “porque siempre se hizo así” pero ya no responde al entorno actual? Nómbrala. Y propón una alternativa que respete la identidad pero actualice el método."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Un dirigente comete una falta grave por primera vez. Otro dirigente propone expulsarlo de inmediato porque “ya se sabe cómo es”. ¿Qué principio del DI sustenta la respuesta correcta?",
+            "options": [
+              "Dinamismo y Flexibilidad — adáptense a la situación.",
+              "Colectividad y Consenso — voten entre todos lo que mejor parezca.",
+              "Normatividad — el Código de Honor define un debido proceso que hay que respetar."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Una jefa de grupo quiere cambiar el local del grupo. ¿Qué principio del DI le indica que NO puede decidirlo sola, aunque sea la cabeza visible del grupo?",
+            "options": [
+              "Normatividad.",
+              "Colectividad y Consenso.",
+              "Dinamismo y Flexibilidad."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 5 →"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — Los 7 principios — Parte 2",
+      "emoji": "⚖️",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Los 4 principios restantes — <strong>Aspiracional y Transformacional</strong>, <strong>Coherencia</strong>, <strong>Prospectiva</strong>, <strong>Participación Juvenil</strong> — son los que mueven al grupo hacia adelante, no solo lo ordenan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si los tres primeros principios cuidan el presente del grupo, estos cuatro lo proyectan hacia el futuro. Y uno de ellos —Participación Juvenil— es marca registrada del scoutismo: lo que nos diferencia de otras instituciones educativas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Principio 4 — Aspiracional y Transformacional 🚀"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Lo que dice:</strong> el DI no se contenta con que las cosas funcionen — busca que mejoren y transformen. Si todo está estable pero nadie está creciendo, el principio no se cumple."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Caso:</strong> un grupo lleva 6 años con 35 chicos y 8 dirigentes, estable. El consejo está cómodo. Pero la PNDI les pregunta: ¿están aspirando a algo más? Tal vez abrir una rama de Caminantes para retener a los que crecen. Tal vez salir del barrio a una zona de menos cobertura scout. El Principio empuja a no confundir estabilidad con plenitud."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Principio 5 — Coherencia 🎯"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Lo que dice:</strong> lo que decimos, lo que hacemos y lo que decidimos tienen que apuntar al mismo lado. Cuando hay incoherencia, los chicos y las familias la detectan primero."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Caso:</strong> un grupo dice en su carta de presentación <em>“somos un grupo inclusivo y abierto”</em>. Pero cuando llega una familia con un chico con discapacidad, nadie sabe qué hacer y el chico no se siente acogido. El Principio dice: <strong>si lo decimos, lo hacemos; si no lo hacemos, no lo digamos</strong>. Y mejor, capacitemos al equipo para hacerlo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Principio 6 — Prospectiva 🔭"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Lo que dice:</strong> las decisiones de hoy se toman pensando en lo que vendrá en 3, 5 o 10 años — no solo en este trimestre."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Caso:</strong> el consejo discute si comprar un terreno con los ahorros del grupo o seguir alquilando. El cálculo de 12 meses dice <em>“alquilemos, es más barato”</em>. El cálculo de 10 años dice <em>“compremos, recuperamos la inversión”</em>. Prospectiva pide que el consejo mire los dos horizontes y decida con visión, no con urgencia."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Principio 7 — Participación Juvenil 🌱"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Lo que dice:</strong> los jóvenes del movimiento no son solo destinatarios de las decisiones — son parte de ellas, en las formas adecuadas a su edad y madurez. La Política Nacional de Participación Juvenil (2016) y la PNPJ (2020) lo desarrollan en detalle."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Caso:</strong> el Consejo de Grupo va a decidir el tema del próximo campamento de tropa. ¿Lo decide el equipo de jefatura adulto? El Principio dice: <strong>escuchen a la patrulla primero</strong>. La participación del joven no es decorativa — moldea decisiones reales. En consejos regionales y nacionales existe el cargo de <strong>Consejero Juvenil</strong> justo para asegurar esa voz en el órgano de gobierno."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que dice la PNPJ",
+          "text": "La participación de los jóvenes en la toma de decisiones del Movimiento es un derecho y un método educativo: aprenden ciudadanía haciéndola, no escuchándola.",
+          "source": "Política Nacional de Programa de Jóvenes 2020 (parafraseado del espíritu del documento)"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Síntesis:</strong> Estos 4 principios proyectan al grupo. <strong>Aspiracional</strong> te empuja a mejorar. <strong>Coherencia</strong> te alinea por dentro. <strong>Prospectiva</strong> te hace pensar a largo plazo. <strong>Participación Juvenil</strong> te recuerda para quién es todo esto."
+        }
+      ],
+      "reflection": {
+        "prompt": "De los 4 principios de esta lección, ¿cuál crees que va a costarle más a tu grupo o región vivirlo plenamente? Escribe una sola acción chica que harías el próximo mes para fortalecerlo."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "El Consejo de Grupo va a definir el tema del próximo campamento de tropa. ¿Qué principio sugiere que la patrulla (los propios scouts) participe en esa decisión?",
+            "options": [
+              "Coherencia.",
+              "Participación Juvenil.",
+              "Prospectiva."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Un grupo está cómodo: tiene 30 chicos hace 6 años, no crece ni decrece. El consejo no propone nada nuevo. ¿Qué principio del DI les está faltando?",
+            "options": [
+              "Aspiracional y Transformacional.",
+              "Normatividad.",
+              "Colectividad y Consenso."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 6 →"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — Los 3 sujetos de la política + tu brújula",
+      "emoji": "🇨🇴",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>Grupo, Región y Nación aplican la misma política — pero con distinta escala y responsabilidad. Y tú eliges una <strong>brújula personal</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ya viste para qué sirve la PNDI, sus 4 acciones, sus 4 fundamentos y sus 7 principios. Falta una última pieza: <strong>a quién aplica</strong>. La PNDI menciona tres sujetos: Grupo, Región y Nación. Vamos a ver cómo se diferencian — porque no es lo mismo aplicar Democracia en una asamblea de 40 personas que en una de 4 000."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🇨🇴 Los 3 sujetos de la política"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🏠 Grupo", "description": "El nivel local. <strong>20–80 personas.</strong> La política aterriza en lo concreto: actas, libro contable, asambleas anuales, plan de grupo. La intuición y la confianza personal pesan mucho.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🏘️ Región", "description": "El nivel intermedio. <strong>Varios grupos en un territorio.</strong> La política tiene que armonizar realidades distintas: un grupo grande con uno chico, uno urbano con uno rural. El Revisor Fiscal hace el control fiscal.", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "🇨🇴 Nación", "description": "El nivel doctrinal y estratégico. Donde se elaboran las políticas, se aprueba el Plan Estratégico y se vigila el sistema completo. <strong>Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional</strong> como órganos de control.", "color": "#f3e5f5", "borderColor": "#9c27b0" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Los 3 sujetos comparten la misma PNDI. Pero <strong>la escala cambia el cómo</strong>:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Democracia</strong> en el grupo: votación en consejo de 7 personas con discusión cara a cara. En la nación: Asamblea Scout Nacional con cientos de delegados y reglamento de votaciones formal.",
+            "<strong>Normatividad</strong> en el grupo: el jefe abre el reglamento de grupos cuando hay duda. En la nación: el CSN crea, modifica y publica los reglamentos que todos van a aplicar.",
+            "<strong>Participación Juvenil</strong> en el grupo: el consejero juvenil del grupo lleva voz de los scouts y rovers a las decisiones. En la nación: la PNPJ 2020 ordena cuotas de participación de jóvenes en órganos asesores."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Spoiler del Curso 3:</strong> Por eso esta línea tiene un Curso 3 entero dedicado a los <strong>niveles y la estructura del Movimiento</strong>. Acá solo necesitas saber que la política aplica a los tres y que las decisiones de un nivel impactan a los otros."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🧭 Tu brújula personal"
+        },
+        {
+          "type": "paragraph",
+          "text": "Llegaste hasta acá con 4 fundamentos, 7 principios y 3 sujetos en la cabeza. Es mucho. Pero el objetivo de este curso no es que te lo aprendas de memoria — es que tengas una <strong>brújula personal</strong>. Algo así:"
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Plantilla de tu brújula:</strong><br>“Cuando esté en duda institucional en mi grupo o región, voy a usar el principio de <em>__________</em> como mi criterio primero. Lo eligo porque <em>__________</em>.”"
+        },
+        {
+          "type": "paragraph",
+          "text": "No es que los otros principios no cuenten. Es que <strong>tener un criterio primero te ayuda a actuar rápido</strong> cuando el momento lo pide. Y, con la práctica, irás incorporando los demás."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🗺️ Lo que viene"
+        },
+        {
+          "type": "paragraph",
+          "text": "El <strong>Curso 3</strong> retoma el tema de los 3 sujetos y los aterriza en la estructura completa: 5 niveles del Movimiento (Mundial, Interamericano, Nacional, Regional, Local) y los órganos de cada nivel, con sus diferencias importantes."
+        },
+        {
+          "type": "blockquote",
+          "text": "Una política no es un papel para enmarcar. Es la brújula que usas cuando el camino se bifurca. Hoy ya tienes la tuya."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu brújula completa siguiendo la plantilla: “Cuando esté en duda institucional, voy a usar el principio de ___ como mi criterio primero. Lo eligo porque ___”. Esta brújula la vamos a recordar en los próximos cursos del nivel."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6 — Cierre del curso",
+        "questions": [
+          {
+            "text": "El principio de Participación Juvenil aplica…",
+            "options": [
+              "Solo en el nivel de Grupo, porque allí están los chicos.",
+              "Solo en el nivel Nacional, porque allí se hacen las políticas.",
+              "En los tres sujetos (Grupo, Región, Nación), con escalas y mecanismos distintos en cada uno."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "¿Cuál es el sentido principal de tener una “brújula personal” — un principio de referencia primero — para tus decisiones institucionales?",
+            "options": [
+              "Memorizar el principio para recitarlo en reuniones.",
+              "Tener un criterio claro que te permita actuar rápido cuando el momento lo pide, sin perder los otros principios de vista.",
+              "Demostrar a los demás que conoces la PNDI mejor que ellos."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Obtener Certificado 🏆"
+      }
+    }
+  ],
+  "achievements": [
+    { "id": "achievement-1", "name": "Domino las 4 acciones", "emoji": "🧭", "unlockOnModule": 2 },
+    { "id": "achievement-2", "name": "Conozco los 4 fundamentos", "emoji": "🏛️", "unlockOnModule": 3 },
+    { "id": "achievement-3", "name": "Manejo los primeros 3 principios", "emoji": "⚖️", "unlockOnModule": 4 },
+    { "id": "achievement-4", "name": "Completé los 7 principios", "emoji": "⚖️", "unlockOnModule": 5 },
+    { "id": "achievement-5", "name": "Sé aplicar la PNDI en los 3 sujetos", "emoji": "🇨🇴", "unlockOnModule": 6 },
+    { "id": "achievement-final", "name": "Conozco mi brújula", "emoji": "🧭", "unlockOnModule": -1 }
+  ],
+  "certificate": {
+    "courseName": "LA POLÍTICA PNDI: MARCO Y PRINCIPIOS",
+    "description": "ha completado el Curso 2 del Nivel 1 — Fundamentación de la Línea Desarrollo Institucional, distinguiendo política, reglamento y plan, dominando las 4 acciones de la PNDI, los 4 fundamentos del Desarrollo Institucional, los 7 principios y los 3 sujetos de aplicación, y formulando una brújula personal para guiar sus próximas decisiones institucionales"
+  }
+}

@@ -1,0 +1,643 @@
+{
+  "courseId": "salud-institucional-autodiagnostico",
+  "title": "Las 6 Áreas Estratégicas y Salud Institucional",
+  "subtitle": "Curso 5 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
+  "description": "Curso central del Nivel 1. Entrega un autodiagnóstico interactivo sobre las 6 dimensiones de salud institucional, con una rúbrica de 5 grados observables por dimensión. En ~30 minutos vas a distinguir las 6 áreas estratégicas operativas de las 6 dimensiones evaluativas, dominar la rúbrica, aplicarla a tu grupo o región y salir con un perfil guardado, listo para alimentar el plan personal del Curso 6.",
+  "icon": "💪",
+  "duration": "30 minutos",
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~30 minutos · 6 lecciones cortas.</strong><br>Al final vas a tener un perfil personalizado de salud institucional de tu grupo o región, con 6 dimensiones evaluadas en una rúbrica de 5 grados. Este perfil es el insumo principal del Curso 6, donde vas a convertirlo en un plan de acción."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pregunta a 5 dirigentes de un mismo grupo \"¿cómo está la salud institucional?\" y vas a recibir 5 respuestas distintas: \"bien\", \"regular\", \"mejorando\", \"depende\", \"no sé\". Eso no es porque no sepan — es porque cada uno tiene una idea diferente de qué significa \"salud institucional\". Vamos a corregir eso: vas a tener una <strong>rúbrica concreta</strong> que cualquiera puede aplicar igual."
+        },
+        {
+          "type": "paragraph",
+          "text": "Este es un curso <strong>interactivo</strong>. No solo lees — al final aplicas el diagnóstico a tu propio grupo. El sistema guarda tus respuestas para que el Curso 6 las recoja."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que vas a vivir en este curso"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 6 áreas estratégicas vs 6 dimensiones de salud: dos marcos distintos que conviven.",
+            "<strong>Lección 3 —</strong> La rúbrica de 5 grados observables: de 1 (no existe) a 5 (sistemático y replicado).",
+            "<strong>Lección 4 —</strong> Las 6 dimensiones, una por una: pregunta clave y criterios por grado.",
+            "<strong>Lección 5 —</strong> Autodiagnóstico interactivo: aplica los 5 grados a cada dimensión en tu grupo o región.",
+            "<strong>Lección 6 —</strong> Interpretar tu perfil + GSAT: tu perfil te dice por dónde empezar."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>Tip de uso:</strong> cuando llegues a la Lección 5 (autodiagnóstico) responde con sinceridad. No con lo que te gustaría que fuera tu grupo — con lo que efectivamente es. El perfil solo lo ves tú; nadie más. Y solo siendo honesto te sirve para mejorar."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 1 — 6 áreas estratégicas vs 6 dimensiones de salud",
+      "emoji": "🧭",
+      "navLabel": "L1",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>Coexisten dos marcos de 6 elementos cada uno. Las <strong>áreas estratégicas</strong> son operativas; las <strong>dimensiones de salud</strong> son evaluativas. Saber la diferencia te ahorra confusión."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el Curso 4 mencioné que las 6 áreas estratégicas y las 6 dimensiones de salud no son lo mismo. Antes de aplicar el autodiagnóstico necesitas tener clara la diferencia, para no confundirte cuando alguien las nombre."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📋 Las 6 áreas estratégicas (vista operativa)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Son las áreas alrededor de las cuales un grupo o región <strong>organiza su trabajo cotidiano</strong>. Aparecen en materiales formativos como FLOR DE LIS II y en muchos planes de grupo:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "🏛️ <strong>Gobernanza</strong> — decisiones y normas.",
+            "✨ <strong>Programa de Calidad</strong> — cómo se asegura la calidad de la experiencia educativa.",
+            "📈 <strong>Crecimiento</strong> — cómo se sostiene y crece la membresía.",
+            "📣 <strong>Comunicaciones</strong> — cómo se comunica el grupo dentro y hacia afuera.",
+            "🤝 <strong>Alianzas y Relaciones</strong> — alianzas con otras organizaciones, padres, comunidad.",
+            "🛡️ <strong>Gestión de Riesgos</strong> — protección de personas, bienes y operación."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🩺 Las 6 dimensiones de salud institucional (vista evaluativa)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Son las dimensiones contra las que se <strong>mide</strong> la salud de un grupo o región. Cada una es un termómetro distinto. Pueden ser aplicadas por cualquier persona con criterio:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "🎯 <strong>Propósito</strong> — el grupo sabe para qué existe y dónde quiere llegar.",
+            "🏛️ <strong>Gobernanza</strong> — decisiones legítimas, registradas y trazables.",
+            "⚙️ <strong>Gestión</strong> — recursos manejados con orden.",
+            "🤝 <strong>Relaciones</strong> — convivencia interna y con el entorno.",
+            "📈 <strong>Crecimiento</strong> — membresía sostenida y renovada.",
+            "✅ <strong>Cumplimiento</strong> — leyes, reglamentos y protocolos respetados."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>⚠️ Hay nombres que se repiten</strong> (Gobernanza aparece en ambas listas, Crecimiento también). <strong>No son sinónimos.</strong> En las áreas estratégicas, Gobernanza es <strong>dónde trabajas</strong>; en las dimensiones de salud, Gobernanza es <strong>cómo medir si está sano</strong>. Misma palabra, distinto rol."
+        },
+        {
+          "type": "paragraph",
+          "text": "En este curso vamos a usar <strong>las 6 dimensiones de salud institucional</strong> para el autodiagnóstico. Son las más útiles para evaluar — porque cada una tiene una rúbrica de 5 grados observables que verás en la siguiente lección."
+        }
+      ],
+      "reflection": {
+        "prompt": "En tu grupo o región, ¿se usa alguna vez explícitamente la palabra 'salud institucional'? Si sí, ¿con qué herramienta se evalúa? Si no, ¿qué crees que se usa en su lugar (intuición del jefe, conversación de pasillo, etc.)?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 1",
+        "questions": [
+          {
+            "text": "¿Cuál es la diferencia entre las \"6 áreas estratégicas\" y las \"6 dimensiones de salud institucional\"?",
+            "options": [
+              "Son sinónimos — solo cambia el nombre.",
+              "Las áreas estratégicas son <strong>dónde trabajas</strong> en lo operativo; las dimensiones de salud son <strong>cómo evalúas</strong> si lo institucional está sano. Misma palabra puede aparecer en ambas con roles distintos.",
+              "Las áreas estratégicas son para el nivel nacional; las dimensiones de salud son solo para grupos."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "¿Qué marco va a usar este curso para el autodiagnóstico?",
+            "options": [
+              "Las 6 áreas estratégicas.",
+              "Las 6 dimensiones de salud institucional, con su rúbrica de 5 grados observables.",
+              "Los 8 ámbitos de gestión de la PNDI."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 2 →"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Lección 2 — La rúbrica de 5 grados observables",
+      "emoji": "📏",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>La rúbrica va de 1 (no existe) a 5 (sistemático, mejorado y replicado). Cada grado es OBSERVABLE — alguien externo podría verificarlo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Antes de aplicar el diagnóstico, necesitas dominar la rúbrica que vas a usar. Es simple pero poderosa: cada dimensión se mide en una escala de 5 grados, y cada grado describe una situación que <strong>alguien externo podría verificar mirando el grupo</strong>. No es opinión — es observación."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎚️ La escala genérica"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🔴 Grado 1 — No existe",
+              "description": "La práctica o documento no existe. No hay rastro de que se haga, ni siquiera informalmente.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "🟠 Grado 2 — Ocurre informalmente",
+              "description": "Algo se hace, pero no hay método claro y depende de la persona. Si esa persona se va, se acaba.",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            },
+            {
+              "title": "🟡 Grado 3 — Ocurre con método, sin documentar",
+              "description": "Hay una forma de hacerlo conocida en el equipo, pero no está escrita. Funciona mientras los actuales estén; un nuevo entra y tiene que aprender por ósmosis.",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "🟢 Grado 4 — Documentado y revisado",
+              "description": "Hay un documento o procedimiento escrito, conocido y aplicado. Se revisa al menos una vez al año.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🟢🟢 Grado 5 — Sistemático, mejorado y replicado",
+              "description": "Existe, está documentado, se revisa, se ha mejorado al menos una vez con base en aprendizaje y se ha compartido con otros grupos o niveles. Es buena práctica de referencia.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 La palabra clave es <em>observable</em>.</strong> Si para definir un grado tienes que recurrir a 'el dirigente lo siente así' o 'creo que sí', el criterio no es observable. Un buen criterio es: 'hay un documento escrito que se firmó en X fecha' o 'se hizo Y veces el año pasado'."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📐 Ejemplo aplicado: ¿cómo se mide el sub-criterio 'acta de reunión del consejo' en cada grado?"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "🔴 Grado 1",
+              "description": "No hay actas. Las reuniones del consejo se hacen sin registro."
+            },
+            {
+              "title": "🟠 Grado 2",
+              "description": "A veces alguien toma notas en su cuaderno personal, pero no se comparten ni se archivan."
+            },
+            {
+              "title": "🟡 Grado 3",
+              "description": "Hay actas de la mayoría de las reuniones, hechas por el secretario actual, en su computador. No están en un repositorio común."
+            },
+            {
+              "title": "🟢 Grado 4",
+              "description": "Toda reunión tiene acta. Las actas están en una carpeta compartida (Drive, repositorio del grupo). Se firman al cierre."
+            },
+            {
+              "title": "🟢🟢 Grado 5",
+              "description": "Grado 4 + las actas se revisan trimestralmente para detectar decisiones que quedaron sin ejecutar. El formato se ajustó hace 6 meses con base en una sugerencia regional. Se compartió con otros grupos."
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>⚖️ Importante: el progreso es gradual.</strong> Casi ningún grupo está en 5 en todas las dimensiones — y eso está bien. El objetivo no es 'sacar 5 en todo', sino <strong>conocer dónde estás y avanzar un grado en lo más débil</strong>."
+        }
+      ],
+      "reflection": {
+        "prompt": "En el ejemplo del acta de reunión, ¿en qué grado dirías que está tu grupo? No te dé pena estar en 1 o 2 — el primer paso para mejorar es nombrarlo con honestidad."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "En la rúbrica de 5 grados, ¿cuál es la diferencia clave entre el Grado 3 y el Grado 4?",
+            "options": [
+              "El Grado 4 es solo para grupos grandes.",
+              "En el Grado 3 hay método pero no documentación; en el Grado 4 hay documentación escrita y revisada.",
+              "No hay diferencia significativa entre los dos."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "¿Qué hace que un criterio de la rúbrica sea \"observable\"?",
+            "options": [
+              "Que el jefe de grupo lo confirme verbalmente.",
+              "Que una persona externa al grupo pueda verificarlo mirando documentos o evidencias concretas.",
+              "Que más de la mitad del consejo opine que está bien."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 3 →"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Lección 3 — Las 6 dimensiones, una por una",
+      "emoji": "🔬",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 8 minutos · 1 idea central:</strong><br>Cada una de las 6 dimensiones tiene su pregunta clave y sus criterios de cada grado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ahora aplicamos la rúbrica a cada una de las 6 dimensiones. Para cada una vas a ver: la <strong>pregunta clave</strong> que orienta el diagnóstico, y la <strong>descripción del Grado 5</strong> (lo que sería estar pleno) como horizonte. En la Lección 5 vas a marcar tu grado real."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Dimensión 1 — Propósito"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Pregunta clave:</strong> ¿el grupo sabe para qué existe y hacia dónde quiere llegar?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Grado 5: El grupo tiene un <strong>Plan de Grupo escrito y vigente</strong> (revisado en el último año), conocido por al menos el 80 % de los dirigentes y referenciado en las decisiones del consejo. La visión a 3-5 años está clara.",
+            "Grado 1: Nadie en el consejo sabría enunciar la misión o visión del grupo si se le preguntara."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🏛️ Dimensión 2 — Gobernanza"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Pregunta clave:</strong> ¿las decisiones son legítimas, registradas y trazables?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Grado 5: <strong>Toda reunión</strong> del consejo tiene acta firmada y archivada. Las votaciones se registran. El reglamento interno y el Plan de Grupo están al día. El Fiscal/Revisor Fiscal es convocado y participa con voz.",
+            "Grado 1: Las decisiones se toman en WhatsApp o por una sola persona, sin registro."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "⚙️ Dimensión 3 — Gestión"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Pregunta clave:</strong> ¿los recursos (humanos, financieros, materiales) se manejan con orden?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Grado 5: Cuenta bancaria separada, libro contable al día, inventario revisado cada 6 meses, contratos laborales o de prestación de servicios cuando aplican, todos los dirigentes con A Salvo del Peligro vigente.",
+            "Grado 1: La plata se maneja en efectivo o en cuentas personales; no hay inventario; no se sabe quién es voluntario formal."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🤝 Dimensión 4 — Relaciones"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Pregunta clave:</strong> ¿la convivencia interna y con el entorno es sana?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Grado 5: Hay protocolo escrito de manejo de conflictos. Las familias reciben comunicación al menos mensual. Hay alianzas activas con instituciones del barrio (colegio, parroquia, junta de acción comunal).",
+            "Grado 1: Hay conflictos no abordados entre dirigentes; las familias se enteran de las cosas por rumor."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📈 Dimensión 5 — Crecimiento"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Pregunta clave:</strong> ¿la membresía se sostiene y se renueva?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Grado 5: El grupo registra ingresos y salidas mes a mes, tiene plan de captación, ha crecido neto al menos 2 % en el último año, y los dirigentes tienen recambio generacional.",
+            "Grado 1: Nadie sabe cuántos chicos hay realmente; la lista actualizada no existe; no hay plan de captación."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "✅ Dimensión 6 — Cumplimiento"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Pregunta clave:</strong> ¿se respetan leyes, reglamentos y protocolos?"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Grado 5: Personería jurídica al día, obligaciones tributarias cumplidas, protocolo de transporte aplicado en cada salida, A Salvo del Peligro vigente en todo el equipo, asamblea anual realizada según reglamento.",
+            "Grado 1: Documentación legal vencida o inexistente; salidas sin protocolo; equipo sin A Salvo del Peligro."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "En la Lección 5 vas a marcar tu grado real en cada una de las 6 dimensiones. La descripción completa de los 5 grados de cada dimensión la vas a ver en la pregunta correspondiente."
+        }
+      ],
+      "reflection": {
+        "prompt": "De las 6 dimensiones recién enunciadas, ¿cuál crees que es la que vas a marcar en grado más alto en tu grupo? ¿Cuál en el más bajo? Anota tu intuición ANTES de hacer el diagnóstico — al final comparamos."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "La pregunta clave de la dimensión <strong>Gestión</strong> es:",
+            "options": [
+              "¿Las decisiones son legítimas, registradas y trazables?",
+              "¿Los recursos (humanos, financieros, materiales) se manejan con orden?",
+              "¿Se respetan leyes, reglamentos y protocolos?"
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Si un grupo tiene personería jurídica vencida, salidas sin protocolo y dirigentes sin A Salvo del Peligro, está mal principalmente en la dimensión de…",
+            "options": [
+              "Propósito.",
+              "Relaciones.",
+              "Cumplimiento."
+            ],
+            "correctIndex": 2
+          }
+        ],
+        "nextLabel": "Continuar a Lección 4 →"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Lección 4 — Autodiagnóstico interactivo",
+      "emoji": "✍️",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 7 minutos · 1 idea central:</strong><br>Aplica los 5 grados a cada dimensión, en tu grupo o región. El sistema guarda tus respuestas para el Curso 6."
+        },
+        {
+          "type": "paragraph",
+          "text": "Llegó la parte central. Vas a marcar 6 preguntas — una por dimensión — y al final tendrás tu perfil de salud institucional guardado. Recuerda: responde con honestidad, no con lo que te gustaría."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📝 Tu autodiagnóstico"
+        },
+        {
+          "type": "self-assessment",
+          "assessmentId": "salud-institucional-perfil",
+          "intro": "Marca el grado que mejor describa el estado actual de tu grupo o región en cada una de las 6 dimensiones. Responde con sinceridad — el perfil solo lo ves tú, y solo siendo honesto te sirve para mejorar.",
+          "competences": [
+            {
+              "id": "proposito",
+              "name": "🎯 Propósito",
+              "definition": "¿El grupo/región sabe para qué existe y hacia dónde quiere llegar?",
+              "grades": [
+                { "level": 1, "criterion": "🔴 No tenemos plan ni visión clara. Si me preguntaran misión o visión, no sabría qué responder." },
+                { "level": 2, "criterion": "🟠 Hay alguna idea informal, pero no está escrita y no es conocida por el equipo." },
+                { "level": 3, "criterion": "🟡 Hay un Plan de Grupo o documento similar, pero está desactualizado o no se referencia en las decisiones." },
+                { "level": 4, "criterion": "🟢 Plan de Grupo escrito, vigente (revisado en el último año), conocido por la mayoría del consejo y los dirigentes." },
+                { "level": 5, "criterion": "🟢🟢 Plan al día + revisado anualmente + visión a 3-5 años clara + se referencia en las decisiones del consejo." }
+              ]
+            },
+            {
+              "id": "gobernanza",
+              "name": "🏛️ Gobernanza",
+              "definition": "¿Las decisiones son legítimas, registradas y trazables?",
+              "grades": [
+                { "level": 1, "criterion": "🔴 Las decisiones se toman por una sola persona o en WhatsApp, sin registro." },
+                { "level": 2, "criterion": "🟠 A veces hay actas, dependen del secretario. No están en repositorio común." },
+                { "level": 3, "criterion": "🟡 Hay actas de la mayoría de reuniones, pero no se firman al cierre o falta archivo sistemático." },
+                { "level": 4, "criterion": "🟢 Toda reunión tiene acta firmada y archivada en repositorio común; votaciones registradas." },
+                { "level": 5, "criterion": "🟢🟢 Grado 4 + Fiscal/Revisor Fiscal convocado y participa con voz; reglamento interno y Plan al día." }
+              ]
+            },
+            {
+              "id": "gestion",
+              "name": "⚙️ Gestión",
+              "definition": "¿Los recursos (humanos, financieros, materiales) se manejan con orden?",
+              "grades": [
+                { "level": 1, "criterion": "🔴 Plata en efectivo o cuentas personales; no hay inventario; no se sabe quién es voluntario formal." },
+                { "level": 2, "criterion": "🟠 Algo de orden en lo financiero, pero sin libro contable; inventario incompleto." },
+                { "level": 3, "criterion": "🟡 Cuenta bancaria del grupo + libro contable, pero sin método claro; inventario ocasional." },
+                { "level": 4, "criterion": "🟢 Cuenta separada + libro contable al día + inventario revisado periódicamente + contratos/voluntariado formalizado." },
+                { "level": 5, "criterion": "🟢🟢 Grado 4 + todos los dirigentes con A Salvo del Peligro vigente + revisión trimestral del orden financiero y de activos." }
+              ]
+            },
+            {
+              "id": "relaciones",
+              "name": "🤝 Relaciones",
+              "definition": "¿La convivencia interna y con el entorno es sana?",
+              "grades": [
+                { "level": 1, "criterion": "🔴 Hay conflictos no abordados entre dirigentes; las familias se enteran por rumor; sin contacto con la comunidad." },
+                { "level": 2, "criterion": "🟠 Convivencia más o menos sana, pero sin protocolos ni mecanismos para resolver desencuentros." },
+                { "level": 3, "criterion": "🟡 Comunicación regular con las familias; algunas alianzas en el barrio, pero sin formalización." },
+                { "level": 4, "criterion": "🟢 Protocolo escrito de manejo de conflictos + comunicación mensual con familias + alianzas activas formalizadas." },
+                { "level": 5, "criterion": "🟢🟢 Grado 4 + reconocimiento del grupo como referente positivo en el barrio (parroquia, colegio, junta)." }
+              ]
+            },
+            {
+              "id": "crecimiento",
+              "name": "📈 Crecimiento",
+              "definition": "¿La membresía se sostiene y se renueva?",
+              "grades": [
+                { "level": 1, "criterion": "🔴 Nadie sabe cuántos chicos hay realmente; la lista actualizada no existe; no hay plan de captación." },
+                { "level": 2, "criterion": "🟠 Hay lista, pero no registro mensual de ingresos/salidas. Sin plan formal de captación." },
+                { "level": 3, "criterion": "🟡 Registro mensual de membresía, pero sin metas claras de crecimiento ni plan de captación documentado." },
+                { "level": 4, "criterion": "🟢 Registro mensual + plan de captación anual + el grupo ha crecido neto al menos 2 % en el último año." },
+                { "level": 5, "criterion": "🟢🟢 Grado 4 + recambio generacional de dirigentes + métricas de retención (cuántos siguen al año siguiente)." }
+              ]
+            },
+            {
+              "id": "cumplimiento",
+              "name": "✅ Cumplimiento",
+              "definition": "¿Se respetan leyes, reglamentos y protocolos?",
+              "grades": [
+                { "level": 1, "criterion": "🔴 Documentación legal vencida o inexistente; salidas sin protocolo; equipo sin A Salvo del Peligro." },
+                { "level": 2, "criterion": "🟠 Algunos requisitos al día, otros vencidos o inciertos. Protocolos aplicados de manera inconsistente." },
+                { "level": 3, "criterion": "🟡 Principales documentos legales y reglamentarios al día; protocolo de transporte aplicado en la mayoría de salidas." },
+                { "level": 4, "criterion": "🟢 Personería jurídica + obligaciones tributarias + protocolo de transporte en cada salida + A Salvo del Peligro vigente en todo el equipo + asamblea anual realizada según reglamento." },
+                { "level": 5, "criterion": "🟢🟢 Grado 4 + autoauditoría de cumplimiento al menos una vez al año + cumplimiento exhibido como buena práctica." }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>✅ Tu perfil quedó guardado en tu navegador.</strong> El Curso 6 lo va a leer automáticamente para sugerirte metas concretas. Si quieres modificarlo después, puedes volver a este curso y guardar de nuevo."
+        }
+      ],
+      "reflection": {
+        "prompt": "Después de marcar tu perfil: ¿coincidió con tu intuición de la Lección 4, o te sorprendió? Si te sorprendió, ¿qué dimensión salió mejor o peor de lo que esperabas y por qué?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Si en la dimensión de Gestión marcaste Grado 2, ¿qué significa eso?",
+            "options": [
+              "Que tu grupo está mal y no tiene salvación.",
+              "Que hay algún orden financiero, pero sin libro contable y con inventario incompleto. Es un punto de partida real para mejorar.",
+              "Que necesitas urgentemente contratar a un contador externo."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El perfil que acabas de guardar…",
+            "options": [
+              "Se borra al cerrar la pestaña.",
+              "Se guarda en tu navegador y va a ser leído por el Curso 6 para sugerirte metas concretas.",
+              "Se envía automáticamente al jefe de grupo."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 5 →"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Lección 5 — Interpretar tu perfil + GSAT",
+      "emoji": "📊",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 3 minutos · 1 idea central:</strong><br>Tu perfil te dice por dónde empezar. Y existe el GSAT —el Global Support Assessment Tool de OMMS— para escalas mayores."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📊 Cómo leer tu perfil"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Si tienes 1 o 2 dimensiones en grados 1-2:</strong> son brechas críticas. Empieza por ahí en el Curso 6 — no por las más fáciles.",
+            "<strong>Si la mayoría está en grados 2-3:</strong> tu grupo está en un punto típico de muchos grupos en Colombia. El siguiente paso es documentar lo que ya haces (subir de 3 a 4).",
+            "<strong>Si tienes 3 o más en grados 4-5:</strong> tu grupo es referencia. Considera escribir la buena práctica para compartir con la región (Curso 22 del Nivel 4)."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>⚠️ El perfil no es nota.</strong> <strong>Un grupo en grados 2-3 no es 'malo'</strong> — es un grupo en construcción. Casi todos empezamos ahí. Lo que importa es que cada año subas al menos un grado en al menos una dimensión."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🌐 El GSAT — la versión mundial"
+        },
+        {
+          "type": "paragraph",
+          "text": "OMMS desarrolló el <strong>Global Support Assessment Tool (GSAT)</strong> para evaluar la salud institucional de las <strong>Organizaciones Scouts Nacionales</strong> completas. Es una herramienta más extensa (decenas de indicadores) que mide el desempeño de una asociación nacional contra los estándares mundiales. La ASC ha sido evaluada con GSAT y el resultado alimenta el Plan Estratégico Nacional. El <strong>KPI del Plan Regional Interamericano 2022-2025</strong> incluye que 24 OSN sean evaluadas con GSAT 2018+. Esto lo verás en detalle en el Curso 21 del Nivel 4 (Salud Institucional: cómo evaluar tu grupo o región)."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver definición de GSAT",
+          "text": "El Global Support Assessment Tool (GSAT) es una herramienta de autoevaluación desarrollada por OMMS para que las Organizaciones Scout Nacionales identifiquen fortalezas y áreas de mejora institucional, alineadas con los estándares mundiales del movimiento.",
+          "source": "Organización Mundial del Movimiento Scout (OMMS), GSAT framework"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que viene"
+        },
+        {
+          "type": "paragraph",
+          "text": "El <strong>Curso 6</strong> —el cierre del Nivel 1— lee automáticamente tu perfil de hoy y te ayuda a convertirlo en un <strong>plan personal de aporte</strong> con metas concretas, plazos y recursos. Es donde el aprendizaje se vuelve acción."
+        },
+        {
+          "type": "blockquote",
+          "text": "No puedes mejorar lo que no mides. Y no puedes medir lo que no defines en términos observables. Hoy mediste — mañana mejoras."
+        }
+      ],
+      "reflection": {
+        "prompt": "Mira tu perfil completo. Escribe en una frase: '¿Cuál es la primera dimensión por la que voy a empezar a aportar y por qué?'."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5 — Cierre del curso",
+        "questions": [
+          {
+            "text": "Si tu grupo tiene la dimensión de Cumplimiento en Grado 1 y la de Propósito en Grado 4, ¿por dónde sugiere esta lección empezar a mejorar?",
+            "options": [
+              "Por Propósito, porque ya está bien y es más fácil.",
+              "Por Cumplimiento, porque las brechas críticas (Grado 1-2) deben atenderse primero.",
+              "Por las dos al mismo tiempo, sin priorizar."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El GSAT es una herramienta de evaluación de salud institucional…",
+            "options": [
+              "Para evaluar grupos scouts locales individuales.",
+              "Para evaluar Organizaciones Scouts Nacionales completas contra estándares mundiales OMMS.",
+              "Para evaluar el cumplimiento legal de cualquier organización colombiana."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Obtener Certificado 🏆"
+      }
+    }
+  ],
+  "achievements": [
+    { "id": "achievement-1", "name": "Empecé el diagnóstico", "emoji": "👋", "unlockOnModule": 1 },
+    { "id": "achievement-2", "name": "Distingo las dos vistas", "emoji": "🧭", "unlockOnModule": 2 },
+    { "id": "achievement-3", "name": "Domino la rúbrica", "emoji": "📏", "unlockOnModule": 3 },
+    { "id": "achievement-4", "name": "Conozco las 6 dimensiones", "emoji": "🔬", "unlockOnModule": 4 },
+    { "id": "achievement-5", "name": "Hice mi diagnóstico", "emoji": "✍️", "unlockOnModule": 5 },
+    { "id": "achievement-final", "name": "Tengo mi perfil de salud", "emoji": "💪", "unlockOnModule": -1 }
+  ],
+  "certificate": {
+    "courseName": "LAS 6 ÁREAS ESTRATÉGICAS Y SALUD INSTITUCIONAL",
+    "description": "ha completado el Curso 5 del Nivel 1 — Fundamentación de la Línea Desarrollo Institucional, distinguiendo las 6 áreas estratégicas operativas de las 6 dimensiones de salud institucional, dominando la rúbrica de 5 grados observables y aplicándola en un autodiagnóstico interactivo a su grupo o región, con perfil personalizado guardado como insumo del plan personal del Curso 6"
+  }
+}

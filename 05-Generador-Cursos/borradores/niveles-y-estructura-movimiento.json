@@ -1,0 +1,476 @@
+{
+  "courseId": "niveles-y-estructura-movimiento",
+  "title": "Niveles y Estructura del Movimiento",
+  "subtitle": "Curso 3 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
+  "description": "Aterriza la estructura completa del Movimiento Scout: 5 niveles (Mundial, Interamericano, Nacional, Regional, Local) con su arquitectura de órganos por nivel. Importante: la estructura es asimétrica — no se replica el mismo modelo de tres órganos uniformes en cada nivel.",
+  "icon": "🏗️",
+  "duration": "~30 min",
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~30 min · 6 lecciones cortas.</strong><br>Al final vas a saber exactamente <strong>qué órganos existen en cada nivel del Movimiento Scout</strong>, en qué se diferencian, y <strong>dónde acudir</strong> cuando tengas una duda o un problema institucional."
+        },
+        {
+          "type": "paragraph",
+          "text": "En una jefatura regional me contaron esta historia. Una mamá llegó al grupo a reclamar por una decisión que afectó a su hijo en una salida. Habló con el jefe. El jefe la mandó al consejo. El consejo le dijo <em>“eso lo decidió el comisionado regional”</em>. El comisionado le dijo <em>“eso lo regula la Jefatura Scout Nacional”</em>. La mamá se cansó, escribió a la Oficina Scout Mundial — y la queja terminó devuelta al grupo, al jefe, donde había empezado. <strong>Tres meses perdidos</strong>. Si alguien hubiera sabido el mapa institucional, la queja se atendía bien en el primer nivel."
+        },
+        {
+          "type": "paragraph",
+          "text": "Este curso es ese mapa. Pero antes, una advertencia: la estructura del Movimiento no es un organigrama empresarial perfectamente simétrico. Es una <strong>federación</strong> — y eso significa que cada nivel tiene su propia arquitectura. Ver eso es la primera lección del curso."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a vivir en este curso"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> Los 5 niveles del Movimiento (Mundial, Interamericano, Nacional, Regional, Local)",
+            "<strong>Lección 3 —</strong> Los 5 tipos de órganos en una institución sana",
+            "<strong>Lección 4 —</strong> Nivel Nacional — cómo está organizada la ASC",
+            "<strong>Lección 5 —</strong> Nivel Regional y Nivel Grupo — la asimetría",
+            "<strong>Lección 6 —</strong> Tu mapa institucional personal"
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tip de uso:</strong> a medida que avances, ten al lado una hoja en blanco. En la Lección 6 vas a llenarla con los nombres concretos de las personas de tu institución — la teoría es bonita, pero el grupo se sostiene cuando le pones nombre a cada cargo."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 🌍 Los 5 niveles del Movimiento",
+      "emoji": "🌍",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>El scoutismo es una federación de <strong>5 niveles</strong>: Mundial, Interamericano, Nacional, Regional, Local. Cada nivel tiene autonomía, pero todos comparten el mismo método y los mismos principios."
+        },
+        {
+          "type": "paragraph",
+          "text": "Empecemos por el panorama. El scoutismo existe en más de 170 países y reúne a 57 millones de personas. ¿Cómo se organiza algo tan grande sin que se pierda la identidad scout que Baden-Powell soñó en 1907? Con una <strong>federación de 5 niveles</strong> donde cada uno cuida una parte distinta del movimiento."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🌐 Mundial", "description": "Organización Mundial del Movimiento Scout (OMMS / WOSM). Reúne a las asociaciones nacionales de los 170+ países. Su sede está en Ginebra y Kuala Lumpur. Su principal órgano es la Conferencia Mundial Scout (cada 3 años).", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "🌎 Interamericano", "description": "Región Scout Interamericana. Una de las 6 regiones operativas de OMMS. Agrupa a 33 asociaciones nacionales de América. Define planes y prioridades para la región.", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "🇨🇴 Nacional", "description": "Asociación Scouts de Colombia (ASC). Es la Organización Scout Nacional (OSN) reconocida por OMMS para Colombia. Define la política nacional y el plan estratégico.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🏘️ Regional", "description": "Cada una de las regiones en que se subdivide la ASC en Colombia (ej: Valle del Cauca, Cundinamarca, Antioquia). Articulan los grupos de su territorio.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🏠 Local", "description": "El Grupo Scout. Es donde efectivamente sucede la experiencia educativa con los chicos. Es la célula básica del Movimiento.", "color": "#fff3e0", "borderColor": "#ff9800" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tres ideas importantes sobre esta estructura:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Es una federación, no una jerarquía empresarial.</strong> Cada nivel tiene autonomía dentro de su ámbito. El nivel mundial no le da órdenes operativas a tu grupo — lo orienta con marcos y metodologías.",
+            "<strong>El grupo es la célula básica.</strong> Sin grupos no hay movimiento. Por eso la PNDI 2017 lo reconoce como sujeto de la política y por eso el Reglamento Nacional de Grupos Scouts lo regula en detalle.",
+            "<strong>Cada nivel se alinea con el de arriba.</strong> El Plan de Grupo se conecta con el Plan Regional. El Plan Regional con el Plan Estratégico Nacional. Este, con el Plan Trienal Mundial y el Plan Regional Interamericano. Verás más sobre esta articulación en el Curso 24 del Nivel 4."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Anclaje memorable:</strong> si te perdiste alguna vez en esta estructura, recuerda los 5 niveles con esta frase: <strong>“el chico está en el grupo, el grupo en la región, la región en la nación, la nación en la región-continente, y la región-continente en el mundo”</strong>. Todos cuidamos al chico — desde escalas distintas."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cita de OMMS sobre estructura federativa",
+          "text": "El Movimiento Scout es un movimiento educativo voluntario, sin fines de lucro, abierto a todos, no político, conformado como una federación de Organizaciones Scout Nacionales que comparten los mismos propósitos, principios y método.",
+          "source": "Constitución de OMMS, Capítulo I"
+        }
+      ],
+      "reflection": {
+        "prompt": "De los 5 niveles, ¿con cuál has tenido contacto directo en el último año? ¿Hay alguno con el que nunca interactúas? Si es así, ¿cómo te imaginas que afecta a tu grupo no tener esa conexión?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "El Movimiento Scout a nivel mundial se organiza como…",
+            "options": [
+              "Una empresa internacional con sede central en Ginebra y filiales en cada país.",
+              "Una federación de Organizaciones Scouts Nacionales con autonomía dentro de un marco común.",
+              "Una jerarquía vertical donde cada nivel obedece estrictamente al nivel superior."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El Grupo Scout es, en la estructura del Movimiento…",
+            "options": [
+              "Un nivel operativo opcional, dependiente del consejo regional.",
+              "La célula básica donde efectivamente sucede la experiencia educativa, reconocida como sujeto por la PNDI.",
+              "Una subdivisión administrativa de la región, sin estatus institucional propio."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 3 →"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🧱 Los 5 tipos de órganos en una institución sana",
+      "emoji": "🧱",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>En cualquier institución sana hay <strong>5 tipos genéricos de órganos</strong>: dirección, administración, técnico, investigación/disciplina y control. Saberlos te ayuda a leer cualquier nivel del scoutismo y, en general, cualquier organización."
+        },
+        {
+          "type": "paragraph",
+          "text": "Antes de entrar al detalle de la ASC nacional, regional y de grupo, necesitas una llave universal. Cualquier institución sana —scout o no, en Colombia o en Filipinas— se organiza alrededor de 5 funciones que algún órgano tiene que cumplir. A veces se concentran en pocos órganos; a veces se separan en muchos. Pero las 5 funciones siempre están."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🏛️ Dirección", "description": "Define el rumbo y aprueba lo grande. La Asamblea de los asociados. Se reúne pocas veces al año, pero su autoridad es máxima dentro de su nivel.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
+            { "title": "⚙️ Administración", "description": "Conduce el día a día con autoridad delegada por la asamblea. El Consejo. Se reúne con frecuencia y toma la mayoría de las decisiones operativas y estratégicas del año.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🛠️ Técnico / Operativo", "description": "Ejecuta las decisiones del consejo. El Equipo de Jefatura. Es el que hace que las cosas pasen en las unidades, los campamentos, las reuniones de dirigentes.", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "⚖️ Investigación / Disciplina", "description": "Vela por la ética, el debido proceso y las sanciones cuando hay faltas. Cortes de Honor, Comisiones Disciplinarias. No deciden el rumbo del grupo, pero protegen su integridad.", "color": "#fce4ec", "borderColor": "#e91e63" },
+            { "title": "👁️ Control / Fiscal", "description": "Vigila la legalidad y la gestión administrativa-financiera. Comisiones de Vigilancia, Revisorías Fiscales. Tampoco gobierna, pero es el filtro que evita que el grupo se desvíe.", "color": "#fff9c4", "borderColor": "#fbc02d" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En el Curso 1 te mostré una versión más sencilla, con solo 3 tipos: <strong>gobierno, operación y control</strong>. Esa versión sigue siendo válida — es la que usa la PNDI 2017. Pero al entrar al detalle de los reglamentos vigentes (Reglamento Nacional de Grupos Scouts, Reglamento Nacional de Regiones Scout), vas a ver que el órgano de control en realidad son DOS órganos distintos: el que investiga y disciplina, y el que controla fiscal-administrativamente. Por eso conviene tener los 5 tipos en la cabeza."
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>La estructura es asimétrica entre niveles.</strong> No esperes encontrar los 5 órganos con los mismos nombres en cada nivel. En la práctica vigente:<br>• <strong>Nacional:</strong> los 5 tipos están todos representados con nombre propio.<br>• <strong>Regional:</strong> los 5 tipos están representados, pero el de investigación es “Capítulo Regional de la Corte de Honor Nacional” y el de control es “Revisor Fiscal”.<br>• <strong>Grupo:</strong> los 5 tipos están representados, pero la “investigación” es la Comisión Disciplinaria Ad-hoc (no permanente) y el control es el Fiscal o Revisor Fiscal."
+        },
+        {
+          "type": "paragraph",
+          "text": "En las próximas dos lecciones vamos a ver cada nivel con su nomenclatura y números reales — sin atajos."
+        }
+      ],
+      "reflection": {
+        "prompt": "En tu grupo, ¿está claro quién cumple cada uno de los 5 tipos de función? Marca con un check (✓) los que tienes claros y con interrogación (?) los que no — vas a usarlo en la Lección 6."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "Los 5 tipos genéricos de órganos en una institución sana son…",
+            "options": [
+              "Asamblea, Consejo, Jefatura, Tesorería, Comunicaciones.",
+              "Dirección, administración, técnico/operativo, investigación/disciplina, control/fiscal.",
+              "Programa, Adultos, Desarrollo Institucional, Crecimiento, Riesgo."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "La estructura de órganos entre los niveles Nacional, Regional y de Grupo de la ASC es…",
+            "options": [
+              "Simétrica: los mismos órganos con los mismos nombres en los tres niveles.",
+              "Asimétrica: los 5 tipos de función están en los tres niveles, pero los órganos que los cumplen tienen nombres y composiciones distintas.",
+              "Jerárquica estricta: el grupo solo replica al de arriba sin órganos propios."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 4 →"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 🇨🇴 Nivel Nacional — cómo está organizada la ASC",
+      "emoji": "🇨🇴",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>A nivel nacional, la ASC opera con <strong>Asamblea Scout Nacional, Consejo Scout Nacional, Jefatura Scout Nacional, Corte de Honor Nacional y Comisión Nacional de Vigilancia y Control</strong>. Los 5 tipos de órgano están con nombre propio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Empecemos por el nivel donde la nomenclatura es más completa y más fácil de aprender: el Nacional. Si entiendes este, vas a leer mejor los otros dos."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🏛️ Dirección — Asamblea Scout Nacional", "description": "La máxima autoridad de la ASC. Reúne a delegados de todas las regiones y aprueba el Estatuto, el Plan Estratégico, los Reglamentos y elige al Consejo Scout Nacional. Se reúne ordinariamente cada 2 años.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
+            { "title": "⚙️ Administración — Consejo Scout Nacional (CSN)", "description": "En receso de la Asamblea, es la autoridad máxima. Dirige la asociación según los reglamentos y las decisiones de la Asamblea. Emite los Acuerdos y Resoluciones que rigen la ASC (ejemplo: el Estatuto Nacional 2025 viene aprobado por el CSN).", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🛠️ Técnico — Jefatura Scout Nacional", "description": "Equipo ejecutivo. Encabezado por el Jefe Scout Nacional. Ejecuta las decisiones del CSN, coordina las Direcciones Nacionales (DNAM, DNDI, DNPJ) y atiende el día a día operativo.", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "⚖️ Investigación/Disciplina — Corte de Honor Nacional", "description": "Órgano ético-disciplinario. Investiga conductas que afecten el honor scout y las normas. Tramita los procesos disciplinarios formales del nivel nacional. Aplica el Código de Honor, Disciplinario y de Conducta (Resolución C.S.N. N° 004-22).", "color": "#fce4ec", "borderColor": "#e91e63" },
+            { "title": "👁️ Control — Comisión Nacional de Vigilancia y Control", "description": "5 miembros. Ejerce el control social de la ASC: vigila la administración, vela por el cumplimiento de obligaciones estatutarias y reglamentarias por parte de los asociados. (Nota: la PNDI 2017 todavía lo nombra “Comité de Control y Vigilancia”; la nomenclatura vigente es “Comisión”.)", "color": "#fff9c4", "borderColor": "#fbc02d" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Cómo se relacionan entre sí"
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay una cadena natural: la <strong>Asamblea</strong> delega en el <strong>Consejo Scout Nacional</strong> durante los 2 años entre reuniones; el CSN delega lo operativo en la <strong>Jefatura Scout Nacional</strong>; la <strong>Comisión Nacional de Vigilancia y Control</strong> vigila que CSN y Jefatura cumplan; la <strong>Corte de Honor Nacional</strong> entra cuando hay faltas éticas o disciplinarias formales. Las dos últimas no le obedecen al CSN — son independientes para poder controlar."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Importante:</strong> las Direcciones Nacionales — <strong>DNAM</strong> (Dirección Nacional de Adultos en el Movimiento), <strong>DNDI</strong> (Dirección Nacional de Desarrollo Institucional) y <strong>DNPJ</strong> (Dirección Nacional de Programa de Jóvenes) — dependen de la Jefatura Scout Nacional. Son los equipos técnicos que conducen cada línea estratégica. Esta línea formativa que estás haciendo se construye desde la DNDI."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver definición oficial del CSN",
+          "text": "El Consejo Scout Nacional es el órgano que dirige la institución de acuerdo con las normas legales, los Estatutos, los Reglamentos, los acuerdos y las decisiones de la Asamblea Nacional. En receso de la Asamblea Scout Nacional, es la autoridad máxima de la Asociación.",
+          "source": "scout.org.co · Quiénes Somos · Consejo Scout Nacional"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Un error institucional típico del nivel Nacional"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Confundir órganos.</strong> Cuando una región o un grupo solicita algo a la DNDI esperando una decisión política, o al CSN esperando un trámite operativo, la solicitud se demora porque va al órgano equivocado. <strong>Prevención:</strong> antes de escribir, pregunta <em>“¿esto es una política nueva, o es un trámite dentro de una política existente?”</em>. Si es política nueva → CSN. Si es trámite → Jefatura Nacional o la Dirección Nacional correspondiente."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Sabrías nombrar al Jefe Scout Nacional actual? ¿A algún miembro del Consejo Scout Nacional? Si no, búscalos en scout.org.co — el solo hecho de saber sus nombres te conecta con la institución."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "¿Cuál es el órgano que ejerce el control social de la ASC a nivel nacional, con 5 miembros y la función de vigilar el cumplimiento de obligaciones estatutarias?",
+            "options": [
+              "La Corte de Honor Nacional.",
+              "La Comisión Nacional de Vigilancia y Control.",
+              "El Consejo Scout Nacional."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Las Direcciones Nacionales (DNAM, DNDI, DNPJ) dependen orgánicamente de…",
+            "options": [
+              "La Asamblea Scout Nacional directamente.",
+              "La Jefatura Scout Nacional, como equipos técnicos ejecutivos.",
+              "La Corte de Honor Nacional, por ser temas formativos y disciplinarios."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 5 →"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 🏘️ Nivel Regional y Nivel Grupo — la asimetría",
+      "emoji": "🏘️",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>Las regiones y los grupos NO replican exactamente el modelo nacional. Tienen su propia arquitectura definida por el <strong>Reglamento Nacional de Regiones Scout (Art. 1.20)</strong> y el <strong>Reglamento Nacional de Grupos Scouts (Art. 1.19)</strong>. Conocer esta asimetría evita errores graves."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aquí está la parte que la mayoría de adultos del Movimiento no tiene clara — y que ya entendiste por qué importa: en regiones y grupos hay los mismos 5 tipos de función, pero los órganos que los cumplen son distintos. Vamos parte por parte."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🏘️ Nivel Regional — según Art. 1.20 del Reglamento Nacional de Regiones Scout"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🏛️ Dirección — Asamblea Regional", "description": "Reúne a delegados de los grupos de la región. Aprueba el Plan Regional, elige al Consejo Regional, al Revisor Fiscal y a representantes a la Asamblea Nacional.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
+            { "title": "⚙️ Administración — Consejo Regional", "description": "Dirige la región en receso de la Asamblea. Encabezado por el Presidente del Consejo Regional. Incluye al Comisionado Regional.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🛠️ Técnico — Jefatura Regional", "description": "Equipo operativo de la región, liderado por el Comisionado Regional (o Jefe Regional, según nomenclatura regional). Coordina la asistencia a los grupos.", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "⚖️ Investigación — Capítulo Regional de la Corte de Honor Nacional (Art. 1.20.4)", "description": "⚠️ Importante: NO es una “Corte de Honor Regional” autónoma. Es un Capítulo regional que depende doctrinalmente de la Corte de Honor Nacional. Investiga, recibe pruebas y propone reconocimientos a nivel regional.", "color": "#fce4ec", "borderColor": "#e91e63" },
+            { "title": "👁️ Control — Revisor Fiscal Regional y Suplente (Art. 1.20.5)", "description": "Órgano unipersonal. Elegido anualmente por la Asamblea con su Suplente. Tiene voz pero NO voto en el Consejo Regional. Firma estados financieros, presenta informe anual, puede solicitar la intervención del nivel nacional si encuentra irregularidades.", "color": "#fff9c4", "borderColor": "#fbc02d" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🏠 Nivel Grupo — según Art. 1.19 del Reglamento Nacional de Grupos Scouts"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🏛️ Dirección — Asamblea de Grupo", "description": "Reúne a los asociados del grupo (familias, dirigentes, en algunos casos los jóvenes mayores con voz). Aprueba el Plan de Grupo, elige al Consejo de Grupo, al Fiscal/Revisor Fiscal. Define las normas de funcionamiento del Grupo (Art. 4.3.12).", "color": "#f3e5f5", "borderColor": "#9c27b0" },
+            { "title": "⚙️ Administración — Consejo de Grupo", "description": "11 cargos típicos: presidente, vicepresidente, secretario, tesorero, contador, consejero juvenil, intendente, canciller, asesores personales y otros. Es la administración del día a día.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🛠️ Técnico — Equipo de Jefatura del Grupo", "description": "Encabezado por el Jefe de Grupo. Son los dirigentes que efectivamente trabajan con los chicos en cada rama (Manada, Tropa, Comunidad, Clan).", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "⚖️ Investigación — Comisión Disciplinaria Ad-hoc (Art. 1.19.4)", "description": "⚠️ Importante: NO es permanente. Se convoca solo cuando hay un caso que tratar. Es presidida por el <strong>Vicepresidente del Consejo de Grupo</strong> (Art. 5.10.4). NO existe en la normatividad vigente una “Corte de Honor de Grupo” formal.", "color": "#fce4ec", "borderColor": "#e91e63" },
+            { "title": "👁️ Control — Fiscal o Revisor Fiscal de Grupo y Suplente (Art. 1.19.5)", "description": "Órgano unipersonal. Elegido anualmente por la Asamblea con su Suplente. Tiene voz pero NO voto en el Consejo de Grupo. Mismo perfil de funciones que el regional, a escala del grupo.", "color": "#fff9c4", "borderColor": "#fbc02d" }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>Por nivel, el órgano de control y el órgano de disciplina son distintos:</strong><br>🇨🇴 <strong>Nacional</strong> → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ <strong>Regional</strong> → Revisor Fiscal (control) + Capítulo Regional de la Corte de Honor Nacional (disciplina).<br>🏠 <strong>Grupo</strong> → Fiscal/Revisor Fiscal (control) + Comisión Disciplinaria Ad-hoc (disciplina, solo cuando se convoca)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Errores institucionales típicos por nivel"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "title": "Regional — Confundir Capítulo Regional con Corte autónoma", "description": "Un comisionado regional convoca al “Capítulo Regional de la Corte de Honor” para que dicte sentencia disciplinaria a un dirigente. <strong>Error.</strong> El Capítulo investiga y recoge pruebas, pero la sentencia formal la dicta la Corte de Honor Nacional. <strong>Prevención:</strong> trabajar siempre con un cronograma articulado entre Capítulo regional y CHN nacional, no como órganos paralelos." },
+            { "title": "Grupo — No convocar el Fiscal a las reuniones del Consejo", "description": "El Consejo de Grupo decide la asignación de los recursos del año sin que el Fiscal esté presente o haya sido convocado. Cuando el Fiscal pide los soportes 6 meses después, el Consejo no los tiene completos y firma a la carrera. <strong>Prevención:</strong> el Fiscal/Revisor Fiscal tiene voz en el Consejo — convocarlo a todas las reuniones donde haya temas financieros relevantes evita problemas a fin de año." }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver Art. 1.20.5 del Reglamento Nacional de Regiones",
+          "text": "El Revisor Fiscal Regional y su Suplente son elegidos por la Asamblea Regional anualmente, tienen voz pero no voto en el Consejo Regional, firman los estados financieros, presentan informe anual y pueden solicitar la intervención del nivel nacional cuando encuentren irregularidades.",
+          "source": "Reglamento Nacional de Regiones Scout, Art. 1.20.5 (parafraseado)"
+        }
+      ],
+      "reflection": {
+        "prompt": "En tu grupo o región, ¿se reúne el órgano de disciplina cuando se necesita? ¿Está presente el órgano de control (Fiscal o Revisor Fiscal) en las decisiones del consejo? Anota qué pasa hoy y qué te gustaría que pasara."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "A nivel regional, ¿cuál es el órgano de control fiscal vigente según el Reglamento Nacional de Regiones Scout?",
+            "options": [
+              "La Comisión Regional de Vigilancia y Control.",
+              "El Revisor Fiscal Regional y su Suplente, con voz pero sin voto en el Consejo Regional.",
+              "La Corte de Honor Regional."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "En el nivel de Grupo, el órgano que se encarga de los procesos disciplinarios es…",
+            "options": [
+              "Una Corte de Honor de Grupo permanente, similar a la del nivel nacional.",
+              "La Comisión Disciplinaria Ad-hoc, que NO es permanente y se convoca cuando hay un caso, presidida por el Vicepresidente del Consejo de Grupo.",
+              "El Jefe de Grupo solo, en su rol de cabeza visible del equipo."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 6 →"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — 🗺️ Tu mapa institucional personal",
+      "emoji": "🗺️",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>El conocimiento se vuelve útil cuando le pones <strong>nombre y apellido</strong> a cada órgano de tu institución. Saber a quién acudir antes de que pase algo es lo que te diferencia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Llegaste con teoría. Ahora vamos a aterrizarla en tu realidad concreta — tu grupo y tu región."
+        },
+        {
+          "type": "paragraph",
+          "text": "Te acuerdas del cuento del Curso 1 — “Todo el mundo, Alguien, Cualquiera y Nadie”? La versión institucional de ese cuento es: <strong>cuando no sabes a quién acudir, terminas escribiéndole a “Alguien” que nunca responde</strong>. Vamos a evitarlo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📝 Llena tu mapa institucional"
+        },
+        {
+          "type": "paragraph",
+          "text": "En la siguiente hoja vas a anotar quién es la persona concreta —con nombre completo— que ocupa cada cargo en tu grupo y tu región hoy. Si no lo sabes, anótalo como “pendiente averiguar”. La hoja es para ti."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu mapa institucional — Nivel Grupo:</strong><br>• Jefe de Grupo: __________<br>• Presidente del Consejo de Grupo: __________<br>• Vicepresidente del Consejo: __________<br>• Tesorero: __________<br>• Contador: __________<br>• Secretario: __________<br>• Consejero Juvenil del Grupo: __________<br>• Fiscal o Revisor Fiscal del Grupo: __________"
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu mapa institucional — Nivel Regional:</strong><br>• Comisionado Regional (o Jefe Regional): __________<br>• Presidente del Consejo Regional: __________<br>• Revisor Fiscal Regional: __________<br>• Comisionado Regional de Desarrollo Institucional: __________<br>• Tu consejero regional (si aplica): __________"
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu mapa institucional — Nivel Nacional:</strong><br>• Jefe Scout Nacional: __________<br>• Director Nacional de Desarrollo Institucional (DNDI): __________<br>• Director Nacional de Adultos (DNAM): __________<br>• Director Nacional de Programa de Jóvenes (DNPJ): __________"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "💡 Cuándo acudir a quién"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🛠️ Pregunta operativa (cómo se hace un trámite, plantilla de un formato)", "description": "Equipo de Jefatura del nivel correspondiente: Jefatura del Grupo, Jefatura Regional o la Dirección Nacional respectiva.", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "⚖️ Conflicto entre personas o falta disciplinaria", "description": "Comisión Disciplinaria Ad-hoc (grupo) → Capítulo Regional de la Corte de Honor (región) → Corte de Honor Nacional (nacional).", "color": "#fce4ec", "borderColor": "#e91e63" },
+            { "title": "👁️ Sospecha de irregularidad financiera o administrativa", "description": "Fiscal o Revisor Fiscal del nivel (grupo o región) → Comisión Nacional de Vigilancia y Control (nivel nacional).", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🏛️ Propuesta política o cambio de fondo", "description": "Asamblea o Consejo del nivel — depende de la magnitud. Las políticas las define el CSN; los planes operativos los aprueba el Consejo correspondiente.", "color": "#f3e5f5", "borderColor": "#9c27b0" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que viene"
+        },
+        {
+          "type": "paragraph",
+          "text": "El <strong>Curso 4</strong> entra al detalle de los <strong>8 ámbitos de gestión</strong> de la PNDI — es donde vas a ver qué tipo de trabajo institucional hace cada uno de estos órganos en su día a día. Y el <strong>Curso 5</strong> te dará un instrumento para evaluar la salud institucional de tu grupo o región usando 6 dimensiones."
+        },
+        {
+          "type": "blockquote",
+          "text": "En una institución sana sabes a quién acudir antes de que pase algo. Acabas de construir tu mapa — guárdalo y úsalo."
+        }
+      ],
+      "reflection": {
+        "prompt": "De los cargos que listaste, ¿cuántos pudiste nombrar sin investigar? Si quedaron varios “pendiente averiguar”, escribe un compromiso: “¿A quién voy a preguntarle esta semana para completarlo?”"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6 — Cierre del curso",
+        "questions": [
+          {
+            "text": "Un padre de familia denuncia que un dirigente se llevó una plata del grupo sin reportarla. ¿A qué órgano debería escalarse primero el caso en un grupo?",
+            "options": [
+              "A la Comisión Nacional de Vigilancia y Control directamente, porque es asunto serio.",
+              "Al Fiscal o Revisor Fiscal del Grupo (para auditar) y, si la conducta amerita sanción, convocar la Comisión Disciplinaria Ad-hoc del Consejo de Grupo.",
+              "A la Corte de Honor Nacional, porque es un asunto disciplinario."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Si quieres proponer una modificación al Plan de Grupo, ¿a quién acudes primero?",
+            "options": [
+              "Al Consejo Scout Nacional.",
+              "Al Consejo de Grupo, que es el órgano de administración del nivel local.",
+              "A la Asamblea Scout Nacional, porque las modificaciones son políticas."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Obtener Certificado 🏆"
+      }
+    }
+  ],
+  "achievements": [
+    { "id": "achievement-1", "name": "Conozco los 5 niveles", "emoji": "🌍", "unlockOnModule": 2 },
+    { "id": "achievement-2", "name": "Distingo los tipos de órgano", "emoji": "🧱", "unlockOnModule": 3 },
+    { "id": "achievement-3", "name": "Conozco la ASC nacional", "emoji": "🇨🇴", "unlockOnModule": 4 },
+    { "id": "achievement-4", "name": "Conozco mi región y mi grupo", "emoji": "🏘️", "unlockOnModule": 5 },
+    { "id": "achievement-5", "name": "Mapa institucional listo", "emoji": "📝", "unlockOnModule": 6 },
+    { "id": "achievement-final", "name": "Tengo mi mapa institucional", "emoji": "🗺️", "unlockOnModule": -1 }
+  ],
+  "certificate": {
+    "courseName": "NIVELES Y ESTRUCTURA DEL MOVIMIENTO",
+    "description": "ha completado el Curso 3 del Nivel 1 — Fundamentación de la Línea Desarrollo Institucional, reconociendo los 5 niveles del Movimiento Scout (Mundial, Interamericano, Nacional, Regional y Local), los 5 tipos genéricos de órganos en una institución sana, la arquitectura asimétrica vigente de la Asociación Scouts de Colombia según el Estatuto Nacional 2025, el Reglamento Nacional de Regiones Scout (Art. 1.20) y el Reglamento Nacional de Grupos Scouts (Art. 1.19), y construyendo su mapa institucional personal con los nombres concretos de cada órgano en su grupo y región"
+  }
+}

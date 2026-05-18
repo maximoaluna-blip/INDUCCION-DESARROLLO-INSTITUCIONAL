@@ -1,0 +1,481 @@
+{
+  "courseId": "los-8-ambitos-de-gestion",
+  "title": "Los 8 Ámbitos de Gestión",
+  "subtitle": "Curso 4 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
+  "description": "Recorrido panorámico de los 8 ámbitos de gestión que la PNDI 2017 identifica como el contenido operativo del Desarrollo Institucional. Una micro-historia por ámbito (no 8 definiciones). Al final, el adulto sabe ubicar cualquier decisión cotidiana del grupo en el ámbito que le corresponde.",
+  "icon": "🧭",
+  "duration": "~35 min",
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~35 minutos (el más largo del Nivel 1) · 6 lecciones.</strong><br>Al final vas a tener el mapa completo de los 8 ámbitos del Desarrollo Institucional, sabrás ubicar cualquier decisión de tu grupo en el ámbito correcto, y habrás identificado tus 2-3 ámbitos prioritarios para aportar."
+        },
+        {
+          "type": "paragraph",
+          "text": "En una reunión de consejo de grupo, un dirigente propone: 'Deberíamos mandar a alguien al congreso scout regional el próximo mes'. La conversación se va al costo (¿alcanza el presupuesto?), al permiso (¿quién lo aprueba?), al impacto (¿qué ganamos?). Lo que la conversación NO menciona es que esa propuesta toca al menos 4 ámbitos del DI: Gobernanza (decisión del consejo), Recursos Económicos (presupuesto), Comunicaciones (vamos a representar al grupo) y Crecimiento (oportunidad de aprendizaje). <strong>Cuando ves los ámbitos, la conversación se ordena.</strong>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a vivir en este curso"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 🗺️ Mapa de los 8 ámbitos (vista panorámica): los 8 ámbitos cubren TODO el trabajo institucional del grupo, sin huecos ni dobles.",
+            "<strong>Lección 3 —</strong> 🏛️ Ámbitos 1-3 (Gobernanza, Administración, Recursos Económicos): los tres ámbitos que sostienen la operación interna del grupo.",
+            "<strong>Lección 4 —</strong> 🌐 Ámbitos 4-6 (Comunicaciones, Relaciones Internacionales, Crecimiento): los tres ámbitos que conectan al grupo con el exterior y el futuro.",
+            "<strong>Lección 5 —</strong> 🛡️ Ámbitos 7-8 (Gestión del Riesgo, Control y Reconocimiento): los dos ámbitos que protegen al grupo y estimulan lo que sale bien.",
+            "<strong>Lección 6 —</strong> 🎯 Tus ámbitos prioritarios + la diferencia entre 8 ámbitos PNDI y 5 subcategorías DNDI vigentes."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tip de uso:</strong> este es el curso más denso del Nivel 1 — son 8 ámbitos en 35 minutos. No intentes memorizarlos. Concéntrate en <strong>reconocer cada ámbito por su historia</strong>, no por su definición. Eso es lo que vas a usar el resto de tu vida scout."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 🗺️ Mapa de los 8 ámbitos (vista panorámica)",
+      "emoji": "🗺️",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Los 8 ámbitos cubren TODO el trabajo institucional del grupo, sin huecos ni dobles. Conocerlos es como tener el plano de tu casa."
+        },
+        {
+          "type": "paragraph",
+          "text": "La PNDI 2017 hizo un ejercicio de cartografía: dividió todo lo que se hace en un grupo, una región o la nación para sostener la institución, en 8 cajas grandes. Esas cajas son los <strong>8 ámbitos de gestión</strong>. Cubren la totalidad del trabajo institucional. Cuando una decisión no entra en ningún ámbito, casi seguro hay algún error de diseño — y cuando entra en varios a la vez (como en el ejemplo del congreso de la lección anterior), eso te dice que es una decisión institucionalmente compleja."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🧭 Los 8 ámbitos de un vistazo"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🏛️ 1. Gobernanza", "description": "Cómo se toman las decisiones, quién decide qué, cómo se documentan.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
+            { "title": "🗂️ 2. Administración", "description": "Activos, RR.HH. del grupo, obligaciones legales, servicios generales. La administración interna.", "color": "#e3f2fd", "borderColor": "#1565c0" },
+            { "title": "💰 3. Recursos Económicos", "description": "De dónde viene la plata, cómo se gestiona, qué proyectos se financian, márgenes y sostenibilidad.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "📣 4. Comunicaciones e Interinstitucionales", "description": "Cómo se comunica el grupo internamente, con su comunidad, con la prensa, con otras organizaciones.", "color": "#fff3e0", "borderColor": "#ff9800" },
+            { "title": "🌐 5. Relaciones Internacionales", "description": "Vínculo con OMMS, con OSN de otros países, con multilaterales (ONU, UNESCO, UNICEF).", "color": "#e1f5fe", "borderColor": "#03a9f4" },
+            { "title": "📈 6. Crecimiento y Sistema de Información", "description": "Cómo crece la membresía, cómo se registra y se hace seguimiento, las bases de datos del grupo.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🛡️ 7. Gestión del Riesgo", "description": "Ambiente seguro, protección financiera, actividades seguras. Lo que evita que las cosas salgan mal.", "color": "#ffebee", "borderColor": "#f44336" },
+            { "title": "🏅 8. Control y Reconocimiento", "description": "Vigilancia, fiscalización, estímulos y reconocimientos. Lo que premia lo bueno y previene lo malo.", "color": "#fff8e1", "borderColor": "#ffa000" }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🧩 Sub-ámbitos:</strong> Cada uno de los 8 ámbitos tiene <strong>sub-ámbitos</strong> que lo desagregan. Por ejemplo, <strong>Administración</strong> incluye 7 sub-ámbitos: recursos financieros, activos fijos y variables, RRHH del grupo, pasivos y obligaciones, unidades de negocio, obligaciones legales con el Estado, servicios generales de planta física. En este curso ves el panorama; los Cursos 9-14 del Nivel 2 entran al detalle de cada uno."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lista oficial de la PNDI",
+          "text": "Los ámbitos de gestión del Desarrollo Institucional son: 8.2.1 Gobernanza; 8.2.2 Administración; 8.2.3 Recursos Económicos; 8.2.4 Comunicaciones e Interinstitucionales; 8.2.5 Relaciones Internacionales; 8.2.6 Crecimiento y Sistema de Información; 8.2.7 Gestión del Riesgo; 8.2.8 Control y Reconocimiento.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, Capítulo 8, Sección 8.2"
+        }
+      ],
+      "reflection": {
+        "prompt": "Mira la lista de los 8 ámbitos. Sin pensar mucho: ¿cuáles dos son los que crees que tu grupo trabaja mejor? ¿Cuáles dos son los más descuidados? Tu intuición vale — vamos a contrastarla al final del curso."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "Según la PNDI 2017, ¿cuántos ámbitos de gestión componen el Desarrollo Institucional?",
+            "options": [
+              "4 ámbitos.",
+              "6 ámbitos.",
+              "8 ámbitos."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Una propuesta del consejo de grupo que toca a la vez Gobernanza, Recursos Económicos y Comunicaciones es…",
+            "options": [
+              "Una propuesta mal hecha que debería separarse en tres.",
+              "Una propuesta institucionalmente compleja que requiere análisis cruzado de varios ámbitos.",
+              "Una propuesta que solo el comisionado nacional puede aprobar."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 3 →"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🏛️ Ámbitos 1-3 — Gobernanza, Administración, Recursos Económicos",
+      "emoji": "🏛️",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 8 minutos · 1 idea central:</strong><br>Estos tres ámbitos sostienen la <strong>operación interna</strong> del grupo. Sin ellos, lo demás se cae."
+        },
+        {
+          "type": "paragraph",
+          "text": "Empezamos por adentro. Estos tres ámbitos —cómo decidimos, cómo nos administramos, de dónde sacamos la plata— son la columna interna del grupo. En grupos que llevan años sosteniéndose, estos tres están aceitados. En grupos que se rompen, casi siempre falla al menos uno de los tres."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🏛️ Ámbito 1 — Gobernanza"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué cubre:</strong> cómo se toman las decisiones, quién decide qué, cómo se documentan, cómo se aplican las regulaciones internas (Estatuto Nacional 2025, Reglamento de Grupos, Reglamento de Regiones) y externas (ley civil), y cómo se planifica estratégicamente. El <strong>Modelo de Gobernanza</strong> tiene 4 elementos: <strong>sentido</strong> (para qué existe el grupo), <strong>estructura</strong> (qué órganos lo conforman — los viste en el Curso 3), <strong>legitimidad</strong> (de dónde viene la autoridad de cada órgano) y <strong>funcionamiento</strong> (cómo opera el día a día)."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "title": "🏛️ Caso Grupo 'Catatumbo'", "description": "El consejo de grupo decide grabar todas las sesiones (con consentimiento), generar acta resumida al cierre, firmarla todos antes de salir y publicarla la semana siguiente en la carpeta compartida. Tres años después, cuando llega un padre a reclamar por una decisión vieja, en 4 minutos sacan la grabación y el acta. La reclamación se atiende sin tensión: hay evidencia y trazabilidad. <strong>Gobernanza sana.</strong>" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🗂️ Ámbito 2 — Administración"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué cubre:</strong> los 7 sub-ámbitos de la administración interna del grupo: <strong>recursos financieros</strong>, <strong>activos fijos y variables</strong> (sede, carpas, equipos), <strong>recursos humanos</strong> (los dirigentes, los voluntarios), <strong>pasivos y obligaciones</strong>, <strong>unidades de negocio</strong> (si el grupo opera una cantina, una tienda scout), <strong>obligaciones legales con el Estado</strong> (cámara de comercio, retenciones, impuestos), y <strong>servicios generales de planta física</strong> (luz, agua, mantenimiento de la sede)."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "title": "🗂️ Caso Grupo 'Coraje'", "description": "El intendente hace inventario de carpas, equipos, libros y herramientas cada 6 meses, antes y después de la temporada de campamentos. Cuando un equipo se daña, queda registrado quién lo reportó y cuándo. Cuando llega un dirigente nuevo, no tiene que adivinar qué tienen — abre la planilla. <strong>Administración sana.</strong>" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "💰 Ámbito 3 — Recursos Económicos"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué cubre:</strong> las <strong>6 fuentes de fondos</strong> clásicas del scoutismo (cuotas, eventos del grupo, servicios a terceros, aliados, donaciones, convocatorias), la planeación financiera, el manejo de proyectos. La PNDI sugiere un <strong>margen mínimo del 17%</strong> sobre los ingresos para reinversión. Aquí entra también el <strong>ciclo de proyectos</strong> (11 fases del Project Cycle de WOSM) cuando el grupo postula a fondos externos."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "title": "💰 Caso Grupo 'Sumapaz'", "description": "Llegan a fin de año con margen de 22 % sobre ingresos. ¿Por qué? Porque diversificaron: cuota mensual familiar, kermés trimestral con el barrio, servicio de catering en eventos comunitarios (una vez al mes), una empresa local que aporta como aliado anual, y postulación a un fondo municipal. Cuando un padre pierde el trabajo y no puede pagar la cuota, el grupo le da beca con cargo a esa reserva — sin que el resto del año se afecte. <strong>Recursos Económicos sanos.</strong>" }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔗 Conexión:</strong> Estos tres ámbitos se ven en detalle en los Cursos 7 (Gobernanza Práctica), 9 (Administración del Grupo) y 10 (Finanzas Sanas) del Nivel 2. Acá viste el panorama; el detalle viene después."
+        }
+      ],
+      "reflection": {
+        "prompt": "De los 3 ámbitos de esta lección, escribe en una frase qué tan saludable está cada uno en tu grupo — usando una escala simple: 🟢 sano, 🟡 con observaciones, 🔴 frágil. Y la razón en pocas palabras."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "Los 7 sub-ámbitos de Administración del grupo incluyen…",
+            "options": [
+              "Solo recursos financieros y activos fijos.",
+              "Solo lo que tiene que ver con el dinero del grupo.",
+              "Recursos financieros, activos, RR.HH., pasivos, unidades de negocio, obligaciones con el Estado y servicios generales."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Si tu grupo opera la cuota mensual, una kermés anual y aspira a postular a un fondo municipal, está trabajando principalmente en el ámbito de…",
+            "options": [
+              "Gobernanza.",
+              "Recursos Económicos.",
+              "Comunicaciones."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 4 →"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 🌐 Ámbitos 4-6 — Comunicaciones, Relaciones Internacionales, Crecimiento",
+      "emoji": "🌐",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 8 minutos · 1 idea central:</strong><br>Estos tres ámbitos conectan al grupo con el <strong>exterior y con el futuro</strong>. Sin ellos, el grupo queda aislado y se agota."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si los tres ámbitos anteriores son la columna interna, estos tres son los brazos que llegan afuera y los ojos que miran al horizonte. Un grupo solo con columna interna se mantiene, pero no crece ni se renueva. Estos tres ámbitos son los que evitan que el grupo se convierta en una isla."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📣 Ámbito 4 — Comunicaciones e Interinstitucionales"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué cubre:</strong> los 4 sub-ámbitos de comunicación: <strong>internas</strong> (entre dirigentes, entre el consejo y las familias), <strong>externas</strong> (con la comunidad del barrio, redes sociales, prensa), <strong>relaciones públicas</strong> (eventos, alianzas con instituciones locales), e <strong>interinstitucionales</strong> (vínculo con la región, la nación, otras organizaciones). Incluye la <strong>imagen institucional</strong>, el manejo de <strong>marca</strong> y la <strong>narrativa pública</strong> del grupo."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "title": "📣 Caso Grupo 'Iguaque'", "description": "Cuando hubo un accidente menor en un campamento, el jefe de grupo escribió un comunicado a las familias en 30 minutos: qué pasó, qué medidas se tomaron, qué van a hacer para que no se repita. Esa misma noche lo publicaron en el grupo de WhatsApp y por correo. Tres familias agradecieron la transparencia. Una preguntó cómo apoyar. <strong>Cero familias se retiraron</strong>. La diferencia entre rumor y comunicación oportuna es enorme. <strong>Comunicaciones sanas.</strong>" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🌐 Ámbito 5 — Relaciones Internacionales"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué cubre:</strong> el vínculo del nivel correspondiente con la <strong>OMMS</strong> (Organización Mundial del Movimiento Scout), con la <strong>Región Scout Interamericana</strong>, con <strong>OSN de otros países</strong>, y con organismos multilaterales (ONU, UNESCO, UNICEF). A nivel de grupo, este ámbito generalmente se experimenta como <strong>participación en proyectos mundiales</strong> (Scouts for SDGs, Tide Turners, Earth Tribe, etc.) más que como diplomacia formal."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "title": "🌐 Caso Grupo 'Bachué'", "description": "Postularon su proyecto de huerta comunitaria al programa global 'Champions for Nature' de WOSM. Lo presentaron en inglés con apoyo de la jefa de tropa que es traductora. Los aceptaron, recibieron un kit de implementación, conectaron con un grupo en Filipinas que hace algo parecido. El proyecto creció. Las chicas del clan publicaron un video del intercambio. <strong>El scoutismo es global, pero solo si te conectas. Relaciones Internacionales operando.</strong>" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📈 Ámbito 6 — Crecimiento y Sistema de Información"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué cubre:</strong> cómo crece la membresía (cuántos chicos y adultos entran y salen cada año), cómo se registra y se hace seguimiento (la base de datos del grupo, el sistema de identificación scout, los carnés), las estadísticas básicas, el apoyo a la membresía existente. La plataforma <strong>SiScout</strong> y el <strong>Modelo de Servicios OMMS</strong> entran acá. <strong>KPI del Plan Regional Interamericano 2022-2025:</strong> crecimiento ≥ 2 % anual."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "title": "📈 Caso Grupo 'Pisamadores'", "description": "Hace 4 años, el grupo tenía 28 chicos y 6 dirigentes. La comisionada regional de crecimiento les propuso un plan trienal: campaña de barrio una vez al año, jornada de puertas abiertas, mejorar el seguimiento de los que se inscriben pero no vuelven. Llevaron registro mes a mes en una hoja simple. Tres años después tienen 65 chicos y 11 dirigentes. Crecieron sostenidamente. <strong>Crecimiento medido y planeado.</strong>" }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔗 Conexión:</strong> Estos tres ámbitos se ven en detalle en los Cursos 12 (Comunicaciones y Relaciones Interinstitucionales) y 13 (Crecimiento y Sistema de Información) del Nivel 2. Y en el Curso 24 del Nivel 4 (Articulación con Plan Trienal Mundial y Plan Regional) verás cómo se traduce este nivel a estrategia."
+        }
+      ],
+      "reflection": {
+        "prompt": "De los 3 ámbitos de esta lección, escribe en una frase qué tan saludable está cada uno en tu grupo (🟢 / 🟡 / 🔴) y la razón."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Que el jefe de grupo escriba a las familias 30 minutos después de un accidente menor en campamento, con qué pasó, qué se hizo y cómo lo van a prevenir, es un ejemplo de…",
+            "options": [
+              "Gobernanza.",
+              "Comunicaciones (sub-ámbito Comunicación Externa).",
+              "Gestión del Riesgo (sub-ámbito ambiente seguro)."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El KPI del Plan Regional Interamericano 2022-2025 para Crecimiento es de aproximadamente…",
+            "options": [
+              "≥ 2 % anual de crecimiento de membresía.",
+              "≥ 15 % anual de crecimiento de membresía.",
+              "Mantener membresía estable, sin crecimiento neto."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 5 →"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 🛡️ Ámbitos 7-8 — Gestión del Riesgo, Control y Reconocimiento",
+      "emoji": "🛡️",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>Estos dos ámbitos <strong>protegen</strong> al grupo: uno evita que las cosas salgan mal; el otro premia lo bueno y vigila lo malo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ya viste cómo el grupo decide, se administra, se financia, se comunica, se conecta y crece. Faltan dos ámbitos críticos: el escudo (Gestión del Riesgo) y el espejo + premio (Control y Reconocimiento)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🛡️ Ámbito 7 — Gestión del Riesgo"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué cubre:</strong> las 3 áreas transversales de riesgo en el scoutismo según la doctrina vigente: <strong>ambiente seguro</strong> (A Salvo del Peligro, prevención de abuso), <strong>protección financiera y patrimonial</strong> (cuidar la plata y los bienes del grupo), <strong>actividades seguras</strong> (campamentos, salidas, transporte, primeros auxilios). El <strong>ciclo de gestión del riesgo</strong> tiene 4 pasos: identificación, análisis, tratamiento y monitoreo."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "title": "🛡️ Caso Grupo 'Llanos'", "description": "Antes de cada salida hacen un protocolo de 15 minutos: lista de participantes (con padres firmando autorización), hoja de salud por participante, contactos de emergencia, ruta y horarios, protocolo de transporte (¿quién maneja, qué vehículo, hay seguro?), kit de primeros auxilios, un adulto certificado en primeros auxilios. Cuando hubo un esguince en el cerro, lo manejaron en 8 minutos. La región los citó como modelo. <strong>Gestión del Riesgo operando.</strong>" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🏅 Ámbito 8 — Control y Reconocimiento"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué cubre:</strong> los órganos de control (que viste en el Curso 3) y todo el sistema de <strong>estímulos y reconocimientos</strong> del scoutismo. Esto incluye el <strong>Manual de Estímulos Nacionales</strong> y el <strong>Manual de la Orden al Mérito Scout</strong> (ambos del CSN 2022), que regulan los reconocimientos a dirigentes y voluntarios destacados. <strong>Premia lo que funciona, vigila lo que se desvía.</strong>"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            { "title": "🏅 Caso Grupo 'Tatamá'", "description": "Cada año, en la asamblea de grupo, dedican 20 minutos a reconocimientos formales: el dirigente del año (elegido por las familias), el chico con mayor progresión personal por rama, el aporte voluntario del año (un papá o mamá que se destacó), un pin para los dirigentes que cumplen 5, 10, 15 y 20 años. Es un momento sentido. Los reconocimientos no son protocolarios — están bien argumentados. El año siguiente, varios más quieren ese pin. <strong>Reconocimiento que motiva.</strong>" }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔗 Conexión:</strong> El ámbito de Gestión del Riesgo se desarrolla en el Curso 14 del Nivel 2. El de Control y Reconocimiento se cruza con el Curso 20 del Nivel 3 (Órganos de control y disciplina) y el Curso 22 del Nivel 4 (Buenas Prácticas Institucionales) y el Curso 23 (Código de Honor, Ética y Conflictos de Intereses)."
+        }
+      ],
+      "reflection": {
+        "prompt": "De los 2 ámbitos de esta lección, escribe en una frase cómo está cada uno en tu grupo (🟢 / 🟡 / 🔴). Y específicamente para Gestión del Riesgo: ¿cuándo fue la última vez que tu grupo revisó su protocolo de salidas?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "El ámbito de Gestión del Riesgo tiene 3 áreas transversales. ¿Cuáles?",
+            "options": [
+              "Ambiente seguro, protección financiera-patrimonial, actividades seguras.",
+              "Gobernanza, administración, finanzas.",
+              "Salud física, salud mental, salud social."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El Manual de Estímulos Nacionales y el Manual de la Orden al Mérito Scout son herramientas del ámbito de…",
+            "options": [
+              "Crecimiento y Sistema de Información.",
+              "Comunicaciones e Interinstitucionales.",
+              "Control y Reconocimiento (sub-ámbito reconocimientos y estímulos)."
+            ],
+            "correctIndex": 2
+          }
+        ],
+        "nextLabel": "Continuar a Lección 6 →"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — 🎯 Tus ámbitos prioritarios + 8 ámbitos vs 5 subcategorías DNDI",
+      "emoji": "🎯",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Identificas los 2-3 ámbitos donde puedes aportar más. Y entiendes la diferencia entre los 8 ámbitos PNDI (visión conceptual) y las 5 subcategorías operativas DNDI vigentes."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Tus 2-3 ámbitos prioritarios"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ya pasaste por los 8 ámbitos con una historia cada uno. Ahora viene la pregunta clave: <strong>¿dónde puedes aportar tú?</strong>"
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Identifica tus 2-3 ámbitos prioritarios:</strong><br><strong>Ámbito 1 prioritario:</strong> __________ (porque ___)<br><strong>Ámbito 2 prioritario:</strong> __________ (porque ___)<br><strong>Ámbito 3 prioritario (opcional):</strong> __________ (porque ___)<br><br>Para escoger, cruza tres criterios:<br>1. ¿Cuál ámbito es el más débil hoy en mi grupo o región?<br>2. ¿Cuál ámbito conecta con mi cargo o experiencia personal?<br>3. ¿En cuál puedo hacer un aporte concreto en los próximos 3-6 meses?"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🤔 ¿Por qué los 8 ámbitos PNDI no coinciden con las 5 subcategorías DNDI?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si entraste a scout.org.co/biblioteca/dndi, vas a notar algo interesante: la <strong>Dirección Nacional de Desarrollo Institucional</strong> no organiza sus documentos en 8 ámbitos, sino en <strong>5 subcategorías</strong>: A Salvo del Peligro, Calidad, Crecimiento, Gestión del Riesgo y Proyectos. ¿Es una contradicción? No."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "📜 8 ámbitos PNDI 2017", "description": "Visión <strong>conceptual</strong> del Desarrollo Institucional. Cubre TODO lo institucional del Movimiento. Es marco doctrinal.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
+            { "title": "🛠️ 5 subcategorías DNDI hoy", "description": "Organización <strong>operativa actual</strong> de la Dirección Nacional. Refleja las prioridades del cuatrienio. Es marco práctico de trabajo.", "color": "#e8f5e9", "borderColor": "#4caf50" }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La explicación: <strong>Gobernanza</strong> y <strong>Control</strong> están reguladas por el CSN (no por la DNDI), por eso no aparecen como subcategorías de la dirección. <strong>Comunicaciones</strong>, <strong>Relaciones Internacionales</strong> y <strong>Administración</strong> dependen de la Jefatura Scout Nacional como áreas transversales, no como direcciones independientes. La DNDI, en su organización operativa actual, se concentra en 5 prioridades clave del cuatrienio. <strong>Ambas vistas son válidas — la PNDI define el universo, la DNDI organiza las prioridades de hoy.</strong>"
+        },
+        {
+          "type": "info-box",
+          "text": "Las <strong>6 áreas estratégicas</strong> que aparecen en el PPTX FLOR DE LIS II (Gobernanza, Programa de Calidad, Crecimiento, Comunicaciones, Alianzas y Relaciones, Gestión de Riesgos) son una tercera vista — la del taller formativo regional. <strong>Las 3 vistas conviven</strong>: la PNDI (8 ámbitos doctrinales), la DNDI operativa (5 subcategorías) y el material formativo (6 áreas estratégicas). En el Curso 5 vas a usar las <strong>6 dimensiones de salud institucional</strong>, que es una cuarta vista — diseñada específicamente para evaluación."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🗺️ Lo que viene"
+        },
+        {
+          "type": "paragraph",
+          "text": "El <strong>Curso 5</strong> te entrega un <strong>autodiagnóstico interactivo</strong> sobre las 6 dimensiones de salud institucional. Vas a aplicarlo a tu grupo o región. Y el <strong>Curso 6</strong> convierte ese autodiagnóstico en un plan personal de aporte, partiendo de los ámbitos prioritarios que ya identificaste hoy."
+        },
+        {
+          "type": "blockquote",
+          "text": "Cuando puedes ponerle nombre al ámbito al que pertenece una decisión, dejas de improvisar y empiezas a gestionar. Ya tienes el lenguaje. Lo que sigue es la práctica."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tus 2-3 ámbitos prioritarios con su 'porque'. Esto se va a usar como insumo en el Curso 6 cuando construyas tu plan personal de aporte al DI."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6 — Cierre del curso",
+        "questions": [
+          {
+            "text": "Los 8 ámbitos de la PNDI 2017 y las 5 subcategorías operativas de la DNDI hoy…",
+            "options": [
+              "Son lo mismo con nombres distintos.",
+              "Conviven: la PNDI define el universo conceptual completo (8 ámbitos), la DNDI organiza sus 5 prioridades operativas del cuatrienio dentro de ese universo.",
+              "Se contradicen y la DNDI debería reorganizarse para coincidir con la PNDI."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Para escoger tus 2-3 ámbitos prioritarios donde aportar más, esta lección sugiere cruzar tres criterios. ¿Cuáles?",
+            "options": [
+              "Solo el cargo que ejerzo hoy.",
+              "Cuán débil está el ámbito en mi grupo/región + conexión con mi cargo o experiencia + capacidad de aporte concreto en 3-6 meses.",
+              "Solo lo que la región me asigne formalmente."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Obtener Certificado 🏆"
+      }
+    }
+  ],
+  "achievements": [
+    { "id": "achievement-1", "name": "Veo el mapa completo", "emoji": "🗺️", "unlockOnModule": 2 },
+    { "id": "achievement-2", "name": "Domino los ámbitos internos", "emoji": "🏛️", "unlockOnModule": 3 },
+    { "id": "achievement-3", "name": "Domino los ámbitos hacia afuera", "emoji": "🌐", "unlockOnModule": 4 },
+    { "id": "achievement-4", "name": "Domino los ámbitos protectores", "emoji": "🛡️", "unlockOnModule": 5 },
+    { "id": "achievement-5", "name": "Mis ámbitos prioritarios", "emoji": "🎯", "unlockOnModule": 6 },
+    { "id": "achievement-final", "name": "Ámbitos a la vista", "emoji": "🧭", "unlockOnModule": -1 }
+  ],
+  "certificate": {
+    "courseName": "LOS 8 ÁMBITOS DE GESTIÓN",
+    "description": "ha completado el Curso 4 del Nivel 1 — Fundamentación de la Línea Desarrollo Institucional, dominando el mapa panorámico de los 8 ámbitos de gestión definidos por la PNDI 2017, reconociendo una micro-historia ilustrativa por cada ámbito, distinguiendo la visión conceptual (8 ámbitos PNDI) de la organización operativa actual (5 subcategorías DNDI), e identificando sus 2-3 ámbitos prioritarios para aportar en su grupo o región"
+  }
+}
