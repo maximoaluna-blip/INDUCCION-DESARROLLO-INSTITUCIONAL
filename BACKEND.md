@@ -22,10 +22,10 @@
 
 | Campo | Valor |
 |---|---|
-| **PROD_SCRIPT_ID** | `1x151jipDy7V2zed9uz9GMIYgmnB8LBhiKdX61Pmj3amWzY83n0Bbji4i` |
-| **PROD_DEPLOYMENT_URL** | `https://script.google.com/macros/s/AKfycbzs1IveYZc5i2hrH4P6NYtmMAasmVJ3gpIwRKb4SKEvWT6kFmuOsRcglZzNCkFdaTlE/exec` |
+| **PROD_SCRIPT_ID** | `1TTJ2VjNta0Vz4p6gAjwvsXggN8g8YfV-FrZuQtWvnUy0ZFRrYA-gCrqe` |
+| **PROD_DEPLOYMENT_URL** | `https://script.google.com/macros/s/AKfycbxxZBp6XpmdRzZS0BXO02WMq31K5FUU8-Mqzc2Sj0PcwB3cMcrhIqbHQA0naUQb5mgBWw/exec` |
 | **AUTH_TOKEN** | `ADULTOS_ASC_2026` |
-| **Editor del script** | https://script.google.com/u/0/home/projects/1x151jipDy7V2zed9uz9GMIYgmnB8LBhiKdX61Pmj3amWzY83n0Bbji4i/edit |
+| **Editor del script** | https://script.google.com/u/0/home/projects/1TTJ2VjNta0Vz4p6gAjwvsXggN8g8YfV-FrZuQtWvnUy0ZFRrYA-gCrqe/edit |
 | **Repo dueño del backend** | `INDUCCION-ADULTOS` (mirar su `BACKEND.md`) |
 | **courseIds de esta línea en el sheet** | `bienvenida-desarrollo-institucional` (y los siguientes que se publiquen) |
 
