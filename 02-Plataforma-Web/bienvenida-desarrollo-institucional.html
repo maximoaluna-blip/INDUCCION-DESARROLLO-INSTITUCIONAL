@@ -963,6 +963,203 @@ body {
 [data-theme="dark"] .catalog-attrs { color: #bbb; }
 [data-theme="dark"] .attr-pill { background: #3a2b50; color: #d4b8ff; }
 
+/* --- Brujula Display & Action (Curso 6) --- */
+.brujula-display, .brujula-action {
+    margin: 18px 0;
+    background: #fff8e1;
+    border: 2px solid #ffa000;
+    border-radius: 10px;
+    padding: 16px 20px;
+}
+.brujula-display-loading, .brujula-action-loading,
+.catalog-display-loading, .courses-suggestion-loading {
+    color: #777;
+    font-style: italic;
+    margin: 0;
+}
+.brujula-display-empty, .brujula-action-empty,
+.courses-suggestion-empty {
+    color: #6d4c00;
+    line-height: 1.55;
+    margin: 0;
+}
+.brujula-display-label, .brujula-action-label {
+    font-weight: 700;
+    color: #b76a00;
+    margin-bottom: 8px;
+    font-size: 0.95em;
+}
+.brujula-display-text {
+    margin: 0;
+    padding: 12px 16px;
+    background: #fff;
+    border-left: 3px solid #ffa000;
+    border-radius: 4px;
+    font-style: italic;
+    color: #333;
+    line-height: 1.55;
+    white-space: pre-wrap;
+}
+.brujula-action-advice {
+    margin: 0;
+    color: #444;
+    line-height: 1.55;
+}
+[data-theme="dark"] .brujula-display, [data-theme="dark"] .brujula-action {
+    background: #3a2b00; border-color: #ffc107;
+}
+[data-theme="dark"] .brujula-display-text { background: #1a1325; color: #ddd; }
+[data-theme="dark"] .brujula-display-label, [data-theme="dark"] .brujula-action-label { color: #ffd54f; }
+[data-theme="dark"] .brujula-action-advice { color: #ddd; }
+
+/* --- Courses Suggestion (Curso 6) --- */
+.courses-suggestion {
+    margin: 18px 0;
+    background: #e8f5e9;
+    border: 2px solid #4caf50;
+    border-radius: 10px;
+    padding: 16px 20px;
+}
+.courses-suggestion-content p { margin: 0 0 10px 0; color: #1b5e20; }
+.courses-suggestion-list { margin: 8px 0; padding-left: 22px; }
+.courses-suggestion-list li { margin: 6px 0; color: #2e7d32; line-height: 1.5; }
+.courses-suggestion-disclaimer {
+    font-size: 0.85em;
+    color: #555;
+    font-style: italic;
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid #c8e6c9;
+}
+.courses-suggestion-strong p { color: #1b5e20; font-weight: 600; }
+[data-theme="dark"] .courses-suggestion { background: #1b3a2a; border-color: #66bb6a; }
+[data-theme="dark"] .courses-suggestion-content p,
+[data-theme="dark"] .courses-suggestion-list li { color: #a5d6a7; }
+
+/* --- Goal Planner (Curso 6 L4) --- */
+.goal-planner {
+    margin: 20px 0;
+    background: #f8f5fc;
+    border: 2px solid #622599;
+    border-radius: 10px;
+    padding: 22px;
+}
+.gp-intro {
+    color: #444;
+    font-size: 0.95em;
+    margin: 0 0 18px 0;
+}
+.gp-slots { display: flex; flex-direction: column; gap: 14px; }
+.goal-slot {
+    background: #fff;
+    border-left: 4px solid #622599;
+    border-radius: 8px;
+    padding: 14px 18px;
+}
+.goal-slot-title {
+    color: #622599;
+    margin: 0 0 10px 0;
+    font-size: 1em;
+    border-bottom: 1px solid #eadcfa;
+    padding-bottom: 6px;
+}
+.goal-field-label {
+    display: block;
+    font-size: 0.88em;
+    font-weight: 600;
+    color: #555;
+    margin: 10px 0 4px 0;
+}
+.goal-meta-select, .goal-plazo-select, .goal-input, .goal-textarea, .goal-custom-textarea {
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid #d4c2ec;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 0.92em;
+    box-sizing: border-box;
+}
+.goal-meta-select:focus, .goal-plazo-select:focus, .goal-input:focus, .goal-textarea:focus, .goal-custom-textarea:focus {
+    outline: 2px solid #622599;
+    border-color: #622599;
+}
+.goal-textarea, .goal-custom-textarea {
+    min-height: 50px;
+    resize: vertical;
+}
+.goal-fields.hidden { display: none; }
+.goal-custom-desc.hidden { display: none; }
+.goal-planner-actions { text-align: center; margin-top: 18px; }
+.goal-planner-actions .btn-primary {
+    background: #622599;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: background .2s;
+}
+.goal-planner-actions .btn-primary:hover { background: #4a1c75; }
+.gp-status {
+    margin-top: 16px;
+    padding: 14px 16px;
+    background: #e8f5e9;
+    border-left: 4px solid #4caf50;
+    border-radius: 6px;
+    color: #1b5e20;
+    line-height: 1.5;
+}
+[data-theme="dark"] .goal-planner { background: #2a1f3a; border-color: #b78fee; }
+[data-theme="dark"] .goal-slot { background: #1a1325; border-left-color: #b78fee; }
+[data-theme="dark"] .goal-slot-title { color: #d4b8ff; border-bottom-color: #3a2b50; }
+[data-theme="dark"] .goal-field-label { color: #bbb; }
+[data-theme="dark"] .goal-meta-select,
+[data-theme="dark"] .goal-plazo-select,
+[data-theme="dark"] .goal-input,
+[data-theme="dark"] .goal-textarea,
+[data-theme="dark"] .goal-custom-textarea {
+    background: #1a1325; border-color: #3a2b50; color: #ddd;
+}
+[data-theme="dark"] .gp-status { background: #1b3a2a; color: #a5d6a7; border-left-color: #4caf50; }
+
+/* --- PDF Generator (Curso 6 L6) --- */
+.pdf-generator {
+    margin: 20px 0;
+    background: #f8f5fc;
+    border: 2px dashed #622599;
+    border-radius: 10px;
+    padding: 22px;
+    text-align: center;
+}
+.pdf-generator-intro {
+    color: #444;
+    margin: 0 0 14px 0;
+    line-height: 1.55;
+}
+.pdf-generator .btn-primary {
+    background: #622599;
+    color: #fff;
+    border: none;
+    padding: 14px 32px;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background .2s;
+}
+.pdf-generator .btn-primary:hover { background: #4a1c75; }
+.pdf-generator-help {
+    margin: 12px 0 0 0;
+    color: #777;
+    font-size: 0.85em;
+    font-style: italic;
+}
+[data-theme="dark"] .pdf-generator { background: #2a1f3a; border-color: #b78fee; }
+[data-theme="dark"] .pdf-generator-intro,
+[data-theme="dark"] .pdf-generator-help { color: #bbb; }
+
 /* --- Print --- */
 @media print {
     body { background: white; }
@@ -1787,6 +1984,10 @@ window.addEventListener('DOMContentLoaded', function () {
     prefillFromGlobalProfile();
     updateElapsedTime();
     renderCatalogDisplays();
+    renderBrujulaDisplays();
+    renderBrujulaActions();
+    renderCoursesSuggestions();
+    renderGoalPlanners();
 });
 
 window.addEventListener('beforeunload', function () {
@@ -2978,7 +3179,7 @@ function recoverProgress() {
                     if (typeof restoreAssessmentSelections === 'function') restoreAssessmentSelections();
                 }
 
-                // Planes personales: restaurar el plan-builder y plan-builder-v2 (goal-planner)
+                // Planes personales: restaurar el plan-builder y goal-planner (Curso 6 DI)
                 if (serverData.plans && typeof serverData.plans === 'object') {
                     Object.keys(serverData.plans).forEach(function (pid) {
                         var savedPlan = serverData.plans[pid] || {};
@@ -2988,7 +3189,13 @@ function recoverProgress() {
                         }
                     });
                     if (typeof restorePlanState === 'function') restorePlanState();
+                    if (typeof renderGoalPlanners === 'function') renderGoalPlanners();
                 }
+
+                // Refrescar componentes del Curso 6 que dependen de datos cross-curso
+                if (typeof renderBrujulaDisplays === 'function') renderBrujulaDisplays();
+                if (typeof renderBrujulaActions === 'function') renderBrujulaActions();
+                if (typeof renderCoursesSuggestions === 'function') renderCoursesSuggestions();
 
                 saveProgress();
                 updateStats();
@@ -3222,6 +3429,446 @@ function renderCatalogDisplays() {
         html += '</div>';
         el.innerHTML = html;
     });
+}
+
+// ============================================================
+// CURSO 6 DI — Mi Aporte al DI
+// Catalogo de 24 metas-tipo (8 ambitos x 3 tipologias) + plan-builder
+// ============================================================
+
+var META_TIPO_CATALOG = [
+    { id: 'G-doc', tipologia: 'doc', ambito: 'Gobernanza', plazo: 6, label: '🟢 G-doc · Escribir la práctica de gobernanza del grupo y compartirla con la región (6 meses)' },
+    { id: 'G-fort', tipologia: 'fort', ambito: 'Gobernanza', plazo: 3, label: '🟡 G-fort · Implementar firma de acta al cierre + convocar al control financiero al consejo (3 meses)' },
+    { id: 'G-crear', tipologia: 'crear', ambito: 'Gobernanza', plazo: 3, label: '🔴 G-crear · Establecer ritual de reunión del consejo: agenda, acta, decisiones registradas (3 meses)' },
+    { id: 'A-doc', tipologia: 'doc', ambito: 'Administración', plazo: 6, label: '🟢 A-doc · Escribir el procedimiento administrativo del grupo (6 meses)' },
+    { id: 'A-fort', tipologia: 'fort', ambito: 'Administración', plazo: 6, label: '🟡 A-fort · Inventario completo de activos + voluntariado formalizado (6 meses)' },
+    { id: 'A-crear', tipologia: 'crear', ambito: 'Administración', plazo: 3, label: '🔴 A-crear · Lista nominal del equipo y los bienes del grupo (3 meses)' },
+    { id: 'RE-doc', tipologia: 'doc', ambito: 'Recursos Económicos', plazo: 6, label: '🟢 RE-doc · Escribir el plan financiero del grupo (6 fuentes, margen ≥17%) (6 meses)' },
+    { id: 'RE-fort', tipologia: 'fort', ambito: 'Recursos Económicos', plazo: 6, label: '🟡 RE-fort · Libro contable básico + diversificar al menos 2 fuentes adicionales (6 meses)' },
+    { id: 'RE-crear', tipologia: 'crear', ambito: 'Recursos Económicos', plazo: 3, label: '🔴 RE-crear · Abrir cuenta bancaria del grupo si no existe (3 meses)' },
+    { id: 'C-doc', tipologia: 'doc', ambito: 'Comunicaciones', plazo: 6, label: '🟢 C-doc · Escribir el manual de comunicaciones del grupo (6 meses)' },
+    { id: 'C-fort', tipologia: 'fort', ambito: 'Comunicaciones', plazo: 6, label: '🟡 C-fort · Comunicación mensual con familias + protocolo de crisis (6 meses)' },
+    { id: 'C-crear', tipologia: 'crear', ambito: 'Comunicaciones', plazo: 3, label: '🔴 C-crear · Crear el canal mínimo de comunicación con las familias (3 meses)' },
+    { id: 'RI-doc', tipologia: 'doc', ambito: 'Relaciones Internacionales', plazo: 12, label: '🟢 RI-doc · Sistematizar la experiencia internacional del grupo (12 meses)' },
+    { id: 'RI-fort', tipologia: 'fort', ambito: 'Relaciones Internacionales', plazo: 12, label: '🟡 RI-fort · Postular el grupo a un proyecto mundial de OMMS (12 meses)' },
+    { id: 'RI-crear', tipologia: 'crear', ambito: 'Relaciones Internacionales', plazo: 12, label: '🔴 RI-crear · Conectar el grupo con al menos un programa mundial (12 meses)' },
+    { id: 'CR-doc', tipologia: 'doc', ambito: 'Crecimiento', plazo: 6, label: '🟢 CR-doc · Escribir el método de crecimiento del grupo (6 meses)' },
+    { id: 'CR-fort', tipologia: 'fort', ambito: 'Crecimiento', plazo: 6, label: '🟡 CR-fort · Plan de Captación anual + SiScout al día + crecimiento ≥2% (6 meses)' },
+    { id: 'CR-crear', tipologia: 'crear', ambito: 'Crecimiento', plazo: 3, label: '🔴 CR-crear · Registro mensual de ingresos y salidas de membresía (3 meses)' },
+    { id: 'GR-doc', tipologia: 'doc', ambito: 'Gestión del Riesgo', plazo: 6, label: '🟢 GR-doc · Escribir el manual de gestión del riesgo del grupo (6 meses)' },
+    { id: 'GR-fort', tipologia: 'fort', ambito: 'Gestión del Riesgo', plazo: 6, label: '🟡 GR-fort · 100 % del equipo con A Salvo del Peligro + Protocolo de Transporte (6 meses)' },
+    { id: 'GR-crear', tipologia: 'crear', ambito: 'Gestión del Riesgo', plazo: 3, label: '🔴 GR-crear · Protocolo mínimo en TODAS las salidas (3 meses)' },
+    { id: 'CT-doc', tipologia: 'doc', ambito: 'Control y Reconocimiento', plazo: 12, label: '🟢 CT-doc · Escribir el sistema de control y reconocimientos del grupo (12 meses)' },
+    { id: 'CT-fort', tipologia: 'fort', ambito: 'Control y Reconocimiento', plazo: 6, label: '🟡 CT-fort · Asamblea Anual según Reglamento + reconocimiento anual de dirigentes (6 meses)' },
+    { id: 'CT-crear', tipologia: 'crear', ambito: 'Control y Reconocimiento', plazo: 3, label: '🔴 CT-crear · Verificar y poner al día la documentación legal del grupo (3 meses)' }
+];
+
+// --- Brujula display (lee reflexion del Curso 2 L6 desde localStorage cross-curso) ---
+function getBrujulaText(sourceCourseId, sourceModule) {
+    try {
+        var raw = localStorage.getItem('courseProgress_' + sourceCourseId);
+        if (!raw) return null;
+        var p = JSON.parse(raw);
+        if (!p || !p.reflections) return null;
+        var modKey = String(sourceModule || '6');
+        return p.reflections[modKey] || p.reflections[parseInt(modKey, 10)] || null;
+    } catch (e) { return null; }
+}
+
+function renderBrujulaDisplays() {
+    document.querySelectorAll('.brujula-display').forEach(function (el) {
+        var srcCourse = el.getAttribute('data-source-course') || 'pndi-marco-y-principios';
+        var srcModule = el.getAttribute('data-source-module') || '6';
+        var txt = getBrujulaText(srcCourse, srcModule);
+        if (!txt || !txt.trim()) {
+            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aún no registramos tu brújula personal.</strong><br>Para que este componente se llene, definí tu brújula como reflexión en el <strong>Curso 2 — La Política PNDI: Marco y Principios — Lección 6</strong>. Si ya lo hiciste en otro dispositivo, pulsá "Recuperar mi avance" en la pantalla de inicio.</div>';
+            return;
+        }
+        el.innerHTML = '<div class="brujula-display-content">' +
+            '<div class="brujula-display-label">🧭 Tu brújula personal del Curso 2:</div>' +
+            '<blockquote class="brujula-display-text">' + escapeHtml(txt) + '</blockquote>' +
+        '</div>';
+    });
+}
+
+// --- Brujula action (detecta el principio elegido y sugiere accion contextual) ---
+function detectarPrincipioEnBrujula(txt) {
+    if (!txt) return null;
+    var low = txt.toLowerCase();
+    var principios = [
+        { keys: ['participación juvenil', 'participacion juvenil'], name: 'Participación Juvenil', advice: 'Priorizá metas que involucren a los chicos en las decisiones. Por ejemplo: en <strong>CR-fort</strong> (Plan de Captación) involucrá al clan; en <strong>C-fort</strong> (comunicación con familias) usá un boletín hecho con los rovers.' },
+        { keys: ['normatividad'], name: 'Normatividad', advice: 'Cuidá el cumplimiento del marco legal y reglamentario. <strong>CT-crear</strong> (documentación legal) y <strong>GR-crear/GR-fort</strong> (protocolos de riesgo) saltan al primer lugar de tu lista.' },
+        { keys: ['coherencia'], name: 'Coherencia', advice: 'Que lo que prometemos lo cumplamos. <strong>C-fort</strong> (comunicación mensual con familias) y <strong>CT-fort</strong> (Asamblea según Reglamento) van al frente.' },
+        { keys: ['colectividad', 'consenso'], name: 'Colectividad y Consenso', advice: 'Las decisiones se toman con todos los actores. <strong>G-crear/G-fort</strong> (gobernanza con actas y control colegiado) suben en prioridad.' },
+        { keys: ['aspiracional', 'transformacional'], name: 'Aspiracional y Transformacional', advice: 'Empujá metas que muevan al grupo hacia adelante. <strong>RI-fort/RI-crear</strong> (proyectos mundiales OMMS) y <strong>CR-fort</strong> (crecimiento ≥2 %) primero.' },
+        { keys: ['prospectiva'], name: 'Prospectiva', advice: 'Decidí pensando en 5-10 años. <strong>RE-doc</strong> (plan financiero) y <strong>CT-doc</strong> (sistema de control) priman.' },
+        { keys: ['dinamismo', 'flexibilidad'], name: 'Dinamismo y Flexibilidad', advice: 'Adaptarse al entorno cambiante. <strong>A-fort</strong> (inventario actualizado) y <strong>C-fort</strong> (canales de comunicación modernos) primero.' }
+    ];
+    for (var i = 0; i < principios.length; i++) {
+        for (var j = 0; j < principios[i].keys.length; j++) {
+            if (low.indexOf(principios[i].keys[j]) !== -1) return principios[i];
+        }
+    }
+    return null;
+}
+
+function renderBrujulaActions() {
+    document.querySelectorAll('.brujula-action').forEach(function (el) {
+        var srcCourse = el.getAttribute('data-source-course') || 'pndi-marco-y-principios';
+        var srcModule = el.getAttribute('data-source-module') || '6';
+        var txt = getBrujulaText(srcCourse, srcModule);
+        var matched = detectarPrincipioEnBrujula(txt);
+        if (!matched) {
+            el.innerHTML = '<div class="brujula-action-empty">ℹ️ Definí tu brújula en el <strong>Curso 2 — Lección 6</strong> (con uno de los 7 principios) y volvé a esta lección para ver tu sugerencia personalizada.</div>';
+            return;
+        }
+        el.innerHTML = '<div class="brujula-action-content">' +
+            '<div class="brujula-action-label">🧭 Tu brújula es <strong>' + matched.name + '</strong>. Esto te sugiere:</div>' +
+            '<p class="brujula-action-advice">' + matched.advice + '</p>' +
+        '</div>';
+    });
+}
+
+// --- Courses suggestion (lee catalogo y propone cursos N2 segun brechas) ---
+function renderCoursesSuggestions() {
+    document.querySelectorAll('.courses-suggestion').forEach(function (el) {
+        var catId = el.getAttribute('data-catalog-id') || 'catalogo-buenas-practicas-grupo';
+        var data = getCatalogData(catId);
+        if (!data || Object.keys(data).length === 0) {
+            el.innerHTML = '<div class="courses-suggestion-empty">ℹ️ Para ver sugerencias personalizadas, completá tu catálogo en el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong>.</div>';
+            return;
+        }
+        var coursesByAmbito = {
+            'gobernanza': '🏛️ Curso 7 — Gobernanza Práctica',
+            'administracion': '🗂️ Curso 9 — Administración del Grupo',
+            'recursos-economicos': '💰 Curso 10 — Finanzas Sanas: Presupuesto y Tesorería',
+            'comunicaciones': '📣 Curso 12 — Comunicaciones y Relaciones Interinstitucionales',
+            'crecimiento': '📈 Curso 13 — Crecimiento y Sistema de Información',
+            'gestion-del-riesgo': '🛡️ Curso 14 — Gestión del Riesgo',
+            'control-y-reconocimiento': '🏅 Curso 20 — Órganos de control y disciplina (Nivel 3)'
+        };
+        var suggestions = [];
+        Object.keys(data).forEach(function (aid) {
+            var state = (data[aid].state || '').toLowerCase();
+            var course = coursesByAmbito[aid];
+            if (course && (state === 'no' || state === 'parcial')) {
+                suggestions.push({ ambito: aid, course: course, priority: state === 'no' ? 0 : 1, state: state });
+            }
+        });
+        suggestions.sort(function (a, b) { return a.priority - b.priority; });
+        var top3 = suggestions.slice(0, 3);
+        if (top3.length === 0) {
+            el.innerHTML = '<div class="courses-suggestion-content courses-suggestion-strong">' +
+                '<p>🌟 <strong>Tu grupo es referencia.</strong> Tu catálogo no muestra ámbitos en NO o PARCIAL — considerá tomar el <strong>Curso 22 (Buenas Prácticas Institucionales)</strong> del Nivel 4 para documentar y compartir tus prácticas con la región.</p>' +
+            '</div>';
+            return;
+        }
+        var html = '<div class="courses-suggestion-content"><p><strong>Cursos del Nivel 2 sugeridos según tu catálogo:</strong></p><ul class="courses-suggestion-list">';
+        top3.forEach(function (s) {
+            var stLabel = s.state === 'no' ? '🔴 NO' : '🟡 PARCIAL';
+            html += '<li><strong>' + s.course + '</strong> <em>(tu ámbito está en ' + stLabel + ')</em></li>';
+        });
+        html += '</ul><p class="courses-suggestion-disclaimer">📅 Los Cursos 7-14 del Nivel 2 están en construcción; esta sugerencia te orienta para cuando estén disponibles.</p></div>';
+        el.innerHTML = html;
+    });
+}
+
+// --- Goal-planner (Curso 6 L4) ---
+function renderGoalPlanners() {
+    document.querySelectorAll('.goal-planner').forEach(function (el) {
+        var planId = el.getAttribute('data-plan-id');
+        var maxAdopted = parseInt(el.getAttribute('data-max-adopted') || '5', 10);
+        var slotsEl = document.getElementById('gp-slots-' + planId);
+        if (!slotsEl) return;
+        var html = '';
+        for (var i = 0; i < maxAdopted; i++) {
+            html += renderGoalSlot(planId, i);
+        }
+        slotsEl.innerHTML = html;
+        restoreGoalPlannerState(planId);
+    });
+}
+
+function renderGoalSlot(planId, idx) {
+    var options = '<option value="">— Elegí una meta-tipo —</option>';
+    var currentAmbito = '';
+    META_TIPO_CATALOG.forEach(function (m) {
+        if (m.ambito !== currentAmbito) {
+            if (currentAmbito) options += '</optgroup>';
+            options += '<optgroup label="' + escapeHtml(m.ambito) + '">';
+            currentAmbito = m.ambito;
+        }
+        options += '<option value="' + m.id + '">' + escapeHtml(m.label) + '</option>';
+    });
+    if (currentAmbito) options += '</optgroup>';
+    options += '<option value="custom">✏️ Una meta propia (no de las 24)</option>';
+    return '<div class="goal-slot" data-slot-idx="' + idx + '">' +
+        '<h4 class="goal-slot-title">Meta ' + (idx + 1) + '</h4>' +
+        '<label class="goal-field-label">Elegí una meta-tipo o creá una propia:</label>' +
+        '<select class="goal-meta-select" data-slot-idx="' + idx + '" onchange="onGoalMetaChange(\'' + planId + '\', ' + idx + ', this.value)">' + options + '</select>' +
+        '<div class="goal-fields hidden" id="gf-' + planId + '-' + idx + '">' +
+            '<div class="goal-custom-desc hidden">' +
+                '<label class="goal-field-label">📝 Tu meta propia (descripción):</label>' +
+                '<textarea class="goal-custom-textarea" placeholder="Describí tu meta en una frase…" onchange="saveGoalField(\'' + planId + '\', ' + idx + ', \'customDescription\', this.value)"></textarea>' +
+            '</div>' +
+            '<label class="goal-field-label">⏰ Plazo:</label>' +
+            '<select class="goal-plazo-select" onchange="saveGoalField(\'' + planId + '\', ' + idx + ', \'plazo\', this.value)">' +
+                '<option value="3">3 meses</option>' +
+                '<option value="6" selected>6 meses</option>' +
+                '<option value="12">12 meses</option>' +
+            '</select>' +
+            '<label class="goal-field-label">▶️ Primer paso (esta semana):</label>' +
+            '<textarea class="goal-textarea goal-primer-paso" placeholder="Qué vas a hacer concretamente esta semana…" onchange="saveGoalField(\'' + planId + '\', ' + idx + ', \'primerPaso\', this.value)"></textarea>' +
+            '<label class="goal-field-label">🤝 Persona con quien hablar primero:</label>' +
+            '<input class="goal-input goal-persona" type="text" placeholder="Ej: Presidente del Consejo, Tesorero…" onchange="saveGoalField(\'' + planId + '\', ' + idx + ', \'persona\', this.value)">' +
+            '<label class="goal-field-label">✅ Señal de cumplimiento:</label>' +
+            '<textarea class="goal-textarea goal-senal" placeholder="Cómo sabrás que se cumplió esta meta…" onchange="saveGoalField(\'' + planId + '\', ' + idx + ', \'senal\', this.value)"></textarea>' +
+        '</div>' +
+    '</div>';
+}
+
+function onGoalMetaChange(planId, idx, value) {
+    if (!personalPlans[planId]) personalPlans[planId] = { goals: [] };
+    if (!personalPlans[planId].goals[idx]) personalPlans[planId].goals[idx] = {};
+    personalPlans[planId].goals[idx].metaId = value;
+    var fieldsEl = document.getElementById('gf-' + planId + '-' + idx);
+    if (!fieldsEl) { saveProgress(); return; }
+    var customDescEl = fieldsEl.querySelector('.goal-custom-desc');
+    if (value) {
+        fieldsEl.classList.remove('hidden');
+        if (value === 'custom') {
+            if (customDescEl) customDescEl.classList.remove('hidden');
+        } else {
+            if (customDescEl) customDescEl.classList.add('hidden');
+            // Auto-preselect plazo from META_TIPO_CATALOG
+            var meta = META_TIPO_CATALOG.filter(function (m) { return m.id === value; })[0];
+            if (meta) {
+                var plazoSel = fieldsEl.querySelector('.goal-plazo-select');
+                if (plazoSel) {
+                    plazoSel.value = String(meta.plazo);
+                    personalPlans[planId].goals[idx].plazo = String(meta.plazo);
+                }
+            }
+        }
+    } else {
+        fieldsEl.classList.add('hidden');
+    }
+    saveProgress();
+}
+
+function saveGoalField(planId, idx, field, value) {
+    if (!personalPlans[planId]) personalPlans[planId] = { goals: [] };
+    if (!personalPlans[planId].goals[idx]) personalPlans[planId].goals[idx] = {};
+    personalPlans[planId].goals[idx][field] = value;
+    saveProgress();
+}
+
+function restoreGoalPlannerState(planId) {
+    var plan = personalPlans[planId];
+    if (!plan || !plan.goals) return;
+    plan.goals.forEach(function (goal, idx) {
+        if (!goal) return;
+        var slot = document.querySelector('#gp-slots-' + planId + ' .goal-slot[data-slot-idx="' + idx + '"]');
+        if (!slot) return;
+        var metaSel = slot.querySelector('.goal-meta-select');
+        if (metaSel && goal.metaId) {
+            metaSel.value = goal.metaId;
+            // Disparar onGoalMetaChange para mostrar los campos correctos
+            var fieldsEl = document.getElementById('gf-' + planId + '-' + idx);
+            if (fieldsEl) {
+                fieldsEl.classList.remove('hidden');
+                var customDescEl = fieldsEl.querySelector('.goal-custom-desc');
+                if (goal.metaId === 'custom') {
+                    if (customDescEl) customDescEl.classList.remove('hidden');
+                } else if (customDescEl) {
+                    customDescEl.classList.add('hidden');
+                }
+            }
+        }
+        if (goal.plazo) {
+            var plazoSel = slot.querySelector('.goal-plazo-select');
+            if (plazoSel) plazoSel.value = String(goal.plazo);
+        }
+        if (goal.primerPaso) {
+            var taPaso = slot.querySelector('.goal-primer-paso');
+            if (taPaso) taPaso.value = goal.primerPaso;
+        }
+        if (goal.persona) {
+            var pers = slot.querySelector('.goal-persona');
+            if (pers) pers.value = goal.persona;
+        }
+        if (goal.senal) {
+            var taSenal = slot.querySelector('.goal-senal');
+            if (taSenal) taSenal.value = goal.senal;
+        }
+        if (goal.customDescription) {
+            var taCustom = slot.querySelector('.goal-custom-textarea');
+            if (taCustom) taCustom.value = goal.customDescription;
+        }
+    });
+}
+
+function saveGoalPlanner(planId) {
+    var plan = personalPlans[planId] || { goals: [] };
+    var adopted = (plan.goals || []).filter(function (g) { return g && g.metaId; });
+    plan.goals = adopted;
+    personalPlans[planId] = plan;
+    saveProgress();
+    if (userProfile && userProfile.email && typeof sendToGoogleSheets === 'function') {
+        sendToGoogleSheets({
+            action: 'plan',
+            email: userProfile.email,
+            name: userProfile.fullName,
+            course: COURSE_CONFIG.courseId,
+            planId: planId,
+            planType: 'goal-planner-di',
+            contenido: plan
+        });
+    }
+    var statusEl = document.getElementById('gp-status-' + planId);
+    if (statusEl) {
+        statusEl.classList.remove('hidden');
+        statusEl.innerHTML = '<strong>✅ Tu plan se guardó.</strong> Tenés <strong>' + adopted.length + '</strong> meta' + (adopted.length === 1 ? '' : 's') + ' adoptada' + (adopted.length === 1 ? '' : 's') + '. Podés modificarlo y volver a guardar cuando quieras.';
+        statusEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+    showNotification('✅ Plan guardado');
+}
+
+// --- PDF generator del plan personal (Curso 6 L6) ---
+function generatePlanPDF(planId) {
+    var content = buildPlanPrintableHTML(planId);
+    var win = window.open('', '_blank');
+    if (!win) {
+        showNotification('⚠️ El navegador bloqueó la ventana. Permití pop-ups y volvé a intentar.', 'warning');
+        return;
+    }
+    win.document.open();
+    win.document.write(content);
+    win.document.close();
+    setTimeout(function () {
+        try { win.focus(); win.print(); } catch (e) { /* ignore */ }
+    }, 600);
+}
+
+function buildPlanPrintableHTML(planId) {
+    var fullName = (userProfile && userProfile.fullName) || 'Adulto del Movimiento';
+    var grupo = (userProfile && userProfile.group) || '—';
+    var region = (userProfile && userProfile.region) || '—';
+    var dateStr = new Date().toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric' });
+    var catalog = getCatalogData('catalogo-buenas-practicas-grupo') || {};
+    var brujula = getBrujulaText('pndi-marco-y-principios', '6') || '';
+    var plan = personalPlans[planId] || { goals: [] };
+    var adopted = (plan.goals || []).filter(function (g) { return g && g.metaId; });
+
+    var stateLabels = { si: '🟢 Sí', parcial: '🟡 Parcial', no: '🔴 No', 'no-se': '⚪ No sé' };
+    var summary = { si: 0, parcial: 0, no: 0, 'no-se': 0 };
+    Object.keys(catalog).forEach(function (k) {
+        var st = catalog[k].state;
+        if (st && summary[st] !== undefined) summary[st]++;
+    });
+
+    var catalogHTML = '';
+    Object.keys(catalog).forEach(function (aid) {
+        var it = catalog[aid] || {};
+        var stLabel = stateLabels[it.state] || '—';
+        var aName = getAmbitoDisplayName(aid);
+        var attrs = (it.attributes || []).join(', ');
+        var desc = it.description || '';
+        catalogHTML += '<div class="pp-cat-item"><h4>' + aName + ' — ' + stLabel + '</h4>' +
+            (desc ? '<p>"' + escapeHtml(desc) + '"</p>' : '') +
+            (attrs ? '<p class="pp-cat-attrs"><em>Atributos:</em> ' + escapeHtml(attrs) + '</p>' : '') +
+            '</div>';
+    });
+    if (!catalogHTML) catalogHTML = '<p><em>Sin catálogo registrado todavía. Completá el Curso 5.</em></p>';
+
+    var goalsHTML = '';
+    adopted.forEach(function (g, idx) {
+        var meta = META_TIPO_CATALOG.filter(function (m) { return m.id === g.metaId; })[0];
+        var title = meta ? meta.label : (g.metaId === 'custom' ? '✏️ Meta propia' : g.metaId);
+        var customDesc = (g.metaId === 'custom' && g.customDescription) ? '<p class="pp-goal-custom">' + escapeHtml(g.customDescription) + '</p>' : '';
+        goalsHTML += '<div class="pp-goal">' +
+            '<h4>' + (idx + 1) + '. ' + escapeHtml(title) + '</h4>' +
+            customDesc +
+            '<dl>' +
+                '<dt>⏰ Plazo:</dt><dd>' + escapeHtml(String(g.plazo || '—')) + ' meses</dd>' +
+                '<dt>▶️ Primer paso (esta semana):</dt><dd>' + escapeHtml(g.primerPaso || '—') + '</dd>' +
+                '<dt>🤝 Persona con quien hablar primero:</dt><dd>' + escapeHtml(g.persona || '—') + '</dd>' +
+                '<dt>✅ Señal de cumplimiento:</dt><dd>' + escapeHtml(g.senal || '—') + '</dd>' +
+            '</dl>' +
+        '</div>';
+    });
+    if (!goalsHTML) goalsHTML = '<p><em>Sin metas adoptadas. Volvé al plan-builder y elegí al menos una meta antes de generar el PDF.</em></p>';
+
+    // Suggested N2 courses
+    var coursesByAmbito = {
+        'gobernanza': '🏛️ Curso 7 — Gobernanza Práctica',
+        'administracion': '🗂️ Curso 9 — Administración del Grupo',
+        'recursos-economicos': '💰 Curso 10 — Finanzas Sanas',
+        'comunicaciones': '📣 Curso 12 — Comunicaciones',
+        'crecimiento': '📈 Curso 13 — Crecimiento',
+        'gestion-del-riesgo': '🛡️ Curso 14 — Gestión del Riesgo',
+        'control-y-reconocimiento': '🏅 Curso 20 — Órganos de control y disciplina'
+    };
+    var sugg = [];
+    Object.keys(catalog).forEach(function (aid) {
+        var state = (catalog[aid].state || '').toLowerCase();
+        if (coursesByAmbito[aid] && (state === 'no' || state === 'parcial')) {
+            sugg.push({ course: coursesByAmbito[aid], priority: state === 'no' ? 0 : 1 });
+        }
+    });
+    sugg.sort(function (a, b) { return a.priority - b.priority; });
+    var top3 = sugg.slice(0, 3);
+    var coursesHTML = top3.length ? '<ul>' + top3.map(function (s) { return '<li>' + s.course + '</li>'; }).join('') + '</ul>' :
+        '<p><em>Tu grupo está sólido — considerá el Curso 22 (Buenas Prácticas Institucionales) del Nivel 4 para documentar y compartir tus prácticas.</em></p>';
+
+    return '<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">' +
+        '<title>Mi Aporte al DI — ' + escapeHtml(fullName) + '</title>' +
+        '<style>' +
+            'body{font-family:Arial,sans-serif;max-width:800px;margin:24px auto;padding:0 24px;color:#222;line-height:1.55;}' +
+            'h1{color:#622599;text-align:center;margin:0 0 4px 0;}' +
+            'h2{color:#622599;border-bottom:2px solid #622599;padding-bottom:4px;margin:24px 0 12px 0;}' +
+            'h3{color:#4a1c75;margin:18px 0 6px 0;}' +
+            'h4{color:#333;margin:10px 0 4px 0;}' +
+            '.pp-meta{text-align:center;color:#666;font-style:italic;margin-bottom:18px;}' +
+            '.pp-summary{display:flex;gap:10px;padding:10px;background:#f8f5fc;border-radius:6px;margin:10px 0;flex-wrap:wrap;justify-content:center;}' +
+            '.pp-summary span{padding:5px 12px;background:#fff;border-radius:14px;font-size:0.92em;}' +
+            '.pp-cat-item{padding:10px 14px;background:#fff;border-left:3px solid #622599;margin:8px 0;border-radius:4px;page-break-inside:avoid;}' +
+            '.pp-cat-item p{margin:4px 0;}' +
+            '.pp-cat-attrs{font-size:0.88em;color:#555;}' +
+            '.pp-goal{background:#f8f5fc;border-left:4px solid #622599;padding:14px 18px;margin:12px 0;border-radius:6px;page-break-inside:avoid;}' +
+            '.pp-goal-custom{font-style:italic;color:#555;margin:6px 0;}' +
+            '.pp-goal dl{margin:6px 0;}' +
+            '.pp-goal dt{font-weight:600;margin-top:6px;color:#444;}' +
+            '.pp-goal dd{margin-left:20px;margin-bottom:6px;}' +
+            '.pp-brujula{background:#fff8e1;padding:14px 18px;border-left:4px solid #ffa000;border-radius:6px;font-style:italic;margin:10px 0;}' +
+            '.pp-signatures{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-top:60px;}' +
+            '.pp-sigblock{border-top:1px solid #333;padding-top:6px;text-align:center;font-size:0.9em;}' +
+            '.pp-footer{text-align:center;margin-top:40px;padding-top:10px;border-top:1px solid #eee;font-size:0.85em;color:#999;}' +
+            '@media print{body{margin:0;}h1,h2{page-break-after:avoid;}}' +
+        '</style></head><body>' +
+        '<h1>📋 Mi Aporte al Desarrollo Institucional</h1>' +
+        '<p class="pp-meta"><strong>' + escapeHtml(fullName) + '</strong> · Grupo ' + escapeHtml(grupo) + ' · Región ' + escapeHtml(region) + ' · ' + dateStr + '</p>' +
+        '<h2>1. Mi catálogo de buenas prácticas (Curso 5)</h2>' +
+        '<div class="pp-summary">' +
+            '<span>🟢 Sí: <strong>' + summary.si + '</strong></span>' +
+            '<span>🟡 Parcial: <strong>' + summary.parcial + '</strong></span>' +
+            '<span>🔴 No: <strong>' + summary.no + '</strong></span>' +
+            '<span>⚪ No sé: <strong>' + summary['no-se'] + '</strong></span>' +
+        '</div>' +
+        catalogHTML +
+        '<h2>2. Mi brújula personal (Curso 2)</h2>' +
+        (brujula ? '<div class="pp-brujula">"' + escapeHtml(brujula) + '"</div>' : '<p><em>Sin brújula registrada todavía. Completá el Curso 2 — Lección 6.</em></p>') +
+        '<h2>3. Mis metas adoptadas (' + adopted.length + ')</h2>' +
+        goalsHTML +
+        '<h2>4. Cursos del Nivel 2 sugeridos</h2>' +
+        coursesHTML +
+        '<h2>5. Compromiso de firma</h2>' +
+        '<div class="pp-signatures">' +
+            '<div class="pp-sigblock">Firma personal<br><strong>' + escapeHtml(fullName) + '</strong></div>' +
+            '<div class="pp-sigblock">Firma del Presidente del Consejo<br><em>(testigo opcional)</em></div>' +
+        '</div>' +
+        '<p class="pp-footer">Plataforma de Formación de Adultos — Asociación Scouts de Colombia · Línea Desarrollo Institucional · Curso 6 (cierre del Nivel 1)</p>' +
+        '</body></html>';
 }
 
 // --- Timers ---

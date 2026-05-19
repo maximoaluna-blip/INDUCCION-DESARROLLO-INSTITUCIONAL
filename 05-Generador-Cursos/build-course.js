@@ -286,6 +286,42 @@ function renderSection(section) {
             return `<div class="catalog-display" id="cd-${cdId}" data-catalog-id="${cdId}" data-mode="${cdMode}">
                 <p class="catalog-display-loading">Cargando tu catálogo guardado…</p>
             </div>`;
+        case 'brujula-display':
+            const bdSrcCourse = section.sourceCourse || 'pndi-marco-y-principios';
+            const bdSrcModule = section.sourceModule || '6';
+            return `<div class="brujula-display" data-source-course="${bdSrcCourse}" data-source-module="${bdSrcModule}">
+                <p class="brujula-display-loading">Cargando tu brújula del Curso 2…</p>
+            </div>`;
+        case 'brujula-action':
+            const baSrcCourse = section.sourceCourse || 'pndi-marco-y-principios';
+            const baSrcModule = section.sourceModule || '6';
+            return `<div class="brujula-action" data-source-course="${baSrcCourse}" data-source-module="${baSrcModule}">
+                <p class="brujula-action-loading">Analizando tu brújula…</p>
+            </div>`;
+        case 'courses-suggestion':
+            const csCatId = section.catalogId || 'catalogo-buenas-practicas-grupo';
+            return `<div class="courses-suggestion" data-catalog-id="${csCatId}">
+                <p class="courses-suggestion-loading">Sugiriendo cursos del Nivel 2 según tu catálogo…</p>
+            </div>`;
+        case 'goal-planner':
+            const gpId = section.planId || 'plan-personal-di';
+            const gpMaxAdopted = section.maxAdoptedGoals || 5;
+            const gpCatalogId = section.preloadFromCatalog || 'catalogo-buenas-practicas-grupo';
+            return `<div class="goal-planner" id="gp-${gpId}" data-plan-id="${gpId}" data-max-adopted="${gpMaxAdopted}" data-source-catalog="${gpCatalogId}">
+                <p class="gp-intro">${section.intro || 'Elegí hasta ' + gpMaxAdopted + ' metas-tipo y completá los campos. Tu plan se guarda en tu navegador y se sincroniza al backend.'}</p>
+                <div class="gp-slots" id="gp-slots-${gpId}"></div>
+                <div class="goal-planner-actions">
+                    <button type="button" class="btn-primary" onclick="saveGoalPlanner('${gpId}')">💾 ${section.buttonLabel || 'Guardar mi plan'}</button>
+                </div>
+                <div id="gp-status-${gpId}" class="gp-status hidden"></div>
+            </div>`;
+        case 'pdf-generator':
+            const pgId = section.planId || 'plan-personal-di';
+            return `<div class="pdf-generator">
+                <p class="pdf-generator-intro">Cuando tu plan esté completo, generá el PDF imprimible con todas las piezas: catálogo · brújula · 5 metas · cursos sugeridos · espacio de firma.</p>
+                <button type="button" class="btn-primary" onclick="generatePlanPDF('${pgId}')">📄 ${section.buttonLabel || 'Descargar mi plan en PDF'}</button>
+                <p class="pdf-generator-help">Se abre en una pestaña nueva — usá "Guardar como PDF" de tu navegador.</p>
+            </div>`;
         default:
             return `<p>${section.text || ''}</p>`;
     }
