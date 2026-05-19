@@ -65,7 +65,28 @@ Considera crear un Apps Script propio para esta línea cuando:
 
 ## Endpoints expuestos
 
-Los mismos que el backend compartido. Ver [`BACKEND.md` de INDUCCION-ADULTOS](../INDUCCION-ADULTOS/BACKEND.md) para el detalle.
+Los mismos que el backend compartido. Ver [`BACKEND.md` de INDUCCION-ADULTOS](../INDUCCION-ADULTOS/BACKEND.md) para el detalle de los endpoints estándar (registro, completados, eventos, recuperar progreso).
+
+### Endpoints/handlers agregados en mayo 2026 (persistencia universal)
+
+Como parte de la implementación de **persistencia híbrida universal** (Opción B) para que TODO el contenido textual del cursante se respalde en backend, se agregaron los siguientes handlers al Apps Script compartido:
+
+| Handler | Pestaña destino | Qué guarda |
+|---|---|---|
+| `handleReflection` | `Reflexiones` | Una fila por reflexión escrita por el cursante en cualquier lección (campos: timestamp, email, courseId, moduleIndex, texto). |
+| `handleAssessment` | `Autodiagnosticos` | El resultado de cualquier `self-assessment` o `plan-builder` con perfil (DI Curso 4 — competencias, etc.). Reemplaza la fila previa del mismo `(email, courseId, key)`. |
+| `handlePlan` | `Planes` | El plan personal de desarrollo (ADULTOS Curso 5, DI Curso 6). Reemplaza la fila previa del mismo `(email, courseId)`. |
+| `handleCatalog` | `Catalogos` | Catálogo de buenas prácticas del DI Curso 5 (`practices-builder`). Una fila por entrada del catálogo; las filas previas para `(email, courseId)` se borran antes de insertar. |
+
+El handler `handleRecover` (recuperación por correo) fue extendido para devolver, además del progreso clásico, los campos `catalogs`, `reflectionsByCourse`, `assessments`, `plans`. El motor (`engine.js`) los recibe y rehidrata `localStorage` cross-device.
+
+> **Patrón clave:** todos los handlers son **fire-and-forget** desde el frontend. `localStorage` sigue siendo la fuente de verdad inmediata; el backend se actualiza en background y solo se consulta cuando el cursante pide "recuperar progreso por correo". Una caída del backend nunca rompe la experiencia.
+
+### Estado de despliegue
+
+- **AUTH_TOKEN:** `ADULTOS_ASC_2026` (sin cambios).
+- **Versión productiva:** deployment `@5` (mayo 2026) — incluye los 4 handlers nuevos y el `handleRecover` extendido. La línea ROVER mantiene su propio Apps Script (`@4`) con el mismo conjunto de handlers.
+- **Verificación:** `node 05-Generador-Cursos/verificar-backend.js` retorna 4/4 OK desde el deployment `@5`.
 
 ---
 
@@ -74,7 +95,8 @@ Los mismos que el backend compartido. Ver [`BACKEND.md` de INDUCCION-ADULTOS](..
 | Fecha | Incidente | Lección aprendida |
 |---|---|---|
 | 2026-05-17 | Dashboard de DI mostraba solo agregados. Causa raíz compartida con Adultos. | Documentar backend compartido en este archivo. Correr `verificar-backend.js` antes de tocar el backend. |
+| 2026-05-18 | Reflexiones, autodiagnósticos, planes y catálogos vivían solo en `localStorage` — vulnerables a borrado de navegador / cambio de dispositivo. | Implementar persistencia híbrida universal: 4 nuevos handlers + 4 nuevas pestañas. Mantener `localStorage` como fuente inmediata; backend solo para recuperación. |
 
 ---
 
-_Última actualización: 2026-05-17_
+_Última actualización: 2026-05-19_
