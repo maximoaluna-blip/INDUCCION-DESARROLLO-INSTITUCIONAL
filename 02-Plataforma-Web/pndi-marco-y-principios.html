@@ -781,6 +781,188 @@ body {
     .toggle-buttons { flex-direction: column; }
 }
 
+/* --- Practices Builder (Curso 5) --- */
+.practices-builder {
+    margin: 20px 0;
+    background: #f8f5fc;
+    border: 2px solid #622599;
+    border-radius: 10px;
+    padding: 22px;
+}
+.practices-builder-intro {
+    font-size: 0.95em;
+    color: #444;
+    margin: 0 0 18px 0;
+    line-height: 1.5;
+}
+.practices-rows { display: flex; flex-direction: column; gap: 18px; }
+.practice-row {
+    background: #fff;
+    border-left: 4px solid #622599;
+    border-radius: 8px;
+    padding: 16px 18px;
+}
+.practice-ambito-name {
+    color: #622599;
+    margin: 0 0 12px 0;
+    font-size: 1.05em;
+    border-bottom: 1px solid #eadcfa;
+    padding-bottom: 8px;
+}
+.practice-field { margin-bottom: 14px; }
+.practice-field:last-child { margin-bottom: 0; }
+.practice-field-label {
+    display: block;
+    font-size: 0.88em;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 6px;
+}
+.practice-state-options, .practice-attr-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.practice-state-option, .practice-attr-option {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 12px;
+    background: #f8f5fc;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.88em;
+    transition: background .15s, border-color .15s;
+}
+.practice-state-option:hover, .practice-attr-option:hover { background: #efe5fa; }
+.practice-state-option:has(input:checked),
+.practice-attr-option:has(input:checked) {
+    background: #efe5fa;
+    border-color: #622599;
+    font-weight: 600;
+}
+.practice-state-option input, .practice-attr-option input { margin: 0; }
+.practice-desc {
+    width: 100%;
+    min-height: 60px;
+    padding: 8px 10px;
+    border: 1px solid #d4c2ec;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 0.92em;
+    resize: vertical;
+    box-sizing: border-box;
+}
+.practice-desc:focus { outline: 2px solid #622599; border-color: #622599; }
+.practices-builder-actions { text-align: center; margin-top: 18px; }
+.practices-builder-actions .btn-primary {
+    background: #622599;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: background .2s;
+}
+.practices-builder-actions .btn-primary:hover { background: #4a1c75; }
+.practices-builder-status {
+    margin-top: 16px;
+    padding: 14px 16px;
+    background: #e8f5e9;
+    border-left: 4px solid #4caf50;
+    border-radius: 6px;
+    color: #1b5e20;
+    line-height: 1.5;
+}
+[data-theme="dark"] .practices-builder { background: #2a1f3a; border-color: #b78fee; }
+[data-theme="dark"] .practice-row { background: #1a1325; border-left-color: #b78fee; }
+[data-theme="dark"] .practice-ambito-name { color: #d4b8ff; border-bottom-color: #3a2b50; }
+[data-theme="dark"] .practice-field-label { color: #bbb; }
+[data-theme="dark"] .practice-state-option,
+[data-theme="dark"] .practice-attr-option { background: #2a1f3a; color: #ddd; }
+[data-theme="dark"] .practice-state-option:hover,
+[data-theme="dark"] .practice-attr-option:hover { background: #3a2b50; }
+[data-theme="dark"] .practice-desc { background: #1a1325; border-color: #3a2b50; color: #ddd; }
+[data-theme="dark"] .practices-builder-status { background: #1b3a2a; color: #a5d6a7; border-left-color: #4caf50; }
+
+/* --- Catalog Display (Curso 5 cierre + Curso 6) --- */
+.catalog-display {
+    margin: 20px 0;
+    background: #f8f5fc;
+    border: 2px solid #622599;
+    border-radius: 10px;
+    padding: 20px;
+}
+.catalog-display-loading, .catalog-display-empty {
+    text-align: center;
+    color: #777;
+    margin: 0;
+    padding: 14px;
+    line-height: 1.5;
+}
+.catalog-display-empty {
+    background: #fff8e1;
+    border-left: 4px solid #ffa000;
+    border-radius: 6px;
+    color: #6d4c00;
+    text-align: left;
+}
+.catalog-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 0 18px 0;
+}
+.catalog-summary-pill {
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    background: #fff;
+}
+.catalog-summary-pill.green { background: #e8f5e9; color: #1b5e20; }
+.catalog-summary-pill.yellow { background: #fff8e1; color: #6d4c00; }
+.catalog-summary-pill.red { background: #ffebee; color: #b71c1c; }
+.catalog-summary-pill.gray { background: #f5f5f5; color: #555; }
+.catalog-detail { display: flex; flex-direction: column; gap: 12px; }
+.catalog-item {
+    background: #fff;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border-left: 4px solid #ccc;
+}
+.catalog-item-si { border-left-color: #4caf50; }
+.catalog-item-parcial { border-left-color: #ffa000; }
+.catalog-item-no { border-left-color: #f44336; }
+.catalog-item-no-se { border-left-color: #9e9e9e; }
+.catalog-item h4 { margin: 0 0 6px 0; color: #333; font-size: 1em; }
+.catalog-desc {
+    margin: 6px 0 8px 0;
+    color: #555;
+    font-style: italic;
+    line-height: 1.4;
+}
+.catalog-attrs { font-size: 0.88em; color: #555; margin-top: 6px; }
+.attr-pill {
+    display: inline-block;
+    padding: 3px 9px;
+    border-radius: 12px;
+    background: #f3e5f5;
+    color: #622599;
+    font-size: 0.85em;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+[data-theme="dark"] .catalog-display { background: #2a1f3a; border-color: #b78fee; }
+[data-theme="dark"] .catalog-item { background: #1a1325; }
+[data-theme="dark"] .catalog-item h4 { color: #ddd; }
+[data-theme="dark"] .catalog-desc { color: #bbb; }
+[data-theme="dark"] .catalog-attrs { color: #bbb; }
+[data-theme="dark"] .attr-pill { background: #3a2b50; color: #d4b8ff; }
+
 /* --- Print --- */
 @media print {
     body { background: white; }
@@ -1584,6 +1766,7 @@ let reflections = {};
 let photos = {};
 let selfAssessments = {};
 let personalPlans = {};
+let practicesCatalogs = {};
 let userProfile = {};
 
 // --- Inicializacion ---
@@ -1594,6 +1777,7 @@ window.addEventListener('DOMContentLoaded', function () {
     loadProgress();
     prefillFromGlobalProfile();
     updateElapsedTime();
+    renderCatalogDisplays();
 });
 
 window.addEventListener('beforeunload', function () {
@@ -1879,7 +2063,7 @@ function saveProgress() {
     var key = 'courseProgress_' + COURSE_CONFIG.courseId;
     var progress = {
         userProfile: userProfile, moduleProgress: moduleProgress,
-        quizScores: quizScores, studyTime: studyTime, reflections: reflections, photos: photos, selfAssessments: selfAssessments, personalPlans: personalPlans,
+        quizScores: quizScores, studyTime: studyTime, reflections: reflections, photos: photos, selfAssessments: selfAssessments, personalPlans: personalPlans, practicesCatalogs: practicesCatalogs,
         currentModule: currentModule, startTime: startTime.toISOString(),
         lastSaved: new Date().toISOString(), version: '3.0'
     };
@@ -1901,6 +2085,7 @@ function loadProgress() {
         photos = p.photos || {};
         selfAssessments = p.selfAssessments || {};
         personalPlans = p.personalPlans || {};
+        practicesCatalogs = p.practicesCatalogs || {};
         currentModule = p.currentModule || 0;
         startTime = new Date(p.startTime || new Date());
         if (userProfile.fullName) {
@@ -1923,6 +2108,7 @@ function loadProgress() {
         });
         if (typeof restoreAssessmentSelections === 'function') restoreAssessmentSelections();
         if (typeof restorePlanState === 'function') restorePlanState();
+        if (typeof restorePracticesCatalogs === 'function') restorePracticesCatalogs();
         updateStats();
         updateProgress();
     }
@@ -1954,6 +2140,17 @@ function showNotification(message, type) {
 function saveReflection(moduleNum, text) {
     reflections[moduleNum] = text;
     saveProgress();
+    // Sincronizacion en segundo plano al backend (fire-and-forget)
+    if (userProfile && userProfile.email && typeof sendToGoogleSheets === 'function') {
+        sendToGoogleSheets({
+            action: 'reflection',
+            email: userProfile.email,
+            name: userProfile.fullName,
+            course: COURSE_CONFIG.courseId,
+            moduleId: String(moduleNum),
+            texto: text || ''
+        });
+    }
 }
 
 function saveCommitment(text) {
@@ -2076,6 +2273,17 @@ function calculateAssessment(assessmentId) {
             sourceCourse: COURSE_CONFIG.courseId
         }));
     } catch (e) { /* ignore */ }
+    // Sincronizacion en segundo plano al backend (persistencia hibrida)
+    if (userProfile && userProfile.email && typeof sendToGoogleSheets === 'function') {
+        sendToGoogleSheets({
+            action: 'assessment',
+            email: userProfile.email,
+            name: userProfile.fullName,
+            course: COURSE_CONFIG.courseId,
+            assessmentId: assessmentId,
+            grades: data.grades
+        });
+    }
     // Render result
     var avgGrade = (entries.reduce(function (s, e) { return s + e.grade; }, 0) / entries.length).toFixed(1);
     var resultEl = document.getElementById('sa-result-' + assessmentId);
@@ -2258,6 +2466,18 @@ function generatePlan(builderId) {
         output.scrollIntoView({ behavior: 'smooth', block: 'start' });
     }
     showNotification('✅ Plan generado. Puedes imprimirlo.');
+    // Sincronizacion en segundo plano al backend (persistencia hibrida)
+    if (userProfile && userProfile.email && typeof sendToGoogleSheets === 'function') {
+        sendToGoogleSheets({
+            action: 'plan',
+            email: userProfile.email,
+            name: userProfile.fullName,
+            course: COURSE_CONFIG.courseId,
+            planId: builderId,
+            planType: 'plan-builder-v1',
+            contenido: plan
+        });
+    }
 }
 
 function escapeHtml(s) {
@@ -2703,6 +2923,64 @@ function recoverProgress() {
                     });
                 }
 
+                // Catálogos de buenas prácticas (Curso 5 — Línea DI): clave por catalogId
+                if (serverData.catalogs && typeof serverData.catalogs === 'object') {
+                    Object.keys(serverData.catalogs).forEach(function (cid) {
+                        practicesCatalogs[cid] = serverData.catalogs[cid];
+                        // Espejo en localStorage global para que otros cursos puedan leerlo cross-device
+                        try { localStorage.setItem(cid, JSON.stringify(serverData.catalogs[cid])); } catch (e) {}
+                    });
+                    if (typeof restorePracticesCatalogs === 'function') restorePracticesCatalogs();
+                    if (typeof renderCatalogDisplays === 'function') renderCatalogDisplays();
+                }
+
+                // Reflexiones por curso: hidratar el localStorage de cada curso para lectura cross-curso
+                if (serverData.reflectionsByCourse && typeof serverData.reflectionsByCourse === 'object') {
+                    Object.keys(serverData.reflectionsByCourse).forEach(function (cid) {
+                        var courseReflections = serverData.reflectionsByCourse[cid] || {};
+                        if (cid === COURSE_CONFIG.courseId) {
+                            // Curso actual: aplicar al estado en memoria y a los textareas visibles
+                            reflections = courseReflections;
+                            Object.keys(reflections).forEach(function (k) {
+                                var ta = document.getElementById('reflection-' + k);
+                                if (ta) ta.value = reflections[k];
+                            });
+                        } else {
+                            // Otros cursos: refrescar su propio courseProgress_<courseId> en localStorage
+                            try {
+                                var key = 'courseProgress_' + cid;
+                                var raw = localStorage.getItem(key);
+                                var existing = raw ? JSON.parse(raw) : {};
+                                existing.reflections = courseReflections;
+                                existing.lastSaved = new Date().toISOString();
+                                localStorage.setItem(key, JSON.stringify(existing));
+                            } catch (e) { /* ignore */ }
+                        }
+                    });
+                }
+
+                // Autodiagnósticos: restaurar grados de self-assessments del usuario
+                if (serverData.assessments && typeof serverData.assessments === 'object') {
+                    Object.keys(serverData.assessments).forEach(function (aid) {
+                        var saved = serverData.assessments[aid] || {};
+                        if (!selfAssessments[aid]) selfAssessments[aid] = { grades: {} };
+                        if (saved.grades) selfAssessments[aid].grades = saved.grades;
+                    });
+                    if (typeof restoreAssessmentSelections === 'function') restoreAssessmentSelections();
+                }
+
+                // Planes personales: restaurar el plan-builder y plan-builder-v2 (goal-planner)
+                if (serverData.plans && typeof serverData.plans === 'object') {
+                    Object.keys(serverData.plans).forEach(function (pid) {
+                        var savedPlan = serverData.plans[pid] || {};
+                        var contenido = savedPlan.contenido;
+                        if (contenido && typeof contenido === 'object') {
+                            personalPlans[pid] = contenido;
+                        }
+                    });
+                    if (typeof restorePlanState === 'function') restorePlanState();
+                }
+
                 saveProgress();
                 updateStats();
                 updateProgress();
@@ -2791,6 +3069,150 @@ function sendToGoogleSheets(data) {
             setTimeout(function () { indicator.classList.remove('show'); }, 2000);
         }
     }
+}
+
+// --- Catálogo de buenas prácticas (Curso 5) ---
+function recordPracticeState(catalogId, ambitoId, field, value) {
+    if (!practicesCatalogs[catalogId]) practicesCatalogs[catalogId] = {};
+    if (!practicesCatalogs[catalogId][ambitoId]) practicesCatalogs[catalogId][ambitoId] = { attributes: [] };
+    practicesCatalogs[catalogId][ambitoId][field] = value;
+    saveProgress();
+}
+
+function recordPracticeAttribute(catalogId, ambitoId, attrId, isChecked) {
+    if (!practicesCatalogs[catalogId]) practicesCatalogs[catalogId] = {};
+    if (!practicesCatalogs[catalogId][ambitoId]) practicesCatalogs[catalogId][ambitoId] = { attributes: [] };
+    if (!practicesCatalogs[catalogId][ambitoId].attributes) practicesCatalogs[catalogId][ambitoId].attributes = [];
+    var arr = practicesCatalogs[catalogId][ambitoId].attributes;
+    var idx = arr.indexOf(attrId);
+    if (isChecked && idx === -1) arr.push(attrId);
+    else if (!isChecked && idx !== -1) arr.splice(idx, 1);
+    saveProgress();
+}
+
+function savePracticesCatalog(catalogId) {
+    var data = practicesCatalogs[catalogId] || {};
+    // 1. Persistencia inmediata en localStorage (cross-curso, offline-safe)
+    try { localStorage.setItem(catalogId, JSON.stringify(data)); } catch (e) {}
+    saveProgress();
+    // 2. Feedback inmediato al usuario (sin esperar al backend)
+    var statusEl = document.getElementById('pbc-status-' + catalogId);
+    if (statusEl) {
+        var ambitosMarked = Object.keys(data).filter(function (k) { return data[k].state; }).length;
+        statusEl.classList.remove('hidden');
+        statusEl.innerHTML = '<strong>✅ Tu catálogo se guardó.</strong> ' + ambitosMarked + ' de 8 ámbitos marcados. Puedes modificarlo y volver a guardar.';
+        statusEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+    showNotification('✅ Catálogo guardado');
+    // 3. Sincronización en segundo plano al backend (fire-and-forget; si falla, localStorage queda como fuente).
+    if (userProfile && userProfile.email) {
+        var items = Object.keys(data).map(function (ambitoId) {
+            var it = data[ambitoId] || {};
+            return {
+                ambitoId: ambitoId,
+                state: it.state || '',
+                description: it.description || '',
+                attributes: it.attributes || []
+            };
+        });
+        sendToGoogleSheets({
+            action: 'catalog',
+            name: userProfile.fullName,
+            email: userProfile.email,
+            course: COURSE_CONFIG.courseId,
+            catalogId: catalogId,
+            items: items
+        });
+    }
+}
+
+function restorePracticesCatalogs() {
+    Object.keys(practicesCatalogs).forEach(function (catalogId) {
+        var data = practicesCatalogs[catalogId];
+        Object.keys(data).forEach(function (ambitoId) {
+            var item = data[ambitoId];
+            if (item.state) {
+                var radio = document.querySelector('input[name="state-' + catalogId + '-' + ambitoId + '"][value="' + item.state + '"]');
+                if (radio) radio.checked = true;
+            }
+            if (item.description) {
+                var ta = document.querySelector('.practice-row[data-ambito="' + ambitoId + '"] .practice-desc');
+                if (ta) ta.value = item.description;
+            }
+            (item.attributes || []).forEach(function (attrId) {
+                var cb = document.querySelector('.practice-row[data-ambito="' + ambitoId + '"] input[data-attr="' + attrId + '"]');
+                if (cb) cb.checked = true;
+            });
+        });
+    });
+}
+
+// --- Catalog display (lee localStorage, opera cross-curso) ---
+function getCatalogData(catalogId) {
+    if (practicesCatalogs[catalogId] && Object.keys(practicesCatalogs[catalogId]).length > 0) {
+        return practicesCatalogs[catalogId];
+    }
+    try {
+        var raw = localStorage.getItem(catalogId);
+        return raw ? JSON.parse(raw) : null;
+    } catch (e) { return null; }
+}
+
+function getAmbitoDisplayName(ambitoId) {
+    var names = {
+        'gobernanza': '🏛️ Gobernanza',
+        'administracion': '🗂️ Administración',
+        'recursos-economicos': '💰 Recursos Económicos',
+        'comunicaciones': '📣 Comunicaciones',
+        'relaciones-internacionales': '🌐 Relaciones Internacionales',
+        'crecimiento': '📈 Crecimiento',
+        'gestion-del-riesgo': '🛡️ Gestión del Riesgo',
+        'control-y-reconocimiento': '🏅 Control y Reconocimiento'
+    };
+    return names[ambitoId] || ambitoId;
+}
+
+function renderCatalogDisplays() {
+    document.querySelectorAll('.catalog-display').forEach(function (el) {
+        var catalogId = el.getAttribute('data-catalog-id');
+        var mode = el.getAttribute('data-mode') || 'full';
+        var data = getCatalogData(catalogId);
+        if (!data || Object.keys(data).length === 0) {
+            el.innerHTML = '<div class="catalog-display-empty">⚠️ <strong>Aún no tienes catálogo guardado.</strong><br>Para que este componente se llene, primero completá el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong> y guardá tu catálogo.</div>';
+            return;
+        }
+        var stateLabels = { si: '🟢 Sí', parcial: '🟡 Parcial', no: '🔴 No', 'no-se': '⚪ No sé' };
+        var summary = { si: [], parcial: [], no: [], 'no-se': [] };
+        Object.keys(data).forEach(function (aid) {
+            var it = data[aid];
+            if (it.state && summary[it.state]) summary[it.state].push({ id: aid, item: it });
+        });
+        var html = '<div class="catalog-display-content">';
+        html += '<div class="catalog-summary">' +
+            '<span class="catalog-summary-pill green">🟢 Sí: <strong>' + summary.si.length + '</strong></span>' +
+            '<span class="catalog-summary-pill yellow">🟡 Parcial: <strong>' + summary.parcial.length + '</strong></span>' +
+            '<span class="catalog-summary-pill red">🔴 No: <strong>' + summary.no.length + '</strong></span>' +
+            '<span class="catalog-summary-pill gray">⚪ No sé: <strong>' + summary['no-se'].length + '</strong></span>' +
+            '</div>';
+        if (mode === 'full') {
+            html += '<div class="catalog-detail">';
+            ['si', 'parcial', 'no', 'no-se'].forEach(function (st) {
+                summary[st].forEach(function (row) {
+                    var attrs = (row.item.attributes || []).map(function (a) { return '<span class="attr-pill">' + a + '</span>'; }).join(' ');
+                    var nAttrs = (row.item.attributes || []).length;
+                    var desc = row.item.description ? '<p class="catalog-desc">"' + escapeHtml(row.item.description) + '"</p>' : '';
+                    html += '<div class="catalog-item catalog-item-' + st + '">' +
+                        '<h4>' + getAmbitoDisplayName(row.id) + ' — ' + stateLabels[st] + '</h4>' +
+                        desc +
+                        (attrs ? '<div class="catalog-attrs"><strong>Atributos cumplidos (' + nAttrs + '/5):</strong> ' + attrs + '</div>' : '') +
+                        '</div>';
+                });
+            });
+            html += '</div>';
+        }
+        html += '</div>';
+        el.innerHTML = html;
+    });
 }
 
 // --- Timers ---

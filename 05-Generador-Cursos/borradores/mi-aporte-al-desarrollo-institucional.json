@@ -1,0 +1,536 @@
+{
+  "courseId": "mi-aporte-al-desarrollo-institucional",
+  "title": "Mi Aporte al Desarrollo Institucional",
+  "subtitle": "Curso 6 de la Línea Desarrollo Institucional · Cierre del Nivel 1 — Fundamentación",
+  "description": "Curso de cierre del Nivel 1. Convierte todo lo aprendido en un plan personal de aporte al DI, listo para firmar y compartir con el consejo. Lee automáticamente tu catálogo de buenas prácticas del Curso 5 y tu brújula personal del Curso 2, te propone metas-tipo por cada uno de los 8 ámbitos con recursos y plazos, y termina con un PDF firmable.",
+  "icon": "🗺️",
+  "duration": "30 minutos",
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~30 minutos · 6 lecciones cortas.</strong><br>Al final vas a salir con un <strong>plan personal de aporte al DI firmado</strong>, listo para llevar al consejo de tu grupo o región, o para guardarlo como tu compromiso personal. Sin abstracciones. Con metas, plazos y primer paso definido."
+        },
+        {
+          "type": "paragraph",
+          "text": "Llegaste al final del Nivel 1. Atravesaste seis cursos. Aprendiste qué es DI, conociste el marco doctrinal, ubicaste los órganos, recorriste los 8 ámbitos y construiste el catálogo de buenas prácticas de tu grupo. Pero todo eso pierde sentido si no se traduce en algo concreto que vas a hacer. Este curso es ese puente."
+        },
+        {
+          "type": "paragraph",
+          "text": "La buena noticia: <strong>no vas a empezar de cero</strong>. Este curso lee automáticamente tu <strong>catálogo de buenas prácticas del Curso 5</strong> (los 8 ámbitos con su estado: Sí completo, parcial, o sin desarrollar) y tu <strong>brújula personal del Curso 2</strong> (el principio que elegiste como criterio primero). A partir de ahí te propone metas concretas y tú las personalizas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a vivir en este curso"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 🔍 Tu catálogo de buenas prácticas — lo que reconociste en tu grupo",
+            "<strong>Lección 3 —</strong> 🎯 Las metas-tipo según el estado del ámbito",
+            "<strong>Lección 4 —</strong> 🛠️ Construye tu plan personal",
+            "<strong>Lección 5 —</strong> 🧭 Tu brújula personal en acción + sugerencia de cursos del Nivel 2",
+            "<strong>Lección 6 —</strong> 📜 Firma y comparte tu plan"
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tip de uso:</strong> este curso es el más práctico del Nivel 1. Casi todo el tiempo vas a estar marcando, ajustando y escribiendo. Cuando salgas, vas a tener un PDF firmable. Tómate este momento en serio — el plan es para los próximos 12 meses."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 🔍 Tu catálogo de buenas prácticas",
+      "emoji": "🔍",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>El catálogo del Curso 5 es el <strong>punto de partida</strong> del plan. Revisarlo es el primer paso para construir sobre realidad, no sobre suposición."
+        },
+        {
+          "type": "paragraph",
+          "text": "Antes de definir metas necesitas ver con claridad tu catálogo. El sistema cargó automáticamente lo que respondiste en el Curso 5. Si todavía no hiciste el Curso 5, te aviso ahora — vuelve a hacerlo y regresa, porque sin catálogo este curso no funciona en su versión interactiva."
+        },
+        {
+          "type": "catalog-display",
+          "catalogId": "catalogo-buenas-practicas-grupo",
+          "mode": "full"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🧭 Cómo se traduce tu catálogo en prioridades"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "🔴 <strong>Ámbitos en NO:</strong> son las <strong>brechas a construir</strong>. Tu grupo todavía no tiene una práctica en ese ámbito. Estas son tus primeras candidatas — el curso te propondrá metas tipo <em>“crear primera práctica”</em>.",
+            "🟡 <strong>Ámbitos en PARCIAL o en SÍ con 1-3 atributos:</strong> son las <strong>oportunidades de madurez</strong>. Hay materia prima. El curso te propondrá metas tipo <em>“fortalecer atributos”</em> para subir el número cumplido.",
+            "🟢 <strong>Ámbitos en SÍ con 4-5 atributos:</strong> son las <strong>fortalezas documentables</strong>. El curso te propondrá metas tipo <em>“documentar y compartir”</em> — porque lo que ya hace bien tu grupo merece ser sistematizado para otros (puente hacia el Curso 22 del Nivel 4).",
+            "⚪ <strong>Ámbitos marcados como 'No sé':</strong> son <strong>oportunidades de averiguar</strong>. Antes de hacer plan, vale conversar con el consejo — quizá la práctica existe pero tú no la conoces."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Si la mayoría de tus 8 ámbitos están en NO o PARCIAL (situación más típica), no intentes mejorar los 8 a la vez.</strong> Elige <strong>máximo 5</strong> para los próximos 12 meses. La mejora sostenida supera a la mejora dispersa."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🧭 Tu brújula personal del Curso 2"
+        },
+        {
+          "type": "paragraph",
+          "text": "También cargué el principio que elegiste como brújula personal en el Curso 2. Lo vamos a usar como criterio cuando tengas que decidir el orden de tus metas — porque cuando haya empate, ese principio decide."
+        },
+        {
+          "type": "brujula-display",
+          "storageKey": "brujula-personal"
+        }
+      ],
+      "reflection": {
+        "prompt": "Mirando tu catálogo completo en una pantalla por primera vez: ¿qué te llama la atención? ¿Es lo que esperabas o hay alguna sorpresa — un ámbito que pensabas en SÍ y quedó en PARCIAL, o uno que diste por NO y resulta que sí hay algo? Una sola frase."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "En el catálogo del Curso 5, los ámbitos marcados como 🔴 NO son…",
+            "options": [
+              "Ámbitos que tu grupo ya tiene resueltos completamente.",
+              "Las <strong>brechas a construir</strong> — ámbitos donde tu grupo todavía no tiene una práctica. El curso te propondrá metas tipo “crear primera práctica” para ellos.",
+              "Ámbitos que se deben descartar porque no son alcanzables."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Si la mayoría de tus 8 ámbitos están en NO o PARCIAL (situación típica), este curso recomienda…",
+            "options": [
+              "Intentar mejorar los 8 ámbitos al mismo tiempo, para no demorarse.",
+              "Elegir máximo 5 ámbitos prioritarios para los próximos 12 meses, porque la mejora sostenida supera a la dispersa.",
+              "Dejarlo así, porque el grupo está en promedio."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 3 →"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🎯 Las metas-tipo según el estado del ámbito",
+      "emoji": "🎯",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 7 minutos · 1 idea central:</strong><br>Para cada uno de los 8 ámbitos hay <strong>3 tipologías de meta</strong>: <em>documentar</em> (cuando el ámbito está en SÍ con atributos completos), <em>fortalecer</em> (cuando está en PARCIAL o SÍ incompleto) y <em>crear</em> (cuando está en NO). 8 ámbitos × 3 tipologías = <strong>24 metas-tipo</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "En la próxima lección vas a armar tu plan. Antes, conoce el catálogo de metas-tipo que tienes a disposición. Están organizadas por los 8 ámbitos del Curso 4, con <strong>tres tipologías de meta por ámbito</strong>, una para cada estado posible del catálogo:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🟢 Documentar y compartir", "description": "Cuando el ámbito está en <strong>SÍ con 4-5 atributos cumplidos</strong>. La práctica ya funciona — el siguiente paso es escribirla y hacerla replicable, para que sobreviva al equipo actual y sirva a otros grupos.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 Fortalecer atributos", "description": "Cuando el ámbito está en <strong>PARCIAL o en SÍ con 1-3 atributos</strong>. Hay materia prima — falta completar los atributos faltantes (por ejemplo, escribir el procedimiento que solo vive en la cabeza de alguien).", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 Crear primera práctica", "description": "Cuando el ámbito está en <strong>NO</strong>. Empezar desde cero con una práctica chica y aterrizada — no hace falta arrancar con lo más ambicioso, basta con la primera versión que cumpla 2-3 atributos. Después se fortalece.", "color": "#ffebee", "borderColor": "#f44336" }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Cada meta-tipo trae cinco campos asociados</strong>: plazo sugerido (3/6/12 meses), recursos sugeridos (qué leer del repositorio ASC), persona con quien hablar primero, primer paso esta semana, y señal de cumplimiento. Esto está en el plan-builder de la Lección 4 — acá ves los ejemplos por ámbito."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🏛️ Ámbito 1 — Gobernanza"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🟢 G-doc · 6 meses", "description": "<strong>Escribir la práctica de gobernanza del grupo en un documento de 1 página</strong>: cómo se convoca el consejo, cómo se decide, cómo se firma el acta. Compartirla con la región como aporte.<br><em>Recursos:</em> actas existentes, Reglamento Nacional de Grupos. <em>Hablar con:</em> Secretario + Presidente.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 G-fort · 3 meses", "description": "<strong>Implementar firma de acta al cierre de cada reunión del consejo</strong> + convocar al Tesorero y Contador a las reuniones con tema financiero. Subir atributos de Replicable y Efectiva.<br><em>Recursos:</em> formato de acta. <em>Hablar con:</em> Secretario.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 G-crear · 3 meses", "description": "<strong>Establecer el ritual de la reunión del consejo</strong>: agenda escrita, alguien que tome acta, decisiones registradas. Esa es tu primera práctica de gobernanza.<br><em>Recursos:</em> plantilla simple de acta. <em>Hablar con:</em> Presidente del Consejo.", "color": "#ffebee", "borderColor": "#f44336" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🗂️ Ámbito 2 — Administración"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🟢 A-doc · 6 meses", "description": "<strong>Escribir el procedimiento administrativo del grupo</strong>: cómo se maneja el inventario, los activos, los voluntarios. Compartirlo con grupos nuevos de la región.<br><em>Recursos:</em> planillas actuales. <em>Hablar con:</em> Intendente + Jefe de Grupo.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 A-fort · 6 meses", "description": "<strong>Implementar inventario completo de activos</strong> (carpas, equipos, libros) antes del próximo campamento + planilla de voluntariado formalizado. Subir atributo de Sostenibilidad.<br><em>Recursos:</em> planilla de inventario. <em>Hablar con:</em> Intendente.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 A-crear · 3 meses", "description": "<strong>Definir quién es el responsable de cada activo del grupo y de los voluntarios</strong>. Primera lista nominal del equipo + de los bienes. Es la base de cualquier administración futura.<br><em>Recursos:</em> hoja de cálculo simple. <em>Hablar con:</em> Jefe de Grupo.", "color": "#ffebee", "borderColor": "#f44336" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "💰 Ámbito 3 — Recursos Económicos"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🟢 RE-doc · 6 meses", "description": "<strong>Escribir el plan financiero del grupo</strong>: 6 fuentes de fondos, margen mínimo (≥17%), uso de excedentes. Compartirlo como modelo replicable con la región.<br><em>Recursos:</em> Taller Flor de Lis II Sesión 2 (Planeación y Finanzas). <em>Hablar con:</em> Tesorero + Consejo.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 RE-fort · 6 meses", "description": "<strong>Implementar libro contable básico con conciliación mensual</strong> + diversificar al menos 2 fuentes de fondos adicionales a la cuota. Subir atributo de Sostenibilidad.<br><em>Recursos:</em> plantilla contable + Taller FL II Sesión 2. <em>Hablar con:</em> Tesorero + Contador.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 RE-crear · 3 meses", "description": "<strong>Abrir cuenta bancaria del grupo si no existe</strong> + sacar la plata de cuentas personales. Cualquier cosa antes de cuenta del grupo es alto riesgo.<br><em>Recursos:</em> documentación del grupo, banco. <em>Hablar con:</em> Tesorero + Banco.", "color": "#ffebee", "borderColor": "#f44336" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📣 Ámbito 4 — Comunicaciones e Interinstitucionales"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🟢 C-doc · 6 meses", "description": "<strong>Escribir el manual de comunicaciones del grupo</strong>: comunicación con familias, redes sociales, manejo de crisis, marca y narrativa. Compartirlo con la región.<br><em>Recursos:</em> comunicados históricos, política de marca. <em>Hablar con:</em> Comunicador del Grupo + Jefe.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 C-fort · 6 meses", "description": "<strong>Establecer comunicación mensual con las familias</strong> (formato a definir) + protocolo escrito de comunicación de crisis. Subir atributo de Sostenibilidad.<br><em>Recursos:</em> lista de familias. <em>Hablar con:</em> Jefe de Grupo + Comunicador.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 C-crear · 3 meses", "description": "<strong>Crear el canal mínimo de comunicación con las familias</strong> (WhatsApp, correo, lo que sea) + cronograma de cuándo se comunica qué. Primera práctica.<br><em>Recursos:</em> lista actualizada de familias. <em>Hablar con:</em> Secretario + Jefe.", "color": "#ffebee", "borderColor": "#f44336" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🌐 Ámbito 5 — Relaciones Internacionales"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🟢 RI-doc · 12 meses", "description": "<strong>Sistematizar la experiencia internacional del grupo</strong> (proyecto OMMS, intercambio, jamboree) y aportarla como caso para otros grupos de la región.<br><em>Recursos:</em> registros del proyecto/intercambio. <em>Hablar con:</em> Jefe de Grupo + Comisionado Regional.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 RI-fort · 12 meses", "description": "<strong>Postular el grupo a un proyecto mundial de OMMS</strong> (Scouts for SDGs, Tide Turners, Champions for Nature) — completar la documentación y dar seguimiento.<br><em>Recursos:</em> catálogo de proyectos mundiales OMMS. <em>Hablar con:</em> Jefe + algún dirigente con inglés.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 RI-crear · 12 meses", "description": "<strong>Conectar el grupo con al menos un programa mundial</strong>: identificar uno que se alinee con el Plan de Grupo y dar el primer paso para participar.<br><em>Recursos:</em> scout.org. <em>Hablar con:</em> Comisionado Regional.", "color": "#ffebee", "borderColor": "#f44336" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📈 Ámbito 6 — Crecimiento y Sistema de Información"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🟢 CR-doc · 6 meses", "description": "<strong>Escribir el método de crecimiento del grupo</strong>: estrategias de captación, seguimiento, retención. Compartirlo con grupos en formación.<br><em>Recursos:</em> registros históricos de membresía. <em>Hablar con:</em> Comisionado Regional de Crecimiento.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 CR-fort · 6 meses", "description": "<strong>Construir Plan de Captación anual</strong> (campaña de barrio, jornada de puertas abiertas, alianzas con colegios) + mantener SiScout al día. Lograr crecimiento neto ≥2%.<br><em>Recursos:</em> Plan de Acción de Crecimiento 2023-2026 + SiScout. <em>Hablar con:</em> Comisionado Regional.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 CR-crear · 3 meses", "description": "<strong>Implementar registro mensual de ingresos y salidas de membresía</strong>. Primera base de datos del grupo. Sin esto, no hay nada que medir.<br><em>Recursos:</em> plantilla simple. <em>Hablar con:</em> Secretario + Jefes de Rama.", "color": "#ffebee", "borderColor": "#f44336" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🛡️ Ámbito 7 — Gestión del Riesgo"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🟢 GR-doc · 6 meses", "description": "<strong>Escribir el manual de gestión del riesgo del grupo</strong>: protocolo de salidas, plan de manejo de incidentes, prevención de daño. Compartirlo con la región.<br><em>Recursos:</em> protocolos actuales. <em>Hablar con:</em> Jefe + Comisionado Regional de Riesgo.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 GR-fort · 6 meses", "description": "<strong>Lograr que el 100% de los dirigentes tenga A Salvo del Peligro vigente</strong> y registrado + implementar la Lista de Chequeo del Protocolo Nacional de Transporte. Subir atributo de Aplicabilidad.<br><em>Recursos:</em> cursos A Salvo del Peligro (DNDI) + Protocolo Nacional de Transporte. <em>Hablar con:</em> Jefe + Equipo.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 GR-crear · 3 meses", "description": "<strong>Implementar protocolo mínimo en TODAS las salidas</strong>: lista de participantes, autorización firmada, hoja de salud, contactos de emergencia. Sin atajos.<br><em>Recursos:</em> Protocolo Nacional de Transporte + Lista de chequeo. <em>Hablar con:</em> Jefe.", "color": "#ffebee", "borderColor": "#f44336" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🏅 Ámbito 8 — Control y Reconocimiento"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🟢 CT-doc · 12 meses", "description": "<strong>Escribir el sistema de control y reconocimientos del grupo</strong>: cómo se vigila el cumplimiento, cómo se premian los aportes, ciclo de Asambleas. Compartirlo con grupos en formación.<br><em>Recursos:</em> actas de Asambleas + actos de reconocimiento. <em>Hablar con:</em> Canciller + Presidente.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 CT-fort · 6 meses", "description": "<strong>Realizar Asamblea Anual de Grupo cumpliendo el Reglamento</strong> (convocatoria con tiempo, quórum, actas) + establecer reconocimiento anual de dirigentes. Subir atributo de Efectiva.<br><em>Recursos:</em> Reglamento Nacional de Grupos + Manual de Estímulos Nacionales. <em>Hablar con:</em> Consejo de Grupo.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 CT-crear · 3 meses", "description": "<strong>Verificar y poner al día la documentación legal del grupo</strong> (personería jurídica, RUT, declaraciones). Es el primer paso del control: existir formalmente.<br><em>Recursos:</em> Cámara de Comercio + DIAN. <em>Hablar con:</em> Contador + Tesorero.", "color": "#ffebee", "borderColor": "#f44336" }
+          ]
+        }
+      ],
+      "reflection": {
+        "prompt": "Mira las 24 metas-tipo organizadas por los 8 ámbitos. Dado tu catálogo del Curso 5, ¿cuáles 2-3 sientes que son las primeras que deberías abordar? Anótalas — las vas a usar en la siguiente lección. La regla simple es atender primero los ámbitos en NO o PARCIAL, antes que documentar los SÍ."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "Las metas-tipo de este catálogo están organizadas por <strong>8 ámbitos × 3 tipologías</strong>. ¿Cuáles son las 3 tipologías?",
+            "options": [
+              "Urgente, importante y opcional.",
+              "Documentar y compartir (para SÍ completo), Fortalecer atributos (para PARCIAL o SÍ incompleto), Crear primera práctica (para NO).",
+              "Operativa, estratégica y táctica."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Si en tu catálogo del Curso 5 marcaste el ámbito <strong>Gestión del Riesgo</strong> en estado <strong>NO</strong>, ¿qué meta-tipo sería más sensata para empezar (3 meses)?",
+            "options": [
+              "GR-doc — escribir el manual de gestión del riesgo del grupo para compartirlo.",
+              "GR-crear — implementar protocolo mínimo en TODAS las salidas (lista de participantes, autorización firmada, hoja de salud, contactos de emergencia).",
+              "Ninguna meta de Gestión del Riesgo — primero los otros ámbitos."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 4 →"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 🛠️ Construye tu plan personal",
+      "emoji": "🛠️",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 8 minutos · 1 idea central:</strong><br>Plan-builder interactivo. Priorizar, ajustar plazos, añadir metas propias. Al final tienes un plan propio guardado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Llegó la parte más importante. Vas a interactuar con un plan-builder que ya tiene precargado lo siguiente según tu catálogo:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Los <strong>8 ámbitos del Curso 5</strong> ordenados por prioridad: primero los ámbitos en <strong>NO</strong> (brechas críticas), luego los en <strong>PARCIAL</strong> o <strong>SÍ con atributos incompletos</strong>, y al final los en <strong>SÍ con atributos completos</strong>.",
+            "Para cada ámbito, la tipología de meta sugerida según el estado: <strong>Crear</strong> (para NO), <strong>Fortalecer</strong> (para PARCIAL/SÍ incompleto), <strong>Documentar</strong> (para SÍ completo).",
+            "Plazo sugerido: para Crear, metas de 3 meses; para Fortalecer, metas de 6 meses; para Documentar, metas de 6-12 meses."
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🛠️ Tu plan-builder"
+        },
+        {
+          "type": "goal-planner",
+          "planId": "plan-personal-di",
+          "preloadFromCatalog": "catalogo-buenas-practicas-grupo",
+          "preloadFromCompass": "brujula-personal",
+          "resultStorageKey": "plan-personal-di",
+          "intro": "Lee tu catálogo del Curso 5 y tu brújula del Curso 2; ordena los 8 ámbitos por prioridad y precarga la tipología de meta según el estado de cada uno.",
+          "buttonLabel": "Guardar mi plan",
+          "maxAdoptedGoals": 5,
+          "maxCustomGoals": 3
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Recomendación:</strong> si te cuesta elegir entre dos metas, <strong>usa tu brújula personal del Curso 2</strong> como desempate. El principio que elegiste decide. Por ejemplo: si tu brújula es <em>“Participación Juvenil”</em>, priorizá metas que involucren a los chicos en la decisión (como CR-fort SiScout con la patrulla, o C-fort comunicación con familias)."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🧮 La regla del plan: máximo 5 metas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un plan con 10 metas es un plan que nadie cumple. Un plan con 3-5 metas bien escogidas es un plan que cambia tu grupo. La diferencia entre 5 y 10 no es <em>“el doble de logros”</em> — es <em>“la mitad del foco”</em>. <strong>Quédate con 5 máximo. Las otras 19 metas estarán esperándote el año entrante.</strong>"
+        }
+      ],
+      "reflection": {
+        "prompt": "Después de hacer tu plan, mira tus 3-5 metas elegidas. ¿Cuál es la que sientes que más te emociona o más miedo te da hacer? Esa probablemente es la que más importa. Coméntalo en una frase."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Un jefe de grupo intenta marcar 10 metas porque considera que todas son importantes. La presidenta del consejo le sugiere quedarse con menos. ¿Qué argumento sostiene este curso para limitar el plan?",
+            "options": [
+              "Que 10 metas equivalen a 5, solo cambia la velocidad de ejecución.",
+              "Que la diferencia entre 5 y 10 no es “el doble de logros” sino “la mitad del foco” — un plan disperso no cambia el grupo.",
+              "Que el plan-builder técnicamente no acepta más de 5 metas."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Por cada meta adoptada, el plan-builder pide definir cinco cosas: adopción/ajuste, plazo (3/6/12 meses), primer paso esta semana, persona con quien hablar primero, y…",
+            "options": [
+              "Costo en pesos colombianos.",
+              "Señal de cumplimiento — qué será evidencia de que se cumplió.",
+              "Nombre del reemplazo si fallas."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 5 →"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 🧭 Tu brújula en acción + sugerencia de cursos",
+      "emoji": "🧭",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>El principio elegido en el Curso 2 sirve como <strong>criterio de priorización</strong>. Y según tu catálogo del Curso 5, hay 2-3 cursos del Nivel 2 especialmente útiles."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🧭 Tu brújula personal aplicada"
+        },
+        {
+          "type": "paragraph",
+          "text": "En el Curso 2 elegiste un principio del DI como tu brújula personal. Ahora ese principio toma rol de criterio: cuando tengas un dilema entre dos metas, o entre una meta y otra prioridad del grupo, ese principio decide."
+        },
+        {
+          "type": "brujula-action",
+          "storageKey": "brujula-personal"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎒 Cursos del Nivel 2 sugeridos para ti"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Nivel 2 de esta línea tiene 8 cursos, uno por ámbito de gestión. Según los ámbitos donde tu grupo tiene mayor brecha (NO) o mayor oportunidad de fortalecer (PARCIAL) en el catálogo del Curso 5, te recomiendo estos 2-3 para empezar (cuando estén publicados):"
+        },
+        {
+          "type": "courses-suggestion",
+          "catalogId": "catalogo-buenas-practicas-grupo"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>📅 Disclaimer:</strong> los Cursos 7-14 del Nivel 2 están actualmente en construcción. Esta sugerencia te orienta para cuando estén disponibles. Por ahora, los materiales fuente (PNDI 2017, Plan Regional 2022-2025, Manual de Estímulos, etc.) están en <a href=\"https://scout.org.co/biblioteca\" target=\"_blank\" rel=\"noopener\">scout.org.co/biblioteca</a>."
+        }
+      ],
+      "reflection": {
+        "prompt": "Mira las 1-3 sugerencias de cursos del Nivel 2 que te aparecieron. ¿Cuál tomarías primero cuando estén disponibles? ¿Por qué?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "Tu brújula personal del Curso 2 sirve principalmente para…",
+            "options": [
+              "Memorizar el principio que más te guste.",
+              "Tener un criterio claro para decidir cuando tengas un dilema entre dos metas o entre el plan y otra prioridad del grupo.",
+              "Demostrar que conoces los 7 principios."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Si en el Curso 5 marcaste el ámbito de <strong>Gobernanza</strong> en estado PARCIAL, este curso te sugiere empezar en el Nivel 2 con…",
+            "options": [
+              "Curso 13 — Crecimiento y Sistema de Información.",
+              "Curso 7 — Gobernanza Práctica.",
+              "Curso 14 — Gestión del Riesgo."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 6 →"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — 📜 Firma y comparte tu plan",
+      "emoji": "📜",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>PDF imprimible, firma personal, opción de compartir con el consejo. Cierre del Nivel 1."
+        },
+        {
+          "type": "paragraph",
+          "text": "Llegaste al final del Nivel 1 de la Línea Desarrollo Institucional. Empezaste preguntándote qué tenía que ver el DI contigo. Sales con 5 metas concretas, plazos, primeros pasos definidos, y un mapa de cursos para seguir aprendiendo. Falta una sola cosa: <strong>firmar</strong>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📜 Generá tu PDF firmable"
+        },
+        {
+          "type": "pdf-generator",
+          "planId": "plan-personal-di",
+          "buttonLabel": "Descargar mi plan en PDF"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🤝 Compartir con tu consejo"
+        },
+        {
+          "type": "paragraph",
+          "text": "Una buena práctica de muchos adultos del Movimiento: <strong>llevar este plan a una reunión del consejo de grupo o regional</strong>. No para que sea aprobado (es tu plan personal), sino para hacerlo público dentro del equipo. Cuando otros lo conocen, se vuelve más fácil de cumplir — porque te van a preguntar."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Si tu Presidente del Consejo está de acuerdo, puedes pedirle que firme el plan como testigo.</strong> No te genera obligación contractual, pero sí compromiso público dentro del equipo. Es un gesto fuerte."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Cierre del Nivel 1"
+        },
+        {
+          "type": "paragraph",
+          "text": "Estás cerrando 6 cursos en los que pasaste de <em>“el DI es asunto ajeno”</em> a <em>“tengo un plan personal con metas claras”</em>. Ese es el viaje del Nivel 1. Lo que viene en el Nivel 2 es <strong>profundizar por ámbito</strong> (8 cursos). En el Nivel 3 <strong>especializarte por cargo</strong> (6 cursos). En el Nivel 4 abordar los <strong>transversales</strong> (4 cursos). Es un camino — y acaba de empezar."
+        },
+        {
+          "type": "blockquote",
+          "text": "El aprendizaje sin compromiso es solo entretenimiento. Hoy tu aprendizaje se volvió compromiso firmado. Bienvenido al equipo de los que sostienen — con plan en mano."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🗓️ Próximo paso natural:</strong> poné en tu calendario una alerta dentro de 3 meses para revisar tu plan. ¿Cuáles metas avanzaron? ¿Cuáles se atrasaron y por qué? Eso es Desarrollo Institucional aplicado a ti mismo."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu compromiso final en una frase: <em>“Yo, ___, me comprometo con estas ___ metas en los próximos 12 meses por la salud institucional de ___ (mi grupo / mi región / mi consejo).”</em> Esta frase queda guardada en tu certificado del Nivel 1."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6 — Cierre del curso y del Nivel 1",
+        "questions": [
+          {
+            "text": "El PDF que generas en este curso incluye…",
+            "options": [
+              "Solo tu catálogo del Curso 5.",
+              "Tu catálogo de buenas prácticas + tu brújula + las 5 metas adoptadas + los 2-3 cursos del Nivel 2 sugeridos + espacio para firma personal y del Presidente del Consejo.",
+              "Solo las metas, sin catálogo ni cursos sugeridos."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Una buena práctica final que sugiere este curso para fortalecer el cumplimiento del plan es…",
+            "options": [
+              "Guardarlo solo para uno mismo, sin que nadie más lo sepa.",
+              "Llevarlo al consejo de grupo o regional para hacerlo público dentro del equipo — porque cuando otros lo conocen, se vuelve más fácil de cumplir.",
+              "Subirlo a redes sociales con foto del firmante."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Obtener Certificado 🏆"
+      }
+    }
+  ],
+  "achievements": [
+    { "id": "achievement-1", "name": "Veo mi catálogo claro", "emoji": "🔍", "unlockOnModule": 2 },
+    { "id": "achievement-2", "name": "Conozco las opciones", "emoji": "🎯", "unlockOnModule": 3 },
+    { "id": "achievement-3", "name": "Hice mi plan", "emoji": "🛠️", "unlockOnModule": 4 },
+    { "id": "achievement-4", "name": "Conozco mi ruta de aprendizaje", "emoji": "🧭", "unlockOnModule": 5 },
+    { "id": "achievement-5", "name": "Tengo mi plan firmado", "emoji": "📜", "unlockOnModule": 6 },
+    { "id": "achievement-final", "name": "Fundamento Institucional ASC — Nivel 1 cerrado", "emoji": "🏛️", "unlockOnModule": -1 }
+  ],
+  "certificate": {
+    "courseName": "MI APORTE AL DESARROLLO INSTITUCIONAL",
+    "description": "ha completado el Curso 6 y cierre del Nivel 1 — Fundamentación de la Línea Desarrollo Institucional, convirtiendo el aprendizaje teórico de los cinco cursos previos en un plan personal de aporte firmado, con metas concretas extraídas del catálogo de buenas prácticas de su grupo, plazos y primeros pasos definidos, listo para llevar al consejo de grupo o región como compromiso público con la salud institucional de la Asociación Scouts de Colombia"
+  }
+}

@@ -177,6 +177,108 @@ function renderSection(section) {
                 </div>
                 <div style="margin-top:10px;padding:10px;background:#fff3e0;border-radius:6px;font-size:0.82em;color:#666;font-style:italic;">[En el curso real: si el adulto aún no completó el Curso 5, aparece un aviso "⚠️ Aún no tienes catálogo guardado" con link al Curso 5.]</div>
             </div>`;
+        case 'brujula-display':
+            return `<div class="brujula-display-preview" style="margin:20px 0;background:#f8f5fc;border:2px solid #9c27b0;border-radius:8px;padding:18px;">
+                <div style="font-weight:600;color:#9c27b0;font-size:1em;margin-bottom:6px;">🧭 Visualización de la brújula personal</div>
+                <p style="font-size:0.9em;color:#555;margin:0 0 12px 0;">Lee de <code>${section.storageKey || 'brujula-personal'}</code> el principio que el adulto eligió como brújula en el Curso 2 y la justificación que escribió.</p>
+                <div style="margin:10px 0;padding:14px;background:#fff;border-left:4px solid #9c27b0;border-radius:6px;font-size:0.9em;">
+                    <div><strong>Mi brújula:</strong> <span style="color:#9c27b0;font-weight:600;">[Principio guardado — ej. "Participación Juvenil"]</span></div>
+                    <div style="margin-top:6px;font-style:italic;color:#555;">[Justificación que escribió el adulto, leída del Curso 2]</div>
+                </div>
+                <div style="margin-top:10px;padding:10px;background:#fff3e0;border-radius:6px;font-size:0.82em;color:#666;font-style:italic;">[Si no hay brújula guardada: muestra "ℹ️ Aún no registramos tu brújula. Defínela en el Curso 2 o seguí sin ella."]</div>
+            </div>`;
+        case 'goal-planner':
+            const gpTipologias = (section.tipologias || [
+                { id: 'doc', label: '🟢 Documentar y compartir', when: 'ámbito en SÍ con 4-5 atributos' },
+                { id: 'fort', label: '🟡 Fortalecer atributos', when: 'ámbito en PARCIAL o SÍ con 1-3 atributos' },
+                { id: 'crear', label: '🔴 Crear primera práctica', when: 'ámbito en NO' }
+            ]).map(t => `<span style="display:inline-block;padding:4px 10px;background:#fff;border:1px solid #ddd;border-radius:14px;margin:2px;font-size:0.82em;">${t.label}</span>`).join('');
+            const gpAmbitos = (section.ambitos || [
+                { id: 'gobernanza', name: '🏛️ Gobernanza' },
+                { id: 'administracion', name: '🗂️ Administración' },
+                { id: 'recursos-economicos', name: '💰 Recursos Económicos' },
+                { id: 'comunicaciones', name: '📣 Comunicaciones' },
+                { id: 'relaciones-internacionales', name: '🌐 Relaciones Internacionales' },
+                { id: 'crecimiento', name: '📈 Crecimiento' },
+                { id: 'gestion-del-riesgo', name: '🛡️ Gestión del Riesgo' },
+                { id: 'control-y-reconocimiento', name: '🏅 Control y Reconocimiento' }
+            ]).map(a => `<div style="margin:6px 0;padding:8px 12px;background:#fff;border-left:3px solid #622599;border-radius:4px;font-size:0.85em;">
+                <div style="font-weight:600;color:#622599;">☐ ${a.name}</div>
+                <div style="font-size:0.82em;color:#666;font-style:italic;margin-top:2px;">[Pre-cargado según estado del ámbito en el catálogo del Curso 5: meta-tipo Documentar / Fortalecer / Crear]</div>
+            </div>`).join('');
+            return `<div class="goal-planner-preview" style="margin:20px 0;background:#f8f5fc;border:2px solid #622599;border-radius:8px;padding:18px;">
+                <div style="font-weight:600;color:#622599;font-size:1em;margin-bottom:6px;">🛠️ Plan-builder personal (interactivo)</div>
+                <p style="font-size:0.9em;color:#555;margin:0 0 12px 0;">${section.intro || 'Lee tu catálogo del Curso 5 y tu brújula del Curso 2, ordena los 8 ámbitos por prioridad y precarga una de las 3 tipologías de meta por ámbito según el estado.'}</p>
+                <div style="margin-bottom:10px;font-size:0.88em;color:#555;"><strong>Tipologías de meta:</strong></div>
+                <div style="margin-bottom:14px;">${gpTipologias}</div>
+                <div style="margin-bottom:8px;font-size:0.88em;color:#555;"><strong>8 ámbitos del Curso 4 ordenados según el catálogo:</strong></div>
+                <div>${gpAmbitos}</div>
+                <div style="margin-top:12px;padding:12px;background:#fff;border-radius:6px;font-size:0.85em;">
+                    <strong>Por cada meta que el adulto adopta, el plan-builder pide cinco campos:</strong>
+                    <ul style="margin:8px 0 0 0;padding-left:20px;">
+                        <li>Adoptar / Descartar / Ajustar (radio)</li>
+                        <li>Plazo: 3 / 6 / 12 meses (preseleccionado según tipología)</li>
+                        <li>Primer paso (esta semana) — texto libre</li>
+                        <li>Persona con quien hablar primero — texto libre</li>
+                        <li>Señal de cumplimiento — texto libre</li>
+                    </ul>
+                </div>
+                <div style="margin-top:10px;padding:10px;background:#e8f5e9;border-radius:6px;font-size:0.85em;color:#1b5e20;"><strong>Reglas del plan:</strong> máximo 5 metas adoptadas · puede añadir hasta 3 metas propias · el resultado se guarda como <code>${section.resultStorageKey || 'plan-personal-di'}</code>.</div>
+                <div style="margin-top:10px;text-align:center;"><span style="display:inline-block;padding:8px 18px;background:#622599;color:#fff;border-radius:6px;font-weight:600;font-size:0.9em;">💾 ${section.buttonLabel || 'Guardar mi plan'}</span></div>
+            </div>`;
+        case 'brujula-action':
+            const baOpts = (section.principios || [
+                { id: 'participacion-juvenil', name: 'Participación Juvenil', example: 'Priorizá metas que involucren a los chicos en las decisiones (ej. CR-fort SiScout con la patrulla, C-fort comunicación con familias).' },
+                { id: 'normatividad', name: 'Normatividad', example: 'CT-crear (documentación legal) y GR-crear/GR-fort (protocolos de riesgo) saltan al primer lugar.' },
+                { id: 'coherencia', name: 'Coherencia', example: 'C-fort (comunicación mensual con familias) y CT-fort (Asamblea según Reglamento) van al frente.' },
+                { id: 'colectividad-y-consenso', name: 'Colectividad y Consenso', example: 'G-crear / G-fort (gobernanza con actas y Fiscal) suben en prioridad.' }
+            ]).map(p => `<div style="margin:8px 0;padding:10px 12px;background:#fff;border-left:3px solid #9c27b0;border-radius:4px;font-size:0.86em;">
+                <div style="font-weight:600;color:#9c27b0;">Si tu brújula es <em>${p.name}</em>:</div>
+                <div style="margin-top:4px;color:#555;">${p.example}</div>
+            </div>`).join('');
+            return `<div class="brujula-action-preview" style="margin:20px 0;background:#f8f5fc;border:2px solid #9c27b0;border-radius:8px;padding:18px;">
+                <div style="font-weight:600;color:#9c27b0;font-size:1em;margin-bottom:6px;">🧭 Brújula en acción (contextual)</div>
+                <p style="font-size:0.9em;color:#555;margin:0 0 12px 0;">Lee el principio guardado y muestra el bloque correspondiente de cómo aplicarlo a las metas del plan-builder.</p>
+                ${baOpts}
+                <div style="margin-top:10px;padding:10px;background:#fff3e0;border-radius:6px;font-size:0.82em;color:#666;font-style:italic;">[En el curso real: aparece solo el bloque correspondiente al principio guardado del adulto. Para preview muestro los 4 más comunes.]</div>
+            </div>`;
+        case 'courses-suggestion':
+            const csList = (section.suggestions || [
+                { trigger: 'Gobernanza en NO/PARCIAL', curso: 'Curso 7 — Gobernanza Práctica' },
+                { trigger: 'Administración en NO/PARCIAL', curso: 'Curso 9 — Administración del Grupo' },
+                { trigger: 'Recursos Económicos en NO/PARCIAL', curso: 'Curso 10 — Finanzas Sanas: Presupuesto y Tesorería' },
+                { trigger: 'Comunicaciones en NO/PARCIAL', curso: 'Curso 12 — Comunicaciones y Relaciones Interinstitucionales' },
+                { trigger: 'Crecimiento en NO/PARCIAL', curso: 'Curso 13 — Crecimiento y Sistema de Información' },
+                { trigger: 'Gestión del Riesgo en NO/PARCIAL', curso: 'Curso 14 — Gestión del Riesgo' },
+                { trigger: 'Mayoría en SÍ con atributos completos', curso: 'Curso 22 — Buenas Prácticas Institucionales (Nivel 4): documentá y compartí' }
+            ]).map(s => `<div style="margin:6px 0;padding:8px 12px;background:#fff;border-left:3px solid #4caf50;border-radius:4px;font-size:0.86em;">
+                <div style="color:#555;"><strong>Si:</strong> ${s.trigger}</div>
+                <div style="color:#1b5e20;font-weight:600;margin-top:2px;">→ ${s.curso}</div>
+            </div>`).join('');
+            return `<div class="courses-suggestion-preview" style="margin:20px 0;background:#f8f5fc;border:2px solid #4caf50;border-radius:8px;padding:18px;">
+                <div style="font-weight:600;color:#4caf50;font-size:1em;margin-bottom:6px;">🎒 Sugerencia de cursos del Nivel 2 (contextual)</div>
+                <p style="font-size:0.9em;color:#555;margin:0 0 12px 0;">Lee el catálogo del Curso 5 y sugiere 2-3 cursos del Nivel 2 según los ámbitos donde el grupo tiene más brecha (NO) u oportunidad de fortalecer (PARCIAL).</p>
+                ${csList}
+                <div style="margin-top:10px;padding:10px;background:#fff3e0;border-radius:6px;font-size:0.82em;color:#666;font-style:italic;">[Disclaimer: los Cursos 7-14 del Nivel 2 están en construcción. La sugerencia orienta para cuando estén disponibles.]</div>
+            </div>`;
+        case 'pdf-generator':
+            return `<div class="pdf-generator-preview" style="margin:20px 0;background:#f8f5fc;border:2px solid #622599;border-radius:8px;padding:18px;">
+                <div style="font-weight:600;color:#622599;font-size:1em;margin-bottom:6px;">📜 Generador de PDF firmable</div>
+                <p style="font-size:0.9em;color:#555;margin:0 0 12px 0;">Genera un PDF imprimible con todas las piezas del plan personal del adulto.</p>
+                <div style="margin:10px 0;padding:14px;background:#fff;border-radius:6px;font-size:0.88em;">
+                    <strong>El PDF incluye:</strong>
+                    <ul style="margin:8px 0 0 0;padding-left:20px;">
+                        <li>Encabezado: nombre del adulto + grupo/región + fecha</li>
+                        <li>Sección 1: catálogo de buenas prácticas (los 8 ámbitos con estado y atributos)</li>
+                        <li>Sección 2: brújula personal (principio + justificación)</li>
+                        <li>Sección 3: las 5 metas adoptadas con todos los campos</li>
+                        <li>Sección 4: los 2-3 cursos del Nivel 2 sugeridos</li>
+                        <li>Sección 5: espacio para firma personal + firma del Presidente del Consejo</li>
+                        <li>Footer: enlace al curso para revisar el plan dentro de 6 meses</li>
+                    </ul>
+                </div>
+                <div style="margin-top:10px;text-align:center;"><span style="display:inline-block;padding:10px 22px;background:#622599;color:#fff;border-radius:6px;font-weight:600;font-size:0.95em;">📄 ${section.buttonLabel || 'Descargar mi plan en PDF'}</span></div>
+            </div>`;
         default:
             return `<p>${section.text || ''}</p>`;
     }

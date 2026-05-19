@@ -84,7 +84,7 @@
               "properties": {
                 "type": {
                   "type": "string",
-                  "enum": ["paragraph", "heading", "info-box", "mission-box", "list", "timeline", "method-grid", "blockquote", "course-objectives", "video", "policy-quote", "photo-upload", "self-assessment", "plan-builder", "practices-builder", "catalog-display"],
+                  "enum": ["paragraph", "heading", "info-box", "mission-box", "list", "timeline", "method-grid", "blockquote", "course-objectives", "video", "policy-quote", "photo-upload", "self-assessment", "plan-builder", "practices-builder", "catalog-display", "brujula-display", "goal-planner", "brujula-action", "courses-suggestion", "pdf-generator"],
                   "description": "Tipo de seccion de contenido."
                 },
                 "text": {
