@@ -133,6 +133,50 @@ function renderSection(section) {
                     ${saComps}
                     <div style="margin-top:14px;padding:12px;background:#fff3e0;border-radius:6px;font-size:0.85em;color:#666;font-style:italic;">[En el curso real: el estudiante selecciona su grado en cada competencia, y al hacer click en "Calcular mi perfil" obtiene visualmente sus 3 fortalezas y 3 áreas de oportunidad. El resultado se guarda y queda disponible para el Curso 4.]</div>
                 </div>`;
+        case 'practices-builder':
+            const pbcStates = section.states || [
+                { value: 'si', label: '🟢 Sí' },
+                { value: 'parcial', label: '🟡 Parcial' },
+                { value: 'no', label: '🔴 No' },
+                { value: 'no-se', label: '⚪ No sé' }
+            ];
+            const pbcAttributes = section.attributes || [
+                { id: 'innovadora', name: 'Innovadora' },
+                { id: 'efectiva', name: 'Efectiva' },
+                { id: 'sostenible', name: 'Sostenible' },
+                { id: 'replicable', name: 'Replicable' },
+                { id: 'aplicable', name: 'Aplicable' }
+            ];
+            const pbcAmbitosList = (section.ambitos || []).map(a => {
+                const stateChips = pbcStates.map(s => `<span class="practice-state-option" style="display:inline-flex;gap:4px;padding:4px 10px;background:#f8f5fc;border-radius:14px;font-size:0.8em;margin:2px;">☐ ${s.label}</span>`).join('');
+                const attrChips = pbcAttributes.map(at => `<span class="practice-attr-option" style="display:inline-block;padding:3px 9px;background:#f8f5fc;border-radius:12px;font-size:0.8em;margin:2px;">☐ ${at.name}</span>`).join('');
+                return `<div style="margin:10px 0;padding:12px;background:#fff;border-left:3px solid #622599;border-radius:4px;">
+                    <div style="font-weight:600;color:#622599;font-size:0.95em;margin-bottom:6px;">${a.emoji ? a.emoji + ' ' : ''}${a.name}</div>
+                    <div style="font-size:0.8em;color:#666;margin-bottom:4px;">Estado:</div>
+                    <div style="margin-bottom:8px;">${stateChips}</div>
+                    <div style="font-size:0.8em;color:#666;margin-bottom:4px;">Descripción (si Sí/Parcial):</div>
+                    <div style="background:#fafafa;padding:6px 10px;border-radius:4px;font-size:0.82em;color:#999;font-style:italic;border:1px dashed #ddd;margin-bottom:8px;">[Textarea — descríbela en una frase, max 200 caracteres]</div>
+                    <div style="font-size:0.8em;color:#666;margin-bottom:4px;">Atributos cumplidos:</div>
+                    <div>${attrChips}</div>
+                </div>`;
+            }).join('');
+            return `<div class="practices-builder-preview" style="margin:20px 0;background:#f8f5fc;border:2px solid #622599;border-radius:8px;padding:18px;">
+                <div style="font-weight:600;color:#622599;font-size:1em;margin-bottom:6px;">🌟 Constructor de catálogo de buenas prácticas (interactivo)</div>
+                <p style="font-size:0.9em;color:#555;margin:0 0 12px 0;">${section.intro || 'El adulto marca, por cada uno de los 8 ámbitos, el estado de la práctica, la describe, y marca cuáles atributos cumple.'}</p>
+                ${pbcAmbitosList}
+                <div style="margin-top:14px;padding:12px;background:#fff3e0;border-radius:6px;font-size:0.85em;color:#666;font-style:italic;">[En el curso real: cada ámbito tiene radio buttons (Sí/Parcial/No/No sé), un textarea para la descripción, y 5 checkboxes para los atributos. El catálogo se guarda en localStorage como <code>${section.catalogId || 'catalogo-buenas-practicas-grupo'}</code> y el Curso 6 lo lee automáticamente.]</div>
+                <div style="margin-top:10px;text-align:center;"><span style="display:inline-block;padding:8px 18px;background:#622599;color:#fff;border-radius:6px;font-weight:600;font-size:0.9em;">💾 ${section.buttonLabel || 'Guardar mi catálogo'}</span></div>
+            </div>`;
+        case 'catalog-display':
+            return `<div class="catalog-display-preview" style="margin:20px 0;background:#f8f5fc;border:2px solid #622599;border-radius:8px;padding:18px;">
+                <div style="font-weight:600;color:#622599;font-size:1em;margin-bottom:6px;">📊 Visualización del catálogo guardado (lectura cross-curso)</div>
+                <p style="font-size:0.9em;color:#555;margin:0 0 12px 0;">Lee el catálogo guardado en <code>${section.catalogId || 'catalogo-buenas-practicas-grupo'}</code> y lo renderiza con:</p>
+                <div style="margin:10px 0;padding:12px;background:#fff;border-radius:6px;font-size:0.88em;">
+                    <div style="margin-bottom:8px;"><strong>Resumen:</strong> 🟢 Sí: N · 🟡 Parcial: N · 🔴 No: N · ⚪ No sé: N</div>
+                    <div style="font-size:0.85em;color:#666;font-style:italic;">[Modo "full": cada ámbito con su estado, descripción y los atributos cumplidos como pills]</div>
+                </div>
+                <div style="margin-top:10px;padding:10px;background:#fff3e0;border-radius:6px;font-size:0.82em;color:#666;font-style:italic;">[En el curso real: si el adulto aún no completó el Curso 5, aparece un aviso "⚠️ Aún no tienes catálogo guardado" con link al Curso 5.]</div>
+            </div>`;
         default:
             return `<p>${section.text || ''}</p>`;
     }

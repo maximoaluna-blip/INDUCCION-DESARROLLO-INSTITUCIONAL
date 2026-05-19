@@ -220,6 +220,72 @@ function renderSection(section) {
                     </div>
                     <div id="sa-result-${saId}" class="self-assessment-result hidden"></div>
                 </div>`;
+        case 'practices-builder':
+            const pbcId = section.catalogId || 'catalogo-buenas-practicas';
+            const pbcIntro = section.intro || 'Marca el estado de cada ámbito en tu grupo o región, descríbelo en una frase y marca cuáles de los 5 atributos cumple.';
+            const pbcButtonLabel = section.buttonLabel || 'Guardar mi catálogo';
+            const pbcAttributes = section.attributes || [
+                { id: 'innovadora', name: 'Innovadora' },
+                { id: 'efectiva', name: 'Efectiva' },
+                { id: 'sostenible', name: 'Sostenible' },
+                { id: 'replicable', name: 'Replicable' },
+                { id: 'aplicable', name: 'Aplicable' }
+            ];
+            const pbcStates = section.states || [
+                { value: 'si', label: '🟢 Sí' },
+                { value: 'parcial', label: '🟡 Parcial' },
+                { value: 'no', label: '🔴 No' },
+                { value: 'no-se', label: '⚪ No sé' }
+            ];
+            const pbcAmbitos = (section.ambitos || []).map((a, idx) => {
+                const stateRadios = pbcStates.map(s =>
+                    `<label class="practice-state-option">
+                            <input type="radio" name="state-${pbcId}-${a.id}" value="${s.value}" onchange="recordPracticeState('${pbcId}', '${a.id}', 'state', '${s.value}')">
+                            <span>${s.label}</span>
+                        </label>`
+                ).join('\n                        ');
+                const attrChecks = pbcAttributes.map(at =>
+                    `<label class="practice-attr-option">
+                            <input type="checkbox" data-attr="${at.id}" onchange="recordPracticeAttribute('${pbcId}', '${a.id}', '${at.id}', this.checked)">
+                            <span>${at.name}</span>
+                        </label>`
+                ).join('\n                        ');
+                return `<div class="practice-row" data-ambito="${a.id}">
+                    <h4 class="practice-ambito-name">${a.emoji ? a.emoji + ' ' : ''}${a.name}</h4>
+                    <div class="practice-field">
+                        <label class="practice-field-label">¿Existe una práctica en este ámbito?</label>
+                        <div class="practice-state-options">
+                            ${stateRadios}
+                        </div>
+                    </div>
+                    <div class="practice-field practice-field-desc">
+                        <label class="practice-field-label">Si <em>sí</em> o <em>parcial</em> — descríbela en una frase</label>
+                        <textarea class="practice-desc" maxlength="200" placeholder="Ej: en mi grupo se hace así..." onchange="recordPracticeState('${pbcId}', '${a.id}', 'description', this.value)"></textarea>
+                    </div>
+                    <div class="practice-field">
+                        <label class="practice-field-label">¿Cuántos atributos cumple?</label>
+                        <div class="practice-attr-options">
+                            ${attrChecks}
+                        </div>
+                    </div>
+                </div>`;
+            }).join('\n                ');
+            return `<div class="practices-builder" id="pb-${pbcId}" data-catalog-id="${pbcId}">
+                <p class="practices-builder-intro">${pbcIntro}</p>
+                <div class="practices-rows">
+                    ${pbcAmbitos}
+                </div>
+                <div class="practices-builder-actions">
+                    <button type="button" class="btn-primary" onclick="savePracticesCatalog('${pbcId}')">💾 ${pbcButtonLabel}</button>
+                </div>
+                <div id="pbc-status-${pbcId}" class="practices-builder-status hidden"></div>
+            </div>`;
+        case 'catalog-display':
+            const cdId = section.catalogId || 'catalogo-buenas-practicas-grupo';
+            const cdMode = section.mode || 'full';
+            return `<div class="catalog-display" id="cd-${cdId}" data-catalog-id="${cdId}" data-mode="${cdMode}">
+                <p class="catalog-display-loading">Cargando tu catálogo guardado…</p>
+            </div>`;
         default:
             return `<p>${section.text || ''}</p>`;
     }

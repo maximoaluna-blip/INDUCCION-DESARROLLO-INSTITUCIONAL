@@ -769,6 +769,188 @@ body {
     .toggle-buttons { flex-direction: column; }
 }
 
+/* --- Practices Builder (Curso 5) --- */
+.practices-builder {
+    margin: 20px 0;
+    background: #f8f5fc;
+    border: 2px solid #622599;
+    border-radius: 10px;
+    padding: 22px;
+}
+.practices-builder-intro {
+    font-size: 0.95em;
+    color: #444;
+    margin: 0 0 18px 0;
+    line-height: 1.5;
+}
+.practices-rows { display: flex; flex-direction: column; gap: 18px; }
+.practice-row {
+    background: #fff;
+    border-left: 4px solid #622599;
+    border-radius: 8px;
+    padding: 16px 18px;
+}
+.practice-ambito-name {
+    color: #622599;
+    margin: 0 0 12px 0;
+    font-size: 1.05em;
+    border-bottom: 1px solid #eadcfa;
+    padding-bottom: 8px;
+}
+.practice-field { margin-bottom: 14px; }
+.practice-field:last-child { margin-bottom: 0; }
+.practice-field-label {
+    display: block;
+    font-size: 0.88em;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 6px;
+}
+.practice-state-options, .practice-attr-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.practice-state-option, .practice-attr-option {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 12px;
+    background: #f8f5fc;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.88em;
+    transition: background .15s, border-color .15s;
+}
+.practice-state-option:hover, .practice-attr-option:hover { background: #efe5fa; }
+.practice-state-option:has(input:checked),
+.practice-attr-option:has(input:checked) {
+    background: #efe5fa;
+    border-color: #622599;
+    font-weight: 600;
+}
+.practice-state-option input, .practice-attr-option input { margin: 0; }
+.practice-desc {
+    width: 100%;
+    min-height: 60px;
+    padding: 8px 10px;
+    border: 1px solid #d4c2ec;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 0.92em;
+    resize: vertical;
+    box-sizing: border-box;
+}
+.practice-desc:focus { outline: 2px solid #622599; border-color: #622599; }
+.practices-builder-actions { text-align: center; margin-top: 18px; }
+.practices-builder-actions .btn-primary {
+    background: #622599;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: background .2s;
+}
+.practices-builder-actions .btn-primary:hover { background: #4a1c75; }
+.practices-builder-status {
+    margin-top: 16px;
+    padding: 14px 16px;
+    background: #e8f5e9;
+    border-left: 4px solid #4caf50;
+    border-radius: 6px;
+    color: #1b5e20;
+    line-height: 1.5;
+}
+[data-theme="dark"] .practices-builder { background: #2a1f3a; border-color: #b78fee; }
+[data-theme="dark"] .practice-row { background: #1a1325; border-left-color: #b78fee; }
+[data-theme="dark"] .practice-ambito-name { color: #d4b8ff; border-bottom-color: #3a2b50; }
+[data-theme="dark"] .practice-field-label { color: #bbb; }
+[data-theme="dark"] .practice-state-option,
+[data-theme="dark"] .practice-attr-option { background: #2a1f3a; color: #ddd; }
+[data-theme="dark"] .practice-state-option:hover,
+[data-theme="dark"] .practice-attr-option:hover { background: #3a2b50; }
+[data-theme="dark"] .practice-desc { background: #1a1325; border-color: #3a2b50; color: #ddd; }
+[data-theme="dark"] .practices-builder-status { background: #1b3a2a; color: #a5d6a7; border-left-color: #4caf50; }
+
+/* --- Catalog Display (Curso 5 cierre + Curso 6) --- */
+.catalog-display {
+    margin: 20px 0;
+    background: #f8f5fc;
+    border: 2px solid #622599;
+    border-radius: 10px;
+    padding: 20px;
+}
+.catalog-display-loading, .catalog-display-empty {
+    text-align: center;
+    color: #777;
+    margin: 0;
+    padding: 14px;
+    line-height: 1.5;
+}
+.catalog-display-empty {
+    background: #fff8e1;
+    border-left: 4px solid #ffa000;
+    border-radius: 6px;
+    color: #6d4c00;
+    text-align: left;
+}
+.catalog-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 0 18px 0;
+}
+.catalog-summary-pill {
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    background: #fff;
+}
+.catalog-summary-pill.green { background: #e8f5e9; color: #1b5e20; }
+.catalog-summary-pill.yellow { background: #fff8e1; color: #6d4c00; }
+.catalog-summary-pill.red { background: #ffebee; color: #b71c1c; }
+.catalog-summary-pill.gray { background: #f5f5f5; color: #555; }
+.catalog-detail { display: flex; flex-direction: column; gap: 12px; }
+.catalog-item {
+    background: #fff;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border-left: 4px solid #ccc;
+}
+.catalog-item-si { border-left-color: #4caf50; }
+.catalog-item-parcial { border-left-color: #ffa000; }
+.catalog-item-no { border-left-color: #f44336; }
+.catalog-item-no-se { border-left-color: #9e9e9e; }
+.catalog-item h4 { margin: 0 0 6px 0; color: #333; font-size: 1em; }
+.catalog-desc {
+    margin: 6px 0 8px 0;
+    color: #555;
+    font-style: italic;
+    line-height: 1.4;
+}
+.catalog-attrs { font-size: 0.88em; color: #555; margin-top: 6px; }
+.attr-pill {
+    display: inline-block;
+    padding: 3px 9px;
+    border-radius: 12px;
+    background: #f3e5f5;
+    color: #622599;
+    font-size: 0.85em;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+[data-theme="dark"] .catalog-display { background: #2a1f3a; border-color: #b78fee; }
+[data-theme="dark"] .catalog-item { background: #1a1325; }
+[data-theme="dark"] .catalog-item h4 { color: #ddd; }
+[data-theme="dark"] .catalog-desc { color: #bbb; }
+[data-theme="dark"] .catalog-attrs { color: #bbb; }
+[data-theme="dark"] .attr-pill { background: #3a2b50; color: #d4b8ff; }
+
 /* --- Print --- */
 @media print {
     body { background: white; }

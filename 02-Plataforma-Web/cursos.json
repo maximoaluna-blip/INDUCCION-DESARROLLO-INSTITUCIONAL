@@ -54,5 +54,19 @@
     "level": 1,
     "levelName": "Fundamentación",
     "order": 4
+  },
+  {
+    "courseId": "buenas-practicas-en-tu-grupo",
+    "title": "Buenas Prácticas en Tu Grupo",
+    "description": "Lo que tu grupo ya hace bien es la materia prima del Desarrollo Institucional. En ~30 minutos vas a entender qué es una buena práctica según el Cap. 10 de la PNDI 2017, conocer los 5 atributos que la diferencian de una rutina, recorrer los 8 ámbitos de gestión buscándolas en tu propio grupo y salir con un catálogo personal de buenas prácticas listo para alimentar el plan del Curso 6.",
+    "icon": "🌟",
+    "duration": "30 minutos",
+    "modules": 6,
+    "status": "active",
+    "file": "buenas-practicas-en-tu-grupo.html",
+    "folder": "buenas-practicas-en-tu-grupo",
+    "level": 1,
+    "levelName": "Fundamentación",
+    "order": 5
   }
 ]

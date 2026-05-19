@@ -15,6 +15,7 @@ let reflections = {};
 let photos = {};
 let selfAssessments = {};
 let personalPlans = {};
+let practicesCatalogs = {};
 let userProfile = {};
 
 // --- Inicializacion ---
@@ -25,6 +26,7 @@ window.addEventListener('DOMContentLoaded', function () {
     loadProgress();
     prefillFromGlobalProfile();
     updateElapsedTime();
+    renderCatalogDisplays();
 });
 
 window.addEventListener('beforeunload', function () {
@@ -310,7 +312,7 @@ function saveProgress() {
     var key = 'courseProgress_' + COURSE_CONFIG.courseId;
     var progress = {
         userProfile: userProfile, moduleProgress: moduleProgress,
-        quizScores: quizScores, studyTime: studyTime, reflections: reflections, photos: photos, selfAssessments: selfAssessments, personalPlans: personalPlans,
+        quizScores: quizScores, studyTime: studyTime, reflections: reflections, photos: photos, selfAssessments: selfAssessments, personalPlans: personalPlans, practicesCatalogs: practicesCatalogs,
         currentModule: currentModule, startTime: startTime.toISOString(),
         lastSaved: new Date().toISOString(), version: '3.0'
     };
@@ -332,6 +334,7 @@ function loadProgress() {
         photos = p.photos || {};
         selfAssessments = p.selfAssessments || {};
         personalPlans = p.personalPlans || {};
+        practicesCatalogs = p.practicesCatalogs || {};
         currentModule = p.currentModule || 0;
         startTime = new Date(p.startTime || new Date());
         if (userProfile.fullName) {
@@ -354,6 +357,7 @@ function loadProgress() {
         });
         if (typeof restoreAssessmentSelections === 'function') restoreAssessmentSelections();
         if (typeof restorePlanState === 'function') restorePlanState();
+        if (typeof restorePracticesCatalogs === 'function') restorePracticesCatalogs();
         updateStats();
         updateProgress();
     }
@@ -1134,6 +1138,17 @@ function recoverProgress() {
                     });
                 }
 
+                // Catálogos de buenas prácticas (Curso 5 — Línea DI): clave por catalogId
+                if (serverData.catalogs && typeof serverData.catalogs === 'object') {
+                    Object.keys(serverData.catalogs).forEach(function (cid) {
+                        practicesCatalogs[cid] = serverData.catalogs[cid];
+                        // Espejo en localStorage global para que otros cursos puedan leerlo cross-device
+                        try { localStorage.setItem(cid, JSON.stringify(serverData.catalogs[cid])); } catch (e) {}
+                    });
+                    if (typeof restorePracticesCatalogs === 'function') restorePracticesCatalogs();
+                    if (typeof renderCatalogDisplays === 'function') renderCatalogDisplays();
+                }
+
                 saveProgress();
                 updateStats();
                 updateProgress();
@@ -1222,6 +1237,150 @@ function sendToGoogleSheets(data) {
             setTimeout(function () { indicator.classList.remove('show'); }, 2000);
         }
     }
+}
+
+// --- Catálogo de buenas prácticas (Curso 5) ---
+function recordPracticeState(catalogId, ambitoId, field, value) {
+    if (!practicesCatalogs[catalogId]) practicesCatalogs[catalogId] = {};
+    if (!practicesCatalogs[catalogId][ambitoId]) practicesCatalogs[catalogId][ambitoId] = { attributes: [] };
+    practicesCatalogs[catalogId][ambitoId][field] = value;
+    saveProgress();
+}
+
+function recordPracticeAttribute(catalogId, ambitoId, attrId, isChecked) {
+    if (!practicesCatalogs[catalogId]) practicesCatalogs[catalogId] = {};
+    if (!practicesCatalogs[catalogId][ambitoId]) practicesCatalogs[catalogId][ambitoId] = { attributes: [] };
+    if (!practicesCatalogs[catalogId][ambitoId].attributes) practicesCatalogs[catalogId][ambitoId].attributes = [];
+    var arr = practicesCatalogs[catalogId][ambitoId].attributes;
+    var idx = arr.indexOf(attrId);
+    if (isChecked && idx === -1) arr.push(attrId);
+    else if (!isChecked && idx !== -1) arr.splice(idx, 1);
+    saveProgress();
+}
+
+function savePracticesCatalog(catalogId) {
+    var data = practicesCatalogs[catalogId] || {};
+    // 1. Persistencia inmediata en localStorage (cross-curso, offline-safe)
+    try { localStorage.setItem(catalogId, JSON.stringify(data)); } catch (e) {}
+    saveProgress();
+    // 2. Feedback inmediato al usuario (sin esperar al backend)
+    var statusEl = document.getElementById('pbc-status-' + catalogId);
+    if (statusEl) {
+        var ambitosMarked = Object.keys(data).filter(function (k) { return data[k].state; }).length;
+        statusEl.classList.remove('hidden');
+        statusEl.innerHTML = '<strong>✅ Tu catálogo se guardó.</strong> ' + ambitosMarked + ' de 8 ámbitos marcados. Puedes modificarlo y volver a guardar.';
+        statusEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+    showNotification('✅ Catálogo guardado');
+    // 3. Sincronización en segundo plano al backend (fire-and-forget; si falla, localStorage queda como fuente).
+    if (userProfile && userProfile.email) {
+        var items = Object.keys(data).map(function (ambitoId) {
+            var it = data[ambitoId] || {};
+            return {
+                ambitoId: ambitoId,
+                state: it.state || '',
+                description: it.description || '',
+                attributes: it.attributes || []
+            };
+        });
+        sendToGoogleSheets({
+            action: 'catalog',
+            name: userProfile.fullName,
+            email: userProfile.email,
+            course: COURSE_CONFIG.courseId,
+            catalogId: catalogId,
+            items: items
+        });
+    }
+}
+
+function restorePracticesCatalogs() {
+    Object.keys(practicesCatalogs).forEach(function (catalogId) {
+        var data = practicesCatalogs[catalogId];
+        Object.keys(data).forEach(function (ambitoId) {
+            var item = data[ambitoId];
+            if (item.state) {
+                var radio = document.querySelector('input[name="state-' + catalogId + '-' + ambitoId + '"][value="' + item.state + '"]');
+                if (radio) radio.checked = true;
+            }
+            if (item.description) {
+                var ta = document.querySelector('.practice-row[data-ambito="' + ambitoId + '"] .practice-desc');
+                if (ta) ta.value = item.description;
+            }
+            (item.attributes || []).forEach(function (attrId) {
+                var cb = document.querySelector('.practice-row[data-ambito="' + ambitoId + '"] input[data-attr="' + attrId + '"]');
+                if (cb) cb.checked = true;
+            });
+        });
+    });
+}
+
+// --- Catalog display (lee localStorage, opera cross-curso) ---
+function getCatalogData(catalogId) {
+    if (practicesCatalogs[catalogId] && Object.keys(practicesCatalogs[catalogId]).length > 0) {
+        return practicesCatalogs[catalogId];
+    }
+    try {
+        var raw = localStorage.getItem(catalogId);
+        return raw ? JSON.parse(raw) : null;
+    } catch (e) { return null; }
+}
+
+function getAmbitoDisplayName(ambitoId) {
+    var names = {
+        'gobernanza': '🏛️ Gobernanza',
+        'administracion': '🗂️ Administración',
+        'recursos-economicos': '💰 Recursos Económicos',
+        'comunicaciones': '📣 Comunicaciones',
+        'relaciones-internacionales': '🌐 Relaciones Internacionales',
+        'crecimiento': '📈 Crecimiento',
+        'gestion-del-riesgo': '🛡️ Gestión del Riesgo',
+        'control-y-reconocimiento': '🏅 Control y Reconocimiento'
+    };
+    return names[ambitoId] || ambitoId;
+}
+
+function renderCatalogDisplays() {
+    document.querySelectorAll('.catalog-display').forEach(function (el) {
+        var catalogId = el.getAttribute('data-catalog-id');
+        var mode = el.getAttribute('data-mode') || 'full';
+        var data = getCatalogData(catalogId);
+        if (!data || Object.keys(data).length === 0) {
+            el.innerHTML = '<div class="catalog-display-empty">⚠️ <strong>Aún no tienes catálogo guardado.</strong><br>Para que este componente se llene, primero completá el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong> y guardá tu catálogo.</div>';
+            return;
+        }
+        var stateLabels = { si: '🟢 Sí', parcial: '🟡 Parcial', no: '🔴 No', 'no-se': '⚪ No sé' };
+        var summary = { si: [], parcial: [], no: [], 'no-se': [] };
+        Object.keys(data).forEach(function (aid) {
+            var it = data[aid];
+            if (it.state && summary[it.state]) summary[it.state].push({ id: aid, item: it });
+        });
+        var html = '<div class="catalog-display-content">';
+        html += '<div class="catalog-summary">' +
+            '<span class="catalog-summary-pill green">🟢 Sí: <strong>' + summary.si.length + '</strong></span>' +
+            '<span class="catalog-summary-pill yellow">🟡 Parcial: <strong>' + summary.parcial.length + '</strong></span>' +
+            '<span class="catalog-summary-pill red">🔴 No: <strong>' + summary.no.length + '</strong></span>' +
+            '<span class="catalog-summary-pill gray">⚪ No sé: <strong>' + summary['no-se'].length + '</strong></span>' +
+            '</div>';
+        if (mode === 'full') {
+            html += '<div class="catalog-detail">';
+            ['si', 'parcial', 'no', 'no-se'].forEach(function (st) {
+                summary[st].forEach(function (row) {
+                    var attrs = (row.item.attributes || []).map(function (a) { return '<span class="attr-pill">' + a + '</span>'; }).join(' ');
+                    var nAttrs = (row.item.attributes || []).length;
+                    var desc = row.item.description ? '<p class="catalog-desc">"' + escapeHtml(row.item.description) + '"</p>' : '';
+                    html += '<div class="catalog-item catalog-item-' + st + '">' +
+                        '<h4>' + getAmbitoDisplayName(row.id) + ' — ' + stateLabels[st] + '</h4>' +
+                        desc +
+                        (attrs ? '<div class="catalog-attrs"><strong>Atributos cumplidos (' + nAttrs + '/5):</strong> ' + attrs + '</div>' : '') +
+                        '</div>';
+                });
+            });
+            html += '</div>';
+        }
+        html += '</div>';
+        el.innerHTML = html;
+    });
 }
 
 // --- Timers ---

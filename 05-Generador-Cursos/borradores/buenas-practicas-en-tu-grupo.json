@@ -1,0 +1,506 @@
+{
+  "courseId": "buenas-practicas-en-tu-grupo",
+  "title": "Buenas Prácticas en Tu Grupo",
+  "subtitle": "Curso 5 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
+  "description": "Lo que tu grupo ya hace bien es la materia prima del Desarrollo Institucional. En ~30 minutos vas a entender qué es una buena práctica según el Cap. 10 de la PNDI 2017, conocer los 5 atributos que la diferencian de una rutina, recorrer los 8 ámbitos de gestión buscándolas en tu propio grupo y salir con un catálogo personal de buenas prácticas listo para alimentar el plan del Curso 6.",
+  "icon": "🌟",
+  "duration": "30 minutos",
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~30 minutos · 6 lecciones cortas.</strong><br>Al final vas a tener un <strong>catálogo personal de buenas prácticas de tu grupo</strong>: lo que tu grupo ya hace bien, lo que está a medio camino, y lo que no tiene desarrollado. Este catálogo es el insumo principal del Curso 6, donde se vuelve plan."
+        },
+        {
+          "type": "paragraph",
+          "text": "En los Cursos 2 y 4 viste el marco doctrinal del Desarrollo Institucional: los fundamentos, los principios, los 8 ámbitos. Ahora bajamos a la cancha. Porque la doctrina, sin práctica, es solo discurso bonito. Y la práctica, sin doctrina, es improvisación que se cae al primer cambio de equipo."
+        },
+        {
+          "type": "paragraph",
+          "text": "El <strong>Capítulo 10 de la PNDI 2017</strong> define algo muy poderoso: las <strong>buenas prácticas</strong>. Son justamente el punto de encuentro entre la doctrina y la cancha — entre los fundamentos del Curso 2 y los ámbitos del Curso 4. Y son lo que diferencia a un grupo que dura 23 años de uno que se rompe en uno."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a vivir en este curso"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 🧩 ¿Qué es una buena práctica?",
+            "<strong>Lección 3 —</strong> 🏅 Los 5 atributos: el filtro de calidad",
+            "<strong>Lección 4 —</strong> 🔄 Cómo se gestionan: el ciclo de mejora continua",
+            "<strong>Lección 5 —</strong> ✍️ Las buenas prácticas de tu grupo, ámbito por ámbito",
+            "<strong>Lección 6 —</strong> 📚 Tu catálogo y lo que viene"
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tip de uso:</strong> cuando llegues a la Lección 5 (el catálogo de tu grupo), responde con honestidad. Si en un ámbito tu grupo no tiene nada desarrollado, <strong>eso también es información valiosa</strong> — es justo lo que vas a abordar en el Curso 6. El catálogo solo lo ves tú; es para tu plan."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 🧩 ¿Qué es una buena práctica?",
+      "emoji": "🧩",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Una buena práctica es <strong>la articulación de los fundamentos del DI con los ámbitos de gestión</strong>, aterrizada en una situación concreta y replicable."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si abres la PNDI 2017 en el Capítulo 10, vas a leer esto: <em>“las buenas prácticas son el resultado de la articulación de los fundamentos del Desarrollo Institucional con cada uno de los ámbitos de gestión.”</em> Es exacto, pero suena a manual de oficina. Vamos a aterrizarlo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una buena práctica no es <strong>cualquier cosa que tu grupo hace bien</strong>. Es algo más específico. Vamos por partes."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que NO es una buena práctica"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🌬️ Una buena intención", "description": "<em>“Vamos a comunicar mejor con las familias.”</em> Sin método ni acuerdo de cómo, es solo un deseo.", "color": "#f5f5f5", "borderColor": "#9e9e9e" },
+            { "title": "🔁 Una rutina", "description": "<em>“Aquí siempre se ha hecho así.”</em> Si no se sabe POR QUÉ se hace, ni si funciona, es costumbre, no buena práctica.", "color": "#fff3e0", "borderColor": "#ff9800" },
+            { "title": "⭐ Un acto heroico", "description": "<em>“Don Carlos siempre arregla las carpas.”</em> Si depende de una sola persona y se pierde cuando se va, no es práctica institucional — es un voluntarismo personal.", "color": "#fff9c4", "borderColor": "#fbc02d" }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que SÍ es una buena práctica"
+        },
+        {
+          "type": "paragraph",
+          "text": "Una buena práctica es <strong>una manera específica de hacer algo en tu grupo que cumple tres cosas a la vez</strong>:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🎯 Está conectada con un ámbito", "description": "Responde a una necesidad de uno de los 8 ámbitos del Curso 4 (gobernanza, finanzas, comunicaciones, riesgo, etc.).", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🧱 Está sostenida por fundamentos", "description": "No es solo eficaz — refleja los 4 fundamentos del DI vistos en el Curso 2: es democrática, atiende al entorno, integra ámbitos, busca resultados con impacto.", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "🔁 Es repetible sin la persona", "description": "Si la persona que la ejecuta se va, la práctica sigue. Eso significa que está documentada o suficientemente socializada en el equipo.", "color": "#f3e5f5", "borderColor": "#9c27b0" }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la definición textual de la PNDI",
+          "text": "Las buenas prácticas son el resultado de la articulación de los fundamentos del Desarrollo Institucional con cada uno de los ámbitos de gestión. También surgen de la experiencia propia, así como de la de otras instituciones que ejecutan tareas similares.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, Capítulo 10, p. 13"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En palabras simples:</strong> una buena práctica es algo que tu grupo <strong>hace bien, sabe por qué lo hace bien, lo puede repetir, y lo puede enseñar a otros</strong>. Las cuatro cosas juntas, no por separado."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en algo concreto que tu grupo hace y que tú considerarías 'una buena práctica'. ¿Cumple las tres condiciones (conectada con un ámbito, sostenida por fundamentos, repetible sin la persona)? Si una de las tres falla, ¿cuál es?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "En el Grupo “Aurora”, don Carlos —el tesorero— lleva 12 años manejando las finanzas con un cuaderno de notas que solo él entiende. Las cuentas están al día y nunca han tenido problemas. Don Carlos avisó que se retira el año entrante. ¿Lo que hace don Carlos cumple la definición de buena práctica?",
+            "options": [
+              "Sí, porque lleva 12 años funcionando sin problemas.",
+              "No, porque no es repetible sin la persona — cuando don Carlos se vaya, la práctica se va con él. Es voluntarismo personal, no práctica institucional.",
+              "Sí, porque el tesorero es la única persona que debe manejar las finanzas."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "En el Grupo “Ríos” dos dirigentes hacen cosas distintas para comunicar con las familias. <strong>Marta</strong> envía mensajes espontáneos cuando se acuerda, sin método ni periodicidad. <strong>Lucía</strong> armó una plantilla de boletín mensual con secciones fijas (qué pasó, próximas fechas, recordatorios) que cualquier consejero podría reproducir, y la viene publicando sin falta hace 14 meses. ¿Cuál de las dos cumple mejor las tres condiciones de una buena práctica?",
+            "options": [
+              "La de Marta — la espontaneidad es democrática y eso basta.",
+              "La de Lucía — está conectada con el ámbito de Comunicaciones, tiene método sostenido en el tiempo, y otro consejero podría continuarla con la plantilla (repetible sin la persona).",
+              "Las dos son buenas prácticas equivalentes — solo cambia el estilo de cada quien."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 3 →"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🏅 Los 5 atributos: el filtro de calidad",
+      "emoji": "🏅",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br><strong>Innovadora, efectiva, sostenible, replicable, aplicable.</strong> Si una práctica no cumple los 5, es una rutina o un esfuerzo aislado — no una buena práctica."
+        },
+        {
+          "type": "paragraph",
+          "text": "La PNDI 2017, en el cierre del Capítulo 10, le pone apellido a las buenas prácticas con <strong>5 atributos específicos</strong>. Estos 5 atributos son el filtro de calidad: cualquier práctica que tu grupo haga puede pasarse por ellos para saber si es una buena práctica de verdad, o solo una rutina que todavía no madura."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🌱 Atributo 1 — Innovadora"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué significa:</strong> aporta una mejora respecto a la forma anterior de hacer las cosas. No tiene que ser revolucionario — basta con que sea <strong>un paso adelante</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Ejemplo:</strong> en el Grupo “Aurora” las actas se escribían a mano y se guardaban en una carpeta. Innovaron pasándolas a una carpeta compartida en Drive con firma digital. Mismo objetivo, mejor método."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Atributo 2 — Efectiva"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué significa:</strong> logra el resultado que buscaba. Se puede comprobar — no es <em>“creo que funciona”</em>, es <em>“sabemos que funciona porque medimos esto”</em>."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Ejemplo:</strong> la práctica de convocar al revisor fiscal a las reuniones del consejo regional con tema financiero <strong>redujo a cero</strong> los hallazgos del informe anual del fiscal. Antes había en promedio 3 hallazgos por año. Eso es efectividad medible."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🌳 Atributo 3 — Sostenible"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué significa:</strong> se puede mantener en el tiempo con los recursos que el grupo tiene. No depende de un dirigente extraordinario, ni de una plata externa que puede desaparecer."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Ejemplo:</strong> una práctica de comunicación con familias por boletín mensual hecho con plantillas pre-armadas (15 min de trabajo por mes) <strong>es sostenible</strong>. Hacer un video producido profesionalmente cada mes — si depende de un dirigente que se va — <strong>no lo es</strong>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🔁 Atributo 4 — Replicable"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué significa:</strong> <strong>otro grupo</strong> podría adoptarla con ajustes mínimos. Esto requiere que esté <strong>documentada</strong> (en una página, en una plantilla, en un procedimiento), no solo que viva en la cabeza de quienes la inventaron."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Ejemplo:</strong> el protocolo de 15 minutos previo a cada salida que aplica el Grupo “Llanos” (lista de participantes, hoja de salud, contactos de emergencia, ruta, kit) está en una hoja de chequeo de una página. Cualquier grupo lo puede copiar y adaptar. Es replicable."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🌐 Atributo 5 — Aplicable a toda la institución"
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Qué significa:</strong> sirve no solo al grupo que la inventó, sino que puede ser útil en cualquier grupo o nivel del Movimiento — adaptada a su escala. Es lo que permite que la buena práctica se vuelva referencia regional o nacional."
+        },
+        {
+          "type": "paragraph",
+          "text": "<strong>Ejemplo:</strong> la idea de “firma del acta antes de salir de la reunión” aplica igual de bien en un grupo de 30 personas que en un consejo regional de 80. Es aplicable transversalmente."
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Los 5 atributos son acumulativos, no alternativos.</strong> Una práctica innovadora pero no efectiva no es buena práctica — es experimento fallido. Una efectiva pero no sostenible — es esfuerzo de fuego artificial. Una sostenible pero no replicable — es secreto del grupo, no aporte al movimiento. El filtro completo es el que dice si la práctica merece el nombre."
+        },
+        {
+          "type": "blockquote",
+          "text": "Una buena práctica no aparece — se construye atributo por atributo. La mayoría empiezan cumpliendo 2 o 3 atributos. Lo que hace el grupo institucionalmente sano es el trabajo deliberado de completar los 5."
+        }
+      ],
+      "reflection": {
+        "prompt": "Vuelve a la práctica de tu grupo que pensaste en la Lección 2. Pásala por los 5 atributos: ¿es innovadora? ¿efectiva? ¿sostenible? ¿replicable? ¿aplicable? Anota cuántos cumple. Si no cumple los 5, no te angusties — ese es justamente el trabajo del Desarrollo Institucional: completarlos."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "En el Grupo “Bosque”, una mamá hace un boletín hermoso para las familias cada mes. Lleva 4 años haciéndolo sin falta. Es bellísimo. Pero solo ella sabe cómo, no usa plantilla, y nadie más sabría hacerlo si ella se va. ¿Qué atributo de buena práctica le falta principalmente?",
+            "options": [
+              "Efectiva.",
+              "Replicable — porque depende totalmente de una persona y no está documentada para que otro pueda continuarla o adoptarla.",
+              "Innovadora."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Según la PNDI 2017, los 5 atributos de una buena práctica son…",
+            "options": [
+              "Democrática, transparente, ética, responsable, oportuna.",
+              "Innovadora, efectiva, sostenible, replicable y aplicable a toda la institución.",
+              "Documentada, firmada, votada, publicada y archivada."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 4 →"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 🔄 Cómo se gestionan: el ciclo de mejora continua",
+      "emoji": "🔄",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>Las buenas prácticas <strong>no son estado — son proceso</strong>. Identificar → documentar → aplicar → revisar → mejorar → compartir."
+        },
+        {
+          "type": "paragraph",
+          "text": "La PNDI 2017 dice literalmente que las buenas prácticas <em>“son dinámicas pues forman parte de un proceso de mejora continua que las retroalimenta y mantiene en constante perfeccionamiento”</em>. Eso significa que <strong>una buena práctica no es algo que se logra y se archiva</strong> — es algo que se cuida, se revisa, se mejora. Vamos a ver el ciclo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🔄 El ciclo de gestión de las buenas prácticas"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            { "title": "🔎 1. Identificar", "description": "Reconocer qué hace tu grupo que vale la pena. La conversación del consejo no debería ser solo <em>“qué hay que arreglar”</em> — debería incluir <em>“qué ya estamos haciendo bien y a veces ni lo nombramos”</em>.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "📝 2. Documentar", "description": "Pasar de la cabeza al papel. Una página, una plantilla, un procedimiento. Sin documentación, la práctica vive solo mientras esté la persona que la sostiene.", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "▶️ 3. Aplicar", "description": "Volverla parte del día a día del grupo. No basta con tener el documento — hay que vivirlo en cada reunión, cada salida, cada decisión.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🔍 4. Revisar", "description": "Cada cierto tiempo (semestre, año), preguntar: ¿esto sigue funcionando? ¿qué hemos aprendido? ¿hay algo que mejorar? Si no se revisa, se vuelve rutina.", "color": "#fff3e0", "borderColor": "#ff9800" },
+            { "title": "🪜 5. Mejorar", "description": "Aplicar los aprendizajes. Ajustar el documento. Sumar el atributo que faltaba (subir de 3 atributos cumplidos a 4, de 4 a 5).", "color": "#f3e5f5", "borderColor": "#9c27b0" },
+            { "title": "📣 6. Compartir", "description": "La buena práctica madura se comparte con otros grupos de la región. Pasar de <em>“lo que hago”</em> a <em>“lo que aporto al movimiento”</em>. Esto es lo que el Curso 22 del Nivel 4 va a profundizar.", "color": "#fce4ec", "borderColor": "#e91e63" }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Las buenas prácticas se construyen subiendo escalones.</strong> El primer paso es siempre <strong>identificar lo que ya está pasando</strong> — incluso si es informal. Luego se documenta. Luego se aplica conscientemente. Luego se revisa. Y solo cuando ya cumple los 5 atributos, está madura para compartir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Las buenas prácticas que se comparten con la región o con la nación son las que terminan formando los <strong>manuales operativos</strong> y las <strong>guías</strong> que la DNDI publica en su biblioteca — el ciclo se cierra cuando una práctica nacida en un grupo se vuelve referencia para todos."
+        }
+      ],
+      "reflection": {
+        "prompt": "De los 6 pasos del ciclo, ¿cuál crees que tu grupo o región ejecuta peor? ¿Identificar lo que ya hace bien (paso 1)? ¿Documentar (paso 2)? ¿Revisar y mejorar (4-5)? ¿Compartir con otros grupos (6)? Sé honesto — el peor paso es donde más oportunidad de mejora tienes."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Según el ciclo de gestión, ¿cuál es el primer paso de la gestión de buenas prácticas?",
+            "options": [
+              "Documentar todo lo que el grupo hace, sin excepción.",
+              "Identificar lo que el grupo ya hace que vale la pena — reconocer lo bueno antes de mejorarlo.",
+              "Compartir con otros grupos las prácticas del grupo propio."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Las buenas prácticas, según la PNDI 2017, son dinámicas porque…",
+            "options": [
+              "Cambian totalmente cada año según las modas del momento.",
+              "Forman parte de un proceso de mejora continua que las retroalimenta y mantiene en constante perfeccionamiento.",
+              "Solo aplican durante el tiempo del Plan Estratégico vigente."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 5 →"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — ✍️ Las buenas prácticas de tu grupo, ámbito por ámbito",
+      "emoji": "✍️",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 8 minutos · 1 idea central:</strong><br>Recorrer los <strong>8 ámbitos del Curso 4</strong> buscando, en tu grupo, qué prácticas existen y filtrarlas con los 5 atributos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Llegó el ejercicio central del curso. Vas a recorrer los 8 ámbitos de gestión —los mismos del Curso 4— y por cada uno responder tres preguntas simples sobre tu grupo:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "¿Existe una práctica en este ámbito? (Sí · Parcial · No · No sé)",
+            "Si <em>sí</em> o <em>parcial</em>: ¿cuál es? (en una frase, con tus palabras)",
+            "¿Cuántos de los 5 atributos cumple? (marca los que sí)"
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Recordatorio de los 8 ámbitos</strong> (Curso 4):<br>🏛️ Gobernanza · 🗂️ Administración · 💰 Recursos Económicos · 📣 Comunicaciones e Interinstitucionales · 🌐 Relaciones Internacionales · 📈 Crecimiento y Sistema de Información · 🛡️ Gestión del Riesgo · 🏅 Control y Reconocimiento."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📝 Tu catálogo"
+        },
+        {
+          "type": "practices-builder",
+          "catalogId": "catalogo-buenas-practicas-grupo",
+          "intro": "Por cada ámbito: marca el estado, descríbelo en una frase (si aplica) y marca cuántos de los 5 atributos cumple. El catálogo se guarda en tu navegador y se usará en el Curso 6.",
+          "buttonLabel": "Guardar mi catálogo",
+          "ambitos": [
+            { "id": "gobernanza", "name": "Gobernanza", "emoji": "🏛️" },
+            { "id": "administracion", "name": "Administración", "emoji": "🗂️" },
+            { "id": "recursos-economicos", "name": "Recursos Económicos", "emoji": "💰" },
+            { "id": "comunicaciones", "name": "Comunicaciones e Interinstitucionales", "emoji": "📣" },
+            { "id": "relaciones-internacionales", "name": "Relaciones Internacionales", "emoji": "🌐" },
+            { "id": "crecimiento", "name": "Crecimiento y Sistema de Información", "emoji": "📈" },
+            { "id": "gestion-del-riesgo", "name": "Gestión del Riesgo", "emoji": "🛡️" },
+            { "id": "control-y-reconocimiento", "name": "Control y Reconocimiento", "emoji": "🏅" }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>✅ Tu catálogo quedó guardado.</strong> En la siguiente lección lo vamos a leer y a interpretar. En el Curso 6 lo usarás como base para tu plan personal de aporte."
+        }
+      ],
+      "reflection": {
+        "prompt": "Después de llenar el catálogo, mira el conjunto: ¿en cuántos ámbitos marcaste SÍ? ¿En cuántos PARCIAL? ¿En cuántos NO? Esa distribución te dice mucho sobre dónde está tu grupo institucionalmente. No la interpretes ahora — la veremos juntos en la próxima lección."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "Si en un ámbito marcaste “Parcial” y la práctica cumple solo 2 de los 5 atributos, ¿qué significa?",
+            "options": [
+              "Tu grupo no tiene nada en ese ámbito — debería empezar de cero.",
+              "Tu grupo tiene algo bueno que vale la pena cuidar, pero le falta madurez. Hay oportunidad concreta de fortalecerlo (subir de 2 a 4 atributos, por ejemplo).",
+              "La práctica debe descartarse, porque no cumple los 5 atributos exigidos."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "¿Cuál es el propósito principal del catálogo que acabas de llenar?",
+            "options": [
+              "Calificar a tu grupo con una nota global.",
+              "Tener una foto honesta de las buenas prácticas que ya existen, las parciales, y las ausentes — para usarla como base del plan personal del Curso 6.",
+              "Compararse con otros grupos para competir."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Continuar a Lección 6 →"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — 📚 Tu catálogo y lo que viene",
+      "emoji": "📚",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>El catálogo es el primer paso. Lo que ya brilla, se documenta y se comparte. Lo que está parcial, se fortalece. Lo que falta, se construye."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📊 Cómo leer tu catálogo"
+        },
+        {
+          "type": "catalog-display",
+          "catalogId": "catalogo-buenas-practicas-grupo",
+          "mode": "full"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "🟢 <strong>Ámbitos en SÍ con 4-5 atributos:</strong> son las <strong>fortalezas documentables</strong>. Tu grupo ya hace algo bien — el siguiente paso es completar los atributos faltantes (si quedó alguno) y <strong>compartir la práctica con la región</strong> (Curso 22 del Nivel 4).",
+            "🟡 <strong>Ámbitos en SÍ con 1-3 atributos, o en PARCIAL:</strong> son las <strong>oportunidades de madurez</strong>. Hay materia prima — falta fortalecerla. El Curso 6 va a generar metas-tipo específicas para subir el número de atributos cumplidos.",
+            "🔴 <strong>Ámbitos en NO:</strong> son las <strong>brechas a construir</strong>. El grupo todavía no tiene una práctica en ese ámbito — y eso, lejos de ser una mala noticia, es información valiosa para priorizar el plan del Curso 6.",
+            "⚪ <strong>Ámbitos marcados como 'No sé':</strong> son <strong>oportunidad de averiguar</strong>. Antes de hacer plan, vale conversar con el consejo o con el jefe — quizá la práctica existe pero tú no la conoces."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>El catálogo no es nota.</strong> Un grupo con la mayoría de ámbitos en parcial o sin desarrollar es lo más típico — y es un punto de partida real, no un fracaso. Lo importante es que tienes un mapa para actuar."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📜 La cita que sostiene todo esto"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Salud Institucional según la PNDI 2017",
+          "text": "La 'Institución Saludable' es aquella que cumple la Misión y la Visión con apego a sus principios y valores, a través de la ejecución de buenas prácticas de manera consciente, sistemática y sostenida, en forma democrática, transparente y responsable, generando una cultura congruente y un buen clima entre sus miembros y relacionados, proyectando una imagen positiva a la sociedad.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, Capítulo 11, p. 14"
+        },
+        {
+          "type": "paragraph",
+          "text": "Esa es la definición oficial. Fíjate que la PNDI no dice <em>“la institución sana es la que tiene un perfil 5 en una rúbrica”</em> — dice que es la que <strong>ejecuta buenas prácticas de manera consciente, sistemática y sostenida</strong>. Por eso este curso te dio el concepto y el filtro de las buenas prácticas, no una rúbrica de evaluación: porque la salud institucional, a la luz de la PNDI, se construye una buena práctica a la vez."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🗺️ Lo que viene"
+        },
+        {
+          "type": "paragraph",
+          "text": "El <strong>Curso 6</strong> —cierre del Nivel 1— lee tu catálogo y te ayuda a convertirlo en un <strong>plan personal de aporte</strong>. Para cada ámbito te va a sugerir metas según el estado en que quedó: si está verde, meta de <em>documentar y compartir</em>; si está amarillo, meta de <em>fortalecer atributos</em>; si está rojo, meta de <em>crear una primera práctica</em>. Y todo enmarcado en los principios y la brújula que elegiste en el Curso 2."
+        },
+        {
+          "type": "blockquote",
+          "text": "Una buena práctica no es lo que tu grupo hace bien. Es lo que tu grupo hace bien, sabe por qué lo hace bien, lo puede repetir, y lo puede enseñar a otros. Hoy empezaste a nombrarlas — el Curso 6 va a convertirlas en plan."
+        }
+      ],
+      "reflection": {
+        "prompt": "Mira tu catálogo completo. ¿Cuál es la práctica que más orgullo te dio reconocer? ¿Cuál es la ausencia que más te llamó la atención? Escribe ambas en una sola frase cada una."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6 — Cierre del curso",
+        "questions": [
+          {
+            "text": "Según la PNDI 2017, una “Institución Saludable” es aquella que…",
+            "options": [
+              "Cumple un perfil mínimo de 4 en cada una de las 6 dimensiones de salud institucional.",
+              "Cumple la Misión y la Visión a través de la ejecución de buenas prácticas de manera consciente, sistemática y sostenida, en forma democrática, transparente y responsable.",
+              "Ha sido certificada por una auditoría externa anual."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "Si en tu catálogo un ámbito quedó marcado como “Parcial con 2 atributos cumplidos”, ¿qué tipo de meta vas a recibir en el Curso 6?",
+            "options": [
+              "Una meta para descartar la práctica y empezar otra desde cero.",
+              "Una meta para fortalecer la práctica existente y completar los atributos faltantes (subir de 2 hacia 4-5).",
+              "Una meta para compartir inmediatamente la práctica con la región."
+            ],
+            "correctIndex": 1
+          }
+        ],
+        "nextLabel": "Obtener Certificado 🏆"
+      }
+    }
+  ],
+  "achievements": [
+    { "id": "achievement-1", "name": "Distingo una buena práctica", "emoji": "🧩", "unlockOnModule": 2 },
+    { "id": "achievement-2", "name": "Manejo el filtro de 5 atributos", "emoji": "🏅", "unlockOnModule": 3 },
+    { "id": "achievement-3", "name": "Conozco el ciclo", "emoji": "🔄", "unlockOnModule": 4 },
+    { "id": "achievement-4", "name": "Hice mi catálogo", "emoji": "✍️", "unlockOnModule": 5 },
+    { "id": "achievement-5", "name": "Leí mi catálogo", "emoji": "📚", "unlockOnModule": 6 },
+    { "id": "achievement-final", "name": "Conozco las prácticas de mi grupo", "emoji": "🌟", "unlockOnModule": -1 }
+  ],
+  "certificate": {
+    "courseName": "BUENAS PRÁCTICAS EN TU GRUPO",
+    "description": "ha completado el Curso 5 del Nivel 1 — Fundamentación de la Línea Desarrollo Institucional, dominando el concepto de buena práctica según el Capítulo 10 de la PNDI 2017, los 5 atributos que la diferencian de una rutina (innovadora, efectiva, sostenible, replicable, aplicable), el ciclo de mejora continua, y construyendo un catálogo personal de buenas prácticas de su grupo recorriendo los 8 ámbitos de gestión"
+  }
+}
