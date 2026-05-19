@@ -366,27 +366,26 @@
         {
           "type": "heading",
           "level": 3,
-          "text": "🩺 Las 6 dimensiones de la salud institucional"
+          "text": "🩺 Cómo se ve un grupo institucionalmente sano"
         },
         {
           "type": "paragraph",
-          "text": "La PNDI propone mirar el DI como un cuerpo: tiene <strong>6 dimensiones</strong> que se evalúan juntas. Aquí las tienes en panorama. En el <strong>Curso 5</strong> de esta línea vas a aplicarlas como autodiagnóstico real a tu propio grupo o región."
+          "text": "La PNDI 2017 (Capítulo 11) define una <strong>Institución Saludable</strong> como aquella que cumple su Misión <em>a través de la ejecución de buenas prácticas de manera consciente, sistemática y sostenida</em>. ¿Qué hace que una práctica sea realmente buena? El Capítulo 10 de la PNDI nombra <strong>5 atributos específicos</strong> — son el filtro de calidad."
         },
         {
           "type": "list",
           "ordered": false,
           "items": [
-            "🎯 <strong>Propósito</strong> — que el grupo sepa para qué existe y dónde quiere llegar.",
-            "🏛️ <strong>Gobernanza</strong> — que las decisiones sean legítimas, registradas y trazables.",
-            "⚙️ <strong>Gestión</strong> — que los recursos (humanos, financieros, materiales) se manejen con orden.",
-            "🤝 <strong>Relaciones</strong> — que la convivencia interna y con el entorno sea sana.",
-            "📈 <strong>Crecimiento</strong> — que la membresía se sostenga y se renueve.",
-            "✅ <strong>Cumplimiento</strong> — que se respeten leyes, reglamentos y protocolos."
+            "🌱 <strong>Innovadora</strong> — aporta una mejora respecto a cómo se hacían las cosas antes.",
+            "🎯 <strong>Efectiva</strong> — logra el resultado que buscaba, y se puede comprobar.",
+            "🌳 <strong>Sostenible</strong> — se mantiene en el tiempo con los recursos del grupo, sin depender de una sola persona.",
+            "🔁 <strong>Replicable</strong> — otro grupo podría adoptarla con ajustes mínimos (está documentada).",
+            "🌐 <strong>Aplicable</strong> — sirve no solo a quien la inventó, sino que puede usarse en otros grupos o niveles del Movimiento."
           ]
         },
         {
           "type": "info-box",
-          "text": "<strong>🗺️ Spoiler del Curso 5:</strong> en ese curso vas a evaluar tu propio grupo o región contra estas 6 dimensiones, con un autodiagnóstico interactivo. <strong>Hoy solo guarda el mapa.</strong>"
+          "text": "<strong>🗺️ Spoiler del Curso 5:</strong> vas a recorrer los <strong>8 ámbitos del Curso 4</strong> y construir tu catálogo personal de buenas prácticas del grupo filtradas con estos <strong>5 atributos</strong>. <strong>Hoy solo guarda el mapa.</strong>"
         },
         {
           "type": "blockquote",
@@ -496,7 +495,7 @@
             { "title": "📜 Curso 2 — La Política PNDI", "description": "El marco doctrinal: 4 fundamentos, 7 principios, definiciones esenciales.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
             { "title": "🏗️ Curso 3 — Niveles y Estructura", "description": "Los 5 niveles del Movimiento, los 3 órganos por nivel, el cuento de Todo el mundo–Alguien–Cualquiera–Nadie.", "color": "#e3f2fd", "borderColor": "#2196f3" },
             { "title": "🧭 Curso 4 — Los 8 Ámbitos", "description": "Mapa panorámico de los 8 ámbitos de gestión. Te ubica frente a cualquier decisión cotidiana.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "💪 Curso 5 — Salud Institucional", "description": "Las 6 dimensiones aplicadas: autodiagnóstico interactivo de tu grupo o región.", "color": "#fff3e0", "borderColor": "#ff9800" },
+            { "title": "🌟 Curso 5 — Buenas Prácticas en Tu Grupo", "description": "Catálogo personal de buenas prácticas de tu grupo, recorriendo los 8 ámbitos con los 5 atributos de la PNDI 2017 Cap. 10.", "color": "#fff3e0", "borderColor": "#ff9800" },
             { "title": "🗺️ Curso 6 — Mi Aporte al DI", "description": "Plan personal de aporte, listo para imprimir y compartir con tu consejo. Cierre del Nivel 1.", "color": "#fce4ec", "borderColor": "#e91e63" }
           ]
         },

@@ -781,6 +781,188 @@ body {
     .toggle-buttons { flex-direction: column; }
 }
 
+/* --- Practices Builder (Curso 5) --- */
+.practices-builder {
+    margin: 20px 0;
+    background: #f8f5fc;
+    border: 2px solid #622599;
+    border-radius: 10px;
+    padding: 22px;
+}
+.practices-builder-intro {
+    font-size: 0.95em;
+    color: #444;
+    margin: 0 0 18px 0;
+    line-height: 1.5;
+}
+.practices-rows { display: flex; flex-direction: column; gap: 18px; }
+.practice-row {
+    background: #fff;
+    border-left: 4px solid #622599;
+    border-radius: 8px;
+    padding: 16px 18px;
+}
+.practice-ambito-name {
+    color: #622599;
+    margin: 0 0 12px 0;
+    font-size: 1.05em;
+    border-bottom: 1px solid #eadcfa;
+    padding-bottom: 8px;
+}
+.practice-field { margin-bottom: 14px; }
+.practice-field:last-child { margin-bottom: 0; }
+.practice-field-label {
+    display: block;
+    font-size: 0.88em;
+    font-weight: 600;
+    color: #555;
+    margin-bottom: 6px;
+}
+.practice-state-options, .practice-attr-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+.practice-state-option, .practice-attr-option {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 12px;
+    background: #f8f5fc;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.88em;
+    transition: background .15s, border-color .15s;
+}
+.practice-state-option:hover, .practice-attr-option:hover { background: #efe5fa; }
+.practice-state-option:has(input:checked),
+.practice-attr-option:has(input:checked) {
+    background: #efe5fa;
+    border-color: #622599;
+    font-weight: 600;
+}
+.practice-state-option input, .practice-attr-option input { margin: 0; }
+.practice-desc {
+    width: 100%;
+    min-height: 60px;
+    padding: 8px 10px;
+    border: 1px solid #d4c2ec;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 0.92em;
+    resize: vertical;
+    box-sizing: border-box;
+}
+.practice-desc:focus { outline: 2px solid #622599; border-color: #622599; }
+.practices-builder-actions { text-align: center; margin-top: 18px; }
+.practices-builder-actions .btn-primary {
+    background: #622599;
+    color: #fff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 0.95em;
+    transition: background .2s;
+}
+.practices-builder-actions .btn-primary:hover { background: #4a1c75; }
+.practices-builder-status {
+    margin-top: 16px;
+    padding: 14px 16px;
+    background: #e8f5e9;
+    border-left: 4px solid #4caf50;
+    border-radius: 6px;
+    color: #1b5e20;
+    line-height: 1.5;
+}
+[data-theme="dark"] .practices-builder { background: #2a1f3a; border-color: #b78fee; }
+[data-theme="dark"] .practice-row { background: #1a1325; border-left-color: #b78fee; }
+[data-theme="dark"] .practice-ambito-name { color: #d4b8ff; border-bottom-color: #3a2b50; }
+[data-theme="dark"] .practice-field-label { color: #bbb; }
+[data-theme="dark"] .practice-state-option,
+[data-theme="dark"] .practice-attr-option { background: #2a1f3a; color: #ddd; }
+[data-theme="dark"] .practice-state-option:hover,
+[data-theme="dark"] .practice-attr-option:hover { background: #3a2b50; }
+[data-theme="dark"] .practice-desc { background: #1a1325; border-color: #3a2b50; color: #ddd; }
+[data-theme="dark"] .practices-builder-status { background: #1b3a2a; color: #a5d6a7; border-left-color: #4caf50; }
+
+/* --- Catalog Display (Curso 5 cierre + Curso 6) --- */
+.catalog-display {
+    margin: 20px 0;
+    background: #f8f5fc;
+    border: 2px solid #622599;
+    border-radius: 10px;
+    padding: 20px;
+}
+.catalog-display-loading, .catalog-display-empty {
+    text-align: center;
+    color: #777;
+    margin: 0;
+    padding: 14px;
+    line-height: 1.5;
+}
+.catalog-display-empty {
+    background: #fff8e1;
+    border-left: 4px solid #ffa000;
+    border-radius: 6px;
+    color: #6d4c00;
+    text-align: left;
+}
+.catalog-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 0 18px 0;
+}
+.catalog-summary-pill {
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    background: #fff;
+}
+.catalog-summary-pill.green { background: #e8f5e9; color: #1b5e20; }
+.catalog-summary-pill.yellow { background: #fff8e1; color: #6d4c00; }
+.catalog-summary-pill.red { background: #ffebee; color: #b71c1c; }
+.catalog-summary-pill.gray { background: #f5f5f5; color: #555; }
+.catalog-detail { display: flex; flex-direction: column; gap: 12px; }
+.catalog-item {
+    background: #fff;
+    padding: 14px 16px;
+    border-radius: 8px;
+    border-left: 4px solid #ccc;
+}
+.catalog-item-si { border-left-color: #4caf50; }
+.catalog-item-parcial { border-left-color: #ffa000; }
+.catalog-item-no { border-left-color: #f44336; }
+.catalog-item-no-se { border-left-color: #9e9e9e; }
+.catalog-item h4 { margin: 0 0 6px 0; color: #333; font-size: 1em; }
+.catalog-desc {
+    margin: 6px 0 8px 0;
+    color: #555;
+    font-style: italic;
+    line-height: 1.4;
+}
+.catalog-attrs { font-size: 0.88em; color: #555; margin-top: 6px; }
+.attr-pill {
+    display: inline-block;
+    padding: 3px 9px;
+    border-radius: 12px;
+    background: #f3e5f5;
+    color: #622599;
+    font-size: 0.85em;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+[data-theme="dark"] .catalog-display { background: #2a1f3a; border-color: #b78fee; }
+[data-theme="dark"] .catalog-item { background: #1a1325; }
+[data-theme="dark"] .catalog-item h4 { color: #ddd; }
+[data-theme="dark"] .catalog-desc { color: #bbb; }
+[data-theme="dark"] .catalog-attrs { color: #bbb; }
+[data-theme="dark"] .attr-pill { background: #3a2b50; color: #d4b8ff; }
+
 /* --- Print --- */
 @media print {
     body { background: white; }
@@ -1065,18 +1247,18 @@ body {
                     </div>
 
                     <div class="question">
-                        <h4>2. Una propuesta del consejo de grupo que toca a la vez Gobernanza, Recursos Económicos y Comunicaciones es…</h4>
+                        <h4>2. Un dirigente nuevo propone en consejo abrir un convenio con la junta de acción comunal del barrio para conseguir un espacio fijo de reuniones. ¿Qué ámbitos del DI atraviesa esa propuesta además de Comunicaciones e Interinstitucionales?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q11">
-                            Una propuesta mal hecha que debería separarse en tres.
+                            Solo Comunicaciones — la búsqueda de un local es comunicación pura.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q11">
-                            Una propuesta institucionalmente compleja que requiere análisis cruzado de varios ámbitos.
+                            También Administración (logística y mantenimiento del nuevo local) y Gobernanza (el consejo debe decidir y documentar el convenio).
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q11">
-                            Una propuesta que solo el comisionado nacional puede aprobar.
+                            Solo Recursos Económicos, porque hay implicaciones de costos.
                         </label>
                     </div>
 
@@ -1118,7 +1300,7 @@ body {
 
                 <h3>💰 Ámbito 3 — Recursos Económicos</h3>
 
-                <p><strong>Qué cubre:</strong> las <strong>6 fuentes de fondos</strong> clásicas del scoutismo (cuotas, eventos del grupo, servicios a terceros, aliados, donaciones, convocatorias), la planeación financiera, el manejo de proyectos. La PNDI sugiere un <strong>margen mínimo del 17%</strong> sobre los ingresos para reinversión. Aquí entra también el <strong>ciclo de proyectos</strong> (11 fases del Project Cycle de WOSM) cuando el grupo postula a fondos externos.</p>
+                <p><strong>Qué cubre:</strong> las <strong>6 fuentes de fondos</strong> clásicas del escultismo (cuotas, eventos del grupo, servicios a terceros, aliados, donaciones, convocatorias), la planeación financiera, el manejo de proyectos. La PNDI sugiere un <strong>margen mínimo del 17%</strong> sobre los ingresos para reinversión. Aquí entra también el <strong>ciclo de proyectos</strong> (11 fases del Project Cycle de WOSM) cuando el grupo postula a fondos externos.</p>
 
                 <div class="timeline">
                     <div class="timeline-item">
@@ -1138,34 +1320,34 @@ body {
                     <h3>🧪 Mini-quiz Lección 3</h3>
 
                     <div class="question">
-                        <h4>1. Los 7 sub-ámbitos de Administración del grupo incluyen…</h4>
+                        <h4>1. El Comisionado Regional de Desarrollo Institucional revisa si la región cubre todos los sub-ámbitos de Administración. Ya tiene identificados: recursos financieros, activos fijos y variables, recursos humanos, pasivos y obligaciones, unidades de negocio y servicios generales de planta física. ¿Qué sub-ámbito le falta nombrar para completar los 7?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q20">
-                            Solo recursos financieros y activos fijos.
+                            Comunicaciones internas — siempre va de la mano de administración.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q20">
-                            Solo lo que tiene que ver con el dinero del grupo.
+                            Obligaciones legales con el Estado — Cámara de Comercio, retenciones e impuestos.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q20">
-                            Recursos financieros, activos, RR.HH., pasivos, unidades de negocio, obligaciones con el Estado y servicios generales.
+                            Reconocimientos — para que los dirigentes se sientan motivados.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. Si tu grupo opera la cuota mensual, una kermés anual y aspira a postular a un fondo municipal, está trabajando principalmente en el ámbito de…</h4>
+                        <h4>2. Una región acompaña a un grupo nuevo y le sugiere diversificar sus fuentes de ingresos más allá de la cuota familiar y definir un margen mínimo del 17 % para reinversión. ¿En qué ámbito del DI está acompañando la región a ese grupo?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q21">
-                            Gobernanza.
+                            Gobernanza — porque establece reglas para el consejo.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q21">
-                            Recursos Económicos.
+                            Recursos Económicos — fuentes de fondos, planeación financiera y margen de sostenibilidad.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q21">
-                            Comunicaciones.
+                            Administración — porque implica activos del grupo.
                         </label>
                     </div>
 
@@ -1201,7 +1383,7 @@ body {
                 <div class="timeline">
                     <div class="timeline-item">
                         <h4>🌐 Caso Grupo 'Bachué'</h4>
-                        <p>Postularon su proyecto de huerta comunitaria al programa global 'Champions for Nature' de WOSM. Lo presentaron en inglés con apoyo de la jefa de tropa que es traductora. Los aceptaron, recibieron un kit de implementación, conectaron con un grupo en Filipinas que hace algo parecido. El proyecto creció. Las chicas del clan publicaron un video del intercambio. <strong>El scoutismo es global, pero solo si te conectas. Relaciones Internacionales operando.</strong></p>
+                        <p>Postularon su proyecto de huerta comunitaria al programa global 'Champions for Nature' de WOSM. Lo presentaron en inglés con apoyo de la jefa de tropa que es traductora. Los aceptaron, recibieron un kit de implementación, conectaron con un grupo en Filipinas que hace algo parecido. El proyecto creció. Las chicas del clan publicaron un video del intercambio. <strong>El escultismo es global, pero solo si te conectas. Relaciones Internacionales operando.</strong></p>
                     </div>
                 </div>
 
@@ -1227,34 +1409,34 @@ body {
                     <h3>🧪 Mini-quiz Lección 4</h3>
 
                     <div class="question">
-                        <h4>1. Que el jefe de grupo escriba a las familias 30 minutos después de un accidente menor en campamento, con qué pasó, qué se hizo y cómo lo van a prevenir, es un ejemplo de…</h4>
+                        <h4>1. Una región decide renovar su imagen de marca para una campaña de crecimiento: actualizar el logo, definir una narrativa pública, organizar la presencia en redes sociales y firmar acuerdos con medios locales. ¿En qué ámbito de la PNDI se ubica este trabajo?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q30">
-                            Gobernanza.
+                            Crecimiento y Sistema de Información — porque busca aumentar membresía.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q30">
-                            Comunicaciones (sub-ámbito Comunicación Externa).
+                            Comunicaciones e Interinstitucionales — sub-ámbitos imagen institucional, marca y relaciones públicas.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q30">
-                            Gestión del Riesgo (sub-ámbito ambiente seguro).
+                            Relaciones Internacionales — porque la marca se mostrará en redes globales.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. El KPI del Plan Regional Interamericano 2022-2025 para Crecimiento es de aproximadamente…</h4>
+                        <h4>2. Un grupo presenta a la asamblea regional el balance de membresía del trienio: pasaron de 30 chicos a 31 chicos en 3 años. Comparando con el KPI del Plan Regional Interamericano 2022-2025 para crecimiento, ¿qué deberían concluir?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q31">
-                            ≥ 2 % anual de crecimiento de membresía.
+                            Cumplen el KPI: el plan exige solo sostener la membresía sin crecimiento.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q31">
-                            ≥ 15 % anual de crecimiento de membresía.
+                            No cumplen el KPI: el plan exige crecimiento ≥ 2 % anual y un solo chico en 3 años está muy por debajo.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q31">
-                            Mantener membresía estable, sin crecimiento neto.
+                            Cumplen el KPI: el plan exige apenas 0,5 % anual.
                         </label>
                     </div>
 
@@ -1274,7 +1456,7 @@ body {
 
                 <h3>🛡️ Ámbito 7 — Gestión del Riesgo</h3>
 
-                <p><strong>Qué cubre:</strong> las 3 áreas transversales de riesgo en el scoutismo según la doctrina vigente: <strong>ambiente seguro</strong> (A Salvo del Peligro, prevención de abuso), <strong>protección financiera y patrimonial</strong> (cuidar la plata y los bienes del grupo), <strong>actividades seguras</strong> (campamentos, salidas, transporte, primeros auxilios). El <strong>ciclo de gestión del riesgo</strong> tiene 4 pasos: identificación, análisis, tratamiento y monitoreo.</p>
+                <p><strong>Qué cubre:</strong> las 3 áreas transversales de riesgo en el escultismo según la doctrina vigente: <strong>ambiente seguro</strong> (A Salvo del Peligro, prevención de abuso), <strong>protección financiera y patrimonial</strong> (cuidar la plata y los bienes del grupo), <strong>actividades seguras</strong> (campamentos, salidas, transporte, primeros auxilios). El <strong>ciclo de gestión del riesgo</strong> tiene 4 pasos: identificación, análisis, tratamiento y monitoreo.</p>
 
                 <div class="timeline">
                     <div class="timeline-item">
@@ -1285,7 +1467,7 @@ body {
 
                 <h3>🏅 Ámbito 8 — Control y Reconocimiento</h3>
 
-                <p><strong>Qué cubre:</strong> los órganos de control (que viste en el Curso 3) y todo el sistema de <strong>estímulos y reconocimientos</strong> del scoutismo. Esto incluye el <strong>Manual de Estímulos Nacionales</strong> y el <strong>Manual de la Orden al Mérito Scout</strong> (ambos del CSN 2022), que regulan los reconocimientos a dirigentes y voluntarios destacados. <strong>Premia lo que funciona, vigila lo que se desvía.</strong></p>
+                <p><strong>Qué cubre:</strong> los órganos de control (que viste en el Curso 3) y todo el sistema de <strong>estímulos y reconocimientos</strong> del escultismo. Esto incluye el <strong>Manual de Estímulos Nacionales</strong> y el <strong>Manual de la Orden al Mérito Scout</strong> (ambos del CSN 2022), que regulan los reconocimientos a dirigentes y voluntarios destacados. <strong>Premia lo que funciona, vigila lo que se desvía.</strong></p>
 
                 <div class="timeline">
                     <div class="timeline-item">
@@ -1305,23 +1487,23 @@ body {
                     <h3>🧪 Mini-quiz Lección 5</h3>
 
                     <div class="question">
-                        <h4>1. El ámbito de Gestión del Riesgo tiene 3 áreas transversales. ¿Cuáles?</h4>
+                        <h4>1. Un comisionado regional debe diseñar la auditoría anual de Gestión del Riesgo de los grupos. Quiere asegurar que la revisión cubra TODAS las áreas transversales que define la doctrina vigente. ¿Qué tres áreas debe revisar?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q40">
-                            Ambiente seguro, protección financiera-patrimonial, actividades seguras.
+                            Ambiente seguro (A Salvo del Peligro), protección financiera-patrimonial y actividades seguras.
                         </label>
                         <label class="option" onclick="selectOption(this, 1)">
                             <input type="radio" name="q40">
-                            Gobernanza, administración, finanzas.
+                            Gobernanza, administración y finanzas — los tres pilares operativos del grupo.
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q40">
-                            Salud física, salud mental, salud social.
+                            Salud física de los chicos, salud mental de los dirigentes y salud social del entorno.
                         </label>
                     </div>
 
                     <div class="question">
-                        <h4>2. El Manual de Estímulos Nacionales y el Manual de la Orden al Mérito Scout son herramientas del ámbito de…</h4>
+                        <h4>2. En la asamblea de cierre, un grupo entrega pines de antigüedad a dirigentes que cumplen 5, 10 y 15 años, y otorga el reconocimiento del año a un papá voluntario destacado. ¿En qué ámbito de la PNDI se ubica esta práctica?</h4>
                         <label class="option" onclick="selectOption(this, 0)">
                             <input type="radio" name="q41">
                             Crecimiento y Sistema de Información.
@@ -1332,7 +1514,7 @@ body {
                         </label>
                         <label class="option" onclick="selectOption(this, 2)">
                             <input type="radio" name="q41">
-                            Control y Reconocimiento (sub-ámbito reconocimientos y estímulos).
+                            Control y Reconocimiento — sub-ámbito estímulos y reconocimientos.
                         </label>
                     </div>
 
@@ -1371,11 +1553,11 @@ body {
 
                 <p>La explicación: <strong>Gobernanza</strong> y <strong>Control</strong> están reguladas por el CSN (no por la DNDI), por eso no aparecen como subcategorías de la dirección. <strong>Comunicaciones</strong>, <strong>Relaciones Internacionales</strong> y <strong>Administración</strong> dependen de la Jefatura Scout Nacional como áreas transversales, no como direcciones independientes. La DNDI, en su organización operativa actual, se concentra en 5 prioridades clave del cuatrienio. <strong>Ambas vistas son válidas — la PNDI define el universo, la DNDI organiza las prioridades de hoy.</strong></p>
 
-                <div class="info-box">Las <strong>6 áreas estratégicas</strong> que aparecen en el PPTX FLOR DE LIS II (Gobernanza, Programa de Calidad, Crecimiento, Comunicaciones, Alianzas y Relaciones, Gestión de Riesgos) son una tercera vista — la del taller formativo regional. <strong>Las 3 vistas conviven</strong>: la PNDI (8 ámbitos doctrinales), la DNDI operativa (5 subcategorías) y el material formativo (6 áreas estratégicas). En el Curso 5 vas a usar las <strong>6 dimensiones de salud institucional</strong>, que es una cuarta vista — diseñada específicamente para evaluación.</div>
+                <div class="info-box">En el <strong>Curso 5</strong> de esta línea vas a usar las <strong>6 dimensiones de salud institucional</strong> (Propósito, Gobernanza, Gestión, Relaciones, Crecimiento, Cumplimiento) como una <strong>tercera vista, diseñada específicamente para evaluar</strong> la salud institucional del grupo o la región. Las tres vistas conviven y se complementan: la PNDI define el universo conceptual (8 ámbitos), la DNDI organiza las prioridades operativas del cuatrienio (5 subcategorías), y las dimensiones de salud entregan el instrumento medible.</div>
 
                 <h3>🗺️ Lo que viene</h3>
 
-                <p>El <strong>Curso 5</strong> te entrega un <strong>autodiagnóstico interactivo</strong> sobre las 6 dimensiones de salud institucional. Vas a aplicarlo a tu grupo o región. Y el <strong>Curso 6</strong> convierte ese autodiagnóstico en un plan personal de aporte, partiendo de los ámbitos prioritarios que ya identificaste hoy.</p>
+                <p>El <strong>Curso 5</strong> te entrega un <strong>catálogo interactivo de buenas prácticas</strong> de tu grupo, recorriendo los 8 ámbitos con el filtro de los 5 atributos de la PNDI 2017 (Cap. 10). Y el <strong>Curso 6</strong> convierte ese catálogo en un plan personal de aporte, partiendo de los ámbitos prioritarios que ya identificaste hoy.</p>
 
                 <blockquote style="font-size: 1.1rem; font-style: italic; text-align: center; margin: 20px 0; color: #1a4b6b;">Cuando puedes ponerle nombre al ámbito al que pertenece una decisión, dejas de improvisar y empiezas a gestionar. Ya tienes el lenguaje. Lo que sigue es la práctica.</blockquote>
 
@@ -1528,7 +1710,7 @@ body {
     };
 
     // --- Respuestas correctas (indice base 0) ---
-    var QUIZ_ANSWERS = {"2":[2,1],"3":[2,1],"4":[1,0],"5":[0,2],"6":[1,1]};
+    var QUIZ_ANSWERS = {"2":[2,1],"3":[1,1],"4":[1,1],"5":[0,2],"6":[1,1]};
 
 // ============================================
 // MOTOR DE CURSOS - PLATAFORMA DE FORMACION DE ADULTOS ASC
@@ -1547,6 +1729,7 @@ let reflections = {};
 let photos = {};
 let selfAssessments = {};
 let personalPlans = {};
+let practicesCatalogs = {};
 let userProfile = {};
 
 // --- Inicializacion ---
@@ -1557,6 +1740,7 @@ window.addEventListener('DOMContentLoaded', function () {
     loadProgress();
     prefillFromGlobalProfile();
     updateElapsedTime();
+    renderCatalogDisplays();
 });
 
 window.addEventListener('beforeunload', function () {
@@ -1842,7 +2026,7 @@ function saveProgress() {
     var key = 'courseProgress_' + COURSE_CONFIG.courseId;
     var progress = {
         userProfile: userProfile, moduleProgress: moduleProgress,
-        quizScores: quizScores, studyTime: studyTime, reflections: reflections, photos: photos, selfAssessments: selfAssessments, personalPlans: personalPlans,
+        quizScores: quizScores, studyTime: studyTime, reflections: reflections, photos: photos, selfAssessments: selfAssessments, personalPlans: personalPlans, practicesCatalogs: practicesCatalogs,
         currentModule: currentModule, startTime: startTime.toISOString(),
         lastSaved: new Date().toISOString(), version: '3.0'
     };
@@ -1864,6 +2048,7 @@ function loadProgress() {
         photos = p.photos || {};
         selfAssessments = p.selfAssessments || {};
         personalPlans = p.personalPlans || {};
+        practicesCatalogs = p.practicesCatalogs || {};
         currentModule = p.currentModule || 0;
         startTime = new Date(p.startTime || new Date());
         if (userProfile.fullName) {
@@ -1886,6 +2071,7 @@ function loadProgress() {
         });
         if (typeof restoreAssessmentSelections === 'function') restoreAssessmentSelections();
         if (typeof restorePlanState === 'function') restorePlanState();
+        if (typeof restorePracticesCatalogs === 'function') restorePracticesCatalogs();
         updateStats();
         updateProgress();
     }
@@ -2666,6 +2852,17 @@ function recoverProgress() {
                     });
                 }
 
+                // Catálogos de buenas prácticas (Curso 5 — Línea DI): clave por catalogId
+                if (serverData.catalogs && typeof serverData.catalogs === 'object') {
+                    Object.keys(serverData.catalogs).forEach(function (cid) {
+                        practicesCatalogs[cid] = serverData.catalogs[cid];
+                        // Espejo en localStorage global para que otros cursos puedan leerlo cross-device
+                        try { localStorage.setItem(cid, JSON.stringify(serverData.catalogs[cid])); } catch (e) {}
+                    });
+                    if (typeof restorePracticesCatalogs === 'function') restorePracticesCatalogs();
+                    if (typeof renderCatalogDisplays === 'function') renderCatalogDisplays();
+                }
+
                 saveProgress();
                 updateStats();
                 updateProgress();
@@ -2754,6 +2951,150 @@ function sendToGoogleSheets(data) {
             setTimeout(function () { indicator.classList.remove('show'); }, 2000);
         }
     }
+}
+
+// --- Catálogo de buenas prácticas (Curso 5) ---
+function recordPracticeState(catalogId, ambitoId, field, value) {
+    if (!practicesCatalogs[catalogId]) practicesCatalogs[catalogId] = {};
+    if (!practicesCatalogs[catalogId][ambitoId]) practicesCatalogs[catalogId][ambitoId] = { attributes: [] };
+    practicesCatalogs[catalogId][ambitoId][field] = value;
+    saveProgress();
+}
+
+function recordPracticeAttribute(catalogId, ambitoId, attrId, isChecked) {
+    if (!practicesCatalogs[catalogId]) practicesCatalogs[catalogId] = {};
+    if (!practicesCatalogs[catalogId][ambitoId]) practicesCatalogs[catalogId][ambitoId] = { attributes: [] };
+    if (!practicesCatalogs[catalogId][ambitoId].attributes) practicesCatalogs[catalogId][ambitoId].attributes = [];
+    var arr = practicesCatalogs[catalogId][ambitoId].attributes;
+    var idx = arr.indexOf(attrId);
+    if (isChecked && idx === -1) arr.push(attrId);
+    else if (!isChecked && idx !== -1) arr.splice(idx, 1);
+    saveProgress();
+}
+
+function savePracticesCatalog(catalogId) {
+    var data = practicesCatalogs[catalogId] || {};
+    // 1. Persistencia inmediata en localStorage (cross-curso, offline-safe)
+    try { localStorage.setItem(catalogId, JSON.stringify(data)); } catch (e) {}
+    saveProgress();
+    // 2. Feedback inmediato al usuario (sin esperar al backend)
+    var statusEl = document.getElementById('pbc-status-' + catalogId);
+    if (statusEl) {
+        var ambitosMarked = Object.keys(data).filter(function (k) { return data[k].state; }).length;
+        statusEl.classList.remove('hidden');
+        statusEl.innerHTML = '<strong>✅ Tu catálogo se guardó.</strong> ' + ambitosMarked + ' de 8 ámbitos marcados. Puedes modificarlo y volver a guardar.';
+        statusEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+    showNotification('✅ Catálogo guardado');
+    // 3. Sincronización en segundo plano al backend (fire-and-forget; si falla, localStorage queda como fuente).
+    if (userProfile && userProfile.email) {
+        var items = Object.keys(data).map(function (ambitoId) {
+            var it = data[ambitoId] || {};
+            return {
+                ambitoId: ambitoId,
+                state: it.state || '',
+                description: it.description || '',
+                attributes: it.attributes || []
+            };
+        });
+        sendToGoogleSheets({
+            action: 'catalog',
+            name: userProfile.fullName,
+            email: userProfile.email,
+            course: COURSE_CONFIG.courseId,
+            catalogId: catalogId,
+            items: items
+        });
+    }
+}
+
+function restorePracticesCatalogs() {
+    Object.keys(practicesCatalogs).forEach(function (catalogId) {
+        var data = practicesCatalogs[catalogId];
+        Object.keys(data).forEach(function (ambitoId) {
+            var item = data[ambitoId];
+            if (item.state) {
+                var radio = document.querySelector('input[name="state-' + catalogId + '-' + ambitoId + '"][value="' + item.state + '"]');
+                if (radio) radio.checked = true;
+            }
+            if (item.description) {
+                var ta = document.querySelector('.practice-row[data-ambito="' + ambitoId + '"] .practice-desc');
+                if (ta) ta.value = item.description;
+            }
+            (item.attributes || []).forEach(function (attrId) {
+                var cb = document.querySelector('.practice-row[data-ambito="' + ambitoId + '"] input[data-attr="' + attrId + '"]');
+                if (cb) cb.checked = true;
+            });
+        });
+    });
+}
+
+// --- Catalog display (lee localStorage, opera cross-curso) ---
+function getCatalogData(catalogId) {
+    if (practicesCatalogs[catalogId] && Object.keys(practicesCatalogs[catalogId]).length > 0) {
+        return practicesCatalogs[catalogId];
+    }
+    try {
+        var raw = localStorage.getItem(catalogId);
+        return raw ? JSON.parse(raw) : null;
+    } catch (e) { return null; }
+}
+
+function getAmbitoDisplayName(ambitoId) {
+    var names = {
+        'gobernanza': '🏛️ Gobernanza',
+        'administracion': '🗂️ Administración',
+        'recursos-economicos': '💰 Recursos Económicos',
+        'comunicaciones': '📣 Comunicaciones',
+        'relaciones-internacionales': '🌐 Relaciones Internacionales',
+        'crecimiento': '📈 Crecimiento',
+        'gestion-del-riesgo': '🛡️ Gestión del Riesgo',
+        'control-y-reconocimiento': '🏅 Control y Reconocimiento'
+    };
+    return names[ambitoId] || ambitoId;
+}
+
+function renderCatalogDisplays() {
+    document.querySelectorAll('.catalog-display').forEach(function (el) {
+        var catalogId = el.getAttribute('data-catalog-id');
+        var mode = el.getAttribute('data-mode') || 'full';
+        var data = getCatalogData(catalogId);
+        if (!data || Object.keys(data).length === 0) {
+            el.innerHTML = '<div class="catalog-display-empty">⚠️ <strong>Aún no tienes catálogo guardado.</strong><br>Para que este componente se llene, primero completá el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong> y guardá tu catálogo.</div>';
+            return;
+        }
+        var stateLabels = { si: '🟢 Sí', parcial: '🟡 Parcial', no: '🔴 No', 'no-se': '⚪ No sé' };
+        var summary = { si: [], parcial: [], no: [], 'no-se': [] };
+        Object.keys(data).forEach(function (aid) {
+            var it = data[aid];
+            if (it.state && summary[it.state]) summary[it.state].push({ id: aid, item: it });
+        });
+        var html = '<div class="catalog-display-content">';
+        html += '<div class="catalog-summary">' +
+            '<span class="catalog-summary-pill green">🟢 Sí: <strong>' + summary.si.length + '</strong></span>' +
+            '<span class="catalog-summary-pill yellow">🟡 Parcial: <strong>' + summary.parcial.length + '</strong></span>' +
+            '<span class="catalog-summary-pill red">🔴 No: <strong>' + summary.no.length + '</strong></span>' +
+            '<span class="catalog-summary-pill gray">⚪ No sé: <strong>' + summary['no-se'].length + '</strong></span>' +
+            '</div>';
+        if (mode === 'full') {
+            html += '<div class="catalog-detail">';
+            ['si', 'parcial', 'no', 'no-se'].forEach(function (st) {
+                summary[st].forEach(function (row) {
+                    var attrs = (row.item.attributes || []).map(function (a) { return '<span class="attr-pill">' + a + '</span>'; }).join(' ');
+                    var nAttrs = (row.item.attributes || []).length;
+                    var desc = row.item.description ? '<p class="catalog-desc">"' + escapeHtml(row.item.description) + '"</p>' : '';
+                    html += '<div class="catalog-item catalog-item-' + st + '">' +
+                        '<h4>' + getAmbitoDisplayName(row.id) + ' — ' + stateLabels[st] + '</h4>' +
+                        desc +
+                        (attrs ? '<div class="catalog-attrs"><strong>Atributos cumplidos (' + nAttrs + '/5):</strong> ' + attrs + '</div>' : '') +
+                        '</div>';
+                });
+            });
+            html += '</div>';
+        }
+        html += '</div>';
+        el.innerHTML = html;
+    });
 }
 
 // --- Timers ---

@@ -103,11 +103,11 @@
             "correctIndex": 2
           },
           {
-            "text": "Una propuesta del consejo de grupo que toca a la vez Gobernanza, Recursos Económicos y Comunicaciones es…",
+            "text": "Un dirigente nuevo propone en consejo abrir un convenio con la junta de acción comunal del barrio para conseguir un espacio fijo de reuniones. ¿Qué ámbitos del DI atraviesa esa propuesta además de Comunicaciones e Interinstitucionales?",
             "options": [
-              "Una propuesta mal hecha que debería separarse en tres.",
-              "Una propuesta institucionalmente compleja que requiere análisis cruzado de varios ámbitos.",
-              "Una propuesta que solo el comisionado nacional puede aprobar."
+              "Solo Comunicaciones — la búsqueda de un local es comunicación pura.",
+              "También Administración (logística y mantenimiento del nuevo local) y Gobernanza (el consejo debe decidir y documentar el convenio).",
+              "Solo Recursos Económicos, porque hay implicaciones de costos."
             ],
             "correctIndex": 1
           }
@@ -166,7 +166,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<strong>Qué cubre:</strong> las <strong>6 fuentes de fondos</strong> clásicas del scoutismo (cuotas, eventos del grupo, servicios a terceros, aliados, donaciones, convocatorias), la planeación financiera, el manejo de proyectos. La PNDI sugiere un <strong>margen mínimo del 17%</strong> sobre los ingresos para reinversión. Aquí entra también el <strong>ciclo de proyectos</strong> (11 fases del Project Cycle de WOSM) cuando el grupo postula a fondos externos."
+          "text": "<strong>Qué cubre:</strong> las <strong>6 fuentes de fondos</strong> clásicas del escultismo (cuotas, eventos del grupo, servicios a terceros, aliados, donaciones, convocatorias), la planeación financiera, el manejo de proyectos. La PNDI sugiere un <strong>margen mínimo del 17%</strong> sobre los ingresos para reinversión. Aquí entra también el <strong>ciclo de proyectos</strong> (11 fases del Project Cycle de WOSM) cuando el grupo postula a fondos externos."
         },
         {
           "type": "timeline",
@@ -186,20 +186,20 @@
         "title": "Mini-quiz Lección 3",
         "questions": [
           {
-            "text": "Los 7 sub-ámbitos de Administración del grupo incluyen…",
+            "text": "El Comisionado Regional de Desarrollo Institucional revisa si la región cubre todos los sub-ámbitos de Administración. Ya tiene identificados: recursos financieros, activos fijos y variables, recursos humanos, pasivos y obligaciones, unidades de negocio y servicios generales de planta física. ¿Qué sub-ámbito le falta nombrar para completar los 7?",
             "options": [
-              "Solo recursos financieros y activos fijos.",
-              "Solo lo que tiene que ver con el dinero del grupo.",
-              "Recursos financieros, activos, RR.HH., pasivos, unidades de negocio, obligaciones con el Estado y servicios generales."
+              "Comunicaciones internas — siempre va de la mano de administración.",
+              "Obligaciones legales con el Estado — Cámara de Comercio, retenciones e impuestos.",
+              "Reconocimientos — para que los dirigentes se sientan motivados."
             ],
-            "correctIndex": 2
+            "correctIndex": 1
           },
           {
-            "text": "Si tu grupo opera la cuota mensual, una kermés anual y aspira a postular a un fondo municipal, está trabajando principalmente en el ámbito de…",
+            "text": "Una región acompaña a un grupo nuevo y le sugiere diversificar sus fuentes de ingresos más allá de la cuota familiar y definir un margen mínimo del 17 % para reinversión. ¿En qué ámbito del DI está acompañando la región a ese grupo?",
             "options": [
-              "Gobernanza.",
-              "Recursos Económicos.",
-              "Comunicaciones."
+              "Gobernanza — porque establece reglas para el consejo.",
+              "Recursos Económicos — fuentes de fondos, planeación financiera y margen de sostenibilidad.",
+              "Administración — porque implica activos del grupo."
             ],
             "correctIndex": 1
           }
@@ -248,7 +248,7 @@
         {
           "type": "timeline",
           "items": [
-            { "title": "🌐 Caso Grupo 'Bachué'", "description": "Postularon su proyecto de huerta comunitaria al programa global 'Champions for Nature' de WOSM. Lo presentaron en inglés con apoyo de la jefa de tropa que es traductora. Los aceptaron, recibieron un kit de implementación, conectaron con un grupo en Filipinas que hace algo parecido. El proyecto creció. Las chicas del clan publicaron un video del intercambio. <strong>El scoutismo es global, pero solo si te conectas. Relaciones Internacionales operando.</strong>" }
+            { "title": "🌐 Caso Grupo 'Bachué'", "description": "Postularon su proyecto de huerta comunitaria al programa global 'Champions for Nature' de WOSM. Lo presentaron en inglés con apoyo de la jefa de tropa que es traductora. Los aceptaron, recibieron un kit de implementación, conectaron con un grupo en Filipinas que hace algo parecido. El proyecto creció. Las chicas del clan publicaron un video del intercambio. <strong>El escultismo es global, pero solo si te conectas. Relaciones Internacionales operando.</strong>" }
           ]
         },
         {
@@ -278,22 +278,22 @@
         "title": "Mini-quiz Lección 4",
         "questions": [
           {
-            "text": "Que el jefe de grupo escriba a las familias 30 minutos después de un accidente menor en campamento, con qué pasó, qué se hizo y cómo lo van a prevenir, es un ejemplo de…",
+            "text": "Una región decide renovar su imagen de marca para una campaña de crecimiento: actualizar el logo, definir una narrativa pública, organizar la presencia en redes sociales y firmar acuerdos con medios locales. ¿En qué ámbito de la PNDI se ubica este trabajo?",
             "options": [
-              "Gobernanza.",
-              "Comunicaciones (sub-ámbito Comunicación Externa).",
-              "Gestión del Riesgo (sub-ámbito ambiente seguro)."
+              "Crecimiento y Sistema de Información — porque busca aumentar membresía.",
+              "Comunicaciones e Interinstitucionales — sub-ámbitos imagen institucional, marca y relaciones públicas.",
+              "Relaciones Internacionales — porque la marca se mostrará en redes globales."
             ],
             "correctIndex": 1
           },
           {
-            "text": "El KPI del Plan Regional Interamericano 2022-2025 para Crecimiento es de aproximadamente…",
+            "text": "Un grupo presenta a la asamblea regional el balance de membresía del trienio: pasaron de 30 chicos a 31 chicos en 3 años. Comparando con el KPI del Plan Regional Interamericano 2022-2025 para crecimiento, ¿qué deberían concluir?",
             "options": [
-              "≥ 2 % anual de crecimiento de membresía.",
-              "≥ 15 % anual de crecimiento de membresía.",
-              "Mantener membresía estable, sin crecimiento neto."
+              "Cumplen el KPI: el plan exige solo sostener la membresía sin crecimiento.",
+              "No cumplen el KPI: el plan exige crecimiento ≥ 2 % anual y un solo chico en 3 años está muy por debajo.",
+              "Cumplen el KPI: el plan exige apenas 0,5 % anual."
             ],
-            "correctIndex": 0
+            "correctIndex": 1
           }
         ],
         "nextLabel": "Continuar a Lección 5 →"
@@ -320,7 +320,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<strong>Qué cubre:</strong> las 3 áreas transversales de riesgo en el scoutismo según la doctrina vigente: <strong>ambiente seguro</strong> (A Salvo del Peligro, prevención de abuso), <strong>protección financiera y patrimonial</strong> (cuidar la plata y los bienes del grupo), <strong>actividades seguras</strong> (campamentos, salidas, transporte, primeros auxilios). El <strong>ciclo de gestión del riesgo</strong> tiene 4 pasos: identificación, análisis, tratamiento y monitoreo."
+          "text": "<strong>Qué cubre:</strong> las 3 áreas transversales de riesgo en el escultismo según la doctrina vigente: <strong>ambiente seguro</strong> (A Salvo del Peligro, prevención de abuso), <strong>protección financiera y patrimonial</strong> (cuidar la plata y los bienes del grupo), <strong>actividades seguras</strong> (campamentos, salidas, transporte, primeros auxilios). El <strong>ciclo de gestión del riesgo</strong> tiene 4 pasos: identificación, análisis, tratamiento y monitoreo."
         },
         {
           "type": "timeline",
@@ -335,7 +335,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<strong>Qué cubre:</strong> los órganos de control (que viste en el Curso 3) y todo el sistema de <strong>estímulos y reconocimientos</strong> del scoutismo. Esto incluye el <strong>Manual de Estímulos Nacionales</strong> y el <strong>Manual de la Orden al Mérito Scout</strong> (ambos del CSN 2022), que regulan los reconocimientos a dirigentes y voluntarios destacados. <strong>Premia lo que funciona, vigila lo que se desvía.</strong>"
+          "text": "<strong>Qué cubre:</strong> los órganos de control (que viste en el Curso 3) y todo el sistema de <strong>estímulos y reconocimientos</strong> del escultismo. Esto incluye el <strong>Manual de Estímulos Nacionales</strong> y el <strong>Manual de la Orden al Mérito Scout</strong> (ambos del CSN 2022), que regulan los reconocimientos a dirigentes y voluntarios destacados. <strong>Premia lo que funciona, vigila lo que se desvía.</strong>"
         },
         {
           "type": "timeline",
@@ -355,20 +355,20 @@
         "title": "Mini-quiz Lección 5",
         "questions": [
           {
-            "text": "El ámbito de Gestión del Riesgo tiene 3 áreas transversales. ¿Cuáles?",
+            "text": "Un comisionado regional debe diseñar la auditoría anual de Gestión del Riesgo de los grupos. Quiere asegurar que la revisión cubra TODAS las áreas transversales que define la doctrina vigente. ¿Qué tres áreas debe revisar?",
             "options": [
-              "Ambiente seguro, protección financiera-patrimonial, actividades seguras.",
-              "Gobernanza, administración, finanzas.",
-              "Salud física, salud mental, salud social."
+              "Ambiente seguro (A Salvo del Peligro), protección financiera-patrimonial y actividades seguras.",
+              "Gobernanza, administración y finanzas — los tres pilares operativos del grupo.",
+              "Salud física de los chicos, salud mental de los dirigentes y salud social del entorno."
             ],
             "correctIndex": 0
           },
           {
-            "text": "El Manual de Estímulos Nacionales y el Manual de la Orden al Mérito Scout son herramientas del ámbito de…",
+            "text": "En la asamblea de cierre, un grupo entrega pines de antigüedad a dirigentes que cumplen 5, 10 y 15 años, y otorga el reconocimiento del año a un papá voluntario destacado. ¿En qué ámbito de la PNDI se ubica esta práctica?",
             "options": [
               "Crecimiento y Sistema de Información.",
               "Comunicaciones e Interinstitucionales.",
-              "Control y Reconocimiento (sub-ámbito reconocimientos y estímulos)."
+              "Control y Reconocimiento — sub-ámbito estímulos y reconocimientos."
             ],
             "correctIndex": 2
           }
@@ -421,7 +421,7 @@
         },
         {
           "type": "info-box",
-          "text": "Las <strong>6 áreas estratégicas</strong> que aparecen en el PPTX FLOR DE LIS II (Gobernanza, Programa de Calidad, Crecimiento, Comunicaciones, Alianzas y Relaciones, Gestión de Riesgos) son una tercera vista — la del taller formativo regional. <strong>Las 3 vistas conviven</strong>: la PNDI (8 ámbitos doctrinales), la DNDI operativa (5 subcategorías) y el material formativo (6 áreas estratégicas). En el Curso 5 vas a usar las <strong>6 dimensiones de salud institucional</strong>, que es una cuarta vista — diseñada específicamente para evaluación."
+          "text": "En el <strong>Curso 5</strong> de esta línea vas a usar las <strong>6 dimensiones de salud institucional</strong> (Propósito, Gobernanza, Gestión, Relaciones, Crecimiento, Cumplimiento) como una <strong>tercera vista, diseñada específicamente para evaluar</strong> la salud institucional del grupo o la región. Las tres vistas conviven y se complementan: la PNDI define el universo conceptual (8 ámbitos), la DNDI organiza las prioridades operativas del cuatrienio (5 subcategorías), y las dimensiones de salud entregan el instrumento medible."
         },
         {
           "type": "heading",
@@ -430,7 +430,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El <strong>Curso 5</strong> te entrega un <strong>autodiagnóstico interactivo</strong> sobre las 6 dimensiones de salud institucional. Vas a aplicarlo a tu grupo o región. Y el <strong>Curso 6</strong> convierte ese autodiagnóstico en un plan personal de aporte, partiendo de los ámbitos prioritarios que ya identificaste hoy."
+          "text": "El <strong>Curso 5</strong> te entrega un <strong>catálogo interactivo de buenas prácticas</strong> de tu grupo, recorriendo los 8 ámbitos con el filtro de los 5 atributos de la PNDI 2017 (Cap. 10). Y el <strong>Curso 6</strong> convierte ese catálogo en un plan personal de aporte, partiendo de los ámbitos prioritarios que ya identificaste hoy."
         },
         {
           "type": "blockquote",
