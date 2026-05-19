@@ -232,7 +232,7 @@
     {
       "id": 4,
       "title": "Lección 3 — Tu institución en una página",
-      "emoji": "🇨🇴",
+      "emoji": "🏛️",
       "navLabel": "L3",
       "sections": [
         {
@@ -275,7 +275,7 @@
           "items": [
             "🏠 <strong>En tu grupo:</strong> Asamblea de Grupo (aprueba el rumbo) → Consejo de Grupo (gobierna el día a día) → Equipo de Jefatura (ejecuta) → Buenas prácticas de control internas (libro de actas, libro contable, soportes, conducta del consejo).",
             "🏘️ <strong>En tu región:</strong> Asamblea Regional → Consejo Regional → Jefatura Regional → <strong>Revisoría Fiscal</strong> (Revisor Fiscal y Suplente) como órgano de control.",
-            "🇨🇴 <strong>En el país:</strong> Asamblea Scout Nacional → Consejo Scout Nacional → Jefatura Scout Nacional → <strong>Comisión Nacional de Vigilancia y Control</strong> + <strong>Corte de Honor Nacional</strong> (estos sí existen como órganos formales del nivel nacional)."
+            "🏛️ <strong>En el país:</strong> Asamblea Scout Nacional → Consejo Scout Nacional → Jefatura Scout Nacional → <strong>Comisión Nacional de Vigilancia y Control</strong> + <strong>Corte de Honor Nacional</strong> (estos sí existen como órganos formales del nivel nacional)."
           ]
         },
         {
@@ -541,7 +541,7 @@
   "achievements": [
     { "id": "achievement-1", "name": "DI está en todo", "emoji": "🏛️", "unlockOnModule": 2 },
     { "id": "achievement-2", "name": "Mito-buster", "emoji": "🧨", "unlockOnModule": 3 },
-    { "id": "achievement-3", "name": "Conozco mi institución", "emoji": "🇨🇴", "unlockOnModule": 4 },
+    { "id": "achievement-3", "name": "Conozco mi institución", "emoji": "🏛️", "unlockOnModule": 4 },
     { "id": "achievement-4", "name": "Veo por qué importa", "emoji": "💡", "unlockOnModule": 5 },
     { "id": "achievement-final", "name": "Constructor Institucional", "emoji": "🏗️", "unlockOnModule": -1 }
   ],
