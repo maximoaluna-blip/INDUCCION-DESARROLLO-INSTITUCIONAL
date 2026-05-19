@@ -51,7 +51,23 @@ Cuando el usuario diga frases como:
 │
 ├── input/         (gitignored)           ← PDFs/MDs fuente para cursos nuevos
 └── previews/      (gitignored)           ← HTMLs/PDFs de preview
+    ├── preview-<courseId>.html/pdf       ← Iteraciones, work-in-progress
+    └── publicadas/                       ← Versión canónica de cursos en producción
+        └── preview-<courseId>.html/pdf
 ```
+
+### Convención de la carpeta `previews/publicadas/`
+
+`previews/` aloja todos los archivos de revisión (HTML interactivo + PDF visual). Dentro hay una **subcarpeta `publicadas/`** que es la **fuente de verdad visual del catálogo activo**: solo deben estar allí los previews de cursos cuya entrada en `02-Plataforma-Web/cursos.json` tenga `status: "active"`.
+
+Flujo:
+
+1. **Curso nuevo en desarrollo** → preview se genera en `previews/` (raíz). El courseId todavía no está en producción.
+2. **Iteraciones / ajustes / revisión Cowork** → el preview vive en `previews/` (raíz) y se regenera en cada iteración.
+3. **Curso aprobado y publicado** (build + commit + push) → el preview canónico se mueve a `previews/publicadas/`. Si había una versión previa, se reemplaza.
+4. **Curso descartado o reemplazado** → su preview se quita de `publicadas/` (puede archivarse en `previews/` raíz como histórico o eliminarse).
+
+Resultado: cualquier persona que abra `previews/publicadas/` ve exactamente lo que el cursante encuentra en GitHub Pages — no se mezcla con versiones en revisión.
 
 ### Documentos de diseño paralelos
 
