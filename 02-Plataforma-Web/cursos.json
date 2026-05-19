@@ -54,33 +54,5 @@
     "level": 1,
     "levelName": "Fundamentación",
     "order": 4
-  },
-  {
-    "courseId": "salud-institucional-autodiagnostico",
-    "title": "Las 6 Áreas Estratégicas y Salud Institucional",
-    "description": "Curso central del Nivel 1. Entrega un autodiagnóstico interactivo sobre las 6 dimensiones de salud institucional, con una rúbrica de 5 grados observables por dimensión. En ~30 minutos vas a distinguir las 6 áreas estratégicas operativas de las 6 dimensiones evaluativas, dominar la rúbrica, aplicarla a tu grupo o región y salir con un perfil guardado, listo para alimentar el plan personal del Curso 6.",
-    "icon": "💪",
-    "duration": "30 minutos",
-    "modules": 6,
-    "status": "active",
-    "file": "salud-institucional-autodiagnostico.html",
-    "folder": "salud-institucional-autodiagnostico",
-    "level": 1,
-    "levelName": "Fundamentación",
-    "order": 5
-  },
-  {
-    "courseId": "mi-aporte-al-desarrollo-institucional",
-    "title": "Mi Aporte al Desarrollo Institucional",
-    "description": "Curso de cierre del Nivel 1. Convierte todo lo aprendido en un plan personal de aporte al DI, listo para firmar y compartir con el consejo. Lee automáticamente tu perfil del Curso 5 y tu brújula personal del Curso 2, te propone metas-tipo por dimensión con plazos y recursos, y termina con un PDF firmable y la sugerencia de los 2-3 cursos del Nivel 2 más útiles para ti.",
-    "icon": "🗺️",
-    "duration": "30 minutos",
-    "modules": 6,
-    "status": "active",
-    "file": "mi-aporte-al-desarrollo-institucional.html",
-    "folder": "mi-aporte-al-desarrollo-institucional",
-    "level": 1,
-    "levelName": "Fundamentación",
-    "order": 6
   }
 ]
