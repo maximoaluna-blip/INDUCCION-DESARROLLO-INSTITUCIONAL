@@ -130,12 +130,22 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
     ```bash
     node 05-Generador-Cursos/verificar-backend.js
     ```
-12. **Commit + push:**
+12. **Commit + push** del repo de la línea:
     ```bash
     git add . && git commit -m "Agregar Curso N: <título>" && git push
     ```
 
 GitHub Pages redespliega automáticamente. ~1 min después el curso está vivo.
+
+> ⚠️ **Construir el curso ≠ publicar la línea.** GitHub Pages sirve desde la **raíz** del repo: si la raíz no tiene `index.html`, la URL pública de la línea da 404. Ver §2-bis.
+
+#### Fase de publicación de la LÍNEA (§2-bis) — al estrenar la línea o cambiar el nº de cursos activos
+
+Procedimiento universal en `../MANUAL-CREACION-CURSOS.md` §A.3-bis y `../CLAUDE.md` §7-bis. Datos propios de **Desarrollo Institucional**:
+
+13. **Raíz del repo:** verificar que `index.html` (con botón `.back-portal`) + `404.html` siguen presentes.
+14. **Portal** `../PORTAL-ADULTOS-ASC/lineas.json` → entrada `"id": "desarrollo-institucional"`: mantener `status: "active"`, `url: "https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/"`, `color: "#1565C0"`, y **actualizar `coursesActive`** al nº de cursos con `status: "active"` (`coursesPlanned: 24`; el Nivel 1 son 6 cursos). Sincronizar la tabla del `README.md` del portal.
+15. Push del repo del portal + **verificar en producción** (landing 200, curso 200, tarjeta clickeable).
 
 ---
 

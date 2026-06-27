@@ -76,14 +76,16 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 
 ## Cursos del Nivel 1 (Fundamentación)
 
+> Nivel 1 completo y en producción: los 6 cursos están construidos, con `status: "active"` en `cursos.json` y publicados (HTTP 200).
+
 | # | Curso | courseId | Duración | Estado |
 |---|---|---|---|---|
-| 1 | 🏛️ Bienvenida al Desarrollo Institucional | `bienvenida-desarrollo-institucional` | 25 min | ✅ Piloto |
-| 2 | 📜 La Política PNDI — Marco y Principios | `politica-pndi` | 30 min | 🔒 Por construir |
-| 3 | 🏗️ Niveles y Estructura del Movimiento | `niveles-y-estructura` | 30 min | 🔒 Por construir |
-| 4 | 🧭 Los 8 Ámbitos de Gestión | `ocho-ambitos-de-gestion` | 35 min | 🔒 Por construir |
-| 5 | 💪 Las 6 Áreas Estratégicas y Salud Institucional | `salud-institucional` | 30 min | 🔒 Por construir |
-| 6 | 🗺️ Mi Aporte al Desarrollo Institucional | `mi-aporte-al-di` | 30 min | 🔒 Por construir |
+| 1 | 🏛️ Bienvenida al Desarrollo Institucional | `bienvenida-desarrollo-institucional` | 25 min | ✅ Activo |
+| 2 | 📜 La Política PNDI: Marco y Principios | `pndi-marco-y-principios` | 30 min | ✅ Activo |
+| 3 | 🏗️ Niveles y Estructura del Movimiento | `niveles-y-estructura-movimiento` | 30 min | ✅ Activo |
+| 4 | 🧭 Los 8 Ámbitos de Gestión | `los-8-ambitos-de-gestion` | 35 min | ✅ Activo |
+| 5 | 🌟 Buenas Prácticas en Tu Grupo | `buenas-practicas-en-tu-grupo` | 30 min | ✅ Activo |
+| 6 | 🗺️ Mi Aporte al Desarrollo Institucional | `mi-aporte-al-desarrollo-institucional` | 30 min | ✅ Activo |
 
 **Niveles siguientes:**
 

@@ -6,16 +6,16 @@ Plataforma de formación online de la **Línea Desarrollo Institucional** de la 
 
 ## Estado actual
 
-Piloto del **Nivel 1 — Ruta de Fundamentación** (6 cursos, ~3 horas).
+**Nivel 1 — Ruta de Fundamentación** completo y en producción: 6 cursos activos (~3 horas). Todos están construidos, con `status: "active"` en `cursos.json` y publicados en GitHub Pages.
 
 | # | Curso | Estado |
 |---|-------|--------|
-| 1 | 🏛️ Bienvenida al Desarrollo Institucional | ✅ Activo (piloto) |
-| 2 | 📜 La Política PNDI — Marco y Principios | 🔒 Próximo |
-| 3 | 🏗️ Niveles y Estructura del Movimiento | 🔒 Próximo |
-| 4 | 🧭 Los 8 Ámbitos de Gestión | 🔒 Próximo |
-| 5 | 💪 Las 6 Áreas Estratégicas y Salud Institucional | 🔒 Próximo |
-| 6 | 🗺️ Mi Aporte al Desarrollo Institucional | 🔒 Próximo |
+| 1 | 🏛️ Bienvenida al Desarrollo Institucional | ✅ Activo |
+| 2 | 📜 La Política PNDI: Marco y Principios | ✅ Activo |
+| 3 | 🏗️ Niveles y Estructura del Movimiento | ✅ Activo |
+| 4 | 🧭 Los 8 Ámbitos de Gestión | ✅ Activo |
+| 5 | 🌟 Buenas Prácticas en Tu Grupo | ✅ Activo |
+| 6 | 🗺️ Mi Aporte al Desarrollo Institucional | ✅ Activo |
 
 ## Estructura del proyecto
 
@@ -25,8 +25,8 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 ├── 404.html
 ├── assets/                             # Logos, favicon, dark theme
 ├── 02-Plataforma-Web/                  # HTMLs públicos
-│   ├── cursos.json                     # Catálogo del Nivel 1
-│   ├── bienvenida-desarrollo-institucional.html
+│   ├── cursos.json                     # Catálogo del Nivel 1 (6 cursos)
+│   ├── *.html                          # Un HTML por curso (Cursos 01–06)
 │   ├── dashboard-admin.html
 │   └── verificar-certificado.html
 └── 05-Generador-Cursos/                # Pipeline de construcción
