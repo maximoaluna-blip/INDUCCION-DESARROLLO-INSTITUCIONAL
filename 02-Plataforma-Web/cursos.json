@@ -5,13 +5,13 @@
     "description": "Si crees que el Desarrollo Institucional es asunto de comisionados nacionales, este curso es para ti. En 25 minutos vas a entender por qué te aplica, vas a desarmar los 5 mitos más comunes, vas a ubicar los órganos de la ASC y, sobre todo, vas a salir con un primer compromiso chico, concreto y tuyo. Sin tecnicismos. Sin papeleo. Solo claridad sobre lo que ya estás haciendo y lo que sigue.",
     "icon": "🏛️",
     "duration": "25 minutos",
+    "level": 1,
+    "levelName": "Fundamentación",
+    "order": 1,
     "modules": 6,
     "status": "active",
     "file": "bienvenida-desarrollo-institucional.html",
-    "folder": "bienvenida-desarrollo-institucional",
-    "level": 1,
-    "levelName": "Fundamentación",
-    "order": 1
+    "folder": "bienvenida-desarrollo-institucional"
   },
   {
     "courseId": "pndi-marco-y-principios",
@@ -19,41 +19,41 @@
     "description": "Una política no es un papel para enmarcar — es la brújula que usas cuando el camino se bifurca. En ~30 minutos vas a recorrer los 4 fundamentos, los 7 principios y los 3 sujetos de la Política Nacional de Desarrollo Institucional con casos concretos del grupo scout, no con definiciones de manual. Al final saldrás con una brújula personal: un principio elegido por ti para guiar tu próximo dilema institucional.",
     "icon": "📜",
     "duration": "30 minutos",
+    "level": 1,
+    "levelName": "Fundamentación",
+    "order": 2,
     "modules": 6,
     "status": "active",
     "file": "pndi-marco-y-principios.html",
-    "folder": "pndi-marco-y-principios",
-    "level": 1,
-    "levelName": "Fundamentación",
-    "order": 2
+    "folder": "pndi-marco-y-principios"
   },
   {
     "courseId": "niveles-y-estructura-movimiento",
     "title": "Niveles y Estructura del Movimiento",
     "description": "Aterriza la estructura completa del Movimiento Scout: 5 niveles (Mundial, Interamericano, Nacional, Regional, Local) con su arquitectura de órganos por nivel. Importante: la estructura es asimétrica — no se replica el mismo modelo de tres órganos uniformes en cada nivel.",
     "icon": "🏗️",
-    "duration": "30 minutos",
+    "duration": "~30 min",
+    "level": 1,
+    "levelName": "Fundamentación",
+    "order": 3,
     "modules": 6,
     "status": "active",
     "file": "niveles-y-estructura-movimiento.html",
-    "folder": "niveles-y-estructura-movimiento",
-    "level": 1,
-    "levelName": "Fundamentación",
-    "order": 3
+    "folder": "niveles-y-estructura-movimiento"
   },
   {
     "courseId": "los-8-ambitos-de-gestion",
     "title": "Los 8 Ámbitos de Gestión",
     "description": "Recorrido panorámico de los 8 ámbitos de gestión que la PNDI 2017 identifica como el contenido operativo del Desarrollo Institucional. Una micro-historia por ámbito (no 8 definiciones). Al final, el adulto sabe ubicar cualquier decisión cotidiana del grupo en el ámbito que le corresponde.",
     "icon": "🧭",
-    "duration": "35 minutos",
+    "duration": "~35 min",
+    "level": 1,
+    "levelName": "Fundamentación",
+    "order": 4,
     "modules": 6,
     "status": "active",
     "file": "los-8-ambitos-de-gestion.html",
-    "folder": "los-8-ambitos-de-gestion",
-    "level": 1,
-    "levelName": "Fundamentación",
-    "order": 4
+    "folder": "los-8-ambitos-de-gestion"
   },
   {
     "courseId": "buenas-practicas-en-tu-grupo",
@@ -61,13 +61,13 @@
     "description": "Lo que tu grupo ya hace bien es la materia prima del Desarrollo Institucional. En ~30 minutos vas a entender qué es una buena práctica según el Cap. 10 de la PNDI 2017, conocer los 5 atributos que la diferencian de una rutina, recorrer los 8 ámbitos de gestión buscándolas en tu propio grupo y salir con un catálogo personal de buenas prácticas listo para alimentar el plan del Curso 6.",
     "icon": "🌟",
     "duration": "30 minutos",
+    "level": 1,
+    "levelName": "Fundamentación",
+    "order": 5,
     "modules": 6,
     "status": "active",
     "file": "buenas-practicas-en-tu-grupo.html",
-    "folder": "buenas-practicas-en-tu-grupo",
-    "level": 1,
-    "levelName": "Fundamentación",
-    "order": 5
+    "folder": "buenas-practicas-en-tu-grupo"
   },
   {
     "courseId": "mi-aporte-al-desarrollo-institucional",
@@ -75,12 +75,12 @@
     "description": "Curso de cierre del Nivel 1. Convierte todo lo aprendido en un plan personal de aporte al DI, listo para firmar y compartir con el consejo. Lee automáticamente tu catálogo de buenas prácticas del Curso 5 y tu brújula personal del Curso 2, te propone metas-tipo por cada uno de los 8 ámbitos con recursos y plazos, y termina con un PDF firmable.",
     "icon": "🗺️",
     "duration": "30 minutos",
+    "level": 1,
+    "levelName": "Fundamentación",
+    "order": 6,
     "modules": 6,
     "status": "active",
     "file": "mi-aporte-al-desarrollo-institucional.html",
-    "folder": "mi-aporte-al-desarrollo-institucional",
-    "level": 1,
-    "levelName": "Fundamentación",
-    "order": 6
+    "folder": "mi-aporte-al-desarrollo-institucional"
   }
 ]

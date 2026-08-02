@@ -5,6 +5,9 @@
   "description": "Si crees que el Desarrollo Institucional es asunto de comisionados nacionales, este curso es para ti. En 25 minutos vas a entender por qué te aplica, vas a desarmar los 5 mitos más comunes, vas a ubicar los órganos de la ASC y, sobre todo, vas a salir con un primer compromiso chico, concreto y tuyo. Sin tecnicismos. Sin papeleo. Solo claridad sobre lo que ya estás haciendo y lo que sigue.",
   "icon": "🏛️",
   "duration": "25 minutos",
+  "level": 1,
+  "levelName": "Fundamentación",
+  "order": 1,
   "totalContentModules": 6,
   "modules": [
     {

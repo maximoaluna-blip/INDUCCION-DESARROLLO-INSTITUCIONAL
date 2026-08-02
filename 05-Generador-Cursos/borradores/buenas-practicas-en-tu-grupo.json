@@ -5,6 +5,9 @@
   "description": "Lo que tu grupo ya hace bien es la materia prima del Desarrollo Institucional. En ~30 minutos vas a entender qué es una buena práctica según el Cap. 10 de la PNDI 2017, conocer los 5 atributos que la diferencian de una rutina, recorrer los 8 ámbitos de gestión buscándolas en tu propio grupo y salir con un catálogo personal de buenas prácticas listo para alimentar el plan del Curso 6.",
   "icon": "🌟",
   "duration": "30 minutos",
+  "level": 1,
+  "levelName": "Fundamentación",
+  "order": 5,
   "totalContentModules": 6,
   "modules": [
     {

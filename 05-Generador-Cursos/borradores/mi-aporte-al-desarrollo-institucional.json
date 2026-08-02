@@ -5,6 +5,9 @@
   "description": "Curso de cierre del Nivel 1. Convierte todo lo aprendido en un plan personal de aporte al DI, listo para firmar y compartir con el consejo. Lee automáticamente tu catálogo de buenas prácticas del Curso 5 y tu brújula personal del Curso 2, te propone metas-tipo por cada uno de los 8 ámbitos con recursos y plazos, y termina con un PDF firmable.",
   "icon": "🗺️",
   "duration": "30 minutos",
+  "level": 1,
+  "levelName": "Fundamentación",
+  "order": 6,
   "totalContentModules": 6,
   "modules": [
     {

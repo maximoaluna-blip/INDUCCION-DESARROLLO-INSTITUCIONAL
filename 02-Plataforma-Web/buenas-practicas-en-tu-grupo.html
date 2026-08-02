@@ -54,10 +54,15 @@
 }
 .policy-quote-source {
     font-size: 0.8em;
-    color: #888;
+    color: #636363;
     margin: 8px 0 0 0;
     text-align: right;
 }
+.opcional-label { color: #636363; font-weight: 400; font-size: 0.85em; }
+[data-theme="dark"] .opcional-label { color: #aaa; }
+[data-theme="dark"] .policy-quote-source { color: #aaa; }
+[data-theme="dark"] .photo-actions .btn-tertiary { color: #aaa; }
+[data-theme="dark"] .pb-comp-grade { color: #aaa; }
 [data-theme="dark"] .policy-quote { background: #2a1f3a; border-left-color: #b78fee; }
 [data-theme="dark"] .policy-quote summary { color: #d4b8ff; }
 [data-theme="dark"] .policy-quote[open] { background: #321f48; }
@@ -123,7 +128,7 @@
 .photo-actions .btn-secondary:hover { background: #f3edfa; }
 .photo-actions .btn-tertiary {
     background: transparent;
-    color: #888;
+    color: #636363;
     border: 1px solid #ccc;
     padding: 8px 16px;
     border-radius: 6px;
@@ -321,7 +326,7 @@
 }
 .pb-comp-check { transform: scale(1.2); cursor: pointer; }
 .pb-comp-name { flex: 1; font-weight: 600; color: #333; }
-.pb-comp-grade { font-size: 0.85em; color: #888; padding: 2px 8px; background: #f0f0f0; border-radius: 4px; }
+.pb-comp-grade { font-size: 0.85em; color: #636363; padding: 2px 8px; background: #f0f0f0; border-radius: 4px; }
 .pb-comp-grade.priority { background: #ffe0b2; color: #e65100; font-weight: 600; }
 .pb-comp-fields {
     padding: 8px 16px 16px 50px;
@@ -1192,7 +1197,7 @@ body {
                 <div class="progress-bar" id="progressBar"></div>
                 <div class="progress-text" id="progressText">0%</div>
             </div>
-            <p style="margin-top: 10px; font-size: 0.9em; color: #666;">
+            <p style="margin-top: 10px; font-size: 0.9em;">
                 ⏱️ Tiempo en el curso: <span id="elapsedTime">0 min</span>
             </p>
         </div>
@@ -1256,7 +1261,7 @@ body {
                         <input type="text" id="fullName" name="fullName" required placeholder="Ej: Juan Carlos Pérez Gómez">
                     </div>
                     <div class="form-group">
-                        <label for="age">Edad <span style="color:#888;font-weight:400;font-size:0.85em;">(opcional)</span></label>
+                        <label for="age">Edad <span class="opcional-label">(opcional)</span></label>
                         <input type="number" id="age" name="age" min="0" placeholder="Ej: 35">
                     </div>
                     <div class="form-group">
@@ -2242,7 +2247,7 @@ body {
                             <img src="../assets/logo-vallescout.png" alt="Valle Scout" style="height: 45px;">
                         </div>
                         <p style="font-size: 0.75em; text-transform: uppercase; letter-spacing: 2px; color: #622599; font-weight: 600; margin: 5px 0;">Asociacion Scouts de Colombia</p>
-                        <p style="font-size: 0.7em; text-transform: uppercase; letter-spacing: 1.5px; color: #888; margin: 2px 0;">Formación de Adultos en el Movimiento</p>
+                        <p style="font-size: 0.7em; text-transform: uppercase; letter-spacing: 1.5px; color: #636363; margin: 2px 0;">Formación de Adultos en el Movimiento</p>
                     </div>
 
                     <hr style="border: none; border-top: 2px solid #622599; margin: 10px 30px;">
@@ -2276,7 +2281,7 @@ body {
 
                     <!-- Verification code -->
                     <div style="text-align: center; margin: 12px 0; padding: 8px; border: 1px dashed #622599; background: #faf8fd;">
-                        <p style="font-size: 0.75em; color: #888; margin: 0 0 3px;">Codigo de Verificacion</p>
+                        <p style="font-size: 0.75em; color: #636363; margin: 0 0 3px;">Codigo de Verificacion</p>
                         <strong style="font-size: 1em; color: #622599; letter-spacing: 2px;" id="certCode">ASC-2026-XXXXX</strong>
                     </div>
 
@@ -3087,25 +3092,30 @@ function printPlan() {
 // --- Certificado ---
 function generateCertificate() {
     var date = new Date();
-    var code = 'ASC-' + date.getFullYear() + '-' + Math.random().toString(36).substr(2, 5).toUpperCase();
-
     var el = function (id) { return document.getElementById(id); };
+
+    // Idempotencia: el certificado se emite UNA sola vez por curso. Si ya existe, se reusa
+    // (no se genera codigo nuevo ni se reenvia al backend -> evita filas duplicadas en el Sheet).
+    var courseKey = 'certificate_issued_' + COURSE_CONFIG.courseId;
+    var issued = null;
+    try { issued = JSON.parse(localStorage.getItem(courseKey) || 'null'); } catch (e) { issued = null; }
+
+    var esNuevo = !(issued && issued.code);
+    var code = esNuevo
+        ? 'ASC-' + date.getFullYear() + '-' + Math.random().toString(36).substr(2, 5).toUpperCase()
+        : issued.code;
+    var avg = esNuevo
+        ? (quizScores.length > 0 ? Math.round(quizScores.reduce(function (a, b) { return a + b; }, 0) / quizScores.length) : 100)
+        : issued.score;
+    var fechaISO = esNuevo ? date.toISOString() : (issued.date || date.toISOString());
+
     if (el('studentName')) el('studentName').textContent = userProfile.fullName || 'Adulto Scout';
-    if (el('certDate')) el('certDate').textContent = date.toLocaleDateString('es-CO');
+    if (el('certDate')) el('certDate').textContent = new Date(fechaISO).toLocaleDateString('es-CO');
     if (el('totalTime')) el('totalTime').textContent = studyTime;
     if (el('certGroup')) el('certGroup').textContent = userProfile.group || 'N/A';
     if (el('certRegion')) el('certRegion').textContent = userProfile.region || 'Colombia';
     if (el('certCode')) el('certCode').textContent = code;
-
-    var avg = quizScores.length > 0 ? Math.round(quizScores.reduce(function (a, b) { return a + b; }, 0) / quizScores.length) : 100;
     if (el('finalScore')) el('finalScore').textContent = avg;
-
-    sendToGoogleSheets({
-        action: 'certificate', name: userProfile.fullName, email: userProfile.email,
-        group: userProfile.group, region: userProfile.region, certificateCode: code,
-        completionDate: date.toISOString(), score: avg, studyTime: studyTime,
-        course: COURSE_CONFIG.courseId
-    });
 
     unlockAchievement('achievement-5');
     var bar = document.getElementById('progressBar');
@@ -3113,10 +3123,21 @@ function generateCertificate() {
     if (bar) bar.style.width = '100%';
     if (text) text.textContent = '100%';
 
-    localStorage.setItem('certificate_' + code, JSON.stringify({
-        name: userProfile.fullName, code: code, date: date.toISOString(),
-        score: avg, course: COURSE_CONFIG.courseId
-    }));
+    // Solo la primera emision escribe en localStorage y sincroniza al backend.
+    if (esNuevo) {
+        sendToGoogleSheets({
+            action: 'certificate', name: userProfile.fullName, email: userProfile.email,
+            group: userProfile.group, region: userProfile.region, certificateCode: code,
+            completionDate: fechaISO, score: avg, studyTime: studyTime,
+            course: COURSE_CONFIG.courseId
+        });
+        var registro = JSON.stringify({
+            name: userProfile.fullName, code: code, date: fechaISO,
+            score: avg, course: COURSE_CONFIG.courseId
+        });
+        localStorage.setItem('certificate_' + code, registro); // lookup por codigo (verify)
+        localStorage.setItem(courseKey, registro);              // puntero estable por curso
+    }
 }
 
 // --- Descargar certificado como PDF ---

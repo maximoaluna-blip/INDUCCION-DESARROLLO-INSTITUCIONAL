@@ -409,7 +409,7 @@ function buildRegistrationModule(course) {
                         <input type="text" id="fullName" name="fullName" required placeholder="Ej: Juan Carlos Pérez Gómez">
                     </div>
                     <div class="form-group">
-                        <label for="age">Edad <span style="color:#888;font-weight:400;font-size:0.85em;">(opcional)</span></label>
+                        <label for="age">Edad <span class="opcional-label">(opcional)</span></label>
                         <input type="number" id="age" name="age" min="0" placeholder="Ej: 35">
                     </div>
                     <div class="form-group">
@@ -512,7 +512,7 @@ function buildCertificateModule(course, certModuleId) {
                             <img src="../assets/logo-vallescout.png" alt="Valle Scout" style="height: 45px;">
                         </div>
                         <p style="font-size: 0.75em; text-transform: uppercase; letter-spacing: 2px; color: #622599; font-weight: 600; margin: 5px 0;">Asociacion Scouts de Colombia</p>
-                        <p style="font-size: 0.7em; text-transform: uppercase; letter-spacing: 1.5px; color: #888; margin: 2px 0;">Formación de Adultos en el Movimiento</p>
+                        <p style="font-size: 0.7em; text-transform: uppercase; letter-spacing: 1.5px; color: #636363; margin: 2px 0;">Formación de Adultos en el Movimiento</p>
                     </div>
 
                     <hr style="border: none; border-top: 2px solid #622599; margin: 10px 30px;">
@@ -546,7 +546,7 @@ function buildCertificateModule(course, certModuleId) {
 
                     <!-- Verification code -->
                     <div style="text-align: center; margin: 12px 0; padding: 8px; border: 1px dashed #622599; background: #faf8fd;">
-                        <p style="font-size: 0.75em; color: #888; margin: 0 0 3px;">Codigo de Verificacion</p>
+                        <p style="font-size: 0.75em; color: #636363; margin: 0 0 3px;">Codigo de Verificacion</p>
                         <strong style="font-size: 1em; color: #622599; letter-spacing: 2px;" id="certCode">ASC-2026-XXXXX</strong>
                     </div>
 
@@ -674,7 +674,7 @@ ${cssContent}
                 <div class="progress-bar" id="progressBar"></div>
                 <div class="progress-text" id="progressText">0%</div>
             </div>
-            <p style="margin-top: 10px; font-size: 0.9em; color: #666;">
+            <p style="margin-top: 10px; font-size: 0.9em;">
                 ⏱️ Tiempo en el curso: <span id="elapsedTime">0 min</span>
             </p>
         </div>
@@ -741,6 +741,9 @@ const entry = {
     description: course.description,
     icon: course.icon,
     duration: course.duration,
+    level: course.level || 1,
+    levelName: course.levelName || 'Fundamentación',
+    order: course.order || 0,
     modules: course.modules.length,
     status: 'active',
     file: course.courseId + '.html',

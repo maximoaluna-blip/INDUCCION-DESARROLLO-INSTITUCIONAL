@@ -5,6 +5,9 @@
   "description": "Una política no es un papel para enmarcar — es la brújula que usas cuando el camino se bifurca. En ~30 minutos vas a recorrer los 4 fundamentos, los 7 principios y los 3 sujetos de la Política Nacional de Desarrollo Institucional con casos concretos del grupo scout, no con definiciones de manual. Al final saldrás con una brújula personal: un principio elegido por ti para guiar tu próximo dilema institucional.",
   "icon": "📜",
   "duration": "30 minutos",
+  "level": 1,
+  "levelName": "Fundamentación",
+  "order": 2,
   "totalContentModules": 6,
   "modules": [
     {

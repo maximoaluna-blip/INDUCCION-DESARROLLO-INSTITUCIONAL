@@ -5,6 +5,9 @@
   "description": "Recorrido panorámico de los 8 ámbitos de gestión que la PNDI 2017 identifica como el contenido operativo del Desarrollo Institucional. Una micro-historia por ámbito (no 8 definiciones). Al final, el adulto sabe ubicar cualquier decisión cotidiana del grupo en el ámbito que le corresponde.",
   "icon": "🧭",
   "duration": "~35 min",
+  "level": 1,
+  "levelName": "Fundamentación",
+  "order": 4,
   "totalContentModules": 6,
   "modules": [
     {
