@@ -735,6 +735,7 @@ if (fs.existsSync(CATALOGO_PATH)) {
 }
 
 const existingIndex = catalogo.findIndex(c => c.courseId === course.courseId);
+const existingEntry = existingIndex >= 0 ? catalogo[existingIndex] : null;
 const entry = {
     courseId: course.courseId,
     title: course.title,
@@ -745,7 +746,7 @@ const entry = {
     levelName: course.levelName || 'Fundamentación',
     order: course.order || 0,
     modules: course.modules.length,
-    status: 'active',
+    status: existingEntry ? existingEntry.status : 'active',
     file: course.courseId + '.html',
     folder: course.courseId
 };
