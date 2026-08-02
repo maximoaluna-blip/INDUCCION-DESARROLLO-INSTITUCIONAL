@@ -145,16 +145,12 @@
         },
         {
           "type": "paragraph",
-          "text": "¿Qué hizo posible eso? El grupo Catatumbo tenía resuelto su ámbito de <strong>Gobernanza</strong>: cómo se decide, quién decide, cómo se documenta. El Modelo de Gobernanza lo resume en 4 elementos — <strong>sentido</strong> (para qué existe el grupo), <strong>estructura</strong> (qué órganos lo conforman — Curso 3), <strong>legitimidad</strong> (de dónde viene la autoridad de cada órgano) y <strong>funcionamiento</strong> (cómo opera el día a día). El acta y la grabación son 'funcionamiento' hecho carne."
+          "text": "¿Qué hizo posible eso? El grupo Catatumbo tenía resuelto su ámbito de <strong>Gobernanza</strong>: cómo se decide, quién decide, cómo se documenta. La PNDI 2017 (Cap. 8.2.1) lo describe en 5 elementos: <strong>Gobierno</strong> (los Consejos, elegidos, que conducen la institución), <strong>Regulaciones</strong> (las normas internas que se crean, revisan o eliminan), <strong>Estructuras</strong> (los órganos definidos en estatutos y reglamentos — Curso 3), <strong>Funciones</strong> (las tareas de cada órgano y de quienes lo integran) y <strong>Planificación Estratégica</strong> (los objetivos y plazos que el grupo se pone, mirando oportunidades, amenazas, fortalezas y debilidades). El acta y la grabación de Catatumbo son 'Funciones' y 'Regulaciones' hechas carne."
         },
         {
           "type": "heading",
           "level": 3,
           "text": "🗂️ Ámbito 2 — Administración"
-        },
-        {
-          "type": "paragraph",
-          "text": "<strong>Qué cubre:</strong> los 7 sub-ámbitos de la administración interna del grupo: <strong>recursos financieros</strong>, <strong>activos fijos y variables</strong> (sede, carpas, equipos), <strong>recursos humanos</strong> (los dirigentes, los voluntarios), <strong>pasivos y obligaciones</strong>, <strong>unidades de negocio</strong> (si el grupo opera una cantina, una tienda scout), <strong>obligaciones legales con el Estado</strong> (cámara de comercio, retenciones, impuestos), y <strong>servicios generales de planta física</strong> (luz, agua, mantenimiento de la sede)."
         },
         {
           "type": "timeline",
@@ -163,19 +159,23 @@
           ]
         },
         {
+          "type": "paragraph",
+          "text": "¿Qué hizo posible eso? El grupo Coraje tenía resuelta su <strong>Administración</strong>: sabe qué tiene, qué se dañó y quién respondió. La PNDI agrupa esto en 7 sub-ámbitos: <strong>recursos financieros</strong>, <strong>activos fijos y variables</strong> (sede, carpas, equipos), <strong>recursos humanos</strong> (los dirigentes, los voluntarios), <strong>pasivos y obligaciones</strong>, <strong>unidades de negocio</strong> (si el grupo opera una cantina, una tienda scout), <strong>obligaciones legales con el Estado</strong> (cámara de comercio, retenciones, impuestos), y <strong>servicios generales de planta física</strong> (luz, agua, mantenimiento de la sede). El inventario semestral de Coraje es 'activos fijos y variables' hecho rutina."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "💰 Ámbito 3 — Gestión de Recursos Económicos"
-        },
-        {
-          "type": "paragraph",
-          "text": "<strong>Qué cubre:</strong> las <strong>6 fuentes de fondos</strong> clásicas del escultismo (cuotas, eventos del grupo, servicios a terceros, aliados, donaciones, convocatorias), la planeación financiera, el manejo de proyectos. Muchos grupos sanos se ponen una meta propia de margen para tener colchón — no es un número que exija la PNDI, pero sí una buena práctica de planeación financiera. Aquí entra también el <strong>ciclo de proyectos</strong> (11 fases del Project Cycle de WOSM) cuando el grupo postula a fondos externos."
         },
         {
           "type": "timeline",
           "items": [
             { "title": "💰 Caso Grupo 'Sumapaz'", "description": "Llegan a fin de año con margen de 22 % sobre ingresos. ¿Por qué? Porque diversificaron: cuota mensual familiar, kermés trimestral con el barrio, servicio de catering en eventos comunitarios (una vez al mes), una empresa local que aporta como aliado anual, y postulación a un fondo municipal. Cuando un padre pierde el trabajo y no puede pagar la cuota, el grupo le da beca con cargo a esa reserva — sin que el resto del año se afecte. <strong>Recursos Económicos sanos.</strong>" }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "¿Qué hizo posible ese margen? Sumapaz tenía resuelta su <strong>Gestión de Recursos Económicos</strong>: las <strong>6 fuentes de fondos</strong> clásicas del escultismo (cuotas, eventos del grupo, servicios a terceros, aliados, donaciones, convocatorias), la planeación financiera, el manejo de proyectos. Muchos grupos sanos se ponen una meta propia de margen para tener colchón — no es un número que exija la PNDI, pero sí una buena práctica de planeación financiera. Aquí entra también el <strong>ciclo de proyectos</strong> (11 fases del Project Cycle de WOSM) cuando el grupo postula a fondos externos, como hizo Sumapaz con el fondo municipal."
         },
         {
           "type": "info-box",
@@ -230,23 +230,19 @@
           "text": "📣 Ámbito 4 — Comunicaciones y Relaciones Interinstitucionales"
         },
         {
-          "type": "paragraph",
-          "text": "<strong>Qué cubre:</strong> los 4 sub-ámbitos de comunicación: <strong>internas</strong> (entre dirigentes, entre el consejo y las familias), <strong>externas</strong> (con la comunidad del barrio, redes sociales, prensa), <strong>relaciones públicas</strong> (eventos, alianzas con instituciones locales), e <strong>interinstitucionales</strong> (vínculo con la región, la nación, otras organizaciones). Incluye la <strong>imagen institucional</strong>, el manejo de <strong>marca</strong> y la <strong>narrativa pública</strong> del grupo."
-        },
-        {
           "type": "timeline",
           "items": [
             { "title": "📣 Caso Grupo 'Iguaque'", "description": "Cuando hubo un accidente menor en un campamento, el jefe de grupo escribió un comunicado a las familias en 30 minutos: qué pasó, qué medidas se tomaron, qué van a hacer para que no se repita. Esa misma noche lo publicaron en el grupo de WhatsApp y por correo. Tres familias agradecieron la transparencia. Una preguntó cómo apoyar. <strong>Cero familias se retiraron</strong>. La diferencia entre rumor y comunicación oportuna es enorme. <strong>Comunicaciones sanas.</strong>" }
           ]
         },
         {
+          "type": "paragraph",
+          "text": "¿Qué hizo posible esa respuesta en 30 minutos? Iguaque tenía resueltas sus <strong>Comunicaciones y Relaciones Interinstitucionales</strong>: los 4 sub-ámbitos son <strong>internas</strong> (entre dirigentes, entre el consejo y las familias), <strong>externas</strong> (con la comunidad del barrio, redes sociales, prensa), <strong>relaciones públicas</strong> (eventos, alianzas con instituciones locales), e <strong>interinstitucionales</strong> (vínculo con la región, la nación, otras organizaciones). Incluye la <strong>imagen institucional</strong>, el manejo de <strong>marca</strong> y la <strong>narrativa pública</strong> del grupo. El comunicado de Iguaque fue 'comunicación interna y externa' funcionando a la vez."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "🌐 Ámbito 5 — Relaciones Internacionales"
-        },
-        {
-          "type": "paragraph",
-          "text": "<strong>Qué cubre:</strong> el vínculo del nivel correspondiente con la <strong>OMMS</strong> (Organización Mundial del Movimiento Scout), con la <strong>Región Scout Interamericana</strong>, con <strong>OSN de otros países</strong>, y con organismos multilaterales (ONU, UNESCO, UNICEF). A nivel de grupo, este ámbito generalmente se experimenta como <strong>participación en proyectos mundiales</strong> (Scouts for SDGs, Tide Turners, Earth Tribe, etc.) más que como diplomacia formal."
         },
         {
           "type": "timeline",
@@ -255,19 +251,23 @@
           ]
         },
         {
+          "type": "paragraph",
+          "text": "¿Qué hizo posible esa conexión con Filipinas? Bachué activó su ámbito de <strong>Relaciones Internacionales</strong>: el vínculo del nivel correspondiente con la <strong>OMMS</strong> (Organización Mundial del Movimiento Scout), con la <strong>Región Scout Interamericana</strong>, con <strong>OSN de otros países</strong>, y con organismos multilaterales (ONU, UNESCO, UNICEF). A nivel de grupo, este ámbito generalmente se experimenta como <strong>participación en proyectos mundiales</strong> (Scouts for SDGs, Tide Turners, Earth Tribe, etc.) más que como diplomacia formal — justo como hizo Bachué con 'Champions for Nature'."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "📈 Ámbito 6 — Crecimiento y Sistema de Información"
-        },
-        {
-          "type": "paragraph",
-          "text": "<strong>Qué cubre:</strong> cómo crece la membresía (cuántos chicos y adultos entran y salen cada año), cómo se registra y se hace seguimiento (la base de datos del grupo, el sistema de identificación scout, los carnés), las estadísticas básicas, el apoyo a la membresía existente. La plataforma <strong>SiScout</strong> y el <strong>Modelo de Servicios OMMS</strong> entran acá. El <strong>Plan Regional Interamericano 2022-2025</strong> espera que al menos 17 países de la región reporten un crecimiento de membresía de al menos 2 % en todo el período (no por año). No es una meta anual para tu grupo, pero sí una señal de qué tan ambicioso debería ser tu plan de crecimiento."
         },
         {
           "type": "timeline",
           "items": [
             { "title": "📈 Caso Grupo 'Pisamadores'", "description": "Hace 4 años, el grupo tenía 28 chicos y 6 dirigentes. La comisionada regional de crecimiento les propuso un plan trienal: campaña de barrio una vez al año, jornada de puertas abiertas, mejorar el seguimiento de los que se inscriben pero no vuelven. Llevaron registro mes a mes en una hoja simple. Tres años después tienen 65 chicos y 11 dirigentes. Crecieron sostenidamente. <strong>Crecimiento medido y planeado.</strong>" }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "¿Qué hizo posible pasar de 28 a 65 chicos en 3 años? Pisamadores trabajó su <strong>Crecimiento y Sistema de Información</strong>: cómo crece la membresía (cuántos chicos y adultos entran y salen cada año), cómo se registra y se hace seguimiento (la base de datos del grupo, el sistema de identificación scout, los carnés), las estadísticas básicas, el apoyo a la membresía existente. La plataforma <strong>SiScout</strong> y el <strong>Modelo de Servicios OMMS</strong> entran acá. El <strong>Plan Regional Interamericano 2022-2025</strong> espera que al menos 17 países de la región reporten un crecimiento de membresía de al menos 2 % en todo el período (no por año) — no es una meta anual para tu grupo, pero sí una señal de qué tan ambicioso debería ser tu plan de crecimiento, como el de Pisamadores."
         },
         {
           "type": "info-box",
@@ -322,14 +322,14 @@
           "text": "🛡️ Ámbito 7 — Gestión del Riesgo"
         },
         {
-          "type": "paragraph",
-          "text": "<strong>Qué cubre:</strong> las 3 áreas transversales de riesgo en el escultismo según la doctrina vigente: <strong>ambiente seguro</strong> (A Salvo del Peligro, prevención de abuso), <strong>protección financiera y patrimonial</strong> (cuidar la plata y los bienes del grupo), <strong>actividades seguras</strong> (campamentos, salidas, transporte, primeros auxilios). El <strong>ciclo de gestión del riesgo</strong> tiene 4 pasos: identificación, análisis, tratamiento y monitoreo."
-        },
-        {
           "type": "timeline",
           "items": [
             { "title": "🛡️ Caso Grupo 'Llanos'", "description": "Antes de cada salida hacen un protocolo de 15 minutos: lista de participantes (con padres firmando autorización), hoja de salud por participante, contactos de emergencia, ruta y horarios, protocolo de transporte (¿quién maneja, qué vehículo, hay seguro?), kit de primeros auxilios, un adulto certificado en primeros auxilios. Cuando hubo un esguince en el cerro, lo manejaron en 8 minutos. La región los citó como modelo. <strong>Gestión del Riesgo operando.</strong>" }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "¿Qué hizo posible resolver ese esguince en 8 minutos? Llanos tenía resuelta su <strong>Gestión del Riesgo</strong>: las 3 áreas transversales de riesgo en el escultismo según la doctrina vigente son <strong>ambiente seguro</strong> (A Salvo del Peligro, prevención de abuso), <strong>protección financiera y patrimonial</strong> (cuidar la plata y los bienes del grupo), y <strong>actividades seguras</strong> (campamentos, salidas, transporte, primeros auxilios). El <strong>ciclo de gestión del riesgo</strong> tiene 4 pasos: identificación, análisis, tratamiento y monitoreo. El protocolo de 15 minutos de Llanos es 'actividades seguras' hecho rutina."
         },
         {
           "type": "heading",
@@ -337,14 +337,14 @@
           "text": "🏅 Ámbito 8 — Control y Reconocimiento"
         },
         {
-          "type": "paragraph",
-          "text": "<strong>Qué cubre:</strong> los órganos de control (que viste en el Curso 3) y todo el sistema de <strong>estímulos y reconocimientos</strong> del escultismo. Esto incluye el <strong>Manual de Estímulos Nacionales</strong> y el <strong>Manual de la Orden al Mérito Scout</strong> (ambos del CSN 2022), que regulan los reconocimientos a dirigentes y voluntarios destacados. <strong>Premia lo que funciona, vigila lo que se desvía.</strong>"
-        },
-        {
           "type": "timeline",
           "items": [
             { "title": "🏅 Caso Grupo 'Tatamá'", "description": "Cada año, en la asamblea de grupo, dedican 20 minutos a reconocimientos formales: el dirigente del año (elegido por las familias), el chico con mayor progresión personal por rama, el aporte voluntario del año (un papá o mamá que se destacó), un pin para los dirigentes que cumplen 5, 10, 15 y 20 años. Es un momento sentido. Los reconocimientos no son protocolarios — están bien argumentados. El año siguiente, varios más quieren ese pin. <strong>Reconocimiento que motiva.</strong>" }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "¿Qué hizo posible esos reconocimientos bien argumentados? Tatamá activó su ámbito de <strong>Control y Reconocimiento</strong>: los órganos de control (que viste en el Curso 3) y todo el sistema de <strong>estímulos y reconocimientos</strong> del escultismo. Esto incluye el <strong>Manual de Estímulos Nacionales</strong> y el <strong>Manual de la Orden al Mérito Scout</strong> (ambos del CSN 2022), que regulan los reconocimientos a dirigentes y voluntarios destacados. <strong>Premia lo que funciona, vigila lo que se desvía</strong> — como hizo Tatamá con sus 20 minutos anuales de reconocimientos."
         },
         {
           "type": "info-box",

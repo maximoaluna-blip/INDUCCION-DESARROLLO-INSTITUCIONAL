@@ -15,7 +15,7 @@
 | Subtítulo | Curso 3 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación |
 | Icono | 🏗️ |
 | Duración | ~30 min |
-| Lecciones de contenido | 6 + intro + certificado |
+| Lecciones de contenido | 7 + intro + certificado |
 | Audiencia primaria | La misma de la Línea. En especial: jefes de grupo, miembros del consejo, consejeros regionales, miembros de órganos de control y disciplina (Comisión Nacional de Vigilancia y Control, Revisorías Fiscales, Comisiones Disciplinarias Ad-hoc). |
 | Pre-requisitos | Curso 1 y Curso 2 (recomendados). |
 | Logro final | "Tengo mi mapa institucional" |
@@ -53,10 +53,13 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 | 2 | 🌍 Los 5 niveles del Movimiento | 5 min | El scoutismo es una federación de 5 niveles: Mundial, Interamericano, Nacional, Regional, Local. | Conozco los 5 niveles |
 | 3 | 🧱 Los 5 tipos de órganos en una institución sana | 5 min | Dirección, administración, técnico, investigación/disciplina y control son los 5 tipos genéricos. | Distingo los tipos de órgano |
 | 4 | 🇨🇴 Nivel Nacional — cómo está organizada la ASC | 5 min | A nivel nacional opera con Asamblea Scout Nacional, CSN, Jefatura Scout Nacional, Corte de Honor Nacional y Comisión Nacional de Vigilancia y Control. | Conozco la ASC nacional |
-| 5 | 🏘️ Nivel Regional y Nivel Grupo — la asimetría | 6 min | Las regiones y los grupos NO replican exactamente el modelo nacional: tienen su propia arquitectura según los reglamentos vigentes. | Conozco mi región y mi grupo |
-| 6 | 🗺️ Tu mapa institucional personal | 5 min | El conocimiento se vuelve útil cuando le pones nombre y apellido a cada órgano. | Tengo mi mapa institucional |
+| 5 | 🏘️ Nivel Regional — la asimetría | 5 min | La región NO replica exactamente el modelo nacional: tiene su propia arquitectura según el Reglamento Nacional de Regiones Scout (Art. 1.20). | Conozco mi región |
+| 6 | 🏠 Nivel Grupo — la asimetría | 6 min | El Grupo tampoco replica el modelo nacional ni el regional: tiene su propia arquitectura según el Reglamento Nacional de Grupos Scouts (Art. 1.19). | Conozco mi grupo |
+| 7 | 🗺️ Tu mapa institucional personal | 5 min | El conocimiento se vuelve útil cuando le pones nombre y apellido a cada órgano. | Tengo mi mapa institucional |
 
-**Total estimado: ~30 min.**
+**Total estimado: ~35 min.**
+
+> **02-ago-2026 — División de la antigua Lección 5:** la Lección 5 original ("Nivel Regional y Nivel Grupo — la asimetría") combinaba 10 órganos en una sola sesión de 6 min, el doble de densidad que cualquier otra lección de la línea (hallazgo pedagógico H4, auditoría del 02-ago-2026). Se dividió en Lección 5 (Regional, 5 min) y Lección 6 (Grupo, 6 min), replicando el patrón ya usado en la Lección 4 (que solo cubre Nacional). La antigua Lección 6 ("mapa institucional personal") pasa a ser la Lección 7. Logros y quiz renumerados/ampliados en consecuencia (2 preguntas nuevas de aplicación, una por lección nueva, basadas en los casos de error que ya existían en el contenido original).
 
 ---
 
@@ -209,14 +212,16 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 
 ---
 
-### 4.6 Lección 5 — 🏘️ Nivel Regional y Nivel Grupo — la asimetría (6 min)
+### 4.6 Lección 5 — 🏘️ Nivel Regional — la asimetría (5 min)
 
-**Idea central:** Las regiones y los grupos NO replican exactamente el modelo nacional. Tienen su propia arquitectura definida por el Reglamento Nacional de Regiones Scout (Art. 1.20) y el Reglamento Nacional de Grupos Scouts (Art. 1.19). Conocer esta asimetría evita errores graves.
+> **02-ago-2026:** esta lección se dividió en dos (4.6 Regional / 4.7 Grupo) — ver nota en §4.1. El contenido de cada tarjeta y micro-historia no cambió, solo se separó por nivel y se sumó una pregunta de quiz nueva por lección (basada en las mismas micro-historias, ya presentes antes de la división).
+
+**Idea central:** La región NO replica exactamente el modelo nacional. Tiene su propia arquitectura definida por el Reglamento Nacional de Regiones Scout (Art. 1.20). Conocer esta asimetría evita errores graves.
 
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — _"Aquí está la parte que la mayoría de adultos del Movimiento no tiene clara — y que ya entendiste por qué importa: en regiones y grupos hay los mismos 5 tipos de función, pero los órganos que los cumplen son distintos. Vamos parte por parte."_
+2. **`paragraph`** — _"Aquí está la parte que la mayoría de adultos del Movimiento no tiene clara — y que ya entendiste por qué importa: en la región hay los mismos 5 tipos de función, pero los órganos que los cumplen son distintos a los del nivel nacional."_
 3. **`heading` (nivel 3)** — _"🏘️ Nivel Regional — según Art. 1.20 del Reglamento Nacional de Regiones Scout"_
 4. **`method-grid`** — 5 tarjetas:
     - 🏛️ **Dirección — Asamblea Regional** → _"Reúne a delegados de los grupos de la región. Aprueba el Plan Regional, elige al Consejo Regional, al Revisor Fiscal y a representantes a la Asamblea Nacional."_ (color morado)
@@ -224,44 +229,75 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
     - 🛠️ **Técnico — Jefatura Regional** → _"Equipo operativo de la región, liderado por el Jefe Regional (a veces llamado, de forma informal, 'Comisionado Regional'). Coordina la asistencia a los grupos."_ (color azul)
     - ⚖️ **Investigación — Capítulo Regional de la Corte de Honor Nacional (Art. 1.20.4)** → _"⚠️ Importante: NO es una 'Corte de Honor Regional' autónoma. Es un Capítulo regional que depende doctrinalmente de la Corte de Honor Nacional. Investiga, recibe pruebas y propone reconocimientos a nivel regional."_ (color rojo)
     - 👁️ **Control — Revisor Fiscal Regional y Suplente (Art. 1.20.5)** → _"Órgano unipersonal. Elegido anualmente por la Asamblea con su Suplente. Tiene voz pero NO voto en el Consejo Regional. Firma estados financieros, presenta informe anual, puede solicitar la intervención del nivel nacional si encuentra irregularidades."_ (color amarillo)
-5. **`heading` (nivel 3)** — _"🏠 Nivel Grupo — según Art. 1.19 del Reglamento Nacional de Grupos Scouts"_
-6. **`method-grid`** — 5 tarjetas:
+5. **`heading` (nivel 3)** — _"Un error institucional típico del nivel Regional"_
+6. **`timeline`** — 1 micro-historia:
+    - **Regional — Confundir Capítulo Regional con Corte autónoma:** _"Un comisionado regional convoca al 'Capítulo Regional de la Corte de Honor' para que dicte sentencia disciplinaria a un dirigente. **Error.** El Capítulo investiga y recoge pruebas, pero la sentencia formal la dicta la Corte de Honor Nacional. **Prevención:** trabajar siempre con un cronograma articulado entre Capítulo regional y CHN nacional, no como órganos paralelos."_
+7. **`policy-quote`**:
+    - `label`: "📋 Ver Art. 1.20.5 del Reglamento Nacional de Regiones"
+    - `text`: _"El Revisor Fiscal Regional y su Suplente son elegidos por la Asamblea Regional anualmente, tienen voz pero no voto en el Consejo Regional, firman los estados financieros, presentan informe anual y pueden solicitar la intervención del nivel nacional cuando encuentren irregularidades."_
+    - `source`: "Reglamento Nacional de Regiones Scout, Art. 1.20.5 (parafraseado)"
+
+**Reflexión:** _"En tu región, ¿se reúne el Capítulo Regional de la Corte de Honor cuando se necesita, sabiendo que no dicta sentencia por sí solo? ¿Está presente el Revisor Fiscal Regional en las decisiones del consejo? Anota qué pasa hoy."_
+
+**Quiz (2 preguntas):**
+
+> **P1.** En la Asamblea Regional, un grupo propone que el Revisor Fiscal vote junto con los consejeros las decisiones de presupuesto. La presidenta se opone. ¿Quién tiene la razón según el Art. 1.20.5 del Reglamento Nacional de Regiones Scout?
+>
+> a) _El grupo: el Revisor Fiscal debe votar como cualquier consejero para ser justo._
+> b) _La presidenta: el Revisor Fiscal tiene voz pero NO voto en el Consejo, para preservar su independencia de control._ ✅
+> c) _Depende: el Revisor Fiscal puede votar solo cuando el presupuesto excede cierto monto._
+
+> **P2.** Un comisionado regional convoca al Capítulo Regional de la Corte de Honor para que dicte sentencia disciplinaria a un dirigente. ¿Qué le corriges?
+>
+> a) _Nada, está bien — el Capítulo Regional puede dictar sentencia de forma autónoma._
+> b) _El Capítulo Regional investiga y recoge pruebas, pero la sentencia formal la dicta la Corte de Honor Nacional — no es una Corte de Honor Regional autónoma._ ✅
+> c) _Debió convocar directamente a la Comisión Nacional de Vigilancia y Control, no al Capítulo._
+
+**Logro:** "Conozco mi región".
+
+---
+
+### 4.7 Lección 6 — 🏠 Nivel Grupo — la asimetría (6 min)
+
+**Idea central:** El Grupo tampoco replica exactamente el modelo nacional ni el regional. Tiene su propia arquitectura definida por el Reglamento Nacional de Grupos Scouts (Art. 1.19).
+
+**Secciones (en orden):**
+
+1. **`info-box`** — Idea central de la lección.
+2. **`paragraph`** — _"Ya viste cómo se organiza tu región. Ahora baja un nivel más: tu grupo — la célula básica del Movimiento, donde efectivamente ocurre la experiencia educativa con los chicos."_
+3. **`heading` (nivel 3)** — _"🏠 Nivel Grupo — según Art. 1.19 del Reglamento Nacional de Grupos Scouts"_
+4. **`method-grid`** — 5 tarjetas:
     - 🏛️ **Dirección — Asamblea de Grupo** → _"Reúne a los asociados del grupo (familias, dirigentes, en algunos casos los jóvenes mayores con voz). Aprueba el Plan de Grupo, elige al Consejo de Grupo, al Fiscal/Revisor Fiscal. Define las normas de funcionamiento del Grupo (Art. 4.3.12)."_ (color morado)
     - ⚙️ **Administración — Consejo de Grupo** → _"El Consejo de Grupo tiene 4 cargos fijos (presidente, vicepresidente, secretario, tesorero), puede sumar un intendente, y el resto de sus integrantes son vocales — cada grupo les reparte tareas según lo que necesite (contabilidad, cancillería, etc.). Es la administración del día a día."_ (color verde)
     - 🛠️ **Técnico — Equipo de Jefatura del Grupo** → _"Encabezado por el Jefe de Grupo. Son los dirigentes que efectivamente trabajan con los chicos en cada rama (Manada, Tropa, Comunidad, Clan)."_ (color azul)
     - ⚖️ **Investigación — Comisión Disciplinaria Ad-hoc (Art. 1.19.4)** → _"⚠️ Importante: NO es permanente. Se convoca solo cuando hay un caso que tratar. Es presidida por el **Vicepresidente del Consejo de Grupo** (Art. 5.10.4). NO existe en la normatividad vigente una 'Corte de Honor de Grupo' formal."_ (color rojo)
     - 👁️ **Control — Fiscal o Revisor Fiscal de Grupo y Suplente (Art. 1.19.5)** → _"Órgano unipersonal. Elegido anualmente por la Asamblea con su Suplente. Tiene voz pero NO voto en el Consejo de Grupo. Mismo perfil de funciones que el regional, a escala del grupo."_ (color amarillo)
-7. **`info-box`** — Tabla resumen: _"**Por nivel, el órgano de control y el órgano de disciplina son distintos:**<br>🇨🇴 **Nacional** → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ **Regional** → Revisor Fiscal (control) + Capítulo Regional de la Corte de Honor Nacional (disciplina).<br>🏠 **Grupo** → Fiscal/Revisor Fiscal (control) + Comisión Disciplinaria Ad-hoc (disciplina, solo cuando se convoca)."_
-8. **`heading` (nivel 3)** — _"Errores institucionales típicos por nivel"_
-9. **`timeline`** — 2 micro-historias por nivel (Regional y Grupo):
-    - **Regional — Confundir Capítulo Regional con Corte autónoma:** _"Un comisionado regional convoca al 'Capítulo Regional de la Corte de Honor' para que dicte sentencia disciplinaria a un dirigente. **Error.** El Capítulo investiga y recoge pruebas, pero la sentencia formal la dicta la Corte de Honor Nacional. **Prevención:** trabajar siempre con un cronograma articulado entre Capítulo regional y CHN nacional, no como órganos paralelos."_
+5. **`info-box`** — Tabla resumen (síntesis de los 3 niveles ya vistos): _"**Por nivel, el órgano de control y el órgano de disciplina son distintos:**<br>🏛️ **Nacional** → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ **Regional** → Revisor Fiscal (control) + Capítulo Regional de la Corte de Honor Nacional (disciplina).<br>🏠 **Grupo** → Fiscal/Revisor Fiscal (control) + Comisión Disciplinaria Ad-hoc (disciplina, solo cuando se convoca)."_
+6. **`heading` (nivel 3)** — _"Un error institucional típico del nivel Grupo"_
+7. **`timeline`** — 1 micro-historia:
     - **Grupo — No convocar el Fiscal a las reuniones del Consejo:** _"El Consejo de Grupo decide la asignación de los recursos del año sin que el Fiscal esté presente o haya sido convocado. Cuando el Fiscal pide los soportes 6 meses después, el Consejo no los tiene completos y firma a la carrera. **Prevención:** el Fiscal/Revisor Fiscal tiene voz en el Consejo — convocarlo a todas las reuniones donde haya temas financieros relevantes evita problemas a fin de año."_
-10. **`policy-quote`**:
-    - `label`: "📋 Ver Art. 1.20.5 del Reglamento Nacional de Regiones"
-    - `text`: _"El Revisor Fiscal Regional y su Suplente son elegidos por la Asamblea Regional anualmente, tienen voz pero no voto en el Consejo Regional, firman los estados financieros, presentan informe anual y pueden solicitar la intervención del nivel nacional cuando encuentren irregularidades."_
-    - `source`: "Reglamento Nacional de Regiones Scout, Art. 1.20.5 (parafraseado)"
 
-**Reflexión:** _"En tu grupo o región, ¿se reúne el órgano de disciplina cuando se necesita? ¿Está presente el órgano de control (Fiscal o Revisor Fiscal) en las decisiones del consejo? Anota qué pasa hoy y qué te gustaría que pasara."_
+**Reflexión:** _"En tu grupo, ¿se reúne el órgano de disciplina cuando se necesita? ¿Está presente el Fiscal o Revisor Fiscal en las decisiones del consejo? Anota qué pasa hoy y qué te gustaría que pasara."_
 
 **Quiz (2 preguntas):**
 
-> **P1.** A nivel regional, ¿cuál es el órgano de control fiscal vigente según el Reglamento Nacional de Regiones Scout?
+> **P1.** En un grupo se necesita investigar formalmente una conducta de un dirigente. El Vicepresidente del Consejo dice: _"tengo que convocar al órgano disciplinario"_. ¿Qué procedimiento corresponde según el Art. 1.19.4 del Reglamento Nacional de Grupos Scouts?
 >
-> a) _La Comisión Regional de Vigilancia y Control._
-> b) _El Revisor Fiscal Regional y su Suplente, con voz pero sin voto en el Consejo Regional._ ✅
-> c) _La Corte de Honor Regional._
+> a) _Convocar la Corte de Honor permanente del grupo, que sesiona una vez al mes._
+> b) _Convocar la Comisión Disciplinaria Ad-hoc (no permanente), que él mismo preside como Vicepresidente del Consejo._ ✅
+> c) _Esperar a la próxima asamblea anual para tratar el tema en pleno._
 
-> **P2.** En el nivel de Grupo, el órgano que se encarga de los procesos disciplinarios es…
+> **P2.** El Consejo de Grupo decide la asignación de los recursos del año sin convocar al Fiscal ni haberle avisado. Seis meses después, cuando el Fiscal pide los soportes, el Consejo no los tiene completos. ¿Qué falló?
 >
-> a) _Una Corte de Honor de Grupo permanente, similar a la del nivel nacional._
-> b) _La Comisión Disciplinaria Ad-hoc, que NO es permanente y se convoca cuando hay un caso, presidida por el Vicepresidente del Consejo de Grupo._ ✅
-> c) _El Jefe de Grupo solo, en su rol de cabeza visible del equipo._
+> a) _Nada — el Fiscal solo debe revisar al final del año, no necesita estar en las reuniones._
+> b) _No convocar al Fiscal a las reuniones con temas financieros — tiene voz en el Consejo justamente para prevenir este tipo de problemas antes de que ocurran._ ✅
+> c) _El error fue del Fiscal, por no pedir los soportes con más frecuencia._
 
-**Logro:** "Conozco mi región y mi grupo".
+**Logro:** "Conozco mi grupo".
 
 ---
 
-### 4.7 Lección 6 — 🗺️ Tu mapa institucional personal (5 min)
+### 4.8 Lección 7 — 🗺️ Tu mapa institucional personal (5 min)
 
 **Idea central:** El conocimiento se vuelve útil cuando le pones nombre y apellido a cada órgano de tu institución. Saber a quién acudir antes de que pase algo es lo que te diferencia.
 
@@ -309,11 +345,12 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 
 | ID | Nombre | Emoji | Desbloqueo |
 |---|---|---|---|
-| `achievement-1` | Empecé el mapa | 👋 | Al completar Lección 1 |
-| `achievement-2` | Conozco los 5 niveles | 🌍 | Al completar Lección 2 |
-| `achievement-3` | Distingo los tipos de órgano | 🧱 | Al completar Lección 3 |
-| `achievement-4` | Conozco la ASC nacional | 🇨🇴 | Al completar Lección 4 |
-| `achievement-5` | Conozco mi región y mi grupo | 🏘️ | Al completar Lección 5 |
+| `achievement-1` | Conozco los 5 niveles | 🌍 | Al completar Lección 2 |
+| `achievement-2` | Distingo los tipos de órgano | 🧱 | Al completar Lección 3 |
+| `achievement-3` | Conozco la ASC nacional | 🏛️ | Al completar Lección 4 |
+| `achievement-4` | Conozco mi región | 🏘️ | Al completar Lección 5 |
+| `achievement-5` | Conozco mi grupo | 🏠 | Al completar Lección 6 |
+| `achievement-6` | Mapa institucional listo | 📝 | Al completar Lección 7 |
 | `achievement-final` | Tengo mi mapa institucional | 🗺️ | Al completar el curso (`unlockOnModule: -1`) |
 
 ---

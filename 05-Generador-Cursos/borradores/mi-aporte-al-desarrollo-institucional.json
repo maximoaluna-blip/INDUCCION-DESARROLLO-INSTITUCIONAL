@@ -169,9 +169,9 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🟢 G-doc · 6 meses", "description": "<strong>Escribir la práctica de gobernanza del grupo en un documento de 1 página</strong>: cómo se convoca el consejo, cómo se decide, cómo se firma el acta. Compartirla con la región como aporte.<br><em>Recursos:</em> actas existentes, Reglamento Nacional de Grupos. <em>Hablar con:</em> Secretario + Presidente.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🟡 G-fort · 3 meses", "description": "<strong>Implementar firma de acta al cierre de cada reunión del consejo</strong> + convocar al Fiscal o Revisor Fiscal a las reuniones con tema financiero. Subir atributos de Replicable y Efectiva.<br><em>Recursos:</em> formato de acta. <em>Hablar con:</em> Secretario.", "color": "#fff9c4", "borderColor": "#fbc02d" },
-            { "title": "🔴 G-crear · 3 meses", "description": "<strong>Establecer el ritual de la reunión del consejo</strong>: agenda escrita, alguien que tome acta, decisiones registradas. Esa es tu primera práctica de gobernanza.<br><em>Recursos:</em> plantilla simple de acta. <em>Hablar con:</em> Presidente del Consejo.", "color": "#ffebee", "borderColor": "#f44336" }
+            { "title": "🟢 G-doc · 6 meses", "description": "<strong>Escribir la práctica de gobernanza del grupo en un documento de 1 página</strong>: cómo se convoca el consejo, cómo se decide, cómo se firma el acta. Compartirla con la región como aporte.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 G-fort · 3 meses", "description": "<strong>Implementar firma de acta al cierre de cada reunión del consejo</strong> + convocar al Fiscal o Revisor Fiscal a las reuniones con tema financiero. Subir atributos de Replicable y Efectiva.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 G-crear · 3 meses", "description": "<strong>Establecer el ritual de la reunión del consejo</strong>: agenda escrita, alguien que tome acta, decisiones registradas. Esa es tu primera práctica de gobernanza.", "color": "#ffebee", "borderColor": "#f44336" }
           ]
         },
         {
@@ -182,9 +182,9 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🟢 A-doc · 6 meses", "description": "<strong>Escribir el procedimiento administrativo del grupo</strong>: cómo se maneja el inventario, los activos, los voluntarios. Compartirlo con grupos nuevos de la región.<br><em>Recursos:</em> planillas actuales. <em>Hablar con:</em> Intendente + Jefe de Grupo.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🟡 A-fort · 6 meses", "description": "<strong>Implementar inventario completo de activos</strong> (carpas, equipos, libros) antes del próximo campamento + planilla de voluntariado formalizado. Subir atributo de Sostenibilidad.<br><em>Recursos:</em> planilla de inventario. <em>Hablar con:</em> Intendente.", "color": "#fff9c4", "borderColor": "#fbc02d" },
-            { "title": "🔴 A-crear · 3 meses", "description": "<strong>Definir quién es el responsable de cada activo del grupo y de los voluntarios</strong>. Primera lista nominal del equipo + de los bienes. Es la base de cualquier administración futura.<br><em>Recursos:</em> hoja de cálculo simple. <em>Hablar con:</em> Jefe de Grupo.", "color": "#ffebee", "borderColor": "#f44336" }
+            { "title": "🟢 A-doc · 6 meses", "description": "<strong>Escribir el procedimiento administrativo del grupo</strong>: cómo se maneja el inventario, los activos, los voluntarios. Compartirlo con grupos nuevos de la región.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 A-fort · 6 meses", "description": "<strong>Implementar inventario completo de activos</strong> (carpas, equipos, libros) antes del próximo campamento + planilla de voluntariado formalizado. Subir atributo de Sostenibilidad.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 A-crear · 3 meses", "description": "<strong>Definir quién es el responsable de cada activo del grupo y de los voluntarios</strong>. Primera lista nominal del equipo + de los bienes. Es la base de cualquier administración futura.", "color": "#ffebee", "borderColor": "#f44336" }
           ]
         },
         {
@@ -195,9 +195,9 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🟢 RE-doc · 6 meses", "description": "<strong>Escribir el plan financiero del grupo</strong>: 6 fuentes de fondos, margen mínimo (≥17%), uso de excedentes. Compartirlo como modelo replicable con la región.<br><em>Recursos:</em> Taller Flor de Lis II — Módulo 5 (Planeación, finanzas y administración). <em>Hablar con:</em> Tesorero + Consejo.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🟡 RE-fort · 6 meses", "description": "<strong>Implementar libro contable básico con conciliación mensual</strong> + diversificar al menos 2 fuentes de fondos adicionales a la cuota. Subir atributo de Sostenibilidad.<br><em>Recursos:</em> plantilla contable + Taller Flor de Lis II — Módulo 5. <em>Hablar con:</em> Tesorero + Contador.", "color": "#fff9c4", "borderColor": "#fbc02d" },
-            { "title": "🔴 RE-crear · 3 meses", "description": "<strong>Abrir cuenta bancaria del grupo si no existe</strong> + sacar la plata de cuentas personales. Cualquier cosa antes de cuenta del grupo es alto riesgo.<br><em>Recursos:</em> documentación del grupo, banco. <em>Hablar con:</em> Tesorero + Banco.", "color": "#ffebee", "borderColor": "#f44336" }
+            { "title": "🟢 RE-doc · 6 meses", "description": "<strong>Escribir el plan financiero del grupo</strong>: 6 fuentes de fondos, margen mínimo (≥17%), uso de excedentes. Compartirlo como modelo replicable con la región.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 RE-fort · 6 meses", "description": "<strong>Implementar libro contable básico con conciliación mensual</strong> + diversificar al menos 2 fuentes de fondos adicionales a la cuota. Subir atributo de Sostenibilidad.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 RE-crear · 3 meses", "description": "<strong>Abrir cuenta bancaria del grupo si no existe</strong> + sacar la plata de cuentas personales. Cualquier cosa antes de cuenta del grupo es alto riesgo.", "color": "#ffebee", "borderColor": "#f44336" }
           ]
         },
         {
@@ -208,9 +208,9 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🟢 C-doc · 6 meses", "description": "<strong>Escribir el manual de comunicaciones del grupo</strong>: comunicación con familias, redes sociales, manejo de crisis, marca y narrativa. Compartirlo con la región.<br><em>Recursos:</em> comunicados históricos, política de marca. <em>Hablar con:</em> Comunicador del Grupo + Jefe.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🟡 C-fort · 6 meses", "description": "<strong>Establecer comunicación mensual con las familias</strong> (formato a definir) + protocolo escrito de comunicación de crisis. Subir atributo de Sostenibilidad.<br><em>Recursos:</em> lista de familias. <em>Hablar con:</em> Jefe de Grupo + Comunicador.", "color": "#fff9c4", "borderColor": "#fbc02d" },
-            { "title": "🔴 C-crear · 3 meses", "description": "<strong>Crear el canal mínimo de comunicación con las familias</strong> (WhatsApp, correo, lo que sea) + cronograma de cuándo se comunica qué. Primera práctica.<br><em>Recursos:</em> lista actualizada de familias. <em>Hablar con:</em> Secretario + Jefe.", "color": "#ffebee", "borderColor": "#f44336" }
+            { "title": "🟢 C-doc · 6 meses", "description": "<strong>Escribir el manual de comunicaciones del grupo</strong>: comunicación con familias, redes sociales, manejo de crisis, marca y narrativa. Compartirlo con la región.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 C-fort · 6 meses", "description": "<strong>Establecer comunicación mensual con las familias</strong> (formato a definir) + protocolo escrito de comunicación de crisis. Subir atributo de Sostenibilidad.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 C-crear · 3 meses", "description": "<strong>Crear el canal mínimo de comunicación con las familias</strong> (WhatsApp, correo, lo que sea) + cronograma de cuándo se comunica qué. Primera práctica.", "color": "#ffebee", "borderColor": "#f44336" }
           ]
         },
         {
@@ -221,9 +221,9 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🟢 RI-doc · 12 meses", "description": "<strong>Sistematizar la experiencia internacional del grupo</strong> (proyecto OMMS, intercambio, jamboree) y aportarla como caso para otros grupos de la región.<br><em>Recursos:</em> registros del proyecto/intercambio. <em>Hablar con:</em> Jefe de Grupo + Comisionado Regional.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🟡 RI-fort · 12 meses", "description": "<strong>Postular el grupo a un proyecto mundial de OMMS</strong> (Scouts for SDGs, Tide Turners, Champions for Nature) — completar la documentación y dar seguimiento.<br><em>Recursos:</em> catálogo de proyectos mundiales OMMS. <em>Hablar con:</em> Jefe + algún dirigente con inglés.", "color": "#fff9c4", "borderColor": "#fbc02d" },
-            { "title": "🔴 RI-crear · 12 meses", "description": "<strong>Conectar el grupo con al menos un programa mundial</strong>: identificar uno que se alinee con el Plan de Grupo y dar el primer paso para participar.<br><em>Recursos:</em> scout.org. <em>Hablar con:</em> Comisionado Regional.", "color": "#ffebee", "borderColor": "#f44336" }
+            { "title": "🟢 RI-doc · 12 meses", "description": "<strong>Sistematizar la experiencia internacional del grupo</strong> (proyecto OMMS, intercambio, jamboree) y aportarla como caso para otros grupos de la región.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 RI-fort · 12 meses", "description": "<strong>Postular el grupo a un proyecto mundial de OMMS</strong> (Scouts for SDGs, Tide Turners, Champions for Nature) — completar la documentación y dar seguimiento.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 RI-crear · 12 meses", "description": "<strong>Conectar el grupo con al menos un programa mundial</strong>: identificar uno que se alinee con el Plan de Grupo y dar el primer paso para participar.", "color": "#ffebee", "borderColor": "#f44336" }
           ]
         },
         {
@@ -234,9 +234,9 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🟢 CR-doc · 6 meses", "description": "<strong>Escribir el método de crecimiento del grupo</strong>: estrategias de captación, seguimiento, retención. Compartirlo con grupos en formación.<br><em>Recursos:</em> registros históricos de membresía. <em>Hablar con:</em> Comisionado Regional de Crecimiento.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🟡 CR-fort · 6 meses", "description": "<strong>Construir Plan de Captación anual</strong> (campaña de barrio, jornada de puertas abiertas, alianzas con colegios) + mantener SiScout al día. Lograr crecimiento neto ≥2%.<br><em>Recursos:</em> Plan de Acción de Crecimiento 2023-2026 + SiScout. <em>Hablar con:</em> Comisionado Regional.", "color": "#fff9c4", "borderColor": "#fbc02d" },
-            { "title": "🔴 CR-crear · 3 meses", "description": "<strong>Implementar registro mensual de ingresos y salidas de membresía</strong>. Primera base de datos del grupo. Sin esto, no hay nada que medir.<br><em>Recursos:</em> plantilla simple. <em>Hablar con:</em> Secretario + Jefes de Rama.", "color": "#ffebee", "borderColor": "#f44336" }
+            { "title": "🟢 CR-doc · 6 meses", "description": "<strong>Escribir el método de crecimiento del grupo</strong>: estrategias de captación, seguimiento, retención. Compartirlo con grupos en formación.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 CR-fort · 6 meses", "description": "<strong>Construir Plan de Captación anual</strong> (campaña de barrio, jornada de puertas abiertas, alianzas con colegios) + mantener SiScout al día. Lograr crecimiento neto ≥2%.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 CR-crear · 3 meses", "description": "<strong>Implementar registro mensual de ingresos y salidas de membresía</strong>. Primera base de datos del grupo. Sin esto, no hay nada que medir.", "color": "#ffebee", "borderColor": "#f44336" }
           ]
         },
         {
@@ -247,9 +247,9 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🟢 GR-doc · 6 meses", "description": "<strong>Escribir el manual de gestión del riesgo del grupo</strong>: protocolo de salidas, plan de manejo de incidentes, prevención de daño. Compartirlo con la región.<br><em>Recursos:</em> protocolos actuales. <em>Hablar con:</em> Jefe + Comisionado Regional de Riesgo.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🟡 GR-fort · 6 meses", "description": "<strong>Lograr que el 100% de los dirigentes tenga A Salvo del Peligro vigente</strong> y registrado + implementar la Lista de Chequeo del Protocolo Nacional de Transporte. Subir atributo de Aplicabilidad.<br><em>Recursos:</em> cursos A Salvo del Peligro (DNDI) + Protocolo Nacional de Transporte. <em>Hablar con:</em> Jefe + Equipo.", "color": "#fff9c4", "borderColor": "#fbc02d" },
-            { "title": "🔴 GR-crear · 3 meses", "description": "<strong>Implementar protocolo mínimo en TODAS las salidas</strong>: lista de participantes, autorización firmada, hoja de salud, contactos de emergencia. Sin atajos.<br><em>Recursos:</em> Protocolo Nacional de Transporte + Lista de chequeo. <em>Hablar con:</em> Jefe.", "color": "#ffebee", "borderColor": "#f44336" }
+            { "title": "🟢 GR-doc · 6 meses", "description": "<strong>Escribir el manual de gestión del riesgo del grupo</strong>: protocolo de salidas, plan de manejo de incidentes, prevención de daño. Compartirlo con la región.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 GR-fort · 6 meses", "description": "<strong>Lograr que el 100% de los dirigentes tenga A Salvo del Peligro vigente</strong> y registrado + implementar la Lista de Chequeo del Protocolo Nacional de Transporte. Subir atributo de Aplicabilidad.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 GR-crear · 3 meses", "description": "<strong>Implementar protocolo mínimo en TODAS las salidas</strong>: lista de participantes, autorización firmada, hoja de salud, contactos de emergencia. Sin atajos.", "color": "#ffebee", "borderColor": "#f44336" }
           ]
         },
         {
@@ -260,9 +260,9 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🟢 CT-doc · 12 meses", "description": "<strong>Escribir el sistema de control y reconocimientos del grupo</strong>: cómo se vigila el cumplimiento, cómo se premian los aportes, ciclo de Asambleas. Compartirlo con grupos en formación.<br><em>Recursos:</em> actas de Asambleas + actos de reconocimiento. <em>Hablar con:</em> Canciller + Presidente.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🟡 CT-fort · 6 meses", "description": "<strong>Realizar Asamblea Anual de Grupo cumpliendo el Reglamento</strong> (convocatoria con tiempo, quórum, actas) + establecer reconocimiento anual de dirigentes. Subir atributo de Efectiva.<br><em>Recursos:</em> Reglamento Nacional de Grupos + Manual de Estímulos Nacionales. <em>Hablar con:</em> Consejo de Grupo.", "color": "#fff9c4", "borderColor": "#fbc02d" },
-            { "title": "🔴 CT-crear · 3 meses", "description": "<strong>Verificar y poner al día la documentación legal del grupo</strong> (personería jurídica, RUT, declaraciones). Es el primer paso del control: existir formalmente.<br><em>Recursos:</em> Cámara de Comercio + DIAN. <em>Hablar con:</em> Contador + Tesorero.", "color": "#ffebee", "borderColor": "#f44336" }
+            { "title": "🟢 CT-doc · 12 meses", "description": "<strong>Escribir el sistema de control y reconocimientos del grupo</strong>: cómo se vigila el cumplimiento, cómo se premian los aportes, ciclo de Asambleas. Compartirlo con grupos en formación.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 CT-fort · 6 meses", "description": "<strong>Realizar Asamblea Anual de Grupo cumpliendo el Reglamento</strong> (convocatoria con tiempo, quórum, actas) + establecer reconocimiento anual de dirigentes. Subir atributo de Efectiva.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🔴 CT-crear · 3 meses", "description": "<strong>Verificar y poner al día la documentación legal del grupo</strong> (personería jurídica, RUT, declaraciones). Es el primer paso del control: existir formalmente.", "color": "#ffebee", "borderColor": "#f44336" }
           ]
         }
       ],

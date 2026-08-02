@@ -32,11 +32,11 @@
     "title": "Niveles y Estructura del Movimiento",
     "description": "Aterriza la estructura completa del Movimiento Scout: 5 niveles (Mundial, Interamericano, Nacional, Regional, Local) con su arquitectura de órganos por nivel. Importante: la estructura es asimétrica — no se replica el mismo modelo de tres órganos uniformes en cada nivel.",
     "icon": "🏗️",
-    "duration": "~30 min",
+    "duration": "~35 min",
     "level": 1,
     "levelName": "Fundamentación",
     "order": 3,
-    "modules": 6,
+    "modules": 7,
     "status": "under-review",
     "file": "niveles-y-estructura-movimiento.html",
     "folder": "niveles-y-estructura-movimiento"

@@ -144,44 +144,44 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
 4. **`info-box`** — _"💡 **Cada meta-tipo trae cinco campos asociados**: plazo sugerido (3/6/12 meses), recursos sugeridos (qué leer del repositorio ASC), persona con quien hablar primero, primer paso esta semana, y señal de cumplimiento. Esto está en el plan-builder de la Lección 4 — acá ves los ejemplos por ámbito."_
 5. **`heading` (nivel 3)** — _"🏛️ Ámbito 1 — Gobernanza"_
 6. **`method-grid`** — 3 metas-tipo:
-    - 🟢 **G-doc (6 meses):** _"Escribir la práctica de gobernanza del grupo en un documento de 1 página: cómo se convoca el consejo, cómo se decide, cómo se firma el acta. Compartirla con la región como aporte."_ → Recursos: actas existentes, Reglamento Nacional de Grupos. Hablar con: Secretario + Presidente.
-    - 🟡 **G-fort (3 meses):** _"Implementar firma de acta al cierre de cada reunión del consejo + convocar al Fiscal o Revisor Fiscal a las reuniones con tema financiero. Subir atributos de Replicable y Efectiva."_ → Recursos: formato de acta. Hablar con: Secretario.
-    - 🔴 **G-crear (3 meses):** _"Establecer el ritual de la reunión del consejo: agenda escrita, alguien que tome acta, decisiones registradas. Esa es tu primera práctica de gobernanza."_ → Recursos: plantilla simple de acta. Hablar con: Presidente del Consejo.
+    - 🟢 **G-doc (6 meses):** _"Escribir la práctica de gobernanza del grupo en un documento de 1 página: cómo se convoca el consejo, cómo se decide, cómo se firma el acta. Compartirla con la región como aporte."_
+    - 🟡 **G-fort (3 meses):** _"Implementar firma de acta al cierre de cada reunión del consejo + convocar al Fiscal o Revisor Fiscal a las reuniones con tema financiero. Subir atributos de Replicable y Efectiva."_
+    - 🔴 **G-crear (3 meses):** _"Establecer el ritual de la reunión del consejo: agenda escrita, alguien que tome acta, decisiones registradas. Esa es tu primera práctica de gobernanza."_
 7. **`heading` (nivel 3)** — _"🗂️ Ámbito 2 — Administración"_
 8. **`method-grid`** — 3 metas-tipo:
-    - 🟢 **A-doc (6 meses):** _"Escribir el procedimiento administrativo del grupo: cómo se maneja el inventario, los activos, los voluntarios. Compartirlo con grupos nuevos de la región."_ → Recursos: planillas actuales. Hablar con: Intendente + Jefe de Grupo.
-    - 🟡 **A-fort (6 meses):** _"Implementar inventario completo de activos (carpas, equipos, libros) antes del próximo campamento + planilla de voluntariado formalizado. Subir atributo de Sostenibilidad."_ → Recursos: planilla de inventario. Hablar con: Intendente.
-    - 🔴 **A-crear (3 meses):** _"Definir quién es el responsable de cada activo del grupo y de los voluntarios. Primera lista nominal del equipo + de los bienes. Es la base de cualquier administración futura."_ → Recursos: hoja de cálculo simple. Hablar con: Jefe de Grupo.
+    - 🟢 **A-doc (6 meses):** _"Escribir el procedimiento administrativo del grupo: cómo se maneja el inventario, los activos, los voluntarios. Compartirlo con grupos nuevos de la región."_
+    - 🟡 **A-fort (6 meses):** _"Implementar inventario completo de activos (carpas, equipos, libros) antes del próximo campamento + planilla de voluntariado formalizado. Subir atributo de Sostenibilidad."_
+    - 🔴 **A-crear (3 meses):** _"Definir quién es el responsable de cada activo del grupo y de los voluntarios. Primera lista nominal del equipo + de los bienes. Es la base de cualquier administración futura."_
 9. **`heading` (nivel 3)** — _"💰 Ámbito 3 — Recursos Económicos"_
 10. **`method-grid`** — 3 metas-tipo:
-    - 🟢 **RE-doc (6 meses):** _"Escribir el plan financiero del grupo: 6 fuentes de fondos, margen mínimo (>= 17%), uso de excedentes. Compartirlo como modelo replicable con la región."_ → Recursos: Taller Flor de Lis II — Módulo 5 (Planeación, finanzas y administración). Hablar con: Tesorero + Consejo.
-    - 🟡 **RE-fort (6 meses):** _"Implementar libro contable básico con conciliación mensual + diversificar al menos 2 fuentes de fondos adicionales a la cuota. Subir atributo de Sostenibilidad."_ → Recursos: plantilla contable + Taller Flor de Lis II — Módulo 5. Hablar con: Tesorero + Contador.
-    - 🔴 **RE-crear (3 meses):** _"Abrir cuenta bancaria del grupo si no existe + sacar la plata de cuentas personales. Cualquier cosa antes de cuenta del grupo es alto riesgo."_ → Recursos: documentación del grupo, banco. Hablar con: Tesorero + Banco.
+    - 🟢 **RE-doc (6 meses):** _"Escribir el plan financiero del grupo: 6 fuentes de fondos, margen mínimo (>= 17%), uso de excedentes. Compartirlo como modelo replicable con la región."_
+    - 🟡 **RE-fort (6 meses):** _"Implementar libro contable básico con conciliación mensual + diversificar al menos 2 fuentes de fondos adicionales a la cuota. Subir atributo de Sostenibilidad."_
+    - 🔴 **RE-crear (3 meses):** _"Abrir cuenta bancaria del grupo si no existe + sacar la plata de cuentas personales. Cualquier cosa antes de cuenta del grupo es alto riesgo."_
 11. **`heading` (nivel 3)** — _"📣 Ámbito 4 — Comunicaciones e Interinstitucionales"_
 12. **`method-grid`** — 3 metas-tipo:
-    - 🟢 **C-doc (6 meses):** _"Escribir el manual de comunicaciones del grupo: comunicación con familias, redes sociales, manejo de crisis, marca y narrativa. Compartirlo con la región."_ → Recursos: comunicados históricos, política de marca. Hablar con: Comunicador del Grupo + Jefe.
-    - 🟡 **C-fort (6 meses):** _"Establecer comunicación mensual con las familias (formato a definir) + protocolo escrito de comunicación de crisis. Subir atributo de Sostenibilidad."_ → Recursos: lista de familias. Hablar con: Jefe de Grupo + Comunicador.
-    - 🔴 **C-crear (3 meses):** _"Crear el canal mínimo de comunicación con las familias del grupo (WhatsApp, correo, lo que sea) + un cronograma de cuándo se comunica qué. Primera práctica."_ → Recursos: lista actualizada de familias. Hablar con: Secretario + Jefe.
+    - 🟢 **C-doc (6 meses):** _"Escribir el manual de comunicaciones del grupo: comunicación con familias, redes sociales, manejo de crisis, marca y narrativa. Compartirlo con la región."_
+    - 🟡 **C-fort (6 meses):** _"Establecer comunicación mensual con las familias (formato a definir) + protocolo escrito de comunicación de crisis. Subir atributo de Sostenibilidad."_
+    - 🔴 **C-crear (3 meses):** _"Crear el canal mínimo de comunicación con las familias del grupo (WhatsApp, correo, lo que sea) + un cronograma de cuándo se comunica qué. Primera práctica."_
 13. **`heading` (nivel 3)** — _"🌐 Ámbito 5 — Relaciones Internacionales"_
 14. **`method-grid`** — 3 metas-tipo:
-    - 🟢 **RI-doc (12 meses):** _"Sistematizar la experiencia internacional del grupo (proyecto OMMS, intercambio, jamboree) y aportarla como caso para otros grupos de la región."_ → Recursos: registros del proyecto/intercambio. Hablar con: Jefe de Grupo + Comisionado Regional.
-    - 🟡 **RI-fort (12 meses):** _"Postular el grupo a un proyecto mundial de OMMS (Scouts for SDGs, Tide Turners, Champions for Nature) — completar la documentación y dar seguimiento."_ → Recursos: catálogo de proyectos mundiales OMMS. Hablar con: Jefe + algún dirigente con inglés.
-    - 🔴 **RI-crear (12 meses):** _"Conectar el grupo con al menos un programa mundial: identificar uno que se alinee con el Plan de Grupo y dar el primer paso para participar."_ → Recursos: scout.org. Hablar con: Comisionado Regional.
+    - 🟢 **RI-doc (12 meses):** _"Sistematizar la experiencia internacional del grupo (proyecto OMMS, intercambio, jamboree) y aportarla como caso para otros grupos de la región."_
+    - 🟡 **RI-fort (12 meses):** _"Postular el grupo a un proyecto mundial de OMMS (Scouts for SDGs, Tide Turners, Champions for Nature) — completar la documentación y dar seguimiento."_
+    - 🔴 **RI-crear (12 meses):** _"Conectar el grupo con al menos un programa mundial: identificar uno que se alinee con el Plan de Grupo y dar el primer paso para participar."_
 15. **`heading` (nivel 3)** — _"📈 Ámbito 6 — Crecimiento y Sistema de Información"_
 16. **`method-grid`** — 3 metas-tipo:
-    - 🟢 **CR-doc (6 meses):** _"Escribir el método de crecimiento del grupo: estrategias de captación, seguimiento, retención. Compartirlo con grupos en formación."_ → Recursos: registros históricos de membresía. Hablar con: Comisionado Regional de Crecimiento.
-    - 🟡 **CR-fort (6 meses):** _"Construir Plan de Captación anual (campaña de barrio, jornada de puertas abiertas, alianzas con colegios) + mantener SiScout al día. Lograr crecimiento neto >= 2%."_ → Recursos: Plan de Acción de Crecimiento 2023-2026 + SiScout. Hablar con: Comisionado Regional.
-    - 🔴 **CR-crear (3 meses):** _"Implementar registro mensual de ingresos y salidas de membresía. Primera base de datos del grupo. Sin esto, no hay nada que medir."_ → Recursos: plantilla simple. Hablar con: Secretario + Jefes de Rama.
+    - 🟢 **CR-doc (6 meses):** _"Escribir el método de crecimiento del grupo: estrategias de captación, seguimiento, retención. Compartirlo con grupos en formación."_
+    - 🟡 **CR-fort (6 meses):** _"Construir Plan de Captación anual (campaña de barrio, jornada de puertas abiertas, alianzas con colegios) + mantener SiScout al día. Lograr crecimiento neto >= 2%."_
+    - 🔴 **CR-crear (3 meses):** _"Implementar registro mensual de ingresos y salidas de membresía. Primera base de datos del grupo. Sin esto, no hay nada que medir."_
 17. **`heading` (nivel 3)** — _"🛡️ Ámbito 7 — Gestión del Riesgo"_
 18. **`method-grid`** — 3 metas-tipo:
-    - 🟢 **GR-doc (6 meses):** _"Escribir el manual de gestión del riesgo del grupo: protocolo de salidas, plan de manejo de incidentes, prevención de daño. Compartirlo con la región."_ → Recursos: protocolos actuales. Hablar con: Jefe + Comisionado Regional de Riesgo.
-    - 🟡 **GR-fort (6 meses):** _"Lograr que el 100% de los dirigentes tenga A Salvo del Peligro vigente y registrado + implementar la Lista de Chequeo del Protocolo Nacional de Transporte. Subir atributo de Aplicabilidad."_ → Recursos: cursos A Salvo del Peligro (DNDI) + Protocolo Nacional de Transporte. Hablar con: Jefe + Equipo.
-    - 🔴 **GR-crear (3 meses):** _"Implementar protocolo mínimo en TODAS las salidas: lista de participantes, autorización firmada, hoja de salud, contactos de emergencia. Sin atajos."_ → Recursos: Protocolo Nacional de Transporte + Lista de chequeo. Hablar con: Jefe.
+    - 🟢 **GR-doc (6 meses):** _"Escribir el manual de gestión del riesgo del grupo: protocolo de salidas, plan de manejo de incidentes, prevención de daño. Compartirlo con la región."_
+    - 🟡 **GR-fort (6 meses):** _"Lograr que el 100% de los dirigentes tenga A Salvo del Peligro vigente y registrado + implementar la Lista de Chequeo del Protocolo Nacional de Transporte. Subir atributo de Aplicabilidad."_
+    - 🔴 **GR-crear (3 meses):** _"Implementar protocolo mínimo en TODAS las salidas: lista de participantes, autorización firmada, hoja de salud, contactos de emergencia. Sin atajos."_
 19. **`heading` (nivel 3)** — _"🏅 Ámbito 8 — Control y Reconocimiento"_
 20. **`method-grid`** — 3 metas-tipo:
-    - 🟢 **CT-doc (12 meses):** _"Escribir el sistema de control y reconocimientos del grupo: cómo se vigila el cumplimiento, cómo se premian los aportes, ciclo de Asambleas. Compartirlo con grupos en formación."_ → Recursos: actas de Asambleas + actos de reconocimiento. Hablar con: Fiscal + Presidente.
-    - 🟡 **CT-fort (6 meses):** _"Realizar Asamblea Anual de Grupo cumpliendo el Reglamento (convocatoria con tiempo, quórum, actas) + establecer reconocimiento anual de dirigentes. Subir atributo de Efectiva."_ → Recursos: Reglamento Nacional de Grupos + Manual de Estímulos Nacionales. Hablar con: Consejo de Grupo.
-    - 🔴 **CT-crear (3 meses):** _"Verificar y poner al día la documentación legal del grupo (personería jurídica, RUT, declaraciones). Es el primer paso del control: existir formalmente."_ → Recursos: Cámara de Comercio + DIAN. Hablar con: Contador + Tesorero.
+    - 🟢 **CT-doc (12 meses):** _"Escribir el sistema de control y reconocimientos del grupo: cómo se vigila el cumplimiento, cómo se premian los aportes, ciclo de Asambleas. Compartirlo con grupos en formación."_
+    - 🟡 **CT-fort (6 meses):** _"Realizar Asamblea Anual de Grupo cumpliendo el Reglamento (convocatoria con tiempo, quórum, actas) + establecer reconocimiento anual de dirigentes. Subir atributo de Efectiva."_
+    - 🔴 **CT-crear (3 meses):** _"Verificar y poner al día la documentación legal del grupo (personería jurídica, RUT, declaraciones). Es el primer paso del control: existir formalmente."_
 
 **Reflexión:** _"Mira las 24 metas-tipo organizadas por los 8 ámbitos. Dado tu catálogo del Curso 5, ¿cuáles 2-3 sientes que son las primeras que deberías abordar? Anótalas — las vas a usar en la siguiente lección. Recuerda: la regla simple es atender primero los ámbitos en NO o PARCIAL, antes que documentar los SÍ."_
 
