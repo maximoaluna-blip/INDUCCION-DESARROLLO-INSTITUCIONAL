@@ -87,7 +87,7 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 **Secciones (en orden):**
 
 1. **`info-box`** — Idea central de la lección.
-2. **`paragraph`** — Anti-definición: _"Si abres la PNDI 2017 vas a leer 'directrices para identificar, definir y articular los ámbitos de gestión que dan soporte al Movimiento Scout para el cumplimiento de la Misión y la Visión.' Es exacto. Y, si nunca has hecho un curso así, es difícil de digerir. Vamos a llegar a esa frase, pero por el camino aterrizado."_
+2. **`paragraph`** — Anti-definición: _"Si abres la PNDI 2017 vas a leer '...dar directrices que identifiquen, definían y articulen los ámbitos de gestión que dan soporte al Movimiento Scout para el cumplimiento de la Misión y la Visión.' Es exacta, palabra por palabra (incluido ese 'definían' un poco raro del original). Y, si nunca has hecho un curso así, es difícil de digerir. Vamos a llegar a esa frase, pero por el camino aterrizado."_
 3. **`heading` (nivel 3)** — _"Mira tu propio grupo y vas a ver DI por todos lados"_
 4. **`method-grid`** — 6 ejemplos cotidianos de DI con icono y color, para mostrar que el adulto ya hace DI:
     - **El secretario** que toma acta y la guarda → _gobernanza_
@@ -98,8 +98,8 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
     - **El jefe** que reporta el accidente del campamento → _gestión del riesgo_
 5. **`paragraph`** — Conclusión: _"Ninguna de estas personas está pensando 'estoy haciendo Desarrollo Institucional'. Pero todas lo están haciendo. Y todas, de alguna forma, son responsables de que el grupo dure, funcione y crezca con bien."_
 6. **`policy-quote`** — Cita textual de la PNDI 2017 con su definición técnica:
-    - `text`: _"El área de Desarrollo Institucional se dedica a trabajar para fomentar el progreso y crecimiento integral de nuestras instituciones."_
-    - `source`: "Política Nacional de Desarrollo Institucional 2017, Introducción, p. 1"
+    - `text`: _"...para fomentar el progreso y crecimiento integral de nuestras instituciones..."_
+    - `source`: "Política Nacional de Desarrollo Institucional 2017, Introducción, p. 3"
     - `label`: "📋 Ver lo que dice la política textualmente"
 7. **`info-box`** — Reformulación accesible: _"En palabras simples: DI es la columna vertebral del grupo. Lo que lo sostiene cuando nadie está mirando."_
 
@@ -175,28 +175,28 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
     - 🏛️ **Gobierno** — _Asambleas y Consejos. Deciden el rumbo._ → Color morado.
     - ⚙️ **Operación** — _Equipos de Jefatura. Ejecutan las decisiones._ → Color verde.
     - 👁️ **Control** — _Cortes de Honor y Comisiones de Vigilancia y Control. Velan por la legalidad y la ética._ → Color amarillo.
-4. **`paragraph`** — Aplicación: _"En tu grupo: la Asamblea de grupo gobierna, el Consejo de grupo gobierna también, el equipo de jefatura ejecuta, y el grupo se autocontrola con sus prácticas (libro de actas, libro contable, conducta del consejo). En tu región: Asamblea Regional → Consejo Regional → Jefatura Regional. En el país: Asamblea Nacional → Consejo Scout Nacional → Jefatura Scout Nacional, con la Comisión Nacional de Vigilancia y Control y la Corte de Honor Nacional como órganos de control."_
+4. **`paragraph`** — Aplicación: _"En tu grupo: Asamblea de Grupo (aprueba el rumbo) → Consejo de Grupo (gobierna el día a día) → Equipo de Jefatura (ejecuta) → el Fiscal (o Revisor Fiscal) y su Suplente, que vigilan las cuentas y el cumplimiento de las normas. En tu región: Asamblea Regional → Consejo Regional → Jefatura Regional → Revisoría Fiscal (Revisor Fiscal y Suplente). En el país: Asamblea Scout Nacional → Consejo Scout Nacional → Jefatura Scout Nacional → Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional."_
 5. **`heading` (nivel 3)** — _"La normatividad marco que rige todo"_
 6. **`list`** — Las 4 normas marco vigentes:
     - **Estatuto Nacional 2025** — la norma constitucional de la ASC.
     - **Política Nacional de Desarrollo Institucional 2017** — el marco doctrinal del DI.
     - **Plan Estratégico 2023–2026** — el rumbo nacional para el cuatrienio.
-    - **Reglamentos** — Reglamento Nacional, Reglamento Nacional de Grupos Scouts, Reglamento Nacional de Regiones Scout.
+    - **Reglamentos** — Reglamento Nacional de Grupos Scouts, Reglamento Nacional de Regiones Scout.
 7. **`info-box`** — _"Los puedes consultar todos en https://scout.org.co/biblioteca · No tienes que aprendértelos. Solo saber que existen y dónde encontrarlos cuando los necesites."_
 8. **`policy-quote`** — Cita textual del CSN:
     - `text`: _"El Consejo Scout Nacional es el órgano que dirige la institución de acuerdo con las normas legales, los Estatutos, los Reglamentos, los acuerdos y las decisiones de la Asamblea Nacional. En receso de la Asamblea Scout Nacional, es la autoridad máxima de la Asociación."_
     - `source`: "scout.org.co · Quiénes Somos · Consejo Scout Nacional"
     - `label`: "📋 Ver definición oficial del CSN"
 
-**Reflexión:** _"En tu grupo o región, ¿sabrías nombrar a la persona que hoy preside el Consejo? ¿Y al jefe? ¿Y a alguien del órgano de control si existe? Anota lo que sepas y lo que no — eso vale más que adivinar."_
+**Reflexión:** _"En tu grupo o región, ¿sabrías nombrar a la persona que hoy preside el Consejo? ¿Y al jefe? ¿Y a la persona que ejerce el órgano de control (el Fiscal o Revisor Fiscal de tu grupo)? Anota lo que sepas y lo que no — eso vale más que adivinar."_
 
 **Quiz (2 preguntas):**
 
-> **P1.** En tu grupo, la decisión de aprobar el plan anual de actividades y el presupuesto del año la toma…
+> **P1.** El plan anual de actividades y el presupuesto del grupo los prepara el Consejo de Grupo. ¿Quién los aprueba?
 >
-> a) _El jefe de grupo solo, porque es la cabeza._
-> b) _El Consejo de Grupo, como órgano de gobierno del nivel local, y queda registrada en acta._  ✅
-> c) _La Comisión de Vigilancia y Control._
+> a) _El jefe de grupo, como cabeza visible del equipo de Jefatura._
+> b) _El mismo Consejo de Grupo, en sesión ordinaria, dejándolo registrado en acta._
+> c) _La Asamblea de Grupo, sobre la propuesta presentada por el Consejo de Grupo._  ✅
 
 > **P2.** ¿Cuál es la norma marco vigente que rige a toda la Asociación Scouts de Colombia hoy?
 >
@@ -222,15 +222,14 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
     - **Grupo B — Cuando el campamento sale sin protocolo.** Un dirigente se llevó a la tropa al cerro. Un chico se cayó. Sin lista de participantes, sin contacto de padres, sin permiso firmado. La emergencia se atendió, pero el grupo recibió una sanción de la región. Tres familias retiraron a sus hijos.
     - **Grupo C — Cuando el grupo se cuida.** Hace acta de cada reunión, cuenta sus carpas, tiene tesorero y contador, pide permiso firmado de cada salida, capacita a sus dirigentes en Safe from Harm. Lleva 23 años funcionando. Sus rovers son hoy los padres de la nueva manada.
 5. **`paragraph`** — Síntesis: _"El DI no es un fin en sí mismo. Es la condición silenciosa para que la experiencia scout funcione."_
-6. **`heading` (nivel 3)** — _"Las 6 dimensiones de la salud institucional"_
-7. **`list`** — Las 6 dimensiones (panorama, sin profundizar — es spoiler del Curso 5):
-    - Propósito (que el grupo sepa para qué existe).
-    - Gobernanza (que las decisiones sean legítimas y trazables).
-    - Gestión (que los recursos se manejen con orden).
-    - Relaciones (que la convivencia sea sana).
-    - Crecimiento (que la membresía se sostenga y se renueve).
-    - Cumplimiento (que se respeten leyes, reglamentos y protocolos).
-8. **`info-box`** — Anuncio: _"En el Curso 5 de esta línea vas a evaluar tu propio grupo o región contra estas 6 dimensiones. Hoy solo guarda el mapa."_
+6. **`heading` (nivel 3)** — _"Cómo se ve un grupo institucionalmente sano"_ — la PNDI 2017 (Cap. 11) define una Institución Saludable como aquella que cumple su Misión y su Visión a través de la ejecución de buenas prácticas de manera consciente, sistemática y sostenida. El Capítulo 10 de la PNDI nombra 5 atributos específicos que hacen que una práctica sea realmente buena.
+7. **`list`** — Los 5 atributos (panorama, sin profundizar — es spoiler del Curso 5):
+    - Innovadora (aporta una mejora respecto a cómo se hacían las cosas antes).
+    - Efectiva (logra el resultado que buscaba, y se puede comprobar).
+    - Sostenible (se mantiene en el tiempo con los recursos del grupo, sin depender de una sola persona).
+    - Replicable (otro grupo podría adoptarla con ajustes mínimos, está documentada).
+    - Aplicable (sirve no solo a quien la inventó, sino que puede usarse en otros grupos o niveles del Movimiento).
+8. **`info-box`** — Anuncio: _"En el Curso 5 vas a recorrer los 8 ámbitos del Curso 4 y construir tu catálogo personal de buenas prácticas del grupo filtradas con estos 5 atributos. Hoy solo guarda el mapa."_
 
 **Reflexión:** _"De las tres historias, ¿cuál se parece más a algo que has visto en un grupo cercano (no necesariamente el tuyo)? Escribe en una frase qué falló institucionalmente y qué pudo haberlo prevenido."_
 
@@ -275,7 +274,7 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
     - 📜 **Curso 2** — La Política PNDI: Marco y Principios.
     - 🏗️ **Curso 3** — Niveles y Estructura del Movimiento.
     - 🧭 **Curso 4** — Los 8 Ámbitos de Gestión.
-    - 💪 **Curso 5** — Las 6 Áreas Estratégicas y Salud Institucional (con autodiagnóstico).
+    - 🌟 **Curso 5** — Buenas Prácticas en Tu Grupo: catálogo personal de buenas prácticas, recorriendo los 8 ámbitos con los 5 atributos de la PNDI 2017 Cap. 10.
     - 🗺️ **Curso 6** — Mi Aporte al Desarrollo Institucional (plan personal).
 11. **`info-box`** — Despedida: _"Bienvenido al equipo de los que sostienen. Lo que viene vale el viaje."_
 
@@ -318,7 +317,7 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 
 - **L2 → Curso 2:** la mención de los 6 ejemplos de DI ancla los 8 ámbitos que el Curso 2 va a desarrollar.
 - **L4 → Curso 3:** la "institución en una página" anuncia el Curso 3 que profundiza la estructura (5 niveles, 3 órganos por nivel).
-- **L5 → Curso 5:** las 6 dimensiones de salud institucional se enuncian aquí y se aterrizan en el autodiagnóstico interactivo del Curso 5.
+- **L5 → Curso 5:** los 5 atributos de buena práctica (PNDI Cap. 10) se enuncian aquí y se aterrizan en el catálogo personal de buenas prácticas del Curso 5 ("Buenas Prácticas en Tu Grupo").
 - **L6 → Curso 6:** el compromiso escrito sirve de input al Plan personal de Aporte que construirá el Curso 6 con `plan-builder`.
 
 ### 6.2 Cross-línea con la Línea Política de Adultos

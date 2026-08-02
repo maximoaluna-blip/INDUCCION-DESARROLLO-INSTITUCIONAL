@@ -59,7 +59,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>La PNDI sirve para <strong>identificar, definir, articular y cumplir</strong> lo que sostiene la institución."
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>La PNDI sirve para <strong>identificar, definir y articular</strong> lo que sostiene la institución. Este curso añade un cuarto paso propio, <strong>cumplir</strong>, para que no se quede en el papel."
         },
         {
           "type": "paragraph",
@@ -75,12 +75,12 @@
         },
         {
           "type": "paragraph",
-          "text": "La <strong>Política Nacional de Desarrollo Institucional</strong> (PNDI 2017) cumple el primer rol: da el porqué del DI. Y para hacerlo, define cuatro acciones que cualquier adulto del movimiento puede usar para revisar si está haciendo bien su parte."
+          "text": "La <strong>Política Nacional de Desarrollo Institucional</strong> (PNDI 2017) cumple el primer rol: da el porqué del DI. En su Propósito, la PNDI señala tres acciones — <strong>identificar, definir y articular</strong>. Este curso agrega una cuarta, <strong>cumplir</strong>, porque de nada sirve identificar, definir y articular si al final no se hace lo acordado."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "🔧 Las 4 acciones de la PNDI"
+          "text": "🔧 Las acciones de la PNDI (+ 1 que añade este curso)"
         },
         {
           "type": "method-grid",
@@ -88,18 +88,18 @@
             { "title": "🔎 Identificar", "description": "Ver qué ámbitos de gestión están operando en mi grupo y cuáles están descuidados. <em>Ejemplo: “tenemos plan, tesorería y campamentos, pero nadie está pensando en crecimiento”.</em>", "color": "#f3e5f5", "borderColor": "#9c27b0" },
             { "title": "🧱 Definir", "description": "Acordar cómo se hace cada cosa, por escrito. <em>Ejemplo: “el acta se firma antes de cerrar la reunión, no después”.</em>", "color": "#e3f2fd", "borderColor": "#2196f3" },
             { "title": "🔗 Articular", "description": "Conectar lo que hacemos con el plan de la región, el nacional y el mundial. <em>Ejemplo: “nuestro campamento alinea con la prioridad 3 del Plan Regional 2022-2025”.</em>", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "✅ Cumplir", "description": "Hacer realmente lo que está acordado, no solo escribirlo. <em>Ejemplo: “el libro de actas existe Y está al día con las últimas 6 reuniones”.</em>", "color": "#fff3e0", "borderColor": "#ff9800" }
+            { "title": "✅ Cumplir", "description": "Hacer realmente lo que está acordado, no solo escribirlo. Este paso lo añade el curso — no aparece como palabra textual en la PNDI. <em>Ejemplo: “el libro de actas existe Y está al día con las últimas 6 reuniones”.</em>", "color": "#fff3e0", "borderColor": "#ff9800" }
           ]
         },
         {
           "type": "policy-quote",
           "label": "📋 Ver la frase exacta de la PNDI",
-          "text": "directrices para identificar, definir y articular los ámbitos de gestión que dan soporte al Movimiento Scout para el cumplimiento de la Misión y la Visión.",
-          "source": "Política Nacional de Desarrollo Institucional 2017, Objeto, p. 1"
+          "text": "es dar directrices que identifiquen, definían y articulen los ámbitos de gestión que dan soporte al Movimiento Scout para el cumplimiento de la Misión y la Visión.",
+          "source": "PNDI 2017, §3 Propósito, p. 6"
         },
         {
           "type": "info-box",
-          "text": "<strong>💡 En palabras simples:</strong> la PNDI te da el método para que tu grupo, región o nación <strong>vea, acuerde, conecte y haga</strong>. Las 4 acciones son la mecánica del DI."
+          "text": "<strong>💡 En palabras simples:</strong> la PNDI te da el método para que tu grupo, región o nación <strong>vea, acuerde y conecte</strong> — identificar, definir y articular, tal como lo dice la Política. Este curso añade un cuarto paso, cumplir, para que todo eso no se quede en el papel."
         }
       ],
       "reflection": {
@@ -391,17 +391,11 @@
         },
         {
           "type": "paragraph",
-          "text": "<strong>Lo que dice:</strong> los jóvenes del movimiento no son solo destinatarios de las decisiones — son parte de ellas, en las formas adecuadas a su edad y madurez. La Política Nacional de Participación Juvenil (2016) y la PNPJ (2020) lo desarrollan en detalle."
+          "text": "<strong>Lo que dice:</strong> los jóvenes del movimiento no son solo destinatarios de las decisiones — son parte de ellas, en las formas adecuadas a su edad y madurez. La Política Nacional de Participación Juvenil (2016) y la PNPJ (2024) lo desarrollan en detalle."
         },
         {
           "type": "paragraph",
-          "text": "<strong>Caso:</strong> el Consejo de Grupo va a decidir el tema del próximo campamento de tropa. ¿Lo decide el equipo de jefatura adulto? El Principio dice: <strong>escuchen a la patrulla primero</strong>. La participación del joven no es decorativa — moldea decisiones reales. En consejos regionales y nacionales existe el cargo de <strong>Consejero Juvenil</strong> justo para asegurar esa voz en el órgano de gobierno."
-        },
-        {
-          "type": "policy-quote",
-          "label": "📋 Ver lo que dice la PNPJ",
-          "text": "La participación de los jóvenes en la toma de decisiones del Movimiento es un derecho y un método educativo: aprenden ciudadanía haciéndola, no escuchándola.",
-          "source": "Política Nacional de Programa de Jóvenes 2020 (parafraseado del espíritu del documento)"
+          "text": "<strong>Caso:</strong> el Consejo de Grupo va a decidir el tema del próximo campamento de tropa. ¿Lo decide el equipo de jefatura adulto? El Principio dice: <strong>escuchen a la patrulla primero</strong>. La participación del joven no es decorativa — moldea decisiones reales. En los consejos regionales y nacionales hay un lugar reservado para un Rover: el <strong>Representante Rover</strong> en la región, y el <strong>Representante Juvenil</strong> en el Consejo Scout Nacional. Esa silla existe justo para asegurar esa voz."
         },
         {
           "type": "info-box",
@@ -458,9 +452,9 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🏠 Grupo", "description": "El nivel local. <strong>20–80 personas.</strong> La política aterriza en lo concreto: actas, libro contable, asambleas anuales, plan de grupo. La intuición y la confianza personal pesan mucho.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🏠 Grupo", "description": "El nivel local. <strong>Entre 20 y 80 personas, como cifra aproximada.</strong> La política aterriza en lo concreto: actas, libro contable, asambleas anuales, plan de grupo. La intuición y la confianza personal pesan mucho.", "color": "#e8f5e9", "borderColor": "#4caf50" },
             { "title": "🏘️ Región", "description": "El nivel intermedio. <strong>Varios grupos en un territorio.</strong> La política tiene que armonizar realidades distintas: un grupo grande con uno chico, uno urbano con uno rural. El Revisor Fiscal hace el control fiscal.", "color": "#e3f2fd", "borderColor": "#2196f3" },
-            { "title": "🏛️ Nación", "description": "El nivel doctrinal y estratégico. Donde se elaboran las políticas, se aprueba el Plan Estratégico y se vigila el sistema completo. <strong>Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional</strong> como órganos de control.", "color": "#f3e5f5", "borderColor": "#9c27b0" }
+            { "title": "🏛️ Nación", "description": "El nivel doctrinal y estratégico. Donde se elaboran las políticas, se aprueba el Plan Estratégico y se vigila el sistema completo. <strong>Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional</strong> como órganos de control. Hoy se llama Comisión Nacional de Vigilancia y Control. Si alguna vez abres la PNDI 2017 en PDF, vas a ver que la llama “Comité de Control y Vigilancia” — es el mismo organismo, cambió de nombre.", "color": "#f3e5f5", "borderColor": "#9c27b0" }
           ]
         },
         {
@@ -473,7 +467,7 @@
           "items": [
             "<strong>Democracia</strong> en el grupo: votación en consejo de 7 personas con discusión cara a cara. En la nación: Asamblea Scout Nacional con cientos de delegados y reglamento de votaciones formal.",
             "<strong>Normatividad</strong> en el grupo: el jefe abre el reglamento de grupos cuando hay duda. En la nación: el CSN crea, modifica y publica los reglamentos que todos van a aplicar.",
-            "<strong>Participación Juvenil</strong> en el grupo: el consejero juvenil del grupo lleva voz de los scouts y rovers a las decisiones. En la nación: la PNPJ 2020 ordena cuotas de participación de jóvenes en órganos asesores."
+            "<strong>Participación Juvenil</strong> en el grupo: el Representante Rover del grupo lleva voz de los scouts y rovers a las decisiones. En la nación: la PNPJ 2024 ordena cuotas de participación de jóvenes en órganos asesores."
           ]
         },
         {

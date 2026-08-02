@@ -103,7 +103,7 @@
           "type": "policy-quote",
           "label": "📋 Ver la definición textual de la PNDI",
           "text": "Las buenas prácticas son el resultado de la articulación de los fundamentos del Desarrollo Institucional con cada uno de los ámbitos de gestión. También surgen de la experiencia propia, así como de la de otras instituciones que ejecutan tareas similares.",
-          "source": "Política Nacional de Desarrollo Institucional 2017, Capítulo 10, p. 13"
+          "source": "Política Nacional de Desarrollo Institucional 2017, Capítulo 10, p. 14"
         },
         {
           "type": "info-box",
@@ -176,7 +176,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<strong>Ejemplo:</strong> la práctica de convocar al revisor fiscal a las reuniones del consejo regional con tema financiero <strong>redujo a cero</strong> los hallazgos del informe anual del fiscal. Antes había en promedio 3 hallazgos por año. Eso es efectividad medible."
+          "text": "<strong>Ejemplo:</strong> la práctica de convocar al revisor fiscal a las reuniones del consejo con tema financiero <strong>redujo a cero</strong> los hallazgos del informe anual del fiscal en el Grupo “Aurora”. Antes había en promedio 3 hallazgos por año. Eso es efectividad medible."
         },
         {
           "type": "heading",
@@ -272,6 +272,10 @@
           "type": "heading",
           "level": 3,
           "text": "🔄 El ciclo de gestión de las buenas prácticas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Este es un modelo práctico en 6 pasos para vivir ese principio de mejora continua — la PNDI no lo numera así, pero es lo que en la práctica significa “perfeccionamiento constante”."
         },
         {
           "type": "method-grid",
@@ -445,7 +449,7 @@
           "type": "policy-quote",
           "label": "📋 Salud Institucional según la PNDI 2017",
           "text": "La 'Institución Saludable' es aquella que cumple la Misión y la Visión con apego a sus principios y valores, a través de la ejecución de buenas prácticas de manera consciente, sistemática y sostenida, en forma democrática, transparente y responsable, generando una cultura congruente y un buen clima entre sus miembros y relacionados, proyectando una imagen positiva a la sociedad.",
-          "source": "Política Nacional de Desarrollo Institucional 2017, Capítulo 11, p. 14"
+          "source": "Política Nacional de Desarrollo Institucional 2017, Capítulo 11, p. 14 (el documento original trae la errata 'consiente'; aquí se transcribe corregido como 'consciente' para facilitar la lectura)"
         },
         {
           "type": "paragraph",

@@ -210,10 +210,10 @@
           "type": "method-grid",
           "items": [
             { "title": "🏛️ Dirección — Asamblea Scout Nacional", "description": "La máxima autoridad de la ASC. Reúne a delegados de todas las regiones y aprueba el Estatuto, el Plan Estratégico, los Reglamentos y elige al Consejo Scout Nacional. Se reúne ordinariamente cada 2 años.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
-            { "title": "⚙️ Administración — Consejo Scout Nacional (CSN)", "description": "En receso de la Asamblea, es la autoridad máxima. Dirige la asociación según los reglamentos y las decisiones de la Asamblea. Emite los Acuerdos y Resoluciones que rigen la ASC (ejemplo: el Estatuto Nacional 2025 viene aprobado por el CSN).", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "⚙️ Administración — Consejo Scout Nacional (CSN)", "description": "En receso de la Asamblea, es la autoridad máxima. Dirige la asociación según los reglamentos y las decisiones de la Asamblea. Emite los Acuerdos y Resoluciones que rigen la ASC entre una Asamblea y la siguiente — por ejemplo, los reglamentos operativos y las políticas nacionales que no requieren pasar por la Asamblea.", "color": "#e8f5e9", "borderColor": "#4caf50" },
             { "title": "🛠️ Técnico — Jefatura Scout Nacional", "description": "Equipo ejecutivo. Encabezado por el Jefe Scout Nacional. Ejecuta las decisiones del CSN, coordina las Direcciones Nacionales (DNAM, DNDI, DNPJ) y atiende el día a día operativo.", "color": "#e3f2fd", "borderColor": "#2196f3" },
             { "title": "⚖️ Investigación/Disciplina — Corte de Honor Nacional", "description": "Órgano ético-disciplinario. Investiga conductas que afecten el honor scout y las normas. Tramita los procesos disciplinarios formales del nivel nacional. Aplica el Código de Honor, Disciplinario y de Conducta (Resolución C.S.N. N° 004-22).", "color": "#fce4ec", "borderColor": "#e91e63" },
-            { "title": "👁️ Control — Comisión Nacional de Vigilancia y Control", "description": "5 miembros. Ejerce el control social de la ASC: vigila la administración, vela por el cumplimiento de obligaciones estatutarias y reglamentarias por parte de los asociados. (Nota: la PNDI 2017 todavía lo nombra “Comité de Control y Vigilancia”; la nomenclatura vigente es “Comisión”.)", "color": "#fff9c4", "borderColor": "#fbc02d" }
+            { "title": "👁️ Control — Comisión Nacional de Vigilancia y Control", "description": "7 miembros (elegidos de forma escalonada cada 2 años). Ejerce el control social de la ASC: vigila la administración, vela por el cumplimiento de obligaciones estatutarias y reglamentarias por parte de los asociados. (Nota: la PNDI 2017 todavía lo nombra “Comité de Control y Vigilancia”; la nomenclatura vigente es “Comisión”.)", "color": "#fff9c4", "borderColor": "#fbc02d" }
           ]
         },
         {
@@ -296,8 +296,8 @@
           "type": "method-grid",
           "items": [
             { "title": "🏛️ Dirección — Asamblea Regional", "description": "Reúne a delegados de los grupos de la región. Aprueba el Plan Regional, elige al Consejo Regional, al Revisor Fiscal y a representantes a la Asamblea Nacional.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
-            { "title": "⚙️ Administración — Consejo Regional", "description": "Dirige la región en receso de la Asamblea. Encabezado por el Presidente del Consejo Regional. Incluye al Comisionado Regional.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🛠️ Técnico — Jefatura Regional", "description": "Equipo operativo de la región, liderado por el Comisionado Regional (o Jefe Regional, según nomenclatura regional). Coordina la asistencia a los grupos.", "color": "#e3f2fd", "borderColor": "#2196f3" },
+            { "title": "⚙️ Administración — Consejo Regional", "description": "Dirige la región en receso de la Asamblea. Encabezado por el Presidente del Consejo Regional. Incluye al Jefe Regional.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🛠️ Técnico — Jefatura Regional", "description": "Equipo operativo de la región, liderado por el Jefe Regional (a veces llamado, de forma informal, 'Comisionado Regional'). Coordina la asistencia a los grupos.", "color": "#e3f2fd", "borderColor": "#2196f3" },
             { "title": "⚖️ Investigación — Capítulo Regional de la Corte de Honor Nacional (Art. 1.20.4)", "description": "⚠️ Importante: NO es una “Corte de Honor Regional” autónoma. Es un Capítulo regional que depende doctrinalmente de la Corte de Honor Nacional. Investiga, recibe pruebas y propone reconocimientos a nivel regional.", "color": "#fce4ec", "borderColor": "#e91e63" },
             { "title": "👁️ Control — Revisor Fiscal Regional y Suplente (Art. 1.20.5)", "description": "Órgano unipersonal. Elegido anualmente por la Asamblea con su Suplente. Tiene voz pero NO voto en el Consejo Regional. Firma estados financieros, presenta informe anual, puede solicitar la intervención del nivel nacional si encuentra irregularidades.", "color": "#fff9c4", "borderColor": "#fbc02d" }
           ]
@@ -311,15 +311,15 @@
           "type": "method-grid",
           "items": [
             { "title": "🏛️ Dirección — Asamblea de Grupo", "description": "Reúne a los asociados del grupo (familias, dirigentes, en algunos casos los jóvenes mayores con voz). Aprueba el Plan de Grupo, elige al Consejo de Grupo, al Fiscal/Revisor Fiscal. Define las normas de funcionamiento del Grupo (Art. 4.3.12).", "color": "#f3e5f5", "borderColor": "#9c27b0" },
-            { "title": "⚙️ Administración — Consejo de Grupo", "description": "11 cargos típicos: presidente, vicepresidente, secretario, tesorero, contador, consejero juvenil, intendente, canciller, asesores personales y otros. Es la administración del día a día.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "⚙️ Administración — Consejo de Grupo", "description": "El Consejo de Grupo tiene 4 cargos fijos (presidente, vicepresidente, secretario, tesorero), puede sumar un intendente, y el resto de sus integrantes son vocales — cada grupo les reparte tareas según lo que necesite (contabilidad, cancillería, etc.). Es la administración del día a día.", "color": "#e8f5e9", "borderColor": "#4caf50" },
             { "title": "🛠️ Técnico — Equipo de Jefatura del Grupo", "description": "Encabezado por el Jefe de Grupo. Son los dirigentes que efectivamente trabajan con los chicos en cada rama (Manada, Tropa, Comunidad, Clan).", "color": "#e3f2fd", "borderColor": "#2196f3" },
             { "title": "⚖️ Investigación — Comisión Disciplinaria Ad-hoc (Art. 1.19.4)", "description": "⚠️ Importante: NO es permanente. Se convoca solo cuando hay un caso que tratar. Es presidida por el <strong>Vicepresidente del Consejo de Grupo</strong> (Art. 5.10.4). NO existe en la normatividad vigente una “Corte de Honor de Grupo” formal.", "color": "#fce4ec", "borderColor": "#e91e63" },
-            { "title": "👁️ Control — distribuido en el Consejo (Manual de Cargos y Perfiles)", "description": "A diferencia de los niveles Nacional y Regional, el <strong>Manual de Cargos y Perfiles</strong> (PNAM 2022) no define a nivel de Grupo un cargo único de control fiscal externo. El control financiero lo ejercen colegiadamente el <strong>Tesorero</strong> y el <strong>Contador</strong>; el <strong>Canciller</strong> acompaña el debido proceso; y la <strong>Asamblea de Grupo</strong> recibe el informe contable firmado. Esta es la asimetría más fuerte entre niveles.", "color": "#fff9c4", "borderColor": "#fbc02d" }
+            { "title": "👁️ Control — Fiscal o Revisor Fiscal de Grupo y Suplente (Art. 1.19.5)", "description": "Órgano unipersonal. Elegido anualmente por la Asamblea con su Suplente. Tiene voz pero NO voto en el Consejo de Grupo. Mismo perfil de funciones que el regional, a escala del grupo.", "color": "#fff9c4", "borderColor": "#fbc02d" }
           ]
         },
         {
           "type": "info-box",
-          "text": "<strong>Por nivel, el órgano de control y el órgano de disciplina son distintos:</strong><br>🏛️ <strong>Nacional</strong> → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ <strong>Regional</strong> → Revisor Fiscal (control) + Capítulo Regional de la Corte de Honor Nacional (disciplina).<br>🏠 <strong>Grupo</strong> → Control distribuido en el Consejo (Tesorero + Contador + Canciller, según Manual de Cargos y Perfiles) + Comisión Disciplinaria Ad-hoc (disciplina, solo cuando se convoca)."
+          "text": "<strong>Por nivel, el órgano de control y el órgano de disciplina son distintos:</strong><br>🏛️ <strong>Nacional</strong> → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ <strong>Regional</strong> → Revisor Fiscal (control) + Capítulo Regional de la Corte de Honor Nacional (disciplina).<br>🏠 <strong>Grupo</strong> → Fiscal/Revisor Fiscal (control) + Comisión Disciplinaria Ad-hoc (disciplina, solo cuando se convoca)."
         },
         {
           "type": "heading",
@@ -330,7 +330,7 @@
           "type": "timeline",
           "items": [
             { "title": "Regional — Confundir Capítulo Regional con Corte autónoma", "description": "Un comisionado regional convoca al “Capítulo Regional de la Corte de Honor” para que dicte sentencia disciplinaria a un dirigente. <strong>Error.</strong> El Capítulo investiga y recoge pruebas, pero la sentencia formal la dicta la Corte de Honor Nacional. <strong>Prevención:</strong> trabajar siempre con un cronograma articulado entre Capítulo regional y CHN nacional, no como órganos paralelos." },
-            { "title": "Grupo — Salida de plata sin doble firma de Tesorero y Contador", "description": "El Tesorero del grupo firma una salida importante de plata sin la firma del Contador, argumentando una urgencia. Tres meses después la Asamblea descubre que esa partida no está en el libro contable y los soportes no aparecen. <strong>Prevención (Manual de Cargos y Perfiles):</strong> establecer en las normas internas del grupo (Art. 4.3.12 RNG) que toda salida superior a un monto X requiere firma cruzada de Tesorero + Contador, y que la Asamblea recibe trimestralmente el informe contable firmado por ambos." }
+            { "title": "Grupo — No convocar el Fiscal a las reuniones del Consejo", "description": "El Consejo de Grupo decide la asignación de los recursos del año sin que el Fiscal esté presente o haya sido convocado. Cuando el Fiscal pide los soportes 6 meses después, el Consejo no los tiene completos y firma a la carrera. <strong>Prevención:</strong> el Fiscal/Revisor Fiscal tiene voz en el Consejo — convocarlo a todas las reuniones donde haya temas financieros relevantes evita problemas a fin de año." }
           ]
         },
         {
@@ -397,7 +397,7 @@
         },
         {
           "type": "mission-box",
-          "text": "<strong>📌 Tu mapa institucional — Nivel Grupo:</strong><br>• Jefe de Grupo: __________<br>• Presidente del Consejo de Grupo: __________<br>• Vicepresidente del Consejo: __________<br>• Tesorero: __________<br>• Contador: __________<br>• Canciller del Grupo: __________<br>• Secretario: __________<br>• Consejero Juvenil del Grupo: __________"
+          "text": "<strong>📌 Tu mapa institucional — Nivel Grupo:</strong><br>• Jefe de Grupo: __________<br>• Presidente del Consejo de Grupo: __________<br>• Vicepresidente del Consejo: __________<br>• Tesorero: __________<br>• Contador: __________<br>• Canciller del Grupo: __________<br>• Secretario: __________<br>• Consejero Juvenil del Grupo: __________<br>• Fiscal o Revisor Fiscal del Grupo: __________"
         },
         {
           "type": "mission-box",
@@ -417,7 +417,7 @@
           "items": [
             { "title": "🛠️ Pregunta operativa (cómo se hace un trámite, plantilla de un formato)", "description": "Equipo de Jefatura del nivel correspondiente: Jefatura del Grupo, Jefatura Regional o la Dirección Nacional respectiva.", "color": "#e3f2fd", "borderColor": "#2196f3" },
             { "title": "⚖️ Conflicto entre personas o falta disciplinaria", "description": "Comisión Disciplinaria Ad-hoc (grupo) → Capítulo Regional de la Corte de Honor (región) → Corte de Honor Nacional (nacional).", "color": "#fce4ec", "borderColor": "#e91e63" },
-            { "title": "👁️ Sospecha de irregularidad financiera o administrativa", "description": "<strong>Grupo:</strong> verificación interna en el Consejo (Tesorero + Contador + Canciller, según Manual de Cargos y Perfiles); si persiste, escalar al Revisor Fiscal Regional o al Capítulo Regional de la Corte de Honor. <strong>Regional:</strong> Revisor Fiscal Regional → si amerita, Comisión Nacional de Vigilancia y Control (nivel nacional).", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "👁️ Sospecha de irregularidad financiera o administrativa", "description": "Fiscal o Revisor Fiscal del nivel (grupo o región) → Comisión Nacional de Vigilancia y Control (nivel nacional).", "color": "#fff9c4", "borderColor": "#fbc02d" },
             { "title": "🏛️ Propuesta política o cambio de fondo", "description": "Asamblea o Consejo del nivel — depende de la magnitud. Las políticas las define el CSN; los planes operativos los aprueba el Consejo correspondiente.", "color": "#f3e5f5", "borderColor": "#9c27b0" }
           ]
         },
@@ -442,11 +442,11 @@
         "title": "Mini-quiz Lección 6 — Cierre del curso",
         "questions": [
           {
-            "text": "Un padre de familia denuncia que un dirigente del grupo se llevó dinero del grupo sin reportarlo. Según el Manual de Cargos y Perfiles, ¿qué procedimiento corresponde a nivel de Grupo?",
+            "text": "Un padre de familia denuncia que un dirigente se llevó una plata del grupo sin reportarla. ¿A qué órgano debería escalarse primero el caso en un grupo?",
             "options": [
-              "Escalar a la Comisión Nacional de Vigilancia y Control directamente, porque es asunto serio.",
-              "Llevarlo al Consejo de Grupo, que pide verificación contable al Tesorero y al Contador y, si la conducta amerita sanción, convoca la Comisión Disciplinaria Ad-hoc presidida por el Vicepresidente.",
-              "Escalar a la Corte de Honor Nacional, porque es un asunto disciplinario nacional."
+              "A la Comisión Nacional de Vigilancia y Control directamente, porque es asunto serio.",
+              "Al Fiscal o Revisor Fiscal del Grupo (para auditar) y, si la conducta amerita sanción, convocar la Comisión Disciplinaria Ad-hoc del Consejo de Grupo.",
+              "A la Corte de Honor Nacional, porque es un asunto disciplinario."
             ],
             "correctIndex": 1
           },

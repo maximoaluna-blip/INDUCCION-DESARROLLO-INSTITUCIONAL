@@ -1484,7 +1484,7 @@ body {
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #fff9c4, #fff9c4dd); border-color: #fbc02d;">
                         <h4>🟡 G-fort · 3 meses</h4>
-                        <p><strong>Implementar firma de acta al cierre de cada reunión del consejo</strong> + convocar al Tesorero y Contador a las reuniones con tema financiero. Subir atributos de Replicable y Efectiva.<br><em>Recursos:</em> formato de acta. <em>Hablar con:</em> Secretario.</p>
+                        <p><strong>Implementar firma de acta al cierre de cada reunión del consejo</strong> + convocar al Fiscal o Revisor Fiscal a las reuniones con tema financiero. Subir atributos de Replicable y Efectiva.<br><em>Recursos:</em> formato de acta. <em>Hablar con:</em> Secretario.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #ffebee, #ffebeedd); border-color: #f44336;">
                         <h4>🔴 G-crear · 3 meses</h4>
@@ -1514,11 +1514,11 @@ body {
                 <div class="method-elements">
                     <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #4caf50;">
                         <h4>🟢 RE-doc · 6 meses</h4>
-                        <p><strong>Escribir el plan financiero del grupo</strong>: 6 fuentes de fondos, margen mínimo (≥17%), uso de excedentes. Compartirlo como modelo replicable con la región.<br><em>Recursos:</em> Taller Flor de Lis II Sesión 2 (Planeación y Finanzas). <em>Hablar con:</em> Tesorero + Consejo.</p>
+                        <p><strong>Escribir el plan financiero del grupo</strong>: 6 fuentes de fondos, margen mínimo (≥17%), uso de excedentes. Compartirlo como modelo replicable con la región.<br><em>Recursos:</em> Taller Flor de Lis II — Módulo 5 (Planeación, finanzas y administración). <em>Hablar con:</em> Tesorero + Consejo.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #fff9c4, #fff9c4dd); border-color: #fbc02d;">
                         <h4>🟡 RE-fort · 6 meses</h4>
-                        <p><strong>Implementar libro contable básico con conciliación mensual</strong> + diversificar al menos 2 fuentes de fondos adicionales a la cuota. Subir atributo de Sostenibilidad.<br><em>Recursos:</em> plantilla contable + Taller FL II Sesión 2. <em>Hablar con:</em> Tesorero + Contador.</p>
+                        <p><strong>Implementar libro contable básico con conciliación mensual</strong> + diversificar al menos 2 fuentes de fondos adicionales a la cuota. Subir atributo de Sostenibilidad.<br><em>Recursos:</em> plantilla contable + Taller Flor de Lis II — Módulo 5. <em>Hablar con:</em> Tesorero + Contador.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #ffebee, #ffebeedd); border-color: #f44336;">
                         <h4>🔴 RE-crear · 3 meses</h4>
@@ -1668,7 +1668,7 @@ body {
                 <ul>
                     <li>Los <strong>8 ámbitos del Curso 5</strong> ordenados por prioridad: primero los ámbitos en <strong>NO</strong> (brechas críticas), luego los en <strong>PARCIAL</strong> o <strong>SÍ con atributos incompletos</strong>, y al final los en <strong>SÍ con atributos completos</strong>.</li>
                     <li>Para cada ámbito, la tipología de meta sugerida según el estado: <strong>Crear</strong> (para NO), <strong>Fortalecer</strong> (para PARCIAL/SÍ incompleto), <strong>Documentar</strong> (para SÍ completo).</li>
-                    <li>Plazo sugerido: para Crear, metas de 3 meses; para Fortalecer, metas de 6 meses; para Documentar, metas de 6-12 meses.</li>
+                    <li>Plazo sugerido como referencia general, con algunas excepciones según el ámbito: para Crear, metas de 3 meses; para Fortalecer, metas de 6 meses; para Documentar, metas de 6-12 meses.</li>
                 </ul>
 
                 <h3>🛠️ Tu plan-builder</h3>
@@ -3587,8 +3587,9 @@ function renderCoursesSuggestions() {
         var coursesByAmbito = {
             'gobernanza': '🏛️ Curso 7 — Gobernanza Práctica',
             'administracion': '🗂️ Curso 9 — Administración del Grupo',
-            'recursos-economicos': '💰 Curso 10 — Finanzas Sanas: Presupuesto y Tesorería',
+            'recursos-economicos': '💰 Curso 11 — Captación de Fondos y Ciclo de Proyectos',
             'comunicaciones': '📣 Curso 12 — Comunicaciones y Relaciones Interinstitucionales',
+            'relaciones-internacionales': '📣 Curso 12 — Comunicaciones y Relaciones Interinstitucionales',
             'crecimiento': '📈 Curso 13 — Crecimiento y Sistema de Información',
             'gestion-del-riesgo': '🛡️ Curso 14 — Gestión del Riesgo',
             'control-y-reconocimiento': '🏅 Curso 20 — Órganos de control y disciplina (Nivel 3)'
@@ -3849,8 +3850,9 @@ function buildPlanPrintableHTML(planId) {
     var coursesByAmbito = {
         'gobernanza': '🏛️ Curso 7 — Gobernanza Práctica',
         'administracion': '🗂️ Curso 9 — Administración del Grupo',
-        'recursos-economicos': '💰 Curso 10 — Finanzas Sanas',
+        'recursos-economicos': '💰 Curso 11 — Captación de Fondos y Ciclo de Proyectos',
         'comunicaciones': '📣 Curso 12 — Comunicaciones',
+        'relaciones-internacionales': '📣 Curso 12 — Comunicaciones',
         'crecimiento': '📈 Curso 13 — Crecimiento',
         'gestion-del-riesgo': '🛡️ Curso 14 — Gestión del Riesgo',
         'control-y-reconocimiento': '🏅 Curso 20 — Órganos de control y disciplina'

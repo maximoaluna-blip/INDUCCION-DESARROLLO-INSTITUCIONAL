@@ -2,7 +2,7 @@
 
 **Línea:** Desarrollo Institucional · **Nivel:** 1 (Fundamentación) · **Posición:** Curso 2 de 6 del Nivel 1.
 
-> Continuación del Curso 1. Aquí se instala el lenguaje doctrinal común: qué es una política, las 4 acciones de la PNDI, los 4 fundamentos, los 7 principios y los 3 sujetos. Pero **siempre con ejemplos del grupo scout antes que con definiciones**.
+> Continuación del Curso 1. Aquí se instala el lenguaje doctrinal común: qué es una política, las acciones de la PNDI, los 4 fundamentos, los 7 principios y los 3 sujetos. Pero **siempre con ejemplos del grupo scout antes que con definiciones**.
 
 ---
 
@@ -27,7 +27,7 @@
 Al completar este curso, el adulto:
 
 1. **Distingue** una política institucional de un reglamento o un plan operativo, y reconoce por qué la ASC necesita una política para Desarrollo Institucional.
-2. **Recita en lenguaje propio** las 4 acciones de la PNDI (identificar, definir, articular, cumplir) y reconoce un ejemplo de cada una en su grupo.
+2. **Recita en lenguaje propio** las acciones de la PNDI (identificar, definir, articular) y el cuarto paso que añade este curso (cumplir), y reconoce un ejemplo de cada una en su grupo.
 3. **Identifica** los 4 fundamentos del Desarrollo Institucional y puede dar un ejemplo concreto de cada uno aplicado a su grupo o región.
 4. **Identifica** los 7 principios del Desarrollo Institucional y puede señalar uno donde su grupo brilla y uno donde flojea.
 5. **Reconoce** los 3 sujetos de la política (Grupo, Región, Nación) y cómo se diferencian sus aplicaciones.
@@ -50,7 +50,7 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 | # | Lección | Duración | Idea central | Logro al completar |
 |---|---|---|---|---|
 | 1 | 👋 Bienvenida | 3 min | "La doctrina no aburre. Sostiene." | Empecé la brújula |
-| 2 | 🧭 ¿Para qué sirve una política? + las 4 acciones de la PNDI | 5 min | La PNDI sirve para identificar, definir, articular y cumplir lo que sostiene la institución. | Domino las 4 acciones |
+| 2 | 🧭 ¿Para qué sirve una política? + las 4 acciones de la PNDI | 5 min | La PNDI sirve para identificar, definir y articular lo que sostiene la institución; el curso añade cumplir como cuarto paso propio. | Domino las 4 acciones |
 | 3 | 🏛️ Los 4 fundamentos del DI | 6 min | Los fundamentos son las vigas; sin ellas, todo se cae. | Conozco los 4 fundamentos |
 | 4 | ⚖️ Los 7 principios — Parte 1 (Normatividad, Colectividad y Consenso, Dinamismo y Flexibilidad) | 5 min | Los principios son los criterios para decidir cuando no hay regla clara. | Manejo los primeros 3 principios |
 | 5 | ⚖️ Los 7 principios — Parte 2 (Aspiracional, Coherencia, Prospectiva, Participación Juvenil) | 5 min | Los 4 principios restantes te mueven hacia adelante, no solo te ordenan. | Completé los 7 principios |
@@ -83,7 +83,7 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 
 ### 4.3 Lección 2 — 🧭 ¿Para qué sirve una política? + las 4 acciones de la PNDI (5 min)
 
-**Idea central:** La PNDI sirve para **identificar, definir, articular y cumplir** lo que sostiene la institución.
+**Idea central:** La PNDI sirve para **identificar, definir y articular** lo que sostiene la institución. Este curso añade un cuarto paso propio, **cumplir**, para que no se quede en el papel.
 
 **Secciones (en orden):**
 
@@ -93,24 +93,24 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
     - 📜 **Política** → _"Da el porqué. Inspira y orienta. Pocas, estables, doctrinales."_ (color morado)
     - 📘 **Reglamento** → _"Da el qué se hace y qué no. Operacional. Cambia más seguido."_ (color azul)
     - 🗓️ **Plan** → _"Da el cuándo y cuánto. Aterriza en el año o el cuatrienio."_ (color verde)
-4. **`paragraph`** — _"La **Política Nacional de Desarrollo Institucional** (PNDI 2017) cumple el primer rol: da el porqué del DI. Y para hacerlo, define cuatro acciones que cualquier adulto del movimiento puede usar para revisar si está haciendo bien su parte."_
-5. **`heading` (nivel 3)** — _"Las 4 acciones de la PNDI"_
+4. **`paragraph`** — _"La **Política Nacional de Desarrollo Institucional** (PNDI 2017) cumple el primer rol: da el porqué del DI. En su Propósito, la PNDI señala tres acciones — **identificar, definir y articular**. Este curso agrega una cuarta, **cumplir**, porque de nada sirve identificar, definir y articular si al final no se hace lo acordado."_
+5. **`heading` (nivel 3)** — _"Las acciones de la PNDI (+ 1 que añade este curso)"_
 6. **`method-grid`** — 4 tarjetas, una por acción, con ejemplo aterrizado:
     - 🔎 **Identificar** → _"Ver qué ámbitos de gestión están operando en mi grupo y cuáles están descuidados. Ejemplo: 'tenemos plan, tesorería y campamentos, pero nadie está pensando en crecimiento'."_
     - 🧱 **Definir** → _"Acordar cómo se hace cada cosa, por escrito. Ejemplo: 'el acta se firma antes de cerrar la reunión, no después'."_
     - 🔗 **Articular** → _"Conectar lo que hacemos con el plan de la región, el nacional y el mundial. Ejemplo: 'nuestro campamento alinea con la prioridad 3 del Plan Regional 2022-2025'."_
-    - ✅ **Cumplir** → _"Hacer realmente lo que está acordado, no solo escribirlo. Ejemplo: 'el libro de actas existe Y está al día con las últimas 6 reuniones'."_
+    - ✅ **Cumplir** → _"Hacer realmente lo que está acordado, no solo escribirlo. Este paso lo añade el curso — no aparece como palabra textual en la PNDI. Ejemplo: 'el libro de actas existe Y está al día con las últimas 6 reuniones'."_
 7. **`policy-quote`** — Cita textual de la PNDI:
     - `label`: "📋 Ver la frase exacta de la PNDI"
-    - `text`: _"directrices para identificar, definir y articular los ámbitos de gestión que dan soporte al Movimiento Scout para el cumplimiento de la Misión y la Visión."_
-    - `source`: "Política Nacional de Desarrollo Institucional 2017, Objeto, p. 1"
-8. **`info-box`** — Síntesis: _"En palabras simples: la PNDI te da el método para que tu grupo, región o nación **vea, acuerde, conecte y haga**. Las 4 acciones son la mecánica del DI."_
+    - `text`: _"es dar directrices que identifiquen, definían y articulen los ámbitos de gestión que dan soporte al Movimiento Scout para el cumplimiento de la Misión y la Visión."_
+    - `source`: "PNDI 2017, §3 Propósito, p. 6"
+8. **`info-box`** — Síntesis: _"En palabras simples: la PNDI te da el método para que tu grupo, región o nación **vea, acuerde y conecte** — identificar, definir y articular, tal como lo dice la Política. Este curso añade un cuarto paso, cumplir, para que todo eso no se quede en el papel."_
 
 **Reflexión:** _"De las 4 acciones (identificar, definir, articular, cumplir), ¿cuál crees que tu grupo o región hace mejor? ¿Cuál es la más débil? Anota un ejemplo concreto de cada una — no abstracto."_
 
 **Quiz (2 preguntas):**
 
-> **P1.** En el consejo de grupo de Andrés se decide hacer un campamento. Definen objetivos, programa, presupuesto y permisos, todo por escrito. Pero el día del campamento descubren que nadie convocó al revisor fiscal para firmar la salida de plata. ¿Qué acción de la PNDI les falló?
+> **P1.** En el consejo de grupo de Andrés se decide hacer un campamento. Definen objetivos, programa, presupuesto y permisos, todo por escrito. Pero el día del campamento descubren que nadie convocó al tesorero para firmar la salida de plata. ¿Qué acción de la PNDI les falló?
 >
 > a) _Identificar — no se dieron cuenta de que necesitaban un campamento._
 > b) _Definir — no acordaron cómo se hace un campamento._
@@ -234,13 +234,9 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 10. **`paragraph`** — _"**Lo que dice:** las decisiones de hoy se toman pensando en lo que vendrá en 3, 5 o 10 años — no solo en este trimestre."_
 11. **`paragraph`** — _"**Caso:** el consejo discute si comprar un terreno con los ahorros del grupo o seguir alquilando. El cálculo de 12 meses dice 'alquilemos, es más barato'. El cálculo de 10 años dice 'compremos, recuperamos la inversión'. Prospectiva pide que el consejo mire los dos horizontes y decida con visión, no con urgencia."_
 12. **`heading` (nivel 3)** — _"Principio 7 — Participación Juvenil 🌱"_
-13. **`paragraph`** — _"**Lo que dice:** los jóvenes del movimiento no son solo destinatarios de las decisiones — son parte de ellas, en las formas adecuadas a su edad y madurez. La Política Nacional de Participación Juvenil (2016) y la PNPJ (2020) lo desarrollan en detalle."_
-14. **`paragraph`** — _"**Caso:** el Consejo de Grupo va a decidir el tema del próximo campamento de tropa. ¿Lo decide el equipo de jefatura adulto? El Principio dice: **escuchen a la patrulla primero**. La participación del joven no es decorativa — moldea decisiones reales. En consejos regionales y nacionales existe el cargo de **Consejero Juvenil** justo para asegurar esa voz en el órgano de gobierno."_
-15. **`policy-quote`** — Cita textual:
-    - `label`: "📋 Ver lo que dice la PNPJ"
-    - `text`: _"La participación de los jóvenes en la toma de decisiones del Movimiento es un derecho y un método educativo: aprenden ciudadanía haciéndola, no escuchándola."_
-    - `source`: "Política Nacional de Programa de Jóvenes 2020 (parafraseado del espíritu del documento)"
-16. **`info-box`** — Síntesis: _"Estos 4 principios proyectan al grupo. **Aspiracional** te empuja a mejorar. **Coherencia** te alinea por dentro. **Prospectiva** te hace pensar a largo plazo. **Participación Juvenil** te recuerda para quién es todo esto."_
+13. **`paragraph`** — _"**Lo que dice:** los jóvenes del movimiento no son solo destinatarios de las decisiones — son parte de ellas, en las formas adecuadas a su edad y madurez. La Política Nacional de Participación Juvenil (2016) y la PNPJ (2024) lo desarrollan en detalle."_
+14. **`paragraph`** — _"**Caso:** el Consejo de Grupo va a decidir el tema del próximo campamento de tropa. ¿Lo decide el equipo de jefatura adulto? El Principio dice: **escuchen a la patrulla primero**. La participación del joven no es decorativa — moldea decisiones reales. En los consejos regionales y nacionales hay un lugar reservado para un Rover: el **Representante Rover** en la región, y el **Representante Juvenil** en el Consejo Scout Nacional. Esa silla existe justo para asegurar esa voz."_
+15. **`info-box`** — Síntesis: _"Estos 4 principios proyectan al grupo. **Aspiracional** te empuja a mejorar. **Coherencia** te alinea por dentro. **Prospectiva** te hace pensar a largo plazo. **Participación Juvenil** te recuerda para quién es todo esto."_
 
 **Reflexión:** _"De los 4 principios de esta lección, ¿cuál crees que va a costarle más a tu grupo o región vivirlo plenamente? Escribe una sola acción chica que harías el próximo mes para fortalecerlo."_
 
@@ -272,14 +268,14 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 2. **`paragraph`** — Apertura: _"Ya viste para qué sirve la PNDI, sus 4 acciones, sus 4 fundamentos y sus 7 principios. Falta una última pieza: **a quién aplica**. La PNDI menciona tres sujetos: Grupo, Región y Nación. Vamos a ver cómo se diferencian — porque no es lo mismo aplicar Democracia en una asamblea de 40 personas que en una de 4 000."_
 3. **`heading` (nivel 3)** — _"Los 3 sujetos de la política"_
 4. **`method-grid`** — 3 tarjetas:
-    - 🏠 **Grupo** → _"El nivel local. 20–80 personas. La política aterriza en lo concreto: actas, libro contable, asambleas anuales, plan de grupo. La intuición y la confianza personal pesan mucho."_ (color verde)
+    - 🏠 **Grupo** → _"El nivel local. Entre 20 y 80 personas, como cifra aproximada. La política aterriza en lo concreto: actas, libro contable, asambleas anuales, plan de grupo. La intuición y la confianza personal pesan mucho."_ (color verde)
     - 🏘️ **Región** → _"El nivel intermedio. Varios grupos en un territorio. La política tiene que armonizar realidades distintas: un grupo grande con uno chico, uno urbano con uno rural. El Revisor Fiscal hace el control fiscal."_ (color azul)
-    - 🇨🇴 **Nación** → _"El nivel doctrinal y estratégico. Donde se elaboran las políticas, se aprueba el Plan Estratégico y se vigila el sistema completo. Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional como órganos de control."_ (color morado)
+    - 🇨🇴 **Nación** → _"El nivel doctrinal y estratégico. Donde se elaboran las políticas, se aprueba el Plan Estratégico y se vigila el sistema completo. Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional como órganos de control. Hoy se llama Comisión Nacional de Vigilancia y Control. Si alguna vez abres la PNDI 2017 en PDF, vas a ver que la llama 'Comité de Control y Vigilancia' — es el mismo organismo, cambió de nombre."_ (color morado)
 5. **`paragraph`** — _"Los 3 sujetos comparten la misma PNDI. Pero **la escala cambia el cómo**:"_
 6. **`list`** — Ejemplos de "mismo principio, distinta escala":
     - "**Democracia** en el grupo: votación en consejo de 7 personas con discusión cara a cara. En la nación: Asamblea Scout Nacional con cientos de delegados y reglamento de votaciones formal."
     - "**Normatividad** en el grupo: el jefe abre el reglamento de grupos cuando hay duda. En la nación: el CSN crea, modifica y publica los reglamentos que todos van a aplicar."
-    - "**Participación Juvenil** en el grupo: el consejero juvenil del grupo lleva voz de los scouts y rovers a las decisiones. En la nación: la PNPJ 2020 ordena cuotas de participación de jóvenes en órganos asesores."
+    - "**Participación Juvenil** en el grupo: el Representante Rover del grupo lleva voz de los scouts y rovers a las decisiones. En la nación: la PNPJ 2024 ordena cuotas de participación de jóvenes en órganos asesores."
 7. **`info-box`** — _"Por eso esta línea tiene un Curso 3 entero dedicado a los **niveles y la estructura del Movimiento**. Acá solo necesitas saber que la política aplica a los tres y que las decisiones de un nivel impactan a los otros."_
 8. **`heading` (nivel 3)** — _"Tu brújula personal"_
 9. **`paragraph`** — _"Llegaste hasta acá con 4 fundamentos, 7 principios y 3 sujetos en la cabeza. Es mucho. Pero el objetivo de este curso no es que te lo aprendas de memoria — es que tengas una **brújula personal**. Algo así:"_
@@ -353,7 +349,7 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 | `method-grid` | L2 (2 grids), L6 |
 | `timeline` | L3 (4 timelines, uno por fundamento) |
 | `mission-box` | L1, L6 |
-| `policy-quote` | L2, L5 |
+| `policy-quote` | L2 |
 | `blockquote` | L3, L6 |
 | `reflection` | L2, L3, L4, L5, L6 (excepto L1 intro) |
 | `quiz` | L2, L3, L4, L5, L6 (excepto L1 intro) |
@@ -370,7 +366,7 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 | Lecciones de 3–8 min | ✅ rango 3–6 min |
 | Cada lección termina independiente | ✅ |
 | Lenguaje conversacional, tutea | ✅ |
-| Citas oficiales plegables (`policy-quote`) | ✅ L2 (PNDI) y L5 (PNPJ) |
+| Citas oficiales plegables (`policy-quote`) | ✅ L2 (PNDI). L5 no incluye `policy-quote` — no había cita textual verificable de la PNPJ vigente para mostrar. |
 | Reflexión personal por lección | ✅ excepto intro |
 | Mini-quiz 2 preguntas | ✅ |
 | 4–6 logros + 1 final | ✅ 5 + 1 |

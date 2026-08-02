@@ -70,7 +70,7 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
 **Secciones (en orden):**
 
 1. **`info-box`** — Tiempo estimado (~30 min) y promesa: _"Al final vas a salir con un **plan personal de aporte al DI firmado**, listo para llevar al consejo de tu grupo o región, o para guardarlo como tu compromiso personal. Sin abstracciones. Con metas, plazos y primer paso definido."_
-2. **`paragraph`** — Apertura: _"Llegaste al final del Nivel 1. Atravesaste seis cursos. Aprendiste qué es DI, conociste el marco doctrinal, ubicaste los órganos, recorriste los 8 ámbitos y mediste la salud institucional de tu grupo. Pero todo eso pierde sentido si no se traduce en algo concreto que vas a hacer. Este curso es ese puente."_
+2. **`paragraph`** — Apertura: _"Llegaste al final del Nivel 1. Atravesaste seis cursos. Aprendiste qué es DI, conociste el marco doctrinal, ubicaste los órganos, recorriste los 8 ámbitos y construiste el catálogo de buenas prácticas de tu grupo. Pero todo eso pierde sentido si no se traduce en algo concreto que vas a hacer. Este curso es ese puente."_
 3. **`paragraph`** — _"La buena noticia: **no vas a empezar de cero**. Este curso lee automáticamente tu **catálogo de buenas prácticas del Curso 5** (los 8 ámbitos con su estado: Sí completo, parcial, o sin desarrollar) y tu **brújula personal del Curso 2** (el principio que elegiste como criterio primero). A partir de ahí te propone metas concretas y tú las personalizas."_
 4. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 5. **`list`** — Las 5 ideas centrales de las Lecciones 2-6.
@@ -153,8 +153,8 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
     - 🔴 **A-crear (3 meses):** _"Definir quién es el responsable de cada activo del grupo y de los voluntarios. Primera lista nominal del equipo + de los bienes. Es la base de cualquier administración futura."_ → Recursos: hoja de cálculo simple. Hablar con: Jefe de Grupo.
 9. **`heading` (nivel 3)** — _"💰 Ámbito 3 — Recursos Económicos"_
 10. **`method-grid`** — 3 metas-tipo:
-    - 🟢 **RE-doc (6 meses):** _"Escribir el plan financiero del grupo: 6 fuentes de fondos, margen mínimo (>= 17%), uso de excedentes. Compartirlo como modelo replicable con la región."_ → Recursos: Taller Flor de Lis II Sesión 2 (Planeación y Finanzas). Hablar con: Tesorero + Consejo.
-    - 🟡 **RE-fort (6 meses):** _"Implementar libro contable básico con conciliación mensual + diversificar al menos 2 fuentes de fondos adicionales a la cuota. Subir atributo de Sostenibilidad."_ → Recursos: plantilla contable + Taller F2 Sesión 2. Hablar con: Tesorero + Contador.
+    - 🟢 **RE-doc (6 meses):** _"Escribir el plan financiero del grupo: 6 fuentes de fondos, margen mínimo (>= 17%), uso de excedentes. Compartirlo como modelo replicable con la región."_ → Recursos: Taller Flor de Lis II — Módulo 5 (Planeación, finanzas y administración). Hablar con: Tesorero + Consejo.
+    - 🟡 **RE-fort (6 meses):** _"Implementar libro contable básico con conciliación mensual + diversificar al menos 2 fuentes de fondos adicionales a la cuota. Subir atributo de Sostenibilidad."_ → Recursos: plantilla contable + Taller Flor de Lis II — Módulo 5. Hablar con: Tesorero + Contador.
     - 🔴 **RE-crear (3 meses):** _"Abrir cuenta bancaria del grupo si no existe + sacar la plata de cuentas personales. Cualquier cosa antes de cuenta del grupo es alto riesgo."_ → Recursos: documentación del grupo, banco. Hablar con: Tesorero + Banco.
 11. **`heading` (nivel 3)** — _"📣 Ámbito 4 — Comunicaciones e Interinstitucionales"_
 12. **`method-grid`** — 3 metas-tipo:
@@ -213,7 +213,7 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
 3. **`list`**:
     - "Los 8 ámbitos del Curso 5 ordenados por prioridad: primero los ámbitos en **NO** (brechas críticas), luego los en **PARCIAL** o **SÍ con atributos incompletos**, y al final los en **SÍ con atributos completos**."
     - "Para cada ámbito, la tipología de meta sugerida según el estado: Crear (para NO), Fortalecer (para PARCIAL/SÍ incompleto), Documentar (para SÍ completo)."
-    - "Plazo sugerido: para Crear, metas de 3 meses; para Fortalecer, metas de 6 meses; para Documentar, metas de 6-12 meses."
+    - "Plazo sugerido como referencia general, con algunas excepciones según el ámbito: para Crear, metas de 3 meses; para Fortalecer, metas de 6 meses; para Documentar, metas de 6-12 meses."
 4. **`heading` (nivel 3)** — _"🛠️ Tu plan-builder"_
 5. **`plan-builder`** (componente interactivo):
     - `planId`: `plan-personal-di`
@@ -274,8 +274,8 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
 7. **`courses-suggestion`** (componente que lee `catalogo-buenas-practicas-grupo` y sugiere cursos):
     - Si **Gobernanza** en NO/PARCIAL → **Curso 7 — Gobernanza Práctica**.
     - Si **Administración** en NO/PARCIAL → **Curso 9 — Administración del Grupo**.
-    - Si **Recursos Económicos** en NO/PARCIAL → **Curso 10 — Finanzas Sanas: Presupuesto y Tesorería**.
-    - Si **Comunicaciones** en NO/PARCIAL → **Curso 12 — Comunicaciones y Relaciones Interinstitucionales**.
+    - Si **Recursos Económicos** en NO/PARCIAL → **Curso 11 — Captación de Fondos y Ciclo de Proyectos**.
+    - Si **Comunicaciones** o **Relaciones Internacionales** en NO/PARCIAL → **Curso 12 — Comunicaciones y Relaciones Interinstitucionales**.
     - Si **Crecimiento** en NO/PARCIAL → **Curso 13 — Crecimiento y Sistema de Información**.
     - Si **Gestión del Riesgo** en NO/PARCIAL → **Curso 14 — Gestión del Riesgo**.
     - Si **Control y Reconocimiento** en NO/PARCIAL → cursos especializados del Nivel 3 (Curso 20 — Órganos de control y disciplina).

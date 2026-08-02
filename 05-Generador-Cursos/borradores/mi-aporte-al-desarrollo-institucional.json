@@ -166,7 +166,7 @@
           "type": "method-grid",
           "items": [
             { "title": "🟢 G-doc · 6 meses", "description": "<strong>Escribir la práctica de gobernanza del grupo en un documento de 1 página</strong>: cómo se convoca el consejo, cómo se decide, cómo se firma el acta. Compartirla con la región como aporte.<br><em>Recursos:</em> actas existentes, Reglamento Nacional de Grupos. <em>Hablar con:</em> Secretario + Presidente.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🟡 G-fort · 3 meses", "description": "<strong>Implementar firma de acta al cierre de cada reunión del consejo</strong> + convocar al Tesorero y Contador a las reuniones con tema financiero. Subir atributos de Replicable y Efectiva.<br><em>Recursos:</em> formato de acta. <em>Hablar con:</em> Secretario.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🟡 G-fort · 3 meses", "description": "<strong>Implementar firma de acta al cierre de cada reunión del consejo</strong> + convocar al Fiscal o Revisor Fiscal a las reuniones con tema financiero. Subir atributos de Replicable y Efectiva.<br><em>Recursos:</em> formato de acta. <em>Hablar con:</em> Secretario.", "color": "#fff9c4", "borderColor": "#fbc02d" },
             { "title": "🔴 G-crear · 3 meses", "description": "<strong>Establecer el ritual de la reunión del consejo</strong>: agenda escrita, alguien que tome acta, decisiones registradas. Esa es tu primera práctica de gobernanza.<br><em>Recursos:</em> plantilla simple de acta. <em>Hablar con:</em> Presidente del Consejo.", "color": "#ffebee", "borderColor": "#f44336" }
           ]
         },
@@ -191,8 +191,8 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🟢 RE-doc · 6 meses", "description": "<strong>Escribir el plan financiero del grupo</strong>: 6 fuentes de fondos, margen mínimo (≥17%), uso de excedentes. Compartirlo como modelo replicable con la región.<br><em>Recursos:</em> Taller Flor de Lis II Sesión 2 (Planeación y Finanzas). <em>Hablar con:</em> Tesorero + Consejo.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🟡 RE-fort · 6 meses", "description": "<strong>Implementar libro contable básico con conciliación mensual</strong> + diversificar al menos 2 fuentes de fondos adicionales a la cuota. Subir atributo de Sostenibilidad.<br><em>Recursos:</em> plantilla contable + Taller FL II Sesión 2. <em>Hablar con:</em> Tesorero + Contador.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🟢 RE-doc · 6 meses", "description": "<strong>Escribir el plan financiero del grupo</strong>: 6 fuentes de fondos, margen mínimo (≥17%), uso de excedentes. Compartirlo como modelo replicable con la región.<br><em>Recursos:</em> Taller Flor de Lis II — Módulo 5 (Planeación, finanzas y administración). <em>Hablar con:</em> Tesorero + Consejo.", "color": "#e8f5e9", "borderColor": "#4caf50" },
+            { "title": "🟡 RE-fort · 6 meses", "description": "<strong>Implementar libro contable básico con conciliación mensual</strong> + diversificar al menos 2 fuentes de fondos adicionales a la cuota. Subir atributo de Sostenibilidad.<br><em>Recursos:</em> plantilla contable + Taller Flor de Lis II — Módulo 5. <em>Hablar con:</em> Tesorero + Contador.", "color": "#fff9c4", "borderColor": "#fbc02d" },
             { "title": "🔴 RE-crear · 3 meses", "description": "<strong>Abrir cuenta bancaria del grupo si no existe</strong> + sacar la plata de cuentas personales. Cualquier cosa antes de cuenta del grupo es alto riesgo.<br><em>Recursos:</em> documentación del grupo, banco. <em>Hablar con:</em> Tesorero + Banco.", "color": "#ffebee", "borderColor": "#f44336" }
           ]
         },
@@ -310,7 +310,7 @@
           "items": [
             "Los <strong>8 ámbitos del Curso 5</strong> ordenados por prioridad: primero los ámbitos en <strong>NO</strong> (brechas críticas), luego los en <strong>PARCIAL</strong> o <strong>SÍ con atributos incompletos</strong>, y al final los en <strong>SÍ con atributos completos</strong>.",
             "Para cada ámbito, la tipología de meta sugerida según el estado: <strong>Crear</strong> (para NO), <strong>Fortalecer</strong> (para PARCIAL/SÍ incompleto), <strong>Documentar</strong> (para SÍ completo).",
-            "Plazo sugerido: para Crear, metas de 3 meses; para Fortalecer, metas de 6 meses; para Documentar, metas de 6-12 meses."
+            "Plazo sugerido como referencia general, con algunas excepciones según el ámbito: para Crear, metas de 3 meses; para Fortalecer, metas de 6 meses; para Documentar, metas de 6-12 meses."
           ]
         },
         {

@@ -105,7 +105,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada uno de los 5 atrib
 9. **`policy-quote`**:
     - `label`: "📋 Ver la definición textual de la PNDI"
     - `text`: _"Las buenas prácticas son el resultado de la articulación de los fundamentos del Desarrollo Institucional con cada uno de los ámbitos de gestión. También surgen de la experiencia propia, así como de la de otras instituciones que ejecutan tareas similares."_
-    - `source`: "Política Nacional de Desarrollo Institucional 2017, Capítulo 10, p. 13"
+    - `source`: "Política Nacional de Desarrollo Institucional 2017, Capítulo 10, p. 14"
 10. **`info-box`** — Síntesis: _"💡 En palabras simples: **una buena práctica es algo que tu grupo hace bien, sabe por qué lo hace bien, lo puede repetir, y lo puede enseñar a otros**. Las cuatro cosas juntas, no por separado."_
 
 **Reflexión:** _"Piensa en algo concreto que tu grupo hace y que tú considerarías 'una buena práctica'. ¿Cumple las tres condiciones (conectada con un ámbito, sostenida por fundamentos, repetible sin la persona)? Si una de las tres falla, ¿cuál es?"_
@@ -141,7 +141,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada uno de los 5 atrib
 5. **`paragraph`** — _"**Ejemplo:** en el Grupo 'Aurora' las actas se escribían a mano y se guardaban en una carpeta. Innovaron pasándolas a una carpeta compartida en Drive con firma digital. Mismo objetivo, mejor método."_
 6. **`heading` (nivel 3)** — _"🎯 Atributo 2 — Efectiva"_
 7. **`paragraph`** — _"**Qué significa:** logra el resultado que buscaba. Se puede comprobar — no es 'creo que funciona', es 'sabemos que funciona porque medimos esto'."_
-8. **`paragraph`** — _"**Ejemplo:** la práctica de convocar al revisor fiscal a las reuniones del consejo con tema financiero **redujo a cero** los hallazgos del informe anual del fiscal en el Grupo 'Aurora'. Antes había en promedio 3 hallazgos por año. Eso es efectividad medible."_
+8. **`paragraph`** — _"**Ejemplo:** la práctica de convocar al revisor fiscal a las reuniones del consejo con tema financiero **redujo a cero** los hallazgos del informe anual del fiscal en el Grupo 'Aurora'. Antes había en promedio 3 hallazgos por año. Eso es efectividad medible."_ *(Nota de auditoría: se confirmó que el diseño mantiene "consejo" y "Grupo 'Aurora'"; el JSON tenía una desviación — "consejo regional" sin el Grupo — que fue corregida para volver a alinearlo con este diseño, M1.)*
 9. **`heading` (nivel 3)** — _"🌳 Atributo 3 — Sostenible"_
 10. **`paragraph`** — _"**Qué significa:** se puede mantener en el tiempo con los recursos que el grupo tiene. No depende de un dirigente extraordinario, ni de una plata externa que puede desaparecer."_
 11. **`paragraph`** — _"**Ejemplo:** una práctica de comunicación con familias por boletín mensual hecho con plantillas pre-armadas (15 min de trabajo por mes) **es sostenible**. Hacer un video producido profesionalmente cada mes — si depende de un dirigente que se va — **no lo es**."_
@@ -183,7 +183,8 @@ Se enuncia en la Lección 1, se referencia al introducir cada uno de los 5 atrib
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — _"La PNDI 2017 dice literalmente que las buenas prácticas 'son dinámicas pues forman parte de un proceso de mejora continua que las retroalimenta y mantiene en constante perfeccionamiento'. Eso significa que **una buena práctica no es algo que se logra y se archiva** — es algo que se cuida, se revisa, se mejora. Vamos a ver el ciclo."_
 3. **`heading` (nivel 3)** — _"🔄 El ciclo de gestión de las buenas prácticas"_
-4. **`method-grid`** — 6 tarjetas, una por paso:
+4. **`paragraph`** — _"Este es un modelo práctico en 6 pasos para vivir ese principio de mejora continua — la PNDI no lo numera así, pero es lo que en la práctica significa 'perfeccionamiento constante'."_
+5. **`method-grid`** — 6 tarjetas, una por paso:
     - 🔎 **1. Identificar** → _"Reconocer qué hace tu grupo que vale la pena. La conversación del consejo no debería ser solo 'qué hay que arreglar' — debería incluir 'qué ya estamos haciendo bien y a veces ni lo nombramos'."_ (color amarillo)
     - 📝 **2. Documentar** → _"Pasar de la cabeza al papel. Una página, una plantilla, un procedimiento. Sin documentación, la práctica vive solo mientras esté la persona que la sostiene."_ (color azul)
     - ▶️ **3. Aplicar** → _"Volverla parte del día a día del grupo. No basta con tener el documento — hay que vivirlo en cada reunión, cada salida, cada decisión."_ (color verde)
@@ -280,7 +281,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada uno de los 5 atrib
 7. **`policy-quote`**:
     - `label`: "📋 Salud Institucional según la PNDI 2017"
     - `text`: _"La 'Institución Saludable' es aquella que cumple la Misión y la Visión con apego a sus principios y valores, a través de la ejecución de buenas prácticas de manera consciente, sistemática y sostenida, en forma democrática, transparente y responsable, generando una cultura congruente y un buen clima entre sus miembros y relacionados, proyectando una imagen positiva a la sociedad."_
-    - `source`: "Política Nacional de Desarrollo Institucional 2017, Capítulo 11, p. 14"
+    - `source`: "Política Nacional de Desarrollo Institucional 2017, Capítulo 11, p. 14 (el documento original trae la errata 'consiente'; aquí se transcribe corregido como 'consciente' para facilitar la lectura)"
 8. **`paragraph`** — _"Esa es la definición oficial. Fíjate que la PNDI no dice 'la institución sana es la que tiene un perfil 5 en una rúbrica' — dice que es la que **ejecuta buenas prácticas de manera consciente, sistemática y sostenida**. Por eso este curso te dio el concepto y el filtro de las buenas prácticas, no una rúbrica de evaluación: porque la salud institucional, a la luz de la PNDI, se construye una buena práctica a la vez."_
 9. **`heading` (nivel 3)** — _"🗺️ Lo que viene"_
 10. **`paragraph`** — _"El **Curso 6** —cierre del Nivel 1— lee tu catálogo y te ayuda a convertirlo en un **plan personal de aporte**. Para cada ámbito te va a sugerir metas según el estado en que quedó: si está verde, meta de 'documentar y compartir'; si está amarillo, meta de 'fortalecer atributos'; si está rojo, meta de 'crear una primera práctica'. Y todo enmarcado en los principios y la brújula que elegiste en el Curso 2."_

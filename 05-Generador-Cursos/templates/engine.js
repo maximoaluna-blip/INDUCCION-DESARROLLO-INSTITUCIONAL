@@ -1600,8 +1600,9 @@ function renderCoursesSuggestions() {
         var coursesByAmbito = {
             'gobernanza': '🏛️ Curso 7 — Gobernanza Práctica',
             'administracion': '🗂️ Curso 9 — Administración del Grupo',
-            'recursos-economicos': '💰 Curso 10 — Finanzas Sanas: Presupuesto y Tesorería',
+            'recursos-economicos': '💰 Curso 11 — Captación de Fondos y Ciclo de Proyectos',
             'comunicaciones': '📣 Curso 12 — Comunicaciones y Relaciones Interinstitucionales',
+            'relaciones-internacionales': '📣 Curso 12 — Comunicaciones y Relaciones Interinstitucionales',
             'crecimiento': '📈 Curso 13 — Crecimiento y Sistema de Información',
             'gestion-del-riesgo': '🛡️ Curso 14 — Gestión del Riesgo',
             'control-y-reconocimiento': '🏅 Curso 20 — Órganos de control y disciplina (Nivel 3)'
@@ -1862,8 +1863,9 @@ function buildPlanPrintableHTML(planId) {
     var coursesByAmbito = {
         'gobernanza': '🏛️ Curso 7 — Gobernanza Práctica',
         'administracion': '🗂️ Curso 9 — Administración del Grupo',
-        'recursos-economicos': '💰 Curso 10 — Finanzas Sanas',
+        'recursos-economicos': '💰 Curso 11 — Captación de Fondos y Ciclo de Proyectos',
         'comunicaciones': '📣 Curso 12 — Comunicaciones',
+        'relaciones-internacionales': '📣 Curso 12 — Comunicaciones',
         'crecimiento': '📈 Curso 13 — Crecimiento',
         'gestion-del-riesgo': '🛡️ Curso 14 — Gestión del Riesgo',
         'control-y-reconocimiento': '🏅 Curso 20 — Órganos de control y disciplina'

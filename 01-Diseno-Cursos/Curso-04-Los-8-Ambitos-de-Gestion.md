@@ -30,7 +30,7 @@ Al completar este curso, el adulto:
 2. **Reconoce** una micro-historia ilustrativa por cada ámbito (caso real con detalles cambiados).
 3. **Ubica** cualquier decisión cotidiana del grupo en el ámbito al que pertenece.
 4. **Distingue** los 8 ámbitos PNDI 2017 (visión conceptual) de las 5 subcategorías operativas DNDI vigentes (organización actual) y entiende por qué ambas conviven.
-5. **Conecta** los 8 ámbitos con las 6 dimensiones de salud institucional que verá en el Curso 5.
+5. **Conecta** los 8 ámbitos con el catálogo de buenas prácticas (5 atributos de la PNDI 2017, Cap. 10) que verá en el Curso 5.
 6. **Sale** habiendo identificado los 2-3 ámbitos donde más oportunidad de aporte tiene en su grupo o región.
 
 ---
@@ -51,7 +51,7 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 |---|---|---|---|---|
 | 1 | 👋 Bienvenida | 3 min | "Ponerle nombre a los ámbitos te da poder de gestión." | Empecé el recorrido |
 | 2 | 🗺️ Mapa de los 8 ámbitos (vista panorámica) | 5 min | Los 8 ámbitos cubren TODO el trabajo institucional del grupo, sin huecos ni dobles. | Veo el mapa completo |
-| 3 | 🏛️ Ámbitos 1-3 — Gobernanza, Administración, Recursos Económicos | 8 min | Estos tres ámbitos sostienen la **operación interna** del grupo. | Domino los ámbitos internos |
+| 3 | 🏛️ Ámbitos 1-3 — Gobernanza, Administración, Gestión de Recursos Económicos | 8 min | Estos tres ámbitos sostienen la **operación interna** del grupo. | Domino los ámbitos internos |
 | 4 | 🌐 Ámbitos 4-6 — Comunicaciones, Relaciones Internacionales, Crecimiento | 8 min | Estos tres ámbitos conectan al grupo con el **exterior y el futuro**. | Domino los ámbitos hacia afuera |
 | 5 | 🛡️ Ámbitos 7-8 — Gestión del Riesgo, Control y Reconocimiento | 6 min | Estos dos ámbitos **protegen** al grupo de lo que puede salir mal y le dan estímulo a lo que sale bien. | Domino los ámbitos protectores |
 | 6 | 🎯 Tus ámbitos prioritarios + 8 ámbitos vs 5 subcategorías DNDI | 5 min | El adulto identifica 2-3 ámbitos donde puede aportar más. Y entiende la convivencia entre la visión conceptual (8 ámbitos PNDI) y la organización operativa actual (5 subcategorías DNDI). | Ámbitos a la vista |
@@ -92,8 +92,8 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 4. **`method-grid`** — 8 tarjetas, una por ámbito:
     - 🏛️ **1. Gobernanza** → _"Cómo se toman las decisiones, quién decide qué, cómo se documentan."_ (color morado)
     - 🗂️ **2. Administración** → _"Activos, RR.HH. del grupo, obligaciones legales, servicios generales. La administración interna."_ (color azul oscuro)
-    - 💰 **3. Recursos Económicos** → _"De dónde viene la plata, cómo se gestiona, qué proyectos se financian, márgenes y sostenibilidad."_ (color verde)
-    - 📣 **4. Comunicaciones e Interinstitucionales** → _"Cómo se comunica el grupo internamente, con su comunidad, con la prensa, con otras organizaciones."_ (color naranja)
+    - 💰 **3. Gestión de Recursos Económicos** → _"De dónde viene la plata, cómo se gestiona, qué proyectos se financian, márgenes y sostenibilidad."_ (color verde)
+    - 📣 **4. Comunicaciones y Relaciones Interinstitucionales** → _"Cómo se comunica el grupo internamente, con su comunidad, con la prensa, con otras organizaciones."_ (color naranja)
     - 🌐 **5. Relaciones Internacionales** → _"Vínculo con OMMS, con OSN de otros países, con multilaterales (ONU, UNESCO, UNICEF)."_ (color azul claro)
     - 📈 **6. Crecimiento y Sistema de Información** → _"Cómo crece la membresía, cómo se registra y se hace seguimiento, las bases de datos del grupo."_ (color amarillo)
     - 🛡️ **7. Gestión del Riesgo** → _"Ambiente seguro, protección financiera, actividades seguras. Lo que evita que las cosas salgan mal."_ (color rojo)
@@ -101,7 +101,7 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 5. **`info-box`** — Sub-ámbitos: _"Cada uno de los 8 ámbitos tiene **sub-ámbitos** que lo desagregan. Por ejemplo, **Administración** incluye 7 sub-ámbitos: recursos financieros, activos fijos y variables, RRHH del grupo, pasivos y obligaciones, unidades de negocio, obligaciones legales con el Estado, servicios generales de planta física. En este curso ves el panorama; los Cursos 9-14 del Nivel 2 entran al detalle de cada uno."_
 6. **`policy-quote`**:
     - `label`: "📋 Ver lista oficial de la PNDI"
-    - `text`: _"Los ámbitos de gestión del Desarrollo Institucional son: 8.2.1 Gobernanza; 8.2.2 Administración; 8.2.3 Recursos Económicos; 8.2.4 Comunicaciones e Interinstitucionales; 8.2.5 Relaciones Internacionales; 8.2.6 Crecimiento y Sistema de Información; 8.2.7 Gestión del Riesgo; 8.2.8 Control y Reconocimiento."_
+    - `text`: _"Los ámbitos de gestión del Desarrollo Institucional son: 8.2.1 Gobernanza; 8.2.2 Administración; 8.2.3 Gestión de Recursos Económicos; 8.2.4 Comunicaciones y Relaciones Interinstitucionales; 8.2.5 Relaciones Internacionales; 8.2.6 Crecimiento y Sistema de Información; 8.2.7 Gestión del Riesgo; 8.2.8 Control y Reconocimiento."_
     - `source`: "Política Nacional de Desarrollo Institucional 2017, Capítulo 8, Sección 8.2"
 
 **Reflexión:** _"Mira la lista de los 8 ámbitos. Sin pensar mucho: ¿cuáles dos son los que crees que tu grupo trabaja mejor? ¿Cuáles dos son los más descuidados? Tu intuición vale — vamos a contrastarla al final del curso."_
@@ -114,7 +114,7 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 > b) _6 ámbitos._
 > c) _8 ámbitos._ ✅
 
-> **P2.** Una propuesta del consejo de grupo que toca a la vez Gobernanza, Recursos Económicos y Comunicaciones es…
+> **P2.** Una propuesta del consejo de grupo que toca a la vez Gobernanza, Gestión de Recursos Económicos y Comunicaciones es…
 >
 > a) _Una propuesta mal hecha que debería separarse en tres._
 > b) _Una propuesta institucionalmente compleja que requiere análisis cruzado de varios ámbitos._ ✅
@@ -124,7 +124,7 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 
 ---
 
-### 4.4 Lección 3 — 🏛️ Ámbitos 1-3 — Gobernanza, Administración, Recursos Económicos (8 min)
+### 4.4 Lección 3 — 🏛️ Ámbitos 1-3 — Gobernanza, Administración, Gestión de Recursos Económicos (8 min)
 
 **Idea central:** Estos tres ámbitos sostienen la operación interna del grupo. Sin ellos, lo demás se cae.
 
@@ -140,8 +140,8 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 7. **`paragraph`** — _"**Qué cubre:** los 7 sub-ámbitos de la administración interna del grupo: **recursos financieros**, **activos fijos y variables** (sede, carpas, equipos), **recursos humanos** (los dirigentes, los voluntarios), **pasivos y obligaciones**, **unidades de negocio** (si el grupo opera una cantina, una tienda scout), **obligaciones legales con el Estado** (cámara de comercio, retenciones, impuestos), y **servicios generales de planta física** (luz, agua, mantenimiento de la sede)."_
 8. **`timeline`** — Micro-historia (2):
     - **🗂️ Caso Grupo 'Coraje':** _"El intendente hace inventario de carpas, equipos, libros y herramientas cada 6 meses, antes y después de la temporada de campamentos. Cuando un equipo se daña, queda registrado quién lo reportó y cuándo. Cuando llega un dirigente nuevo, no tiene que adivinar qué tienen — abre la planilla. **Administración sana.**"_
-9. **`heading` (nivel 3)** — _"💰 Ámbito 3 — Recursos Económicos"_
-10. **`paragraph`** — _"**Qué cubre:** las **6 fuentes de fondos** clásicas del scoutismo (cuotas, eventos del grupo, servicios a terceros, aliados, donaciones, convocatorias), la planeación financiera, el manejo de proyectos. La PNDI sugiere un **margen mínimo del 17%** sobre los ingresos para reinversión. Aquí entra también el **ciclo de proyectos** (11 fases del Project Cycle de WOSM) cuando el grupo postula a fondos externos."_
+9. **`heading` (nivel 3)** — _"💰 Ámbito 3 — Gestión de Recursos Económicos"_
+10. **`paragraph`** — _"**Qué cubre:** las **6 fuentes de fondos** clásicas del scoutismo (cuotas, eventos del grupo, servicios a terceros, aliados, donaciones, convocatorias), la planeación financiera, el manejo de proyectos. Muchos grupos sanos se ponen una meta propia de margen para tener colchón — no es un número que exija la PNDI, pero sí una buena práctica de planeación financiera. Aquí entra también el **ciclo de proyectos** (11 fases del Project Cycle de WOSM) cuando el grupo postula a fondos externos."_
 11. **`timeline`** — Micro-historia (3):
     - **💰 Caso Grupo 'Sumapaz':** _"Llegan a fin de año con margen de 22 % sobre ingresos. ¿Por qué? Porque diversificaron: cuota mensual familiar, kermés trimestral con el barrio, servicio de catering en eventos comunitarios (una vez al mes), una empresa local que aporta como aliado anual, y postulación a un fondo municipal. Cuando un padre pierde el trabajo y no puede pagar la cuota, el grupo le da beca con cargo a esa reserva — sin que el resto del año se afecte. **Recursos Económicos sanos.**"_
 12. **`info-box`** — Conexión: _"Estos tres ámbitos se ven en detalle en los Cursos 7 (Gobernanza Práctica), 9 (Administración del Grupo) y 10 (Finanzas Sanas) del Nivel 2. Acá viste el panorama; el detalle viene después."_
@@ -159,7 +159,7 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 > **P2.** Si tu grupo opera la cuota mensual, una kermés anual y aspira a postular a un fondo municipal, está trabajando principalmente en el ámbito de…
 >
 > a) _Gobernanza._
-> b) _Recursos Económicos._ ✅
+> b) _Gestión de Recursos Económicos._ ✅
 > c) _Comunicaciones._
 
 **Logro:** "Domino los ámbitos internos".
@@ -174,7 +174,7 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — _"Si los tres ámbitos anteriores son la columna interna, estos tres son los brazos que llegan afuera y los ojos que miran al horizonte. Un grupo solo con columna interna se mantiene, pero no crece ni se renueva. Estos tres ámbitos son los que evitan que el grupo se convierta en una isla."_
-3. **`heading` (nivel 3)** — _"📣 Ámbito 4 — Comunicaciones e Interinstitucionales"_
+3. **`heading` (nivel 3)** — _"📣 Ámbito 4 — Comunicaciones y Relaciones Interinstitucionales"_
 4. **`paragraph`** — _"**Qué cubre:** los 4 sub-ámbitos de comunicación: **internas** (entre dirigentes, entre el consejo y las familias), **externas** (con la comunidad del barrio, redes sociales, prensa), **relaciones públicas** (eventos, alianzas con instituciones locales), e **interinstitucionales** (vínculo con la región, la nación, otras organizaciones). Incluye la **imagen institucional**, el manejo de **marca** y la **narrativa pública** del grupo."_
 5. **`timeline`** — Micro-historia (4):
     - **📣 Caso Grupo 'Iguaque':** _"Cuando hubo un accidente menor en un campamento, el jefe de grupo escribió un comunicado a las familias en 30 minutos: qué pasó, qué medidas se tomaron, qué van a hacer para que no se repita. Esa misma noche lo publicaron en el grupo de WhatsApp y por correo. Tres familias agradecieron la transparencia. Una preguntó cómo apoyar. **Cero familias se retiraron**. La diferencia entre rumor y comunicación oportuna es enorme. **Comunicaciones sanas.**"_
@@ -183,7 +183,7 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 8. **`timeline`** — Micro-historia (5):
     - **🌐 Caso Grupo 'Bachué':** _"Postularon su proyecto de huerta comunitaria al programa global 'Champions for Nature' de WOSM. Lo presentaron en inglés con apoyo de la jefa de tropa que es traductora. Los aceptaron, recibieron un kit de implementación, conectaron con un grupo en Filipinas que hace algo parecido. El proyecto creció. Las chicas del clan publicaron un video del intercambio. **El scoutismo es global, pero solo si te conectas. Relaciones Internacionales operando.**"_
 9. **`heading` (nivel 3)** — _"📈 Ámbito 6 — Crecimiento y Sistema de Información"_
-10. **`paragraph`** — _"**Qué cubre:** cómo crece la membresía (cuántos chicos y adultos entran y salen cada año), cómo se registra y se hace seguimiento (la base de datos del grupo, el sistema de identificación scout, los carnés), las estadísticas básicas, el apoyo a la membresía existente. La plataforma **SiScout** y el **Modelo de Servicios OMMS** entran acá. **KPI del Plan Regional Interamericano 2022-2025:** crecimiento ≥ 2 % anual."_
+10. **`paragraph`** — _"**Qué cubre:** cómo crece la membresía (cuántos chicos y adultos entran y salen cada año), cómo se registra y se hace seguimiento (la base de datos del grupo, el sistema de identificación scout, los carnés), las estadísticas básicas, el apoyo a la membresía existente. La plataforma **SiScout** y el **Modelo de Servicios OMMS** entran acá. El **Plan Regional Interamericano 2022-2025** espera que al menos 17 países de la región reporten un crecimiento de membresía de al menos 2 % en todo el período (no por año). No es una meta anual para tu grupo, pero sí una señal de qué tan ambicioso debería ser tu plan de crecimiento."_
 11. **`timeline`** — Micro-historia (6):
     - **📈 Caso Grupo 'Pisamadores':** _"Hace 4 años, el grupo tenía 28 chicos y 6 dirigentes. La comisionada regional de crecimiento les propuso un plan trienal: campaña de barrio una vez al año, jornada de puertas abiertas, mejorar el seguimiento de los que se inscriben pero no vuelven. Llevaron registro mes a mes en una hoja simple. Tres años después tienen 65 chicos y 11 dirigentes. Crecieron sostenidamente. **Crecimiento medido y planeado.**"_
 12. **`info-box`** — Conexión: _"Estos tres ámbitos se ven en detalle en los Cursos 12 (Comunicaciones y Relaciones Interinstitucionales) y 13 (Crecimiento y Sistema de Información) del Nivel 2. Y en el Curso 24 del Nivel 4 (Articulación con Plan Trienal Mundial y Plan Regional) verás cómo se traduce este nivel a estrategia."_
@@ -198,11 +198,11 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 > b) _Comunicaciones (sub-ámbito Comunicación Externa)._ ✅
 > c) _Gestión del Riesgo (sub-ámbito ambiente seguro)._
 
-> **P2.** El KPI del Plan Regional Interamericano 2022-2025 para Crecimiento es de aproximadamente…
+> **P2.** Según el Plan Regional Interamericano 2022-2025, la meta de crecimiento de membresía es…
 >
-> a) _≥ 2 % anual de crecimiento de membresía._ ✅
-> b) _≥ 15 % anual de crecimiento de membresía._
-> c) _Mantener membresía estable, sin crecimiento neto._
+> a) _Que cada grupo crezca al menos 2 % cada año._
+> b) _Que al menos 17 países de la región reporten un crecimiento de membresía de al menos 2 % en todo el período 2022-2025 (no es una meta anual por grupo)._ ✅
+> c) _Que la membresía se mantenga estable, sin crecer._
 
 **Logro:** "Domino los ámbitos hacia afuera".
 
@@ -239,7 +239,7 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 > **P2.** El Manual de Estímulos Nacionales y el Manual de la Orden al Mérito Scout son herramientas del ámbito de…
 >
 > a) _Crecimiento y Sistema de Información._
-> b) _Comunicaciones e Interinstitucionales._
+> b) _Comunicaciones y Relaciones Interinstitucionales._
 > c) _Control y Reconocimiento (sub-ámbito reconocimientos y estímulos)._ ✅
 
 **Logro:** "Domino los ámbitos protectores".
@@ -262,10 +262,9 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
     - 📜 **8 ámbitos PNDI 2017** → _"Visión **conceptual** del Desarrollo Institucional. Cubre TODO lo institucional del Movimiento. Es marco doctrinal."_ (color morado)
     - 🛠️ **5 subcategorías DNDI hoy** → _"Organización **operativa actual** de la Dirección Nacional. Refleja las prioridades del cuatrienio. Es marco práctico de trabajo."_ (color verde)
 8. **`paragraph`** — _"La explicación: **Gobernanza** y **Control** están reguladas por el CSN (no por la DNDI), por eso no aparecen como subcategorías de la dirección. **Comunicaciones**, **Relaciones Internacionales** y **Administración** dependen de la Jefatura Scout Nacional como áreas transversales, no como direcciones independientes. La DNDI, en su organización operativa actual, se concentra en 5 prioridades clave del cuatrienio. **Ambas vistas son válidas — la PNDI define el universo, la DNDI organiza las prioridades de hoy.**"_
-9. **`info-box`** — _"Las **6 áreas estratégicas** que aparecen en el PPTX FLOR DE LIS II (Gobernanza, Programa de Calidad, Crecimiento, Comunicaciones, Alianzas y Relaciones, Gestión de Riesgos) son una tercera vista — la del taller formativo regional. **Las 3 vistas conviven**: la PNDI (8 ámbitos doctrinales), la DNDI operativa (5 subcategorías) y el material formativo (6 áreas estratégicas). En el Curso 5 vas a usar las **6 dimensiones de salud institucional**, que es una cuarta vista — diseñada específicamente para evaluación."_
-10. **`heading` (nivel 3)** — _"🗺️ Lo que viene"_
-11. **`paragraph`** — _"El **Curso 5** te entrega un **autodiagnóstico interactivo** sobre las 6 dimensiones de salud institucional. Vas a aplicarlo a tu grupo o región. Y el **Curso 6** convierte ese autodiagnóstico en un plan personal de aporte, partiendo de los ámbitos prioritarios que ya identificaste hoy."_
-12. **`blockquote`** — _"Cuando puedes ponerle nombre al ámbito al que pertenece una decisión, dejas de improvisar y empiezas a gestionar. Ya tienes el lenguaje. Lo que sigue es la práctica."_
+9. **`heading` (nivel 3)** — _"🗺️ Lo que viene"_
+10. **`paragraph`** — _"El **Curso 5** te entrega un **catálogo interactivo de buenas prácticas** de tu grupo, recorriendo los 8 ámbitos con el filtro de los 5 atributos de la PNDI 2017 (Cap. 10). Y el **Curso 6** convierte ese catálogo en un plan personal de aporte, partiendo de los ámbitos prioritarios que ya identificaste hoy."_
+11. **`blockquote`** — _"Cuando puedes ponerle nombre al ámbito al que pertenece una decisión, dejas de improvisar y empiezas a gestionar. Ya tienes el lenguaje. Lo que sigue es la práctica."_
 
 **Reflexión:** _"Escribe tus 2-3 ámbitos prioritarios con su 'porque'. Esto se va a usar como insumo en el Curso 6 cuando construyas tu plan personal de aporte al DI."_
 
@@ -310,7 +309,7 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 
 ### 6.2 Hacia adelante
 
-- **L6 (ámbitos prioritarios) → Curso 5:** los 2-3 ámbitos prioritarios se contrastan con el autodiagnóstico de las 6 dimensiones.
+- **L6 (ámbitos prioritarios) → Curso 5:** los 2-3 ámbitos prioritarios se contrastan con el catálogo de buenas prácticas del grupo.
 - **L6 (ámbitos prioritarios) → Curso 6:** son el insumo principal del plan personal de aporte.
 - **Todos los ámbitos → Cursos 7-14 del Nivel 2:** cada ámbito tiene un curso dedicado de profundización en el Nivel 2.
 - **L5 (Gestión del Riesgo) → Línea Transversal "Safe from Harm"** (cuando se construya).
