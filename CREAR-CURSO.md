@@ -164,7 +164,7 @@ Cuando se quieren publicar varios cursos del mismo nivel a la vez.
    - Marcar todos los del nivel como `status: "active"`.
    - Asegurar que el orden de `cursos.json` refleja el orden pedagógico del nivel.
 4. **Verificar conexiones cross-course:** que cada curso del nivel referencie al siguiente correctamente y que los componentes que dependen de otros (ej. `plan-builder` que lee perfil del Curso 5) funcionen.
-5. **Pilotear el nivel completo** con 5-10 adultos antes de cerrar la fase.
+5. **Pilotear el nivel completo (opcional, recomendado)** con 5-10 adultos — ya no es un paso bloqueante para cerrar la fase (ADR-019, `DECISIONES.md` raíz): las 3 auditorías automatizadas (doctrinal, pedagógica, funcional) son la compuerta de calidad. Quien quiera validar recepción real puede seguir pilotando, con `INFORME-PILOTO.md` como plantilla.
 
 ---
 
