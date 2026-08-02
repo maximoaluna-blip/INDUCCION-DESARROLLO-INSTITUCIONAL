@@ -85,7 +85,7 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 
 ## 2. Caso A — Crear UN curso nuevo
 
-### Pasos (12)
+### Pasos (13)
 
 #### Fase pedagógica (Cowork)
 
@@ -130,7 +130,12 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
     ```bash
     node 05-Generador-Cursos/verificar-backend.js
     ```
-12. **Commit + push** del repo de la línea:
+12. **Auditoría funcional (`PRUEBAS-E2E`)** — antes de publicar, sumar el `courseId` nuevo a la lista de cursos que recompila `.github/workflows/pruebas-e2e.yml`, y correr la suite en local para confirmarla en verde:
+    ```bash
+    cd PRUEBAS-E2E && ASC_BASE_URL="http://localhost:8098/02-Plataforma-Web/" npx playwright test --reporter=list
+    ```
+    (requiere servir la carpeta de la línea en ese puerto; ver `PRUEBAS-E2E/README.md`). Al hacer push, el mismo workflow corre solo en GitHub Actions — no republicar si queda en rojo.
+13. **Commit + push** del repo de la línea:
     ```bash
     git add . && git commit -m "Agregar Curso N: <título>" && git push
     ```
@@ -143,9 +148,9 @@ GitHub Pages redespliega automáticamente. ~1 min después el curso está vivo.
 
 Procedimiento universal en `../MANUAL-CREACION-CURSOS.md` §A.3-bis y `../CLAUDE.md` §7-bis. Datos propios de **Desarrollo Institucional**:
 
-13. **Raíz del repo:** verificar que `index.html` (con botón `.back-portal`) + `404.html` siguen presentes.
-14. **Portal** `../PORTAL-ADULTOS-ASC/lineas.json` → entrada `"id": "desarrollo-institucional"`: mantener `status: "active"`, `url: "https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/"`, `color: "#1565C0"`, y **actualizar `coursesActive`** al nº de cursos con `status: "active"` (`coursesPlanned: 24`; el Nivel 1 son 6 cursos). Sincronizar la tabla del `README.md` del portal.
-15. Push del repo del portal + **verificar en producción** (landing 200, curso 200, tarjeta clickeable).
+14. **Raíz del repo:** verificar que `index.html` (con botón `.back-portal`) + `404.html` siguen presentes.
+15. **Portal** `../PORTAL-ADULTOS-ASC/lineas.json` → entrada `"id": "desarrollo-institucional"`: mantener `status: "active"`, `url: "https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/"`, `color: "#1565C0"`, y **actualizar `coursesActive`** al nº de cursos con `status: "active"` (`coursesPlanned: 24`; el Nivel 1 son 6 cursos). Sincronizar la tabla del `README.md` del portal.
+16. Push del repo del portal + **verificar en producción** (landing 200, curso 200, tarjeta clickeable).
 
 ---
 
@@ -190,6 +195,7 @@ Cuando se quieren publicar varios cursos del mismo nivel a la vez.
 - [ ] Preview PDF revisado y aprobado visualmente.
 - [ ] `cursos.json` actualizado con la entrada del curso.
 - [ ] `verificar-backend.js` retorna 4/4 OK.
+- [ ] `courseId` nuevo sumado a `.github/workflows/pruebas-e2e.yml` y suite `PRUEBAS-E2E` en verde (local o CI) — auditoría funcional, la tercera pata junto a la doctrinal (`/auditar-curso`) y la pedagógica (`/auditar-pedagogia`).
 - [ ] Mini-quiz tiene mínimo 2 preguntas por lección (excepto intro).
 - [ ] `policy-quote` apuntan a documentos vigentes (revisar PNDI, Estatuto Nacional 2025, Plan Estratégico 2023-2026).
 - [ ] Conexiones cross-course con el curso anterior y siguiente verificadas.
@@ -224,6 +230,7 @@ Cuando se quieren publicar varios cursos del mismo nivel a la vez.
 | Preview imprimible | `node 05-Generador-Cursos/preview-course.js <courseId>` |
 | PDF visual | Chrome headless con `--print-to-pdf` (ver paso 7 del Caso A) |
 | Validar backend | `node 05-Generador-Cursos/verificar-backend.js` |
+| Auditoría funcional (E2E) | `cd PRUEBAS-E2E && npx playwright test --reporter=list` (ver `PRUEBAS-E2E/README.md`; sumar el `courseId` nuevo a `.github/workflows/pruebas-e2e.yml`) |
 | Push del backend | Ver `BACKEND.md` (clasp push -f + crear deployment nuevo desde UI) |
 
 ---
