@@ -28,8 +28,8 @@ Una de las 3 líneas activas de formación digital para adultos voluntarios de l
 
 ## Brecha conocida (ver informe de estructura, 12-jul-2026)
 
-Esta línea **no tiene suite `PRUEBAS-E2E/`** propia — a diferencia de Política de Adultos y Programa de Jóvenes. Antes de construir más cursos del Nivel 1 (van 1 de 6 activos), portar el patrón desde `INDUCCION-PROGRAMA-JOVENES/PRUEBAS-E2E/` (adaptación mecánica, ya probada dos veces).
+Esta línea **no tiene suite `PRUEBAS-E2E/`** propia — a diferencia de Política de Adultos y Programa de Jóvenes. El Nivel 1 ya está completo (6/6), así que portar el patrón desde `INDUCCION-PROGRAMA-JOVENES/PRUEBAS-E2E/` (adaptación mecánica, ya probada dos veces) es puro beneficio ahora: cubriría los 6 cursos ya publicados, no solo los que falten.
 
 ## Estado (ver `INDICE-PROYECTO.md` para el detalle vivo)
 
-1 curso activo (`bienvenida-desarrollo-institucional`, piloto). Nivel 1 "Fundamentación" planeado en 6 cursos. Plan total 24 cursos.
+**Nivel 1 "Fundamentación" completo: 6 cursos activos** (Bienvenida, PNDI Marco y Principios, Niveles y Estructura del Movimiento, Los 8 Ámbitos de Gestión, Buenas Prácticas en Tu Grupo, Mi Aporte al DI). Auditoría doctrinal solo parcial (🟡 en `ESTADO-AUDITORIA.md` raíz, sin pasada formal completa por curso). Plan total 24 cursos.
