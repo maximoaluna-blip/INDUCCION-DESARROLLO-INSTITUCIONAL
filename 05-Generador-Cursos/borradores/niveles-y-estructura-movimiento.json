@@ -27,6 +27,10 @@
         },
         {
           "type": "paragraph",
+          "text": "En una institución sana sabes a quién acudir <strong>antes</strong> de que pase algo. En una débil, te das cuenta cuando ya pasó — como le pasó a esa mamá."
+        },
+        {
+          "type": "paragraph",
           "text": "Este curso es ese mapa. Pero antes, una advertencia: la estructura del Movimiento no es un organigrama empresarial perfectamente simétrico. Es una <strong>organización con autonomía por niveles</strong> — y eso significa que cada nivel tiene su propia arquitectura. Ver eso es la primera lección del curso."
         },
         {
@@ -115,11 +119,11 @@
             "correctIndex": 1
           },
           {
-            "text": "El Grupo Scout es, en la estructura del Movimiento…",
+            "text": "Un consejero regional te dice: “Al final los grupos son solo una instancia que ejecuta lo que decide la región; lo institucionalmente importante pasa arriba.” ¿Qué le respondes con lo que acabas de ver?",
             "options": [
-              "Un nivel operativo opcional, dependiente del consejo regional.",
-              "La célula básica donde efectivamente sucede la experiencia educativa, reconocida como sujeto por la PNDI.",
-              "Una subdivisión administrativa de la región, sin estatus institucional propio."
+              "Tiene razón: el grupo ejecuta, la región decide — así es la cadena de mando.",
+              "No es así: el Grupo es la célula básica donde ocurre la experiencia educativa con los chicos, y la PNDI lo reconoce como sujeto propio de la política — no una simple ejecutora de la región.",
+              "Depende del tamaño del grupo: los grupos grandes sí tienen peso institucional propio, los pequeños no."
             ],
             "correctIndex": 1
           }
@@ -171,11 +175,11 @@
         "title": "Mini-quiz Lección 3",
         "questions": [
           {
-            "text": "Los 5 tipos genéricos de órganos en una institución sana son…",
+            "text": "Un dirigente te dice: “En mi grupo el mismo Consejo aprueba el presupuesto, lo ejecuta y además audita si se gastó bien.” ¿Qué está pasando ahí, según los 5 tipos de órganos que viste?",
             "options": [
-              "Asamblea, Consejo, Jefatura, Tesorería, Comunicaciones.",
-              "Dirección, administración, técnico/operativo, investigación/disciplina, control/fiscal.",
-              "Programa, Adultos, Desarrollo Institucional, Crecimiento, Riesgo."
+              "Es normal: el Consejo administra y también puede controlarse a sí mismo, porque conoce mejor que nadie sus propias cuentas.",
+              "Se están mezclando administración y control: el Consejo debería administrar, pero el control fiscal necesita ser un órgano independiente (Fiscal o Revisor Fiscal) para que nadie audite su propia gestión.",
+              "Se están mezclando dirección y técnico: el Consejo no debería ejecutar nada operativo, eso es tarea exclusiva de la Asamblea."
             ],
             "correctIndex": 1
           },
@@ -246,7 +250,7 @@
         }
       ],
       "reflection": {
-        "prompt": "¿Sabrías nombrar al Jefe Scout Nacional actual? ¿A algún miembro del Consejo Scout Nacional? Si no, búscalos en scout.org.co — el solo hecho de saber sus nombres te conecta con la institución."
+        "prompt": "¿Sabrías nombrar al Jefe Scout Nacional actual o a algún miembro del CSN? Si no, búscalos en scout.org.co. Ahora piensa en tu grupo: la última vez que tu grupo necesitó algo del nivel nacional (un permiso, una consulta, un material), ¿a quién le escribieron? ¿Era el órgano correcto?"
       },
       "quiz": {
         "title": "Mini-quiz Lección 4",
@@ -265,7 +269,7 @@
             "options": [
               "Al Consejo Scout Nacional directamente, para que lo apruebe como política.",
               "A la Dirección Nacional de Adultos en el Movimiento (DNAM), que es el equipo técnico ejecutivo bajo la Jefatura Scout Nacional.",
-              "A la Corte de Honor Nacional, por tratarse de un tema formativo."
+              "Directamente a la Jefatura Regional, porque cada región puede aprobar sus propios materiales formativos sin pasar por lo nacional."
             ],
             "correctIndex": 1
           }

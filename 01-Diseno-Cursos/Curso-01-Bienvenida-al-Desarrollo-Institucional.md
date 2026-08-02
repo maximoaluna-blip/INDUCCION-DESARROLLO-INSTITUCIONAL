@@ -39,7 +39,7 @@ Al completar este curso, el adulto:
 
 > **"Desarrollo Institucional no es lo que hacen los de arriba mientras nosotros trabajamos con los chicos. Es lo que hacemos cada vez que cuidamos que el grupo dure, funcione y crezca con bien. Nadie se libra."**
 
-Este hook se enuncia explícitamente en la lección 2 y se referencia en las lecciones siguientes. Su función es contradecir el supuesto erróneo de que DI es competencia ajena al adulto operativo.
+Este hook se enuncia explícitamente en la Lección 1 (Bienvenida) al abrir el curso y se retoma como cierre textual en la Lección 6 (Tu primer compromiso), haciendo eco. Su función es contradecir el supuesto erróneo de que DI es competencia ajena al adulto operativo.
 
 ---
 
@@ -67,7 +67,8 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 **Secciones (en orden):**
 
 1. **`info-box`** — Tiempo estimado del curso (~25 min) y promesa concreta: _"Al final vas a tener claro qué es DI, por qué te aplica a ti, y cuál es tu primer compromiso."_
-2. **`paragraph`** — Saludo cálido en segunda persona. Reconocimiento del lugar del adulto en el movimiento. Mensaje: el grupo es lo que sus adultos lo hacen ser.
+2a. **`paragraph`** — Saludo cálido en segunda persona. Reconocimiento del lugar del adulto en el movimiento.
+2b. **`paragraph`** — Enuncia el hook del curso al inicio (para hacer eco con el cierre de la Lección 6): _"Quizás escuchaste el término “Desarrollo Institucional” y pensaste: eso es lo que hacen los de arriba, mientras nosotros trabajamos con los chicos. Pues no. **Desarrollo Institucional es lo que hacemos cada vez que cuidamos que el grupo dure, funcione y crezca con bien. Nadie se libra** — ni tú tampoco."_
 3. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 4. **`list`** — Las 5 ideas centrales que verá (una por lección 2–6).
 5. **`mission-box`** — Invitación a no apurar, a tomar el curso lección por lección y a escribir las reflexiones pensando en su grupo concreto.
@@ -107,11 +108,11 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 
 **Quiz (2 preguntas):**
 
-> **P1.** Según lo que viste en esta lección, ¿cuál de las siguientes es la definición que más se ajusta a Desarrollo Institucional?
+> **P1.** El papá de un lobato te dice: _"A mí no me interesa el Desarrollo Institucional, yo solo vengo a ayudar en las actividades de la manada."_ Según lo que viste en esta lección, ¿qué le respondes?
 >
-> a) _Es el conjunto de funciones que cumplen los comisionados nacionales para gestionar la asociación._
-> b) _Es todo lo que se hace para que el grupo, la región o la nación duren, funcionen y crezcan con bien._  ✅
-> c) _Es la documentación contable y administrativa que exige el Estado._
+> a) _"Tienes razón, DI es solo cosa de comisionados y del consejo de grupo."_
+> b) _"Ayudar en las actividades de la manada de forma constante y confiable ya es una forma de Desarrollo Institucional — hacer que el grupo funcione."_  ✅
+> c) _"DI es la documentación contable que exige el Estado, así que a él no le aplica tampoco."_
 
 > **P2.** Una mamá del grupo organiza un bazar para juntar fondos para el campamento de invierno. Según esta lección, ¿está haciendo Desarrollo Institucional?
 >
@@ -143,7 +144,7 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 12. **`paragraph`** — Refutación: hay momentos para los expertos (un revisor fiscal, un abogado, un contador). Pero la mayor parte del DI cotidiano se hace con sentido común, método y compromiso. Ningún jefe de grupo nació sabiendo; aprendió haciendo + acompañado.
 13. **`info-box`** — Cierre: _"Si hubo un mito que reconociste como tuyo: bienvenido al club. Ahora lo importante es que ya tienes con qué responderle a quien lo repita."_
 
-**Reflexión:** _"¿Cuál de los 5 mitos te resonó más como algo que has pensado o has escuchado en tu grupo? Escríbele tu propia refutación, en una o dos frases."_
+**Reflexión:** _"Piensa en una persona concreta de tu grupo o región (puedes usar solo su rol o iniciales) que alguna vez dijo o pensó algo parecido a uno de estos 5 mitos — y en qué momento fue (una reunión, una salida, una conversación de pasillo). Escribe qué dijo y qué le responderías hoy, con tus propias palabras."_
 
 **Quiz (2 preguntas):**
 
@@ -153,11 +154,11 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 > b) _"Justamente para que los chicos estén bien, necesitamos que el grupo funcione institucionalmente; tu aporte cuenta."_  ✅
 > c) _"Mejor no participes en el consejo entonces."_
 
-> **P2.** En el grupo nadie firma las actas porque "ya alguien lo hará". Después nadie recuerda qué se decidió. ¿Qué mito están viviendo?
+> **P2.** En el consejo de tu grupo todos están de acuerdo en que hay que actualizar las normas de funcionamiento del Grupo… pero nadie levanta la mano para hacerlo porque "seguro alguien ya lo está haciendo". Pasan tres meses y sigue sin hacerse. Según el cuento de Todo el mundo, Alguien, Cualquiera y Nadie, ¿qué está pasando?
 >
-> a) _Mito 1 — eso es trabajo de los comisionados._
-> b) _Mito 4 — eso ya lo hace alguien más._  ✅
-> c) _Mito 5 — para eso hay que ser experto._
+> a) _"El grupo necesita contratar a un experto externo para que lo haga."_
+> b) _"Cuando una responsabilidad es 'de todos', en la práctica termina sin ser de nadie — alguien concreto tiene que asumirla."_  ✅
+> c) _"Es normal: eso es tarea exclusiva del comisionado regional, no del consejo de grupo."_
 
 **Logro:** "Mito-buster".
 
@@ -198,11 +199,11 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 > b) _El mismo Consejo de Grupo, en sesión ordinaria, dejándolo registrado en acta._
 > c) _La Asamblea de Grupo, sobre la propuesta presentada por el Consejo de Grupo._  ✅
 
-> **P2.** ¿Cuál es la norma marco vigente que rige a toda la Asociación Scouts de Colombia hoy?
+> **P2.** Un dirigente te dice: _"Lo que dice el Estatuto ya quedó viejo, ahora lo que manda es la Política Nacional de Desarrollo Institucional de 2017."_ ¿Qué le respondes según esta lección?
 >
-> a) _La Política Nacional de Desarrollo Institucional 2017._
-> b) _El Estatuto Nacional 2025._  ✅
-> c) _El Plan Estratégico 2023–2026._
+> a) _"Tiene razón, la PNDI 2017 es la norma constitucional vigente y reemplaza al Estatuto."_
+> b) _"No exactamente: el Estatuto Nacional 2025 es la norma constitucional vigente de la ASC; la PNDI 2017 es el marco doctrinal específico del DI, pero no reemplaza al Estatuto."_  ✅
+> c) _"Ninguno de los dos aplica ya — lo que rige hoy es solo el Plan Estratégico 2023–2026."_
 
 **Logro:** "Conozco mi institución".
 
@@ -241,11 +242,11 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 > b) _Que el grupo no tenía orden contable y mezclaba lo personal con lo institucional._  ✅
 > c) _Que el tesorero no era contador._
 
-> **P2.** Según esta lección, la relación entre Desarrollo Institucional y la experiencia educativa de los chicos es…
+> **P2.** En un grupo, los chicos están felices en las reuniones, así que el consejo decide posponer indefinidamente organizar los permisos y actualizar el protocolo de salidas: "ya después vemos eso, lo importante es que los pelados la están pasando bien". Según esta lección, ¿qué le dirías a ese consejo?
 >
-> a) _Independiente — son temas distintos._
-> b) _Inversa — entre más DI, menos espacio para los chicos._
-> c) _Directa — la salud institucional sostiene y protege la experiencia educativa._  ✅
+> a) _"Tienen razón — mientras los chicos estén contentos, lo institucional puede esperar."_
+> b) _"Ese papeleo no cambia nada; son temas totalmente aparte del bienestar de los chicos."_
+> c) _"Justo para que los chicos sigan felices y seguros, ese papeleo hoy es lo que evita una historia como la del Grupo A o el Grupo B mañana."_  ✅
 
 **Logro:** "Veo por qué importa".
 
@@ -288,11 +289,11 @@ Este hook se enuncia explícitamente en la lección 2 y se referencia en las lec
 > b) _"Voy a proponer en la próxima reunión del consejo que firmemos el acta antes de salir."_  ✅
 > c) _"Voy a estudiarme la PNDI completa."_
 
-> **P2.** Según el cierre del curso, los grupos saludables se construyen sobre…
+> **P2.** Un consejero lleva dos años diciendo en cada reunión "este año vamos a transformar completamente la cultura institucional del grupo" — y nada cambia. En el grupo vecino, alguien solo prometió "voy a proponer que firmemos el acta antes de salir" — y lo cumplió las cuatro veces que salieron. ¿Qué enseña esta comparación, según el cierre del curso?
 >
-> a) _Promesas grandes que inspiran al equipo._
-> b) _Cien promesas chicas cumplidas._  ✅
-> c) _La carga de trabajo del jefe de grupo._
+> a) _"Que las promesas grandes son más valiosas porque muestran más compromiso."_
+> b) _"Que un grupo institucionalmente sano se construye con promesas chicas que sí se cumplen, no con promesas grandes que se quedan en el aire."_  ✅
+> c) _"Que ese tipo de promesas deberían dejárselas al jefe de grupo, que es quien tiene la responsabilidad final."_
 
 **Logro al completar:** "Constructor Institucional" (logro final del curso, `unlockOnModule: -1`).
 

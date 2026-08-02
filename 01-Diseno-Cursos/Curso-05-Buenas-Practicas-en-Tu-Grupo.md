@@ -30,7 +30,7 @@ Al completar este curso, el adulto:
 1. **Define** qué es una buena práctica según el Cap. 10 de la PNDI 2017, en lenguaje propio.
 2. **Distingue** una buena práctica de una rutina, una costumbre o una buena intención.
 3. **Identifica** los **5 atributos** que debe tener una buena práctica (innovadora, efectiva, sostenible, replicable, aplicable) y puede aplicarlos como filtro.
-4. **Comprende** el ciclo de gestión de las buenas prácticas como proceso de mejora continua.
+4. **Aplica** el ciclo de 6 pasos (identificar → documentar → aplicar → revisar → mejorar → compartir) para diagnosticar en qué paso está estancada una práctica de su grupo.
 5. **Recorre** los 8 ámbitos de gestión —ya vistos en el Curso 4— buscando en su propio grupo prácticas concretas en cada uno.
 6. **Sale** con un **catálogo personal de buenas prácticas de su grupo** (lo que ya hace bien, lo que está a medio camino, lo que no tiene), que será el insumo del plan personal del Curso 6.
 
@@ -68,11 +68,12 @@ Se enuncia en la Lección 1, se referencia al introducir cada uno de los 5 atrib
 **Secciones (en orden):**
 
 1. **`info-box`** — Tiempo estimado (~30 min) y promesa: _"Al final vas a tener un **catálogo personal de buenas prácticas de tu grupo**: lo que tu grupo ya hace bien, lo que está a medio camino, y lo que no tiene desarrollado. Este catálogo es el insumo principal del Curso 6, donde se vuelve plan."_
-2. **`paragraph`** — Apertura: _"En los Cursos 2 y 4 viste el marco doctrinal del Desarrollo Institucional: los fundamentos, los principios, los 8 ámbitos. Ahora bajamos a la cancha. Porque la doctrina, sin práctica, es solo discurso bonito. Y la práctica, sin doctrina, es improvisación que se cae al primer cambio de equipo."_
-3. **`paragraph`** — _"El **Capítulo 10 de la PNDI 2017** define algo muy poderoso: las **buenas prácticas**. Son justamente el punto de encuentro entre la doctrina y la cancha — entre los fundamentos del Curso 2 y los ámbitos del Curso 4. Y son lo que diferencia a un grupo que dura 23 años de uno que se rompe en uno."_
-4. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
-5. **`list`** — Las 5 ideas centrales de las Lecciones 2-6.
-6. **`mission-box`** — _"Tip de uso: cuando llegues a la Lección 5 (el catálogo de tu grupo), responde con honestidad. Si en un ámbito tu grupo no tiene nada desarrollado, **eso también es información valiosa** — es justo lo que vas a abordar en el Curso 6. El catálogo solo lo ves tú; es para tu plan."_
+2. **`paragraph`** — Hook: _"<strong>Una buena práctica no es lo que tu grupo hace bien.</strong> Es lo que tu grupo hace bien, sabe por qué lo hace bien, lo puede repetir, y lo puede enseñar a otros. Si algo de eso falla, todavía no es una buena práctica — es una buena intención, una rutina, o el mérito de una sola persona que se va con ella cuando se retira del grupo. Este curso te da el filtro para distinguirlo."_
+3. **`paragraph`** — Apertura: _"En los Cursos 2 y 4 viste el marco doctrinal del Desarrollo Institucional: los fundamentos, los principios, los 8 ámbitos. Ahora bajamos a la cancha. Porque la doctrina, sin práctica, es solo discurso bonito. Y la práctica, sin doctrina, es improvisación que se cae al primer cambio de equipo."_
+4. **`paragraph`** — _"El **Capítulo 10 de la PNDI 2017** define algo muy poderoso: las **buenas prácticas**. Son justamente el punto de encuentro entre la doctrina y la cancha — entre los fundamentos del Curso 2 y los ámbitos del Curso 4. Y son lo que diferencia a un grupo que dura 23 años de uno que se rompe en uno."_
+5. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
+6. **`list`** — Las 5 ideas centrales de las Lecciones 2-6.
+7. **`mission-box`** — _"Tip de uso: cuando llegues a la Lección 5 (el catálogo de tu grupo), responde con honestidad. Si en un ámbito tu grupo no tiene nada desarrollado, **eso también es información valiosa** — es justo lo que vas a abordar en el Curso 6. El catálogo solo lo ves tú; es para tu plan."_
 
 **Reflexión:** ninguna.
 
@@ -164,11 +165,11 @@ Se enuncia en la Lección 1, se referencia al introducir cada uno de los 5 atrib
 > b) _Replicable — porque depende totalmente de una persona y no está documentada para que otro pueda continuarla o adoptarla._ ✅
 > c) _Innovadora._
 
-> **P2.** Según la PNDI 2017, los 5 atributos de una buena práctica son…
+> **P2.** El Grupo "Cumbre" documentó un protocolo de bienvenida a familias nuevas: es innovador (antes no existía nada), lo aplican hace 8 meses con buenos resultados, y cualquier consejero puede seguirlo porque está en una plantilla de una página. Pero depende de que el jefe de grupo la imprima y la reparta cada vez — si él no está, nadie más se acuerda de hacerlo. ¿Qué le falta a esta práctica para completar el filtro de los 5 atributos?
 >
-> a) _Democrática, transparente, ética, responsable, oportuna._
-> b) _Innovadora, efectiva, sostenible, replicable y aplicable a toda la institución._ ✅
-> c) _Documentada, firmada, votada, publicada y archivada._
+> a) _Ser innovadora — todavía no aporta nada nuevo._
+> b) _Ser sostenible — depende de que una persona puntual la impulse cada vez, así que no se sostiene sola en el tiempo con los recursos que ya tiene el grupo._ ✅
+> c) _Ser aplicable a toda la institución — solo sirve para grupos con jefe de grupo activo._
 
 **Logro:** "Manejo el filtro de 5 atributos".
 
@@ -198,17 +199,17 @@ Se enuncia en la Lección 1, se referencia al introducir cada uno de los 5 atrib
 
 **Quiz (2 preguntas):**
 
-> **P1.** Según el ciclo de gestión, ¿cuál es el primer paso de la gestión de buenas prácticas?
+> **P1.** El consejo de tu grupo "Bosque" se reúne cada mes y la agenda siempre es la misma: qué falta, qué se dañó, qué no se ha hecho. Nunca han parado a nombrar algo que ya hacen bien. Según el ciclo de gestión de buenas prácticas, ¿qué paso le está faltando a este consejo?
 >
-> a) _Documentar todo lo que el grupo hace, sin excepción._
-> b) _Identificar lo que el grupo ya hace que vale la pena — reconocer lo bueno antes de mejorarlo._ ✅
-> c) _Compartir con otros grupos las prácticas del grupo propio._
+> a) _Revisar — deberían evaluar si sus prácticas siguen funcionando._
+> b) _Identificar — antes de mejorar o revisar cualquier cosa, hace falta primero reconocer y nombrar lo que el grupo ya hace bien._ ✅
+> c) _Compartir — deberían llevar sus prácticas a la región antes de seguir._
 
-> **P2.** Las buenas prácticas, según la PNDI 2017, son dinámicas porque…
+> **P2.** El Grupo "Faro" documentó su protocolo de seguridad en salidas hace 5 años, lo guardó en una carpeta, y nunca lo ha vuelto a mirar. Las condiciones cambiaron (salen a sitios distintos, hay dirigentes nuevos), pero el protocolo sigue exactamente igual. Según la idea de que las buenas prácticas son "dinámicas", ¿qué le está fallando a esta práctica?
 >
-> a) _Cambian totalmente cada año según las modas del momento._
-> b) _Forman parte de un proceso de mejora continua que las retroalimenta y mantiene en constante perfeccionamiento._ ✅
-> c) _Solo aplican durante el tiempo del Plan Estratégico vigente._
+> a) _Nada — una vez documentada, una buena práctica no necesita tocarse de nuevo._
+> b) _Le falta el paso de revisar y mejorar — sin ese ciclo de retroalimentación, la práctica se vuelve rígida y deja de responder a la realidad actual del grupo._ ✅
+> c) _Le falta compartirla con la región — eso es lo único que le falta para estar completa._
 
 **Logro:** "Conozco el ciclo".
 
@@ -285,17 +286,18 @@ Se enuncia en la Lección 1, se referencia al introducir cada uno de los 5 atrib
 8. **`paragraph`** — _"Esa es la definición oficial. Fíjate que la PNDI no dice 'la institución sana es la que tiene un perfil 5 en una rúbrica' — dice que es la que **ejecuta buenas prácticas de manera consciente, sistemática y sostenida**. Por eso este curso te dio el concepto y el filtro de las buenas prácticas, no una rúbrica de evaluación: porque la salud institucional, a la luz de la PNDI, se construye una buena práctica a la vez."_
 9. **`heading` (nivel 3)** — _"🗺️ Lo que viene"_
 10. **`paragraph`** — _"El **Curso 6** —cierre del Nivel 1— lee tu catálogo y te ayuda a convertirlo en un **plan personal de aporte**. Para cada ámbito te va a sugerir metas según el estado en que quedó: si está verde, meta de 'documentar y compartir'; si está amarillo, meta de 'fortalecer atributos'; si está rojo, meta de 'crear una primera práctica'. Y todo enmarcado en los principios y la brújula que elegiste en el Curso 2."_
-11. **`blockquote`** — _"Una buena práctica no es lo que tu grupo hace bien. Es lo que tu grupo hace bien, sabe por qué lo hace bien, lo puede repetir, y lo puede enseñar a otros. Hoy empezaste a nombrarlas — el Curso 6 va a convertirlas en plan."_
+11. **`mission-box`** — _"🎯 Tu primer paso, antes del Curso 6: Esta semana, cuéntale a tu consejo o a tu jefe de grupo UNA práctica de tu catálogo — la que más orgullo te dio reconocer. Nombrarla en voz alta ya es el primer paso del ciclo de compartir."_
+12. **`blockquote`** — _"Una buena práctica no es lo que tu grupo hace bien. Es lo que tu grupo hace bien, sabe por qué lo hace bien, lo puede repetir, y lo puede enseñar a otros. Hoy empezaste a nombrarlas — el Curso 6 va a convertirlas en plan."_
 
 **Reflexión:** _"Mira tu catálogo completo. ¿Cuál es la práctica que más orgullo te dio reconocer? ¿Cuál es la ausencia que más te llamó la atención? Escribe ambas en una sola frase cada una."_
 
 **Quiz (2 preguntas):**
 
-> **P1.** Según la PNDI 2017, una "Institución Saludable" es aquella que…
+> **P1.** El Grupo "Aurora" tiene finanzas impecables, cumple todos los trámites de SiScout a tiempo y nunca ha tenido un hallazgo del revisor fiscal. Pero las reuniones del consejo casi no tienen quórum, las decisiones las toma solo el jefe de grupo sin consultar a nadie, y las familias sienten que no les informan nada. Según la definición de "Institución Saludable" de la PNDI 2017, ¿este grupo lo es?
 >
-> a) _Cumple un perfil mínimo de 4 en cada una de las 6 dimensiones de salud institucional._
-> b) _Cumple la Misión y la Visión a través de la ejecución de buenas prácticas de manera consciente, sistemática y sostenida, en forma democrática, transparente y responsable._ ✅
-> c) _Ha sido certificada por una auditoría externa anual._
+> a) _Sí — con las finanzas en orden y sin hallazgos, ya cumple lo esencial de la salud institucional._
+> b) _No — cumplir procesos en un solo ámbito no basta; la PNDI exige ejecutar buenas prácticas de forma democrática, transparente y participativa, y aquí faltan la democracia y la comunicación con las familias._ ✅
+> c) _Sí, siempre que haya sido evaluado con un perfil mínimo de 4 en cada una de las 6 dimensiones de salud institucional._
 
 > **P2.** Si en tu catálogo un ámbito quedó marcado como "Parcial con 2 atributos cumplidos", ¿qué tipo de meta vas a recibir en el Curso 6?
 >

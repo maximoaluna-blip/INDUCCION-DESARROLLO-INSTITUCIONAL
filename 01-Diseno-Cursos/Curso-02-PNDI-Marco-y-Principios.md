@@ -69,6 +69,7 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 1. **`info-box`** — Tiempo estimado (~30 min) y promesa: _"Al final vas a saber distinguir una política de un plan, vas a tener claros los 4 fundamentos y los 7 principios, y vas a escoger una brújula personal para tus próximas decisiones de grupo."_
 2. **`paragraph`** — Apertura: _"Volviste. Si hiciste el Curso 1, ya entendiste que Desarrollo Institucional no es asunto de los de arriba. Ahora vamos al marco doctrinal — pero tranquilo, no es un curso de derecho."_
 3. **`paragraph`** — Anti-prejuicio: _"Cuando uno escucha 'política', 'fundamento', 'principio', se le viene la imagen del documento de 80 páginas que nadie lee. Vamos a darle vuelta a eso. La PNDI 2017 es, en realidad, el manual del usuario del grupo scout — la que te dice qué hacer cuando dos dirigentes están en desacuerdo, cuando hay que decidir si el campamento sigue o se cancela, o cuando un papá pregunta a dónde va la cuota."_
+3b. **`blockquote`** — _"Una política no es un papel para enmarcar. Es la brújula que usas cuando el camino se bifurca. Eso es justo lo que vas a construir en este curso."_
 4. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
 5. **`list`** — Las 5 ideas centrales de las Lecciones 2-6.
 6. **`mission-box`** — _"Tip de uso: cada vez que aparezca un fundamento o principio, no lo memorices. Piensa en un caso concreto de tu grupo donde lo hayas vivido cumplido o violado. Si no se te ocurre ninguno, ese fundamento o principio es justo el que tienes que practicar."_
@@ -106,7 +107,7 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
     - `source`: "PNDI 2017, §3 Propósito, p. 6"
 8. **`info-box`** — Síntesis: _"En palabras simples: la PNDI te da el método para que tu grupo, región o nación **vea, acuerde y conecte** — identificar, definir y articular, tal como lo dice la Política. Este curso añade un cuarto paso, cumplir, para que todo eso no se quede en el papel."_
 
-**Reflexión:** _"De las 4 acciones (identificar, definir, articular, cumplir), ¿cuál crees que tu grupo o región hace mejor? ¿Cuál es la más débil? Anota un ejemplo concreto de cada una — no abstracto."_
+**Reflexión:** _"De las 4 acciones (identificar, definir, articular, cumplir), ¿cuál hace mejor tu grupo o región y cuál es la más débil? Para cada una, anota una actividad concreta con fecha aproximada (ej. 'el campamento de julio') donde la viviste — no una idea general."_
 
 **Quiz (2 preguntas):**
 
@@ -116,11 +117,11 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 > b) _Definir — no acordaron cómo se hace un campamento._
 > c) _Cumplir — acordaron el procedimiento, pero no lo ejecutaron._ ✅
 
-> **P2.** Una política institucional, según la distinción de esta lección, se diferencia de un reglamento porque…
+> **P2.** Un papá pregunta en la reunión: "¿por qué el grupo cobra $45.000 de cuota si en el reglamento no dice nada de esa cifra?" El consejero responde citando primero la Política (por qué se cobra: sostener el programa) y después el reglamento (cómo se cobra: fecha, medio, exenciones). Según la distinción de esta lección, ¿qué relación hay entre ambos documentos?
 >
-> a) _La política dice por qué; el reglamento dice qué se puede y qué no._ ✅
-> b) _La política se cambia cada año; el reglamento es permanente._
-> c) _La política es para el nivel nacional; el reglamento es para los grupos._
+> a) _El reglamento manda sobre la política porque es más reciente y más detallado._
+> b) _La política explica el porqué del cobro; el reglamento fija el cómo se ejecuta — son complementarios, no redundantes._ ✅
+> c) _Son lo mismo: si el reglamento no dice la cifra, la política tampoco puede exigirla._
 
 **Logro:** "Domino las 4 acciones".
 
@@ -155,7 +156,7 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
     - **✅ Grupo cumple:** _"Al cerrar el año, el Grupo 'Bosque' no presenta solo cuántas actividades hizo. Presenta cuántos chicos avanzaron en su progresión, cuántas familias se sumaron y cuántas se retiraron, cuántos rovers están aún en el movimiento al cumplir 22, y qué dijeron las encuestas a padres. El consejo decide qué ajustar para el año siguiente."_
     - **❌ Grupo viola:** _"Otro grupo presenta solo 'hicimos 24 actividades, 4 campamentos y 1 carrera'. Cuántos chicos progresaron, cuántos abandonaron, qué aprendieron, qué cambió en sus vidas — no se sabe. El plan del año siguiente se hace adivinando."_
 15. **`info-box`** — Cierre: _"Los 4 fundamentos no son alternativas — los necesitas TODOS. Cuando uno falta, los otros tres no compensan."_
-16. **`blockquote`** — _"Un grupo que vota pero no se adapta, se adapta pero no integra ámbitos, o integra ámbitos pero no mide impacto, está construyendo una casa con tres vigas. Tarde o temprano se cae."_
+16. **`blockquote`** — _"Un grupo que vota pero no se adapta, se adapta pero no integra ámbitos, o integra ámbitos pero no mide impacto, está construyendo una casa con tres vigas. Tarde o temprano se cae. Sin estas vigas, tu brújula no tiene dónde pararse."_
 
 **Reflexión:** _"De los 4 fundamentos, ¿en cuál crees que tu grupo o región está más sólido? ¿En cuál está más flojo? Escribe un caso concreto que ilustre cada uno — el bueno y el flojo."_
 
@@ -200,11 +201,11 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 
 **Quiz (2 preguntas):**
 
-> **P1.** Un dirigente comete una falta grave por primera vez. Otro dirigente propone expulsarlo de inmediato porque "ya se sabe cómo es". ¿Qué principio del DI sustenta la respuesta correcta?
+> **P1.** Un papá del grupo se entera de que la región va a sancionar al jefe de grupo y le exige al consejo defenderlo de inmediato. Un consejero veterano propone "antes de actuar, abramos el Código de Honor y veamos qué dice el debido proceso". ¿Qué principio del DI sostiene esa propuesta?
 >
-> a) _Dinamismo y Flexibilidad — adáptense a la situación._
-> b) _Colectividad y Consenso — voten entre todos lo que mejor parezca._
-> c) _Normatividad — el Código de Honor define un debido proceso que hay que respetar._ ✅
+> a) _Colectividad y Consenso — conviene reunir primero a todo el consejo antes de responder._
+> b) _Dinamismo y Flexibilidad — adáptense a la presión del papá, el momento lo exige._
+> c) _Normatividad — primero abrir el documento vigente, después decidir._ ✅
 
 > **P2.** Una jefa de grupo quiere cambiar el local del grupo. ¿Qué principio del DI le indica que NO puede decidirlo sola, aunque sea la cabeza visible del grupo?
 >
@@ -242,17 +243,17 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 
 **Quiz (2 preguntas):**
 
-> **P1.** El Consejo de Grupo va a definir el tema del próximo campamento de tropa. ¿Qué principio sugiere que la patrulla (los propios scouts) participe en esa decisión?
+> **P1.** Una rama de Caminantes va a planear su empresa anual de servicio comunitario. ¿Qué principio del DI debería guiar al equipo de jefatura a involucrar formalmente a los propios caminantes en la elección del proyecto, los aliados y los plazos?
 >
-> a) _Coherencia._
-> b) _Participación Juvenil._ ✅
-> c) _Prospectiva._
+> a) _Prospectiva — pensar a 10 años el servicio._
+> b) _Coherencia — alinear discurso y acción del equipo._
+> c) _Participación Juvenil — la decisión la moldean los propios jóvenes, no solo los adultos._ ✅
 
-> **P2.** Un grupo está cómodo: tiene 30 chicos hace 6 años, no crece ni decrece. El consejo no propone nada nuevo. ¿Qué principio del DI les está faltando?
+> **P2.** En la asamblea anual, un grupo aprueba la frase "somos un grupo que protege a los más pequeños". Pero ese año ningún consejero hizo el curso de A Salvo del Peligro y el grupo no tiene un protocolo escrito de protección. ¿Qué principio del DI no se está cumpliendo?
 >
-> a) _Aspiracional y Transformacional._ ✅
-> b) _Normatividad._
-> c) _Colectividad y Consenso._
+> a) _Coherencia — el grupo prometió algo que no está en condiciones reales de cumplir._ ✅
+> b) _Normatividad — la asamblea aprobó una frase no oficial._
+> c) _Prospectiva — el protocolo es para el futuro, no urge._
 
 **Logro:** "Completé los 7 principios".
 
@@ -289,17 +290,17 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 
 **Quiz (2 preguntas):**
 
-> **P1.** El principio de Participación Juvenil aplica…
+> **P1.** En la Asamblea Regional, un consejero de un grupo pequeño dice: "la Participación Juvenil es tema del Grupo, porque ahí están los chicos. En la Región y en la Nación eso ya es cosa de adultos." Según lo que viste en esta lección, ¿qué le respondes?
 >
-> a) _Solo en el nivel de Grupo, porque allí están los chicos._
-> b) _Solo en el nivel Nacional, porque allí se hacen las políticas._
-> c) _En los tres sujetos (Grupo, Región, Nación), con escalas y mecanismos distintos en cada uno._ ✅
+> a) _Tiene razón: a nivel Región y Nación las decisiones son técnicas y no requieren voz juvenil._
+> b) _El principio aplica en los tres sujetos, solo que cambia el mecanismo: en el Grupo es el Representante Rover, en la Región y la Nación hay representantes formales en los consejos y en la PNPJ._ ✅
+> c) _Solo aplica a nivel Nacional, porque ahí se escriben las políticas que afectan a los jóvenes._
 
-> **P2.** ¿Cuál es el sentido principal de tener una "brújula personal" — un principio de referencia primero — para tus decisiones institucionales?
+> **P2.** Estás en una reunión y surge un dilema institucional inesperado (dos dirigentes en desacuerdo sobre si suspender una salida por lluvia). No tienes tiempo de repasar los 7 principios uno por uno. ¿Para qué te sirve, en ese momento, haber elegido de antemano tu brújula personal?
 >
-> a) _Memorizar el principio para recitarlo en reuniones._
-> b) _Tener un criterio claro que te permita actuar rápido cuando el momento lo pide, sin perder los otros principios de vista._ ✅
-> c) _Demostrar a los demás que conoces la PNDI mejor que ellos._
+> a) _Para recitarla y demostrar que conoces la PNDI mejor que los demás._
+> b) _Para tener un criterio de arranque que te permita actuar rápido, sin dejar de considerar los otros principios después._ ✅
+> c) _Para evitar tener que consultar con el consejo, porque ya tienes la respuesta._
 
 **Logro al completar:** "Conozco mi brújula" (logro final del curso, `unlockOnModule: -1`).
 

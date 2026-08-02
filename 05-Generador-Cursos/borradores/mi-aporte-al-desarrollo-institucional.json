@@ -30,6 +30,10 @@
           "text": "La buena noticia: <strong>no vas a empezar de cero</strong>. Este curso lee automáticamente tu <strong>catálogo de buenas prácticas del Curso 5</strong> (los 8 ámbitos con su estado: Sí completo, parcial, o sin desarrollar) y tu <strong>brújula personal del Curso 2</strong> (el principio que elegiste como criterio primero). A partir de ahí te propone metas concretas y tú las personalizas."
         },
         {
+          "type": "info-box",
+          "text": "<strong>“El aprendizaje sin compromiso es solo entretenimiento.”</strong> Así lo resumía un dirigente en el taller que dio origen a esta línea. Los cinco cursos anteriores te dieron el mapa. Este te pide dar el paso: convertir lo que aprendiste en un plan firmado. Al final de este curso, esa frase se cierra."
+        },
+        {
           "type": "heading",
           "level": 3,
           "text": "🎯 Lo que vas a vivir en este curso"
@@ -110,11 +114,11 @@
         "title": "Mini-quiz Lección 2",
         "questions": [
           {
-            "text": "En el catálogo del Curso 5, los ámbitos marcados como 🔴 NO son…",
+            "text": "Un dirigente mira su catálogo del Curso 5 y ve que “Recursos Económicos” quedó en 🔴 NO. Le dice a otro dirigente: “Ese ámbito no aplica para nosotros, mejor lo dejamos de lado.” ¿Qué le responderías según esta lección?",
             "options": [
-              "Ámbitos que tu grupo ya tiene resueltos completamente.",
-              "Las <strong>brechas a construir</strong> — ámbitos donde tu grupo todavía no tiene una práctica. El curso te propondrá metas tipo “crear primera práctica” para ellos.",
-              "Ámbitos que se deben descartar porque no son alcanzables."
+              "“Tiene razón — si el catálogo dice NO, ese ámbito no es prioritario y conviene descartarlo del plan.”",
+              "“Al contrario — un ámbito en NO es justo una brecha a construir; es candidato para una meta ‘crear primera práctica’, no para descartarlo.”",
+              "“Solo aplica si lo pide el auditor regional; mientras tanto se puede ignorar.”"
             ],
             "correctIndex": 1
           },
@@ -139,7 +143,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>⏱️ 7 minutos · 1 idea central:</strong><br>Para cada uno de los 8 ámbitos hay <strong>3 tipologías de meta</strong>: <em>documentar</em> (cuando el ámbito está en SÍ con atributos completos), <em>fortalecer</em> (cuando está en PARCIAL o SÍ incompleto) y <em>crear</em> (cuando está en NO). 8 ámbitos × 3 tipologías = <strong>24 metas-tipo</strong>."
+          "text": "<strong>⏱️ 7 minutos · 1 idea central:</strong><br>Para cada uno de los 8 ámbitos hay <strong>3 tipologías de meta</strong>: <em>documentar</em> (cuando el ámbito está en SÍ con atributos completos), <em>fortalecer</em> (cuando está en PARCIAL o SÍ incompleto) y <em>crear</em> (cuando está en NO). 8 ámbitos × 3 tipologías = <strong>24 metas-tipo</strong>.<br><br>Cada una de estas 24 metas-tipo es una forma concreta de convertir aprendizaje en compromiso — no en entretenimiento."
         },
         {
           "type": "paragraph",
@@ -269,11 +273,11 @@
         "title": "Mini-quiz Lección 3",
         "questions": [
           {
-            "text": "Las metas-tipo de este catálogo están organizadas por <strong>8 ámbitos × 3 tipologías</strong>. ¿Cuáles son las 3 tipologías?",
+            "text": "Tu grupo tiene el ámbito “Comunicaciones” en estado SÍ, con los 5 atributos cumplidos. ¿Qué tipología de meta te propondría este curso para ese ámbito?",
             "options": [
-              "Urgente, importante y opcional.",
-              "Documentar y compartir (para SÍ completo), Fortalecer atributos (para PARCIAL o SÍ incompleto), Crear primera práctica (para NO).",
-              "Operativa, estratégica y táctica."
+              "“Crear primera práctica — toda meta debe partir de cero.”",
+              "“Documentar y compartir — la práctica ya funciona; el paso siguiente es escribirla y hacerla replicable.”",
+              "“Ninguna — si ya está en SÍ completo no hace falta ponerle una meta.”"
             ],
             "correctIndex": 1
           },
@@ -281,7 +285,7 @@
             "text": "Si en tu catálogo del Curso 5 marcaste el ámbito <strong>Gestión del Riesgo</strong> en estado <strong>NO</strong>, ¿qué meta-tipo sería más sensata para empezar (3 meses)?",
             "options": [
               "GR-doc — escribir el manual de gestión del riesgo del grupo para compartirlo.",
-              "GR-crear — implementar protocolo mínimo en TODAS las salidas (lista de participantes, autorización firmada, hoja de salud, contactos de emergencia).",
+              "GR-crear — establecer un protocolo básico y obligatorio en cada salida del grupo, sin excepciones, aunque sea mínimo.",
               "Ninguna meta de Gestión del Riesgo — primero los otros ámbitos."
             ],
             "correctIndex": 1
@@ -340,7 +344,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Un plan con 10 metas es un plan que nadie cumple. Un plan con 3-5 metas bien escogidas es un plan que cambia tu grupo. La diferencia entre 5 y 10 no es <em>“el doble de logros”</em> — es <em>“la mitad del foco”</em>. <strong>Quédate con 5 máximo. Las otras 19 metas estarán esperándote el año entrante.</strong>"
+          "text": "Un plan con 10 metas es un plan que nadie cumple. Un plan con 3-5 metas bien escogidas es un plan que cambia tu grupo. La diferencia entre 5 y 10 no es <em>“el doble de logros”</em> — es <em>“la mitad del foco”</em>. <strong>Quédate con 5 máximo. Las otras 19 metas estarán esperándote el año entrante.</strong> Esto es, literalmente, la diferencia entre entretenimiento y compromiso."
         }
       ],
       "reflection": {
@@ -361,9 +365,9 @@
           {
             "text": "Por cada meta adoptada, el plan-builder pide definir cinco cosas: adopción/ajuste, plazo (3/6/12 meses), primer paso esta semana, persona con quien hablar primero, y…",
             "options": [
-              "Costo en pesos colombianos.",
+              "El nombre del asesor personal que debe aprobar la meta.",
               "Señal de cumplimiento — qué será evidencia de que se cumplió.",
-              "Nombre del reemplazo si fallas."
+              "La fecha exacta de la próxima Asamblea de Grupo."
             ],
             "correctIndex": 1
           }
@@ -502,11 +506,11 @@
         "title": "Mini-quiz Lección 6 — Cierre del curso y del Nivel 1",
         "questions": [
           {
-            "text": "El PDF que generas en este curso incluye…",
+            "text": "¿Por qué este curso te pide generar y firmar un PDF, en lugar de solo guardar tus metas en la pantalla?",
             "options": [
-              "Solo tu catálogo del Curso 5.",
-              "Tu catálogo de buenas prácticas + tu brújula + las 5 metas adoptadas + los 2-3 cursos del Nivel 2 sugeridos + espacio para firma personal y del Presidente del Consejo.",
-              "Solo las metas, sin catálogo ni cursos sugeridos."
+              "“Porque es un requisito técnico para que el sistema calcule tu certificado.”",
+              "“Porque convertir el plan en un documento firmable y compartible lo vuelve un compromiso público, más difícil de abandonar que una intención guardada solo en tu cabeza.”",
+              "“Porque el PDF reemplaza la necesidad de hablar con tu consejo sobre el plan.”"
             ],
             "correctIndex": 1
           },
@@ -515,7 +519,7 @@
             "options": [
               "Guardarlo solo para uno mismo, sin que nadie más lo sepa.",
               "Llevarlo al consejo de grupo o regional para hacerlo público dentro del equipo — porque cuando otros lo conocen, se vuelve más fácil de cumplir.",
-              "Subirlo a redes sociales con foto del firmante."
+              "Compartirlo solo si el consejo lo pide explícitamente — de lo contrario, esperar."
             ],
             "correctIndex": 1
           }

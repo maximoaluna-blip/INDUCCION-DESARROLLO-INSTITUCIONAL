@@ -108,11 +108,11 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 
 **Quiz (2 preguntas):**
 
-> **P1.** Según la PNDI 2017, ¿cuántos ámbitos de gestión componen el Desarrollo Institucional?
+> **P1.** Un consejo de grupo revisa su malla de trabajo anual y encuentra que solo tiene actividades para 5 de los 8 ámbitos de gestión. Un dirigente dice: "No hay problema, lo demás no nos aplica." ¿Qué le respondes según esta lección?
 >
-> a) _4 ámbitos._
-> b) _6 ámbitos._
-> c) _8 ámbitos._ ✅
+> a) _Tiene razón: cada grupo elige libremente cuántos ámbitos trabajar según su tamaño._
+> b) _Los 8 ámbitos cubren TODO el trabajo institucional sin huecos ni dobles — que 3 no tengan actividades visibles no significa que no apliquen, sino que probablemente están descuidados o invisibilizados._ ✅
+> c) _No hay problema, esos ámbitos los cubre directamente la región, no el grupo._
 
 > **P2.** Una propuesta del consejo de grupo que toca a la vez Gobernanza, Gestión de Recursos Económicos y Comunicaciones es…
 >
@@ -133,9 +133,9 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — _"Empezamos por adentro. Estos tres ámbitos —cómo decidimos, cómo nos administramos, de dónde sacamos la plata— son la columna interna del grupo. En grupos que llevan años sosteniéndose, estos tres están aceitados. En grupos que se rompen, casi siempre falla al menos uno de los tres."_
 3. **`heading` (nivel 3)** — _"🏛️ Ámbito 1 — Gobernanza"_
-4. **`paragraph`** — _"**Qué cubre:** cómo se toman las decisiones, quién decide qué, cómo se documentan, cómo se aplican las regulaciones internas (Estatuto Nacional 2025, Reglamento de Grupos, Reglamento de Regiones) y externas (ley civil), y cómo se planifica estratégicamente. El **Modelo de Gobernanza** tiene 4 elementos: **sentido** (para qué existe el grupo), **estructura** (qué órganos lo conforman — los viste en el Curso 3), **legitimidad** (de dónde viene la autoridad de cada órgano) y **funcionamiento** (cómo opera el día a día)."_
-5. **`timeline`** — Micro-historia (1):
+4. **`timeline`** — Micro-historia (1):
     - **🏛️ Caso Grupo 'Catatumbo':** _"El consejo de grupo decide grabar todas las sesiones (con consentimiento), generar acta resumida al cierre, firmarla todos antes de salir y publicarla la semana siguiente en la carpeta compartida. Tres años después, cuando llega un padre a reclamar por una decisión vieja, en 4 minutos sacan la grabación y el acta. La reclamación se atiende sin tensión: hay evidencia y trazabilidad. **Gobernanza sana.**"_
+5. **`paragraph`** — _"¿Qué hizo posible eso? El grupo Catatumbo tenía resuelto su ámbito de **Gobernanza**: cómo se decide, quién decide, cómo se documenta. El Modelo de Gobernanza lo resume en 4 elementos — **sentido** (para qué existe el grupo), **estructura** (qué órganos lo conforman — Curso 3), **legitimidad** (de dónde viene la autoridad de cada órgano) y **funcionamiento** (cómo opera el día a día). El acta y la grabación son 'funcionamiento' hecho carne."_
 6. **`heading` (nivel 3)** — _"🗂️ Ámbito 2 — Administración"_
 7. **`paragraph`** — _"**Qué cubre:** los 7 sub-ámbitos de la administración interna del grupo: **recursos financieros**, **activos fijos y variables** (sede, carpas, equipos), **recursos humanos** (los dirigentes, los voluntarios), **pasivos y obligaciones**, **unidades de negocio** (si el grupo opera una cantina, una tienda scout), **obligaciones legales con el Estado** (cámara de comercio, retenciones, impuestos), y **servicios generales de planta física** (luz, agua, mantenimiento de la sede)."_
 8. **`timeline`** — Micro-historia (2):
@@ -150,11 +150,11 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 
 **Quiz (2 preguntas):**
 
-> **P1.** Los 7 sub-ámbitos de Administración del grupo incluyen…
+> **P1.** El intendente del grupo "Coraje", además de las carpas y equipos, empieza a llevar registro de a quién le pagan honorarios ocasionales y qué contratos de arriendo tiene vigentes con el salón comunal. Fuera de "activos", ¿en qué otros dos sub-ámbitos de Administración está trabajando?
 >
-> a) _Solo recursos financieros y activos fijos._
-> b) _Solo lo que tiene que ver con el dinero del grupo._
-> c) _Recursos financieros, activos, RR.HH., pasivos, unidades de negocio, obligaciones con el Estado y servicios generales._ ✅
+> a) _Pasivos y obligaciones (los contratos vigentes) y obligaciones legales con el Estado (si esos honorarios implican retenciones)._ ✅
+> b) _Gestión de Recursos Económicos, porque todo lo que involucra plata es ese ámbito._
+> c) _Ninguno más — eso sigue siendo activos fijos y variables._
 
 > **P2.** Si tu grupo opera la cuota mensual, una kermés anual y aspira a postular a un fondo municipal, está trabajando principalmente en el ámbito de…
 >
@@ -198,11 +198,11 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 > b) _Comunicaciones (sub-ámbito Comunicación Externa)._ ✅
 > c) _Gestión del Riesgo (sub-ámbito ambiente seguro)._
 
-> **P2.** Según el Plan Regional Interamericano 2022-2025, la meta de crecimiento de membresía es…
+> **P2.** Un comisionado regional le dice a un grupo pequeño: "Este año tienen que crecer mínimo 2%, es la meta del Plan Regional Interamericano." ¿Qué le corriges?
 >
-> a) _Que cada grupo crezca al menos 2 % cada año._
-> b) _Que al menos 17 países de la región reporten un crecimiento de membresía de al menos 2 % en todo el período 2022-2025 (no es una meta anual por grupo)._ ✅
-> c) _Que la membresía se mantenga estable, sin crecer._
+> a) _Nada, tiene razón: todo grupo debe crecer 2% cada año._
+> b) _La meta es regional y de todo el período 2022-2025: que al menos 17 países crezcan 2% en total — no es una exigencia anual para cada grupo._ ✅
+> c) _Tiene razón, pero la meta es 2% mensual, no anual._
 
 **Logro:** "Domino los ámbitos hacia afuera".
 
@@ -276,11 +276,11 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 > b) _Conviven: la PNDI define el universo conceptual completo (8 ámbitos), la DNDI organiza sus 5 prioridades operativas del cuatrienio dentro de ese universo._ ✅
 > c) _Se contradicen y la DNDI debería reorganizarse para coincidir con la PNDI._
 
-> **P2.** Para escoger tus 2-3 ámbitos prioritarios donde aportar más, esta lección sugiere cruzar tres criterios. ¿Cuáles?
+> **P2.** Camila es tesorera y sabe que en su grupo la Gestión de Recursos Económicos va muy bien, pero Comunicaciones está totalmente descuidada — nadie contesta el WhatsApp de padres a tiempo. A ella le apasiona el diseño gráfico y tiene tiempo libre los sábados. Aplicando los tres criterios de esta lección, ¿qué ámbito debería priorizar?
 >
-> a) _Solo el cargo que ejerzo hoy._
-> b) _Cuán débil está el ámbito en mi grupo/región + conexión con mi cargo o experiencia + capacidad de aporte concreto en 3-6 meses._ ✅
-> c) _Solo lo que la región me asigne formalmente._
+> a) _Recursos Económicos, porque es donde ya tiene experiencia como tesorera._
+> b) _Comunicaciones — es el ámbito más débil hoy, conecta con una habilidad personal suya (diseño) y tiene capacidad real de aportar (tiempo los sábados)._ ✅
+> c) _Ninguno: debe esperar a que la región le asigne un ámbito formalmente._
 
 **Logro al completar:** "Ámbitos a la vista" (logro final del curso, `unlockOnModule: -1`).
 

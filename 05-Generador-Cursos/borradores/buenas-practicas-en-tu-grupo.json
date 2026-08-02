@@ -23,6 +23,10 @@
         },
         {
           "type": "paragraph",
+          "text": "<strong>Una buena práctica no es lo que tu grupo hace bien.</strong> Es lo que tu grupo hace bien, sabe por qué lo hace bien, lo puede repetir, y lo puede enseñar a otros. Si algo de eso falla, todavía no es una buena práctica — es una buena intención, una rutina, o el mérito de una sola persona que se va con ella cuando se retira del grupo. Este curso te da el filtro para distinguirlo."
+        },
+        {
+          "type": "paragraph",
           "text": "En los Cursos 2 y 4 viste el marco doctrinal del Desarrollo Institucional: los fundamentos, los principios, los 8 ámbitos. Ahora bajamos a la cancha. Porque la doctrina, sin práctica, es solo discurso bonito. Y la práctica, sin doctrina, es improvisación que se cae al primer cambio de equipo."
         },
         {
@@ -242,11 +246,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Según la PNDI 2017, los 5 atributos de una buena práctica son…",
+            "text": "El Grupo “Cumbre” documentó un protocolo de bienvenida a familias nuevas: es innovador (antes no existía nada), lo aplican hace 8 meses con buenos resultados, y cualquier consejero puede seguirlo porque está en una plantilla de una página. Pero depende de que el jefe de grupo la imprima y la reparta cada vez — si él no está, nadie más se acuerda de hacerlo. ¿Qué le falta a esta práctica para completar el filtro de los 5 atributos?",
             "options": [
-              "Democrática, transparente, ética, responsable, oportuna.",
-              "Innovadora, efectiva, sostenible, replicable y aplicable a toda la institución.",
-              "Documentada, firmada, votada, publicada y archivada."
+              "Ser innovadora — todavía no aporta nada nuevo.",
+              "Ser sostenible — depende de que una persona puntual la impulse cada vez, así que no se sostiene sola en el tiempo con los recursos que ya tiene el grupo.",
+              "Ser aplicable a toda la institución — solo sirve para grupos con jefe de grupo activo."
             ],
             "correctIndex": 1
           }
@@ -304,20 +308,20 @@
         "title": "Mini-quiz Lección 4",
         "questions": [
           {
-            "text": "Según el ciclo de gestión, ¿cuál es el primer paso de la gestión de buenas prácticas?",
+            "text": "El consejo de tu grupo “Bosque” se reúne cada mes y la agenda siempre es la misma: qué falta, qué se dañó, qué no se ha hecho. Nunca han parado a nombrar algo que ya hacen bien. Según el ciclo de gestión de buenas prácticas, ¿qué paso le está faltando a este consejo?",
             "options": [
-              "Documentar todo lo que el grupo hace, sin excepción.",
-              "Identificar lo que el grupo ya hace que vale la pena — reconocer lo bueno antes de mejorarlo.",
-              "Compartir con otros grupos las prácticas del grupo propio."
+              "Revisar — deberían evaluar si sus prácticas siguen funcionando.",
+              "Identificar — antes de mejorar o revisar cualquier cosa, hace falta primero reconocer y nombrar lo que el grupo ya hace bien.",
+              "Compartir — deberían llevar sus prácticas a la región antes de seguir."
             ],
             "correctIndex": 1
           },
           {
-            "text": "Las buenas prácticas, según la PNDI 2017, son dinámicas porque…",
+            "text": "El Grupo “Faro” documentó su protocolo de seguridad en salidas hace 5 años, lo guardó en una carpeta, y nunca lo ha vuelto a mirar. Las condiciones cambiaron (salen a sitios distintos, hay dirigentes nuevos), pero el protocolo sigue exactamente igual. Según la idea de que las buenas prácticas son “dinámicas”, ¿qué le está fallando a esta práctica?",
             "options": [
-              "Cambian totalmente cada año según las modas del momento.",
-              "Forman parte de un proceso de mejora continua que las retroalimenta y mantiene en constante perfeccionamiento.",
-              "Solo aplican durante el tiempo del Plan Estratégico vigente."
+              "Nada — una vez documentada, una buena práctica no necesita tocarse de nuevo.",
+              "Le falta el paso de revisar y mejorar — sin ese ciclo de retroalimentación, la práctica se vuelve rígida y deja de responder a la realidad actual del grupo.",
+              "Le falta compartirla con la región — eso es lo único que le falta para estar completa."
             ],
             "correctIndex": 1
           }
@@ -465,6 +469,10 @@
           "text": "El <strong>Curso 6</strong> —cierre del Nivel 1— lee tu catálogo y te ayuda a convertirlo en un <strong>plan personal de aporte</strong>. Para cada ámbito te va a sugerir metas según el estado en que quedó: si está verde, meta de <em>documentar y compartir</em>; si está amarillo, meta de <em>fortalecer atributos</em>; si está rojo, meta de <em>crear una primera práctica</em>. Y todo enmarcado en los principios y la brújula que elegiste en el Curso 2."
         },
         {
+          "type": "mission-box",
+          "text": "<strong>🎯 Tu primer paso, antes del Curso 6:</strong> Esta semana, cuéntale a tu consejo o a tu jefe de grupo UNA práctica de tu catálogo — la que más orgullo te dio reconocer. Nombrarla en voz alta ya es el primer paso del ciclo de compartir."
+        },
+        {
           "type": "blockquote",
           "text": "Una buena práctica no es lo que tu grupo hace bien. Es lo que tu grupo hace bien, sabe por qué lo hace bien, lo puede repetir, y lo puede enseñar a otros. Hoy empezaste a nombrarlas — el Curso 6 va a convertirlas en plan."
         }
@@ -476,11 +484,11 @@
         "title": "Mini-quiz Lección 6 — Cierre del curso",
         "questions": [
           {
-            "text": "Según la PNDI 2017, una “Institución Saludable” es aquella que…",
+            "text": "El Grupo “Aurora” tiene finanzas impecables, cumple todos los trámites de SiScout a tiempo y nunca ha tenido un hallazgo del revisor fiscal. Pero las reuniones del consejo casi no tienen quórum, las decisiones las toma solo el jefe de grupo sin consultar a nadie, y las familias sienten que no les informan nada. Según la definición de “Institución Saludable” de la PNDI 2017, ¿este grupo lo es?",
             "options": [
-              "Cumple un perfil mínimo de 4 en cada una de las 6 dimensiones de salud institucional.",
-              "Cumple la Misión y la Visión a través de la ejecución de buenas prácticas de manera consciente, sistemática y sostenida, en forma democrática, transparente y responsable.",
-              "Ha sido certificada por una auditoría externa anual."
+              "Sí — con las finanzas en orden y sin hallazgos, ya cumple lo esencial de la salud institucional.",
+              "No — cumplir procesos en un solo ámbito no basta; la PNDI exige ejecutar buenas prácticas de forma democrática, transparente y participativa, y aquí faltan la democracia y la comunicación con las familias.",
+              "Sí, siempre que haya sido evaluado con un perfil mínimo de 4 en cada una de las 6 dimensiones de salud institucional."
             ],
             "correctIndex": 1
           },

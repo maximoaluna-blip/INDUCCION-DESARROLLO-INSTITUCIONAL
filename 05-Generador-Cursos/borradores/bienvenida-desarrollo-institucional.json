@@ -27,7 +27,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Quizás escuchaste el término <strong>“Desarrollo Institucional”</strong> y te sonó a oficina, a comisionados, a cosas que pasan lejos. Este curso existe para mostrarte algo distinto: <strong>el grupo es lo que sus adultos lo hacen ser</strong>. Y casi todo lo que tú haces para que el grupo dure, funcione y crezca con bien <em>ya es</em> Desarrollo Institucional."
+          "text": "Quizás escuchaste el término <strong>“Desarrollo Institucional”</strong> y pensaste: eso es lo que hacen los de arriba, mientras nosotros trabajamos con los chicos. Pues no. <strong>Desarrollo Institucional es lo que hacemos cada vez que cuidamos que el grupo dure, funcione y crezca con bien. Nadie se libra</strong> — ni tú tampoco."
         },
         {
           "type": "heading",
@@ -111,11 +111,11 @@
         "title": "Mini-quiz Lección 1",
         "questions": [
           {
-            "text": "Según lo que viste en esta lección, ¿cuál de las siguientes es la definición que más se ajusta a Desarrollo Institucional?",
+            "text": "El papá de un lobato te dice: “A mí no me interesa el Desarrollo Institucional, yo solo vengo a ayudar en las actividades de la manada.” Según lo que viste en esta lección, ¿qué le respondes?",
             "options": [
-              "El conjunto de funciones que cumplen los comisionados nacionales para gestionar la asociación",
-              "Todo lo que se hace para que el grupo, la región o la nación duren, funcionen y crezcan con bien",
-              "La documentación contable y administrativa que exige el Estado a las organizaciones sin ánimo de lucro"
+              "Tienes razón, DI es solo cosa de comisionados y del consejo de grupo",
+              "Ayudar en las actividades de la manada de forma constante y confiable ya es una forma de Desarrollo Institucional — hacer que el grupo funcione",
+              "DI es la documentación contable que exige el Estado, así que a él no le aplica tampoco"
             ],
             "correctIndex": 1
           },
@@ -205,7 +205,7 @@
         }
       ],
       "reflection": {
-        "prompt": "¿Cuál de los 5 mitos te resonó más como algo que tú o alguien cercano han pensado o escuchado en tu grupo? Escríbele tu propia refutación, en una o dos frases — con tus palabras."
+        "prompt": "Piensa en una persona concreta de tu grupo o región (puedes usar solo su rol o iniciales) que alguna vez dijo o pensó algo parecido a uno de estos 5 mitos — y en qué momento fue (una reunión, una salida, una conversación de pasillo). Escribe qué dijo y qué le responderías hoy, con tus propias palabras."
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",
@@ -220,11 +220,11 @@
             "correctIndex": 1
           },
           {
-            "text": "En el grupo nadie firma las actas porque “ya alguien lo hará”. Después, nadie recuerda qué se decidió. ¿Qué mito están viviendo?",
+            "text": "En el consejo de tu grupo todos están de acuerdo en que hay que actualizar las normas de funcionamiento del Grupo… pero nadie levanta la mano para hacerlo porque “seguro alguien ya lo está haciendo”. Pasan tres meses y sigue sin hacerse. Según el cuento de Todo el mundo, Alguien, Cualquiera y Nadie, ¿qué está pasando?",
             "options": [
-              "Mito 1 — eso es trabajo de los comisionados",
-              "Mito 4 — eso ya lo hace alguien más",
-              "Mito 5 — para eso hay que ser experto"
+              "El grupo necesita contratar a un experto externo para que lo haga",
+              "Cuando una responsabilidad es “de todos”, en la práctica termina sin ser de nadie — alguien concreto tiene que asumirla",
+              "Es normal: eso es tarea exclusiva del comisionado regional, no del consejo de grupo"
             ],
             "correctIndex": 1
           }
@@ -323,11 +323,11 @@
             "correctIndex": 2
           },
           {
-            "text": "¿Cuál es la norma marco constitucional vigente que rige a toda la Asociación Scouts de Colombia hoy?",
+            "text": "Un dirigente te dice: “Lo que dice el Estatuto ya quedó viejo, ahora lo que manda es la Política Nacional de Desarrollo Institucional de 2017.” ¿Qué le respondes según esta lección?",
             "options": [
-              "La Política Nacional de Desarrollo Institucional 2017",
-              "El Estatuto Nacional 2025",
-              "El Plan Estratégico 2023–2026"
+              "Tiene razón, la PNDI 2017 es la norma constitucional vigente y reemplaza al Estatuto",
+              "No exactamente: el Estatuto Nacional 2025 es la norma constitucional vigente de la ASC; la PNDI 2017 es el marco doctrinal específico del DI, pero no reemplaza al Estatuto",
+              "Ninguno de los dos aplica ya — lo que rige hoy es solo el Plan Estratégico 2023–2026"
             ],
             "correctIndex": 1
           }
@@ -411,11 +411,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Según esta lección, la relación entre Desarrollo Institucional y la experiencia educativa de los chicos es…",
+            "text": "En un grupo, los chicos están felices en las reuniones, así que el consejo decide posponer indefinidamente organizar los permisos y actualizar el protocolo de salidas: “ya después vemos eso, lo importante es que los pelados la están pasando bien”. Según esta lección, ¿qué le dirías a ese consejo?",
             "options": [
-              "Independiente — son temas distintos que no se cruzan",
-              "Inversa — entre más DI, menos espacio queda para los chicos",
-              "Directa — la salud institucional sostiene y protege la experiencia educativa"
+              "Tienen razón — mientras los chicos estén contentos, lo institucional puede esperar",
+              "Ese papeleo no cambia nada; son temas totalmente aparte del bienestar de los chicos",
+              "Justo para que los chicos sigan felices y seguros, ese papeleo hoy es lo que evita una historia como la del Grupo A o el Grupo B mañana"
             ],
             "correctIndex": 2
           }
@@ -527,11 +527,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Según el cierre del curso, los grupos institucionalmente sanos se construyen sobre…",
+            "text": "Un consejero lleva dos años diciendo en cada reunión “este año vamos a transformar completamente la cultura institucional del grupo” — y nada cambia. En el grupo vecino, alguien solo prometió “voy a proponer que firmemos el acta antes de salir” — y lo cumplió las cuatro veces que salieron. ¿Qué enseña esta comparación, según el cierre del curso?",
             "options": [
-              "Promesas grandes que inspiran a todo el equipo de adultos voluntarios",
-              "Cien promesas chicas cumplidas, no una grande olvidada",
-              "La carga de trabajo concentrada en el jefe de grupo y el tesorero"
+              "Que las promesas grandes son más valiosas porque muestran más compromiso",
+              "Que un grupo institucionalmente sano se construye con promesas chicas que sí se cumplen, no con promesas grandes que se quedan en el aire",
+              "Que ese tipo de promesas deberían dejárselas al jefe de grupo, que es quien tiene la responsabilidad final"
             ],
             "correctIndex": 1
           }

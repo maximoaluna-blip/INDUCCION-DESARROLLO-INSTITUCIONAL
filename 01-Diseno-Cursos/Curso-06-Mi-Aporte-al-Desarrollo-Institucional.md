@@ -29,11 +29,11 @@
 
 Al completar este curso, el adulto:
 
-1. **Recibe** un plan precargado con base en su catálogo del Curso 5 (los ámbitos en estado NO o PARCIAL se priorizan; los ámbitos en SÍ con atributos completos se proponen para documentar y compartir).
+1. **Prioriza** los ámbitos de su catálogo del Curso 5 según su estado (NO / PARCIAL / SÍ), distinguiendo brechas de fortalezas documentables.
 2. **Personaliza** las metas: elige cuáles adopta, ajusta su plazo (3 / 6 / 12 meses), añade metas propias.
 3. **Identifica** los recursos sugeridos para cada meta: qué leer del repositorio ASC, qué pedir a la región, con quién hablar primero.
-4. **Descarga** un PDF firmable de su plan personal para llevarlo al consejo o guardarlo como compromiso.
-5. **Recibe** la sugerencia de los 2-3 cursos del Nivel 2 que más le sirven, según los ámbitos donde su grupo tiene mayor brecha o mayor oportunidad de fortalecer.
+4. **Formaliza** su plan personal en un documento firmable para presentarlo ante su consejo.
+5. **Selecciona**, con criterio propio, el curso del Nivel 2 más relevante según su catálogo.
 6. **Cierra** el Nivel 1 con un compromiso aterrizado, no abstracto.
 
 ---
@@ -72,9 +72,10 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
 1. **`info-box`** — Tiempo estimado (~30 min) y promesa: _"Al final vas a salir con un **plan personal de aporte al DI firmado**, listo para llevar al consejo de tu grupo o región, o para guardarlo como tu compromiso personal. Sin abstracciones. Con metas, plazos y primer paso definido."_
 2. **`paragraph`** — Apertura: _"Llegaste al final del Nivel 1. Atravesaste seis cursos. Aprendiste qué es DI, conociste el marco doctrinal, ubicaste los órganos, recorriste los 8 ámbitos y construiste el catálogo de buenas prácticas de tu grupo. Pero todo eso pierde sentido si no se traduce en algo concreto que vas a hacer. Este curso es ese puente."_
 3. **`paragraph`** — _"La buena noticia: **no vas a empezar de cero**. Este curso lee automáticamente tu **catálogo de buenas prácticas del Curso 5** (los 8 ámbitos con su estado: Sí completo, parcial, o sin desarrollar) y tu **brújula personal del Curso 2** (el principio que elegiste como criterio primero). A partir de ahí te propone metas concretas y tú las personalizas."_
-4. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
-5. **`list`** — Las 5 ideas centrales de las Lecciones 2-6.
-6. **`mission-box`** — _"Tip de uso: este curso es el más práctico del Nivel 1. Casi todo el tiempo vas a estar marcando, ajustando y escribiendo. Cuando salgas, vas a tener un PDF firmable. Tómate este momento en serio — el plan es para los próximos 12 meses."_
+4. **`info-box`** (nuevo) — _"<strong>'El aprendizaje sin compromiso es solo entretenimiento.'</strong> Así lo resumía un dirigente en el taller que dio origen a esta línea. Los cinco cursos anteriores te dieron el mapa. Este te pide dar el paso: convertir lo que aprendiste en un plan firmado. Al final de este curso, esa frase se cierra."_
+5. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
+6. **`list`** — Las 5 ideas centrales de las Lecciones 2-6.
+7. **`mission-box`** — _"Tip de uso: este curso es el más práctico del Nivel 1. Casi todo el tiempo vas a estar marcando, ajustando y escribiendo. Cuando salgas, vas a tener un PDF firmable. Tómate este momento en serio — el plan es para los próximos 12 meses."_
 
 **Reflexión:** ninguna.
 
@@ -112,11 +113,11 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
 
 **Quiz (2 preguntas):**
 
-> **P1.** En el catálogo del Curso 5, los ámbitos marcados como 🔴 NO son…
+> **P1.** Un dirigente mira su catálogo del Curso 5 y ve que "Recursos Económicos" quedó en 🔴 NO. Le dice a otro dirigente: "Ese ámbito no aplica para nosotros, mejor lo dejamos de lado." ¿Qué le responderías según esta lección?
 >
-> a) _Ámbitos que tu grupo ya tiene resueltos completamente._
-> b) _Las **brechas a construir** — ámbitos donde tu grupo todavía no tiene una práctica. El Curso 6 te propondrá metas tipo 'crear primera práctica' para ellos._ ✅
-> c) _Ámbitos que se deben descartar porque no son alcanzables._
+> a) _"Tiene razón — si el catálogo dice NO, ese ámbito no es prioritario y conviene descartarlo del plan."_
+> b) _"Al contrario — un ámbito en NO es justo una brecha a construir; es candidato para una meta 'crear primera práctica', no para descartarlo."_ ✅
+> c) _"Solo aplica si lo pide el auditor regional; mientras tanto se puede ignorar."_
 
 > **P2.** Si la mayoría de tus 8 ámbitos están en NO o PARCIAL (situación típica), este curso recomienda…
 >
@@ -134,7 +135,7 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
 
 **Secciones (en orden):**
 
-1. **`info-box`** — Idea central de la lección.
+1. **`info-box`** — Idea central de la lección + _"Cada una de estas 24 metas-tipo es una forma concreta de convertir aprendizaje en compromiso — no en entretenimiento."_
 2. **`paragraph`** — _"En la próxima lección vas a armar tu plan. Antes, conoce el catálogo de metas-tipo que tienes a disposición. Están organizadas por los 8 ámbitos del Curso 4, con **tres tipologías de meta por ámbito**, una para cada estado posible del catálogo:"_
 3. **`method-grid`** — 3 tarjetas con las tipologías:
     - 🟢 **Documentar y compartir** → _"Cuando el ámbito está en SÍ con 4-5 atributos cumplidos. La práctica ya funciona — el siguiente paso es escribirla y hacerla replicable, para que sobreviva al equipo actual y sirva a otros grupos."_ (color verde)
@@ -186,16 +187,16 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
 
 **Quiz (2 preguntas):**
 
-> **P1.** Las metas-tipo de este catálogo están organizadas por **8 ámbitos × 3 tipologías**. ¿Cuáles son las 3 tipologías?
+> **P1.** Tu grupo tiene el ámbito "Comunicaciones" en estado SÍ, con los 5 atributos cumplidos. ¿Qué tipología de meta te propondría este curso para ese ámbito?
 >
-> a) _Urgente, importante y opcional._
-> b) _Documentar y compartir (para SÍ completo), Fortalecer atributos (para PARCIAL o SÍ incompleto), Crear primera práctica (para NO)._ ✅
-> c) _Operativa, estratégica y táctica._
+> a) _"Crear primera práctica — toda meta debe partir de cero."_
+> b) _"Documentar y compartir — la práctica ya funciona; el paso siguiente es escribirla y hacerla replicable."_ ✅
+> c) _"Ninguna — si ya está en SÍ completo no hace falta ponerle una meta."_
 
 > **P2.** Si en tu catálogo del Curso 5 marcaste el ámbito **Gestión del Riesgo** en estado **NO**, ¿qué meta-tipo sería más sensata para empezar (3 meses)?
 >
 > a) _GR-doc — escribir el manual de gestión del riesgo del grupo para compartirlo._
-> b) _GR-crear — implementar protocolo mínimo en TODAS las salidas (lista de participantes, autorización firmada, hoja de salud, contactos de emergencia)._ ✅
+> b) _GR-crear — establecer un protocolo básico y obligatorio en cada salida del grupo, sin excepciones, aunque sea mínimo._ ✅
 > c) _Ninguna meta de Gestión del Riesgo — primero los otros ámbitos._
 
 **Logro:** "Conozco las opciones".
@@ -232,7 +233,7 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
     - `buttonLabel`: "Guardar mi plan"
 6. **`info-box`** — _"💡 Recomendación: si te cuesta elegir entre dos metas, **usa tu brújula personal del Curso 2** como desempate. El principio que elegiste decide. Por ejemplo: si tu brújula es 'Participación Juvenil', priorizá metas que involucren a los chicos en la decisión (como CR-fort SiScout con la patrulla, o C-fort comunicación con familias)."_
 7. **`heading` (nivel 3)** — _"🧮 La regla del plan: máximo 5 metas"_
-8. **`paragraph`** — _"Un plan con 10 metas es un plan que nadie cumple. Un plan con 3-5 metas bien escogidas es un plan que cambia tu grupo. La diferencia entre 5 y 10 no es 'el doble de logros' — es 'la mitad del foco'. **Quédate con 5 máximo. Las otras 19 metas estarán esperándote el año entrante.**"_
+8. **`paragraph`** — _"Un plan con 10 metas es un plan que nadie cumple. Un plan con 3-5 metas bien escogidas es un plan que cambia tu grupo. La diferencia entre 5 y 10 no es 'el doble de logros' — es 'la mitad del foco'. **Quédate con 5 máximo. Las otras 19 metas estarán esperándote el año entrante.** Esto es, literalmente, la diferencia entre entretenimiento y compromiso."_
 
 **Reflexión:** _"Después de hacer tu plan, mira tus 3-5 metas elegidas. ¿Cuál es la que sientes que más te emociona o más miedo te da hacer? Esa probablemente es la que más importa. Coméntalo en una frase."_
 
@@ -246,9 +247,9 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
 
 > **P2.** Para cada meta adoptada, el plan-builder te pide definir cuatro cosas: adopción/ajuste, plazo, **primer paso esta semana**, persona con quien hablar primero, y…
 >
-> a) _Costo en pesos colombianos._
+> a) _El nombre del asesor personal que debe aprobar la meta._
 > b) _Señal de cumplimiento — qué será evidencia de que se cumplió._ ✅
-> c) _Nombre del reemplazo si fallas._
+> c) _La fecha exacta de la próxima Asamblea de Grupo._
 
 **Logro:** "Hice mi plan".
 
@@ -333,17 +334,17 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
 
 **Quiz (2 preguntas):**
 
-> **P1.** El PDF que generas en este curso incluye…
+> **P1.** ¿Por qué este curso te pide generar y firmar un PDF, en lugar de solo guardar tus metas en la pantalla?
 >
-> a) _Solo tu catálogo del Curso 5._
-> b) _Tu catálogo de buenas prácticas + tu brújula + las 5 metas adoptadas + los 2-3 cursos del Nivel 2 sugeridos + espacio para firma personal y del Presidente del Consejo._ ✅
-> c) _Solo las metas, sin catálogo ni cursos sugeridos._
+> a) _"Porque es un requisito técnico para que el sistema calcule tu certificado."_
+> b) _"Porque convertir el plan en un documento firmable y compartible lo vuelve un compromiso público, más difícil de abandonar que una intención guardada solo en tu cabeza."_ ✅
+> c) _"Porque el PDF reemplaza la necesidad de hablar con tu consejo sobre el plan."_
 
 > **P2.** Una buena práctica final que sugiere este curso para fortalecer el cumplimiento del plan es…
 >
 > a) _Guardarlo solo para uno mismo, sin que nadie más lo sepa._
 > b) _Llevarlo al consejo de grupo o regional para hacerlo público dentro del equipo — porque cuando otros lo conocen, se vuelve más fácil de cumplir._ ✅
-> c) _Subirlo a redes sociales con foto del firmante._
+> c) _Compartirlo solo si el consejo lo pide explícitamente — de lo contrario, esperar._
 
 **Logro al completar:** "Tengo mi plan firmado" (logro final del curso y del Nivel 1, `unlockOnModule: -1`).
 

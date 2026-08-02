@@ -27,11 +27,11 @@
 Al completar este curso, el adulto:
 
 1. **Ubica** los 5 niveles del Movimiento Scout (Mundial → Interamericano → Nacional → Regional → Local) y entiende cómo se relacionan jerárquicamente y federativamente.
-2. **Reconoce** los órganos de cada nivel según la arquitectura asimétrica vigente: a nivel Nacional, Regional y de Grupo, los reglamentos vigentes desagregan tipos de órganos diferentes.
+2. **Ubica** el órgano correspondiente a cada tipo de función (dirección, administración, técnico, investigación, control) en los niveles Nacional, Regional y de Grupo.
 3. **Distingue** los 5 tipos genéricos de órganos en una institución sana: dirección (Asamblea), administración (Consejo), técnico (Equipo de Jefatura), investigación/disciplina y control.
 4. **Identifica** correctamente quién es el órgano de control en cada nivel: Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional (nacional); Revisor Fiscal + Capítulo Regional de la Corte de Honor (regional); Fiscal o Revisor Fiscal + Comisión Disciplinaria Ad-hoc (grupo).
-5. **Reconoce** un caso típico de error institucional por nivel y cómo se previene.
-6. **Sale** sabiendo dónde acudir en su institución cuando tiene una duda, un conflicto o una propuesta.
+5. **Diagnostica** un caso típico de error institucional por nivel y propone su prevención.
+6. **Identifica**, con nombre propio, a quién acudir en su institución ante una duda, un conflicto o una propuesta.
 
 ---
 
@@ -68,10 +68,11 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 
 1. **`info-box`** — Tiempo estimado (~30 min) y promesa: _"Al final vas a saber exactamente qué órganos existen en cada nivel del Movimiento Scout, en qué se diferencian, y dónde acudir cuando tengas una duda o un problema institucional."_
 2. **`paragraph`** — Apertura con caso real: _"En una jefatura regional me contaron esta historia. Una mamá llegó al grupo a reclamar por una decisión que afectó a su hijo en una salida. Habló con el jefe. El jefe la mandó al consejo. El consejo le dijo 'eso lo decidió el comisionado regional'. El comisionado le dijo 'eso lo regula la Jefatura Scout Nacional'. La mamá se cansó, escribió a la Oficina Scout Mundial — y la queja terminó devuelta al grupo, al jefe, donde había empezado. **Tres meses perdidos**. Si alguien hubiera sabido el mapa institucional, la queja se atendía bien en el primer nivel."_
-3. **`paragraph`** — Promesa: _"Este curso es ese mapa. Pero antes, una advertencia: la estructura del Movimiento no es un organigrama empresarial perfectamente simétrico. Es una **federación** — y eso significa que cada nivel tiene su propia arquitectura. Ver eso es la primera lección del curso."_
-4. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
-5. **`list`** — Las 5 ideas centrales de las Lecciones 2-6.
-6. **`mission-box`** — _"Tip de uso: a medida que avances, ten al lado una hoja en blanco. En la Lección 6 vas a llenarla con los nombres concretos de las personas de tu institución — la teoría es bonita, pero el grupo se sostiene cuando le pones nombre a cada cargo."_
+3. **`paragraph`** — Hook enunciado: _"En una institución sana sabes a quién acudir **antes** de que pase algo. En una débil, te das cuenta cuando ya pasó — como le pasó a esa mamá."_
+4. **`paragraph`** — Promesa: _"Este curso es ese mapa. Pero antes, una advertencia: la estructura del Movimiento no es un organigrama empresarial perfectamente simétrico. Es una **federación** — y eso significa que cada nivel tiene su propia arquitectura. Ver eso es la primera lección del curso."_
+5. **`heading` (nivel 3)** — _"Lo que vas a vivir en este curso"_
+6. **`list`** — Las 5 ideas centrales de las Lecciones 2-6.
+7. **`mission-box`** — _"Tip de uso: a medida que avances, ten al lado una hoja en blanco. En la Lección 6 vas a llenarla con los nombres concretos de las personas de tu institución — la teoría es bonita, pero el grupo se sostiene cuando le pones nombre a cada cargo."_
 
 **Reflexión:** ninguna.
 
@@ -116,11 +117,11 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 > b) _Una federación de Organizaciones Scouts Nacionales con autonomía dentro de un marco común._ ✅
 > c) _Una jerarquía vertical donde cada nivel obedece estrictamente al nivel superior._
 
-> **P2.** El Grupo Scout es, en la estructura del Movimiento…
+> **P2.** Un consejero regional te dice: "Al final los grupos son solo una instancia que ejecuta lo que decide la región; lo institucionalmente importante pasa arriba." ¿Qué le respondes con lo que acabas de ver?
 >
-> a) _Un nivel operativo opcional, dependiente del consejo regional._
-> b) _La célula básica donde efectivamente sucede la experiencia educativa, reconocida como sujeto por la PNDI._ ✅
-> c) _Una subdivisión administrativa de la región, sin estatus institucional propio._
+> a) _Tiene razón: el grupo ejecuta, la región decide — así es la cadena de mando._
+> b) _No es así: el Grupo es la célula básica donde ocurre la experiencia educativa con los chicos, y la PNDI lo reconoce como sujeto propio de la política — no una simple ejecutora de la región._ ✅
+> c) _Depende del tamaño del grupo: los grupos grandes sí tienen peso institucional propio, los pequeños no._
 
 **Logro:** "Conozco los 5 niveles".
 
@@ -148,11 +149,11 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 
 **Quiz (2 preguntas):**
 
-> **P1.** Los 5 tipos genéricos de órganos en una institución sana son…
+> **P1.** Un dirigente te dice: "En mi grupo el mismo Consejo aprueba el presupuesto, lo ejecuta y además audita si se gastó bien." ¿Qué está pasando ahí, según los 5 tipos de órganos que viste?
 >
-> a) _Asamblea, Consejo, Jefatura, Tesorería, Comunicaciones._
-> b) _Dirección, administración, técnico/operativo, investigación/disciplina, control/fiscal._ ✅
-> c) _Programa, Adultos, Desarrollo Institucional, Crecimiento, Riesgo._
+> a) _Es normal: el Consejo administra y también puede controlarse a sí mismo, porque conoce mejor que nadie sus propias cuentas._
+> b) _Se están mezclando administración y control: el Consejo debería administrar, pero el control fiscal necesita ser un órgano independiente (Fiscal o Revisor Fiscal) para que nadie audite su propia gestión._ ✅
+> c) _Se están mezclando dirección y técnico: el Consejo no debería ejecutar nada operativo, eso es tarea exclusiva de la Asamblea._
 
 > **P2.** La estructura de órganos entre los niveles Nacional, Regional y de Grupo de la ASC es…
 >
@@ -188,7 +189,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 8. **`heading` (nivel 3)** — _"Un error institucional típico del nivel Nacional"_
 9. **`paragraph`** — _"**Confundir órganos.** Cuando una región o un grupo solicita algo a la DNDI esperando una decisión política, o al CSN esperando un trámite operativo, la solicitud se demora porque va al órgano equivocado. **Prevención:** antes de escribir, pregunta '¿esto es una política nueva, o es un trámite dentro de una política existente?'. Si es política nueva → CSN. Si es trámite → Jefatura Nacional o la Dirección Nacional correspondiente."_
 
-**Reflexión:** _"¿Sabrías nombrar al Jefe Scout Nacional actual? ¿A algún miembro del Consejo Scout Nacional? Si no, búscalos en scout.org.co — el solo hecho de saber sus nombres te conecta con la institución."_
+**Reflexión:** _"¿Sabrías nombrar al Jefe Scout Nacional actual o a algún miembro del CSN? Si no, búscalos en scout.org.co. Ahora piensa en tu grupo: la última vez que tu grupo necesitó algo del nivel nacional (un permiso, una consulta, un material), ¿a quién le escribieron? ¿Era el órgano correcto?"_
 
 **Quiz (2 preguntas):**
 
@@ -202,7 +203,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 >
 > a) _La Asamblea Scout Nacional directamente._
 > b) _La Jefatura Scout Nacional, como equipos técnicos ejecutivos._ ✅
-> c) _La Corte de Honor Nacional, por ser temas formativos y disciplinarios._
+> c) _Directamente a la Jefatura Regional, porque cada región puede aprobar sus propios materiales formativos sin pasar por lo nacional._
 
 **Logro:** "Conozco la ASC nacional".
 
