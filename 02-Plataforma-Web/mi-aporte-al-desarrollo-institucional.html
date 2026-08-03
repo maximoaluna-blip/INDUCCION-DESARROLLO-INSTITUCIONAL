@@ -708,13 +708,20 @@ body {
     color: white; padding: 20px; text-align: center;
 }
 .stat-card h4 { font-size: 2em; margin-bottom: 5px; color: white; }
+/* `.module p` (color gris para fondo blanco) le ganaba en especificidad al `color: white`
+   de .stat-card, dejando texto #636363 sobre fondo morado: contraste 1.55:1, ilegible.
+   Detectado al ampliar la auditoria a11y a los modulos ocultos (03-ago-2026). */
+.stat-card p, .module .stat-card p { color: #ffffff; }
 
 /* --- Achievements --- */
 .achievements { display: flex; flex-wrap: wrap; gap: 10px; margin: 20px 0; }
 .achievement {
     background: #f3e8ff; color: #622599; padding: 10px 15px;
     border: 2px solid #622599; font-size: 0.9em;
-    opacity: 0.4; transition: all 0.3s; font-weight: 600;
+    /* opacity 0.4 aplastaba el contraste a 2:1 sobre un diseno que de suyo cumple 7.93:1.
+       Calculado: 0.75 da 4.39:1 (no pasa), 0.85 da 5.57:1. Se conserva la senal visual
+       de "aun no lo tienes" y se cumple WCAG AA. */
+    opacity: 0.85; transition: all 0.3s; font-weight: 600;
 }
 .achievement.earned { opacity: 1; transform: scale(1.05); box-shadow: 0 3px 10px rgba(98, 37, 153, 0.3); }
 
@@ -1171,6 +1178,42 @@ body {
     .top-bar, .nav-menu, .mobile-nav, .btn, .save-indicator, .sync-indicator, .modal-overlay { display: none !important; }
     .certificate { page-break-inside: avoid; }
 }
+
+/* --- Cita destacada (blockquote de contenido) ---
+   El color iba inline en build-course.js, de modo que el tema oscuro no podia
+   sobrescribirlo y quedaba en 1.65:1 sobre fondo oscuro: practicamente invisible.
+   Detectado el 03-ago-2026 al ampliar la auditoria a11y a los modulos ocultos. */
+.cita-destacada {
+    font-size: 1.1rem; font-style: italic; text-align: center;
+    margin: 20px 0; color: #1a4b6b;
+}
+html[data-theme="dark"] .cita-destacada { color: #9ec8e8; }
+
+/* El certificado conserva fondo claro para poder imprimirse, asi que su texto no debe
+   heredar los colores claros del tema oscuro (daba 2.02:1). */
+html[data-theme="dark"] .certificate,
+html[data-theme="dark"] .certificate p,
+html[data-theme="dark"] .certificate strong,
+html[data-theme="dark"] .certificate div { color: #2b2b33; }
+
+/* Pie de video: el color iba inline (#555) y el tema oscuro no podia sobrescribirlo
+   (2.06:1 sobre fondo oscuro). Mismo patron que la cita destacada. */
+.video-caption { text-align: center; font-style: italic; color: #555; margin-top: 8px; }
+html[data-theme="dark"] .video-caption { color: #b9b9c4; }
+
+/* Enlaces dentro del contenido: sin estilo propio caian al azul por defecto del
+   navegador (#0000ee), que sobre fondo oscuro da 1.62:1. */
+.module a { color: #0b5ed7; text-decoration: underline; }
+.module a:hover { color: #093d8f; }
+html[data-theme="dark"] .module a { color: #8ab4f8; }
+html[data-theme="dark"] .module a:hover { color: #adc8fb; }
+
+/* Estados vacios de los componentes propios de DI: el ambar #6d4c00 esta pensado para
+   fondo claro y en tema oscuro cae a 1.75:1. Detectado el 03-ago-2026 al ampliar la
+   auditoria a11y a los modulos ocultos. */
+html[data-theme="dark"] .brujula-display-empty,
+html[data-theme="dark"] .brujula-action-empty,
+html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
     </style>
 </head>
@@ -1832,7 +1875,7 @@ body {
 
                 <p>Estás cerrando 6 cursos en los que pasaste de <em>“el DI es asunto ajeno”</em> a <em>“tengo un plan personal con metas claras”</em>. Ese es el viaje del Nivel 1. Lo que viene en el Nivel 2 es <strong>profundizar por ámbito</strong> (8 cursos). En el Nivel 3 <strong>especializarte por cargo</strong> (6 cursos). En el Nivel 4 abordar los <strong>transversales</strong> (4 cursos). Es un camino — y acaba de empezar.</p>
 
-                <blockquote style="font-size: 1.1rem; font-style: italic; text-align: center; margin: 20px 0; color: #1a4b6b;">El aprendizaje sin compromiso es solo entretenimiento. Hoy tu aprendizaje se volvió compromiso firmado. Bienvenido al equipo de los que sostienen — con plan en mano.</blockquote>
+                <blockquote class="cita-destacada">El aprendizaje sin compromiso es solo entretenimiento. Hoy tu aprendizaje se volvió compromiso firmado. Bienvenido al equipo de los que sostienen — con plan en mano.</blockquote>
 
                 <div class="info-box"><strong>🗓️ Próximo paso natural:</strong> poné en tu calendario una alerta dentro de 3 meses para revisar tu plan. ¿Cuáles metas avanzaron? ¿Cuáles se atrasaron y por qué? Eso es Desarrollo Institucional aplicado a ti mismo.</div>
 
@@ -1938,7 +1981,7 @@ body {
 
                     <!-- Footer -->
                     <div style="text-align: center; margin-top: 12px;">
-                        <p style="font-size: 0.7em; color: #999;">Plataforma de Formacion de Adultos ASC</p>
+                        <p style="font-size: 0.7em; color: #767676;">Plataforma de Formacion de Adultos ASC</p>
                     </div>
                 </div>
 
@@ -2007,6 +2050,27 @@ let personalPlans = {};
 let practicesCatalogs = {};
 let userProfile = {};
 
+// --- Escritura segura en localStorage ---
+// saveProgress() no manejaba el fallo en absoluto y mostraba el indicador de "guardado"
+// sin comprobar que la escritura hubiera funcionado. Si localStorage falla (cuota llena,
+// modo privado de Safari, almacenamiento bloqueado por politica del navegador), el
+// estudiante veia el visto verde y perdia su trabajo sin enterarse. Ahora se entera.
+var _avisoAlmacenamiento = false;
+function guardarLocal(clave, valor) {
+    try {
+        localStorage.setItem(clave, valor);
+        return true;
+    } catch (e) {
+        if (!_avisoAlmacenamiento) {
+            _avisoAlmacenamiento = true;
+            if (typeof showNotification === 'function') {
+                showNotification('⚠️ No pudimos guardar tu avance en este navegador. Puede ser falta de espacio o el modo privado. Anota lo que escribiste antes de cerrar.', 'warning');
+            }
+        }
+        return false;
+    }
+}
+
 // --- Inicializacion ---
 window.addEventListener('DOMContentLoaded', function () {
     moduleProgress = new Array(COURSE_CONFIG.totalModules).fill(false);
@@ -2062,8 +2126,8 @@ function saveGlobalUserProfile(profile) {
             region: profile.region, email: profile.email, motivation: profile.motivation,
             updatedAt: new Date().toISOString()
         };
-        localStorage.setItem('globalUserProfile', JSON.stringify(reusable));
-    } catch (e) { /* ignore */ }
+        guardarLocal('globalUserProfile', JSON.stringify(reusable));
+    } catch (e) { /* el aviso lo da guardarLocal */ }
 }
 
 function prefillFromGlobalProfile() {
@@ -2309,7 +2373,8 @@ function saveProgress() {
         currentModule: currentModule, startTime: startTime.toISOString(),
         lastSaved: new Date().toISOString(), version: '3.0'
     };
-    localStorage.setItem(key, JSON.stringify(progress));
+    // Solo confirmar visualmente si la escritura funciono de verdad.
+    if (!guardarLocal(key, JSON.stringify(progress))) return;
     var indicator = document.getElementById('saveIndicator');
     if (indicator) { indicator.classList.add('show'); setTimeout(function () { indicator.classList.remove('show'); }, 2000); }
 }
@@ -3211,8 +3276,8 @@ function recoverProgress() {
                                 var existing = raw ? JSON.parse(raw) : {};
                                 existing.reflections = courseReflections;
                                 existing.lastSaved = new Date().toISOString();
-                                localStorage.setItem(key, JSON.stringify(existing));
-                            } catch (e) { /* ignore */ }
+                                guardarLocal(key, JSON.stringify(existing));
+                            } catch (e) { /* el aviso lo da guardarLocal */ }
                         }
                     });
                 }
@@ -3654,7 +3719,7 @@ function renderGoalSlot(planId, idx) {
     return '<div class="goal-slot" data-slot-idx="' + idx + '">' +
         '<h4 class="goal-slot-title">Meta ' + (idx + 1) + '</h4>' +
         '<label class="goal-field-label">Elegí una meta-tipo o creá una propia:</label>' +
-        '<select class="goal-meta-select" data-slot-idx="' + idx + '" onchange="onGoalMetaChange(\'' + planId + '\', ' + idx + ', this.value)">' + options + '</select>' +
+        '<select class="goal-meta-select" aria-label="Meta-tipo para la prioridad ' + (idx + 1) + '" data-slot-idx="' + idx + '" onchange="onGoalMetaChange(\'' + planId + '\', ' + idx + ', this.value)">' + options + '</select>' +
         '<div class="goal-fields hidden" id="gf-' + planId + '-' + idx + '">' +
             '<div class="goal-custom-desc hidden">' +
                 '<label class="goal-field-label">📝 Tu meta propia (descripción):</label>' +
