@@ -212,7 +212,7 @@
         },
         {
           "type": "info-box",
-          "text": "⚠️ <strong>La estructura es asimétrica entre niveles.</strong> No esperes encontrar los 5 órganos con los mismos nombres en cada nivel. En la práctica vigente:<br>• <strong>Nacional:</strong> los 5 tipos están todos representados con nombre propio.<br>• <strong>Regional:</strong> los 5 tipos están representados, pero el de investigación es “Capítulo Regional de la Corte de Honor Nacional” y el de control es “Revisor Fiscal”.<br>• <strong>Grupo:</strong> los 5 tipos están representados, pero la “investigación” es la Comisión Disciplinaria Ad-hoc (no permanente) y el control es el Fiscal o Revisor Fiscal."
+          "text": "⚠️ <strong>La estructura es asimétrica entre niveles.</strong> No esperes encontrar los 5 órganos con los mismos nombres en cada nivel. En la práctica vigente:<br>• <strong>Nacional:</strong> los 5 tipos están todos representados con nombre propio, incluida la Comisión Nacional de Vigilancia y Control.<br>• <strong>Regional:</strong> el de investigación es el “Capítulo Regional de la Corte de Honor Nacional”; el control fiscal-contable lo ejerce el <strong>Contador Regional</strong> (el cargo de Revisor Fiscal no está vigente en el manual de cargos actual — salvo que la región tenga personería jurídica propia, caso en el que la ley exige uno elegido por la asamblea).<br>• <strong>Grupo:</strong> la “investigación” es la Comisión Disciplinaria Ad-hoc (no permanente); el control fiscal-contable lo ejerce el <strong>Contador de Grupo</strong> (el cargo de Fiscal tampoco está vigente hoy)."
         },
         {
           "type": "paragraph",
@@ -229,7 +229,7 @@
             "text": "Un dirigente te dice: “En mi grupo el mismo Consejo aprueba el presupuesto, lo ejecuta y además audita si se gastó bien.” ¿Qué está pasando ahí, según los 5 tipos de órganos que viste?",
             "options": [
               "Es normal: el Consejo administra y también puede controlarse a sí mismo, porque conoce mejor que nadie sus propias cuentas.",
-              "Se están mezclando administración y control: el Consejo debería administrar, pero el control fiscal necesita ser un órgano independiente (Fiscal o Revisor Fiscal) para que nadie audite su propia gestión.",
+              "Se están mezclando administración y control: el Consejo debería administrar, pero el control fiscal necesita ser un órgano independiente (el Contador) para que nadie audite su propia gestión.",
               "Se están mezclando dirección y técnico: el Consejo no debería ejecutar nada operativo, eso es tarea exclusiva de la Asamblea."
             ],
             "correctIndex": 1
@@ -377,7 +377,7 @@
           "items": [
             {
               "title": "🏛️ Dirección — Asamblea Regional",
-              "description": "Reúne a delegados de los grupos de la región. Aprueba el Plan Regional, elige al Consejo Regional, al Revisor Fiscal y a representantes a la Asamblea Nacional.",
+              "description": "Reúne a delegados de los grupos de la región. Aprueba el Plan Regional, elige al Consejo Regional y a representantes a la Asamblea Nacional.",
               "color": "#f3e5f5",
               "borderColor": "#9c27b0"
             },
@@ -400,12 +400,16 @@
               "borderColor": "#e91e63"
             },
             {
-              "title": "👁️ Control — Revisor Fiscal Regional y Suplente (Art. 1.20.5)",
-              "description": "Órgano unipersonal. Elegido anualmente por la Asamblea con su Suplente. Tiene voz pero NO voto en el Consejo Regional. Firma estados financieros, presenta informe anual, puede solicitar la intervención del nivel nacional si encuentra irregularidades.",
+              "title": "👁️ Control — Contador Regional",
+              "description": "Ejerce el control fiscal-contable de la región: auditoría, seguimiento y control de los asuntos contables, fiscales y financieros (Manual de Cargos y Perfiles). ⚠️ Excepción legal: si la región tiene <strong>personería jurídica propia</strong>, la ley colombiana exige un <strong>Revisor Fiscal elegido por la asamblea</strong> — verifica si tu región está en ese caso.",
               "color": "#fff9c4",
               "borderColor": "#fbc02d"
             }
           ]
+        },
+        {
+          "type": "info-box",
+          "text": "⚠️ <strong>Sobre el Revisor Fiscal Regional:</strong> el Reglamento Nacional de Regiones Scout (Art. 1.20.5) todavía lo menciona por escrito, pero el Acuerdo CSN 558/2023 suspendió esa disposición y el cargo no aparece en el Manual de Cargos y Perfiles vigente — no es el control operativo por defecto. La única excepción real es legal, no scout: una región con personería jurídica propia sí debe tener Revisor Fiscal por mandato de la ley colombiana."
         },
         {
           "type": "heading",
@@ -420,26 +424,20 @@
               "description": "Un comisionado regional convoca al “Capítulo Regional de la Corte de Honor” para que dicte sentencia disciplinaria a un dirigente. <strong>Error.</strong> El Capítulo investiga y recoge pruebas, pero la sentencia formal la dicta la Corte de Honor Nacional. <strong>Prevención:</strong> trabajar siempre con un cronograma articulado entre Capítulo regional y CHN nacional, no como órganos paralelos."
             }
           ]
-        },
-        {
-          "type": "policy-quote",
-          "label": "📋 Ver Art. 1.20.5 del Reglamento Nacional de Regiones",
-          "text": "El Revisor Fiscal Regional y su Suplente son elegidos por la Asamblea Regional anualmente, tienen voz pero no voto en el Consejo Regional, firman los estados financieros, presentan informe anual y pueden solicitar la intervención del nivel nacional cuando encuentren irregularidades.",
-          "source": "Reglamento Nacional de Regiones Scout, Art. 1.20.5 (parafraseado)"
         }
       ],
       "reflection": {
-        "prompt": "En tu región, ¿se reúne el Capítulo Regional de la Corte de Honor cuando se necesita, sabiendo que no dicta sentencia por sí solo? ¿Está presente el Revisor Fiscal Regional en las decisiones del consejo? Anota qué pasa hoy."
+        "prompt": "En tu región, ¿se reúne el Capítulo Regional de la Corte de Honor cuando se necesita, sabiendo que no dicta sentencia por sí solo? ¿Está presente el Contador Regional en las decisiones del consejo con temas financieros? ¿Sabes si tu región tiene personería jurídica propia? Anota qué pasa hoy."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
         "questions": [
           {
-            "text": "En la Asamblea Regional, un grupo propone que el Revisor Fiscal vote junto con los consejeros las decisiones de presupuesto. La presidenta se opone. ¿Quién tiene la razón según el Art. 1.20.5 del Reglamento Nacional de Regiones Scout?",
+            "text": "Una región no tiene personería jurídica propia — opera bajo el registro de la ASC nacional. ¿Quién ejerce ahí el control fiscal-contable, según el Manual de Cargos vigente?",
             "options": [
-              "El grupo: el Revisor Fiscal debe votar como cualquier consejero para ser justo.",
-              "La presidenta: el Revisor Fiscal tiene voz pero NO voto en el Consejo, para preservar su independencia de control.",
-              "Depende: el Revisor Fiscal puede votar solo cuando el presupuesto excede cierto monto."
+              "El Revisor Fiscal Regional, obligatorio en todas las regiones por igual.",
+              "El Contador Regional — el cargo de Revisor Fiscal no está en el manual de cargos vigente, salvo que la región tenga personería jurídica propia.",
+              "Nadie — el control fiscal-contable solo existe a nivel nacional."
             ],
             "correctIndex": 1
           },
@@ -480,7 +478,7 @@
           "items": [
             {
               "title": "🏛️ Dirección — Asamblea de Grupo",
-              "description": "Reúne a los asociados del grupo (familias, dirigentes, en algunos casos los jóvenes mayores con voz). Aprueba el Plan de Grupo, elige al Consejo de Grupo, al Fiscal/Revisor Fiscal. Define las normas de funcionamiento del Grupo (Art. 4.3.12).",
+              "description": "Reúne a los asociados del grupo (familias, dirigentes, en algunos casos los jóvenes mayores con voz). Aprueba el Plan de Grupo y elige al Consejo de Grupo. Define las normas de funcionamiento del Grupo (Art. 4.3.12).",
               "color": "#f3e5f5",
               "borderColor": "#9c27b0"
             },
@@ -503,8 +501,8 @@
               "borderColor": "#e91e63"
             },
             {
-              "title": "👁️ Control — Fiscal o Revisor Fiscal de Grupo y Suplente (Art. 1.19.5)",
-              "description": "Órgano unipersonal. Elegido anualmente por la Asamblea con su Suplente. Tiene voz pero NO voto en el Consejo de Grupo. Mismo perfil de funciones que el regional, a escala del grupo.",
+              "title": "👁️ Control — Contador de Grupo",
+              "description": "Ejerce el control fiscal-contable del grupo: auditoría, seguimiento y control de los asuntos contables, fiscales y financieros (Manual de Cargos y Perfiles). El cargo de Fiscal/Revisor Fiscal que menciona el Reglamento de 2013 (Art. 1.19.5) no está vigente/operativo — confirmado por la Jefatura Scout Nacional.",
               "color": "#fff9c4",
               "borderColor": "#fbc02d"
             }
@@ -512,7 +510,7 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>Por nivel, el órgano de control y el órgano de disciplina son distintos:</strong><br>🏛️ <strong>Nacional</strong> → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ <strong>Regional</strong> → Revisor Fiscal (control) + Capítulo Regional de la Corte de Honor Nacional (disciplina).<br>🏠 <strong>Grupo</strong> → Fiscal/Revisor Fiscal (control) + Comisión Disciplinaria Ad-hoc (disciplina, solo cuando se convoca)."
+          "text": "<strong>Por nivel, el órgano de control y el órgano de disciplina son distintos:</strong><br>🏛️ <strong>Nacional</strong> → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ <strong>Regional</strong> → Contador Regional (control), salvo región con personería jurídica propia (ahí, Revisor Fiscal) + Capítulo Regional de la Corte de Honor Nacional (disciplina).<br>🏠 <strong>Grupo</strong> → Contador de Grupo (control) + Comisión Disciplinaria Ad-hoc (disciplina, solo cuando se convoca)."
         },
         {
           "type": "heading",
@@ -523,14 +521,14 @@
           "type": "timeline",
           "items": [
             {
-              "title": "Grupo — No convocar el Fiscal a las reuniones del Consejo",
-              "description": "El Consejo de Grupo decide la asignación de los recursos del año sin que el Fiscal esté presente o haya sido convocado. Cuando el Fiscal pide los soportes 6 meses después, el Consejo no los tiene completos y firma a la carrera. <strong>Prevención:</strong> el Fiscal/Revisor Fiscal tiene voz en el Consejo — convocarlo a todas las reuniones donde haya temas financieros relevantes evita problemas a fin de año."
+              "title": "Grupo — No convocar al Contador a las reuniones del Consejo",
+              "description": "El Consejo de Grupo decide la asignación de los recursos del año sin que el Contador esté presente o haya sido convocado. Cuando el Contador pide los soportes 6 meses después, el Consejo no los tiene completos y firma a la carrera. <strong>Prevención:</strong> convocar al Contador a todas las reuniones donde haya temas financieros relevantes evita problemas a fin de año."
             }
           ]
         }
       ],
       "reflection": {
-        "prompt": "En tu grupo, ¿se reúne el órgano de disciplina cuando se necesita? ¿Está presente el Fiscal o Revisor Fiscal en las decisiones del consejo? Anota qué pasa hoy y qué te gustaría que pasara."
+        "prompt": "En tu grupo, ¿se reúne el órgano de disciplina cuando se necesita? ¿Está presente el Contador en las decisiones del consejo con temas financieros? Anota qué pasa hoy y qué te gustaría que pasara."
       },
       "quiz": {
         "title": "Mini-quiz Lección 6",
@@ -545,11 +543,11 @@
             "correctIndex": 1
           },
           {
-            "text": "El Consejo de Grupo decide la asignación de los recursos del año sin convocar al Fiscal ni haberle avisado. Seis meses después, cuando el Fiscal pide los soportes, el Consejo no los tiene completos. ¿Qué falló?",
+            "text": "El Consejo de Grupo decide la asignación de los recursos del año sin convocar al Contador ni haberle avisado. Seis meses después, cuando el Contador pide los soportes, el Consejo no los tiene completos. ¿Qué falló?",
             "options": [
-              "Nada — el Fiscal solo debe revisar al final del año, no necesita estar en las reuniones.",
-              "No convocar al Fiscal a las reuniones con temas financieros — tiene voz en el Consejo justamente para prevenir este tipo de problemas antes de que ocurran.",
-              "El error fue del Fiscal, por no pedir los soportes con más frecuencia."
+              "Nada — el Contador solo debe revisar al final del año, no necesita estar en las reuniones.",
+              "No convocar al Contador a las reuniones con temas financieros — justamente su función es prevenir este tipo de problemas antes de que ocurran.",
+              "El error fue del Contador, por no pedir los soportes con más frecuencia."
             ],
             "correctIndex": 1
           }
@@ -586,11 +584,11 @@
         },
         {
           "type": "mission-box",
-          "text": "<strong>📌 Tu mapa institucional — Nivel Grupo:</strong><br>• Jefe de Grupo: __________<br>• Presidente del Consejo de Grupo: __________<br>• Vicepresidente del Consejo: __________<br>• Tesorero: __________<br>• Contador: __________<br>• Canciller del Grupo: __________<br>• Secretario: __________<br>• Consejero Juvenil del Grupo: __________<br>• Fiscal o Revisor Fiscal del Grupo: __________"
+          "text": "<strong>📌 Tu mapa institucional — Nivel Grupo:</strong><br>• Jefe de Grupo: __________<br>• Presidente del Consejo de Grupo: __________<br>• Vicepresidente del Consejo: __________<br>• Tesorero: __________<br>• Contador (control fiscal-contable): __________<br>• Canciller del Grupo: __________<br>• Secretario: __________<br>• Consejero Juvenil del Grupo: __________"
         },
         {
           "type": "mission-box",
-          "text": "<strong>📌 Tu mapa institucional — Nivel Regional:</strong><br>• Jefe Scout Regional: __________<br>• Presidente del Consejo Regional: __________<br>• Revisor Fiscal Regional: __________<br>• Comisionado Regional de Desarrollo Institucional: __________<br>• Tu consejero regional (si aplica): __________"
+          "text": "<strong>📌 Tu mapa institucional — Nivel Regional:</strong><br>• Jefe Scout Regional: __________<br>• Presidente del Consejo Regional: __________<br>• Contador Regional (o Revisor Fiscal, si tu región tiene personería jurídica propia): __________<br>• Comisionado Regional de Desarrollo Institucional: __________<br>• Tu consejero regional (si aplica): __________"
         },
         {
           "type": "mission-box",
@@ -618,7 +616,7 @@
             },
             {
               "title": "👁️ Sospecha de irregularidad financiera o administrativa",
-              "description": "Fiscal o Revisor Fiscal del nivel (grupo o región) → Comisión Nacional de Vigilancia y Control (nivel nacional).",
+              "description": "Contador del nivel (grupo o región) → Comisión Nacional de Vigilancia y Control (nivel nacional).",
               "color": "#fff9c4",
               "borderColor": "#fbc02d"
             },
@@ -654,7 +652,7 @@
             "text": "Un padre de familia denuncia que un dirigente se llevó una plata del grupo sin reportarla. ¿A qué órgano debería escalarse primero el caso en un grupo?",
             "options": [
               "A la Comisión Nacional de Vigilancia y Control directamente, porque es asunto serio.",
-              "Al Fiscal o Revisor Fiscal del Grupo (para auditar) y, si la conducta amerita sanción, convocar la Comisión Disciplinaria Ad-hoc del Consejo de Grupo.",
+              "Al Contador del Grupo (para auditar) y, si la conducta amerita sanción, convocar la Comisión Disciplinaria Ad-hoc del Consejo de Grupo.",
               "A la Corte de Honor Nacional, porque es un asunto disciplinario."
             ],
             "correctIndex": 1

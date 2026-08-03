@@ -176,7 +176,7 @@ Este hook se enuncia explícitamente en la Lección 1 (Bienvenida) al abrir el c
     - 🏛️ **Gobierno** — _Asambleas y Consejos. Deciden el rumbo._ → Color morado.
     - ⚙️ **Operación** — _Equipos de Jefatura. Ejecutan las decisiones._ → Color verde.
     - 👁️ **Control** — _Cortes de Honor y Comisiones de Vigilancia y Control. Velan por la legalidad y la ética._ → Color amarillo.
-4. **`paragraph`** — Aplicación: _"En tu grupo: Asamblea de Grupo (aprueba el rumbo) → Consejo de Grupo (gobierna el día a día) → Equipo de Jefatura (ejecuta) → el Fiscal (o Revisor Fiscal) y su Suplente, que vigilan las cuentas y el cumplimiento de las normas. En tu región: Asamblea Regional → Consejo Regional → Jefatura Regional → Revisoría Fiscal (Revisor Fiscal y Suplente). En el país: Asamblea Scout Nacional → Consejo Scout Nacional → Jefatura Scout Nacional → Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional."_
+4. **`paragraph`** — Aplicación: _"En tu grupo: Asamblea de Grupo (aprueba el rumbo) → Consejo de Grupo (gobierna el día a día) → Equipo de Jefatura (ejecuta) → el Contador de Grupo, que ejerce el control de las cuentas (auditoría, seguimiento y control contable, fiscal y financiero). En tu región: Asamblea Regional → Consejo Regional → Jefatura Regional → el Contador Regional como control fiscal-contable (salvo que la región tenga personería jurídica propia, caso en el que la ley exige un Revisor Fiscal elegido por la asamblea). En el país: Asamblea Scout Nacional → Consejo Scout Nacional → Jefatura Scout Nacional → Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional."_ (ADR-022, 02-ago-2026: el Fiscal/Revisor Fiscal de Grupo y Región no está vigente, reemplazado por el Contador.)
 5. **`heading` (nivel 3)** — _"La normatividad marco que rige todo"_
 6. **`list`** — Las 4 normas marco vigentes:
     - **Estatuto Nacional 2025** — la norma constitucional de la ASC.
@@ -189,7 +189,7 @@ Este hook se enuncia explícitamente en la Lección 1 (Bienvenida) al abrir el c
     - `source`: "scout.org.co · Quiénes Somos · Consejo Scout Nacional"
     - `label`: "📋 Ver definición oficial del CSN"
 
-**Reflexión:** _"En tu grupo o región, ¿sabrías nombrar a la persona que hoy preside el Consejo? ¿Y al jefe? ¿Y a la persona que ejerce el órgano de control (el Fiscal o Revisor Fiscal de tu grupo)? Anota lo que sepas y lo que no — eso vale más que adivinar."_
+**Reflexión:** _"En tu grupo o región, ¿sabrías nombrar a la persona que hoy preside el Consejo? ¿Y al jefe? ¿Y a la persona que ejerce el control de las cuentas (el Contador de tu grupo)? Anota lo que sepas y lo que no — eso vale más que adivinar."_
 
 **Quiz (2 preguntas):**
 

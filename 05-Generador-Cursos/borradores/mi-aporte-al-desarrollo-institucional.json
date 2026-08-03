@@ -170,7 +170,7 @@
           "type": "method-grid",
           "items": [
             { "title": "🟢 G-doc · 6 meses", "description": "<strong>Escribir la práctica de gobernanza del grupo en un documento de 1 página</strong>: cómo se convoca el consejo, cómo se decide, cómo se firma el acta. Compartirla con la región como aporte.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🟡 G-fort · 3 meses", "description": "<strong>Implementar firma de acta al cierre de cada reunión del consejo</strong> + convocar al Fiscal o Revisor Fiscal a las reuniones con tema financiero. Subir atributos de Replicable y Efectiva.", "color": "#fff9c4", "borderColor": "#fbc02d" },
+            { "title": "🟡 G-fort · 3 meses", "description": "<strong>Implementar firma de acta al cierre de cada reunión del consejo</strong> + convocar al Contador a las reuniones con tema financiero. Subir atributos de Replicable y Efectiva.", "color": "#fff9c4", "borderColor": "#fbc02d" },
             { "title": "🔴 G-crear · 3 meses", "description": "<strong>Establecer el ritual de la reunión del consejo</strong>: agenda escrita, alguien que tome acta, decisiones registradas. Esa es tu primera práctica de gobernanza.", "color": "#ffebee", "borderColor": "#f44336" }
           ]
         },

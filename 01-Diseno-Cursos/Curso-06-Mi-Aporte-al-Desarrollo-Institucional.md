@@ -145,7 +145,7 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
 5. **`heading` (nivel 3)** — _"🏛️ Ámbito 1 — Gobernanza"_
 6. **`method-grid`** — 3 metas-tipo:
     - 🟢 **G-doc (6 meses):** _"Escribir la práctica de gobernanza del grupo en un documento de 1 página: cómo se convoca el consejo, cómo se decide, cómo se firma el acta. Compartirla con la región como aporte."_
-    - 🟡 **G-fort (3 meses):** _"Implementar firma de acta al cierre de cada reunión del consejo + convocar al Fiscal o Revisor Fiscal a las reuniones con tema financiero. Subir atributos de Replicable y Efectiva."_
+    - 🟡 **G-fort (3 meses):** _"Implementar firma de acta al cierre de cada reunión del consejo + convocar al Contador a las reuniones con tema financiero. Subir atributos de Replicable y Efectiva."_ (ADR-022: el Fiscal/Revisor Fiscal de Grupo no está vigente; el control fiscal-contable lo ejerce el Contador.)
     - 🔴 **G-crear (3 meses):** _"Establecer el ritual de la reunión del consejo: agenda escrita, alguien que tome acta, decisiones registradas. Esa es tu primera práctica de gobernanza."_
 7. **`heading` (nivel 3)** — _"🗂️ Ámbito 2 — Administración"_
 8. **`method-grid`** — 3 metas-tipo:
@@ -268,7 +268,7 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
     - Si la brújula es **Participación Juvenil**: _"Tu criterio será priorizar metas que involucren a los chicos en las decisiones. Por ejemplo: en CR-fort (Plan de Captación) involucrá al clan; en C-fort (comunicación con familias) usá un boletín hecho con los rovers."_
     - Si es **Normatividad**: _"Tu criterio será cuidar el cumplimiento del marco legal y reglamentario. CT-crear (documentación legal) y GR-crear/GR-fort (protocolos de riesgo) saltan al primer lugar de tu lista."_
     - Si es **Coherencia**: _"Tu criterio será que lo que prometemos lo cumplamos. C-fort (comunicación mensual con familias) y CT-fort (Asamblea cumpliendo Reglamento) van al frente."_
-    - Si es **Colectividad y Consenso**: _"Tu criterio será que las decisiones sean tomadas con todos los actores. G-crear/G-fort (gobernanza con actas y Fiscal) suben en prioridad."_
+    - Si es **Colectividad y Consenso**: _"Tu criterio será que las decisiones sean tomadas con todos los actores. G-crear/G-fort (gobernanza con actas y Contador) suben en prioridad."_
     - (Y así para los 7 principios.)
 5. **`heading` (nivel 3)** — _"🎒 Cursos del Nivel 2 sugeridos para ti"_
 6. **`paragraph`** — _"El Nivel 2 de esta línea tiene 8 cursos, uno por ámbito de gestión. Según los ámbitos donde tu grupo tiene mayor brecha (NO) o mayor oportunidad de fortalecer (PARCIAL) en el catálogo del Curso 5, te recomiendo estos 2-3 para empezar (cuando estén publicados):"_

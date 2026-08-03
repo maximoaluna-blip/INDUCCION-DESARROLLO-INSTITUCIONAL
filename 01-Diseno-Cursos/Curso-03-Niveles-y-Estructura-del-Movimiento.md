@@ -16,7 +16,7 @@
 | Icono | 🏗️ |
 | Duración | ~30 min |
 | Lecciones de contenido | 7 + intro + certificado |
-| Audiencia primaria | La misma de la Línea. En especial: jefes de grupo, miembros del consejo, consejeros regionales, miembros de órganos de control y disciplina (Comisión Nacional de Vigilancia y Control, Revisorías Fiscales, Comisiones Disciplinarias Ad-hoc). |
+| Audiencia primaria | La misma de la Línea. En especial: jefes de grupo, miembros del consejo, consejeros regionales, miembros de órganos de control y disciplina (Comisión Nacional de Vigilancia y Control, Contadores de Grupo/Región, Comisiones Disciplinarias Ad-hoc). |
 | Pre-requisitos | Curso 1 y Curso 2 (recomendados). |
 | Logro final | "Tengo mi mapa institucional" |
 
@@ -29,7 +29,7 @@ Al completar este curso, el adulto:
 1. **Ubica** los 5 niveles del Movimiento Scout (Mundial → Interamericano → Nacional → Regional → Local) y entiende cómo se relacionan jerárquicamente y federativamente.
 2. **Ubica** el órgano correspondiente a cada tipo de función (dirección, administración, técnico, investigación, control) en los niveles Nacional, Regional y de Grupo.
 3. **Distingue** los 5 tipos genéricos de órganos en una institución sana: dirección (Asamblea), administración (Consejo), técnico (Equipo de Jefatura), investigación/disciplina y control.
-4. **Identifica** correctamente quién es el órgano de control en cada nivel: Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional (nacional); Revisor Fiscal + Capítulo Regional de la Corte de Honor (regional); Fiscal o Revisor Fiscal + Comisión Disciplinaria Ad-hoc (grupo).
+4. **Identifica** correctamente quién es el órgano de control en cada nivel: Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional (nacional); Contador Regional + Capítulo Regional de la Corte de Honor (regional, salvo región con personería jurídica propia); Contador de Grupo + Comisión Disciplinaria Ad-hoc (grupo). (ADR-022: el Fiscal/Revisor Fiscal de Grupo y Región no está vigente.)
 5. **Diagnostica** un caso típico de error institucional por nivel y propone su prevención.
 6. **Identifica**, con nombre propio, a quién acudir en su institución ante una duda, un conflicto o una propuesta.
 
@@ -145,7 +145,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
     - ⚖️ **Investigación / Disciplina** → _"Vela por la ética, el debido proceso y las sanciones cuando hay faltas. Cortes de Honor, Comisiones Disciplinarias. No deciden el rumbo del grupo, pero protegen su integridad."_ (color rojo)
     - 👁️ **Control / Fiscal** → _"Vigila la legalidad y la gestión administrativa-financiera. Comisiones de Vigilancia, Revisorías Fiscales. Tampoco gobierna, pero es el filtro que evita que el grupo se desvíe."_ (color amarillo)
 4. **`paragraph`** — _"En el Curso 1 te mostré una versión más sencilla, con solo 3 tipos: **gobierno, operación y control**. Esa versión sigue siendo válida — es la que usa la PNDI 2017. Pero al entrar al detalle de los reglamentos vigentes (Reglamento Nacional de Grupos Scouts, Reglamento Nacional de Regiones Scout), vas a ver que el órgano de control en realidad son DOS órganos distintos: el que investiga y disciplina, y el que controla fiscal-administrativamente. Por eso conviene tener los 5 tipos en la cabeza."_
-5. **`info-box`** — Importante: _"⚠️ **La estructura es asimétrica entre niveles.** No esperes encontrar los 5 órganos con los mismos nombres en cada nivel. En la práctica vigente:<br>• **Nacional:** los 5 tipos están todos representados con nombre propio.<br>• **Regional:** los 5 tipos están representados, pero el de investigación es 'Capítulo Regional de la Corte de Honor Nacional' y el de control es 'Revisor Fiscal'.<br>• **Grupo:** los 5 tipos están representados, pero la 'investigación' es la Comisión Disciplinaria Ad-hoc (no permanente) y el control es el Fiscal o Revisor Fiscal."_
+5. **`info-box`** — Importante: _"⚠️ **La estructura es asimétrica entre niveles.** No esperes encontrar los 5 órganos con los mismos nombres en cada nivel. En la práctica vigente:<br>• **Nacional:** los 5 tipos están todos representados con nombre propio, incluida la Comisión Nacional de Vigilancia y Control.<br>• **Regional:** el de investigación es el 'Capítulo Regional de la Corte de Honor Nacional'; el control fiscal-contable lo ejerce el Contador Regional (el cargo de Revisor Fiscal no está vigente en el manual de cargos actual — salvo que la región tenga personería jurídica propia, caso en el que la ley exige uno elegido por la asamblea).<br>• **Grupo:** la 'investigación' es la Comisión Disciplinaria Ad-hoc (no permanente); el control fiscal-contable lo ejerce el Contador de Grupo (el cargo de Fiscal tampoco está vigente hoy)."_ (ADR-022, 02-ago-2026.)
 6. **`paragraph`** — _"En las próximas dos lecciones vamos a ver cada nivel con su nomenclatura y números reales — sin atajos."_
 
 **Reflexión:** _"En tu grupo, ¿está claro quién cumple cada uno de los 5 tipos de función? Marca con un check (✓) los que tienes claros y con interrogación (?) los que no — vas a usarlo en la Lección 6."_
@@ -155,7 +155,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 > **P1.** Un dirigente te dice: "En mi grupo el mismo Consejo aprueba el presupuesto, lo ejecuta y además audita si se gastó bien." ¿Qué está pasando ahí, según los 5 tipos de órganos que viste?
 >
 > a) _Es normal: el Consejo administra y también puede controlarse a sí mismo, porque conoce mejor que nadie sus propias cuentas._
-> b) _Se están mezclando administración y control: el Consejo debería administrar, pero el control fiscal necesita ser un órgano independiente (Fiscal o Revisor Fiscal) para que nadie audite su propia gestión._ ✅
+> b) _Se están mezclando administración y control: el Consejo debería administrar, pero el control fiscal necesita ser un órgano independiente (el Contador) para que nadie audite su propia gestión._ ✅
 > c) _Se están mezclando dirección y técnico: el Consejo no debería ejecutar nada operativo, eso es tarea exclusiva de la Asamblea._
 
 > **P2.** La estructura de órganos entre los niveles Nacional, Regional y de Grupo de la ASC es…
@@ -224,28 +224,25 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 2. **`paragraph`** — _"Aquí está la parte que la mayoría de adultos del Movimiento no tiene clara — y que ya entendiste por qué importa: en la región hay los mismos 5 tipos de función, pero los órganos que los cumplen son distintos a los del nivel nacional."_
 3. **`heading` (nivel 3)** — _"🏘️ Nivel Regional — según Art. 1.20 del Reglamento Nacional de Regiones Scout"_
 4. **`method-grid`** — 5 tarjetas:
-    - 🏛️ **Dirección — Asamblea Regional** → _"Reúne a delegados de los grupos de la región. Aprueba el Plan Regional, elige al Consejo Regional, al Revisor Fiscal y a representantes a la Asamblea Nacional."_ (color morado)
+    - 🏛️ **Dirección — Asamblea Regional** → _"Reúne a delegados de los grupos de la región. Aprueba el Plan Regional y elige al Consejo Regional y a representantes a la Asamblea Nacional."_ (color morado)
     - ⚙️ **Administración — Consejo Regional** → _"Dirige la región en receso de la Asamblea. Encabezado por el Presidente del Consejo Regional. Incluye al Jefe Regional."_ (color verde)
     - 🛠️ **Técnico — Jefatura Regional** → _"Equipo operativo de la región, liderado por el Jefe Regional (a veces llamado, de forma informal, 'Comisionado Regional'). Coordina la asistencia a los grupos."_ (color azul)
     - ⚖️ **Investigación — Capítulo Regional de la Corte de Honor Nacional (Art. 1.20.4)** → _"⚠️ Importante: NO es una 'Corte de Honor Regional' autónoma. Es un Capítulo regional que depende doctrinalmente de la Corte de Honor Nacional. Investiga, recibe pruebas y propone reconocimientos a nivel regional."_ (color rojo)
-    - 👁️ **Control — Revisor Fiscal Regional y Suplente (Art. 1.20.5)** → _"Órgano unipersonal. Elegido anualmente por la Asamblea con su Suplente. Tiene voz pero NO voto en el Consejo Regional. Firma estados financieros, presenta informe anual, puede solicitar la intervención del nivel nacional si encuentra irregularidades."_ (color amarillo)
-5. **`heading` (nivel 3)** — _"Un error institucional típico del nivel Regional"_
-6. **`timeline`** — 1 micro-historia:
+    - 👁️ **Control — Contador Regional** → _"Ejerce el control fiscal-contable de la región: auditoría, seguimiento y control de los asuntos contables, fiscales y financieros (Manual de Cargos y Perfiles). ⚠️ Excepción legal: si la región tiene personería jurídica propia, la ley colombiana exige un Revisor Fiscal elegido por la asamblea — verifica si tu región está en ese caso."_ (color amarillo)
+5. **`info-box`** — _"⚠️ Sobre el Revisor Fiscal Regional: el Reglamento Nacional de Regiones Scout (Art. 1.20.5) todavía lo menciona por escrito, pero el Acuerdo CSN 558/2023 suspendió esa disposición y el cargo no aparece en el Manual de Cargos y Perfiles vigente — no es el control operativo por defecto. La única excepción real es legal, no scout: una región con personería jurídica propia sí debe tener Revisor Fiscal por mandato de la ley colombiana."_ (ADR-022, 02-ago-2026.)
+6. **`heading` (nivel 3)** — _"Un error institucional típico del nivel Regional"_
+7. **`timeline`** — 1 micro-historia:
     - **Regional — Confundir Capítulo Regional con Corte autónoma:** _"Un comisionado regional convoca al 'Capítulo Regional de la Corte de Honor' para que dicte sentencia disciplinaria a un dirigente. **Error.** El Capítulo investiga y recoge pruebas, pero la sentencia formal la dicta la Corte de Honor Nacional. **Prevención:** trabajar siempre con un cronograma articulado entre Capítulo regional y CHN nacional, no como órganos paralelos."_
-7. **`policy-quote`**:
-    - `label`: "📋 Ver Art. 1.20.5 del Reglamento Nacional de Regiones"
-    - `text`: _"El Revisor Fiscal Regional y su Suplente son elegidos por la Asamblea Regional anualmente, tienen voz pero no voto en el Consejo Regional, firman los estados financieros, presentan informe anual y pueden solicitar la intervención del nivel nacional cuando encuentren irregularidades."_
-    - `source`: "Reglamento Nacional de Regiones Scout, Art. 1.20.5 (parafraseado)"
 
-**Reflexión:** _"En tu región, ¿se reúne el Capítulo Regional de la Corte de Honor cuando se necesita, sabiendo que no dicta sentencia por sí solo? ¿Está presente el Revisor Fiscal Regional en las decisiones del consejo? Anota qué pasa hoy."_
+**Reflexión:** _"En tu región, ¿se reúne el Capítulo Regional de la Corte de Honor cuando se necesita, sabiendo que no dicta sentencia por sí solo? ¿Está presente el Contador Regional en las decisiones del consejo con temas financieros? ¿Sabes si tu región tiene personería jurídica propia? Anota qué pasa hoy."_
 
 **Quiz (2 preguntas):**
 
-> **P1.** En la Asamblea Regional, un grupo propone que el Revisor Fiscal vote junto con los consejeros las decisiones de presupuesto. La presidenta se opone. ¿Quién tiene la razón según el Art. 1.20.5 del Reglamento Nacional de Regiones Scout?
+> **P1.** Una región no tiene personería jurídica propia — opera bajo el registro de la ASC nacional. ¿Quién ejerce ahí el control fiscal-contable, según el Manual de Cargos vigente?
 >
-> a) _El grupo: el Revisor Fiscal debe votar como cualquier consejero para ser justo._
-> b) _La presidenta: el Revisor Fiscal tiene voz pero NO voto en el Consejo, para preservar su independencia de control._ ✅
-> c) _Depende: el Revisor Fiscal puede votar solo cuando el presupuesto excede cierto monto._
+> a) _El Revisor Fiscal Regional, obligatorio en todas las regiones por igual._
+> b) _El Contador Regional — el cargo de Revisor Fiscal no está en el manual de cargos vigente, salvo que la región tenga personería jurídica propia._ ✅
+> c) _Nadie — el control fiscal-contable solo existe a nivel nacional._
 
 > **P2.** Un comisionado regional convoca al Capítulo Regional de la Corte de Honor para que dicte sentencia disciplinaria a un dirigente. ¿Qué le corriges?
 >
@@ -267,17 +264,17 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 2. **`paragraph`** — _"Ya viste cómo se organiza tu región. Ahora baja un nivel más: tu grupo — la célula básica del Movimiento, donde efectivamente ocurre la experiencia educativa con los chicos."_
 3. **`heading` (nivel 3)** — _"🏠 Nivel Grupo — según Art. 1.19 del Reglamento Nacional de Grupos Scouts"_
 4. **`method-grid`** — 5 tarjetas:
-    - 🏛️ **Dirección — Asamblea de Grupo** → _"Reúne a los asociados del grupo (familias, dirigentes, en algunos casos los jóvenes mayores con voz). Aprueba el Plan de Grupo, elige al Consejo de Grupo, al Fiscal/Revisor Fiscal. Define las normas de funcionamiento del Grupo (Art. 4.3.12)."_ (color morado)
+    - 🏛️ **Dirección — Asamblea de Grupo** → _"Reúne a los asociados del grupo (familias, dirigentes, en algunos casos los jóvenes mayores con voz). Aprueba el Plan de Grupo y elige al Consejo de Grupo. Define las normas de funcionamiento del Grupo (Art. 4.3.12)."_ (color morado)
     - ⚙️ **Administración — Consejo de Grupo** → _"El Consejo de Grupo tiene 4 cargos fijos (presidente, vicepresidente, secretario, tesorero), puede sumar un intendente, y el resto de sus integrantes son vocales — cada grupo les reparte tareas según lo que necesite (contabilidad, cancillería, etc.). Es la administración del día a día."_ (color verde)
     - 🛠️ **Técnico — Equipo de Jefatura del Grupo** → _"Encabezado por el Jefe de Grupo. Son los dirigentes que efectivamente trabajan con los chicos en cada rama (Manada, Tropa, Comunidad, Clan)."_ (color azul)
     - ⚖️ **Investigación — Comisión Disciplinaria Ad-hoc (Art. 1.19.4)** → _"⚠️ Importante: NO es permanente. Se convoca solo cuando hay un caso que tratar. Es presidida por el **Vicepresidente del Consejo de Grupo** (Art. 5.10.4). NO existe en la normatividad vigente una 'Corte de Honor de Grupo' formal."_ (color rojo)
-    - 👁️ **Control — Fiscal o Revisor Fiscal de Grupo y Suplente (Art. 1.19.5)** → _"Órgano unipersonal. Elegido anualmente por la Asamblea con su Suplente. Tiene voz pero NO voto en el Consejo de Grupo. Mismo perfil de funciones que el regional, a escala del grupo."_ (color amarillo)
-5. **`info-box`** — Tabla resumen (síntesis de los 3 niveles ya vistos): _"**Por nivel, el órgano de control y el órgano de disciplina son distintos:**<br>🏛️ **Nacional** → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ **Regional** → Revisor Fiscal (control) + Capítulo Regional de la Corte de Honor Nacional (disciplina).<br>🏠 **Grupo** → Fiscal/Revisor Fiscal (control) + Comisión Disciplinaria Ad-hoc (disciplina, solo cuando se convoca)."_
+    - 👁️ **Control — Contador de Grupo** → _"Ejerce el control fiscal-contable del grupo: auditoría, seguimiento y control de los asuntos contables, fiscales y financieros (Manual de Cargos y Perfiles). El cargo de Fiscal/Revisor Fiscal que menciona el Reglamento de 2013 (Art. 1.19.5) no está vigente/operativo — confirmado por la Jefatura Scout Nacional."_ (color amarillo)
+5. **`info-box`** — Tabla resumen (síntesis de los 3 niveles ya vistos): _"**Por nivel, el órgano de control y el órgano de disciplina son distintos:**<br>🏛️ **Nacional** → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ **Regional** → Contador Regional (control), salvo región con personería jurídica propia (ahí, Revisor Fiscal) + Capítulo Regional de la Corte de Honor Nacional (disciplina).<br>🏠 **Grupo** → Contador de Grupo (control) + Comisión Disciplinaria Ad-hoc (disciplina, solo cuando se convoca)."_ (ADR-022, 02-ago-2026.)
 6. **`heading` (nivel 3)** — _"Un error institucional típico del nivel Grupo"_
 7. **`timeline`** — 1 micro-historia:
-    - **Grupo — No convocar el Fiscal a las reuniones del Consejo:** _"El Consejo de Grupo decide la asignación de los recursos del año sin que el Fiscal esté presente o haya sido convocado. Cuando el Fiscal pide los soportes 6 meses después, el Consejo no los tiene completos y firma a la carrera. **Prevención:** el Fiscal/Revisor Fiscal tiene voz en el Consejo — convocarlo a todas las reuniones donde haya temas financieros relevantes evita problemas a fin de año."_
+    - **Grupo — No convocar al Contador a las reuniones del Consejo:** _"El Consejo de Grupo decide la asignación de los recursos del año sin que el Contador esté presente o haya sido convocado. Cuando el Contador pide los soportes 6 meses después, el Consejo no los tiene completos y firma a la carrera. **Prevención:** convocar al Contador a todas las reuniones donde haya temas financieros relevantes evita problemas a fin de año."_
 
-**Reflexión:** _"En tu grupo, ¿se reúne el órgano de disciplina cuando se necesita? ¿Está presente el Fiscal o Revisor Fiscal en las decisiones del consejo? Anota qué pasa hoy y qué te gustaría que pasara."_
+**Reflexión:** _"En tu grupo, ¿se reúne el órgano de disciplina cuando se necesita? ¿Está presente el Contador en las decisiones del consejo con temas financieros? Anota qué pasa hoy y qué te gustaría que pasara."_
 
 **Quiz (2 preguntas):**
 
@@ -287,11 +284,11 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 > b) _Convocar la Comisión Disciplinaria Ad-hoc (no permanente), que él mismo preside como Vicepresidente del Consejo._ ✅
 > c) _Esperar a la próxima asamblea anual para tratar el tema en pleno._
 
-> **P2.** El Consejo de Grupo decide la asignación de los recursos del año sin convocar al Fiscal ni haberle avisado. Seis meses después, cuando el Fiscal pide los soportes, el Consejo no los tiene completos. ¿Qué falló?
+> **P2.** El Consejo de Grupo decide la asignación de los recursos del año sin convocar al Contador ni haberle avisado. Seis meses después, cuando el Contador pide los soportes, el Consejo no los tiene completos. ¿Qué falló?
 >
-> a) _Nada — el Fiscal solo debe revisar al final del año, no necesita estar en las reuniones._
-> b) _No convocar al Fiscal a las reuniones con temas financieros — tiene voz en el Consejo justamente para prevenir este tipo de problemas antes de que ocurran._ ✅
-> c) _El error fue del Fiscal, por no pedir los soportes con más frecuencia._
+> a) _Nada — el Contador solo debe revisar al final del año, no necesita estar en las reuniones._
+> b) _No convocar al Contador a las reuniones con temas financieros — justamente su función es prevenir este tipo de problemas antes de que ocurran._ ✅
+> c) _El error fue del Contador, por no pedir los soportes con más frecuencia._
 
 **Logro:** "Conozco mi grupo".
 
@@ -308,14 +305,14 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 3. **`paragraph`** — _"Te acuerdas del cuento del Curso 1 — 'Todo el mundo, Alguien, Cualquiera y Nadie'? La versión institucional de ese cuento es: **cuando no sabes a quién acudir, terminas escribiéndole a 'Alguien' que nunca responde**. Vamos a evitarlo."_
 4. **`heading` (nivel 3)** — _"📝 Llena tu mapa institucional"_
 5. **`paragraph`** — _"En la siguiente hoja vas a anotar quién es la persona concreta —con nombre completo— que ocupa cada cargo en tu grupo y tu región hoy. Si no lo sabes, anótalo como 'pendiente averiguar'. La hoja es para ti."_
-6. **`mission-box`** — _"**📌 Tu mapa institucional — Nivel Grupo:**<br>• Jefe de Grupo: __________<br>• Presidente del Consejo de Grupo: __________<br>• Vicepresidente del Consejo: __________<br>• Tesorero: __________<br>• Contador: __________<br>• Secretario: __________<br>• Consejero Juvenil del Grupo: __________<br>• Fiscal o Revisor Fiscal del Grupo: __________"_
-7. **`mission-box`** — _"**📌 Tu mapa institucional — Nivel Regional:**<br>• Jefe Scout Regional: __________<br>• Presidente del Consejo Regional: __________<br>• Revisor Fiscal Regional: __________<br>• Comisionado Regional de Desarrollo Institucional: __________<br>• Tu consejero regional (si aplica): __________"_
+6. **`mission-box`** — _"**📌 Tu mapa institucional — Nivel Grupo:**<br>• Jefe de Grupo: __________<br>• Presidente del Consejo de Grupo: __________<br>• Vicepresidente del Consejo: __________<br>• Tesorero: __________<br>• Contador (control fiscal-contable): __________<br>• Secretario: __________<br>• Consejero Juvenil del Grupo: __________"_
+7. **`mission-box`** — _"**📌 Tu mapa institucional — Nivel Regional:**<br>• Jefe Scout Regional: __________<br>• Presidente del Consejo Regional: __________<br>• Contador Regional (o Revisor Fiscal, si tu región tiene personería jurídica propia): __________<br>• Comisionado Regional de Desarrollo Institucional: __________<br>• Tu consejero regional (si aplica): __________"_
 8. **`mission-box`** — _"**📌 Tu mapa institucional — Nivel Nacional:**<br>• Jefe Scout Nacional: __________<br>• Director Nacional de Desarrollo Institucional (DNDI): __________<br>• Director Nacional de Adultos (DNAM): __________<br>• Director Nacional de Programa de Jóvenes (DNPJ): __________"_
 9. **`heading` (nivel 3)** — _"💡 Cuándo acudir a quién"_
 10. **`method-grid`** — 4 tarjetas con guía práctica:
     - 🛠️ **Pregunta operativa** (cómo se hace un trámite, plantilla de un formato) → _"Equipo de Jefatura del nivel correspondiente: Jefatura del Grupo, Jefatura Regional o la Dirección Nacional respectiva."_ (color azul)
     - ⚖️ **Conflicto entre personas o falta disciplinaria** → _"Comisión Disciplinaria Ad-hoc (grupo) → Capítulo Regional de la Corte de Honor (región) → Corte de Honor Nacional (nacional)."_ (color rojo)
-    - 👁️ **Sospecha de irregularidad financiera o administrativa** → _"Fiscal o Revisor Fiscal del nivel (grupo o región) → Comisión Nacional de Vigilancia y Control (nivel nacional)."_ (color amarillo)
+    - 👁️ **Sospecha de irregularidad financiera o administrativa** → _"Contador del nivel (grupo o región) → Comisión Nacional de Vigilancia y Control (nivel nacional)."_ (color amarillo)
     - 🏛️ **Propuesta política o cambio de fondo** → _"Asamblea o Consejo del nivel — depende de la magnitud. Las políticas las define el CSN; los planes operativos los aprueba el Consejo correspondiente."_ (color morado)
 11. **`heading` (nivel 3)** — _"Lo que viene"_
 12. **`paragraph`** — _"El **Curso 4** entra al detalle de los **8 ámbitos de gestión** de la PNDI — es donde vas a ver qué tipo de trabajo institucional hace cada uno de estos órganos en su día a día. Y el **Curso 5** te dará un instrumento para evaluar la salud institucional de tu grupo o región usando 6 dimensiones."_
@@ -328,7 +325,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 > **P1.** Un padre de familia denuncia que un dirigente se llevó una plata del grupo sin reportarla. ¿A qué órgano debería escalarse primero el caso en un grupo?
 >
 > a) _A la Comisión Nacional de Vigilancia y Control directamente, porque es asunto serio._
-> b) _Al Fiscal o Revisor Fiscal del Grupo (para auditar) y, si la conducta amerita sanción, convocar la Comisión Disciplinaria Ad-hoc del Consejo de Grupo._ ✅
+> b) _Al Contador del Grupo (para auditar) y, si la conducta amerita sanción, convocar la Comisión Disciplinaria Ad-hoc del Consejo de Grupo._ ✅
 > c) _A la Corte de Honor Nacional, porque es un asunto disciplinario._
 
 > **P2.** Si quieres proponer una modificación al Plan de Grupo, ¿a quién acudes primero?
