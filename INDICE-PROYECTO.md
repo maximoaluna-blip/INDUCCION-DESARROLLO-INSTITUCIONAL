@@ -50,12 +50,12 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 │   ├── dark-theme.css
 │   └── theme-toggle.js
 │
-├── 01-Diseno-Cursos/                                       ← Diseños pedagógicos (.md) de cada curso
-│   └── Curso-01-Bienvenida-al-Desarrollo-Institucional.md  ← Ejemplo canónico
+├── 01-Diseno-Cursos/                                       ← Diseños pedagógicos (.md), uno por curso
+│   └── Curso-01..06-*.md                                   ← los 6 del Nivel 1
 │
 ├── 02-Plataforma-Web/
-│   ├── cursos.json                                         ← Catálogo del Nivel 1
-│   ├── bienvenida-desarrollo-institucional.html            ← Curso 1 (generado)
+│   ├── cursos.json                                         ← Catálogo del Nivel 1 (6 cursos active)
+│   ├── *.html                                              ← los 6 cursos generados
 │   ├── dashboard-admin.html                                ← Redirect al portal admin unificado
 │   └── verificar-certificado.html                          ← Verificador público de certificados
 │
@@ -69,7 +69,7 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
     │   ├── styles.css
     │   └── engine.js
     └── borradores/
-        └── bienvenida-desarrollo-institucional.json        ← Fuente de verdad del Curso 1
+        └── *.json                                          ← Fuente de verdad de los 6 cursos
 ```
 
 ---
@@ -82,7 +82,7 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 |---|---|---|---|---|
 | 1 | 🏛️ Bienvenida al Desarrollo Institucional | `bienvenida-desarrollo-institucional` | 25 min | ✅ Activo |
 | 2 | 📜 La Política PNDI: Marco y Principios | `pndi-marco-y-principios` | 30 min | ✅ Activo |
-| 3 | 🏗️ Niveles y Estructura del Movimiento | `niveles-y-estructura-movimiento` | 30 min | ✅ Activo |
+| 3 | 🏗️ Niveles y Estructura del Movimiento | `niveles-y-estructura-movimiento` | 35 min · 7 lecciones | ✅ Activo |
 | 4 | 🧭 Los 8 Ámbitos de Gestión | `los-8-ambitos-de-gestion` | 35 min | ✅ Activo |
 | 5 | 🌟 Buenas Prácticas en Tu Grupo | `buenas-practicas-en-tu-grupo` | 30 min | ✅ Activo |
 | 6 | 🗺️ Mi Aporte al Desarrollo Institucional | `mi-aporte-al-desarrollo-institucional` | 30 min | ✅ Activo |
@@ -99,7 +99,8 @@ Detalle completo en [`Plan-de-Formacion-Linea-Desarrollo-Institucional.md`](Plan
 
 ## Features de plataforma activas
 
-- ✅ Lecciones cortas (3-7 min) con auto-guardado en `localStorage`.
+- ✅ Lecciones cortas (3-7 min) con auto-guardado en `localStorage` **verificado** — si la escritura falla, se avisa en vez de perder el trabajo del estudiante en silencio.
+- ✅ **Componentes propios de la línea:** brújula personal cross-course, constructor de buenas prácticas, planificador de metas y generador de PDF.
 - ✅ **Pre-llenado del registro** entre cursos (clave global `globalUserProfile`, compartido con Adultos).
 - ✅ **Recuperación de avance** vía email.
 - ✅ **Subida de foto** (Curso 1, dibujo del grupo saludable ideal).
@@ -113,9 +114,13 @@ Detalle completo en [`Plan-de-Formacion-Linea-Desarrollo-Institucional.md`](Plan
 
 ## Tipos de sección soportados (renderer)
 
+**Base común a las 3 líneas (14):**
 `paragraph`, `heading`, `info-box`, `mission-box`, `list`, `timeline`, `method-grid`, `blockquote`, `course-objectives`, `video`, `policy-quote`, `photo-upload`, `self-assessment`, `plan-builder`.
 
-Idéntico al renderer de la Línea Política de Adultos. No requiere cambios al motor para construir los siguientes cursos del Nivel 1.
+**Propios de esta línea (7)** — no existen en Política de Adultos ni en Programa de Jóvenes:
+`brujula-display`, `brujula-action`, `practices-builder`, `goal-planner`, `catalog-display`, `courses-suggestion`, `pdf-generator`.
+
+> Es la línea con el renderer **más extendido**: 21 tipos frente a los 14 de las otras dos, y ~613 líneas adicionales de `engine.js`. El catálogo autoritativo es el `enum` de `05-Generador-Cursos/course-schema.json`, que `build-course.js` **valida antes de compilar**: usar un tipo que no esté ahí hace fallar el build.
 
 ---
 
@@ -131,13 +136,17 @@ Idéntico al renderer de la Línea Política de Adultos. No requiere cambios al 
 ### Cambio de motor o template (afecta a todos los cursos)
 
 1. Editar `05-Generador-Cursos/build-course.js` o `05-Generador-Cursos/templates/{styles.css,engine.js}`.
-2. Rebuild de **todos** los cursos:
+2. **Si el cambio es del núcleo común, aplicarlo también en las otras dos líneas** — el motor está copiado y no viaja solo (ADR-025).
+3. Rebuild de **todos** los cursos:
    ```bash
    for c in $(ls 05-Generador-Cursos/borradores/*.json | xargs -n1 basename -s .json); do
      node 05-Generador-Cursos/build-course.js $c
    done
    ```
-3. Push.
+4. **Verificar que no quedó divergencia:** `python ../verificar-motor.py`
+5. Correr `cd PRUEBAS-E2E && npx playwright test` y push.
+
+> **Regla de estilo:** no poner `color:` en estilos **inline** desde `build-course.js` — el tema oscuro no puede sobrescribirlo y el elemento queda ilegible en modo oscuro. Va en `styles.css` con su variante `html[data-theme="dark"]`.
 
 ### Cambio de backend (Apps Script)
 
@@ -167,21 +176,23 @@ Detalles en [`BACKEND.md`](BACKEND.md).
 
 ---
 
+## Estado actual (03-ago-2026)
+
+**Nivel 1 completo, en producción y con las 3 auditorías pasadas.** Los 6 cursos están `active` y verificados en vivo.
+
+| Auditoría | Estado | Detalle |
+|---|---|---|
+| **Doctrinal** (`/auditar-curso`) | ✅ 02-ago-2026 | Primera pasada formal: **10 hallazgos críticos** en 3 cursos (citas alteradas, un cargo inexistente, cifras sin respaldo). Todos corregidos |
+| **Pedagógica** (`/auditar-pedagogia`) | ✅ 02-ago-2026 | ~19 quizzes reescritos, hook narrativo añadido a los 6 cursos |
+| **Funcional** (`PRUEBAS-E2E`) | ✅ en CI | 50 tests. Desde el 03-ago la accesibilidad recorre **todos los módulos**, no solo el registro |
+
+> **Doctrina corregida en el camino (ADR-022):** el cargo de **Fiscal/Revisor Fiscal de Grupo y Región no está vigente** — lo reemplaza el **Contador**, confirmado por consulta directa con la Jefatura Scout Nacional. Excepción: región con personería jurídica propia. Esta línea estuvo retirada del público unas horas mientras se verificaba (ADR-021, ya cerrado).
+>
+> **El piloto humano dejó de ser bloqueante** (ADR-019): las 3 auditorías son la compuerta.
+
 ## Pendientes / próximas etapas
 
-### Fase actual (Curso 1 piloto)
-
-- Compartir URL del Curso 1 con 5-10 adultos voluntarios.
-- Recoger retroalimentación durante 1-2 semanas.
-- Aplicar ajustes de contenido según observaciones.
-
-### Fase siguiente (Cursos 2-6 del Nivel 1)
-
-- Construir cada curso siguiendo el patrón del Curso 1 (ver `CREAR-CURSO.md`).
-- Diseño pedagógico viene de Cowork (ver `Recomendaciones-Cowork-Diseno-Cursos.md`).
-- Implementación técnica en Claude Code.
-
-### Fase posterior
+### Fase siguiente
 
 - **Nivel 2 — Profundización** (8 cursos por ámbito de gestión).
 - **Nivel 3 — Especialización por cargo** (6 cursos).
@@ -202,7 +213,17 @@ Las definiciones doctrinales provienen de los documentos oficiales de la ASC: **
 
 Cuando el dueño del proyecto diga *"revisa completo el código"* se ejecutan las 4 etapas documentadas en [`AUDITORIA.md`](AUDITORIA.md): scan → report → apply → verify.
 
-Antes de cualquier acción sobre el backend, correr siempre [`05-Generador-Cursos/verificar-backend.js`](05-Generador-Cursos/verificar-backend.js).
+**Última ejecución completa: 03-ago-2026** (`DECISIONES.md` ADR-025). Dos hallazgos de fondo: el **motor está copiado en las 3 líneas** y ya divergió, y la **auditoría de accesibilidad solo cubría el módulo de registro**. Al ampliarla aparecieron bugs de contraste reales en los componentes propios de esta línea — los estados vacíos de la brújula a 1.75:1 en modo oscuro y un `<select>` del goal-planner sin etiqueta accesible —, ya corregidos.
+
+### Herramientas de verificación
+
+| Comando | Qué revisa |
+|---|---|
+| `node 05-Generador-Cursos/build-course.js <curso>` | Esquema del JSON, reglas de quiz, sesgo de longitud |
+| `cd PRUEBAS-E2E && npx playwright test` | Flujo del alumno, enlaces, responsive y accesibilidad de **todos** los módulos |
+| `python ../verificar-motor.py` | Divergencia del motor entre las 3 líneas |
+| `python ../verificar-consistencia.py` | Catálogo ↔ portal ↔ panel admin ↔ ledger de auditorías |
+| `node 05-Generador-Cursos/verificar-backend.js` | Sincronización con el Apps Script — **correr siempre antes de tocar el backend** |
 
 ---
 
@@ -211,3 +232,7 @@ Antes de cualquier acción sobre el backend, correr siempre [`05-Generador-Curso
 Todos los cambios se aplican **end-to-end automáticamente** (edit → validate → build → preview → verify → commit → push → verify deploy). El usuario no tiene que pedir cada paso del pipeline.
 
 Inventario completo de scripts (`build-course.js`, `preview-course.js`, `verificar-backend.js`, etc.), triggers que activan procesos automáticos, y patrón de "self-applying changes" documentado en [`FLUJOS-AUTONOMOS-Y-SCRIPTS.md`](https://github.com/maximoaluna-blip/PORTAL-ADULTOS-ASC/blob/main/FLUJOS-AUTONOMOS-Y-SCRIPTS.md) (vive en PORTAL-ADULTOS-ASC porque aplica al ecosistema completo).
+
+---
+
+_Revisado el 03-ago-2026 contra el estado real (auditoría de código, `DECISIONES.md` ADR-025). Correcciones: la sección de pendientes decía "Fase actual: Curso 1 piloto" cuando los **6 cursos llevaban meses activos**; el renderer se describía como "idéntico al de Política de Adultos" cuando esta línea tiene **21 tipos frente a 14** (7 componentes propios); el árbol de carpetas solo listaba el Curso 1; Curso 3 a **35 min y 7 lecciones**; añadidas las 3 auditorías, la doctrina del ADR-022 y las herramientas de verificación._
