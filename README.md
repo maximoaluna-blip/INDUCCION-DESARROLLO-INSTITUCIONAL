@@ -6,16 +6,16 @@ Plataforma de formación online de la **Línea Desarrollo Institucional** de la 
 
 ## Estado actual
 
-**Nivel 1 — Ruta de Fundamentación** completo y en producción: 6 cursos activos (~3 horas). Todos están construidos, con `status: "active"` en `cursos.json` y publicados en GitHub Pages.
+**Nivel 1 — Ruta de Fundamentación** completo (~3 horas), construido y con las 3 auditorías pasadas (doctrinal, pedagógica, funcional — ver `ESTADO-AUDITORIA.md` del repo raíz). ⚠️ **Retirado temporalmente del público** (`status: "under-review"` en `cursos.json`, portal en `"coming-soon"` — ver `DECISIONES.md` ADR-021 del repo raíz): pausa preventiva mientras se resolvía una duda doctrinal, ya resuelta (ADR-022); pendiente de que el dueño del proyecto reactive la línea.
 
 | # | Curso | Estado |
 |---|-------|--------|
-| 1 | 🏛️ Bienvenida al Desarrollo Institucional | ✅ Activo |
-| 2 | 📜 La Política PNDI: Marco y Principios | ✅ Activo |
-| 3 | 🏗️ Niveles y Estructura del Movimiento | ✅ Activo |
-| 4 | 🧭 Los 8 Ámbitos de Gestión | ✅ Activo |
-| 5 | 🌟 Buenas Prácticas en Tu Grupo | ✅ Activo |
-| 6 | 🗺️ Mi Aporte al Desarrollo Institucional | ✅ Activo |
+| 1 | 🏛️ Bienvenida al Desarrollo Institucional | ⏸️ Under review |
+| 2 | 📜 La Política PNDI: Marco y Principios | ⏸️ Under review |
+| 3 | 🏗️ Niveles y Estructura del Movimiento (7 lecciones) | ⏸️ Under review |
+| 4 | 🧭 Los 8 Ámbitos de Gestión | ⏸️ Under review |
+| 5 | 🌟 Buenas Prácticas en Tu Grupo | ⏸️ Under review |
+| 6 | 🗺️ Mi Aporte al Desarrollo Institucional | ⏸️ Under review |
 
 ## Estructura del proyecto
 
@@ -29,12 +29,13 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 │   ├── *.html                          # Un HTML por curso (Cursos 01–06)
 │   ├── dashboard-admin.html
 │   └── verificar-certificado.html
-└── 05-Generador-Cursos/                # Pipeline de construcción
-    ├── build-course.js                 # JSON → HTML
-    ├── preview-course.js               # HTML → preview imprimible
-    ├── templates/{engine.js, styles.css}
-    ├── borradores/                     # Fuentes de verdad (JSON)
-    └── previews/                       # (gitignored)
+├── 05-Generador-Cursos/                # Pipeline de construcción
+│   ├── build-course.js                 # JSON → HTML (preserva el status del catálogo en cada rebuild)
+│   ├── preview-course.js               # HTML → preview imprimible
+│   ├── templates/{engine.js, styles.css}
+│   ├── borradores/                     # Fuentes de verdad (JSON)
+│   └── previews/                       # (gitignored)
+└── PRUEBAS-E2E/                        # Auditoría funcional (Playwright + axe), corre en CI
 ```
 
 ## Pipeline para crear/actualizar un curso
