@@ -99,18 +99,18 @@
           {
             "text": "Un consejo de grupo revisa su malla de trabajo anual y encuentra que solo tiene actividades para 5 de los 8 ámbitos de gestión. Un dirigente dice: 'No hay problema, lo demás no nos aplica.' ¿Qué le respondes según esta lección?",
             "options": [
-              "Tiene razón: cada grupo elige libremente cuántos ámbitos trabajar según su tamaño.",
-              "Los 8 ámbitos cubren TODO el trabajo institucional sin huecos ni dobles — que 3 no tengan actividades visibles no significa que no apliquen, sino que probablemente están descuidados o invisibilizados.",
-              "No hay problema, esos ámbitos los cubre directamente la región, no el grupo."
+              "Tiene razón: cada grupo elige libremente cuántos ámbitos trabajar según su tamaño y su realidad.",
+              "Los 8 ámbitos cubren TODO sin huecos: esos 3 están descuidados, no es que no apliquen.",
+              "No hay problema: esos ámbitos los cubre directamente la región y no le tocan al grupo."
             ],
             "correctIndex": 1
           },
           {
             "text": "Un dirigente nuevo propone en consejo abrir un convenio con la junta de acción comunal del barrio para conseguir un espacio fijo de reuniones. ¿Qué ámbitos del DI atraviesa esa propuesta además de Comunicaciones y Relaciones Interinstitucionales?",
             "options": [
-              "Solo Comunicaciones — la búsqueda de un local es comunicación pura.",
-              "También Administración (logística y mantenimiento del nuevo local) y Gobernanza (el consejo debe decidir y documentar el convenio).",
-              "Solo Gestión de Recursos Económicos, porque hay implicaciones de costos."
+              "Solo Comunicaciones — al final la búsqueda de un local nuevo es comunicación pura con el barrio.",
+              "También Administración (logística del local) y Gobernanza (el consejo decide y documenta).",
+              "Solo Gestión de Recursos Económicos, porque el convenio tiene implicaciones de costos."
             ],
             "correctIndex": 1
           }
@@ -191,18 +191,18 @@
           {
             "text": "El intendente del grupo 'Coraje', además de las carpas y equipos, empieza a llevar registro de a quién le pagan honorarios ocasionales y qué contratos de arriendo tiene vigentes con el salón comunal. Fuera de 'activos', ¿en qué otros dos sub-ámbitos de Administración está trabajando?",
             "options": [
-              "Pasivos y obligaciones (los contratos vigentes) y obligaciones legales con el Estado (si esos honorarios implican retenciones).",
-              "Gestión de Recursos Económicos, porque todo lo que involucra plata es ese ámbito.",
-              "Ninguno más — eso sigue siendo activos fijos y variables."
+              "Pasivos y obligaciones (los contratos vigentes) y obligaciones legales con el Estado.",
+              "Gestión de Recursos Económicos, porque todo lo que involucra plata cae siempre en ese ámbito.",
+              "Ninguno más — todo eso sigue siendo simplemente activos fijos y variables."
             ],
             "correctIndex": 0
           },
           {
             "text": "Una región acompaña a un grupo nuevo y le sugiere diversificar sus fuentes de ingresos más allá de la cuota familiar y definir una meta propia de margen para tener colchón financiero. ¿En qué ámbito del DI está acompañando la región a ese grupo?",
             "options": [
-              "Gobernanza — porque establece reglas para el consejo.",
-              "Gestión de Recursos Económicos — fuentes de fondos, planeación financiera y margen de sostenibilidad.",
-              "Administración — porque implica activos del grupo."
+              "Gobernanza — porque diversificar los ingresos exigiría nuevas reglas de decisión en el consejo.",
+              "Gestión de Recursos Económicos — fuentes de fondos y sostenibilidad financiera.",
+              "Administración — porque termina implicando el manejo de los activos del grupo."
             ],
             "correctIndex": 1
           }
@@ -292,9 +292,9 @@
           {
             "text": "Un comisionado regional le dice a un grupo pequeño: 'Este año tienen que crecer mínimo 2%, es la meta del Plan Regional Interamericano.' ¿Qué le corriges?",
             "options": [
-              "Nada, tiene razón: todo grupo debe crecer 2% cada año.",
-              "La meta es regional y de todo el período 2022-2025: que al menos 17 países crezcan 2% en total — no es una exigencia anual para cada grupo.",
-              "Tiene razón, pero la meta es 2% mensual, no anual."
+              "Nada, tiene razón: todo grupo scout del país tiene que crecer un 2% cada año, sin excepción alguna.",
+              "La meta es regional y de todo el período 2022-2025: al menos 17 países creciendo 2% en total.",
+              "Tiene razón, aunque la meta en realidad es de 2% mensual y no anual."
             ],
             "correctIndex": 1
           }
@@ -445,18 +445,18 @@
           {
             "text": "Los 8 ámbitos de la PNDI 2017 y las 5 subcategorías operativas de la DNDI hoy…",
             "options": [
-              "Son lo mismo con nombres distintos.",
-              "Conviven: la PNDI define el universo conceptual completo (8 ámbitos), la DNDI organiza sus 5 prioridades operativas del cuatrienio dentro de ese universo.",
-              "Se contradicen y la DNDI debería reorganizarse para coincidir con la PNDI."
+              "Son exactamente lo mismo, solo que enunciados con nombres distintos en cada uno de los documentos.",
+              "Conviven: la PNDI define el universo (8 ámbitos) y la DNDI sus 5 prioridades del cuatrienio.",
+              "Se contradicen entre sí, y la DNDI debería reorganizarse para coincidir con la PNDI."
             ],
             "correctIndex": 1
           },
           {
             "text": "Camila es tesorera y sabe que en su grupo la Gestión de Recursos Económicos va muy bien, pero Comunicaciones está totalmente descuidada — nadie contesta el WhatsApp de padres a tiempo. A ella le apasiona el diseño gráfico y tiene tiempo libre los sábados. Aplicando los tres criterios de esta lección, ¿qué ámbito debería priorizar?",
             "options": [
-              "Recursos Económicos, porque es donde ya tiene experiencia como tesorera.",
-              "Comunicaciones — es el ámbito más débil hoy, conecta con una habilidad personal suya (diseño) y tiene capacidad real de aportar (tiempo los sábados).",
-              "Ninguno: debe esperar a que la región le asigne un ámbito formalmente."
+              "Recursos Económicos, porque es justamente donde ya tiene experiencia como tesorera del grupo.",
+              "Comunicaciones — es el ámbito más débil y conecta con su habilidad de diseño.",
+              "Ninguno: debe esperar a que la región le asigne formalmente un ámbito de trabajo."
             ],
             "correctIndex": 1
           }

@@ -125,9 +125,9 @@
           {
             "text": "Si la mayoría de tus 8 ámbitos están en NO o PARCIAL (situación típica), este curso recomienda…",
             "options": [
-              "Intentar mejorar los 8 ámbitos al mismo tiempo, para no demorarse.",
-              "Elegir máximo 5 ámbitos prioritarios para los próximos 12 meses, porque la mejora sostenida supera a la dispersa.",
-              "Dejarlo así, porque el grupo está en promedio."
+              "Intentar mejorar los 8 ámbitos al mismo tiempo, para no demorarse tantos años.",
+              "Elegir máximo 5 ámbitos prioritarios para los próximos 12 meses.",
+              "Dejarlo así, porque el grupo está más o menos en el promedio de la región."
             ],
             "correctIndex": 1
           }
@@ -284,9 +284,9 @@
           {
             "text": "Si en tu catálogo del Curso 5 marcaste el ámbito <strong>Gestión del Riesgo</strong> en estado <strong>NO</strong>, ¿qué meta-tipo sería más sensata para empezar (3 meses)?",
             "options": [
-              "GR-doc — escribir el manual de gestión del riesgo del grupo para compartirlo.",
-              "GR-crear — establecer un protocolo básico y obligatorio en cada salida del grupo, sin excepciones, aunque sea mínimo.",
-              "Ninguna meta de Gestión del Riesgo — primero los otros ámbitos."
+              "GR-doc — escribir el manual completo de gestión del riesgo del grupo para poder compartirlo.",
+              "GR-crear — establecer un protocolo básico y obligatorio en cada salida del grupo.",
+              "Ninguna meta de Gestión del Riesgo — primero habría que resolver los otros ámbitos."
             ],
             "correctIndex": 1
           }
@@ -356,9 +356,9 @@
           {
             "text": "Un jefe de grupo intenta marcar 10 metas porque considera que todas son importantes. La presidenta del consejo le sugiere quedarse con menos. ¿Qué argumento sostiene este curso para limitar el plan?",
             "options": [
-              "Que 10 metas equivalen a 5, solo cambia la velocidad de ejecución.",
-              "Que la diferencia entre 5 y 10 no es “el doble de logros” sino “la mitad del foco” — un plan disperso no cambia el grupo.",
-              "Que el plan-builder técnicamente no acepta más de 5 metas."
+              "Que 10 metas equivalen a 5 metas, y que lo único que cambia es la velocidad de ejecución.",
+              "Que la diferencia entre 5 y 10 no es “el doble de logros” sino “la mitad del foco”.",
+              "Que el plan-builder, técnicamente, no acepta más de 5 metas por plan."
             ],
             "correctIndex": 1
           },
@@ -425,9 +425,9 @@
           {
             "text": "Tu brújula personal del Curso 2 sirve principalmente para…",
             "options": [
-              "Memorizar el principio que más te guste.",
-              "Tener un criterio claro para decidir cuando tengas un dilema entre dos metas o entre el plan y otra prioridad del grupo.",
-              "Demostrar que conoces los 7 principios."
+              "Memorizar el principio institucional que más te guste de los siete que existen.",
+              "Tener un criterio claro para decidir cuando haya un dilema entre metas.",
+              "Demostrar en el examen final que te conoces los 7 principios."
             ],
             "correctIndex": 1
           },
@@ -508,17 +508,17 @@
           {
             "text": "¿Por qué este curso te pide generar y firmar un PDF, en lugar de solo guardar tus metas en la pantalla?",
             "options": [
-              "“Porque es un requisito técnico para que el sistema calcule tu certificado.”",
-              "“Porque convertir el plan en un documento firmable y compartible lo vuelve un compromiso público, más difícil de abandonar que una intención guardada solo en tu cabeza.”",
-              "“Porque el PDF reemplaza la necesidad de hablar con tu consejo sobre el plan.”"
+              "“Porque es un requisito técnico para que el sistema pueda calcular tu certificado final.”",
+              "“Porque volverlo un documento firmable lo convierte en un compromiso público.”",
+              "“Porque el PDF reemplaza la necesidad de hablar con tu consejo de grupo sobre el plan.”"
             ],
             "correctIndex": 1
           },
           {
             "text": "Una buena práctica final que sugiere este curso para fortalecer el cumplimiento del plan es…",
             "options": [
-              "Guardarlo solo para uno mismo, sin que nadie más lo sepa.",
-              "Llevarlo al consejo de grupo o regional para hacerlo público dentro del equipo — porque cuando otros lo conocen, se vuelve más fácil de cumplir.",
+              "Guardarlo solo para uno mismo, sin que nadie más del grupo llegue a saberlo.",
+              "Llevarlo al consejo de grupo para hacerlo público dentro del equipo.",
               "Compartirlo solo si el consejo lo pide explícitamente — de lo contrario, esperar."
             ],
             "correctIndex": 1

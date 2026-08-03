@@ -124,8 +124,8 @@
           {
             "text": "Un papá pregunta en la reunión: “¿por qué el grupo cobra $45.000 de cuota si en el reglamento no dice nada de esa cifra?” El consejero responde citando primero la Política (por qué se cobra: sostener el programa) y después el reglamento (cómo se cobra: fecha, medio, exenciones). Según la distinción de esta lección, ¿qué relación hay entre ambos documentos?",
             "options": [
-              "El reglamento manda sobre la política porque es más reciente y más detallado.",
-              "La política explica el porqué del cobro; el reglamento fija el cómo se ejecuta — son complementarios, no redundantes.",
+              "El reglamento manda sobre la política, porque es un documento más reciente y mucho más detallado.",
+              "La política explica el porqué del cobro; el reglamento fija el cómo — son complementarios.",
               "Son lo mismo: si el reglamento no dice la cifra, la política tampoco puede exigirla."
             ],
             "correctIndex": 1
@@ -239,8 +239,8 @@
           {
             "text": "Un grupo invierte 4 años construyendo una sede propia con donaciones de las familias. Cuando alguien pregunta cuántos chicos pasaron por ahí en esos 4 años, cuántos siguen activos, cuántos crecieron en su progresión, la respuesta es “no llevamos esa cuenta”. ¿Qué fundamento del DI les falló?",
             "options": [
-              "Democracia — la sede se decidió sin consenso.",
-              "Entorno y Vigencia — la sede no respondió al entorno.",
+              "Democracia — la sede se decidió sin consultarlo realmente con las familias del grupo.",
+              "Entorno y Vigencia — la sede no respondió al entorno real del barrio.",
               "Orientación a Resultados e Impacto — midieron lo invertido, pero no lo logrado."
             ],
             "correctIndex": 2
@@ -415,8 +415,8 @@
           {
             "text": "Una rama de Caminantes va a planear su empresa anual de servicio comunitario. ¿Qué principio del DI debería guiar al equipo de jefatura a involucrar formalmente a los propios caminantes en la elección del proyecto, los aliados y los plazos?",
             "options": [
-              "Prospectiva — pensar a 10 años el servicio.",
-              "Coherencia — alinear discurso y acción del equipo.",
+              "Prospectiva — porque hay que pensar el servicio comunitario a 10 años vista y no solo a un año.",
+              "Coherencia — se trata de alinear el discurso y la acción de todo el equipo.",
               "Participación Juvenil — la decisión la moldean los propios jóvenes, no solo los adultos."
             ],
             "correctIndex": 2
@@ -519,7 +519,7 @@
             "text": "En la Asamblea Regional, un consejero de un grupo pequeño dice: “la Participación Juvenil es tema del Grupo, porque ahí están los chicos. En la Región y en la Nación eso ya es cosa de adultos.” Según lo que viste en esta lección, ¿qué le respondes?",
             "options": [
               "Tiene razón: a nivel Región y Nación las decisiones son técnicas y no requieren voz juvenil.",
-              "El principio aplica en los tres sujetos, solo que cambia el mecanismo: en el Grupo es el Representante Rover, en la Región y la Nación hay representantes formales en los consejos y en la PNPJ.",
+              "El principio aplica en los tres sujetos, solo que con mecanismos distintos en cada uno.",
               "Solo aplica a nivel Nacional, porque ahí se escriben las políticas que afectan a los jóvenes."
             ],
             "correctIndex": 1
@@ -527,9 +527,9 @@
           {
             "text": "Estás en una reunión y surge un dilema institucional inesperado (dos dirigentes en desacuerdo sobre si suspender una salida por lluvia). No tienes tiempo de repasar los 7 principios uno por uno. ¿Para qué te sirve, en ese momento, haber elegido de antemano tu brújula personal?",
             "options": [
-              "Para recitarla y demostrar que conoces la PNDI mejor que los demás.",
-              "Para tener un criterio de arranque que te permita actuar rápido, sin dejar de considerar los otros principios después.",
-              "Para evitar tener que consultar con el consejo, porque ya tienes la respuesta."
+              "Para poder recitarla y demostrar que conoces la PNDI mejor que los demás del consejo.",
+              "Para tener un criterio de arranque que te permita actuar rápido en el momento.",
+              "Para evitar tener que consultar con el consejo, porque ya tendrías la respuesta."
             ],
             "correctIndex": 1
           }

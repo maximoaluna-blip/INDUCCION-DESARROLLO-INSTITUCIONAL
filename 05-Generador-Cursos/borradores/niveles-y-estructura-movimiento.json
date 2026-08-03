@@ -148,7 +148,7 @@
             "text": "Un consejero regional te dice: “Al final los grupos son solo una instancia que ejecuta lo que decide la región; lo institucionalmente importante pasa arriba.” ¿Qué le respondes con lo que acabas de ver?",
             "options": [
               "Tiene razón: el grupo ejecuta, la región decide — así es la cadena de mando.",
-              "No es así: el Grupo es la célula básica donde ocurre la experiencia educativa con los chicos, y la PNDI lo reconoce como sujeto propio de la política — no una simple ejecutora de la región.",
+              "No es así: el Grupo es la célula básica y la PNDI lo reconoce como sujeto propio de la política.",
               "Depende del tamaño del grupo: los grupos grandes sí tienen peso institucional propio, los pequeños no."
             ],
             "correctIndex": 1
@@ -229,7 +229,7 @@
             "text": "Un dirigente te dice: “En mi grupo el mismo Consejo aprueba el presupuesto, lo ejecuta y además audita si se gastó bien.” ¿Qué está pasando ahí, según los 5 tipos de órganos que viste?",
             "options": [
               "Es normal: el Consejo administra y también puede controlarse a sí mismo, porque conoce mejor que nadie sus propias cuentas.",
-              "Se están mezclando administración y control: el Consejo debería administrar, pero el control fiscal necesita ser un órgano independiente (el Contador) para que nadie audite su propia gestión.",
+              "Se están mezclando administración y control: el control necesita un órgano independiente, el Contador.",
               "Se están mezclando dirección y técnico: el Consejo no debería ejecutar nada operativo, eso es tarea exclusiva de la Asamblea."
             ],
             "correctIndex": 1
@@ -237,9 +237,9 @@
           {
             "text": "La estructura de órganos entre los niveles Nacional, Regional y de Grupo de la ASC es…",
             "options": [
-              "Simétrica: los mismos órganos con los mismos nombres en los tres niveles.",
-              "Asimétrica: los 5 tipos de función están en los tres niveles, pero los órganos que los cumplen tienen nombres y composiciones distintas.",
-              "Jerárquica estricta: el grupo solo replica al de arriba sin órganos propios."
+              "Simétrica: son exactamente los mismos órganos, con los mismos nombres, en cada uno de los tres niveles.",
+              "Asimétrica: las 5 funciones están en los tres niveles, pero los órganos tienen nombres distintos.",
+              "Jerárquica estricta: el grupo solo replica lo del nivel de arriba, sin órganos propios."
             ],
             "correctIndex": 1
           }
@@ -435,17 +435,17 @@
           {
             "text": "Una región no tiene personería jurídica propia — opera bajo el registro de la ASC nacional. ¿Quién ejerce ahí el control fiscal-contable, según el Manual de Cargos vigente?",
             "options": [
-              "El Revisor Fiscal Regional, obligatorio en todas las regiones por igual.",
-              "El Contador Regional — el cargo de Revisor Fiscal no está en el manual de cargos vigente, salvo que la región tenga personería jurídica propia.",
-              "Nadie — el control fiscal-contable solo existe a nivel nacional."
+              "El Revisor Fiscal Regional, que es un cargo obligatorio en todas las regiones del país por igual.",
+              "El Contador Regional — el cargo de Revisor Fiscal no está en el manual de cargos vigente.",
+              "Nadie — el control fiscal-contable solo existe en el nivel nacional de la asociación."
             ],
             "correctIndex": 1
           },
           {
             "text": "Un comisionado regional convoca al Capítulo Regional de la Corte de Honor para que dicte sentencia disciplinaria a un dirigente. ¿Qué le corriges?",
             "options": [
-              "Nada, está bien — el Capítulo Regional puede dictar sentencia de forma autónoma.",
-              "El Capítulo Regional investiga y recoge pruebas, pero la sentencia formal la dicta la Corte de Honor Nacional — no es una Corte de Honor Regional autónoma.",
+              "Nada, está bien — el Capítulo Regional puede investigar y también dictar sentencia de forma autónoma.",
+              "El Capítulo Regional investiga, pero la sentencia la dicta la Corte de Honor Nacional.",
               "Debió convocar directamente a la Comisión Nacional de Vigilancia y Control, no al Capítulo."
             ],
             "correctIndex": 1
@@ -545,9 +545,9 @@
           {
             "text": "El Consejo de Grupo decide la asignación de los recursos del año sin convocar al Contador ni haberle avisado. Seis meses después, cuando el Contador pide los soportes, el Consejo no los tiene completos. ¿Qué falló?",
             "options": [
-              "Nada — el Contador solo debe revisar al final del año, no necesita estar en las reuniones.",
-              "No convocar al Contador a las reuniones con temas financieros — justamente su función es prevenir este tipo de problemas antes de que ocurran.",
-              "El error fue del Contador, por no pedir los soportes con más frecuencia."
+              "Nada — el Contador solo debe revisar al final del año, así que no necesita estar en las reuniones.",
+              "No convocar al Contador a las reuniones con temas financieros: su función es prevenir esto.",
+              "El error fue del Contador, por no haber pedido los soportes con más frecuencia."
             ],
             "correctIndex": 1
           }
@@ -651,9 +651,9 @@
           {
             "text": "Un padre de familia denuncia que un dirigente se llevó una plata del grupo sin reportarla. ¿A qué órgano debería escalarse primero el caso en un grupo?",
             "options": [
-              "A la Comisión Nacional de Vigilancia y Control directamente, porque es asunto serio.",
-              "Al Contador del Grupo (para auditar) y, si la conducta amerita sanción, convocar la Comisión Disciplinaria Ad-hoc del Consejo de Grupo.",
-              "A la Corte de Honor Nacional, porque es un asunto disciplinario."
+              "A la Comisión Nacional de Vigilancia y Control directamente, porque es un asunto bastante serio.",
+              "Al Contador del Grupo y, si amerita sanción, a la Comisión Disciplinaria Ad-hoc.",
+              "A la Corte de Honor Nacional, porque se trata de un asunto disciplinario."
             ],
             "correctIndex": 1
           },
