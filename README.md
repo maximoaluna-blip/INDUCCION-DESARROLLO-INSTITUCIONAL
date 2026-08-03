@@ -6,7 +6,7 @@ Plataforma de formación online de la **Línea Desarrollo Institucional** de la 
 
 ## Estado actual
 
-**Nivel 1 — Ruta de Fundamentación** completo (~3 horas), construido y con las 3 auditorías pasadas (doctrinal, pedagógica, funcional — ver `ESTADO-AUDITORIA.md` del repo raíz). ⚠️ **Retirado temporalmente del público** (`status: "under-review"` en `cursos.json`, portal en `"coming-soon"` — ver `DECISIONES.md` ADR-021 del repo raíz): pausa preventiva mientras se resolvía una duda doctrinal, ya resuelta (ADR-022); pendiente de que el dueño del proyecto reactive la línea.
+**Nivel 1 — Ruta de Fundamentación** completo (~3 horas), construido, con las 3 auditorías pasadas (doctrinal, pedagógica, funcional — ver `ESTADO-AUDITORIA.md` del repo raíz) y **público** (`status: "active"` en `cursos.json`, portal en `"active"`). Reactivado el 02-ago-2026: cierra la pausa preventiva del ADR-021, cuya duda doctrinal quedó resuelta en el ADR-022 (ver `DECISIONES.md` del repo raíz).
 
 | # | Curso | Estado |
 |---|-------|--------|

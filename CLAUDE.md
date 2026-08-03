@@ -29,7 +29,7 @@ Una de las 3 líneas activas de formación digital para adultos voluntarios de l
 
 ## Estado (ver `INDICE-PROYECTO.md` para el detalle vivo)
 
-> ⚠️ **Línea retirada temporalmente del público (ADR-021, `DECISIONES.md` raíz).** Los 6 cursos están en `status: "under-review"` en `cursos.json` y la entrada de esta línea en `PORTAL-ADULTOS-ASC/lineas.json` está en `"coming-soon"` — no aparecen en el índice de la línea ni en el portal. Es una pausa preventiva, no un problema de calidad sin resolver: se reactiva cambiando el `status` de vuelta a `"active"` en ambos archivos cuando el dueño del proyecto lo decida.
+> ✅ **Línea pública y activa.** Reactivada el 02-ago-2026: los 6 cursos están en `status: "active"` en `cursos.json` y la entrada de esta línea en `PORTAL-ADULTOS-ASC/lineas.json` volvió a `"active"`. Con esto queda **cerrado el ADR-021** (la pausa preventiva mientras se verificaba la duda doctrinal del Fiscal de Grupo, resuelta en ADR-022). La pausa no alteró contenido.
 
 **Nivel 1 "Fundamentación" completo: 6 cursos construidos** (Bienvenida, PNDI Marco y Principios, Niveles y Estructura del Movimiento — ahora 7 lecciones, dividida la que cubría Regional+Grupo —, Los 8 Ámbitos de Gestión, Buenas Prácticas en Tu Grupo, Mi Aporte al DI). **Las 3 auditorías completas desde el 02-ago-2026** (doctrinal, pedagógica y funcional — ver `ESTADO-AUDITORIA.md` raíz), mismo estándar que Programa de Jóvenes. Plan total 24 cursos.
 
