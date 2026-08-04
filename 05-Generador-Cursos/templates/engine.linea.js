@@ -149,8 +149,9 @@ function calculateAssessment(assessmentId) {
     data.completedAt = new Date().toISOString();
     saveProgress();
     // Save to global key for cross-course consumption
-    try {
-        localStorage.setItem('competencyProfile', JSON.stringify({
+    // Por guardarLocal, no en un catch vacio (AUDITORIA.md check E-bis): si el
+    // almacenamiento falla, el alumno pierde su trabajo sin ningun aviso.
+    guardarLocal('competencyProfile', JSON.stringify({
             grades: data.grades,
             strengths: data.strengths,
             opportunities: data.opportunities,
@@ -158,7 +159,6 @@ function calculateAssessment(assessmentId) {
             sourceCourse: COURSE_CONFIG.courseId,
             scaleVersion: COMPETENCY_SCALE_VERSION
         }));
-    } catch (e) { /* ignore */ }
     // Sincronizacion en segundo plano al backend (persistencia hibrida)
     if (userProfile && userProfile.email && typeof sendToGoogleSheets === 'function') {
         sendToGoogleSheets({
@@ -391,7 +391,7 @@ function recoverProgress() {
                     Object.keys(serverData.catalogs).forEach(function (cid) {
                         practicesCatalogs[cid] = serverData.catalogs[cid];
                         // Espejo en localStorage global para que otros cursos puedan leerlo cross-device
-                        try { localStorage.setItem(cid, JSON.stringify(serverData.catalogs[cid])); } catch (e) {}
+                        guardarLocal(cid, JSON.stringify(serverData.catalogs[cid]));
                     });
                     if (typeof restorePracticesCatalogs === 'function') restorePracticesCatalogs();
                     if (typeof renderCatalogDisplays === 'function') renderCatalogDisplays();
@@ -506,7 +506,7 @@ function recordPracticeAttribute(catalogId, ambitoId, attrId, isChecked) {
 function savePracticesCatalog(catalogId) {
     var data = practicesCatalogs[catalogId] || {};
     // 1. Persistencia inmediata en localStorage (cross-curso, offline-safe)
-    try { localStorage.setItem(catalogId, JSON.stringify(data)); } catch (e) {}
+    guardarLocal(catalogId, JSON.stringify(data));
     saveProgress();
     // 2. Feedback inmediato al usuario (sin esperar al backend)
     var statusEl = document.getElementById('pbc-status-' + catalogId);
