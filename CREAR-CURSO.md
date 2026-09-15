@@ -173,7 +173,7 @@ Cuando se quieren publicar varios cursos del mismo nivel a la vez.
 ### A. Curso que reusa un componente especializado (autodiagnóstico, plan-builder)
 
 - Cualquier curso del Nivel 1 puede usar `self-assessment` o `plan-builder` (ya están soportados por el motor — no requiere tocar `engine.js`).
-- Si el componente lee datos de otro curso, usar la clave global de localStorage acordada en el proyecto (ej. `competencyProfile` para el cross-course de competencias).
+- Si el componente lee datos de otro curso, usar una clave de localStorage **con apellido de línea** (`desarrollo-institucional:<id>`, como `desarrollo-institucional:catalogo-buenas-practicas-grupo`), declarada en `PRUEBAS-E2E/claves-localstorage.json`. Las líneas comparten dominio y por tanto `localStorage` (ADR-034): `competencyProfile` es de Política de Adultos y esta línea no debe leerla.
 
 ### B. Curso con video
 

@@ -33,12 +33,12 @@
       "alcance": "por curso"
     },
     {
-      "clave": "<catalogId>",
-      "patron": "catalogId",
-      "estado": "planeada",
-      "que": "Catalogo de buenas practicas del Curso 6, espejado en localStorage por recoverProgress para que otros cursos lo lean cross-device. Es la unica funcionalidad propia de esta linea en el motor.",
+      "clave": "desarrollo-institucional:<catalogId>",
+      "patron": "desarrollo-institucional:",
+      "estado": "implementada",
+      "que": "Catalogo de buenas practicas: lo escribe buenas-practicas-en-tu-grupo (Curso 5) y lo lee mi-aporte-al-desarrollo-institucional (Curso 6). recoverProgress lo espeja desde el backend para lectura cross-device.",
       "alcance": "cross-course dentro de la linea",
-      "nota": "Se escribe con clave dinamica (el catalogId), no con un literal, asi que el extractor de claves no la ve como patron fijo. Declarada aqui para que quede documentada; revisar en la Fase 1 si conviene prefijarla para no colisionar con otras lineas."
+      "nota": "Con apellido de linea desde el 14-sep-2026 (ADR-034 Fase 1 B2). getCatalogData migra una vez desde la clave vieja (el catalogId a secas), que no se borra."
     }
   ]
 }

@@ -132,67 +132,9 @@ function loadProgress() {
 // self-assessment ni plan-builder (0 de 6); era codigo copiado de Politica de Adultos.
 
 
-function generatePlan(builderId) {
-    var plan = personalPlans[builderId];
-    if (!plan || !plan.competences || Object.keys(plan.competences).length === 0) {
-        showNotification('⚠️ Selecciona al menos 1 competencia y completa sus campos antes de generar el plan.', 'warning');
-        return;
-    }
-    // Validate fields
-    var entries = Object.keys(plan.competences);
-    var incomplete = entries.filter(function (compId) {
-        var d = plan.competences[compId];
-        return !d.meta || !d.meta.trim() || !d.plazo || !d.plazo.trim() || !d.recursos || !d.recursos.trim();
-    });
-    if (incomplete.length > 0) {
-        showNotification('⚠️ Hay campos vacíos. Completa meta, plazo y recursos en todas las competencias seleccionadas.', 'warning');
-        return;
-    }
-    // Get competence names from checkboxes
-    var nameByCompId = {};
-    document.querySelectorAll('.pb-comp-check').forEach(function (cb) {
-        nameByCompId[cb.getAttribute('data-competence')] = cb.getAttribute('data-name');
-    });
-    var fullName = (userProfile && userProfile.fullName) || 'Adulto del Movimiento';
-    var groupName = (userProfile && userProfile.group) || '—';
-    var dateStr = new Date().toLocaleDateString('es-CO', { year: 'numeric', month: 'long', day: 'numeric' });
-    var prioritiesHtml = entries.map(function (compId, idx) {
-        var d = plan.competences[compId];
-        var name = nameByCompId[compId] || compId;
-        return '<div class="pb-priority"><h3>' + (idx + 1) + '. ' + name + '</h3>' +
-            '<dt>🎯 Meta concreta</dt><dd>' + escapeHtml(d.meta) + '</dd>' +
-            '<dt>⏰ Plazo</dt><dd>' + escapeHtml(d.plazo) + '</dd>' +
-            '<dt>📚 Recursos</dt><dd>' + escapeHtml(d.recursos) + '</dd></div>';
-    }).join('');
-    var commitmentHtml = (plan.commitment || '').trim() ?
-        '<div class="pb-final-commitment"><h3>💚 Mi compromiso</h3><p style="margin:0;white-space:pre-wrap;">' + escapeHtml(plan.commitment) + '</p></div>' : '';
-    var output = document.getElementById('pb-output-' + builderId);
-    if (output) {
-        output.innerHTML =
-            '<h2>📋 Plan Personal de Desarrollo</h2>' +
-            '<p class="pb-output-meta"><strong>' + escapeHtml(fullName) + '</strong> · Grupo ' + escapeHtml(groupName) + ' · ' + dateStr + '</p>' +
-            '<h3 style="margin-top:24px;color:#622599;">Mis prioridades de desarrollo</h3>' +
-            prioritiesHtml +
-            commitmentHtml +
-            '<button class="pb-print-btn" onclick="printPlan()">🖨️ Imprimir / Guardar como PDF</button>' +
-            '<p style="text-align:center;color:#666;font-size:0.85em;margin:14px 0 0 0;font-style:italic;">Imprime este plan, fírmalo con tu Asesor Personal y súbelo a Talento 360.</p>';
-        output.classList.remove('hidden');
-        output.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-    showNotification('✅ Plan generado. Puedes imprimirlo.');
-    // Sincronizacion en segundo plano al backend (persistencia hibrida)
-    if (userProfile && userProfile.email && typeof sendToGoogleSheets === 'function') {
-        sendToGoogleSheets({
-            action: 'plan',
-            email: userProfile.email,
-            name: userProfile.fullName,
-            course: COURSE_CONFIG.courseId,
-            planId: builderId,
-            planType: 'plan-builder-v1',
-            contenido: plan
-        });
-    }
-}
+// generatePlan ya no vive aqui (14-sep-2026, ADR-034 Fase 1 B): esta en el nucleo,
+// y lee sus textos del HTML que deja render.plan-builder.js a partir de los `labels`
+// del JSON del curso. Las 3 copias por linea diferian SOLO por vocabulario.
 
 // --- Recovery from server ---
 function recoverProgress() {
@@ -286,7 +228,7 @@ function recoverProgress() {
                     Object.keys(serverData.catalogs).forEach(function (cid) {
                         practicesCatalogs[cid] = serverData.catalogs[cid];
                         // Espejo en localStorage global para que otros cursos puedan leerlo cross-device
-                        guardarLocal(cid, JSON.stringify(serverData.catalogs[cid]));
+                        guardarLocal('desarrollo-institucional:' + cid, JSON.stringify(serverData.catalogs[cid]));
                     });
                     if (typeof restorePracticesCatalogs === 'function') restorePracticesCatalogs();
                     if (typeof renderCatalogDisplays === 'function') renderCatalogDisplays();
@@ -401,7 +343,7 @@ function recordPracticeAttribute(catalogId, ambitoId, attrId, isChecked) {
 function savePracticesCatalog(catalogId) {
     var data = practicesCatalogs[catalogId] || {};
     // 1. Persistencia inmediata en localStorage (cross-curso, offline-safe)
-    guardarLocal(catalogId, JSON.stringify(data));
+    guardarLocal('desarrollo-institucional:' + catalogId, JSON.stringify(data));
     saveProgress();
     // 2. Feedback inmediato al usuario (sin esperar al backend)
     var statusEl = document.getElementById('pbc-status-' + catalogId);
@@ -460,8 +402,15 @@ function getCatalogData(catalogId) {
     if (practicesCatalogs[catalogId] && Object.keys(practicesCatalogs[catalogId]).length > 0) {
         return practicesCatalogs[catalogId];
     }
+    // Clave con apellido de linea desde el 14-sep-2026 (ADR-034 Fase 1 B2). MIGRACION:
+    // un catalogo guardado bajo el catalogId a secas se lee una vez y se copia a la
+    // clave nueva; la vieja no se borra.
     try {
-        var raw = localStorage.getItem(catalogId);
+        var raw = localStorage.getItem('desarrollo-institucional:' + catalogId);
+        if (!raw) {
+            var legado = localStorage.getItem(catalogId);
+            if (legado) { guardarLocal('desarrollo-institucional:' + catalogId, legado); raw = legado; }
+        }
         return raw ? JSON.parse(raw) : null;
     } catch (e) { return null; }
 }
