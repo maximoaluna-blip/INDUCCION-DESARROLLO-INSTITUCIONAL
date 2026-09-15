@@ -1,5 +1,8 @@
 # PRUEBAS-E2E — Auditoría funcional de la Línea Desarrollo Institucional
 
+> ⚠️ **Sin `ASC_BASE_URL`, esta suite corre contra PRODUCCIÓN** (la URL pública de GitHub Pages), no contra el HTML que acabas de compilar. Un «todo en verde» en local sin esa variable valida lo publicado, no tu cambio. Para probar el repo local haz lo que hace el CI: `python -m http.server 8099` en la raíz del repo y `ASC_BASE_URL=http://127.0.0.1:8099/02-Plataforma-Web/ npx playwright test`. (Aprendido el 14-sep-2026, ADR-034 Fase 1.)
+
+
 Suite de [Playwright](https://playwright.dev) que verifica la plataforma de forma
 repetible: la tercera pata de calidad, junto a la **doctrinal** (`/auditar-curso`) y la
 **pedagógica** (`/auditar-pedagogia`). Responde a "¿funciona?", no a "¿es verdad?" ni

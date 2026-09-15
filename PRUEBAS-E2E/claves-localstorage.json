@@ -2,9 +2,7 @@
   "_porQue": "ADR-034. Ninguna compuerta comparaba lo que los manuales prescriben contra lo que el codigo hace. Este archivo es esa comparacion, hecha maquina.",
   "_comoFunciona": "codigo.spec.js extrae las claves reales del motor y falla si: (a) el codigo usa una clave no declarada; (b) una clave 'implementada' no aparece en el codigo — el documento miente; (c) una clave 'planeada' si aparece — hay que promoverla y documentarla.",
   "_ojo": "Las lineas comparten dominio (maximoaluna-blip.github.io) y por tanto localStorage: no hay frontera entre lineas. Una clave sin apellido de linea es legible por las otras tres y por las dos apps.",
-
   "linea": "Desarrollo Institucional",
-
   "claves": [
     {
       "clave": "courseProgress_<courseId>",
@@ -41,14 +39,6 @@
       "que": "Catalogo de buenas practicas del Curso 6, espejado en localStorage por recoverProgress para que otros cursos lo lean cross-device. Es la unica funcionalidad propia de esta linea en el motor.",
       "alcance": "cross-course dentro de la linea",
       "nota": "Se escribe con clave dinamica (el catalogId), no con un literal, asi que el extractor de claves no la ve como patron fijo. Declarada aqui para que quede documentada; revisar en la Fase 1 si conviene prefijarla para no colisionar con otras lineas."
-    },
-    {
-      "clave": "competencyProfile",
-      "patron": "competencyProfile",
-      "estado": "deudaFase1",
-      "que": "Perfil de competencias del adulto que escribe el Curso 4 de Politica de Adultos. Esta linea no lo produce ni lo usa.",
-      "alcance": "ajena a esta linea",
-      "nota": "Presente en la copia del nucleo compartido, dentro de getCompetencyProfile. Inalcanzable: Desarrollo Institucional no tiene ningun curso con self-assessment ni plan-builder (0 de 6), asi que el guard de initPlanBuilders corta antes. El CREAR-CURSO.md de esta linea aun la menciona como 'la clave global acordada' — herencia de la copia. Sale cuando la Fase 1 mueva el bloque de autodiagnostico del nucleo a la extension de Politica de Adultos."
     }
   ]
 }
