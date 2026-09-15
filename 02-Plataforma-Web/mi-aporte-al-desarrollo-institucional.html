@@ -1426,9 +1426,7 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <p>Antes de definir metas necesitas ver con claridad tu catálogo. El sistema cargó automáticamente lo que respondiste en el Curso 5. Si todavía no hiciste el Curso 5, te aviso ahora — vuelve a hacerlo y regresa, porque sin catálogo este curso no funciona en su versión interactiva.</p>
 
-                <div class="catalog-display" id="cd-catalogo-buenas-practicas-grupo" data-catalog-id="catalogo-buenas-practicas-grupo" data-mode="full">
-                <p class="catalog-display-loading">Cargando tu catálogo guardado…</p>
-            </div>
+                <p></p>
 
                 <h3>🧭 Cómo se traduce tu catálogo en prioridades</h3>
 
@@ -1445,9 +1443,7 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <p>También cargué el principio que elegiste como brújula personal en el Curso 2. Lo vamos a usar como criterio cuando tengas que decidir el orden de tus metas — porque cuando haya empate, ese principio decide.</p>
 
-                <div class="brujula-display" data-source-course="pndi-marco-y-principios" data-source-module="6">
-                <p class="brujula-display-loading">Cargando tu brújula del Curso 2…</p>
-            </div>
+                <p></p>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
@@ -1718,14 +1714,7 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <h3>🛠️ Tu plan-builder</h3>
 
-                <div class="goal-planner" id="gp-plan-personal-di" data-plan-id="plan-personal-di" data-max-adopted="5" data-source-catalog="catalogo-buenas-practicas-grupo">
-                <p class="gp-intro">Lee tu catálogo del Curso 5 y tu brújula del Curso 2; ordena los 8 ámbitos por prioridad y precarga la tipología de meta según el estado de cada uno.</p>
-                <div class="gp-slots" id="gp-slots-plan-personal-di"></div>
-                <div class="goal-planner-actions">
-                    <button type="button" class="btn-primary" onclick="saveGoalPlanner('plan-personal-di')">💾 Guardar mi plan</button>
-                </div>
-                <div id="gp-status-plan-personal-di" class="gp-status hidden"></div>
-            </div>
+                <p></p>
 
                 <div class="info-box"><strong>💡 Recomendación:</strong> si te cuesta elegir entre dos metas, <strong>usa tu brújula personal del Curso 2</strong> como desempate. El principio que elegiste decide. Por ejemplo: si tu brújula es <em>“Participación Juvenil”</em>, priorizá metas que involucren a los chicos en la decisión (como CR-fort SiScout con la patrulla, o C-fort comunicación con familias).</div>
 
@@ -1789,17 +1778,13 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <p>En el Curso 2 elegiste un principio del DI como tu brújula personal. Ahora ese principio toma rol de criterio: cuando tengas un dilema entre dos metas, o entre una meta y otra prioridad del grupo, ese principio decide.</p>
 
-                <div class="brujula-action" data-source-course="pndi-marco-y-principios" data-source-module="6">
-                <p class="brujula-action-loading">Analizando tu brújula…</p>
-            </div>
+                <p></p>
 
                 <h3>🎒 Cursos del Nivel 2 sugeridos para ti</h3>
 
                 <p>El Nivel 2 de esta línea tiene 8 cursos, uno por ámbito de gestión. Según los ámbitos donde tu grupo tiene mayor brecha (NO) o mayor oportunidad de fortalecer (PARCIAL) en el catálogo del Curso 5, te recomiendo estos 2-3 para empezar (cuando estén publicados):</p>
 
-                <div class="courses-suggestion" data-catalog-id="catalogo-buenas-practicas-grupo">
-                <p class="courses-suggestion-loading">Sugiriendo cursos del Nivel 2 según tu catálogo…</p>
-            </div>
+                <p></p>
 
                 <div class="info-box"><strong>📅 Disclaimer:</strong> los Cursos 7-14 del Nivel 2 están actualmente en construcción. Esta sugerencia te orienta para cuando estén disponibles. Por ahora, los materiales fuente (PNDI 2017, Plan Regional 2022-2025, Manual de Estímulos, etc.) están en <a href="https://scout.org.co/biblioteca" target="_blank" rel="noopener">scout.org.co/biblioteca</a>.</div>
 
@@ -1859,11 +1844,7 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <h3>📜 Generá tu PDF firmable</h3>
 
-                <div class="pdf-generator">
-                <p class="pdf-generator-intro">Cuando tu plan esté completo, generá el PDF imprimible con todas las piezas: catálogo · brújula · 5 metas · cursos sugeridos · espacio de firma.</p>
-                <button type="button" class="btn-primary" onclick="generatePlanPDF('plan-personal-di')">📄 Descargar mi plan en PDF</button>
-                <p class="pdf-generator-help">Se abre en una pestaña nueva — usá "Guardar como PDF" de tu navegador.</p>
-            </div>
+                <p></p>
 
                 <h3>🤝 Compartir con tu consejo</h3>
 
@@ -2153,78 +2134,11 @@ function loadProgress() {
     }
 }
 
-function calculateAssessment(assessmentId) {
-    var data = selfAssessments[assessmentId];
-    var container = document.getElementById('sa-' + assessmentId);
-    if (!container) return;
-    var blocks = container.querySelectorAll('.competence-block');
-    if (!data || !data.grades || Object.keys(data.grades).length < blocks.length) {
-        showNotification('⚠️ Te falta marcar el grado en alguna competencia. Revisa que las hayas calificado todas.', 'warning');
-        return;
-    }
-    // Build entries with name + grade for ranking
-    var entries = [];
-    blocks.forEach(function (b) {
-        var compId = b.getAttribute('data-competence');
-        var compName = b.querySelector('.competence-name')?.textContent.trim() || compId;
-        var grade = data.grades[compId];
-        entries.push({ id: compId, name: compName, grade: grade });
-    });
-    entries.sort(function (a, b) { return b.grade - a.grade; });
-    var topN = Math.min(3, entries.length);
-    var bottomN = Math.min(3, entries.length);
-    var strengths = entries.slice(0, topN);
-    var opportunities = entries.slice(-bottomN).reverse();
-    // Save final result
-    data.strengths = strengths.map(function (e) { return e.id; });
-    data.opportunities = opportunities.map(function (e) { return e.id; });
-    data.completedAt = new Date().toISOString();
-    saveProgress();
-    // Save to global key for cross-course consumption
-    // Por guardarLocal, no en un catch vacio (AUDITORIA.md check E-bis): si el
-    // almacenamiento falla, el alumno pierde su trabajo sin ningun aviso.
-    guardarLocal('competencyProfile', JSON.stringify({
-            grades: data.grades,
-            strengths: data.strengths,
-            opportunities: data.opportunities,
-            completedAt: data.completedAt,
-            sourceCourse: COURSE_CONFIG.courseId,
-            scaleVersion: COMPETENCY_SCALE_VERSION
-        }));
-    // Sincronizacion en segundo plano al backend (persistencia hibrida)
-    if (userProfile && userProfile.email && typeof sendToGoogleSheets === 'function') {
-        sendToGoogleSheets({
-            action: 'assessment',
-            email: userProfile.email,
-            name: userProfile.fullName,
-            course: COURSE_CONFIG.courseId,
-            assessmentId: assessmentId,
-            grades: data.grades
-        });
-    }
-    // Render result
-    var avgGrade = (entries.reduce(function (s, e) { return s + e.grade; }, 0) / entries.length).toFixed(1);
-    var resultEl = document.getElementById('sa-result-' + assessmentId);
-    if (resultEl) {
-        resultEl.innerHTML =
-            '<h3>📊 Tu perfil de competencias</h3>' +
-            '<p style="text-align:center;color:#555;margin-bottom:8px;">Grado promedio: <strong style="color:#622599;font-size:1.2em;">' + avgGrade + ' / 4</strong></p>' +
-            '<div class="profile-summary">' +
-                '<div class="profile-strengths"><h4>💪 Tus fortalezas</h4><ul>' +
-                    strengths.map(function (e) { return '<li><strong>' + e.name + '</strong> — Grado ' + e.grade + '</li>'; }).join('') +
-                '</ul></div>' +
-                '<div class="profile-opportunities"><h4>🌱 Tus áreas de oportunidad</h4><ul>' +
-                    opportunities.map(function (e) { return '<li><strong>' + e.name + '</strong> — Grado ' + e.grade + '</li>'; }).join('') +
-                '</ul></div>' +
-            '</div>' +
-            '<div class="profile-recommendation">' +
-                '<strong>💡 Recomendación:</strong> tus áreas de oportunidad son las que conviene priorizar en tu <em>Plan Personal de Desarrollo</em>. Cuando tomes el <strong>Curso 4 — Tu Plan Personal</strong>, este perfil quedará pre-cargado para sugerirte por dónde empezar.' +
-            '</div>';
-        resultEl.classList.remove('hidden');
-        resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-    showNotification('✅ Perfil calculado y guardado');
-}
+// calculateAssessment eliminada (14-sep-2026, ADR-034 Fase 2): renderizaba el
+// perfil de competencias del adulto con grados de dominio. Desarrollo Institucional
+// no tiene ningun curso con self-assessment ni plan-builder (0 de 6) y la funcion no
+// se invocaba: codigo muerto heredado al copiar el motor de Politica de Adultos.
+// Sus cadenas viajaban igualmente dentro de los 6 HTML compilados.
 
 function loadProfileIntoPlan(builderId) {
     var profile = getCompetencyProfile();

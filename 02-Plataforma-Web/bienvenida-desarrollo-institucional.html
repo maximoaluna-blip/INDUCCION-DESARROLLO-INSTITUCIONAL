@@ -2126,78 +2126,11 @@ function loadProgress() {
     }
 }
 
-function calculateAssessment(assessmentId) {
-    var data = selfAssessments[assessmentId];
-    var container = document.getElementById('sa-' + assessmentId);
-    if (!container) return;
-    var blocks = container.querySelectorAll('.competence-block');
-    if (!data || !data.grades || Object.keys(data.grades).length < blocks.length) {
-        showNotification('⚠️ Te falta marcar el grado en alguna competencia. Revisa que las hayas calificado todas.', 'warning');
-        return;
-    }
-    // Build entries with name + grade for ranking
-    var entries = [];
-    blocks.forEach(function (b) {
-        var compId = b.getAttribute('data-competence');
-        var compName = b.querySelector('.competence-name')?.textContent.trim() || compId;
-        var grade = data.grades[compId];
-        entries.push({ id: compId, name: compName, grade: grade });
-    });
-    entries.sort(function (a, b) { return b.grade - a.grade; });
-    var topN = Math.min(3, entries.length);
-    var bottomN = Math.min(3, entries.length);
-    var strengths = entries.slice(0, topN);
-    var opportunities = entries.slice(-bottomN).reverse();
-    // Save final result
-    data.strengths = strengths.map(function (e) { return e.id; });
-    data.opportunities = opportunities.map(function (e) { return e.id; });
-    data.completedAt = new Date().toISOString();
-    saveProgress();
-    // Save to global key for cross-course consumption
-    // Por guardarLocal, no en un catch vacio (AUDITORIA.md check E-bis): si el
-    // almacenamiento falla, el alumno pierde su trabajo sin ningun aviso.
-    guardarLocal('competencyProfile', JSON.stringify({
-            grades: data.grades,
-            strengths: data.strengths,
-            opportunities: data.opportunities,
-            completedAt: data.completedAt,
-            sourceCourse: COURSE_CONFIG.courseId,
-            scaleVersion: COMPETENCY_SCALE_VERSION
-        }));
-    // Sincronizacion en segundo plano al backend (persistencia hibrida)
-    if (userProfile && userProfile.email && typeof sendToGoogleSheets === 'function') {
-        sendToGoogleSheets({
-            action: 'assessment',
-            email: userProfile.email,
-            name: userProfile.fullName,
-            course: COURSE_CONFIG.courseId,
-            assessmentId: assessmentId,
-            grades: data.grades
-        });
-    }
-    // Render result
-    var avgGrade = (entries.reduce(function (s, e) { return s + e.grade; }, 0) / entries.length).toFixed(1);
-    var resultEl = document.getElementById('sa-result-' + assessmentId);
-    if (resultEl) {
-        resultEl.innerHTML =
-            '<h3>📊 Tu perfil de competencias</h3>' +
-            '<p style="text-align:center;color:#555;margin-bottom:8px;">Grado promedio: <strong style="color:#622599;font-size:1.2em;">' + avgGrade + ' / 4</strong></p>' +
-            '<div class="profile-summary">' +
-                '<div class="profile-strengths"><h4>💪 Tus fortalezas</h4><ul>' +
-                    strengths.map(function (e) { return '<li><strong>' + e.name + '</strong> — Grado ' + e.grade + '</li>'; }).join('') +
-                '</ul></div>' +
-                '<div class="profile-opportunities"><h4>🌱 Tus áreas de oportunidad</h4><ul>' +
-                    opportunities.map(function (e) { return '<li><strong>' + e.name + '</strong> — Grado ' + e.grade + '</li>'; }).join('') +
-                '</ul></div>' +
-            '</div>' +
-            '<div class="profile-recommendation">' +
-                '<strong>💡 Recomendación:</strong> tus áreas de oportunidad son las que conviene priorizar en tu <em>Plan Personal de Desarrollo</em>. Cuando tomes el <strong>Curso 4 — Tu Plan Personal</strong>, este perfil quedará pre-cargado para sugerirte por dónde empezar.' +
-            '</div>';
-        resultEl.classList.remove('hidden');
-        resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    }
-    showNotification('✅ Perfil calculado y guardado');
-}
+// calculateAssessment eliminada (14-sep-2026, ADR-034 Fase 2): renderizaba el
+// perfil de competencias del adulto con grados de dominio. Desarrollo Institucional
+// no tiene ningun curso con self-assessment ni plan-builder (0 de 6) y la funcion no
+// se invocaba: codigo muerto heredado al copiar el motor de Politica de Adultos.
+// Sus cadenas viajaban igualmente dentro de los 6 HTML compilados.
 
 function loadProfileIntoPlan(builderId) {
     var profile = getCompetencyProfile();

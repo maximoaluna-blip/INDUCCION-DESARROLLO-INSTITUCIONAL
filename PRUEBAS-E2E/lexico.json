@@ -1,0 +1,32 @@
+{
+  "_porQue": "ADR-034. El motor se propaga por copia entre lineas y el vocabulario viaja con el. Esta linea heredo de Politica de Adultos todo el componente de autodiagnostico —con sus 'grados de dominio'— sin usarlo nunca: 0 de 6 cursos. Se elimino el 14-sep-2026. Esta lista impide que vuelva a entrar vocabulario de un plano ajeno.",
+  "_comoFunciona": "codigo.spec.js extrae las cadenas de texto VISIBLES del motor de linea y del generador (ignorando comentarios) y falla si alguna casa un patron prohibido. NO barre la prosa de los cursos: eso lo juzga el auditor doctrinal, que sabe distinguir acepciones. Ver GLOSARIO-ASC.md seccion E-bis.",
+
+  "linea": "Desarrollo Institucional",
+  "plano": "adulto / institucional",
+
+  "prohibido": [
+    {
+      "patron": "areas?\\s+de\\s+crecimiento",
+      "porQue": "Las 6 areas de crecimiento (Corporalidad, Creatividad, Caracter, Afectividad, Sociabilidad, Espiritualidad) son del plano del JOVEN — Modelo de Aplicacion PNPJ, Cap. 6.1 p. 29. Esta linea habla de las 6 areas ESTRATEGICAS de Desarrollo Institucional (Gobernanza, Calidad, Crecimiento, Comunicaciones, Alianzas, Riesgos), que son otra cosa. 'Area' es uno de los terminos de doble plano del proyecto.",
+      "enSuLugar": "areas estrategicas de Desarrollo Institucional"
+    },
+    {
+      "patron": "competencias?\\s+(terminales?|intermedias?|educativas?)",
+      "porQue": "Las competencias terminales e intermedias son del plano del JOVEN, dentro de un area de crecimiento. En una linea para adultos no aplican.",
+      "enSuLugar": "competencias esenciales o especificas, si hablas del adulto"
+    },
+    {
+      "patron": "\\bgrado(s)?\\s+de\\s+dominio\\b",
+      "porQue": "Pertenece al modelo de competencias del adulto (Diccionario de Competencias, ASC ago-2020), que esta linea NO trabaja: no tiene ningun curso con autodiagnostico. Si aparece en una etiqueta del motor, es codigo copiado de Politica de Adultos que volvio a colarse.",
+      "enSuLugar": "nada — esta linea no evalua competencias por grados"
+    },
+    {
+      "patron": "competencyProfile",
+      "porQue": "Clave del perfil de competencias del adulto, que escribe el Curso 4 de Politica de Adultos. Esta linea no lo produce ni lo necesita. Las lineas comparten dominio y por tanto localStorage: leerla seria consumir datos de otra linea.",
+      "enSuLugar": "nada — si algun dia DI necesita un perfil, lleva clave propia declarada en CREAR-CURSO.md"
+    }
+  ],
+
+  "_estado": "Verde desde la limpieza del 14-sep-2026. No hay excepciones declaradas: a diferencia de Programa de Jovenes, aqui el bloque de autodiagnostico salio entero del motor de linea y del generador."
+}
