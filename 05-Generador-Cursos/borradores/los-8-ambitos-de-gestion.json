@@ -9,7 +9,7 @@
   "level": 1,
   "levelName": "Fundamentación",
   "order": 4,
-  "totalContentModules": 6,
+  "totalContentModules": 5,
   "modules": [
     {
       "id": 1,
@@ -70,14 +70,54 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🏛️ 1. Gobernanza", "description": "Cómo se toman las decisiones, quién decide qué, cómo se documentan.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
-            { "title": "🗂️ 2. Administración", "description": "Activos, RR.HH. del grupo, obligaciones legales, servicios generales. La administración interna.", "color": "#e3f2fd", "borderColor": "#1565c0" },
-            { "title": "💰 3. Gestión de Recursos Económicos", "description": "De dónde viene la plata, cómo se gestiona, qué proyectos se financian, márgenes y sostenibilidad.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "📣 4. Comunicaciones y Relaciones Interinstitucionales", "description": "Cómo se comunica el grupo internamente, con su comunidad, con la prensa, con otras organizaciones.", "color": "#fff3e0", "borderColor": "#ff9800" },
-            { "title": "🌐 5. Relaciones Internacionales", "description": "Vínculo con OMMS, con OSN de otros países, con multilaterales (ONU, UNESCO, UNICEF).", "color": "#e1f5fe", "borderColor": "#03a9f4" },
-            { "title": "📈 6. Crecimiento y Sistema de Información", "description": "Cómo crece la membresía, cómo se registra y se hace seguimiento, las bases de datos del grupo.", "color": "#fff9c4", "borderColor": "#fbc02d" },
-            { "title": "🛡️ 7. Gestión del Riesgo", "description": "Ambiente seguro, protección financiera, actividades seguras. Lo que evita que las cosas salgan mal.", "color": "#ffebee", "borderColor": "#f44336" },
-            { "title": "🏅 8. Control y Reconocimiento", "description": "Vigilancia, fiscalización, estímulos y reconocimientos. Lo que premia lo bueno y previene lo malo.", "color": "#fff8e1", "borderColor": "#ffa000" }
+            {
+              "title": "🏛️ 1. Gobernanza",
+              "description": "Cómo se toman las decisiones, quién decide qué, cómo se documentan.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "🗂️ 2. Administración",
+              "description": "Activos, RR.HH. del grupo, obligaciones legales, servicios generales. La administración interna.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "💰 3. Gestión de Recursos Económicos",
+              "description": "De dónde viene la plata, cómo se gestiona, qué proyectos se financian, márgenes y sostenibilidad.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "📣 4. Comunicaciones y Relaciones Interinstitucionales",
+              "description": "Cómo se comunica el grupo internamente, con su comunidad, con la prensa, con otras organizaciones.",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            },
+            {
+              "title": "🌐 5. Relaciones Internacionales",
+              "description": "Vínculo con OMMS, con OSN de otros países, con multilaterales (ONU, UNESCO, UNICEF).",
+              "color": "#e1f5fe",
+              "borderColor": "#03a9f4"
+            },
+            {
+              "title": "📈 6. Crecimiento y Sistema de Información",
+              "description": "Cómo crece la membresía, cómo se registra y se hace seguimiento, las bases de datos del grupo.",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "🛡️ 7. Gestión del Riesgo",
+              "description": "Ambiente seguro, protección financiera, actividades seguras. Lo que evita que las cosas salgan mal.",
+              "color": "#ffebee",
+              "borderColor": "#f44336"
+            },
+            {
+              "title": "🏅 8. Control y Reconocimiento",
+              "description": "Vigilancia, fiscalización, estímulos y reconocimientos. Lo que premia lo bueno y previene lo malo.",
+              "color": "#fff8e1",
+              "borderColor": "#ffa000"
+            }
           ]
         },
         {
@@ -141,7 +181,10 @@
         {
           "type": "timeline",
           "items": [
-            { "title": "🏛️ Caso Grupo 'Catatumbo'", "description": "El consejo de grupo decide grabar todas las sesiones (con consentimiento), generar acta resumida al cierre, firmarla todos antes de salir y publicarla la semana siguiente en la carpeta compartida. Tres años después, cuando llega un padre a reclamar por una decisión vieja, en 4 minutos sacan la grabación y el acta. La reclamación se atiende sin tensión: hay evidencia y trazabilidad. <strong>Gobernanza sana.</strong>" }
+            {
+              "title": "🏛️ Caso Grupo 'Catatumbo'",
+              "description": "El consejo de grupo decide grabar todas las sesiones (con consentimiento), generar acta resumida al cierre, firmarla todos antes de salir y publicarla la semana siguiente en la carpeta compartida. Tres años después, cuando llega un padre a reclamar por una decisión vieja, en 4 minutos sacan la grabación y el acta. La reclamación se atiende sin tensión: hay evidencia y trazabilidad. <strong>Gobernanza sana.</strong>"
+            }
           ]
         },
         {
@@ -156,7 +199,10 @@
         {
           "type": "timeline",
           "items": [
-            { "title": "🗂️ Caso Grupo 'Coraje'", "description": "El intendente hace inventario de carpas, equipos, libros y herramientas cada 6 meses, antes y después de la temporada de campamentos. Cuando un equipo se daña, queda registrado quién lo reportó y cuándo. Cuando llega un dirigente nuevo, no tiene que adivinar qué tienen — abre la planilla. <strong>Administración sana.</strong>" }
+            {
+              "title": "🗂️ Caso Grupo 'Coraje'",
+              "description": "El intendente hace inventario de carpas, equipos, libros y herramientas cada 6 meses, antes y después de la temporada de campamentos. Cuando un equipo se daña, queda registrado quién lo reportó y cuándo. Cuando llega un dirigente nuevo, no tiene que adivinar qué tienen — abre la planilla. <strong>Administración sana.</strong>"
+            }
           ]
         },
         {
@@ -171,7 +217,10 @@
         {
           "type": "timeline",
           "items": [
-            { "title": "💰 Caso Grupo 'Sumapaz'", "description": "Llegan a fin de año con margen de 22 % sobre ingresos. ¿Por qué? Porque diversificaron: cuota mensual familiar, kermés trimestral con el barrio, servicio de catering en eventos comunitarios (una vez al mes), una empresa local que aporta como aliado anual, y postulación a un fondo municipal. Cuando un padre pierde el trabajo y no puede pagar la cuota, el grupo le da beca con cargo a esa reserva — sin que el resto del año se afecte. <strong>Recursos Económicos sanos.</strong>" }
+            {
+              "title": "💰 Caso Grupo 'Sumapaz'",
+              "description": "Llegan a fin de año con margen de 22 % sobre ingresos. ¿Por qué? Porque diversificaron: cuota mensual familiar, kermés trimestral con el barrio, servicio de catering en eventos comunitarios (una vez al mes), una empresa local que aporta como aliado anual, y postulación a un fondo municipal. Cuando un padre pierde el trabajo y no puede pagar la cuota, el grupo le da beca con cargo a esa reserva — sin que el resto del año se afecte. <strong>Recursos Económicos sanos.</strong>"
+            }
           ]
         },
         {
@@ -233,7 +282,10 @@
         {
           "type": "timeline",
           "items": [
-            { "title": "📣 Caso Grupo 'Iguaque'", "description": "Cuando hubo un accidente menor en un campamento, el jefe de grupo escribió un comunicado a las familias en 30 minutos: qué pasó, qué medidas se tomaron, qué van a hacer para que no se repita. Esa misma noche lo publicaron en el grupo de WhatsApp y por correo. Tres familias agradecieron la transparencia. Una preguntó cómo apoyar. <strong>Cero familias se retiraron</strong>. La diferencia entre rumor y comunicación oportuna es enorme. <strong>Comunicaciones sanas.</strong>" }
+            {
+              "title": "📣 Caso Grupo 'Iguaque'",
+              "description": "Cuando hubo un accidente menor en un campamento, el jefe de grupo escribió un comunicado a las familias en 30 minutos: qué pasó, qué medidas se tomaron, qué van a hacer para que no se repita. Esa misma noche lo publicaron en el grupo de WhatsApp y por correo. Tres familias agradecieron la transparencia. Una preguntó cómo apoyar. <strong>Cero familias se retiraron</strong>. La diferencia entre rumor y comunicación oportuna es enorme. <strong>Comunicaciones sanas.</strong>"
+            }
           ]
         },
         {
@@ -248,7 +300,10 @@
         {
           "type": "timeline",
           "items": [
-            { "title": "🌐 Caso Grupo 'Bachué'", "description": "Postularon su proyecto de huerta comunitaria al programa global 'Champions for Nature' de WOSM. Lo presentaron en inglés con apoyo de la jefa de tropa que es traductora. Los aceptaron, recibieron un kit de implementación, conectaron con un grupo en Filipinas que hace algo parecido. El proyecto creció. Las chicas del clan publicaron un video del intercambio. <strong>El escultismo es global, pero solo si te conectas. Relaciones Internacionales operando.</strong>" }
+            {
+              "title": "🌐 Caso Grupo 'Bachué'",
+              "description": "Postularon su proyecto de huerta comunitaria al programa global 'Champions for Nature' de WOSM. Lo presentaron en inglés con apoyo de la jefa de tropa que es traductora. Los aceptaron, recibieron un kit de implementación, conectaron con un grupo en Filipinas que hace algo parecido. El proyecto creció. Las chicas del clan publicaron un video del intercambio. <strong>El escultismo es global, pero solo si te conectas. Relaciones Internacionales operando.</strong>"
+            }
           ]
         },
         {
@@ -263,7 +318,10 @@
         {
           "type": "timeline",
           "items": [
-            { "title": "📈 Caso Grupo 'Pisamadores'", "description": "Hace 4 años, el grupo tenía 28 chicos y 6 dirigentes. La comisionada regional de crecimiento les propuso un plan trienal: campaña de barrio una vez al año, jornada de puertas abiertas, mejorar el seguimiento de los que se inscriben pero no vuelven. Llevaron registro mes a mes en una hoja simple. Tres años después tienen 65 chicos y 11 dirigentes. Crecieron sostenidamente. <strong>Crecimiento medido y planeado.</strong>" }
+            {
+              "title": "📈 Caso Grupo 'Pisamadores'",
+              "description": "Hace 4 años, el grupo tenía 28 chicos y 6 dirigentes. La comisionada regional de crecimiento les propuso un plan trienal: campaña de barrio una vez al año, jornada de puertas abiertas, mejorar el seguimiento de los que se inscriben pero no vuelven. Llevaron registro mes a mes en una hoja simple. Tres años después tienen 65 chicos y 11 dirigentes. Crecieron sostenidamente. <strong>Crecimiento medido y planeado.</strong>"
+            }
           ]
         },
         {
@@ -325,7 +383,10 @@
         {
           "type": "timeline",
           "items": [
-            { "title": "🛡️ Caso Grupo 'Llanos'", "description": "Antes de cada salida hacen un protocolo de 15 minutos: lista de participantes (con padres firmando autorización), hoja de salud por participante, contactos de emergencia, ruta y horarios, protocolo de transporte (¿quién maneja, qué vehículo, hay seguro?), kit de primeros auxilios, un adulto certificado en primeros auxilios. Cuando hubo un esguince en el cerro, lo manejaron en 8 minutos. La región los citó como modelo. <strong>Gestión del Riesgo operando.</strong>" }
+            {
+              "title": "🛡️ Caso Grupo 'Llanos'",
+              "description": "Antes de cada salida hacen un protocolo de 15 minutos: lista de participantes (con padres firmando autorización), hoja de salud por participante, contactos de emergencia, ruta y horarios, protocolo de transporte (¿quién maneja, qué vehículo, hay seguro?), kit de primeros auxilios, un adulto certificado en primeros auxilios. Cuando hubo un esguince en el cerro, lo manejaron en 8 minutos. La región los citó como modelo. <strong>Gestión del Riesgo operando.</strong>"
+            }
           ]
         },
         {
@@ -340,7 +401,10 @@
         {
           "type": "timeline",
           "items": [
-            { "title": "🏅 Caso Grupo 'Tatamá'", "description": "Cada año, en la asamblea de grupo, dedican 20 minutos a reconocimientos formales: el dirigente del año (elegido por las familias), el chico con mayor progresión personal por rama, el aporte voluntario del año (un papá o mamá que se destacó), un pin para los dirigentes que cumplen 5, 10, 15 y 20 años. Es un momento sentido. Los reconocimientos no son protocolarios — están bien argumentados. El año siguiente, varios más quieren ese pin. <strong>Reconocimiento que motiva.</strong>" }
+            {
+              "title": "🏅 Caso Grupo 'Tatamá'",
+              "description": "Cada año, en la asamblea de grupo, dedican 20 minutos a reconocimientos formales: el dirigente del año (elegido por las familias), el chico con mayor progresión personal por rama, el aporte voluntario del año (un papá o mamá que se destacó), un pin para los dirigentes que cumplen 5, 10, 15 y 20 años. Es un momento sentido. Los reconocimientos no son protocolarios — están bien argumentados. El año siguiente, varios más quieren ese pin. <strong>Reconocimiento que motiva.</strong>"
+            }
           ]
         },
         {
@@ -415,8 +479,18 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "📜 8 ámbitos PNDI 2017", "description": "Visión <strong>conceptual</strong> del Desarrollo Institucional. Cubre TODO lo institucional del Movimiento. Es marco doctrinal.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
-            { "title": "🛠️ 5 subcategorías DNDI hoy", "description": "Organización <strong>operativa actual</strong> de la Dirección Nacional. Refleja las prioridades del cuatrienio. Es marco práctico de trabajo.", "color": "#e8f5e9", "borderColor": "#4caf50" }
+            {
+              "title": "📜 8 ámbitos PNDI 2017",
+              "description": "Visión <strong>conceptual</strong> del Desarrollo Institucional. Cubre TODO lo institucional del Movimiento. Es marco doctrinal.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "🛠️ 5 subcategorías DNDI hoy",
+              "description": "Organización <strong>operativa actual</strong> de la Dirección Nacional. Refleja las prioridades del cuatrienio. Es marco práctico de trabajo.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            }
           ]
         },
         {
@@ -467,12 +541,42 @@
     }
   ],
   "achievements": [
-    { "id": "achievement-1", "name": "Veo el mapa completo", "emoji": "🗺️", "unlockOnModule": 2 },
-    { "id": "achievement-2", "name": "Domino los ámbitos internos", "emoji": "🏛️", "unlockOnModule": 3 },
-    { "id": "achievement-3", "name": "Domino los ámbitos hacia afuera", "emoji": "🌐", "unlockOnModule": 4 },
-    { "id": "achievement-4", "name": "Domino los ámbitos protectores", "emoji": "🛡️", "unlockOnModule": 5 },
-    { "id": "achievement-5", "name": "Mis ámbitos prioritarios", "emoji": "🎯", "unlockOnModule": 6 },
-    { "id": "achievement-final", "name": "Ámbitos a la vista", "emoji": "🧭", "unlockOnModule": -1 }
+    {
+      "id": "achievement-1",
+      "name": "Veo el mapa completo",
+      "emoji": "🗺️",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Domino los ámbitos internos",
+      "emoji": "🏛️",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Domino los ámbitos hacia afuera",
+      "emoji": "🌐",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Domino los ámbitos protectores",
+      "emoji": "🛡️",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Mis ámbitos prioritarios",
+      "emoji": "🎯",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Ámbitos a la vista",
+      "emoji": "🧭",
+      "unlockOnModule": -1
+    }
   ],
   "certificate": {
     "courseName": "LOS 8 ÁMBITOS DE GESTIÓN",

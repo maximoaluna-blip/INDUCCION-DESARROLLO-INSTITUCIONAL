@@ -9,7 +9,7 @@
   "level": 1,
   "levelName": "Fundamentación",
   "order": 1,
-  "totalContentModules": 6,
+  "totalContentModules": 5,
   "modules": [
     {
       "id": 1,
@@ -78,12 +78,42 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "📝 El secretario del consejo", "description": "Toma acta de cada reunión y la archiva. <strong>Eso es gobernanza.</strong>", "color": "#f3e5f5", "borderColor": "#9c27b0" },
-            { "title": "💰 El tesorero", "description": "Abre la cuenta del grupo en el banco y firma con doble registro. <strong>Eso es administración.</strong>", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🎟️ La mamá del bingo", "description": "Organiza la rifa para financiar el viaje de la tropa. <strong>Eso es gestión de recursos económicos.</strong>", "color": "#fff3e0", "borderColor": "#ff9800" },
-            { "title": "⛺ El intendente", "description": "Cuenta las carpas antes y después del campamento. <strong>Eso es manejo de activos.</strong>", "color": "#e3f2fd", "borderColor": "#2196f3" },
-            { "title": "🤝 El consejero", "description": "Media un conflicto entre dos dirigentes del grupo. <strong>Eso son relaciones humanas.</strong>", "color": "#fce4ec", "borderColor": "#e91e63" },
-            { "title": "🚨 El jefe del campamento", "description": "Reporta el accidente del scout y activa el protocolo. <strong>Eso es gestión del riesgo.</strong>", "color": "#fff9c4", "borderColor": "#fbc02d" }
+            {
+              "title": "📝 El secretario del consejo",
+              "description": "Toma acta de cada reunión y la archiva. <strong>Eso es gobernanza.</strong>",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "💰 El tesorero",
+              "description": "Abre la cuenta del grupo en el banco y firma con doble registro. <strong>Eso es administración.</strong>",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🎟️ La mamá del bingo",
+              "description": "Organiza la rifa para financiar el viaje de la tropa. <strong>Eso es gestión de recursos económicos.</strong>",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            },
+            {
+              "title": "⛺ El intendente",
+              "description": "Cuenta las carpas antes y después del campamento. <strong>Eso es manejo de activos.</strong>",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "🤝 El consejero",
+              "description": "Media un conflicto entre dos dirigentes del grupo. <strong>Eso son relaciones humanas.</strong>",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "🚨 El jefe del campamento",
+              "description": "Reporta el accidente del scout y activa el protocolo. <strong>Eso es gestión del riesgo.</strong>",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            }
           ]
         },
         {
@@ -259,9 +289,24 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🏛️ Gobierno", "description": "<strong>Asambleas y Consejos.</strong> Deciden el rumbo. La Asamblea reúne a los miembros y aprueba lo grande; el Consejo conduce el día a día con autoridad delegada.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
-            { "title": "⚙️ Operación", "description": "<strong>Equipos de Jefatura.</strong> Ejecutan las decisiones. Llevan el plan a la realidad de las unidades, las salidas, las reuniones de dirigentes.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "👁️ Control", "description": "<strong>Cortes de Honor y Comisiones de Vigilancia y Control.</strong> Velan por la legalidad, la ética y el cumplimiento. Son el filtro que protege a la institución.", "color": "#fff9c4", "borderColor": "#fbc02d" }
+            {
+              "title": "🏛️ Gobierno",
+              "description": "<strong>Asambleas y Consejos.</strong> Deciden el rumbo. La Asamblea reúne a los miembros y aprueba lo grande; el Consejo conduce el día a día con autoridad delegada.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "⚙️ Operación",
+              "description": "<strong>Equipos de Jefatura.</strong> Ejecutan las decisiones. Llevan el plan a la realidad de las unidades, las salidas, las reuniones de dirigentes.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "👁️ Control",
+              "description": "<strong>Cortes de Honor y Comisiones de Vigilancia y Control.</strong> Velan por la legalidad, la ética y el cumplimiento. Son el filtro que protege a la institución.",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            }
           ]
         },
         {
@@ -358,9 +403,18 @@
         {
           "type": "timeline",
           "items": [
-            { "title": "Grupo A — Cuando el dinero se mezcla con el bolsillo personal", "description": "El tesorero llevaba la plata del grupo en su billetera, sin libro contable ni cuenta separada. Renunció en mitad del año por razones personales. El nuevo tesorero recibió un cuaderno con 14 anotaciones a mano. Tres familias dejaron de pagar la cuota porque “no se sabe a dónde va”. <strong>El campamento de fin de año se canceló.</strong>" },
-            { "title": "Grupo B — Cuando el campamento sale sin protocolo", "description": "Un dirigente se llevó a la tropa al cerro un domingo. Un scout se cayó. Sin lista de participantes, sin contactos de padres, sin permiso firmado. La emergencia se atendió, pero el grupo recibió una sanción de la región y el accidente se conoció en redes. <strong>Tres familias retiraron a sus hijos.</strong>" },
-            { "title": "Grupo C — Cuando el grupo se cuida", "description": "Hace acta de cada reunión, cuenta sus carpas antes y después, tiene tesorero y contador, pide permiso firmado de cada salida, capacita a sus dirigentes en A Salvo del Peligro. <strong>Lleva 23 años funcionando.</strong> Sus rovers de antes son hoy los padres de la nueva manada." }
+            {
+              "title": "Grupo A — Cuando el dinero se mezcla con el bolsillo personal",
+              "description": "El tesorero llevaba la plata del grupo en su billetera, sin libro contable ni cuenta separada. Renunció en mitad del año por razones personales. El nuevo tesorero recibió un cuaderno con 14 anotaciones a mano. Tres familias dejaron de pagar la cuota porque “no se sabe a dónde va”. <strong>El campamento de fin de año se canceló.</strong>"
+            },
+            {
+              "title": "Grupo B — Cuando el campamento sale sin protocolo",
+              "description": "Un dirigente se llevó a la tropa al cerro un domingo. Un scout se cayó. Sin lista de participantes, sin contactos de padres, sin permiso firmado. La emergencia se atendió, pero el grupo recibió una sanción de la región y el accidente se conoció en redes. <strong>Tres familias retiraron a sus hijos.</strong>"
+            },
+            {
+              "title": "Grupo C — Cuando el grupo se cuida",
+              "description": "Hace acta de cada reunión, cuenta sus carpas antes y después, tiene tesorero y contador, pide permiso firmado de cada salida, capacita a sus dirigentes en A Salvo del Peligro. <strong>Lleva 23 años funcionando.</strong> Sus rovers de antes son hoy los padres de la nueva manada."
+            }
           ]
         },
         {
@@ -496,11 +550,36 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "📜 Curso 2 — La Política PNDI", "description": "El marco doctrinal: 4 fundamentos, 7 principios, definiciones esenciales.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
-            { "title": "🏗️ Curso 3 — Niveles y Estructura", "description": "Los 5 niveles del Movimiento, los 3 órganos por nivel, el cuento de Todo el mundo–Alguien–Cualquiera–Nadie.", "color": "#e3f2fd", "borderColor": "#2196f3" },
-            { "title": "🧭 Curso 4 — Los 8 Ámbitos", "description": "Mapa panorámico de los 8 ámbitos de gestión. Te ubica frente a cualquier decisión cotidiana.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🌟 Curso 5 — Buenas Prácticas en Tu Grupo", "description": "Catálogo personal de buenas prácticas de tu grupo, recorriendo los 8 ámbitos con los 5 atributos de la PNDI 2017 Cap. 10.", "color": "#fff3e0", "borderColor": "#ff9800" },
-            { "title": "🗺️ Curso 6 — Mi Aporte al DI", "description": "Plan personal de aporte, listo para imprimir y compartir con tu consejo. Cierre del Nivel 1.", "color": "#fce4ec", "borderColor": "#e91e63" }
+            {
+              "title": "📜 Curso 2 — La Política PNDI",
+              "description": "El marco doctrinal: 4 fundamentos, 7 principios, definiciones esenciales.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "🏗️ Curso 3 — Niveles y Estructura",
+              "description": "Los 5 niveles del Movimiento, los 3 órganos por nivel, el cuento de Todo el mundo–Alguien–Cualquiera–Nadie.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "🧭 Curso 4 — Los 8 Ámbitos",
+              "description": "Mapa panorámico de los 8 ámbitos de gestión. Te ubica frente a cualquier decisión cotidiana.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🌟 Curso 5 — Buenas Prácticas en Tu Grupo",
+              "description": "Catálogo personal de buenas prácticas de tu grupo, recorriendo los 8 ámbitos con los 5 atributos de la PNDI 2017 Cap. 10.",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            },
+            {
+              "title": "🗺️ Curso 6 — Mi Aporte al DI",
+              "description": "Plan personal de aporte, listo para imprimir y compartir con tu consejo. Cierre del Nivel 1.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            }
           ]
         },
         {
@@ -542,11 +621,36 @@
     }
   ],
   "achievements": [
-    { "id": "achievement-1", "name": "DI está en todo", "emoji": "🏛️", "unlockOnModule": 2 },
-    { "id": "achievement-2", "name": "Mito-buster", "emoji": "🧨", "unlockOnModule": 3 },
-    { "id": "achievement-3", "name": "Conozco mi institución", "emoji": "🏛️", "unlockOnModule": 4 },
-    { "id": "achievement-4", "name": "Veo por qué importa", "emoji": "💡", "unlockOnModule": 5 },
-    { "id": "achievement-final", "name": "Constructor Institucional", "emoji": "🏗️", "unlockOnModule": -1 }
+    {
+      "id": "achievement-1",
+      "name": "DI está en todo",
+      "emoji": "🏛️",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Mito-buster",
+      "emoji": "🧨",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Conozco mi institución",
+      "emoji": "🏛️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Veo por qué importa",
+      "emoji": "💡",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-final",
+      "name": "Constructor Institucional",
+      "emoji": "🏗️",
+      "unlockOnModule": -1
+    }
   ],
   "certificate": {
     "courseName": "BIENVENIDA AL DESARROLLO INSTITUCIONAL",

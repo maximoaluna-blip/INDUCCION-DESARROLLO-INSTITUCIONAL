@@ -9,7 +9,7 @@
   "level": 1,
   "levelName": "Fundamentación",
   "order": 2,
-  "totalContentModules": 6,
+  "totalContentModules": 5,
   "modules": [
     {
       "id": 1,
@@ -73,9 +73,24 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "📜 Política", "description": "Da el <strong>porqué</strong>. Inspira y orienta. Pocas, estables, doctrinales.", "color": "#f3e5f5", "borderColor": "#9c27b0" },
-            { "title": "📘 Reglamento", "description": "Da el <strong>qué se hace y qué no</strong>. Operacional. Cambia más seguido.", "color": "#e3f2fd", "borderColor": "#2196f3" },
-            { "title": "🗓️ Plan", "description": "Da el <strong>cuándo y cuánto</strong>. Aterriza en el año o el cuatrienio.", "color": "#e8f5e9", "borderColor": "#4caf50" }
+            {
+              "title": "📜 Política",
+              "description": "Da el <strong>porqué</strong>. Inspira y orienta. Pocas, estables, doctrinales.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "📘 Reglamento",
+              "description": "Da el <strong>qué se hace y qué no</strong>. Operacional. Cambia más seguido.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "🗓️ Plan",
+              "description": "Da el <strong>cuándo y cuánto</strong>. Aterriza en el año o el cuatrienio.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            }
           ]
         },
         {
@@ -90,10 +105,30 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🔎 Identificar", "description": "Ver qué ámbitos de gestión están operando en mi grupo y cuáles están descuidados. <em>Ejemplo: “tenemos plan, tesorería y campamentos, pero nadie está pensando en crecimiento”.</em>", "color": "#f3e5f5", "borderColor": "#9c27b0" },
-            { "title": "🧱 Definir", "description": "Acordar cómo se hace cada cosa, por escrito. <em>Ejemplo: “el acta se firma antes de cerrar la reunión, no después”.</em>", "color": "#e3f2fd", "borderColor": "#2196f3" },
-            { "title": "🔗 Articular", "description": "Conectar lo que hacemos con el plan de la región, el nacional y el mundial. <em>Ejemplo: “nuestro campamento alinea con la prioridad 3 del Plan Regional 2022-2025”.</em>", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "✅ Cumplir", "description": "Hacer realmente lo que está acordado, no solo escribirlo. Este paso lo añade el curso — no aparece como palabra textual en la PNDI. <em>Ejemplo: “el libro de actas existe Y está al día con las últimas 6 reuniones”.</em>", "color": "#fff3e0", "borderColor": "#ff9800" }
+            {
+              "title": "🔎 Identificar",
+              "description": "Ver qué ámbitos de gestión están operando en mi grupo y cuáles están descuidados. <em>Ejemplo: “tenemos plan, tesorería y campamentos, pero nadie está pensando en crecimiento”.</em>",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "🧱 Definir",
+              "description": "Acordar cómo se hace cada cosa, por escrito. <em>Ejemplo: “el acta se firma antes de cerrar la reunión, no después”.</em>",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "🔗 Articular",
+              "description": "Conectar lo que hacemos con el plan de la región, el nacional y el mundial. <em>Ejemplo: “nuestro campamento alinea con la prioridad 3 del Plan Regional 2022-2025”.</em>",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "✅ Cumplir",
+              "description": "Hacer realmente lo que está acordado, no solo escribirlo. Este paso lo añade el curso — no aparece como palabra textual en la PNDI. <em>Ejemplo: “el libro de actas existe Y está al día con las últimas 6 reuniones”.</em>",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            }
           ]
         },
         {
@@ -161,8 +196,14 @@
         {
           "type": "timeline",
           "items": [
-            { "title": "✅ Grupo cumple", "description": "En el Grupo <em>“San Juan Bautista”</em>, el Consejo de Grupo discute durante 45 minutos si subir o no la cuota mensual. Hay tres posiciones distintas. Se vota. Pasa por 5 a 2. Queda en acta el resultado y los argumentos de los dos disidentes. Nadie sale con resentimiento." },
-            { "title": "❌ Grupo viola", "description": "En otro grupo, el jefe anuncia en WhatsApp que la cuota subió desde el lunes. No hubo consejo, no hubo votación. Dos meses después, tres familias se retiran y el tesorero descubre que no tiene cómo justificarles el cobro." }
+            {
+              "title": "✅ Grupo cumple",
+              "description": "En el Grupo <em>“San Juan Bautista”</em>, el Consejo de Grupo discute durante 45 minutos si subir o no la cuota mensual. Hay tres posiciones distintas. Se vota. Pasa por 5 a 2. Queda en acta el resultado y los argumentos de los dos disidentes. Nadie sale con resentimiento."
+            },
+            {
+              "title": "❌ Grupo viola",
+              "description": "En otro grupo, el jefe anuncia en WhatsApp que la cuota subió desde el lunes. No hubo consejo, no hubo votación. Dos meses después, tres familias se retiran y el tesorero descubre que no tiene cómo justificarles el cobro."
+            }
           ]
         },
         {
@@ -177,8 +218,14 @@
         {
           "type": "timeline",
           "items": [
-            { "title": "✅ Grupo cumple", "description": "El Grupo <em>“Cumbres”</em> nota que en el barrio crecieron las consultas sobre Safe from Harm. Anticipan, capacitan a los 12 dirigentes en A Salvo del Peligro y se vuelven el grupo de referencia para las familias preocupadas. Crecen 30 % en un año." },
-            { "title": "❌ Grupo viola", "description": "Otro grupo lleva 8 años haciendo el mismo campamento al mismo cerro. Cuando el municipio cambia la regulación de transporte escolar y exige seguro nuevo, el grupo no se entera. La región intercepta y suspende la salida 3 días antes. Pérdida de credibilidad." }
+            {
+              "title": "✅ Grupo cumple",
+              "description": "El Grupo <em>“Cumbres”</em> nota que en el barrio crecieron las consultas sobre Safe from Harm. Anticipan, capacitan a los 12 dirigentes en A Salvo del Peligro y se vuelven el grupo de referencia para las familias preocupadas. Crecen 30 % en un año."
+            },
+            {
+              "title": "❌ Grupo viola",
+              "description": "Otro grupo lleva 8 años haciendo el mismo campamento al mismo cerro. Cuando el municipio cambia la regulación de transporte escolar y exige seguro nuevo, el grupo no se entera. La región intercepta y suspende la salida 3 días antes. Pérdida de credibilidad."
+            }
           ]
         },
         {
@@ -193,8 +240,14 @@
         {
           "type": "timeline",
           "items": [
-            { "title": "✅ Grupo cumple", "description": "En el Grupo <em>“Río Claro”</em>, la jefa de tropa quiere hacer una salida a un río. Antes de proponerla en consejo, habla con el tesorero (¿alcanza el presupuesto?), con el intendente (¿hay carpas?), con el de A Salvo del Peligro (¿está el protocolo?), y con el secretario (¿en qué fecha cabe en el plan?). Llega al consejo con la salida ya integrada." },
-            { "title": "❌ Grupo viola", "description": "En otro grupo, cada rama hace lo suyo: la manada hace bingo para su campamento, la tropa hace bingo para el suyo, el clan hace rifa para el suyo. Las familias se cansan, los recursos se duplican y nadie sabe cuánta plata mueve el grupo en realidad." }
+            {
+              "title": "✅ Grupo cumple",
+              "description": "En el Grupo <em>“Río Claro”</em>, la jefa de tropa quiere hacer una salida a un río. Antes de proponerla en consejo, habla con el tesorero (¿alcanza el presupuesto?), con el intendente (¿hay carpas?), con el de A Salvo del Peligro (¿está el protocolo?), y con el secretario (¿en qué fecha cabe en el plan?). Llega al consejo con la salida ya integrada."
+            },
+            {
+              "title": "❌ Grupo viola",
+              "description": "En otro grupo, cada rama hace lo suyo: la manada hace bingo para su campamento, la tropa hace bingo para el suyo, el clan hace rifa para el suyo. Las familias se cansan, los recursos se duplican y nadie sabe cuánta plata mueve el grupo en realidad."
+            }
           ]
         },
         {
@@ -209,8 +262,14 @@
         {
           "type": "timeline",
           "items": [
-            { "title": "✅ Grupo cumple", "description": "Al cerrar el año, el Grupo <em>“Bosque”</em> no presenta solo cuántas actividades hizo. Presenta cuántos chicos avanzaron en su progresión, cuántas familias se sumaron y cuántas se retiraron, cuántos rovers están aún en el movimiento al cumplir 22, y qué dijeron las encuestas a padres. El consejo decide qué ajustar para el año siguiente." },
-            { "title": "❌ Grupo viola", "description": "Otro grupo presenta solo <em>“hicimos 24 actividades, 4 campamentos y 1 carrera”</em>. Cuántos chicos progresaron, cuántos abandonaron, qué aprendieron, qué cambió en sus vidas — no se sabe. El plan del año siguiente se hace adivinando." }
+            {
+              "title": "✅ Grupo cumple",
+              "description": "Al cerrar el año, el Grupo <em>“Bosque”</em> no presenta solo cuántas actividades hizo. Presenta cuántos chicos avanzaron en su progresión, cuántas familias se sumaron y cuántas se retiraron, cuántos rovers están aún en el movimiento al cumplir 22, y qué dijeron las encuestas a padres. El consejo decide qué ajustar para el año siguiente."
+            },
+            {
+              "title": "❌ Grupo viola",
+              "description": "Otro grupo presenta solo <em>“hicimos 24 actividades, 4 campamentos y 1 carrera”</em>. Cuántos chicos progresaron, cuántos abandonaron, qué aprendieron, qué cambió en sus vidas — no se sabe. El plan del año siguiente se hace adivinando."
+            }
           ]
         },
         {
@@ -457,9 +516,24 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🏠 Grupo", "description": "El nivel local. <strong>Entre 20 y 80 personas, como cifra aproximada.</strong> La política aterriza en lo concreto: actas, libro contable, asambleas anuales, plan de grupo. La intuición y la confianza personal pesan mucho.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🏘️ Región", "description": "El nivel intermedio. <strong>Varios grupos en un territorio.</strong> La política tiene que armonizar realidades distintas: un grupo grande con uno chico, uno urbano con uno rural. El Revisor Fiscal hace el control fiscal.", "color": "#e3f2fd", "borderColor": "#2196f3" },
-            { "title": "🏛️ Nación", "description": "El nivel doctrinal y estratégico. Donde se elaboran las políticas, se aprueba el Plan Estratégico y se vigila el sistema completo. <strong>Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional</strong> como órganos de control. Hoy se llama Comisión Nacional de Vigilancia y Control. Si alguna vez abres la PNDI 2017 en PDF, vas a ver que la llama “Comité de Control y Vigilancia” — es el mismo organismo, cambió de nombre.", "color": "#f3e5f5", "borderColor": "#9c27b0" }
+            {
+              "title": "🏠 Grupo",
+              "description": "El nivel local. <strong>Entre 20 y 80 personas, como cifra aproximada.</strong> La política aterriza en lo concreto: actas, libro contable, asambleas anuales, plan de grupo. La intuición y la confianza personal pesan mucho.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🏘️ Región",
+              "description": "El nivel intermedio. <strong>Varios grupos en un territorio.</strong> La política tiene que armonizar realidades distintas: un grupo grande con uno chico, uno urbano con uno rural. El Revisor Fiscal hace el control fiscal.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "🏛️ Nación",
+              "description": "El nivel doctrinal y estratégico. Donde se elaboran las políticas, se aprueba el Plan Estratégico y se vigila el sistema completo. <strong>Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional</strong> como órganos de control. Hoy se llama Comisión Nacional de Vigilancia y Control. Si alguna vez abres la PNDI 2017 en PDF, vas a ver que la llama “Comité de Control y Vigilancia” — es el mismo organismo, cambió de nombre.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            }
           ]
         },
         {
@@ -540,12 +614,42 @@
     }
   ],
   "achievements": [
-    { "id": "achievement-1", "name": "Domino las 4 acciones", "emoji": "🧭", "unlockOnModule": 2 },
-    { "id": "achievement-2", "name": "Conozco los 4 fundamentos", "emoji": "🏛️", "unlockOnModule": 3 },
-    { "id": "achievement-3", "name": "Manejo los primeros 3 principios", "emoji": "⚖️", "unlockOnModule": 4 },
-    { "id": "achievement-4", "name": "Completé los 7 principios", "emoji": "⚖️", "unlockOnModule": 5 },
-    { "id": "achievement-5", "name": "Sé aplicar la PNDI en los 3 sujetos", "emoji": "🗺️", "unlockOnModule": 6 },
-    { "id": "achievement-final", "name": "Conozco mi brújula", "emoji": "🧭", "unlockOnModule": -1 }
+    {
+      "id": "achievement-1",
+      "name": "Domino las 4 acciones",
+      "emoji": "🧭",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Conozco los 4 fundamentos",
+      "emoji": "🏛️",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Manejo los primeros 3 principios",
+      "emoji": "⚖️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Completé los 7 principios",
+      "emoji": "⚖️",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Sé aplicar la PNDI en los 3 sujetos",
+      "emoji": "🗺️",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Conozco mi brújula",
+      "emoji": "🧭",
+      "unlockOnModule": -1
+    }
   ],
   "certificate": {
     "courseName": "LA POLÍTICA PNDI: MARCO Y PRINCIPIOS",

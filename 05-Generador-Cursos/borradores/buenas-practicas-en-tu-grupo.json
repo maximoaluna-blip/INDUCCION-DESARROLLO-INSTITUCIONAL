@@ -9,7 +9,7 @@
   "level": 1,
   "levelName": "Fundamentación",
   "order": 5,
-  "totalContentModules": 6,
+  "totalContentModules": 5,
   "modules": [
     {
       "id": 1,
@@ -82,9 +82,24 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🌬️ Una buena intención", "description": "<em>“Vamos a comunicar mejor con las familias.”</em> Sin método ni acuerdo de cómo, es solo un deseo.", "color": "#f5f5f5", "borderColor": "#9e9e9e" },
-            { "title": "🔁 Una rutina", "description": "<em>“Aquí siempre se ha hecho así.”</em> Si no se sabe POR QUÉ se hace, ni si funciona, es costumbre, no buena práctica.", "color": "#fff3e0", "borderColor": "#ff9800" },
-            { "title": "⭐ Un acto heroico", "description": "<em>“Don Carlos siempre arregla las carpas.”</em> Si depende de una sola persona y se pierde cuando se va, no es práctica institucional — es un voluntarismo personal.", "color": "#fff9c4", "borderColor": "#fbc02d" }
+            {
+              "title": "🌬️ Una buena intención",
+              "description": "<em>“Vamos a comunicar mejor con las familias.”</em> Sin método ni acuerdo de cómo, es solo un deseo.",
+              "color": "#f5f5f5",
+              "borderColor": "#9e9e9e"
+            },
+            {
+              "title": "🔁 Una rutina",
+              "description": "<em>“Aquí siempre se ha hecho así.”</em> Si no se sabe POR QUÉ se hace, ni si funciona, es costumbre, no buena práctica.",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            },
+            {
+              "title": "⭐ Un acto heroico",
+              "description": "<em>“Don Carlos siempre arregla las carpas.”</em> Si depende de una sola persona y se pierde cuando se va, no es práctica institucional — es un voluntarismo personal.",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            }
           ]
         },
         {
@@ -99,9 +114,24 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🎯 Está conectada con un ámbito", "description": "Responde a una necesidad de uno de los 8 ámbitos del Curso 4 (gobernanza, finanzas, comunicaciones, riesgo, etc.).", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🧱 Está sostenida por fundamentos", "description": "No es solo eficaz — refleja los 4 fundamentos del DI vistos en el Curso 2: es democrática, atiende al entorno, integra ámbitos, busca resultados con impacto.", "color": "#e3f2fd", "borderColor": "#2196f3" },
-            { "title": "🔁 Es repetible sin la persona", "description": "Si la persona que la ejecuta se va, la práctica sigue. Eso significa que está documentada o suficientemente socializada en el equipo.", "color": "#f3e5f5", "borderColor": "#9c27b0" }
+            {
+              "title": "🎯 Está conectada con un ámbito",
+              "description": "Responde a una necesidad de uno de los 8 ámbitos del Curso 4 (gobernanza, finanzas, comunicaciones, riesgo, etc.).",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🧱 Está sostenida por fundamentos",
+              "description": "No es solo eficaz — refleja los 4 fundamentos del DI vistos en el Curso 2: es democrática, atiende al entorno, integra ámbitos, busca resultados con impacto.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "🔁 Es repetible sin la persona",
+              "description": "Si la persona que la ejecuta se va, la práctica sigue. Eso significa que está documentada o suficientemente socializada en el equipo.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            }
           ]
         },
         {
@@ -285,12 +315,42 @@
         {
           "type": "method-grid",
           "items": [
-            { "title": "🔎 1. Identificar", "description": "Reconocer qué hace tu grupo que vale la pena. La conversación del consejo no debería ser solo <em>“qué hay que arreglar”</em> — debería incluir <em>“qué ya estamos haciendo bien y a veces ni lo nombramos”</em>.", "color": "#fff9c4", "borderColor": "#fbc02d" },
-            { "title": "📝 2. Documentar", "description": "Pasar de la cabeza al papel. Una página, una plantilla, un procedimiento. Sin documentación, la práctica vive solo mientras esté la persona que la sostiene.", "color": "#e3f2fd", "borderColor": "#2196f3" },
-            { "title": "▶️ 3. Aplicar", "description": "Volverla parte del día a día del grupo. No basta con tener el documento — hay que vivirlo en cada reunión, cada salida, cada decisión.", "color": "#e8f5e9", "borderColor": "#4caf50" },
-            { "title": "🔍 4. Revisar", "description": "Cada cierto tiempo (semestre, año), preguntar: ¿esto sigue funcionando? ¿qué hemos aprendido? ¿hay algo que mejorar? Si no se revisa, se vuelve rutina.", "color": "#fff3e0", "borderColor": "#ff9800" },
-            { "title": "🪜 5. Mejorar", "description": "Aplicar los aprendizajes. Ajustar el documento. Sumar el atributo que faltaba (subir de 3 atributos cumplidos a 4, de 4 a 5).", "color": "#f3e5f5", "borderColor": "#9c27b0" },
-            { "title": "📣 6. Compartir", "description": "La buena práctica madura se comparte con otros grupos de la región. Pasar de <em>“lo que hago”</em> a <em>“lo que aporto al movimiento”</em>. Esto es lo que el Curso 22 del Nivel 4 va a profundizar.", "color": "#fce4ec", "borderColor": "#e91e63" }
+            {
+              "title": "🔎 1. Identificar",
+              "description": "Reconocer qué hace tu grupo que vale la pena. La conversación del consejo no debería ser solo <em>“qué hay que arreglar”</em> — debería incluir <em>“qué ya estamos haciendo bien y a veces ni lo nombramos”</em>.",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "📝 2. Documentar",
+              "description": "Pasar de la cabeza al papel. Una página, una plantilla, un procedimiento. Sin documentación, la práctica vive solo mientras esté la persona que la sostiene.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "▶️ 3. Aplicar",
+              "description": "Volverla parte del día a día del grupo. No basta con tener el documento — hay que vivirlo en cada reunión, cada salida, cada decisión.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🔍 4. Revisar",
+              "description": "Cada cierto tiempo (semestre, año), preguntar: ¿esto sigue funcionando? ¿qué hemos aprendido? ¿hay algo que mejorar? Si no se revisa, se vuelve rutina.",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            },
+            {
+              "title": "🪜 5. Mejorar",
+              "description": "Aplicar los aprendizajes. Ajustar el documento. Sumar el atributo que faltaba (subir de 3 atributos cumplidos a 4, de 4 a 5).",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "📣 6. Compartir",
+              "description": "La buena práctica madura se comparte con otros grupos de la región. Pasar de <em>“lo que hago”</em> a <em>“lo que aporto al movimiento”</em>. Esto es lo que el Curso 22 del Nivel 4 va a profundizar.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            }
           ]
         },
         {
@@ -368,14 +428,46 @@
           "intro": "Por cada ámbito: marca el estado, descríbelo en una frase (si aplica) y marca cuántos de los 5 atributos cumple. El catálogo se guarda en tu navegador y se usará en el Curso 6.",
           "buttonLabel": "Guardar mi catálogo",
           "ambitos": [
-            { "id": "gobernanza", "name": "Gobernanza", "emoji": "🏛️" },
-            { "id": "administracion", "name": "Administración", "emoji": "🗂️" },
-            { "id": "recursos-economicos", "name": "Recursos Económicos", "emoji": "💰" },
-            { "id": "comunicaciones", "name": "Comunicaciones e Interinstitucionales", "emoji": "📣" },
-            { "id": "relaciones-internacionales", "name": "Relaciones Internacionales", "emoji": "🌐" },
-            { "id": "crecimiento", "name": "Crecimiento y Sistema de Información", "emoji": "📈" },
-            { "id": "gestion-del-riesgo", "name": "Gestión del Riesgo", "emoji": "🛡️" },
-            { "id": "control-y-reconocimiento", "name": "Control y Reconocimiento", "emoji": "🏅" }
+            {
+              "id": "gobernanza",
+              "name": "Gobernanza",
+              "emoji": "🏛️"
+            },
+            {
+              "id": "administracion",
+              "name": "Administración",
+              "emoji": "🗂️"
+            },
+            {
+              "id": "recursos-economicos",
+              "name": "Recursos Económicos",
+              "emoji": "💰"
+            },
+            {
+              "id": "comunicaciones",
+              "name": "Comunicaciones e Interinstitucionales",
+              "emoji": "📣"
+            },
+            {
+              "id": "relaciones-internacionales",
+              "name": "Relaciones Internacionales",
+              "emoji": "🌐"
+            },
+            {
+              "id": "crecimiento",
+              "name": "Crecimiento y Sistema de Información",
+              "emoji": "📈"
+            },
+            {
+              "id": "gestion-del-riesgo",
+              "name": "Gestión del Riesgo",
+              "emoji": "🛡️"
+            },
+            {
+              "id": "control-y-reconocimiento",
+              "name": "Control y Reconocimiento",
+              "emoji": "🏅"
+            }
           ]
         },
         {
@@ -508,12 +600,42 @@
     }
   ],
   "achievements": [
-    { "id": "achievement-1", "name": "Distingo una buena práctica", "emoji": "🧩", "unlockOnModule": 2 },
-    { "id": "achievement-2", "name": "Manejo el filtro de 5 atributos", "emoji": "🏅", "unlockOnModule": 3 },
-    { "id": "achievement-3", "name": "Conozco el ciclo", "emoji": "🔄", "unlockOnModule": 4 },
-    { "id": "achievement-4", "name": "Hice mi catálogo", "emoji": "✍️", "unlockOnModule": 5 },
-    { "id": "achievement-5", "name": "Leí mi catálogo", "emoji": "📚", "unlockOnModule": 6 },
-    { "id": "achievement-final", "name": "Conozco las prácticas de mi grupo", "emoji": "🌟", "unlockOnModule": -1 }
+    {
+      "id": "achievement-1",
+      "name": "Distingo una buena práctica",
+      "emoji": "🧩",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Manejo el filtro de 5 atributos",
+      "emoji": "🏅",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Conozco el ciclo",
+      "emoji": "🔄",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Hice mi catálogo",
+      "emoji": "✍️",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Leí mi catálogo",
+      "emoji": "📚",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Conozco las prácticas de mi grupo",
+      "emoji": "🌟",
+      "unlockOnModule": -1
+    }
   ],
   "certificate": {
     "courseName": "BUENAS PRÁCTICAS EN TU GRUPO",
