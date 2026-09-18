@@ -6,6 +6,8 @@ Plataforma de formación online de la **Línea Desarrollo Institucional** de la 
 
 ## Estado actual
 
+> **La landing agrupa por nivel desde el 17-sep-2026 (ADR-058).** Cada entrada de `cursos.json` lleva **`level`, `levelName` y `order`**, y el `index.html` los pinta en secciones plegables. **Esta línea ya declaraba los tres campos desde su construcción; lo que faltaba era que la landing los usara** — el dato estaba bien y la página lo ignoraba, que es el reverso del modo de fallo habitual. ⚠️ Son **metadatos de catálogo** — no entran en el HTML del curso, así que añadirlos **no cambió ninguna página publicada**. Y nació `PRUEBAS-E2E/tests/landing.spec.js`, porque **ninguna prueba tocaba esta página**: las suites se parametrizan por el catálogo y lo que no es un curso quedaba fuera por construcción.
+
 **Nivel 1 — Ruta de Fundamentación** completo (~3 horas), construido, con las 3 auditorías pasadas (doctrinal, pedagógica, funcional — ver `ESTADO-AUDITORIA.md` del repo raíz) y **público** (`status: "active"` en `cursos.json`, portal en `"active"`). Reactivado el 02-ago-2026: cierra la pausa preventiva del ADR-021, cuya duda doctrinal quedó resuelta en el ADR-022 (ver `DECISIONES.md` del repo raíz).
 
 | # | Curso | Estado |
@@ -25,7 +27,7 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 ├── 404.html
 ├── assets/                             # Logos, favicon, dark theme
 ├── 02-Plataforma-Web/                  # HTMLs públicos
-│   ├── cursos.json                     # Catálogo del Nivel 1 (6 cursos)
+│   ├── cursos.json                     # Catálogo del Nivel 1 (6 cursos) — con level/levelName/order
 │   ├── *.html                          # Un HTML por curso (Cursos 01–06)
 │   ├── dashboard-admin.html
 │   └── verificar-certificado.html
