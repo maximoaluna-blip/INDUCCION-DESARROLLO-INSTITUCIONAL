@@ -1426,7 +1426,9 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <p>Antes de definir metas necesitas ver con claridad tu catálogo. El sistema cargó automáticamente lo que respondiste en el Curso 5. Si todavía no hiciste el Curso 5, te aviso ahora — vuelve a hacerlo y regresa, porque sin catálogo este curso no funciona en su versión interactiva.</p>
 
-                <p></p>
+                <div class="catalog-display" id="cd-catalogo-buenas-practicas-grupo" data-catalog-id="catalogo-buenas-practicas-grupo" data-mode="full">
+                <p class="catalog-display-loading">Cargando tu catálogo guardado…</p>
+            </div>
 
                 <h3>🧭 Cómo se traduce tu catálogo en prioridades</h3>
 
@@ -1443,7 +1445,9 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <p>También cargué el principio que elegiste como brújula personal en el Curso 2. Lo vamos a usar como criterio cuando tengas que decidir el orden de tus metas — porque cuando haya empate, ese principio decide.</p>
 
-                <p></p>
+                <div class="brujula-display" data-source-course="pndi-marco-y-principios" data-source-module="6">
+                <p class="brujula-display-loading">Cargando tu brújula del Curso 2…</p>
+            </div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
@@ -1714,7 +1718,14 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <h3>🛠️ Tu plan-builder</h3>
 
-                <p></p>
+                <div class="goal-planner" id="gp-plan-personal-di" data-plan-id="plan-personal-di" data-max-adopted="5" data-source-catalog="catalogo-buenas-practicas-grupo">
+                <p class="gp-intro">Lee tu catálogo del Curso 5 y tu brújula del Curso 2; ordena los 8 ámbitos por prioridad y precarga la tipología de meta según el estado de cada uno.</p>
+                <div class="gp-slots" id="gp-slots-plan-personal-di"></div>
+                <div class="goal-planner-actions">
+                    <button type="button" class="btn-primary" onclick="saveGoalPlanner('plan-personal-di')">💾 Guardar mi plan</button>
+                </div>
+                <div id="gp-status-plan-personal-di" class="gp-status hidden"></div>
+            </div>
 
                 <div class="info-box"><strong>💡 Recomendación:</strong> si te cuesta elegir entre dos metas, <strong>usa tu brújula personal del Curso 2</strong> como desempate. El principio que elegiste decide. Por ejemplo: si tu brújula es <em>“Participación Juvenil”</em>, priorizá metas que involucren a los chicos en la decisión (como CR-fort SiScout con la patrulla, o C-fort comunicación con familias).</div>
 
@@ -1778,13 +1789,17 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <p>En el Curso 2 elegiste un principio del DI como tu brújula personal. Ahora ese principio toma rol de criterio: cuando tengas un dilema entre dos metas, o entre una meta y otra prioridad del grupo, ese principio decide.</p>
 
-                <p></p>
+                <div class="brujula-action" data-source-course="pndi-marco-y-principios" data-source-module="6">
+                <p class="brujula-action-loading">Analizando tu brújula…</p>
+            </div>
 
                 <h3>🎒 Cursos del Nivel 2 sugeridos para ti</h3>
 
                 <p>El Nivel 2 de esta línea tiene 8 cursos, uno por ámbito de gestión. Según los ámbitos donde tu grupo tiene mayor brecha (NO) o mayor oportunidad de fortalecer (PARCIAL) en el catálogo del Curso 5, te recomiendo estos 2-3 para empezar (cuando estén publicados):</p>
 
-                <p></p>
+                <div class="courses-suggestion" data-catalog-id="catalogo-buenas-practicas-grupo">
+                <p class="courses-suggestion-loading">Sugiriendo cursos del Nivel 2 según tu catálogo…</p>
+            </div>
 
                 <div class="info-box"><strong>📅 Disclaimer:</strong> los Cursos 7-14 del Nivel 2 están actualmente en construcción. Esta sugerencia te orienta para cuando estén disponibles. Por ahora, los materiales fuente (PNDI 2017, Plan Regional 2022-2025, Manual de Estímulos, etc.) están en <a href="https://scout.org.co/biblioteca" target="_blank" rel="noopener">scout.org.co/biblioteca</a>.</div>
 
@@ -1844,7 +1859,11 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <h3>📜 Generá tu PDF firmable</h3>
 
-                <p></p>
+                <div class="pdf-generator">
+                <p class="pdf-generator-intro">Cuando tu plan esté completo, generá el PDF imprimible con todas las piezas: catálogo · brújula · 5 metas · cursos sugeridos · espacio de firma.</p>
+                <button type="button" class="btn-primary" onclick="generatePlanPDF('plan-personal-di')">📄 Descargar mi plan en PDF</button>
+                <p class="pdf-generator-help">Se abre en una pestaña nueva — usá "Guardar como PDF" de tu navegador.</p>
+            </div>
 
                 <h3>🤝 Compartir con tu consejo</h3>
 
@@ -3513,13 +3532,16 @@ function generatePlan(builderId) {
         var d = plan.competences[compId];
         var name = nameByCompId[compId] || compId;
         var sufijo = (typeof planPrioritySuffix === 'function') ? (planPrioritySuffix(compId) || '') : '';
+        // Los rotulos salen del curso si el curso los declaro (viajan en pb-labels): lo
+        // que se imprime tiene que decir lo mismo que la pantalla donde se escribio.
+        // Si el curso no los declara, el rotulo generico corto de siempre.
         return '<div class="pb-priority"><h3>' + (idx + 1) + '. ' + name + sufijo + '</h3>' +
-            '<dt>🎯 Meta concreta</dt><dd>' + escapeHtml(d.meta) + '</dd>' +
-            '<dt>⏰ Plazo</dt><dd>' + escapeHtml(d.plazo) + '</dd>' +
-            '<dt>📚 Recursos</dt><dd>' + escapeHtml(d.recursos) + '</dd></div>';
+            '<dt>' + (L.campoMeta || '🎯 Meta concreta') + '</dt><dd>' + escapeHtml(d.meta) + '</dd>' +
+            '<dt>' + (L.campoPlazo || '⏰ Plazo') + '</dt><dd>' + escapeHtml(d.plazo) + '</dd>' +
+            '<dt>' + (L.campoRecursos || '📚 Recursos') + '</dt><dd>' + escapeHtml(d.recursos) + '</dd></div>';
     }).join('');
     var commitmentHtml = (plan.commitment || '').trim() ?
-        '<div class="pb-final-commitment"><h3>💚 Mi compromiso</h3><p style="margin:0;white-space:pre-wrap;">' + escapeHtml(plan.commitment) + '</p></div>' : '';
+        '<div class="pb-final-commitment"><h3>' + (L.campoCompromiso || '💚 Mi compromiso') + '</h3><p style="margin:0;white-space:pre-wrap;">' + escapeHtml(plan.commitment) + '</p></div>' : '';
     var output = document.getElementById('pb-output-' + builderId);
     if (output) {
         output.innerHTML =

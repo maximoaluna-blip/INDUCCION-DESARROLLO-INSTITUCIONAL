@@ -15,6 +15,17 @@ Una de las 3 líneas activas de formación digital para adultos voluntarios de l
 - Mismo pipeline de publicación — `CLAUDE.md` raíz §7-bis — y el mismo modelo de 3 auditorías antes de publicar un curso: doctrinal, pedagógica y funcional.
 - Sin cursos habilitantes ni piloto humano obligatorio (ADR-019, `DECISIONES.md` raíz) — las 3 auditorías son la compuerta de calidad.
 
+⚠️ **Esta línea perdió ocho secciones de dos cursos publicados y nadie lo vio en cinco días (14→19-sep-2026, ADR-067).**
+El commit `6ad00d6` iba a quitar **un** `case` muerto del `build-course.js` —`self-assessment`, que ningún curso de aquí
+usaba— y **se llevó siete vecinos que sí se usaban**. `mi-aporte-al-desarrollo-institucional` se quedó sin su catálogo, su
+brújula, su planificador de metas, su acción sugerida, sus cursos sugeridos y su PDF —**su ejercicio entero**— y
+`buenas-practicas-en-tu-grupo` sin el catálogo que construye y el que relee. No hubo ni un error: el `default` del `switch`
+imprimía un `<p>` vacío, y la suite cerró ese día en 66/66. **El motor de línea nunca perdió sus renderizadores**
+(`renderCatalogDisplays`, `renderBrujulaDisplays`, `renderGoalPlanners`, `generatePlanPDF`…): faltaba solo el hueco que el
+build emite. Restaurado desde la historia y comprobado **byte a byte** contra lo publicado antes. **Hoy el build falla** ante
+un tipo sin `case`, `verificar-motor.py` compara el esquema contra el build y `codigo.spec.js` prohíbe secciones vacías.
+*Antes de borrar «código muerto» de esta línea: mirar qué cursos lo declaran, no qué nombre tiene.*
+
 ## Específico de esta línea
 
 | Documento | Para qué |

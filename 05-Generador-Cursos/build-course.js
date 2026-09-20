@@ -365,12 +365,143 @@ function renderSection(section) {
             // Renderizador compartido (ADR-034 Fase 1 B): vive en _MOTOR/ y no lleva
             // vocabulario; los textos vienen de section.labels, escritos en el JSON del curso.
             return renderPlanBuilder(section);
+        // ⚠️ RESTAURADOS el 19-sep-2026. Los siete casos de aqui abajo se borraron por
+        // error el 14-sep-2026 en el mismo commit que quito 'self-assessment' (6ad00d6,
+        // ADR-034 Fase 2): el corte se llevo siete vecinos que SI se usaban y el mensaje
+        // del commit solo hablaba del que sobraba. Como el `default` imprimia un <p>
+        // vacio sin avisar, ni el build ni la suite (66/66 ese dia) dijeron nada, y dos
+        // cursos PUBLICADOS quedaron con secciones en blanco: `mi-aporte-al-desarrollo-
+        // institucional` perdio SEIS (catalogo, brujula, plan de metas, accion sugerida,
+        // cursos sugeridos y el PDF imprimible — es decir, su ejercicio entero) y
+        // `buenas-practicas-en-tu-grupo` perdio DOS (el catalogo que construye y el que
+        // relee). El motor de linea nunca perdio sus renderizadores: lo unico que
+        // faltaba era el hueco que estos `case` emiten. Desde hoy el `default` de abajo
+        // FALLA, para que un tipo sin dibujante no pueda volver a publicarse en blanco.
+        case 'practices-builder':
+            const pbcId = section.catalogId || 'catalogo-buenas-practicas';
+            const pbcIntro = section.intro || 'Marca el estado de cada ámbito en tu grupo o región, descríbelo en una frase y marca cuáles de los 5 atributos cumple.';
+            const pbcButtonLabel = section.buttonLabel || 'Guardar mi catálogo';
+            const pbcAttributes = section.attributes || [
+                { id: 'innovadora', name: 'Innovadora' },
+                { id: 'efectiva', name: 'Efectiva' },
+                { id: 'sostenible', name: 'Sostenible' },
+                { id: 'replicable', name: 'Replicable' },
+                { id: 'aplicable', name: 'Aplicable' }
+            ];
+            const pbcStates = section.states || [
+                { value: 'si', label: '🟢 Sí' },
+                { value: 'parcial', label: '🟡 Parcial' },
+                { value: 'no', label: '🔴 No' },
+                { value: 'no-se', label: '⚪ No sé' }
+            ];
+            const pbcAmbitos = (section.ambitos || []).map((a, idx) => {
+                const stateRadios = pbcStates.map(s =>
+                    `<label class="practice-state-option">
+                            <input type="radio" name="state-${pbcId}-${a.id}" value="${s.value}" onchange="recordPracticeState('${pbcId}', '${a.id}', 'state', '${s.value}')">
+                            <span>${s.label}</span>
+                        </label>`
+                ).join('\n                        ');
+                const attrChecks = pbcAttributes.map(at =>
+                    `<label class="practice-attr-option">
+                            <input type="checkbox" data-attr="${at.id}" onchange="recordPracticeAttribute('${pbcId}', '${a.id}', '${at.id}', this.checked)">
+                            <span>${at.name}</span>
+                        </label>`
+                ).join('\n                        ');
+                return `<div class="practice-row" data-ambito="${a.id}">
+                    <h4 class="practice-ambito-name">${a.emoji ? a.emoji + ' ' : ''}${a.name}</h4>
+                    <div class="practice-field">
+                        <label class="practice-field-label">¿Existe una práctica en este ámbito?</label>
+                        <div class="practice-state-options">
+                            ${stateRadios}
+                        </div>
+                    </div>
+                    <div class="practice-field practice-field-desc">
+                        <label class="practice-field-label">Si <em>sí</em> o <em>parcial</em> — descríbela en una frase</label>
+                        <textarea class="practice-desc" maxlength="200" aria-label="Descripción de la buena práctica" placeholder="Ej: en mi grupo se hace así..." onchange="recordPracticeState('${pbcId}', '${a.id}', 'description', this.value)"></textarea>
+                    </div>
+                    <div class="practice-field">
+                        <label class="practice-field-label">¿Cuántos atributos cumple?</label>
+                        <div class="practice-attr-options">
+                            ${attrChecks}
+                        </div>
+                    </div>
+                </div>`;
+            }).join('\n                ');
+            return `<div class="practices-builder" id="pb-${pbcId}" data-catalog-id="${pbcId}">
+                <p class="practices-builder-intro">${pbcIntro}</p>
+                <div class="practices-rows">
+                    ${pbcAmbitos}
+                </div>
+                <div class="practices-builder-actions">
+                    <button type="button" class="btn-primary" onclick="savePracticesCatalog('${pbcId}')">💾 ${pbcButtonLabel}</button>
+                </div>
+                <div id="pbc-status-${pbcId}" class="practices-builder-status hidden"></div>
+            </div>`;
+        case 'catalog-display':
+            const cdId = section.catalogId || 'catalogo-buenas-practicas-grupo';
+            const cdMode = section.mode || 'full';
+            return `<div class="catalog-display" id="cd-${cdId}" data-catalog-id="${cdId}" data-mode="${cdMode}">
+                <p class="catalog-display-loading">Cargando tu catálogo guardado…</p>
+            </div>`;
+        case 'brujula-display':
+            const bdSrcCourse = section.sourceCourse || 'pndi-marco-y-principios';
+            const bdSrcModule = section.sourceModule || '6';
+            return `<div class="brujula-display" data-source-course="${bdSrcCourse}" data-source-module="${bdSrcModule}">
+                <p class="brujula-display-loading">Cargando tu brújula del Curso 2…</p>
+            </div>`;
+        case 'brujula-action':
+            const baSrcCourse = section.sourceCourse || 'pndi-marco-y-principios';
+            const baSrcModule = section.sourceModule || '6';
+            return `<div class="brujula-action" data-source-course="${baSrcCourse}" data-source-module="${baSrcModule}">
+                <p class="brujula-action-loading">Analizando tu brújula…</p>
+            </div>`;
+        case 'courses-suggestion':
+            const csCatId = section.catalogId || 'catalogo-buenas-practicas-grupo';
+            return `<div class="courses-suggestion" data-catalog-id="${csCatId}">
+                <p class="courses-suggestion-loading">Sugiriendo cursos del Nivel 2 según tu catálogo…</p>
+            </div>`;
+        case 'goal-planner':
+            const gpId = section.planId || 'plan-personal-di';
+            const gpMaxAdopted = section.maxAdoptedGoals || 5;
+            const gpCatalogId = section.preloadFromCatalog || 'catalogo-buenas-practicas-grupo';
+            return `<div class="goal-planner" id="gp-${gpId}" data-plan-id="${gpId}" data-max-adopted="${gpMaxAdopted}" data-source-catalog="${gpCatalogId}">
+                <p class="gp-intro">${section.intro || 'Elegí hasta ' + gpMaxAdopted + ' metas-tipo y completá los campos. Tu plan se guarda en tu navegador y se sincroniza al backend.'}</p>
+                <div class="gp-slots" id="gp-slots-${gpId}"></div>
+                <div class="goal-planner-actions">
+                    <button type="button" class="btn-primary" onclick="saveGoalPlanner('${gpId}')">💾 ${section.buttonLabel || 'Guardar mi plan'}</button>
+                </div>
+                <div id="gp-status-${gpId}" class="gp-status hidden"></div>
+            </div>`;
+        case 'pdf-generator':
+            const pgId = section.planId || 'plan-personal-di';
+            return `<div class="pdf-generator">
+                <p class="pdf-generator-intro">Cuando tu plan esté completo, generá el PDF imprimible con todas las piezas: catálogo · brújula · 5 metas · cursos sugeridos · espacio de firma.</p>
+                <button type="button" class="btn-primary" onclick="generatePlanPDF('${pgId}')">📄 ${section.buttonLabel || 'Descargar mi plan en PDF'}</button>
+                <p class="pdf-generator-help">Se abre en una pestaña nueva — usá "Guardar como PDF" de tu navegador.</p>
+            </div>`;
         // case 'self-assessment' eliminado (14-sep-2026, ADR-034 Fase 2).
         // Renderizaba el autodiagnostico de competencias del adulto con grados de
         // dominio. Ningun curso de Desarrollo Institucional lo usaba (0 de 6): llego
         // al copiar el generador de Politica de Adultos.
         default:
-            return `<p>${section.text || ''}</p>`;
+            // ⚠️ 19-sep-2026 (ADR-066): hasta hoy esto devolvia `<p>${section.text || ''}</p>`,
+            // es decir, un parrafo VACIO y sin aviso para cualquier tipo que este build no
+            // supiera dibujar. Un curso podia declarar un tipo que el course-schema.json
+            // acepta, pasar la validacion, compilar sin una sola queja y publicarse con la
+            // seccion en blanco. Paso: el 14-sep-2026 un corte demasiado ancho se llevo
+            // siete `case` de Desarrollo Institucional y dos cursos publicados quedaron
+            // con ocho secciones vacias entre los dos, cinco dias sin que nadie lo viera.
+            // Que el esquema acepte un tipo no significa que el build sepa dibujarlo: esta
+            // es la linea que lo convierte en un fallo ruidoso.
+            console.error(`❌ Tipo de seccion sin dibujante: "${section.type}".`);
+            console.error('   Este build no tiene un `case` para ese tipo, asi que la seccion');
+            console.error('   saldria VACIA en el HTML publicado. Revisa que:');
+            console.error('     1. el tipo este bien escrito en el JSON del curso;');
+            console.error('     2. `renderSection` de esta linea tenga su `case`;');
+            console.error('     3. el `course-schema.json` de la linea lo declare.');
+            console.error('   (El esquema y el build tienen que decir lo mismo: lo vigila');
+            console.error('    `python verificar-motor.py` desde la raiz del proyecto.)');
+            process.exit(1);
     }
 }
 
