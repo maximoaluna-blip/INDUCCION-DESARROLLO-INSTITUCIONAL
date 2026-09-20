@@ -170,9 +170,20 @@ Cuando se quieren publicar varios cursos del mismo nivel a la vez.
 
 ## 4. Casos especiales
 
-### A. Curso que reusa un componente especializado (autodiagnóstico, plan-builder)
+### A. Curso que reusa un componente especializado
 
-- Cualquier curso del Nivel 1 puede usar `self-assessment` o `plan-builder` (ya están soportados por el motor — no requiere tocar `engine.js`).
+> ⚠️ **Corregido el 19-sep-2026 (ADR-067).** Este apartado decía que cualquier curso puede usar `self-assessment`,
+> *«ya soportado por el motor»*. **Es falso desde el 14-sep-2026**: ese `case` se eliminó de esta línea porque no lo
+> usaba ninguno de sus 6 cursos, y el tipo ya no está en el `course-schema.json`. Si se declara, **el build falla**.
+
+- **Los 20 tipos que esta línea dibuja** son exactamente los del `course-schema.json`. Además de los comunes, son
+  suyos `plan-builder`, `practices-builder`, `catalog-display`, `brujula-display`, `brujula-action`,
+  `courses-suggestion`, `goal-planner` y `pdf-generator` — **los siete últimos sostienen el Curso 5 y el Curso 6**,
+  y hay que tratarlos con cuidado: **se borraron por accidente el 14-sep-2026** en un corte de código muerto y los
+  dos cursos estuvieron **cinco días publicados con ocho secciones en blanco** (ver el `CLAUDE.md` de la línea).
+- **Antes de declarar un tipo, comprobar que `build-course.js` tiene su `case`.** Desde el 19-sep-2026 el `default`
+  del `switch` **falla nombrando el tipo** en vez de imprimir un `<p>` vacío; `python verificar-motor.py` compara el
+  esquema contra el build; y `codigo.spec.js` exige que ninguna sección compilada salga vacía.
 - Si el componente lee datos de otro curso, usar una clave de localStorage **con apellido de línea** (`desarrollo-institucional:<id>`, como `desarrollo-institucional:catalogo-buenas-practicas-grupo`), declarada en `PRUEBAS-E2E/claves-localstorage.json`. Las líneas comparten dominio y por tanto `localStorage` (ADR-034): `competencyProfile` es de Política de Adultos y esta línea no debe leerla.
 
 ### B. Curso con video
