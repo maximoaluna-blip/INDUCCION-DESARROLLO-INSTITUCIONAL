@@ -40,6 +40,22 @@ Programa de Jóvenes durante el piloto.
 | `tests/e2e-plan-builder.spec.js` | Descubre en runtime el curso con `plan-builder`, si alguno lo tiene, y verifica que persiste tras recargar | §F |
 | `tests/_backend.js` | Helper: intercepta y captura las llamadas a Apps Script | — |
 
+**Fase 2 — compuertas de regresión (cada una nació de un defecto real que las otras no vieron):**
+
+| Archivo | Qué verifica | Nació de |
+|---|---|---|
+| `tests/codigo.spec.js` | La parte **mecánica** de `AUDITORIA.md` (checks A, B, C, E-bis) sobre el HTML **ya compilado**: cubre también los cursos en `draft` y caza el «no se recompiló». Desde el ADR-067 exige además que **ninguna sección compilada salga vacía**. | ADR-033 |
+| `tests/feedback-quiz.spec.js` | Falla **a propósito** cada pregunta de cada curso y comprueba que el motor marca en verde **la opción correcta**, no otra. | ADR-061 — el motor señalaba una opción equivocada al fallar, en 26 cursos de 4 líneas: `e2e-flujo` solo recorre el camino de acierto |
+| `tests/certificado-puntuacion.spec.js` | Completa cada curso **acertando todo** y exige que el certificado imprima **100**. | ADR-065 — `quizScores` se indexa por número de módulo: `reduce` se salta los huecos y `length` los cuenta, así que seis quizzes perfectos daban **75 %** |
+| `tests/landing.spec.js` | Que la **landing de la línea** pinte el catálogo completo agrupado por nivel, con `level`/`levelName`/`order`. | ADR-058 — ninguna prueba tocaba esa página: las demás se parametrizan por el catálogo de **cursos**, así que lo que no es un curso quedaba fuera **por construcción** |
+| `tests/e2e-catalogo-migracion.spec.js` | La migración de la clave del **catálogo de buenas prácticas**, que escribe el Curso 5 y lee el Curso 6: que lo guardado con la clave vieja se siga leyendo con la nueva. | ADR-034 Fase 1 B2 |
+
+> ⚠️ **Lo que estas compuertas enseñan junto:** *una suite verde prueba lo que recorre, no lo que existe.*
+> Las tres primeras nacieron de defectos que vivieron **meses en producción** con el CI en verde, y la de la
+> landing, de una página que simplemente **no estaba en ninguna lista**. Al añadir una página o un artefacto a
+> la línea, preguntar **qué spec lo recorre** — si la respuesta es «ninguna», no hay compuerta. El 20-sep-2026
+> la auditoría de plataforma encontró exactamente eso con `verificar-certificado.html` (**ADR-070**).
+
 ## Cursos cubiertos (6, Nivel 1 completo)
 
 `bienvenida-desarrollo-institucional`, `pndi-marco-y-principios`,
