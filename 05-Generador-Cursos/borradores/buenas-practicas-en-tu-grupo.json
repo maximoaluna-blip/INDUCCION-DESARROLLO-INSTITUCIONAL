@@ -3,7 +3,7 @@
   "title": "Buenas Prácticas en Tu Grupo",
   "subtitle": "Curso 5 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Lo que tu grupo ya hace bien es la materia prima del Desarrollo Institucional. En ~30 minutos vas a entender qué es una buena práctica según el Cap. 10 de la PNDI 2017, conocer los 5 atributos que la diferencian de una rutina, recorrer los 8 ámbitos de gestión buscándolas en tu propio grupo y salir con un catálogo personal de buenas prácticas listo para alimentar el plan del Curso 6.",
-  "contentVersion": "2026-08-02",
+  "contentVersion": "2026-09-20",
   "icon": "🌟",
   "duration": "30 minutos",
   "level": 1,
@@ -211,7 +211,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<strong>Ejemplo:</strong> la práctica de convocar al revisor fiscal a las reuniones del consejo con tema financiero <strong>redujo a cero</strong> los hallazgos del informe anual del fiscal en el Grupo “Aurora”. Antes había en promedio 3 hallazgos por año. Eso es efectividad medible."
+          "text": "<strong>Ejemplo:</strong> la práctica de convocar al contador de grupo a las reuniones del consejo con tema financiero <strong>redujo a cero</strong> los hallazgos del informe anual de control contable en el Grupo “Aurora”. Antes había en promedio 3 hallazgos por año. Eso es efectividad medible."
         },
         {
           "type": "heading",
@@ -577,7 +577,7 @@
         "title": "Mini-quiz Lección 6 — Cierre del curso",
         "questions": [
           {
-            "text": "El Grupo “Aurora” tiene finanzas impecables, cumple todos los trámites de SiScout a tiempo y nunca ha tenido un hallazgo del revisor fiscal. Pero las reuniones del consejo casi no tienen quórum, las decisiones las toma solo el jefe de grupo sin consultar a nadie, y las familias sienten que no les informan nada. Según la definición de “Institución Saludable” de la PNDI 2017, ¿este grupo lo es?",
+            "text": "El Grupo “Aurora” tiene finanzas impecables, cumple todos los trámites de SiScout a tiempo y nunca ha tenido un hallazgo del contador de grupo. Pero las reuniones del consejo casi no tienen quórum, las decisiones las toma solo el jefe de grupo sin consultar a nadie, y las familias sienten que no les informan nada. Según la definición de “Institución Saludable” de la PNDI 2017, ¿este grupo lo es?",
             "options": [
               "Sí — con las finanzas en orden y sin hallazgos, ya cumple lo esencial de la salud institucional.",
               "No — cumplir procesos en un solo ámbito no basta; faltan democracia y comunicación.",
