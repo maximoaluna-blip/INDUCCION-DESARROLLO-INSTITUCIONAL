@@ -25,6 +25,7 @@ Plataforma de formación online de la **Línea Desarrollo Institucional** de la 
 INDUCCION-DESARROLLO-INSTITUCIONAL/
 ├── index.html                          # Landing público (GitHub Pages)
 ├── 404.html
+├── verificar-certificado.html        # Valida un código ASC-AAAA-XXXXX contra el backend (ADR-070)
 ├── assets/                             # Logos, favicon, dark theme
 ├── 02-Plataforma-Web/                  # HTMLs públicos
 │   ├── cursos.json                     # Catálogo del Nivel 1 (6 cursos) — con level/levelName/order
