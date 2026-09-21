@@ -12,12 +12,12 @@ Plataforma de formación online de la **Línea Desarrollo Institucional** de la 
 
 | # | Curso | Estado |
 |---|-------|--------|
-| 1 | 🏛️ Bienvenida al Desarrollo Institucional | ⏸️ Under review |
-| 2 | 📜 La Política PNDI: Marco y Principios | ⏸️ Under review |
-| 3 | 🏗️ Niveles y Estructura del Movimiento (7 lecciones) | ⏸️ Under review |
-| 4 | 🧭 Los 8 Ámbitos de Gestión | ⏸️ Under review |
-| 5 | 🌟 Buenas Prácticas en Tu Grupo | ⏸️ Under review |
-| 6 | 🗺️ Mi Aporte al Desarrollo Institucional | ⏸️ Under review |
+| 1 | 🏛️ Bienvenida al Desarrollo Institucional | ✅ Activo |
+| 2 | 📜 La Política PNDI: Marco y Principios | ✅ Activo |
+| 3 | 🏗️ Niveles y Estructura del Movimiento (7 lecciones) | ✅ Activo |
+| 4 | 🧭 Los 8 Ámbitos de Gestión | ✅ Activo |
+| 5 | 🌟 Buenas Prácticas en Tu Grupo | ✅ Activo |
+| 6 | 🗺️ Mi Aporte al Desarrollo Institucional | ✅ Activo |
 
 ## Estructura del proyecto
 
