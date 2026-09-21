@@ -208,6 +208,7 @@ Cuando se quieren publicar varios cursos del mismo nivel a la vez.
 - [ ] `verificar-backend.js` retorna 4/4 OK.
 - [ ] `courseId` nuevo sumado a `.github/workflows/pruebas-e2e.yml` y suite `PRUEBAS-E2E` en verde (local o CI) — auditoría funcional, la tercera pata junto a la doctrinal (`/auditar-curso`) y la pedagógica (`/auditar-pedagogia`).
 - [ ] Mini-quiz tiene mínimo 2 preguntas por lección (excepto intro).
+- [ ] **Las dos reglas de paridad del quiz, leídas en los avisos del build** (`MANUAL` §A.6.5, reglas 6 y 7): la correcta **no es el extremo de longitud** de su pregunta por 12 caracteres o más, y **dos opciones comparten su primera palabra** (y su polaridad en las de sí/no). ⚠️ **El build avisa, no rompe**: si nadie lee el `⚠️`, el curso se publica con el sesgo. Se empareja moviendo **distractores**, nunca la correcta (ADR-073).
 - [ ] `policy-quote` apuntan a documentos vigentes (revisar PNDI, Estatuto Nacional 2025, Plan Estratégico 2023-2026).
 - [ ] Conexiones cross-course con el curso anterior y siguiente verificadas.
 - [ ] Logros: 4-6 + 1 final con `unlockOnModule: -1`.
