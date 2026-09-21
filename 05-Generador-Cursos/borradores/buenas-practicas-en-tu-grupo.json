@@ -156,7 +156,7 @@
             "options": [
               "Sí, porque lleva 12 años funcionando sin ningún problema para el grupo ni para las familias.",
               "No, porque no es repetible sin la persona: cuando don Carlos se vaya, se va con él.",
-              "Sí, porque el tesorero es la única persona que debería manejar las finanzas del grupo."
+              "No, porque el tesorero debería llevar las cuentas en un software contable y no en un cuaderno."
             ],
             "correctIndex": 1
           },
@@ -165,7 +165,7 @@
             "options": [
               "La de Marta — la comunicación espontánea resulta más cercana y democrática, y con eso ya basta.",
               "La de Lucía — tiene método sostenido y otro consejero podría continuarla.",
-              "Las dos son buenas prácticas equivalentes — lo único que cambia es el estilo de cada quien."
+              "Las dos son buenas prácticas — lo único que cambia es el estilo de cada quien."
             ],
             "correctIndex": 1
           }
@@ -281,7 +281,7 @@
             "options": [
               "Ser innovadora — todavía no aporta nada nuevo.",
               "Ser sostenible — depende de que una persona puntual la impulse cada vez, así que no se sostiene sola en el tiempo con los recursos que ya tiene el grupo.",
-              "Ser aplicable a toda la institución — solo sirve para grupos con jefe de grupo activo."
+              "Ser aplicable a toda la institución — solo sirve para grupos que tengan un jefe de grupo activo y presente, así que no se puede replicar en cualquiera."
             ],
             "correctIndex": 1
           }
@@ -373,7 +373,7 @@
             "options": [
               "Revisar — deberían evaluar si sus prácticas siguen funcionando.",
               "Identificar — antes de mejorar o revisar cualquier cosa, hace falta primero reconocer y nombrar lo que el grupo ya hace bien.",
-              "Compartir — deberían llevar sus prácticas a la región antes de seguir."
+              "Compartir — deberían llevar lo que ya hacen a la región y a los grupos vecinos antes de seguir revisando su agenda."
             ],
             "correctIndex": 1
           },
@@ -382,7 +382,7 @@
             "options": [
               "Nada — una vez documentada, una buena práctica ya no necesita volver a tocarse nunca más.",
               "Le falta el paso de revisar y mejorar — sin ese ciclo se vuelve rígida.",
-              "Le falta compartirla con la región — eso es lo único que le falta para estar completa."
+              "Le falta compartirla con la región — es lo único que le falta para estar completa."
             ],
             "correctIndex": 1
           }
@@ -579,9 +579,9 @@
           {
             "text": "El Grupo “Aurora” tiene finanzas impecables, cumple todos los trámites de SiScout a tiempo y nunca ha tenido un hallazgo del contador de grupo. Pero las reuniones del consejo casi no tienen quórum, las decisiones las toma solo el jefe de grupo sin consultar a nadie, y las familias sienten que no les informan nada. Según la definición de “Institución Saludable” de la PNDI 2017, ¿este grupo lo es?",
             "options": [
-              "Sí — con las finanzas en orden y sin hallazgos, ya cumple lo esencial de la salud institucional.",
+              "Sí — con las finanzas en orden y sin hallazgos, ya cumple lo esencial.",
               "No — cumplir procesos en un solo ámbito no basta; faltan democracia y comunicación.",
-              "Sí, siempre que haya sido evaluado con un perfil mínimo de 4 en cada una de las 6 dimensiones de salud institucional."
+              "No, porque primero habría que evaluarlo con un perfil mínimo de 4 en cada una de las 6 dimensiones."
             ],
             "correctIndex": 1
           },
@@ -590,7 +590,7 @@
             "options": [
               "Una meta para descartar la práctica y empezar otra desde cero.",
               "Una meta para fortalecer la práctica existente y completar los atributos faltantes (subir de 2 hacia 4-5).",
-              "Una meta para compartir inmediatamente la práctica con la región."
+              "Una meta para compartir inmediatamente la práctica con la región y con los grupos vecinos más cercanos."
             ],
             "correctIndex": 1
           }

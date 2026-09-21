@@ -154,7 +154,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 
 > **P1.** Un dirigente te dice: "En mi grupo el mismo Consejo aprueba el presupuesto, lo ejecuta y además audita si se gastó bien." ¿Qué está pasando ahí, según los 5 tipos de órganos que viste?
 >
-> a) _Es normal: el Consejo administra y también puede controlarse a sí mismo, porque conoce mejor que nadie sus propias cuentas._
+> a) _Es normal: el Consejo administra y también puede controlarse a sí mismo, porque conoce sus propias cuentas._
 > b) _Se están mezclando administración y control: el Consejo debería administrar, pero el control fiscal necesita ser un órgano independiente (el Contador) para que nadie audite su propia gestión._ ✅
 > c) _Se están mezclando dirección y técnico: el Consejo no debería ejecutar nada operativo, eso es tarea exclusiva de la Asamblea._
 
@@ -280,7 +280,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 
 > **P1.** En un grupo se necesita investigar formalmente una conducta de un dirigente. El Vicepresidente del Consejo dice: _"tengo que convocar al órgano disciplinario"_. ¿Qué procedimiento corresponde según el Art. 1.19.4 del Reglamento Nacional de Grupos Scouts?
 >
-> a) _Convocar la Corte de Honor permanente del grupo, que sesiona una vez al mes._
+> a) _Convocar la Corte de Honor permanente del grupo, que sesiona una vez al mes y es la que estudia estos casos._
 > b) _Convocar la Comisión Disciplinaria Ad-hoc (no permanente), que él mismo preside como Vicepresidente del Consejo._ ✅
 > c) _Esperar a la próxima asamblea anual para tratar el tema en pleno._
 

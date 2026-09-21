@@ -169,7 +169,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada uno de los 5 atrib
 >
 > a) _Ser innovadora — todavía no aporta nada nuevo._
 > b) _Ser sostenible — depende de que una persona puntual la impulse cada vez, así que no se sostiene sola en el tiempo con los recursos que ya tiene el grupo._ ✅
-> c) _Ser aplicable a toda la institución — solo sirve para grupos con jefe de grupo activo._
+> c) _Ser aplicable a toda la institución — solo sirve para grupos que tengan un jefe de grupo activo y presente, así que no se puede replicar en cualquiera._
 
 **Logro:** "Manejo el filtro de 5 atributos".
 
@@ -203,13 +203,13 @@ Se enuncia en la Lección 1, se referencia al introducir cada uno de los 5 atrib
 >
 > a) _Revisar — deberían evaluar si sus prácticas siguen funcionando._
 > b) _Identificar — antes de mejorar o revisar cualquier cosa, hace falta primero reconocer y nombrar lo que el grupo ya hace bien._ ✅
-> c) _Compartir — deberían llevar sus prácticas a la región antes de seguir._
+> c) _Compartir — deberían llevar lo que ya hacen a la región y a los grupos vecinos antes de seguir revisando su agenda._
 
 > **P2.** El Grupo "Faro" documentó su protocolo de seguridad en salidas hace 5 años, lo guardó en una carpeta, y nunca lo ha vuelto a mirar. Las condiciones cambiaron (salen a sitios distintos, hay dirigentes nuevos), pero el protocolo sigue exactamente igual. Según la idea de que las buenas prácticas son "dinámicas", ¿qué le está fallando a esta práctica?
 >
 > a) _Nada — una vez documentada, una buena práctica no necesita tocarse de nuevo._
 > b) _Le falta el paso de revisar y mejorar — sin ese ciclo de retroalimentación, la práctica se vuelve rígida y deja de responder a la realidad actual del grupo._ ✅
-> c) _Le falta compartirla con la región — eso es lo único que le falta para estar completa._
+> c) _Le falta compartirla con la región — es lo único que le falta para estar completa._
 
 **Logro:** "Conozco el ciclo".
 
@@ -295,15 +295,15 @@ Se enuncia en la Lección 1, se referencia al introducir cada uno de los 5 atrib
 
 > **P1.** El Grupo "Aurora" tiene finanzas impecables, cumple todos los trámites de SiScout a tiempo y nunca ha tenido un hallazgo del revisor fiscal. Pero las reuniones del consejo casi no tienen quórum, las decisiones las toma solo el jefe de grupo sin consultar a nadie, y las familias sienten que no les informan nada. Según la definición de "Institución Saludable" de la PNDI 2017, ¿este grupo lo es?
 >
-> a) _Sí — con las finanzas en orden y sin hallazgos, ya cumple lo esencial de la salud institucional._
+> a) _Sí — con las finanzas en orden y sin hallazgos, ya cumple lo esencial._
 > b) _No — cumplir procesos en un solo ámbito no basta; la PNDI exige ejecutar buenas prácticas de forma democrática, transparente y participativa, y aquí faltan la democracia y la comunicación con las familias._ ✅
-> c) _Sí, siempre que haya sido evaluado con un perfil mínimo de 4 en cada una de las 6 dimensiones de salud institucional._
+> c) _No, porque primero habría que evaluarlo con un perfil mínimo de 4 en cada una de las 6 dimensiones._
 
 > **P2.** Si en tu catálogo un ámbito quedó marcado como "Parcial con 2 atributos cumplidos", ¿qué tipo de meta vas a recibir en el Curso 6?
 >
 > a) _Una meta para descartar la práctica y empezar otra desde cero._
 > b) _Una meta para fortalecer la práctica existente y completar los atributos faltantes (subir de 2 hacia 4-5)._ ✅
-> c) _Una meta para compartir inmediatamente la práctica con la región._
+> c) _Una meta para compartir inmediatamente la práctica con la región y con los grupos vecinos más cercanos._
 
 **Logro al completar:** "Conozco las prácticas de mi grupo" (logro final del curso, `unlockOnModule: -1`).
 

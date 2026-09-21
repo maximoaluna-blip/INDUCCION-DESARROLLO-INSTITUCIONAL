@@ -204,7 +204,7 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 > **P1.** Un papá del grupo se entera de que la región va a sancionar al jefe de grupo y le exige al consejo defenderlo de inmediato. Un consejero veterano propone "antes de actuar, abramos el Código de Honor y veamos qué dice el debido proceso". ¿Qué principio del DI sostiene esa propuesta?
 >
 > a) _Colectividad y Consenso — conviene reunir primero a todo el consejo antes de responder._
-> b) _Dinamismo y Flexibilidad — adáptense a la presión del papá, el momento lo exige._
+> b) _Dinamismo y Flexibilidad — adáptense a la presión del papá, el momento urge._
 > c) _Normatividad — primero abrir el documento vigente, después decidir._ ✅
 
 > **P2.** Una jefa de grupo quiere cambiar el local del grupo. ¿Qué principio del DI le indica que NO puede decidirlo sola, aunque sea la cabeza visible del grupo?
@@ -252,7 +252,7 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 > **P2.** En la asamblea anual, un grupo aprueba la frase "somos un grupo que protege a los más pequeños". Pero ese año ningún consejero hizo el curso de A Salvo del Peligro y el grupo no tiene un protocolo escrito de protección. ¿Qué principio del DI no se está cumpliendo?
 >
 > a) _Coherencia — el grupo prometió algo que no está en condiciones reales de cumplir._ ✅
-> b) _Normatividad — la asamblea aprobó una frase no oficial._
+> b) _Normatividad — la asamblea aprobó una frase que no está en ningún documento oficial._
 > c) _Prospectiva — el protocolo es para el futuro, no urge._
 
 **Logro:** "Completé los 7 principios".

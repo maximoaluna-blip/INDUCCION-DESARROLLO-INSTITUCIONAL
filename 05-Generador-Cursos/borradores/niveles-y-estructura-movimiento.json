@@ -229,7 +229,7 @@
           {
             "text": "Un dirigente te dice: “En mi grupo el mismo Consejo aprueba el presupuesto, lo ejecuta y además audita si se gastó bien.” ¿Qué está pasando ahí, según los 5 tipos de órganos que viste?",
             "options": [
-              "Es normal: el Consejo administra y también puede controlarse a sí mismo, porque conoce mejor que nadie sus propias cuentas.",
+              "Es normal: el Consejo administra y también puede controlarse a sí mismo, porque conoce sus propias cuentas.",
               "Se están mezclando administración y control: el control necesita un órgano independiente, el Contador.",
               "Se están mezclando dirección y técnico: el Consejo no debería ejecutar nada operativo, eso es tarea exclusiva de la Asamblea."
             ],
@@ -335,7 +335,7 @@
           {
             "text": "Una región detecta presuntas irregularidades en el manejo de recursos del nivel nacional y quiere escalarlo formalmente. ¿A qué órgano del nivel nacional debe dirigir su queja para que la tramite el órgano cuyo mandato específico es justamente vigilar la administración y el cumplimiento estatutario?",
             "options": [
-              "A la Asamblea Scout Nacional, porque es la autoridad máxima del Movimiento en Colombia.",
+              "A la Asamblea Scout Nacional, porque es la autoridad máxima del Movimiento en Colombia y cualquier queja debería empezar allí.",
               "A la Comisión Nacional de Vigilancia y Control, que ejerce el control social sobre administración y cumplimiento estatutario.",
               "A la Jefatura Scout Nacional, porque es el equipo ejecutivo del CSN."
             ],
@@ -537,7 +537,7 @@
           {
             "text": "En un grupo se necesita investigar formalmente una conducta de un dirigente. El Vicepresidente del Consejo dice: “tengo que convocar al órgano disciplinario”. ¿Qué procedimiento corresponde según el Art. 1.19.4 del Reglamento Nacional de Grupos Scouts?",
             "options": [
-              "Convocar la Corte de Honor permanente del grupo, que sesiona una vez al mes.",
+              "Convocar la Corte de Honor permanente del grupo, que sesiona una vez al mes y es la que estudia estos casos.",
               "Convocar la Comisión Disciplinaria Ad-hoc (no permanente), que él mismo preside como Vicepresidente del Consejo.",
               "Esperar a la próxima asamblea anual para tratar el tema en pleno."
             ],
@@ -654,7 +654,7 @@
             "options": [
               "A la Comisión Nacional de Vigilancia y Control directamente, porque es un asunto bastante serio.",
               "Al Contador del Grupo y, si amerita sanción, a la Comisión Disciplinaria Ad-hoc.",
-              "A la Corte de Honor Nacional, porque se trata de un asunto disciplinario."
+              "Al órgano disciplinario del nivel nacional, porque se trata de un asunto disciplinario."
             ],
             "correctIndex": 1
           },

@@ -196,7 +196,7 @@ Este hook se enuncia explícitamente en la Lección 1 (Bienvenida) al abrir el c
 > **P1.** El plan anual de actividades y el presupuesto del grupo los prepara el Consejo de Grupo. ¿Quién los aprueba?
 >
 > a) _El jefe de grupo, como cabeza visible del equipo de Jefatura._
-> b) _El mismo Consejo de Grupo, en sesión ordinaria, dejándolo registrado en acta._
+> b) _La misma sesión ordinaria del Consejo de Grupo, dejándolo registrado en acta._
 > c) _La Asamblea de Grupo, sobre la propuesta presentada por el Consejo de Grupo._  ✅
 
 > **P2.** Un dirigente te dice: _"Lo que dice el Estatuto ya quedó viejo, ahora lo que manda es la Política Nacional de Desarrollo Institucional de 2017."_ ¿Qué le respondes según esta lección?
@@ -293,7 +293,7 @@ Este hook se enuncia explícitamente en la Lección 1 (Bienvenida) al abrir el c
 >
 > a) _"Que las promesas grandes son más valiosas porque muestran más compromiso."_
 > b) _"Que un grupo institucionalmente sano se construye con promesas chicas que sí se cumplen, no con promesas grandes que se quedan en el aire."_  ✅
-> c) _"Que ese tipo de promesas deberían dejárselas al jefe de grupo, que es quien tiene la responsabilidad final."_
+> c) _"Que ese tipo de promesas deberían dejárselas al jefe de grupo, que es quien tiene la responsabilidad final de la marcha del grupo."_
 
 **Logro al completar:** "Constructor Institucional" (logro final del curso, `unlockOnModule: -1`).
 

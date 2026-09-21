@@ -363,7 +363,7 @@
             "text": "El plan anual de actividades y el presupuesto del grupo los <strong>prepara</strong> el Consejo de Grupo. ¿Quién los <strong>aprueba</strong>?",
             "options": [
               "El jefe de grupo, como cabeza visible del equipo de Jefatura",
-              "El mismo Consejo de Grupo, en sesión ordinaria, dejándolo registrado en acta",
+              "La misma sesión ordinaria del Consejo de Grupo, dejándolo registrado en acta",
               "La Asamblea de Grupo, sobre la propuesta presentada por el Consejo de Grupo"
             ],
             "correctIndex": 2
@@ -461,7 +461,7 @@
             "options": [
               "Que el tesorero renunció a mitad de año por razones personales",
               "Que el grupo no tenía orden contable y mezclaba lo personal con lo institucional",
-              "Que el nuevo tesorero no estaba capacitado para asumir el cargo"
+              "Que el nuevo tesorero no estaba capacitado para asumir el cargo que recibía"
             ],
             "correctIndex": 1
           },
@@ -611,7 +611,7 @@
             "options": [
               "Que las promesas grandes son más valiosas porque muestran más compromiso",
               "Que un grupo institucionalmente sano se construye con promesas chicas que sí se cumplen, no con promesas grandes que se quedan en el aire",
-              "Que ese tipo de promesas deberían dejárselas al jefe de grupo, que es quien tiene la responsabilidad final"
+              "Que ese tipo de promesas deberían dejárselas al jefe de grupo, que es quien tiene la responsabilidad final de la marcha del grupo"
             ],
             "correctIndex": 1
           }

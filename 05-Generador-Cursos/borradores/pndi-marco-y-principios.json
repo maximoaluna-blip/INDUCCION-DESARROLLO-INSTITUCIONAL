@@ -3,7 +3,7 @@
   "title": "La Política PNDI: Marco y Principios",
   "subtitle": "Curso 2 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Una política no es un papel para enmarcar — es la brújula que usas cuando el camino se bifurca. En ~30 minutos vas a recorrer los 4 fundamentos, los 7 principios y los 3 sujetos de la Política Nacional de Desarrollo Institucional con casos concretos del grupo scout, no con definiciones de manual. Al final saldrás con una brújula personal: un principio elegido por ti para guiar tu próximo dilema institucional.",
-  "contentVersion": "2026-08-02",
+  "contentVersion": "2026-09-20",
   "icon": "📜",
   "duration": "30 minutos",
   "level": 1,
@@ -377,7 +377,7 @@
             "text": "Un papá del grupo se entera de que la región va a sancionar al jefe de grupo y le exige al consejo defenderlo de inmediato. Un consejero veterano propone “antes de actuar, abramos el Código de Honor y veamos qué dice el debido proceso”. ¿Qué principio del DI sostiene esa propuesta?",
             "options": [
               "Colectividad y Consenso — conviene reunir primero a todo el consejo antes de responder.",
-              "Dinamismo y Flexibilidad — adáptense a la presión del papá, el momento lo exige.",
+              "Dinamismo y Flexibilidad — adáptense a la presión del papá, el momento urge.",
               "Normatividad — primero abrir el documento vigente, después decidir."
             ],
             "correctIndex": 2
@@ -387,7 +387,7 @@
             "options": [
               "Dinamismo y Flexibilidad — la decisión moderniza al grupo.",
               "Colectividad y Consenso — una decisión que afecta a varios pasa primero por el consejo.",
-              "Prospectiva — hay que pensar en 10 años, no solo en la comisión."
+              "Prospectiva — hay que pensar en el grupo a 10 años, no solo en la comisión del banco."
             ],
             "correctIndex": 1
           }
@@ -485,7 +485,7 @@
             "text": "En la asamblea anual, un grupo aprueba la frase “somos un grupo que protege a los más pequeños”. Pero ese año ningún consejero hizo el curso de A Salvo del Peligro y el grupo no tiene un protocolo escrito de protección. ¿Qué principio del DI no se está cumpliendo?",
             "options": [
               "Coherencia — el grupo prometió algo que no está en condiciones reales de cumplir.",
-              "Normatividad — la asamblea aprobó una frase no oficial.",
+              "Normatividad — la asamblea aprobó una frase que no está en ningún documento oficial.",
               "Prospectiva — el protocolo es para el futuro, no urge."
             ],
             "correctIndex": 0
