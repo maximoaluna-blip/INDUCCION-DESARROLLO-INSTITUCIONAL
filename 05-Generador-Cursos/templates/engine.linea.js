@@ -214,79 +214,28 @@ function recoverProgress() {
                     quizScores = data.quizScores;
                 }
 
-                // StudyTime y reflections (si vienen directamente)
+                // StudyTime: el unico dato de sesion que el backend sigue devolviendo
                 if (data.studyTime) studyTime = data.studyTime;
-                if (data.reflections) {
-                    reflections = data.reflections;
-                    Object.keys(reflections).forEach(function(k) {
-                        var ta = document.getElementById('reflection-' + k);
-                        if (ta) ta.value = reflections[k];
-                    });
-                }
 
-                // Catálogos de buenas prácticas (Curso 5 — Línea DI): clave por catalogId
-                if (serverData.catalogs && typeof serverData.catalogs === 'object') {
-                    Object.keys(serverData.catalogs).forEach(function (cid) {
-                        practicesCatalogs[cid] = serverData.catalogs[cid];
-                        // Espejo en localStorage global para que otros cursos puedan leerlo cross-device
-                        guardarLocal('desarrollo-institucional:' + cid, JSON.stringify(serverData.catalogs[cid]));
-                    });
-                    if (typeof restorePracticesCatalogs === 'function') restorePracticesCatalogs();
-                    if (typeof renderCatalogDisplays === 'function') renderCatalogDisplays();
-                }
-
-                // Reflexiones por curso: hidratar el localStorage de cada curso para lectura cross-curso
-                if (serverData.reflectionsByCourse && typeof serverData.reflectionsByCourse === 'object') {
-                    Object.keys(serverData.reflectionsByCourse).forEach(function (cid) {
-                        var courseReflections = serverData.reflectionsByCourse[cid] || {};
-                        if (cid === COURSE_CONFIG.courseId) {
-                            // Curso actual: aplicar al estado en memoria y a los textareas visibles
-                            reflections = courseReflections;
-                            Object.keys(reflections).forEach(function (k) {
-                                var ta = document.getElementById('reflection-' + k);
-                                if (ta) ta.value = reflections[k];
-                            });
-                        } else {
-                            // Otros cursos: refrescar su propio courseProgress_<courseId> en localStorage
-                            try {
-                                var key = 'courseProgress_' + cid;
-                                var raw = localStorage.getItem(key);
-                                var existing = raw ? JSON.parse(raw) : {};
-                                existing.reflections = courseReflections;
-                                existing.lastSaved = new Date().toISOString();
-                                guardarLocal(key, JSON.stringify(existing));
-                            } catch (e) { /* el aviso lo da guardarLocal */ }
-                        }
-                    });
-                }
-
-                // Autodiagnósticos: restaurar grados de self-assessments del usuario
-                if (serverData.assessments && typeof serverData.assessments === 'object') {
-                    Object.keys(serverData.assessments).forEach(function (aid) {
-                        var saved = serverData.assessments[aid] || {};
-                        if (!selfAssessments[aid]) selfAssessments[aid] = { grades: {} };
-                        if (saved.grades) selfAssessments[aid].grades = saved.grades;
-                    });
-                    if (typeof restoreAssessmentSelections === 'function') restoreAssessmentSelections();
-                }
-
-                // Planes personales: restaurar el plan-builder y goal-planner (Curso 6 DI)
-                if (serverData.plans && typeof serverData.plans === 'object') {
-                    Object.keys(serverData.plans).forEach(function (pid) {
-                        var savedPlan = serverData.plans[pid] || {};
-                        var contenido = savedPlan.contenido;
-                        if (contenido && typeof contenido === 'object') {
-                            personalPlans[pid] = contenido;
-                        }
-                    });
-                    if (typeof restorePlanState === 'function') restorePlanState();
-                    if (typeof renderGoalPlanners === 'function') renderGoalPlanners();
-                }
-
-                // Refrescar componentes del Curso 6 que dependen de datos cross-curso
-                if (typeof renderBrujulaDisplays === 'function') renderBrujulaDisplays();
-                if (typeof renderBrujulaActions === 'function') renderBrujulaActions();
-                if (typeof renderCoursesSuggestions === 'function') renderCoursesSuggestions();
+                // ADR-074 - AQUI NO SE HIDRATA NINGUN TEXTO, A PROPOSITO.
+                // `recover` no esta autenticado: pide un correo y nada mas. Por eso el
+                // backend dejo de mandar lo que la persona escribio -reflexiones,
+                // compromisos, planes, catalogos y los grados del autodiagnostico- y solo
+                // dice QUE hay guardado (serverData.saved), nunca que dice.
+                // Eso vive en el navegador donde se escribio, y alli sigue: es local por
+                // diseno. Si algun dia se quiere recuperarlo entre dispositivos, primero
+                // hay que autenticar a la persona, no ampliar esta respuesta.
+                var guardado = serverData.saved || {};
+                var anotaciones = 0;
+                Object.keys(guardado.reflections || {}).forEach(function (cid) {
+                    anotaciones += (guardado.reflections[cid] || []).length;
+                });
+                Object.keys(guardado.commitments || {}).forEach(function (cid) {
+                    anotaciones += guardado.commitments[cid] || 0;
+                });
+                anotaciones += (guardado.plans || []).length +
+                               (guardado.catalogs || []).length +
+                               (guardado.assessments || []).length;
 
                 saveProgress();
                 updateStats();
@@ -306,6 +255,18 @@ function recoverProgress() {
 
                 var completedCount = moduleProgress.filter(Boolean).length;
                 showNotification('¡Avance recuperado, ' + firstName + '! ' + completedCount + ' módulos completados 🎉');
+
+                if (anotaciones > 0) {
+                    msgDiv.style.display = 'block';
+                    msgDiv.innerHTML = '<p style="color: #2e7d32; font-weight: 600;">✅ Recuperamos tu avance: ' +
+                        completedCount + ' módulos.</p>' +
+                        '<p style="color: #636363; margin-top: 10px;">Tienes <strong>' + anotaciones +
+                        '</strong> anotaciones guardadas (reflexiones, compromisos o planes). ' +
+                        'Lo que escribes <strong>no se recupera por correo</strong>: se queda en el navegador donde lo escribiste. ' +
+                        'Abre el curso en ese dispositivo para verlas.</p>';
+                } else {
+                    msgDiv.style.display = 'none';
+                }
                 showModule(lastModule > 0 ? lastModule : 1);
             } else {
                 var reason = (data && data.message) ? data.message : 'No se encontro avance asociado a este correo.';

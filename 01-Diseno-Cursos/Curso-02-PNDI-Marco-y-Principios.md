@@ -270,7 +270,7 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 3. **`heading` (nivel 3)** — _"Los 3 sujetos de la política"_
 4. **`method-grid`** — 3 tarjetas:
     - 🏠 **Grupo** → _"El nivel local. Entre 20 y 80 personas, como cifra aproximada. La política aterriza en lo concreto: actas, libro contable, asambleas anuales, plan de grupo. La intuición y la confianza personal pesan mucho."_ (color verde)
-    - 🏘️ **Región** → _"El nivel intermedio. Varios grupos en un territorio. La política tiene que armonizar realidades distintas: un grupo grande con uno chico, uno urbano con uno rural. El Revisor Fiscal hace el control fiscal."_ (color azul)
+    - 🏘️ **Región** → _"El nivel intermedio. Varios grupos en un territorio. La política tiene que armonizar realidades distintas: un grupo grande con uno chico, uno urbano con uno rural. El Contador Regional hace el control fiscal-contable."_ (color azul)
     - 🇨🇴 **Nación** → _"El nivel doctrinal y estratégico. Donde se elaboran las políticas, se aprueba el Plan Estratégico y se vigila el sistema completo. Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional como órganos de control. Hoy se llama Comisión Nacional de Vigilancia y Control. Si alguna vez abres la PNDI 2017 en PDF, vas a ver que la llama 'Comité de Control y Vigilancia' — es el mismo organismo, cambió de nombre."_ (color morado)
 5. **`paragraph`** — _"Los 3 sujetos comparten la misma PNDI. Pero **la escala cambia el cómo**:"_
 6. **`list`** — Ejemplos de "mismo principio, distinta escala":
