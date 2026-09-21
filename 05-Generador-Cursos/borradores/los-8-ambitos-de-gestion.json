@@ -3,7 +3,7 @@
   "title": "Los 8 Ámbitos de Gestión",
   "subtitle": "Curso 4 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Recorrido panorámico de los 8 ámbitos de gestión que la PNDI 2017 identifica como el contenido operativo del Desarrollo Institucional. Una micro-historia por ámbito (no 8 definiciones). Al final, el adulto sabe ubicar cualquier decisión cotidiana del grupo en el ámbito que le corresponde.",
-  "contentVersion": "2026-08-02",
+  "contentVersion": "2026-09-20",
   "icon": "🧭",
   "duration": "~35 min",
   "level": 1,
@@ -126,9 +126,9 @@
         },
         {
           "type": "policy-quote",
-          "label": "📋 Ver lista oficial de la PNDI",
-          "text": "Los ámbitos de gestión del Desarrollo Institucional son: 8.2.1 Gobernanza; 8.2.2 Administración; 8.2.3 Gestión de Recursos Económicos; 8.2.4 Comunicaciones y Relaciones Interinstitucionales; 8.2.5 Relaciones Internacionales; 8.2.6 Crecimiento y Sistema de Información; 8.2.7 Gestión del Riesgo; 8.2.8 Control y Reconocimiento.",
-          "source": "Política Nacional de Desarrollo Institucional 2017, Capítulo 8, Sección 8.2"
+          "label": "📋 Ver los ocho títulos, tal como los imprime la PNDI",
+          "text": "8.2.1 Gobernanza · 8.2.2 Administración · 8.2.3 Gestión de Recursos Económicos · 8.2.4 Comunicaciones y Relaciones Interinstitucionales · 8.2.5 Relaciones Internacionales · 8.2.6 Crecimiento y sistema de información y registro · 8.2.7 Gestión del Riesgo · 8.2.8 Control y Reconocimiento.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, §8.2.1–8.2.8 (pp. 9–13). Son los títulos de las ocho secciones, transcritos literalmente: la PNDI no trae ninguna frase que los enumere de corrido. Este curso usa «Crecimiento y Sistema de Información» como forma corta del §8.2.6, cuyo título completo en el documento es «Crecimiento y sistema de información y registro»"
         }
       ],
       "reflection": {

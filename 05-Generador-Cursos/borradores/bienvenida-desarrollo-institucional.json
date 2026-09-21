@@ -3,7 +3,7 @@
   "title": "Bienvenida al Desarrollo Institucional",
   "subtitle": "Curso 1 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Si crees que el Desarrollo Institucional es asunto de comisionados nacionales, este curso es para ti. En 25 minutos vas a entender por qué te aplica, vas a desarmar los 5 mitos más comunes, vas a ubicar los órganos de la ASC y, sobre todo, vas a salir con un primer compromiso chico, concreto y tuyo. Sin tecnicismos. Sin papeleo. Solo claridad sobre lo que ya estás haciendo y lo que sigue.",
-  "contentVersion": "2026-08-02",
+  "contentVersion": "2026-09-20",
   "icon": "🏛️",
   "duration": "25 minutos",
   "level": 1,
@@ -349,8 +349,8 @@
         {
           "type": "policy-quote",
           "label": "📋 Ver definición oficial del Consejo Scout Nacional",
-          "text": "El Consejo Scout Nacional es el órgano que dirige la institución de acuerdo con las normas legales, los Estatutos, los Reglamentos, los acuerdos y las decisiones de la Asamblea Nacional. En receso de la Asamblea Scout Nacional, es la autoridad máxima de la Asociación.",
-          "source": "scout.org.co · Quiénes Somos · Consejo Scout Nacional"
+          "text": "El Consejo Scout Nacional es el máximo órgano de dirección y gobierno de la Asociación Scouts de Colombia, cuando la Asamblea Scout Nacional no está en sesión. Como cuerpo colegiado, es responsable de dirigir y administrar los asuntos de la Asociación, de conformidad con el presente Estatuto y la normativa interna y externa aplicable.",
+          "source": "Estatuto Nacional 2025, Artículo 47 — Definición (Acuerdo del Consejo Scout Nacional; p. 26 del PDF)"
         }
       ],
       "reflection": {

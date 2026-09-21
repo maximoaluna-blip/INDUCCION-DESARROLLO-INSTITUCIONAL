@@ -3,7 +3,7 @@
   "title": "Niveles y Estructura del Movimiento",
   "subtitle": "Curso 3 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Aterriza la estructura completa del Movimiento Scout: 5 niveles (Mundial, Interamericano, Nacional, Regional, Local) con su arquitectura de órganos por nivel. Importante: la estructura es asimétrica — no se replica el mismo modelo de tres órganos uniformes en cada nivel.",
-  "contentVersion": "2026-08-02",
+  "contentVersion": "2026-09-20",
   "icon": "🏗️",
   "duration": "~35 min",
   "level": 1,
@@ -313,8 +313,8 @@
         {
           "type": "policy-quote",
           "label": "📋 Ver definición oficial del CSN",
-          "text": "El Consejo Scout Nacional es el órgano que dirige la institución de acuerdo con las normas legales, los Estatutos, los Reglamentos, los acuerdos y las decisiones de la Asamblea Nacional. En receso de la Asamblea Scout Nacional, es la autoridad máxima de la Asociación.",
-          "source": "scout.org.co · Quiénes Somos · Consejo Scout Nacional"
+          "text": "El Consejo Scout Nacional es el máximo órgano de dirección y gobierno de la Asociación Scouts de Colombia, cuando la Asamblea Scout Nacional no está en sesión. Como cuerpo colegiado, es responsable de dirigir y administrar los asuntos de la Asociación, de conformidad con el presente Estatuto y la normativa interna y externa aplicable.",
+          "source": "Estatuto Nacional 2025, Artículo 47 — Definición (Acuerdo del Consejo Scout Nacional; p. 26 del PDF)"
         },
         {
           "type": "heading",
