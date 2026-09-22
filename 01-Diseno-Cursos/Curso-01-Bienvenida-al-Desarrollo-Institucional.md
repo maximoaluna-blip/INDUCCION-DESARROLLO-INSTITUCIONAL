@@ -141,7 +141,7 @@ Este hook se enuncia explícitamente en la Lección 1 (Bienvenida) al abrir el c
 9. **`heading` (nivel 3)** — _"Mito 4 — 'Eso ya lo hace alguien más'"_
 10. **`paragraph`** — Refutación: cuento clásico "Todo el mundo, Alguien, Cualquiera y Nadie" (taller Flor de Lis II). Cuando la responsabilidad es de todos, nadie la asume. El servicio empieza por uno mismo.
 11. **`heading` (nivel 3)** — _"Mito 5 — 'Para hacer DI hay que ser experto en gerencia'"_
-12. **`paragraph`** — Refutación: hay momentos para los expertos (un revisor fiscal, un abogado, un contador). Pero la mayor parte del DI cotidiano se hace con sentido común, método y compromiso. Ningún jefe de grupo nació sabiendo; aprendió haciendo + acompañado.
+12. **`paragraph`** — Refutación: hay momentos para los expertos (un contador, un abogado, alguien que sepa de seguros). Pero la mayor parte del DI cotidiano se hace con sentido común, método y compromiso. Ningún jefe de grupo nació sabiendo; aprendió haciendo + acompañado.
 13. **`info-box`** — Cierre: _"Si hubo un mito que reconociste como tuyo: bienvenido al club. Ahora lo importante es que ya tienes con qué responderle a quien lo repita."_
 
 **Reflexión:** _"Piensa en una persona concreta de tu grupo o región (puedes usar solo su rol o iniciales) que alguna vez dijo o pensó algo parecido a uno de estos 5 mitos — y en qué momento fue (una reunión, una salida, una conversación de pasillo). Escribe qué dijo y qué le responderías hoy, con tus propias palabras."_
@@ -175,7 +175,7 @@ Este hook se enuncia explícitamente en la Lección 1 (Bienvenida) al abrir el c
 3. **`method-grid`** — Tres tipos de órganos con icono distinto:
     - 🏛️ **Gobierno** — _Asambleas y Consejos. Deciden el rumbo._ → Color morado.
     - ⚙️ **Operación** — _Equipos de Jefatura. Ejecutan las decisiones._ → Color verde.
-    - 👁️ **Control** — _Cortes de Honor y Comisiones de Vigilancia y Control. Velan por la legalidad y la ética._ → Color amarillo.
+    - 👁️ **Control** — _La Corte de Honor Nacional y la Comisión Nacional de Vigilancia y Control. Velan por la legalidad y la ética — y en el país, no en cada grupo._ → Color amarillo.
 4. **`paragraph`** — Aplicación: _"En tu grupo: Asamblea de Grupo (aprueba el rumbo) → Consejo de Grupo (gobierna el día a día) → Equipo de Jefatura (ejecuta) → el Contador de Grupo, que ejerce el control de las cuentas (auditoría, seguimiento y control contable, fiscal y financiero). En tu región: Asamblea Regional → Consejo Regional → Jefatura Regional → el Contador Regional como control fiscal-contable (salvo que la región tenga personería jurídica propia, caso en el que la ley exige un Revisor Fiscal elegido por la asamblea). En el país: Asamblea Scout Nacional → Consejo Scout Nacional → Jefatura Scout Nacional → Comisión Nacional de Vigilancia y Control + Corte de Honor Nacional."_ (ADR-022, 02-ago-2026: el Fiscal/Revisor Fiscal de Grupo y Región no está vigente, reemplazado por el Contador.)
 5. **`heading` (nivel 3)** — _"La normatividad marco que rige todo"_
 6. **`list`** — Las 4 normas marco vigentes:
@@ -293,7 +293,7 @@ Este hook se enuncia explícitamente en la Lección 1 (Bienvenida) al abrir el c
 >
 > a) _"Que las promesas grandes son más valiosas porque muestran más compromiso."_
 > b) _"Que un grupo institucionalmente sano se construye con promesas chicas que sí se cumplen, no con promesas grandes que se quedan en el aire."_  ✅
-> c) _"Que ese tipo de promesas deberían dejárselas al jefe de grupo, que es quien tiene la responsabilidad final de la marcha del grupo."_
+> c) _"Que ese tipo de promesas deberían dejárselas al jefe de grupo, que para eso coordina el equipo de Jefatura y tiene más experiencia."_
 
 **Logro al completar:** "Constructor Institucional" (logro final del curso, `unlockOnModule: -1`).
 

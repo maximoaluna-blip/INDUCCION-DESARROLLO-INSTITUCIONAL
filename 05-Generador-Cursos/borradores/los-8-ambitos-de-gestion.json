@@ -3,7 +3,7 @@
   "title": "Los 8 Ámbitos de Gestión",
   "subtitle": "Curso 4 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Recorrido panorámico de los 8 ámbitos de gestión que la PNDI 2017 identifica como el contenido operativo del Desarrollo Institucional. Una micro-historia por ámbito (no 8 definiciones). Al final, el adulto sabe ubicar cualquier decisión cotidiana del grupo en el ámbito que le corresponde.",
-  "contentVersion": "2026-09-20",
+  "contentVersion": "2026-09-21",
   "icon": "🧭",
   "duration": "~35 min",
   "level": 1,
@@ -435,7 +435,7 @@
             "text": "En la asamblea de cierre, un grupo entrega pines de antigüedad a dirigentes que cumplen 5, 10 y 15 años, y otorga el reconocimiento del año a un papá voluntario destacado. ¿En qué ámbito de la PNDI se ubica esta práctica?",
             "options": [
               "Crecimiento y Sistema de Información.",
-              "Comunicaciones y Relaciones Interinstitucionales — sub-ámbito imagen institucional.",
+              "Comunicaciones y Relaciones Interinstitucionales — sub-ámbito relaciones públicas.",
               "Control y Reconocimiento — sub-ámbito estímulos y reconocimientos."
             ],
             "correctIndex": 2

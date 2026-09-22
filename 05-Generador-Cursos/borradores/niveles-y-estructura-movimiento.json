@@ -3,7 +3,7 @@
   "title": "Niveles y Estructura del Movimiento",
   "subtitle": "Curso 3 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Aterriza la estructura completa del Movimiento Scout: 5 niveles (Mundial, Interamericano, Nacional, Regional, Local) con su arquitectura de órganos por nivel. Importante: la estructura es asimétrica — no se replica el mismo modelo de tres órganos uniformes en cada nivel.",
-  "contentVersion": "2026-09-20",
+  "contentVersion": "2026-09-21",
   "icon": "🏗️",
   "duration": "~35 min",
   "level": 1,
@@ -195,13 +195,13 @@
             },
             {
               "title": "⚖️ Investigación / Disciplina",
-              "description": "Vela por la ética, el debido proceso y las sanciones cuando hay faltas. Cortes de Honor, Comisiones Disciplinarias. No deciden el rumbo del grupo, pero protegen su integridad.",
+              "description": "Vela por la ética, el debido proceso y las sanciones cuando hay faltas. En la ASC son la Corte de Honor Nacional con sus Capítulos Regionales y, en el grupo, la Comisión Disciplinaria Ad-hoc. No deciden el rumbo del grupo, pero protegen su integridad.",
               "color": "#fce4ec",
               "borderColor": "#e91e63"
             },
             {
               "title": "👁️ Control / Fiscal",
-              "description": "Vigila la legalidad y la gestión administrativa-financiera. Comisiones de Vigilancia, Revisorías Fiscales. Tampoco gobierna, pero es el filtro que evita que el grupo se desvíe.",
+              "description": "Vigila la legalidad y la gestión administrativa-financiera. En la ASC son la Comisión Nacional de Vigilancia y Control y, en región y grupo, el Contador. Tampoco gobierna, pero es el filtro que evita que el grupo se desvíe.",
               "color": "#fff9c4",
               "borderColor": "#fbc02d"
             }
@@ -384,13 +384,13 @@
             },
             {
               "title": "⚙️ Administración — Consejo Regional",
-              "description": "Dirige la región en receso de la Asamblea. Encabezado por el Presidente del Consejo Regional. Incluye al Jefe Regional.",
+              "description": "Dirige la región en receso de la Asamblea. Encabezado por el Presidente del Consejo Regional. Incluye al Jefe Scout Regional.",
               "color": "#e8f5e9",
               "borderColor": "#4caf50"
             },
             {
               "title": "🛠️ Técnico — Jefatura Regional",
-              "description": "Equipo operativo de la región, liderado por el Jefe Regional (a veces llamado, de forma informal, 'Comisionado Regional'). Coordina la asistencia a los grupos.",
+              "description": "Equipo operativo de la región, liderado por el Jefe Scout Regional. Con él trabajan los Comisionados Regionales, que siempre llevan apellido: de Programa de Jóvenes, de Adultos en el Movimiento, de Desarrollo Institucional, de Crecimiento… “Comisionado Regional” a secas no es un cargo: falta decir de qué.",
               "color": "#e3f2fd",
               "borderColor": "#2196f3"
             },
@@ -491,7 +491,7 @@
             },
             {
               "title": "🛠️ Técnico — Equipo de Jefatura del Grupo",
-              "description": "Encabezado por el Jefe de Grupo. Son los dirigentes que efectivamente trabajan con los chicos en cada rama (Manada, Tropa, Comunidad, Clan).",
+              "description": "Encabezado por el Jefe de Grupo. Son los dirigentes que efectivamente trabajan con los chicos en cada rama (Familia, Manada, Tropa, Comunidad, Clan).",
               "color": "#e3f2fd",
               "borderColor": "#2196f3"
             },
@@ -585,7 +585,7 @@
         },
         {
           "type": "mission-box",
-          "text": "<strong>📌 Tu mapa institucional — Nivel Grupo:</strong><br>• Jefe de Grupo: __________<br>• Presidente del Consejo de Grupo: __________<br>• Vicepresidente del Consejo: __________<br>• Tesorero: __________<br>• Contador (control fiscal-contable): __________<br>• Canciller del Grupo: __________<br>• Secretario: __________<br>• Consejero Juvenil del Grupo: __________"
+          "text": "<strong>📌 Tu mapa institucional — Nivel Grupo:</strong><br>• Jefe de Grupo: __________<br>• Presidente del Consejo Scout de Grupo: __________<br>• Vicepresidente del Consejo: __________<br>• Tesorero: __________<br>• Contador (control fiscal-contable): __________<br>• Canciller del Grupo: __________<br>• Secretario: __________<br>• Consejero Juvenil del Grupo: __________"
         },
         {
           "type": "mission-box",
@@ -654,7 +654,7 @@
             "options": [
               "A la Comisión Nacional de Vigilancia y Control directamente, porque es un asunto bastante serio.",
               "Al Contador del Grupo y, si amerita sanción, a la Comisión Disciplinaria Ad-hoc.",
-              "Al órgano disciplinario del nivel nacional, porque se trata de un asunto disciplinario."
+              "Directo a la Corte de Honor Nacional, porque el caso es disciplinario."
             ],
             "correctIndex": 1
           },

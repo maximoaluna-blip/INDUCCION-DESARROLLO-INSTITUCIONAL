@@ -3,7 +3,7 @@
   "title": "Mi Aporte al Desarrollo Institucional",
   "subtitle": "Curso 6 de la Línea Desarrollo Institucional · Cierre del Nivel 1 — Fundamentación",
   "description": "Curso de cierre del Nivel 1. Convierte todo lo aprendido en un plan personal de aporte al DI, listo para firmar y compartir con el consejo. Lee automáticamente tu catálogo de buenas prácticas del Curso 5 y tu brújula personal del Curso 2, te propone metas-tipo por cada uno de los 8 ámbitos con recursos y plazos, y termina con un PDF firmable.",
-  "contentVersion": "2026-09-20",
+  "contentVersion": "2026-09-21",
   "icon": "🗺️",
   "duration": "30 minutos",
   "level": 1,
@@ -117,9 +117,9 @@
           {
             "text": "Un dirigente mira su catálogo del Curso 5 y ve que “Recursos Económicos” quedó en 🔴 NO. Le dice a otro dirigente: “Ese ámbito no aplica para nosotros, mejor lo dejamos de lado.” ¿Qué le responderías según esta lección?",
             "options": [
-              "“Tiene razón — si el catálogo dice NO, ese ámbito no es prioritario para el grupo y conviene descartarlo del plan de trabajo de este año.”",
+              "“Tiene razón — si el catálogo dice NO, ese ámbito no le aplica a un grupo del tamaño del nuestro y conviene sacarlo del plan de trabajo.”",
               "“Al contrario — un ámbito en NO es justo una brecha a construir; es candidato para una meta ‘crear primera práctica’, no para descartarlo.”",
-              "“Solo aplica si lo pide el auditor regional; mientras tanto se puede ignorar.”"
+              "“Solo aplica si lo pide el Contador Regional; mientras tanto se puede ignorar.”"
             ],
             "correctIndex": 1
           },

@@ -3,7 +3,7 @@
   "title": "Bienvenida al Desarrollo Institucional",
   "subtitle": "Curso 1 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Si crees que el Desarrollo Institucional es asunto de comisionados nacionales, este curso es para ti. En 25 minutos vas a entender por qué te aplica, vas a desarmar los 5 mitos más comunes, vas a ubicar los órganos de la ASC y, sobre todo, vas a salir con un primer compromiso chico, concreto y tuyo. Sin tecnicismos. Sin papeleo. Solo claridad sobre lo que ya estás haciendo y lo que sigue.",
-  "contentVersion": "2026-09-20",
+  "contentVersion": "2026-09-21",
   "icon": "🏛️",
   "duration": "25 minutos",
   "level": 1,
@@ -228,7 +228,7 @@
         },
         {
           "type": "paragraph",
-          "text": "<strong>Falso.</strong> Hay momentos para los expertos: un revisor fiscal, un abogado, un contador. Pero <strong>la mayor parte del DI cotidiano se hace con sentido común, método y compromiso</strong>. Ningún jefe de grupo nació sabiendo. Aprendió haciendo, equivocándose y siendo acompañado."
+          "text": "<strong>Falso.</strong> Hay momentos para los expertos: un contador, un abogado, alguien que sepa de seguros. Pero <strong>la mayor parte del DI cotidiano se hace con sentido común, método y compromiso</strong>. Ningún jefe de grupo nació sabiendo. Aprendió haciendo, equivocándose y siendo acompañado."
         },
         {
           "type": "info-box",
@@ -303,7 +303,7 @@
             },
             {
               "title": "👁️ Control",
-              "description": "<strong>Cortes de Honor y Comisiones de Vigilancia y Control.</strong> Velan por la legalidad, la ética y el cumplimiento. Son el filtro que protege a la institución.",
+              "description": "<strong>La Corte de Honor Nacional y la Comisión Nacional de Vigilancia y Control.</strong> Velan por la legalidad, la ética y el cumplimiento. Son el filtro que protege a la institución — y en el país, no en cada grupo.",
               "color": "#fff9c4",
               "borderColor": "#fbc02d"
             }
@@ -611,7 +611,7 @@
             "options": [
               "Que las promesas grandes son más valiosas porque muestran más compromiso",
               "Que un grupo institucionalmente sano se construye con promesas chicas que sí se cumplen, no con promesas grandes que se quedan en el aire",
-              "Que ese tipo de promesas deberían dejárselas al jefe de grupo, que es quien tiene la responsabilidad final de la marcha del grupo"
+              "Que ese tipo de promesas deberían dejárselas al jefe de grupo, que para eso coordina el equipo de Jefatura y tiene más experiencia"
             ],
             "correctIndex": 1
           }

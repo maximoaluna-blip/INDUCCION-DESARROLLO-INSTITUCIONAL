@@ -117,7 +117,7 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
 >
 > a) _"Tiene razón — si el catálogo dice NO, ese ámbito no es prioritario y conviene descartarlo del plan."_
 > b) _"Al contrario — un ámbito en NO es justo una brecha a construir; es candidato para una meta 'crear primera práctica', no para descartarlo."_ ✅
-> c) _"Solo aplica si lo pide el auditor regional; mientras tanto se puede ignorar."_
+> c) _"Solo aplica si lo pide el Contador Regional; mientras tanto se puede ignorar."_
 
 > **P2.** Si la mayoría de tus 8 ámbitos están en NO o PARCIAL (situación típica), este curso recomienda…
 >

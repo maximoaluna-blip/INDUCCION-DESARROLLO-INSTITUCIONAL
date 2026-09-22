@@ -169,7 +169,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada uno de los 5 atrib
 >
 > a) _Ser innovadora — todavía no aporta nada nuevo._
 > b) _Ser sostenible — depende de que una persona puntual la impulse cada vez, así que no se sostiene sola en el tiempo con los recursos que ya tiene el grupo._ ✅
-> c) _Ser aplicable a toda la institución — solo sirve para grupos que tengan un jefe de grupo activo y presente, así que no se puede replicar en cualquiera._
+> c) _Ser efectiva — lleva apenas 8 meses aplicándose, así que todavía no hay manera de comprobar si el protocolo logra de verdad el resultado que buscaba._
 
 **Logro:** "Manejo el filtro de 5 atributos".
 
@@ -297,7 +297,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada uno de los 5 atrib
 >
 > a) _Sí — con las finanzas en orden y sin hallazgos, ya cumple lo esencial._
 > b) _No — cumplir procesos en un solo ámbito no basta; la PNDI exige ejecutar buenas prácticas de forma democrática, transparente y participativa, y aquí faltan la democracia y la comunicación con las familias._ ✅
-> c) _No, porque primero habría que evaluarlo con un perfil mínimo de 4 en cada una de las 6 dimensiones._
+> c) _No, porque la salud institucional se mide por el crecimiento en número de miembros del grupo._
 
 > **P2.** Si en tu catálogo un ámbito quedó marcado como "Parcial con 2 atributos cumplidos", ¿qué tipo de meta vas a recibir en el Curso 6?
 >

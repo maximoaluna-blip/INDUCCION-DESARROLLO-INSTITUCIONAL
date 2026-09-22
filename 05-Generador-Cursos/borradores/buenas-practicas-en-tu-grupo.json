@@ -3,7 +3,7 @@
   "title": "Buenas Prácticas en Tu Grupo",
   "subtitle": "Curso 5 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Lo que tu grupo ya hace bien es la materia prima del Desarrollo Institucional. En ~30 minutos vas a entender qué es una buena práctica según el Cap. 10 de la PNDI 2017, conocer los 5 atributos que la diferencian de una rutina, recorrer los 8 ámbitos de gestión buscándolas en tu propio grupo y salir con un catálogo personal de buenas prácticas listo para alimentar el plan del Curso 6.",
-  "contentVersion": "2026-09-20",
+  "contentVersion": "2026-09-21",
   "icon": "🌟",
   "duration": "30 minutos",
   "level": 1,
@@ -156,7 +156,7 @@
             "options": [
               "Sí, porque lleva 12 años funcionando sin ningún problema para el grupo ni para las familias.",
               "No, porque no es repetible sin la persona: cuando don Carlos se vaya, se va con él.",
-              "No, porque el tesorero debería llevar las cuentas en un software contable y no en un cuaderno."
+              "No, porque una rutina de 12 años ya no está conectada con ninguno de los 8 ámbitos de gestión."
             ],
             "correctIndex": 1
           },
@@ -281,7 +281,7 @@
             "options": [
               "Ser innovadora — todavía no aporta nada nuevo.",
               "Ser sostenible — depende de que una persona puntual la impulse cada vez, así que no se sostiene sola en el tiempo con los recursos que ya tiene el grupo.",
-              "Ser aplicable a toda la institución — solo sirve para grupos que tengan un jefe de grupo activo y presente, así que no se puede replicar en cualquiera."
+              "Ser efectiva — lleva apenas 8 meses aplicándose, así que todavía no hay manera de comprobar si el protocolo logra de verdad el resultado que buscaba."
             ],
             "correctIndex": 1
           }
@@ -581,7 +581,7 @@
             "options": [
               "Sí — con las finanzas en orden y sin hallazgos, ya cumple lo esencial.",
               "No — cumplir procesos en un solo ámbito no basta; faltan democracia y comunicación.",
-              "No, porque primero habría que evaluarlo con un perfil mínimo de 4 en cada una de las 6 dimensiones."
+              "No, porque la salud institucional se mide por el crecimiento en número de miembros del grupo."
             ],
             "correctIndex": 1
           },

@@ -239,7 +239,7 @@ Se enuncia en la Lección 1, se referencia en cada lección de ámbitos (3, 4, 5
 > **P2.** El Manual de Estímulos Nacionales y el Manual de la Orden al Mérito Scout son herramientas del ámbito de…
 >
 > a) _Crecimiento y Sistema de Información._
-> b) _Comunicaciones y Relaciones Interinstitucionales — sub-ámbito imagen institucional._
+> b) _Comunicaciones y Relaciones Interinstitucionales — sub-ámbito relaciones públicas._
 > c) _Control y Reconocimiento (sub-ámbito reconocimientos y estímulos)._ ✅
 
 **Logro:** "Domino los ámbitos protectores".

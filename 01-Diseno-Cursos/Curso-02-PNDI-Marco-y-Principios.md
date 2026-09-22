@@ -227,7 +227,7 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 2. **`paragraph`** — Apertura: _"Si los tres primeros principios cuidan el presente del grupo, estos cuatro lo proyectan hacia el futuro. Y uno de ellos —Participación Juvenil— es marca registrada del scoutismo: lo que nos diferencia de otras instituciones educativas."_
 3. **`heading` (nivel 3)** — _"Principio 4 — Aspiracional y Transformacional 🚀"_
 4. **`paragraph`** — _"**Lo que dice:** el DI no se contenta con que las cosas funcionen — busca que mejoren y transformen. Si todo está estable pero nadie está creciendo, el principio no se cumple."_
-5. **`paragraph`** — _"**Caso:** un grupo lleva 6 años con 35 chicos y 8 dirigentes, estable. El consejo está cómodo. Pero la PNDI les pregunta: ¿están aspirando a algo más? Tal vez abrir una rama de Caminantes para retener a los que crecen. Tal vez salir del barrio a una zona de menos cobertura scout. El Principio empuja a no confundir estabilidad con plenitud."_
+5. **`paragraph`** — _"**Caso:** un grupo lleva 6 años con 35 chicos y 8 dirigentes, estable. El consejo está cómodo. Pero la PNDI les pregunta: ¿están aspirando a algo más? Tal vez abrir una Comunidad de Nómadas Scout para retener a los que crecen. Tal vez salir del barrio a una zona de menos cobertura scout. El Principio empuja a no confundir estabilidad con plenitud."_
 6. **`heading` (nivel 3)** — _"Principio 5 — Coherencia 🎯"_
 7. **`paragraph`** — _"**Lo que dice:** lo que decimos, lo que hacemos y lo que decidimos tienen que apuntar al mismo lado. Cuando hay incoherencia, los chicos y las familias la detectan primero."_
 8. **`paragraph`** — _"**Caso:** un grupo dice en su carta de presentación 'somos un grupo inclusivo y abierto'. Pero cuando llega una familia con un chico con discapacidad, nadie sabe qué hacer y el chico no se siente acogido. El Principio dice: **si lo decimos, lo hacemos; si no lo hacemos, no lo digamos**. Y mejor, capacitemos al equipo para hacerlo."_
@@ -243,7 +243,7 @@ Se enuncia en la Lección 1, se referencia en la Lección 3 (al introducir los f
 
 **Quiz (2 preguntas):**
 
-> **P1.** Una rama de Caminantes va a planear su empresa anual de servicio comunitario. ¿Qué principio del DI debería guiar al equipo de jefatura a involucrar formalmente a los propios caminantes en la elección del proyecto, los aliados y los plazos?
+> **P1.** Una Comunidad de Nómadas Scout va a planear su proyecto anual de servicio comunitario. ¿Qué principio del DI debería guiar al equipo de jefatura a involucrar formalmente a los propios nómadas en la elección del proyecto, los aliados y los plazos?
 >
 > a) _Prospectiva — pensar a 10 años el servicio._
 > b) _Coherencia — alinear discurso y acción del equipo._
