@@ -87,9 +87,9 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 | 5 | 🌟 Buenas Prácticas en Tu Grupo | `buenas-practicas-en-tu-grupo` | 30 min | ✅ Activo |
 | 6 | 🗺️ Mi Aporte al Desarrollo Institucional | `mi-aporte-al-desarrollo-institucional` | 30 min | ✅ Activo |
 
-## Cursos del Nivel 2 (Profundización por ámbito de gestión) — en construcción
+## Cursos del Nivel 2 (Profundización por ámbito de gestión) — completo
 
-> Abierto el 27-sep-2026 con el Curso 7 (ADR-085). 8 cursos en el plan: Gobernanza Práctica, Planeación, Administración del Grupo, Finanzas Sanas, Captación de Fondos, Comunicaciones, Crecimiento, Gestión del Riesgo.
+> Abierto el 27-sep-2026 con el Curso 7 (ADR-085) y cerrado el 28-sep-2026 con el Curso 14 (ADR-103), bajo la autonomía que dio el dueño hasta completar el nivel. De los 8 focos del Plan, 6 no tenían fuente o la tenían a medias: cada diseño lo registra en su §0.
 
 | # | Curso | courseId | Duración | Estado |
 |---|---|---|---|---|
@@ -190,7 +190,7 @@ Detalles en [`BACKEND.md`](BACKEND.md).
 
 ---
 
-## Estado actual (27-sep-2026)
+## Estado actual (28-sep-2026)
 
 **Niveles 1 y 2 completos: 14 cursos `active`** (Nivel 2: Cursos 7 a 14, cerrado el 28-sep-2026 con el ADR-103), todos con las 3 auditorías. El Curso 7 (`gobernanza-practica`, ADR-085) pasó doctrinal y pedagógica **con re-auditoría** y la suite E2E contra el build local antes de publicarse.
 
@@ -209,9 +209,22 @@ Detalles en [`BACKEND.md`](BACKEND.md).
 ### Fase siguiente
 
 - **Nivel 2 — Profundización**: completo (8 de 8).
-- **Nivel 3 — Especialización por cargo** (6 cursos).
+- **Nivel 3 — Especialización por cargo** (6 cursos): **se consulta con el dueño antes de diseñarlo** (la autonomía llegaba hasta cerrar el Nivel 2). Comprobar el foco de cada curso contra el corpus: en el Nivel 2, 6 de 8 no tenían fuente.
 - **Nivel 4 — Transversales** (4 cursos), priorizando el Curso 23 (Código de Honor) por su carácter universal.
 - Evaluar si separar el backend de la Línea Política de Adultos (criterios en `BACKEND.md`).
+
+### Consultas pendientes (al CSN o a la DNDI; ninguna cambia lo que enseñan los cursos publicados)
+
+- **RN Art. 231, literal d:** el texto se corta en el PDF oficial (Cursos 9, 10 y 11 citan la regla principal, que está completa).
+- **Acuerdo CSN 558/2023:** su texto no está en el corpus; se aplica por lo que dicen el ADR-022 y el glosario.
+- **RN Art. 81:** si «consejeros» incluye a los del Consejo de Grupo (compensación por gestión de donaciones, Curso 11; el curso toma la lectura prudente).
+- **RN Art. 47:** si a la excepción («los miembros, patrocinadores y honorarios») le falta «colaboradores», como en el RG 4.2.3 (Curso 13).
+- **Documentos que no están en el corpus:** Manual de Imagen Corporativa y Reglamento de Uniformes, Insignias y Distintivos (RN 232, 235; Curso 12), Manual de Afiliaciones (RN 43; Curso 13), manuales de crecimiento de la DNDI, Protocolo Nacional de Transporte, Política de Conflictos de Intereses (Acuerdo 419), Constitución de la OMMS (cita del Curso 3).
+
+### Tareas técnicas
+
+- Extender `checkOvejaNegra` a **prefijos** de 2–4 palabras (ver la deuda técnica de `DECISIONES.md`).
+- Variar la última pregunta de los **Cursos 9 y 10**, que comparten el molde «Proponer al Consejo de <mes>…».
 
 ---
 

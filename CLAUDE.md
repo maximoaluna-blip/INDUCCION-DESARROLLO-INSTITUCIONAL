@@ -4,71 +4,48 @@
 
 ## Qué es
 
-Una de las 3 líneas activas de formación digital para adultos voluntarios de la Asociación Scouts de Colombia (junto a Política de Adultos y Programa de Jóvenes). Cursos cortos, certificables y autoservicio sobre gobernanza, planeación, finanzas sanas, salud institucional y los 8 ámbitos de gestión de la PNDI 2017.
+Línea de formación digital para adultos voluntarios de la Asociación Scouts de Colombia sobre la gestión del grupo: los 8 ámbitos de la PNDI 2017, gobernanza, planeación, administración, finanzas, captación de fondos, comunicaciones, crecimiento y gestión del riesgo. Cursos cortos, certificables y autoservicio. Plan total: 24 cursos en 4 niveles (`Plan-de-Formacion-Linea-Desarrollo-Institucional.md`).
 
 **En vivo:** https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/
 
-## Comparte con Política de Adultos y Programa de Jóvenes
+**Cursos publicados, por nivel: ver `../ESTADO.md`** (lo genera `python generar-estado.py` en la raíz; aquí no se escriben cifras). Niveles 1 y 2 completos (28-sep-2026, ADR-103). **El Nivel 3 (por cargo) se consulta con el dueño antes de diseñarlo**: la autonomía que dio el 27-sep llegaba hasta cerrar el Nivel 2. Lo que enseñó cada curso está en su ADR y en `docs/BITACORA.md` de la raíz; los pendientes, en `INDICE-PROYECTO.md`.
 
-- Mismo motor, pero desde el 03-ago-2026 con **fuente única** (ADR-025): el núcleo `engine.core.js` vive en `_MOTOR/` del repo raíz `DOCS-MAESTRAS-ASC` y se propaga con `sincronizar-motor.py`. Lo que aquí hay en `05-Generador-Cursos/templates/engine.core.js` es una **copia: no editarla**. Lo propio de esta línea va en `engine.linea.js`. `build-course.js` y `styles.css` siguen copiados por línea (los vigila `verificar-motor.py`), pero el `plan-builder` ya no está en ellos: lo renderiza `templates/render.plan-builder.js`, copia sincronizada de `_MOTOR/`, **sin vocabulario** — los textos del componente van en `labels` dentro del JSON del curso (ADR-034 Fase 1).
-- Mismo backend de Google Apps Script + Sheet, mismo token (`ADULTOS_ASC_2026`) durante el piloto compartido.
-- Mismo pipeline de publicación — `CLAUDE.md` raíz §7-bis — y el mismo modelo de 3 auditorías antes de publicar un curso: doctrinal, pedagógica y funcional.
-- Sin cursos habilitantes ni piloto humano obligatorio (ADR-019, `DECISIONES.md` raíz) — las 3 auditorías son la compuerta de calidad.
+## Comparte con las demás líneas
 
-⚠️ **Esta línea perdió ocho secciones de dos cursos publicados y nadie lo vio en cinco días (14→19-sep-2026, ADR-067).**
-El commit `6ad00d6` iba a quitar **un** `case` muerto del `build-course.js` —`self-assessment`, que ningún curso de aquí
-usaba— y **se llevó siete vecinos que sí se usaban**. `mi-aporte-al-desarrollo-institucional` se quedó sin su catálogo, su
-brújula, su planificador de metas, su acción sugerida, sus cursos sugeridos y su PDF —**su ejercicio entero**— y
-`buenas-practicas-en-tu-grupo` sin el catálogo que construye y el que relee. No hubo ni un error: el `default` del `switch`
-imprimía un `<p>` vacío, y la suite cerró ese día en 66/66. **El motor de línea nunca perdió sus renderizadores**
-(`renderCatalogDisplays`, `renderBrujulaDisplays`, `renderGoalPlanners`, `generatePlanPDF`…): faltaba solo el hueco que el
-build emite. Restaurado desde la historia y comprobado **byte a byte** contra lo publicado antes. **Hoy el build falla** ante
-un tipo sin `case`, `verificar-motor.py` compara el esquema contra el build y `codigo.spec.js` prohíbe secciones vacías.
-*Antes de borrar «código muerto» de esta línea: mirar qué cursos lo declaran, no qué nombre tiene.*
+- **Motor** con fuente única (ADR-025): `05-Generador-Cursos/templates/engine.core.js` y `render.plan-builder.js` son **copias de `_MOTOR/`: no editarlas**. Lo propio de la línea va en `engine.linea.js`; `build-course.js` y `styles.css` son por línea (los vigila `verificar-motor.py`).
+- **Backend** Apps Script + Sheet compartido, token `ADULTOS_ASC_2026` (`BACKEND.md`).
+- **Publicación** según `CLAUDE.md` raíz §7-bis (tres repos: línea, portal y panel) y **tres auditorías** antes de publicar: doctrinal, pedagógica y funcional (ADR-019).
 
-## Específico de esta línea
+## Cómo se construye un curso aquí (lo que costó aprender)
+
+1. **Comprobar que el foco del Plan tiene fuente antes de diseñar.** En el Nivel 2, **6 de 8 focos** no la tenían o la tenían a medias (el «modelo de 4 elementos», las «8 áreas / 5 pasos / 12 herramientas», el taller regional de finanzas, las «6 fuentes» y el «17 %», el «≥2 %» regional, el ciclo «identificación-análisis-tratamiento-monitoreo»). Se construye sobre la PNDI, el Reglamento Nacional, el Reglamento de Grupos, el Estatuto y el Manual de Cargos; lo demás queda fuera y se dice en el §0 del diseño.
+2. **Una cifra o un ciclo sin fuente no vive en un solo curso**: al quitarlo, buscarlo también en los cursos publicados y en `engine.linea.js` (así salieron el 17 %, el ≥2 % y el ciclo de riesgo de los Cursos 4 y 6 y del motor).
+3. **Jerarquía normativa** (RN Art. 19): el Reglamento Nacional 2026 manda sobre el Reglamento de Grupos 2013 (contratos por la Región, RN 231; colectas, RN 80; período fiscal, RN 228; unidades de negocio nacionales, RN 116). El **Acuerdo CSN 558/2023** suspendió lo del RG sobre **cargos de adultos**, no sobre **órganos**: para cargos manda el Manual. El RN da un año (Art. 246) para actualizar el RG: revisar hacia julio de 2027 lo que citan los cursos.
+4. **El defecto más repetido de las re-auditorías: un distractor que otra norma vigente sostiene.** Antes de dar una opción por falsa, buscar si otro reglamento, ficha o política la defiende. Y las correcciones meten defectos nuevos: **siempre re-auditar** y cerrar con una verificación acotada de lo cambiado.
+5. **Fugas de quiz que el build no ve:** la polaridad («elige la más prudente»), los **prefijos** compartidos por los dos distractores (`checkOvejaNegra` solo mira la primera palabra), las palabras que solo salen en correctas o solo en distractores, y el personaje que opina y siempre se equivoca. Medirlas en cada vuelta: cambian de forma al corregirlas.
+6. **Activar un curso es editar `02-Plataforma-Web/cursos.json`:** el build conserva el `status` que ya tiene el catálogo. Si solo se cambia el JSON del curso, la suite local corre **sin él** y sale verde igual — mirar que el número de pruebas suba.
+7. **La suite corre contra producción por defecto**: antes de publicar, `ASC_BASE_URL="http://localhost:8128/02-Plataforma-Web/" npx playwright test` (servidor: `preview_start` `desarrollo-institucional`); después, sin la variable. Avisar a las otras sesiones antes de correr una suite.
+8. **El recuadro «Compromiso Personal» del certificado se declara por curso** (`commitmentBox`, ADR-092). Las reflexiones piden **roles, no nombres**.
+9. **Sin voseo** en ningún texto visible (español neutro colombiano): se busca por su forma, no con una lista.
+10. **La protección de niños y jóvenes en la actividad** es del Curso 25 de PJ y de Políticas Transversales: esta línea remite (URL absoluta) y no la enseña.
+
+## Trampas de la línea
+
+- ⚠️ **Antes de borrar «código muerto» de esta línea, mirar qué cursos lo declaran** (ADR-067): quitar un `case` del build se llevó siete que sí se usaban y dejó dos cursos publicados sin su ejercicio durante cinco días. Hoy el build falla ante un tipo sin `case` y `codigo.spec.js` prohíbe secciones vacías.
+- ⚠️ **Un `policy-quote` es literal, oficial y verificable** (ADR-071/072). Si la frase es nuestra, va en `info-box`.
+- ⚠️ **`verificar-certificado.html` vive en la raíz del repo** y su `SCRIPT_URL` es el backend de la plataforma, no el de Rover (ADR-070).
+- ⚠️ **El diseño `.md` no es espejo del JSON**: lo que se publica es el JSON; el diseño guarda las decisiones de fuente y el registro de auditorías.
+- ⚠️ **En `DECISIONES.md` los ADR 001–060 van ascendentes y del 061 en adelante descendentes**: un ADR nuevo va encima del mayor del bloque descendente.
+- ⚠️ **Fiscal/Revisor Fiscal de Grupo no vigente** (ADR-022): lo reemplaza el Contador.
+
+## Documentos de la línea
 
 | Documento | Para qué |
 |---|---|
-| `CREAR-CURSO.md` | Manual operativo de creación de cursos de esta línea (incluye paso de auditoría funcional) |
-| `Recomendaciones-Cowork-Diseno-Cursos.md` | Guía de diseño pedagógico dirigida a Cowork |
-| `INDICE-PROYECTO.md` | Estado, URLs, dependencias técnicas |
-| `BACKEND.md` | Backend Apps Script propio de esta línea |
-| `AUDITORIA.md` | Historial de auditoría doctrinal |
-| `PRUEBAS-E2E/README.md` | Auditoría funcional — corre en cada push/PR |
-| `Plan-de-Formacion-Linea-Desarrollo-Institucional.md` | Plan completo de la línea (24 cursos) |
-
-## Estado (ver `INDICE-PROYECTO.md` para el detalle vivo)
-
-> ✅ **28-sep-2026 — Curso 14 `gestion-del-riesgo` publicado (ADR-103): se cierra el Nivel 2 (Cursos 7 a 14).** El «ciclo identificación, análisis, tratamiento, monitoreo» del Plan **no tiene fuente**: se usan los cuatro momentos de la PNDI §8.2.7, y el **Curso 4 publicado** —que enseñaba ese ciclo— se alineó. La protección de NNA en la actividad es del **Curso 25 de PJ** y de PT (acordado con esa sesión, que revisó el diseño: sin choques); aquí no se enseña el 2+1 ni se afirma un protocolo nacional de transporte. La foto de un menor herido es **primero ambiente seguro**, después reputación. ⚠️ **«Amenaza» (PNDI) no es «peligro» (ASP, PJ)**: junta el peligro y el riesgo que trae; la matriz de PJ (1–5) y el mapa de DI (alta/media/baja) conviven con un puente explícito.
-
-> ✅ **27-sep-2026 — Curso 13 `crecimiento-sistema-informacion` publicado (ADR-102).** El «crecimiento ≥2 %» del Plan es un **KPI regional de países** (Plan Interamericano 11.3.1), no una meta de grupo: fuera del curso, **de la meta-tipo CR-fort del motor y del Curso 6 publicado**. La meta nacional es la del Plan Estratégico (10 % anual; 50 % con registro consecutivo 3 años). El RN 47 (nadie participa sin afiliación vigente) nombra a quién verifica **en el nivel nacional**: en el grupo lo hace el **Jefe de Grupo** (Manual 2.1.10). ⚠️ `checkOvejaNegra` solo compara la **primera palabra**: una fuga de **prefijo** (dos distractores con las mismas 2–4 palabras iniciales) pasa el build.
-
-> ✅ **27-sep-2026 — Curso 12 `comunicaciones-relaciones-interinstitucionales` publicado (ADR-101).** Foco del Plan **con fuente entera** (PNDI §8.2.4–8.2.5), y aun así el diseño no vio tres normas: **el Consejo organiza lo que se publica** (RG 5.6.12), el **Jefe de Grupo es vocero** de las decisiones (Manual 2.1.10) y el **conducto regular no es absoluto** (los Jefes de Rama también responden al Consejo). *Que el foco tenga fuente no quiere decir que el diseño haya leído todas.* ⚠️ El **voseo** del motor quedaba en 17 formas más tras el ADR-093: se busca por forma, no por lista.
-
-> ✅ **27-sep-2026 — Curso 11 `captacion-fondos-ciclo-proyectos` publicado (ADR-093).** Cuarto foco del Plan con fuente **a medias**: las «6 fuentes de fondos» y el «margen mínimo del 17 %» son del **taller regional de ValleScout** (quedan fuera; el 17 % también se quitó del **Curso 6** publicado); las «11 fases» sí existen, en una **hoja de actividad de la OMMS** que se enseña como herramienta, no como norma. Tres reglas que deja: **(1)** la compensación por conseguir donaciones (RN 219–220) **no es para consejeros ni personal pagado** (Art. 81); **(2)** quien tiene interés en una decisión **la declara y no participa** (RN 82–83); **(3)** el nombre y el emblema scout **no los autoriza el grupo** a terceros (RN 233). ⚠️ **El build conserva el `status` que ya tiene el catálogo**: activar un curso es editar `cursos.json`, no solo su JSON — si no, la suite local corre **sin él** y sale verde igual. ⚠️ Los textos del motor de DI estaban en **voseo** («completá», «elegí»): corregidos en `engine.linea.js` y `build-course.js`.
-
-> ✅ **27-sep-2026 — Curso 9 `administracion-del-grupo` publicado (ADR-092).** Primer curso del Nivel 2 cuyo foco del Plan **sí** tenía fuente (los 7 sub-ámbitos de la PNDI). Lo que deja: **(1)** el grupo no tiene personería propia (RG 1.2): actúa con la de su Región, y **sus contratos con terceros pasan por la Región** (RN 231) — el Presidente firma **por delegación**, no por su cuenta (RG 5.8); **(2)** las actas y el registro de miembros son del **Secretario del Consejo** (Manual 2.1.4); el **Auxiliar administrativo** (2.1.9) exige formación y el Manual no dice si es voluntario; **(3)** en cursos, un distractor que se puede defender con **otro** texto oficial (RG 5.8, RG 10.1, un requisito de ficha) es el defecto más repetido de las re-auditorías. El recuadro «Compromiso Personal» del certificado es **declarable por curso** (`commitmentBox`, igual que PJ y PT) y lo usan los Cursos 7 a 10.
-
-> ✅ **27-sep-2026 — Curso 10 `finanzas-sanas-presupuesto-tesoreria` publicado (ADR-089): se cierra la Prioridad 1 del Nivel 2 (Cursos 7, 8 y 10).** El foco del Plan era, **punto por punto, el taller regional de ValleScout** (8 premisas, 6 eslabones, 6 pasos, 3 reportes, 14 principios éticos): **tercer foco seguido sin fuente**. Se construyó sobre el **Cap. 10 del Reglamento de Grupos**, el **Reglamento Nacional** y las fichas **2.1.7 Tesorero** y **2.1.8 Contador** del Manual. **Cuatro puntos donde el Reglamento Nacional manda sobre el de Grupos:** período fiscal (Art. 228), contratos con terceros (Art. 231), normas contables (Art. 230) y **colectas públicas (Art. 80: sin excepción de causa)**. El Tesorero **no** es miembro del Consejo según el Manual 2.1.7 (el Reglamento 5.7 decía lo contrario; manda el Manual por el Acuerdo 558). *Una compuerta que solo mira la primera palabra no ve la polaridad*: cinco preguntas se acertaban eligiendo la única opción restrictiva, y todas empezaban por «Que».
-
-> ✅ **27-sep-2026 — Curso 8 `planeacion-plan-estrategico-poa` publicado (ADR-088).** Otra vez el foco del Plan **no tenía fuente** («8 áreas estratégicas, 5 pasos, 12 herramientas del Plan de Grupo»: solo existen **habladas** en una grabación de Flor de Lis II). Al buscar fuente apareció en la biblioteca del CSN el **Reglamento Nacional (Acuerdo C.S.N. 684 de 2026)**, vigente, con la **jerarquía normativa en cinco niveles** (Art. 19) y el **marco estratégico** (Arts. 26–31), y el **Plan Estratégico 2023–2026**, que no estaba en el corpus. **Dos reglas para lo que sigue:** no hay POA regulado para el **grupo** («el plan del año» es buena práctica, no norma), y el Reglamento Nacional da **un año** (Art. 246) para actualizar el Reglamento de Grupos: revisar hacia julio de 2027 lo que citan los Cursos 7 y 8. Las reflexiones piden **roles, no nombres** (decisión del dueño en PJ, aplicada aquí).
-
-> ✅ **27-sep-2026 — se abre el Nivel 2 con el Curso 7 `gobernanza-practica` (ADR-085).** Tres cosas que deja para los siguientes: **(1)** el Plan pedía un «modelo de gobernanza de 4 elementos» que **no está en ninguna fuente**: el curso se construyó sobre la PNDI §8.2.1 y los **8 Principios de Buena Gobernanza del Estatuto 2025 (Art. 9)**. *Antes de construir un curso del Nivel 2, comprobar que el foco del Plan tiene fuente.* **(2)** El **Acuerdo CSN 558/2023** suspendió lo que el Reglamento de Grupos de 2013 dice sobre **cargos de adultos**, no sobre los **órganos**: quórum, citación, facultades de la Asamblea y el Consejo siguen citables; funciones de cargos, no (eso es del Nivel 3 y la PNAM). **(3)** La landing tenía un defecto de contraste que **solo aparece con dos niveles** (`.level-chip-count`, corregido): al abrir un nivel nuevo, correr `landing.spec.js`.
-
-> **20-sep-2026 — los 6 cursos pasaron el barrido de paridad de quizzes (ADR-073):** 23 opciones reescritas, **todas distractores**, la correcta intacta; `contentVersion` en `2026-09-20`. ⚠️ **El diseño `.md` no es espejo del JSON:** el texto de la opción coincidía en **13 de 23**, y en el resto `01-Diseno-Cursos/` guarda una versión anterior y más corta. **Se corrigió el diseño solo donde coincidía literalmente** — lo que se publica es el JSON, y reescribir el diseño entero habría enterrado el diff.
-
-> **La página que verifica los certificados vive en la RAÍZ del repo** (`verificar-certificado.html`) y se enlaza desde el pie del `index.html` — **ADR-070, 20-sep-2026**. El certificado le dice al adulto *«verifica este certificado ingresando el código en la plataforma web»*, así que la página es la otra mitad de esa promesa. ⚠️ Hasta ese día **apuntaba al backend de Rover** (1 certificado) en vez de al de la plataforma (21), así que **ningún certificado real se podía validar**; y **nadie la enlazaba desde ningún sitio**. Al tocar esa página, comprobar las dos cosas: el `SCRIPT_URL` y que siga enlazada.
-
-> ⚠️ **20-sep-2026 — la línea se trazó por primera vez, y trazar destapó tres correcciones** (ADR-071 y ADR-072). `TRAZABILIDAD.csv` pasa de **9 filas a 28** y de **un curso cubierto a los seis**. Lo que apareció al ir afirmación por afirmación con la fuente al lado: **(1)** `buenas-practicas-en-tu-grupo` le atribuía a un **Grupo** un «revisor fiscal» —cargo no vigente desde el **ADR-022**— en un ejemplo **y en el enunciado de un quiz**; **(2)** el `policy-quote` de `los-8-ambitos-de-gestion` presentaba como cita una frase que la PNDI **no trae** (los ocho nombres eran correctos; la frase, nuestra); **(3)** dos cursos definían el Consejo Scout Nacional citando **scout.org.co** teniendo el **Estatuto Nacional 2025** en el corpus, que lo dice en su **Art. 47**. Los tres corregidos, `contentVersion` a 2026-09-20, recompilados y **suite en verde contra el build local** (93 passed). ⏳ **Queda uno:** la *Constitución de la OMMS*, fuente de la cita literal que abre `niveles-y-estructura-movimiento`, **no está en el corpus ni en la biblioteca oficial** — la fila queda `PENDIENTE` y **el curso no se tocó**.
-> **La regla que dejan:** *un `policy-quote` es un contrato de tres cláusulas —literal, oficial y verificable—.* Si la frase la escribimos nosotros, es un `info-box`; si la fuente es una página web y el documento existe, se cita el documento.
-
-> ✅ **Línea pública y activa.** Reactivada el 02-ago-2026: los 6 cursos están en `status: "active"` en `cursos.json` y la entrada de esta línea en `PORTAL-ADULTOS-ASC/lineas.json` volvió a `"active"`. Con esto queda **cerrado el ADR-021** (la pausa preventiva mientras se verificaba la duda doctrinal del Fiscal de Grupo, resuelta en ADR-022). La pausa no alteró contenido.
-
-**Nivel 1 "Fundamentación" completo: 6 cursos construidos** (Bienvenida, PNDI Marco y Principios, Niveles y Estructura del Movimiento — ahora 7 lecciones, dividida la que cubría Regional+Grupo —, Los 8 Ámbitos de Gestión, Buenas Prácticas en Tu Grupo, Mi Aporte al DI). **Las 3 auditorías completas desde el 02-ago-2026** (doctrinal, pedagógica y funcional — ver `ESTADO-AUDITORIA.md` raíz), mismo estándar que Programa de Jóvenes. Plan total 24 cursos.
-> **La landing agrupa por nivel desde el 17-sep-2026 (ADR-058).** Cada entrada de `cursos.json` lleva **`level`, `levelName` y `order`**, y el `index.html` los pinta en secciones plegables. **Esta línea ya declaraba los tres campos desde su construcción; lo que faltaba era que la landing los usara** — el dato estaba bien y la página lo ignoraba, que es el reverso del modo de fallo habitual. ⚠️ Son **metadatos de catálogo** — no entran en el HTML del curso, así que añadirlos **no cambió ninguna página publicada**. Y nació `PRUEBAS-E2E/tests/landing.spec.js`, porque **ninguna prueba tocaba esta página**: las suites se parametrizan por el catálogo y lo que no es un curso quedaba fuera por construcción.
-
-
-**Doctrina corregida el mismo día (ADR-022):** el Fiscal/Revisor Fiscal de Grupo y Región **no está vigente/operativo** — lo reemplaza el **Contador** (Manual de Cargos y Perfiles, PNAM), confirmado por consulta directa con la Jefatura Scout Nacional. Excepción legal: una región con personería jurídica propia sí debe tener Revisor Fiscal por ley colombiana. Ver `CLAUDE.md` raíz §5.1 y `GLOSARIO-ASC.md` §A para la regla general del proyecto.
-
-Todas las mejoras estructurales que habían quedado pendientes tras la auditoría (dividir la lección sobrecargada del Curso 3, gobernanza de 5 elementos + reordenamiento en los 8 ámbitos del Curso 4, recorte de la Lección 3 del Curso 6, ajuste de `CREAR-CURSO.md`) ya se ejecutaron. Queda un solo punto menor cerrado por decisión del dueño del proyecto sin acción pendiente: una discrepancia "Canciller vs. Fiscal" en una meta-tipo del Curso 6 se volvió irrelevante al recortarse ese campo de la Lección 3 (ver `ESTADO-AUDITORIA.md` raíz).
+| `INDICE-PROYECTO.md` | Cursos, arquitectura, workflow y **pendientes** |
+| `CREAR-CURSO.md` | Manual operativo de creación de cursos de la línea |
+| `Recomendaciones-Cowork-Diseno-Cursos.md` | Guía de diseño pedagógico |
+| `01-Diseno-Cursos/` | Un diseño por curso, con §0 (fuentes) y §4 (auditorías) |
+| `BACKEND.md` | Backend Apps Script |
+| `PRUEBAS-E2E/README.md` | Suite funcional (Playwright + axe), corre en CI |
+| `Plan-de-Formacion-Linea-Desarrollo-Institucional.md` | Plan de la línea (24 cursos) |

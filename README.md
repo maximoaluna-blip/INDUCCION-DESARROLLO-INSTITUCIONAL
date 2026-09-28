@@ -6,18 +6,7 @@ Plataforma de formación online de la **Línea Desarrollo Institucional** de la 
 
 ## Estado actual
 
-> **La landing agrupa por nivel desde el 17-sep-2026 (ADR-058).** Cada entrada de `cursos.json` lleva **`level`, `levelName` y `order`**, y el `index.html` los pinta en secciones plegables. **Esta línea ya declaraba los tres campos desde su construcción; lo que faltaba era que la landing los usara** — el dato estaba bien y la página lo ignoraba, que es el reverso del modo de fallo habitual. ⚠️ Son **metadatos de catálogo** — no entran en el HTML del curso, así que añadirlos **no cambió ninguna página publicada**. Y nació `PRUEBAS-E2E/tests/landing.spec.js`, porque **ninguna prueba tocaba esta página**: las suites se parametrizan por el catálogo y lo que no es un curso quedaba fuera por construcción.
-
-**Nivel 1 — Ruta de Fundamentación** completo (~3 horas), construido, con las 3 auditorías pasadas (doctrinal, pedagógica, funcional — ver `ESTADO-AUDITORIA.md` del repo raíz) y **público** (`status: "active"` en `cursos.json`, portal en `"active"`). Reactivado el 02-ago-2026: cierra la pausa preventiva del ADR-021, cuya duda doctrinal quedó resuelta en el ADR-022 (ver `DECISIONES.md` del repo raíz).
-
-| # | Curso | Estado |
-|---|-------|--------|
-| 1 | 🏛️ Bienvenida al Desarrollo Institucional | ✅ Activo |
-| 2 | 📜 La Política PNDI: Marco y Principios | ✅ Activo |
-| 3 | 🏗️ Niveles y Estructura del Movimiento (7 lecciones) | ✅ Activo |
-| 4 | 🧭 Los 8 Ámbitos de Gestión | ✅ Activo |
-| 5 | 🌟 Buenas Prácticas en Tu Grupo | ✅ Activo |
-| 6 | 🗺️ Mi Aporte al Desarrollo Institucional | ✅ Activo |
+**Niveles 1 y 2 completos**, con las tres auditorías (doctrinal, pedagógica y funcional). El detalle por curso y por nivel lo genera el repo raíz en `ESTADO.md` (`python generar-estado.py`); la lista de cursos, con su ADR, está en `INDICE-PROYECTO.md`. El Nivel 3 (por cargo) está pendiente de la decisión del dueño.
 
 ## Estructura del proyecto
 
@@ -29,13 +18,13 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 ├── assets/                             # Logos, favicon, dark theme
 ├── 02-Plataforma-Web/                  # HTMLs públicos
 │   ├── cursos.json                     # Catálogo: Nivel 1 (6 cursos) + Nivel 2 (8 de 8) — con level/levelName/order
-│   ├── *.html                          # Un HTML por curso (Cursos 01–06)
+│   ├── *.html                          # Un HTML por curso
 │   ├── dashboard-admin.html
 │   └── verificar-certificado.html
 ├── 05-Generador-Cursos/                # Pipeline de construcción
 │   ├── build-course.js                 # JSON → HTML (preserva el status del catálogo en cada rebuild)
 │   ├── preview-course.js               # HTML → preview imprimible
-│   ├── templates/{engine.js, styles.css}
+│   ├── templates/{engine.core.js (copia de _MOTOR), render.plan-builder.js (copia), engine.linea.js, styles.css}
 │   ├── borradores/                     # Fuentes de verdad (JSON)
 │   └── previews/                       # (gitignored)
 └── PRUEBAS-E2E/                        # Auditoría funcional (Playwright + axe), corre en CI

@@ -205,6 +205,12 @@ Cuando se quieren publicar varios cursos del mismo nivel a la vez.
 - [ ] Build de HTML sin errores ni warnings.
 - [ ] Preview PDF revisado y aprobado visualmente.
 - [ ] `cursos.json` actualizado con la entrada del curso.
+- [ ] ⚠️ **El `status` de `02-Plataforma-Web/cursos.json` está en `"active"`**: el build **conserva** el que ya tiene el catálogo, así que cambiar el JSON del curso no basta. Comprobar que la suite local **suba de número** de pruebas al incluirlo (ADR-093).
+- [ ] **El foco del Plan tiene fuente en el corpus**, y el §0 del diseño dice qué entró y qué quedó fuera (en el Nivel 2, 6 de 8 focos no la tenían).
+- [ ] **Re-auditoría hecha** después de corregir, y verificación acotada de lo cambiado: las correcciones suelen meter **distractores defendibles con otra norma**.
+- [ ] **Fugas de quiz que el build no ve**, medidas: polaridad («la más prudente» no acierta más de ~6 de 12), **prefijos** compartidos por los dos distractores, palabras solo en correctas o solo en distractores, personaje que opina y siempre se equivoca (ADR-102).
+- [ ] `commitmentBox` declarado (prompt y placeholder del compromiso) y reflexiones que piden **roles, no nombres**.
+- [ ] Otros cursos que anunciaban este como «(próximamente)» ya no lo dicen.
 - [ ] `verificar-backend.js` retorna 4/4 OK.
 - [ ] `courseId` nuevo sumado a `.github/workflows/pruebas-e2e.yml` y suite `PRUEBAS-E2E` en verde (local o CI) — auditoría funcional, la tercera pata junto a la doctrinal (`/auditar-curso`) y la pedagógica (`/auditar-pedagogia`).
 - [ ] Mini-quiz tiene mínimo 2 preguntas por lección (excepto intro).
