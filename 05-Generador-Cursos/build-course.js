@@ -477,7 +477,7 @@ function renderSection(section) {
             return `<div class="pdf-generator">
                 <p class="pdf-generator-intro">Cuando tu plan esté completo, generá el PDF imprimible con todas las piezas: catálogo · brújula · 5 metas · cursos sugeridos · espacio de firma.</p>
                 <button type="button" class="btn-primary" onclick="generatePlanPDF('${pgId}')">📄 ${section.buttonLabel || 'Descargar mi plan en PDF'}</button>
-                <p class="pdf-generator-help">Se abre en una pestaña nueva — usá "Guardar como PDF" de tu navegador.</p>
+                <p class="pdf-generator-help">Se abre en una pestaña nueva — usa "Guardar como PDF" de tu navegador.</p>
             </div>`;
         // case 'self-assessment' eliminado (14-sep-2026, ADR-034 Fase 2).
         // Renderizaba el autodiagnostico de competencias del adulto con grados de

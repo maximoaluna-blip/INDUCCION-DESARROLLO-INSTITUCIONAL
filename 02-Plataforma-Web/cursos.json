@@ -152,5 +152,19 @@
     "status": "active",
     "file": "captacion-fondos-ciclo-proyectos.html",
     "folder": "captacion-fondos-ciclo-proyectos"
+  },
+  {
+    "courseId": "comunicaciones-relaciones-interinstitucionales",
+    "title": "Comunicaciones y Relaciones Interinstitucionales",
+    "description": "Lo que el grupo dice en público, lo dice en nombre de los Scouts. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Comunicaciones y Relaciones Interinstitucionales, y su ámbito internacional: cómo se informa el grupo hacia adentro y hacia afuera, qué se publica y qué no, quién habla por el grupo, y cómo se cuidan sus alianzas aquí y en el mundo.",
+    "icon": "📣",
+    "duration": "~34 min",
+    "level": 2,
+    "levelName": "Profundización por ámbito de gestión",
+    "order": 12,
+    "modules": 7,
+    "status": "active",
+    "file": "comunicaciones-relaciones-interinstitucionales.html",
+    "folder": "comunicaciones-relaciones-interinstitucionales"
   }
 ]

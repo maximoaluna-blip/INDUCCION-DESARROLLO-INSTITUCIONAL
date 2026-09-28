@@ -1,0 +1,562 @@
+{
+  "courseId": "comunicaciones-relaciones-interinstitucionales",
+  "title": "Comunicaciones y Relaciones Interinstitucionales",
+  "subtitle": "Curso 12 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
+  "description": "Lo que el grupo dice en público, lo dice en nombre de los Scouts. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Comunicaciones y Relaciones Interinstitucionales, y su ámbito internacional: cómo se informa el grupo hacia adentro y hacia afuera, qué se publica y qué no, quién habla por el grupo, y cómo se cuidan sus alianzas aquí y en el mundo.",
+  "contentVersion": "2026-09-27",
+  "status": "active",
+  "icon": "📣",
+  "duration": "~34 min",
+  "level": 2,
+  "levelName": "Profundización por ámbito de gestión",
+  "order": 12,
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~34 minutos · 7 lecciones.</strong><br>Al final vas a poder ubicar lo que comunica tu grupo en los cuatro sub-ámbitos de la Política, cuidar el conducto regular dentro del grupo, publicar sin exponer a los jóvenes ni alterar la marca scout, saber quién habla por el grupo ante terceros, asignar quién responde por cada alianza y reconocer por dónde le llega a tu grupo lo internacional.<br><strong>Cada lección cierra con 2 preguntas:</strong> para avanzar hay que acertar las dos. Si fallas, el curso te muestra la correcta y lo vuelves a intentar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Después del campamento, un dirigente sube a la página del grupo cuarenta fotos con los nombres completos de los lobatos, el emblema «mejorado» con otros colores y un comentario contra la Región por un permiso que se demoró. Al día siguiente llama una emisora del barrio a preguntar por la publicación, y contesta quien alza el teléfono. <strong>Nadie en el grupo quiso hacer daño, y el grupo quedó hablando por toda la Asociación.</strong>"
+        },
+        {
+          "type": "blockquote",
+          "text": "Lo que el grupo dice en público, lo dice en nombre de los Scouts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Este curso trata de cómo se comunica un grupo hacia adentro y hacia afuera, y de cómo se relaciona con otras instituciones, aquí y en el mundo. Los datos personales y la autorización de imagen ya los viste en el Curso 9; los aliados que aportan plata, en el Curso 11."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a practicar"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 📣 Qué es comunicar y relacionarse: cuatro sub-ámbitos.",
+            "<strong>Lección 3 —</strong> 🏠 La comunicación dentro del grupo.",
+            "<strong>Lección 4 —</strong> 📰 Lo que el grupo muestra hacia afuera.",
+            "<strong>Lección 5 —</strong> 🤝 Las relaciones con otras instituciones.",
+            "<strong>Lección 6 —</strong> 🌎 El grupo y el escultismo del mundo.",
+            "<strong>Lección 7 —</strong> 🧭 La revisión de comunicaciones de tu grupo."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de empezar:</strong> abre la página o el grupo de mensajes donde tu grupo publica, y mira las últimas cinco publicaciones. Las vas a usar en la última lección."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 📣 Qué es comunicar y relacionarse",
+      "emoji": "📣",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>La Política pone en un mismo ámbito informar y relacionarse, en cuatro sub-ámbitos: lo interno, lo externo, las relaciones públicas y los acuerdos con otras instituciones."
+        },
+        {
+          "type": "paragraph",
+          "text": "Piensa en cuatro cosas que hizo un grupo este mes: le mandó a las familias el calendario del semestre, publicó las fotos de una salida, saludó al nuevo rector del colegio donde se reúne y firmó con la alcaldía un acuerdo para usar el parque los sábados. Parecen cosas distintas, y la Política las junta en un solo ámbito:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la definición de la Política",
+          "text": "Consiste en captar información, procesarla y enviarla a los destinatarios correspondientes sirviéndose de los canales oficiales. Construir y mantener una imagen pública positiva. Establecer relaciones de beneficio mutuo con otras instituciones y entes.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, §8.2.4 Comunicaciones y Relaciones Interinstitucionales, p. 11"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏠 Comunicaciones internas",
+              "description": "Información a los miembros y a las personas relacionadas sobre lo que pasa en el grupo. Ej.: el calendario a las familias. (Lección 3.)",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "📰 Comunicaciones externas",
+              "description": "Información a los públicos de fuera —la comunidad, los medios, el Estado— de lo que corresponda de manera oficial. Ej.: las fotos de la salida. (Lección 4.)",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            },
+            {
+              "title": "🙌 Relaciones públicas",
+              "description": "Mantener relaciones favorables con los de fuera. Ej.: el saludo al nuevo rector. (Lección 5.)",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🤝 Relaciones interinstitucionales",
+              "description": "Crear y seguir acuerdos y alianzas con otras entidades. Ej.: el acuerdo con la alcaldía por el parque. (Lección 5.)",
+              "color": "#fce4ec",
+              "borderColor": "#ad1457"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política trae además un ámbito aparte para lo internacional (§8.2.5): los vínculos con la Organización Mundial del Movimiento Scout y con otros países. Lo verás en la Lección 6."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> en el caso del campamento se mezclaron dos cosas: una publicación hacia afuera (externa) y una queja contra la Región, que tenía su camino por dentro de la Asociación (Lección 3)."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en lo último que comunicó tu grupo. ¿A qué sub-ámbito pertenece? ¿Alguno de los cuatro no lo cuida nadie en tu grupo? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "Un grupo le pide a la junta de acción comunal de su barrio un espacio fijo en su salón, y acuerdan por escrito los horarios y el cuidado del lugar. ¿En qué sub-ámbito cae?",
+            "options": [
+              "En las relaciones interinstitucionales: es un acuerdo con otra entidad, que hay que crear y seguir.",
+              "En las comunicaciones externas: es información que el grupo le da a un público de fuera del grupo.",
+              "En las relaciones públicas: la junta es un vecino del grupo, y con ella se cuida una buena relación."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El Jefe de Grupo le manda a las familias un mensaje con el costo y la fecha del campamento. Un consejero dice que eso es «relaciones públicas». ¿Qué le respondes?",
+            "options": [
+              "Que es comunicación interna: es información a las personas relacionadas con el grupo sobre lo que pasa en él.",
+              "Que es relaciones públicas: las familias están fuera del grupo, así que un mensaje a ellas va hacia afuera.",
+              "Que es comunicación externa: el mensaje sale del chat de dirigentes y llega a personas de fuera de él."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 3 →"
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🏠 La comunicación dentro del grupo",
+      "emoji": "🏠",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Dentro del grupo la información sigue un conducto regular, y el Consejo cuida que las familias y los dirigentes tengan dónde hablar y a quién acudir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una mamá lleva tres semanas con un reclamo por un cobro: se lo dijo a un dirigente, que se lo contó a otro, y nadie le respondió. No hubo mala voluntad: nadie cuidaba el camino."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Manual de Cargos le da a cada consejero de grupo una función con nombre propio: <strong>aplicar y hacer uso de los canales de comunicación</strong>. Sus tareas son cuatro:"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Velar porque se aplique el <strong>conducto regular</strong> de la comunicación dentro del grupo.",
+            "Recibir y gestionar las <strong>peticiones</strong> que surjan de los miembros del grupo.",
+            "Garantizar los <strong>espacios de comunicación</strong> con los padres de familia y los dirigentes.",
+            "Aplicar el conducto regular entre el <strong>Consejo y el Jefe de Grupo</strong>."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "(Manual de Cargos, ficha 2.1.1 Consejero Scout de Grupo, Función 3, p. 6.) El conducto regular quiere decir que cada asunto va por el camino que le corresponde. Si el Consejo tiene algo que decir sobre el programa de una rama, se lo dice al Jefe de Grupo, que es quien conduce el programa y hace de puente con los dirigentes de las ramas (ficha 2.1.10). Y si una familia tiene una queja, sabe a quién llevarla y recibe respuesta."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🔀 Conducto regular",
+              "description": "Los asuntos de programa van al Jefe de Grupo; las quejas y peticiones tienen a quién llegar, y alguien del Consejo responde por ellas.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "👪 Espacios con las familias",
+              "description": "Las familias necesitan un lugar fijo donde enterarse y preguntar: una reunión, un canal, un responsable. El Reglamento de Grupos pone entre los propósitos del grupo fomentar su participación (1.3.12). El Jefe de Grupo, por su lado, cuida los canales entre las ramas y las familias (ficha 2.1.10).",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> la queja contra la Región del caso tenía un camino interno —el Jefe de Grupo o el Consejo, que son los que hablan con la Región— y terminó en la página pública del grupo."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿En tu grupo, una familia sabe a quién acudir con una queja, y por dónde se entera de las salidas? ¿Hay algún asunto que hoy se salte el conducto regular? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "Una consejera ve que la Tropa hace pocas salidas y quiere que programe más. ¿Qué le aconsejas?",
+            "options": [
+              "Que se lo plantee al Jefe de Grupo: él conduce el programa y es el puente con los Jefes de Rama.",
+              "Que lo publique en el chat de familias: así el Jefe de Tropa ve la presión y programa más salidas.",
+              "Que se lo pida a la Región: allí se fija cuántas salidas hace cada Tropa en el año."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Las familias se enteran de las salidas por rumores en un chat que nadie del grupo administra. ¿Qué le corresponde al Consejo?",
+            "options": [
+              "Que el Consejo garantice un espacio fijo de comunicación con las familias, con alguien que responda por él.",
+              "Que el Consejo les pida a los jefes de las ramas entrar a ese chat y responder las dudas cuando tengan tiempo.",
+              "Que el Consejo prohíba a las familias crear chats, y que se enteren en las reuniones con el Jefe de Grupo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 4 →"
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 📰 Lo que el grupo muestra hacia afuera",
+      "emoji": "📰",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 3 cuidados hacia afuera:</strong><br>Hacia afuera el grupo publica lo que corresponda de manera oficial: sin exponer a los jóvenes, sin alterar la marca, y hablando por medio de quienes lo representan."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política pide <em>«construir y mantener una imagen pública positiva»</em> e informar a los de fuera <em>«lo que corresponda de manera oficial»</em>. En un grupo, eso se juega en cuatro cosas: quién organiza y los tres cuidados."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "🗞️ Quién organiza lo que se publica",
+              "description": "Es una facultad del Consejo: «organizar y dirigir la edición de las publicaciones y realización de las comunicaciones del Grupo» (Reglamento de Grupos, 5.6.12). El dirigente del caso subió las fotos por su cuenta."
+            },
+            {
+              "title": "📸 Las fotos y los datos de los jóvenes",
+              "description": "Al afiliarse, cada miembro —o su representante legal— entrega la autorización de tratamiento de datos y de uso de imagen (Reglamento Nacional, Arts. 43 y 44; lo viste en el Curso 9). Y la Política A Salvo del Peligro pide directrices para la publicación de imágenes y contenidos de jóvenes (p. 26); cómo se aplican lo trabaja la línea de Políticas Transversales. Aquí basta la pregunta de oro: antes de publicar, ¿esa foto o ese nombre expone a un menor? La autorización firmada no reemplaza esa pregunta: permite usar la imagen, no obliga a exponer a nadie."
+            },
+            {
+              "title": "⚜️ El nombre y los emblemas",
+              "description": "Los nombres, emblemas, insignias y marcas de la Asociación están protegidos por la ley (Reglamento Nacional, Art. 232). No se «mejoran»: se usan como los fijan el Reglamento de Uniformes, Insignias y Distintivos y el Manual de Imagen Corporativa que aprueba el Consejo Scout Nacional (Art. 235). Si tu grupo no los tiene, pídeselos a tu Región: allí el Comisionado Regional de Relaciones Institucionales y Comunicaciones vela por el uso correcto de la marca (Manual de Cargos, ficha 2.2.26)."
+            },
+            {
+              "title": "🎙️ Quién habla por el grupo",
+              "description": "Ante las entidades de todo tipo representa al grupo el Presidente del Consejo (Reglamento de Grupos, 5.8.2; Manual de Cargos, ficha 2.1.2), y el Jefe de Grupo es el vocero de las decisiones del grupo (ficha 2.1.10). Quien alza el teléfono sin ser ninguno de los dos toma el mensaje y lo pasa."
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la regla del emblema",
+          "text": "El uso de insignias particulares de los grupos scouts diferentes a los de la Asociación y la región scout y sus números, solamente podrá hacerse previa autorización de/la jefe scout nacional.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 235 «Uso de distintivos», p. 68"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> un emblema propio del grupo no está prohibido, pero lo autoriza el Jefe Scout Nacional; y el emblema de la Asociación no se altera."
+        }
+      ],
+      "reflection": {
+        "prompt": "Mira las últimas publicaciones de tu grupo (la misión de la bienvenida). ¿Alguna muestra nombres completos o datos de un joven, o un emblema alterado? ¿Quién decide qué se publica? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Un dirigente diseña para la página del grupo una versión «más moderna» de la flor de lis de la Asociación, con otros colores. ¿Qué le dices?",
+            "options": [
+              "Que no lo cambie: la flor de lis se usa tal como la fijan los manuales que aprueba el Consejo Scout Nacional.",
+              "Que no lo publique todavía: ese cambio primero lo tiene que aprobar el Consejo de Grupo en su acta.",
+              "Que lo use si la página del grupo es gratuita: la protección del emblema es para lo comercial."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una emisora del barrio llama al grupo a preguntar por una publicación polémica, y contesta un dirigente que pasaba por la sede. ¿Qué corresponde?",
+            "options": [
+              "Que tome el mensaje y lo pase: por el grupo hablan el Presidente del Consejo y el Jefe de Grupo.",
+              "Que conteste lo que sepa: un dirigente que conoce el caso puede hablar por el grupo con la emisora.",
+              "Que la pase al consejero más antiguo: por el grupo habla quien más años lleva en él."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 5 →"
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 🤝 Las relaciones con otras instituciones",
+      "emoji": "🤝",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Las relaciones del grupo con otras instituciones se cuidan como un compromiso: si hay acuerdo escrito, se hace por el camino que corresponde, y se le hace seguimiento."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política separa dos cosas. Las <strong>relaciones públicas</strong> son mantener relaciones favorables con los de fuera: el rector del colegio, el párroco, la junta de acción comunal. Las <strong>relaciones interinstitucionales</strong> van más allá: <em>«creación, desarrollo y seguimiento de acuerdos interinstitucionales y de alianzas estratégicas con entidades nacionales e internacionales externas»</em> (PNDI §8.2.4)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Muchos grupos tienen una <strong>entidad auspiciadora o patrocinadora</strong> —un colegio, una parroquia, una empresa— que les presta la sede o los apoya. El Reglamento de Grupos le da al Consejo la tarea de velar porque esa relación sea buena, <em>«en un ambiente de solidaridad, cooperación y mutuo respeto»</em> (5.6.14), y pone entre los propósitos del grupo contribuir en los programas de esa entidad cuando ella se lo solicite (1.3.10). Su representante, además, vota en la Asamblea del grupo (4.2.1) y tiene un puesto en el Consejo (5.1.3)."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✍️ Si hay acuerdo escrito",
+              "description": "Un acuerdo con otra entidad es un contrato o un convenio: lo aprueba el Consejo (Reglamento de Grupos, 5.6.10) y se firma por medio del representante legal de la Región (lo viste en los Cursos 9 y 11).",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "🔁 Seguimiento",
+              "description": "La Política dice «creación, desarrollo y seguimiento»: un acuerdo que nadie revisa se muere solo. Alguien del Consejo responde por cada alianza.",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> la Región no es una institución de afuera, pero el caso del campamento muestra el error que también daña una alianza: un desacuerdo que tenía su camino se ventiló en público. Con el colegio o la alcaldía pasaría igual."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Con qué instituciones tiene hoy relación tu grupo (sin nombrarlas: tipo de entidad)? ¿Hay algún acuerdo escrito? ¿Quién le hace seguimiento? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "El colegio que presta la sede al grupo le pide a la Tropa que ayude a organizar la feria de ciencias del colegio. Un dirigente dice: «no somos sus empleados». ¿Qué dice el Reglamento de Grupos?",
+            "options": [
+              "Que contribuir en los programas de la entidad auspiciadora, si ella lo solicita, es un propósito del grupo.",
+              "Que el grupo colabora con su entidad auspiciadora si ella paga el servicio, como en un contrato.",
+              "Que el grupo se aparta de su programa si participa en actividades de otra entidad, y debe evitarlo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Hace dos años el grupo acordó por escrito con la alcaldía usar un parque a cambio de jornadas de limpieza. Nadie volvió a mirar el acuerdo, y ahora la alcaldía no lo renueva porque «el grupo no cumplió». ¿Qué faltó?",
+            "options": [
+              "Que alguien del Consejo respondiera por el acuerdo y revisara que el grupo cumpliera su parte.",
+              "Que el acuerdo dijera más cosas por escrito: si el convenio está bien redactado, ya se cumple.",
+              "Que la alcaldía respondiera por las jornadas: el seguimiento le toca a quien pone el parque."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 6 →"
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — 🌎 El grupo y el escultismo del mundo",
+      "emoji": "🌎",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Tu grupo ya pertenece al escultismo mundial a través de la Asociación, que es miembro de la OMMS; lo internacional se conduce desde el nivel nacional."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Rover de tu grupo ve en redes un jamboree o un moot en otro país y pregunta: «¿cómo vamos?». ¿Se inscribe el grupo por su cuenta? ¿Hay que escribirle a la embajada? ¿Afiliarse a algo? La respuesta está en cómo se conecta la Asociación con el mundo:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el ámbito internacional de la Política",
+          "text": "Consiste en mantener contacto y establecer relaciones con diferentes entes de naturaleza internacional.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, §8.2.5 Relaciones Internacionales, p. 11"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política lo divide en dos. Las relaciones <strong>internas</strong> son con la Organización Mundial del Movimiento Scout (OMMS) y con las demás organizaciones scouts nacionales; las <strong>externas</strong>, con embajadas, consulados y organismos multilaterales."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "🌐 La Asociación es el miembro",
+              "description": "La Asociación Scouts de Colombia es miembro de la OMMS y, como tal, representa al movimiento en Colombia (Estatuto, Art. 1). Un grupo no se afilia por separado: pertenece a través de ella."
+            },
+            {
+              "title": "🏛️ El Consejo Scout Nacional decide la política",
+              "description": "Aprueba la política internacional de la Asociación y designa a quienes participan y lideran las delegaciones en los eventos de gobernanza o conferencias internacionales (Estatuto, Art. 55.1)."
+            },
+            {
+              "title": "🧭 El Comisionado Internacional la conduce",
+              "description": "Dirige y coordina las acciones de la Asociación en materia internacional, y promueve que los miembros participen en las actividades, seminarios y convocatorias de la OMMS y de otras organizaciones scouts (Manual de Cargos, ficha 2.3.32)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Y a cada miembro adulto el Estatuto le reconoce el derecho a participar en actividades, eventos y proyectos organizados o avalados por la OMMS (Art. 16). Para un grupo, la puerta a un jamboree, un intercambio o un proyecto mundial es la Asociación: por ahí llegan las convocatorias y se organiza la participación."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> lo internacional no es un club aparte; es la misma Asociación mirando hacia afuera."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Tu grupo ha participado en algo internacional? Si no, ¿por dónde le llegaría hoy una convocatoria de la Asociación, y qué cargo del grupo la recibiría? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "questions": [
+          {
+            "text": "Un consejero propone que el grupo «se afilie a la OMMS» para poder ir a los eventos internacionales. ¿Qué le explicas?",
+            "options": [
+              "Que el grupo ya pertenece: la Asociación es miembro de la OMMS y representa al movimiento en Colombia.",
+              "Que es buena idea: cada grupo que quiera ir a eventos internacionales se afilia a la OMMS por su propia cuenta.",
+              "Que lo tramite la Región: cada Región se afilia a la OMMS y así lleva a sus grupos a los eventos del mundo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un dirigente cree que la Región decide quiénes van en la delegación de Colombia a una conferencia de la OMMS. ¿Quién lo decide, según el Estatuto?",
+            "options": [
+              "El Consejo Scout Nacional, que designa a quienes participan en las delegaciones a eventos de gobernanza.",
+              "El Consejo Scout Regional, que escoge entre sus miembros a quienes representan a la Región en el exterior.",
+              "El Jefe de Grupo, que propone a los adultos de su grupo que ya tengan experiencia internacional."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 7 →"
+    },
+    {
+      "id": 7,
+      "title": "Lección 7 — 🧭 La revisión de comunicaciones de tu grupo",
+      "emoji": "🧭",
+      "navLabel": "L7",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Cinco preguntas revelan cómo se comunica y se relaciona tu grupo, y cada «no» o «no sé» es un compromiso posible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lo que el grupo dice en público, lo dice en nombre de los Scouts. Volvamos a las fotos del campamento. Estas son las cinco preguntas que las habrían evitado; mientras las lees, fíjate cuáles le fallaron a ese grupo: son más de una."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "¿Las familias saben por dónde se informa el grupo y a quién acudir con una queja?",
+            "¿Los asuntos entre el Consejo, la Jefatura y la Región van por su conducto, y no por la página pública?",
+            "¿Lo que se publica en nombre del grupo lo organiza el Consejo, y quien publica sabe qué no se muestra de los jóvenes?",
+            "¿El emblema se usa sin alterar, como lo fija el Manual de Imagen Corporativa?",
+            "¿Sabemos quién habla por el grupo ante terceros, y quién responde por cada alianza?"
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Compara:</strong> al grupo del campamento le fallaron al menos cuatro: la 2 (la queja contra la Región terminó en la página), la 3 (los nombres completos de los lobatos), la 4 (el emblema «mejorado») y la 5 (a la emisora le contestó quien alzó el teléfono)."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu turno:</strong> con las publicaciones que miraste al empezar, responde las cinco con «sí», «no» o «no sé». Escoge un «no» o un «no sé» y conviértelo en un compromiso: qué vas a proponer, a qué órgano o cargo y para cuándo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔜 Lo que sigue en la línea:</strong> el <strong>Curso 13 — Crecimiento y Sistema de Información</strong> (próximamente) trata cómo crece un grupo y cómo lleva sus registros."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu resultado en las cinco preguntas y tu compromiso: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista. Ojo: ese recuadro no sale en el PDF. (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7 — Cierre del curso",
+        "questions": [
+          {
+            "text": "Otro grupo hace la revisión y en la 3 responde «sí»: «las familias firmaron la autorización de imagen al afiliarse, así que podemos publicar las fotos con nombres completos». ¿Esa respuesta es correcta?",
+            "options": [
+              "Es incorrecta: la autorización no quita la pregunta de oro, y un nombre completo puede exponer al menor.",
+              "Es correcta: con la autorización firmada al afiliarse, el grupo ya queda libre de publicar fotos y nombres.",
+              "Es incorrecta: la autorización de imagen cubre las fotos tomadas en la sede, no las de un campamento."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un consejero hizo la revisión y le salió «no sé» en la 5: nadie sabe quién le hace seguimiento al acuerdo con el colegio. ¿Qué compromiso responde a ese «no sé»?",
+            "options": [
+              "Proponer al Consejo de marzo que un consejero responda por el acuerdo con el colegio, y revisarlo en junio.",
+              "Proponer al Consejo que alguien responda por las alianzas del grupo más adelante, cuando haya tiempo para ello.",
+              "Proponer al Consejo de marzo que el grupo firme un acuerdo nuevo con el colegio, y revisarlo en junio."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Ir al certificado →"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Veo los cuatro sub-ámbitos",
+      "emoji": "📣",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Cuido el conducto regular",
+      "emoji": "🏠",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Publico sin exponer",
+      "emoji": "📰",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Cuido las alianzas",
+      "emoji": "🤝",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Conecto con el mundo",
+      "emoji": "🌎",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Comunicaciones en orden",
+      "emoji": "🧭",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "COMUNICACIONES Y RELACIONES INTERINSTITUCIONALES",
+    "description": "ha completado el Curso 12 del Nivel 2 — Profundización por ámbito de gestión de la Línea Desarrollo Institucional, ubicando lo que comunica un grupo en los cuatro sub-ámbitos de la Política, reconociendo el conducto regular de la comunicación interna, cómo se publica sin exponer a los jóvenes ni alterar la marca, quién representa al grupo ante terceros, cómo se cuidan las alianzas con otras instituciones y cómo se conecta el grupo con el escultismo mundial, con un compromiso concreto sobre las comunicaciones de su grupo"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí el compromiso de tu revisión de comunicaciones: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo.",
+    "placeholder": "Voy a proponer…"
+  }
+}

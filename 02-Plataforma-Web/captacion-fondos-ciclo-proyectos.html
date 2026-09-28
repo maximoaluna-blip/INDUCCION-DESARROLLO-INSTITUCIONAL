@@ -1863,7 +1863,7 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <div class="mission-box"><strong>📌 Tu turno: tu proyecto en una página.</strong> Toma lo que tu grupo necesita (la misión de la bienvenida) y escribe cinco líneas: 1) qué necesitamos y para qué; 2) cuánto cuesta, aunque sea aproximado; 3) cómo pensamos conseguirlo: una actividad, un aliado o las dos; 4) quién lo aprueba y cuándo; 5) quién rinde cuentas y a quién le contamos al final. Después pásale las cinco preguntas de arriba con «sí», «no» o «no sé», escoge un «no» o un «no sé» y conviértelo en un compromiso: qué vas a proponer, a qué órgano o cargo y para cuándo.</div>
 
-                <div class="info-box"><strong>🔜 Lo que sigue en la línea:</strong> el <strong>Curso 12 — Comunicaciones y Relaciones Interinstitucionales</strong> (próximamente) trata cómo el grupo cuenta lo que hace y cómo se relaciona con otras instituciones.</div>
+                <div class="info-box"><strong>🔜 Lo que sigue en la línea:</strong> el <strong>Curso 12 — Comunicaciones y Relaciones Interinstitucionales</strong> trata cómo el grupo cuenta lo que hace y cómo se relaciona con otras instituciones.</div>
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
@@ -2463,7 +2463,7 @@ function renderCatalogDisplays() {
         var mode = el.getAttribute('data-mode') || 'full';
         var data = getCatalogData(catalogId);
         if (!data || Object.keys(data).length === 0) {
-            el.innerHTML = '<div class="catalog-display-empty">⚠️ <strong>Aún no tienes catálogo guardado.</strong><br>Para que este componente se llene, primero completa el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong> y guardá tu catálogo.</div>';
+            el.innerHTML = '<div class="catalog-display-empty">⚠️ <strong>Aún no tienes catálogo guardado.</strong><br>Para que este componente se llene, primero completa el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong> y guarda tu catálogo.</div>';
             return;
         }
         var stateLabels = { si: '🟢 Sí', parcial: '🟡 Parcial', no: '🔴 No', 'no-se': '⚪ No sé' };
@@ -2552,7 +2552,7 @@ function renderBrujulaDisplays() {
         var srcModule = el.getAttribute('data-source-module') || '6';
         var txt = getBrujulaText(srcCourse, srcModule);
         if (!txt || !txt.trim()) {
-            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aún no registramos tu brújula personal.</strong><br>Para que este componente se llene, definí tu brújula como reflexión en el <strong>Curso 2 — La Política PNDI: Marco y Principios — Lección 6</strong>. Si ya lo hiciste en otro dispositivo, pulsá "Recuperar mi avance" en la pantalla de inicio.</div>';
+            el.innerHTML = '<div class="brujula-display-empty">ℹ️ <strong>Aún no registramos tu brújula personal.</strong><br>Para que este componente se llene, define tu brújula como reflexión en el <strong>Curso 2 — La Política PNDI: Marco y Principios — Lección 6</strong>. Si ya lo hiciste en otro dispositivo, pulsa "Recuperar mi avance" en la pantalla de inicio.</div>';
             return;
         }
         el.innerHTML = '<div class="brujula-display-content">' +
@@ -2567,12 +2567,12 @@ function detectarPrincipioEnBrujula(txt) {
     if (!txt) return null;
     var low = txt.toLowerCase();
     var principios = [
-        { keys: ['participación juvenil', 'participacion juvenil'], name: 'Participación Juvenil', advice: 'Priorizá metas que involucren a los chicos en las decisiones. Por ejemplo: en <strong>CR-fort</strong> (Plan de Captación) involucrá al clan; en <strong>C-fort</strong> (comunicación con familias) usá un boletín hecho con los rovers.' },
-        { keys: ['normatividad'], name: 'Normatividad', advice: 'Cuidá el cumplimiento del marco legal y reglamentario. <strong>CT-crear</strong> (documentación legal) y <strong>GR-crear/GR-fort</strong> (protocolos de riesgo) saltan al primer lugar de tu lista.' },
+        { keys: ['participación juvenil', 'participacion juvenil'], name: 'Participación Juvenil', advice: 'Prioriza metas que involucren a los chicos en las decisiones. Por ejemplo: en <strong>CR-fort</strong> (Plan de Captación) involucrá al clan; en <strong>C-fort</strong> (comunicación con familias) usa un boletín hecho con los rovers.' },
+        { keys: ['normatividad'], name: 'Normatividad', advice: 'Cuida el cumplimiento del marco legal y reglamentario. <strong>CT-crear</strong> (documentación legal) y <strong>GR-crear/GR-fort</strong> (protocolos de riesgo) saltan al primer lugar de tu lista.' },
         { keys: ['coherencia'], name: 'Coherencia', advice: 'Que lo que prometemos lo cumplamos. <strong>C-fort</strong> (comunicación mensual con familias) y <strong>CT-fort</strong> (Asamblea según Reglamento) van al frente.' },
         { keys: ['colectividad', 'consenso'], name: 'Colectividad y Consenso', advice: 'Las decisiones se toman con todos los actores. <strong>G-crear/G-fort</strong> (gobernanza con actas y control colegiado) suben en prioridad.' },
-        { keys: ['aspiracional', 'transformacional'], name: 'Aspiracional y Transformacional', advice: 'Empujá metas que muevan al grupo hacia adelante. <strong>RI-fort/RI-crear</strong> (proyectos mundiales OMMS) y <strong>CR-fort</strong> (crecimiento ≥2 %) primero.' },
-        { keys: ['prospectiva'], name: 'Prospectiva', advice: 'Decidí pensando en 5-10 años. <strong>RE-doc</strong> (plan financiero) y <strong>CT-doc</strong> (sistema de control) priman.' },
+        { keys: ['aspiracional', 'transformacional'], name: 'Aspiracional y Transformacional', advice: 'Empuja metas que muevan al grupo hacia adelante. <strong>RI-fort/RI-crear</strong> (proyectos mundiales OMMS) y <strong>CR-fort</strong> (crecimiento ≥2 %) primero.' },
+        { keys: ['prospectiva'], name: 'Prospectiva', advice: 'Decide pensando en 5-10 años. <strong>RE-doc</strong> (plan financiero) y <strong>CT-doc</strong> (sistema de control) priman.' },
         { keys: ['dinamismo', 'flexibilidad'], name: 'Dinamismo y Flexibilidad', advice: 'Adaptarse al entorno cambiante. <strong>A-fort</strong> (inventario actualizado) y <strong>C-fort</strong> (canales de comunicación modernos) primero.' }
     ];
     for (var i = 0; i < principios.length; i++) {
@@ -2590,7 +2590,7 @@ function renderBrujulaActions() {
         var txt = getBrujulaText(srcCourse, srcModule);
         var matched = detectarPrincipioEnBrujula(txt);
         if (!matched) {
-            el.innerHTML = '<div class="brujula-action-empty">ℹ️ Definí tu brújula en el <strong>Curso 2 — Lección 6</strong> (con uno de los 7 principios) y volvé a esta lección para ver tu sugerencia personalizada.</div>';
+            el.innerHTML = '<div class="brujula-action-empty">ℹ️ Define tu brújula en el <strong>Curso 2 — Lección 6</strong> (con uno de los 7 principios) y vuelve a esta lección para ver tu sugerencia personalizada.</div>';
             return;
         }
         el.innerHTML = '<div class="brujula-action-content">' +
@@ -2662,7 +2662,7 @@ function renderGoalPlanners() {
 }
 
 function renderGoalSlot(planId, idx) {
-    var options = '<option value="">— Elegí una meta-tipo —</option>';
+    var options = '<option value="">— Elige una meta-tipo —</option>';
     var currentAmbito = '';
     META_TIPO_CATALOG.forEach(function (m) {
         if (m.ambito !== currentAmbito) {
@@ -2676,12 +2676,12 @@ function renderGoalSlot(planId, idx) {
     options += '<option value="custom">✏️ Una meta propia (no de las 24)</option>';
     return '<div class="goal-slot" data-slot-idx="' + idx + '">' +
         '<h4 class="goal-slot-title">Meta ' + (idx + 1) + '</h4>' +
-        '<label class="goal-field-label">Elegí una meta-tipo o creá una propia:</label>' +
+        '<label class="goal-field-label">Elige una meta-tipo o crea una propia:</label>' +
         '<select class="goal-meta-select" aria-label="Meta-tipo para la prioridad ' + (idx + 1) + '" data-slot-idx="' + idx + '" onchange="onGoalMetaChange(\'' + planId + '\', ' + idx + ', this.value)">' + options + '</select>' +
         '<div class="goal-fields hidden" id="gf-' + planId + '-' + idx + '">' +
             '<div class="goal-custom-desc hidden">' +
                 '<label class="goal-field-label">📝 Tu meta propia (descripción):</label>' +
-                '<textarea class="goal-custom-textarea" placeholder="Describí tu meta en una frase…" onchange="saveGoalField(\'' + planId + '\', ' + idx + ', \'customDescription\', this.value)"></textarea>' +
+                '<textarea class="goal-custom-textarea" placeholder="Describe tu meta en una frase…" onchange="saveGoalField(\'' + planId + '\', ' + idx + ', \'customDescription\', this.value)"></textarea>' +
             '</div>' +
             '<label class="goal-field-label">⏰ Plazo:</label>' +
             '<select class="goal-plazo-select" onchange="saveGoalField(\'' + planId + '\', ' + idx + ', \'plazo\', this.value)">' +
@@ -2800,7 +2800,7 @@ function saveGoalPlanner(planId) {
     var statusEl = document.getElementById('gp-status-' + planId);
     if (statusEl) {
         statusEl.classList.remove('hidden');
-        statusEl.innerHTML = '<strong>✅ Tu plan se guardó.</strong> Tenés <strong>' + adopted.length + '</strong> meta' + (adopted.length === 1 ? '' : 's') + ' adoptada' + (adopted.length === 1 ? '' : 's') + '. Podés modificarlo y volver a guardar cuando quieras.';
+        statusEl.innerHTML = '<strong>✅ Tu plan se guardó.</strong> Tienes <strong>' + adopted.length + '</strong> meta' + (adopted.length === 1 ? '' : 's') + ' adoptada' + (adopted.length === 1 ? '' : 's') + '. Puedes modificarlo y volver a guardar cuando quieras.';
         statusEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
     showNotification('✅ Plan guardado');
@@ -2811,7 +2811,7 @@ function generatePlanPDF(planId) {
     var content = buildPlanPrintableHTML(planId);
     var win = window.open('', '_blank');
     if (!win) {
-        showNotification('⚠️ El navegador bloqueó la ventana. Permití pop-ups y volvé a intentar.', 'warning');
+        showNotification('⚠️ El navegador bloqueó la ventana. Permite pop-ups y vuelve a intentar.', 'warning');
         return;
     }
     win.document.open();
@@ -2851,7 +2851,7 @@ function buildPlanPrintableHTML(planId) {
             (attrs ? '<p class="pp-cat-attrs"><em>Atributos:</em> ' + escapeHtml(attrs) + '</p>' : '') +
             '</div>';
     });
-    if (!catalogHTML) catalogHTML = '<p><em>Sin catálogo registrado todavía. Completá el Curso 5.</em></p>';
+    if (!catalogHTML) catalogHTML = '<p><em>Sin catálogo registrado todavía. Completa el Curso 5.</em></p>';
 
     var goalsHTML = '';
     adopted.forEach(function (g, idx) {
@@ -2930,7 +2930,7 @@ function buildPlanPrintableHTML(planId) {
         '</div>' +
         catalogHTML +
         '<h2>2. Mi brújula personal (Curso 2)</h2>' +
-        (brujula ? '<div class="pp-brujula">"' + escapeHtml(brujula) + '"</div>' : '<p><em>Sin brújula registrada todavía. Completá el Curso 2 — Lección 6.</em></p>') +
+        (brujula ? '<div class="pp-brujula">"' + escapeHtml(brujula) + '"</div>' : '<p><em>Sin brújula registrada todavía. Completa el Curso 2 — Lección 6.</em></p>') +
         '<h2>3. Mis metas adoptadas (' + adopted.length + ')</h2>' +
         goalsHTML +
         '<h2>4. Cursos del Nivel 2 sugeridos</h2>' +
