@@ -94,6 +94,7 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 | # | Curso | courseId | Duración | Estado |
 |---|---|---|---|---|
 | 7 | 🏛️ Gobernanza Práctica | `gobernanza-practica` | ~35 min · 7 lecciones | ✅ Activo (27-sep-2026) |
+| 8 | 🧭 Planeación: del Plan Estratégico al POA | `planeacion-plan-estrategico-poa` | ~32 min · 7 lecciones | ✅ Activo (27-sep-2026, ADR-088) |
 
 **Niveles siguientes:**
 
@@ -185,7 +186,7 @@ Detalles en [`BACKEND.md`](BACKEND.md).
 
 ## Estado actual (27-sep-2026)
 
-**Nivel 1 completo y Nivel 2 abierto: 7 cursos `active`**, todos con las 3 auditorías. El Curso 7 (`gobernanza-practica`, ADR-085) pasó doctrinal y pedagógica **con re-auditoría** y la suite E2E contra el build local antes de publicarse.
+**Nivel 1 completo y Nivel 2 en curso: 8 cursos `active`**, todos con las 3 auditorías. El Curso 7 (`gobernanza-practica`, ADR-085) pasó doctrinal y pedagógica **con re-auditoría** y la suite E2E contra el build local antes de publicarse.
 
 | Auditoría | Estado | Detalle |
 |---|---|---|
@@ -201,7 +202,7 @@ Detalles en [`BACKEND.md`](BACKEND.md).
 
 ### Fase siguiente
 
-- **Nivel 2 — Profundización**: quedan 7 de 8 (Cursos 8 a 14).
+- **Nivel 2 — Profundización**: quedan 6 de 8 (Cursos 9 a 14).
 - **Nivel 3 — Especialización por cargo** (6 cursos).
 - **Nivel 4 — Transversales** (4 cursos), priorizando el Curso 23 (Código de Honor) por su carácter universal.
 - Evaluar si separar el backend de la Línea Política de Adultos (criterios en `BACKEND.md`).

@@ -36,7 +36,7 @@ jobs:
       - name: Recompilar cursos
         working-directory: 05-Generador-Cursos
         run: |
-          for c in bienvenida-desarrollo-institucional pndi-marco-y-principios niveles-y-estructura-movimiento los-8-ambitos-de-gestion buenas-practicas-en-tu-grupo mi-aporte-al-desarrollo-institucional gobernanza-practica; do
+          for c in bienvenida-desarrollo-institucional pndi-marco-y-principios niveles-y-estructura-movimiento los-8-ambitos-de-gestion buenas-practicas-en-tu-grupo mi-aporte-al-desarrollo-institucional gobernanza-practica planeacion-plan-estrategico-poa; do
             node build-course.js "$c"
           done
 

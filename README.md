@@ -28,7 +28,7 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 ├── verificar-certificado.html        # Valida un código ASC-AAAA-XXXXX contra el backend (ADR-070)
 ├── assets/                             # Logos, favicon, dark theme
 ├── 02-Plataforma-Web/                  # HTMLs públicos
-│   ├── cursos.json                     # Catálogo: Nivel 1 (6 cursos) + Nivel 2 (1 de 8) — con level/levelName/order
+│   ├── cursos.json                     # Catálogo: Nivel 1 (6 cursos) + Nivel 2 (2 de 8) — con level/levelName/order
 │   ├── *.html                          # Un HTML por curso (Cursos 01–06)
 │   ├── dashboard-admin.html
 │   └── verificar-certificado.html

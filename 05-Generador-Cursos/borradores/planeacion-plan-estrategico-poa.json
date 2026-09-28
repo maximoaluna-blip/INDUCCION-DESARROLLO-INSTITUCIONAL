@@ -1,0 +1,620 @@
+{
+  "courseId": "planeacion-plan-estrategico-poa",
+  "title": "Planeación: del Plan Estratégico al POA",
+  "subtitle": "Curso 8 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
+  "description": "Un plan que no baja al calendario y a la plata es solo un deseo. En ~32 minutos vas a recorrer la cadena completa de la planeación scout: qué es planear y para qué, cómo el plan estratégico se vuelve plan operativo anual y presupuesto, cómo se construyó el Plan Estratégico nacional 2023–2026 y cómo se hace, se aprueba y se sigue el Plan de Grupo.",
+  "contentVersion": "2026-09-27",
+  "status": "active",
+  "icon": "🧭",
+  "duration": "~32 min",
+  "level": 2,
+  "levelName": "Profundización por ámbito de gestión",
+  "order": 8,
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~32 minutos · 7 lecciones.</strong><br>Al final vas a saber qué es planear y para qué, cómo se encadenan el plan estratégico, el plan operativo anual y el presupuesto, qué dice el Plan Estratégico nacional y cómo se hace y se sigue el Plan de Grupo.<br><strong>Cada lección cierra con 2 preguntas:</strong> para avanzar hay que acertar las dos. Si fallas, el curso te muestra la correcta y lo vuelves a intentar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Enero. El Consejo del grupo se reúne y alguien propone: «Hagamos lo mismo del año pasado, que salió bien». Se copia el calendario. En octubre llega el momento del campamento de fin de año y no alcanza la plata. Alguien pregunta por el Plan de Grupo: está aprobado desde marzo, en una carpeta, y nadie lo volvió a abrir. <strong>El grupo tenía un plan, pero el plan nunca bajó al calendario ni a la plata.</strong>"
+        },
+        {
+          "type": "blockquote",
+          "text": "Un plan que no baja al calendario y a la plata es solo un deseo."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el Curso 4 viste que la Gobernanza tiene cinco elementos, y el Curso 7 trabajó cuatro y dejó pendiente el quinto: la <strong>Planificación Estratégica</strong>. Este curso es ese elemento, bajado a tu grupo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a practicar"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 🎯 Qué es planear, y para qué.",
+            "<strong>Lección 3 —</strong> 🔗 Tres niveles, una cadena: plan estratégico, plan operativo anual y presupuesto.",
+            "<strong>Lección 4 —</strong> 🛠️ Cómo se construye un plan: la metodología de la OMMS y los objetivos SMART.",
+            "<strong>Lección 5 —</strong> 🇨🇴 El Plan Estratégico nacional 2023–2026 y lo que le toca a tu grupo.",
+            "<strong>Lección 6 —</strong> 🏕️ El Plan de Grupo: quién lo propone, lo aprueba, lo ejecuta y lo verifica.",
+            "<strong>Lección 7 —</strong> 🎯 Tu aporte al Plan de Grupo."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de empezar:</strong> si puedes, busca el Plan de Grupo vigente de tu grupo (o pregunta en el Consejo si existe). Lo vas a usar como caso real a lo largo del curso."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 🎯 Qué es planear, y para qué",
+      "emoji": "🎯",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>Planear es fijar metas y el camino para alcanzarlas, mirando el entorno y lo propio."
+        },
+        {
+          "type": "paragraph",
+          "text": "Planear no es llenar un formato ni hacer un calendario. Es responder dos preguntas antes de actuar: <strong>¿a dónde queremos llegar?</strong> y <strong>¿por dónde vamos a ir?</strong> — y responderlas mirando lo que pasa alrededor del grupo, no solo lo que el grupo quiere."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la definición del Plan Estratégico nacional",
+          "text": "La Planeación Estratégica es una herramienta de gestión que permite establecer el quehacer y el camino que deben recorrer las organizaciones para alcanzar las metas previstas, teniendo en cuenta los cambios y demandas que impone su entorno.",
+          "source": "Plan Estratégico 2023–2026, Consejo Scout Nacional, «¿Qué es la Planeación Estratégica?», p. 4"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🧭 Para qué sirve"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🎯 Da dirección",
+              "description": "Define hacia dónde camina la organización y facilita que todos se alineen con esa meta.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "🛡️ Reduce la incertidumbre",
+              "description": "Establece las bases sobre las que se opera y baja el riesgo de improvisar.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "📌 Ayuda a priorizar",
+              "description": "Cuando todo parece urgente, el plan dice qué va primero.",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>📄 Fuente de las tarjetas:</strong> el Plan Estratégico 2023–2026 enumera la importancia de planear (p. 4): definir visión y metas, reducir la incertidumbre y los riesgos, ubicar la dirección para que todos se alineen y ayudar a priorizar el trabajo. Las tarjetas lo resumen."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política Nacional de Desarrollo Institucional dice lo mismo desde la Gobernanza: la Planificación Estratégica define <strong>objetivos y plazos</strong>, y esos objetivos tienen que salir de mirar <strong>afuera</strong> —oportunidades y amenazas del entorno— y <strong>adentro</strong> —fortalezas y debilidades propias—, en consenso."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que dice la PNDI",
+          "text": "Planificación Estratégica: Definición de objetivos y del plazo para alcanzarlos, lo cual debe ser producto de un proceso donde se analicen y ponderen todas las oportunidades y amenazas del entorno y las fortalezas y debilidades propias construidas en consenso.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, §8.2.1 Gobernanza, p. 10"
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Tu grupo sabe hoy a dónde quiere llegar en dos o tres años? Escríbelo en una frase. Si no puedes, anota qué rol en el grupo podría ayudarte a responderlo."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "En el Consejo alguien dice: «Planear es cosa de la Nación; a un grupo le basta con un calendario de actividades». ¿Qué le respondes?",
+            "options": [
+              "Que un calendario dice qué se hace, pero no a dónde va el grupo ni por qué eso y no otra cosa.",
+              "Que un calendario basta si se copia del año pasado, porque lo que ya salió bien no hay que repensarlo.",
+              "Que un grupo sí planea, pero copiando tal cual el Plan Estratégico nacional, sin cambiarle una coma."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El Consejo pasó una tarde mirando el barrio y el grupo: el colegio vecino presta su cancha y la Manada se quedó sin jefe. Después fijó como objetivo del año «comprar carpas nuevas». ¿Qué falló?",
+            "options": [
+              "Que miró afuera y adentro, pero el objetivo no sale de nada de lo que encontró.",
+              "Nada: mirar el entorno es un paso aparte, y el objetivo lo decide el Consejo como quiera.",
+              "Que se saltó el análisis: debió mirar el barrio y el grupo antes de fijar el objetivo."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 3 →"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🔗 Tres niveles, una cadena",
+      "emoji": "🔗",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>Plan estratégico (qué y para qué) → plan operativo anual (cómo, cuándo y quién) → presupuesto (en dinero). Si se rompe un eslabón, el plan se queda en deseo."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Reglamento Nacional de 2026 regula las tres piezas de la planeación para la Nación (Arts. 27, 28 y 226). En el grupo, el Reglamento de Grupos regula dos: el Plan de Grupo y el presupuesto. Juntas forman una cadena: cada una concreta la anterior."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "1. Plan estratégico — el qué y el para qué",
+              "description": "Mediano y largo plazo. Define hacia dónde va la organización, sus objetivos principales, las estrategias, las prioridades y los recursos necesarios. En el grupo, el que marca el rumbo es el <strong>Plan de Grupo</strong>: el Reglamento pide que los proyectos, programas y presupuestos se aprueben en el contexto de ese plan (4.3.8)."
+            },
+            {
+              "title": "2. Plan operativo anual (POA) — el cómo, el cuándo y el quién",
+              "description": "Corto plazo: un año. Convierte los objetivos en acciones con fecha y responsable, y va cumpliendo el plan estratégico de forma progresiva. El Reglamento Nacional lo exige a la Nación; en el grupo, tener el plan del año por escrito es una buena práctica, no una norma."
+            },
+            {
+              "title": "3. Presupuesto — el plan en dinero",
+              "description": "Los ingresos y egresos del año. En el grupo se elabora con base en el Plan de Grupo y lo aprueba la Asamblea; todos los gastos quedan sujetos a él."
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo los define el Reglamento Nacional",
+          "text": "Es un instrumento de gestión o la hoja de ruta que define hacia dónde va la Asociación Scouts de Colombia y cómo va a llegar allí en el mediano y largo plazo, define el qué y el para qué, sus objetivos principales, las estrategias para alcanzarlos, las prioridades y recursos necesarios. […] Los planes operativos anuales constituyen la concreción de corto plazo del plan estratégico. En ellos se define el cómo, cuándo y quién ejecutará las acciones orientadas al cumplimiento progresivo de los objetivos, prioridades e indicadores establecidos en el plan estratégico vigente.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 27 «Plan estratégico» y Art. 28 «Planes operativos anuales», p. 9"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la regla del presupuesto en el grupo",
+          "text": "Todos los gastos del Grupo están sujetos a un presupuesto anual de ingresos y egresos aprobado en la Asamblea de Grupo.",
+          "source": "Reglamento Nacional de Grupos Scouts, Art. 10.18. El Art. 10.17 dispone que el presupuesto se elabore, en lo posible, con base en el Plan de Grupo"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "⛓️ Dónde se rompe la cadena"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Entre el plan y el POA:</strong> el plan dice «crecer», pero ninguna acción del año tiene responsable ni fecha.",
+            "<strong>Entre el POA y el presupuesto:</strong> el calendario incluye el campamento, pero el presupuesto no le asigna plata.",
+            "<strong>Después del presupuesto:</strong> se gasta en lo que no estaba presupuestado, y lo que sí estaba se queda sin recursos."
+          ]
+        }
+      ],
+      "reflection": {
+        "prompt": "Toma una actividad grande de tu grupo este año (un campamento, un evento). ¿Aparece en el Plan de Grupo, en el calendario del año con responsable y en el presupuesto? Marca el eslabón que falta."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "En el plan del año del grupo aparece una sola línea: «Mejorar la participación de las familias». ¿Qué le falta para poder ejecutarla?",
+            "options": [
+              "Le falta bajarla a acciones: «Reunión de familias el 15 de abril, la convoca Marta».",
+              "Le falta precisarla como meta: «Que 30 familias participen más durante el año».",
+              "Le falta subirla al Plan de Grupo, para que la Asamblea la apruebe antes de ejecutarla."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El Consejo quiere pagar un paseo que no estaba en el presupuesto aprobado por la Asamblea. El tesorero dice: «Hay plata en caja, así que se puede». ¿Qué le respondes?",
+            "options": [
+              "Que no basta con tener plata: todo gasto del grupo tiene que estar en el presupuesto aprobado.",
+              "Que sí se puede: si hay plata en caja y el Consejo lo aprueba, el gasto ya queda cubierto.",
+              "Que no se puede: los paseos solo los aprueba la Región, porque salen del presupuesto regional."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 4 →"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 🛠️ Cómo se construye un plan",
+      "emoji": "🛠️",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Un plan se construye en tres momentos —planificar, ejecutar, monitorear—, con análisis del entorno, objetivos SMART y la participación de todos."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Plan Estratégico nacional 2023–2026 se construyó con la metodología de la Organización Mundial del Movimiento Scout: <strong>11 pasos agrupados en tres momentos</strong>. Sirve también para pensar el plan de un grupo: la escala cambia, la lógica no."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📝 Planificación (pasos 1 a 5)",
+              "description": "Escoger el momento adecuado · construir el equipo · revisar la misión y la visión · analizar la situación actual · desarrollar el plan estratégico.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "⚙️ Ejecución (pasos 6 a 8)",
+              "description": "Alinear a la organización con el plan · crear el plan operativo · evaluar la gestión de riesgos.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "📊 Monitoreo y evaluación (pasos 9 a 11)",
+              "description": "Recopilar información correcta de monitoreo · monitorear y evaluar · reportar el desempeño.",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Para <strong>analizar la situación actual</strong>, el equipo nacional miró hacia afuera y hacia adentro: un análisis <strong>PESTEL</strong> del entorno (político, económico, social, tecnológico, ecológico y legal), la revisión del plan anterior, los resultados de la última evaluación <strong>GSAT</strong> (la herramienta de autoevaluación de la OMMS) y un análisis <strong>FODA</strong> (fortalezas, oportunidades, debilidades y amenazas). Es la misma idea que pide la PNDI: primero se mira, después se decide."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Objetivos SMART"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo se revisaron los objetivos nacionales",
+          "text": "Tras varias sesiones virtuales más, se llegó finalmente a las versiones finales de los objetivos y sus indicadores, cuidando que cada uno de ellos cumpliera con ser eSpecífico, Medible, Alcanzable, orientado a Resultados y definidos en el Tiempo (SMART).",
+          "source": "Plan Estratégico 2023–2026, Introducción, p. 3"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🧪 La prueba rápida:</strong> «Crecer como grupo» no es SMART. «Pasar de 18 a 22 lobatos entre febrero y noviembre» sí lo es: dice qué, cuánto y para cuándo, y al final del año se puede comprobar si se cumplió. Y ojo: «hacer dos jornadas de puertas abiertas» no es un objetivo sino una <strong>acción</strong>: va en el plan del año. El objetivo es el resultado que esas jornadas buscan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y un plan no se escribe solo en el Consejo. El Reglamento Nacional pide que el plan estratégico se construya <strong>de manera conjunta y participativa por todos los niveles</strong> de la organización (Art. 29). En el grupo pasa lo mismo, como verás en la Lección 6."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en el último objetivo que se puso tu grupo. Reescríbelo como objetivo SMART: qué, cuánto y para cuándo. Si no puedes decir cómo se comprobaría, anótalo: ese es el problema."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Un grupo se puso un objetivo SMART —reunir $1.200.000 para el campamento con dos rifas entre marzo y septiembre, a cargo de la tesorera— e hizo las dos rifas. En diciembre nadie sumó lo recogido ni se lo informó a la Asamblea. ¿Qué momento se saltó?",
+            "options": [
+              "El de planificación: faltó construir un equipo que se hiciera cargo del objetivo.",
+              "El de ejecución: faltó alinear al grupo y armar un plan operativo con las dos rifas.",
+              "El de monitoreo: nadie recogió el dato ni reportó cómo terminó el objetivo del año."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Tres consejeros proponen el objetivo de Crecimiento del Plan de Grupo. ¿Cuál es SMART?",
+            "options": [
+              "Pasar de 20 a 24 scouts en la Tropa entre marzo y octubre, contados en el registro del grupo.",
+              "Hacer cuatro jornadas de puertas abiertas este año para que lleguen más scouts a la Tropa.",
+              "Pasar a tener una Tropa mucho más grande este año, con más scouts y más familias."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 5 →"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 🇨🇴 El Plan Estratégico 2023–2026",
+      "emoji": "🇨🇴",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>El plan nacional tiene 11 prioridades con indicadores, y buena parte de ellos se cumplen —o no— en los grupos."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Plan Estratégico 2023–2026 lo elaboró el Consejo Scout Nacional (versión 1.0 del 1 de mayo de 2023). Parte de la misión del Movimiento y de la visión de la OMMS, y las baja a <strong>prioridades estratégicas</strong> con objetivos e indicadores."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🗂️ Las 11 prioridades del plan nacional"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Gobernanza",
+            "Crecimiento",
+            "Gestión de la Integridad",
+            "Adultos en el Movimiento Scout",
+            "Participación Juvenil",
+            "Diversidad e Inclusión",
+            "Programa de Jóvenes",
+            "Desarrollo Institucional",
+            "Sistemas de Gestión",
+            "Administración y Finanzas",
+            "Proyecto Educativo"
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🧠 No hace falta memorizarlas:</strong> en la Lección 7 vas a escoger una para tu aporte. Míralas con una sola pregunta: <strong>¿cuál se juega en tu grupo este año?</strong>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📏 Tres indicadores, de dos prioridades"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏛️ Gobernanza (dos de sus indicadores)",
+              "description": "Con base en el plan se elaboran planes operativos anuales, que aprueba el Consejo Scout Nacional, y sus actividades se cumplen al menos en un 80 %.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "📈 Crecimiento",
+              "description": "Un crecimiento anual de por lo menos un 10 % en la membresía respecto al año inmediatamente anterior.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en el segundo: la membresía no crece en Bogotá, crece <strong>en cada grupo</strong>. Varias metas nacionales —el crecimiento de la membresía, contar con adultos suficientes e idóneos— se cumplen o no según lo que pase en los grupos. Y el Reglamento Nacional ya baja el plan un escalón: pide que el Jefe Scout Nacional articule con las regiones sus planes operativos anuales, para que <strong>aporten al plan operativo anual nacional</strong> (Art. 31)."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo se renueva el plan",
+          "text": "El Consejo Scout Nacional dirigirá la organización bajo el marco estratégico vigente, para ello, formulará planes estratégicos nacionales una vez sean establecidos los planes de la Organización Mundial del Movimiento Scout y de la Región Interamericana, con una periodicidad máxima de cuatro años. El plan formulado deberá presentarse a la Asamblea Scout Nacional para su aprobación.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 26 «Dirección estratégica», p. 9"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔎 Y quién lo sigue:</strong> el Consejo Scout Nacional conforma un comité permanente que le reporta cada semestre los avances de los indicadores, y la Presidencia del Consejo informa cada año a la Asamblea Scout Nacional (Reglamento Nacional, Art. 30). Es la misma lógica de verificar que viste en el Curso 7."
+        }
+      ],
+      "reflection": {
+        "prompt": "De las 11 prioridades, ¿en cuál puede aportar más tu grupo este año? Nombra una actividad concreta que ya hacen y que le aporte, y a cuántos jóvenes o adultos toca."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "En el Consejo, el Jefe de Grupo informa que el grupo pasó de 40 a 42 miembros este año. Si lo mides con la vara que la Nación se pone en Crecimiento, ¿qué le dices?",
+            "options": [
+              "Que aporta, pero se queda corto: creció un 5 %, y esa vara pide al menos un 10 % al año.",
+              "Que cumple: cualquier crecimiento del grupo ya cuenta como aporte cumplido a esa vara.",
+              "Que no aplica: esa vara es solo para la Nación, y un grupo no puede usarla para medirse."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En diciembre el Consejo revisa el plan del año: de 20 actividades se hicieron 12. Si lo mide con la vara que la Nación se pone para sus propios planes operativos, ¿cómo le fue?",
+            "options": [
+              "Por debajo: cumplió el 60 % de las actividades, y esa vara pide al menos un 80 %.",
+              "Por encima: pasó de la mitad, y eso basta para dar por ejecutado un plan operativo.",
+              "Por debajo: esa vara pide el 100 % de lo aprobado, y quedaron 8 actividades sin hacer."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 6 →"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — 🏕️ El Plan de Grupo",
+      "emoji": "🏕️",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Los proyectos del Plan de Grupo nacen, de preferencia, desde las Ramas; el Consejo lo revisa y lo aprueba, la Asamblea lo aprueba con su presupuesto, el Jefe de Grupo lo ejecuta y el Consejo lo sigue en sus reuniones de cada mes."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Plan de Grupo es la pieza donde todo lo anterior aterriza. Tiene un recorrido, y cada paso tiene dueño. Si ya hiciste el Curso 7, vas a reconocer a los mismos actores: la Asamblea, el Consejo y quien conduce la Jefatura, el Jefe de Grupo."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "🌱 Sus proyectos nacen desde las Ramas",
+              "description": "Los proyectos, programas y presupuestos del grupo se originan, preferiblemente, en un proceso participativo desde las Ramas, con los niños, niñas y jóvenes (Reglamento de Grupos, 4.3.8)."
+            },
+            {
+              "title": "🪑 El Consejo lo revisa y lo aprueba",
+              "description": "El Consejo de Grupo revisa y aprueba el Plan de Grupo (5.6.2), y prepara el presupuesto con base en él (10.17)."
+            },
+            {
+              "title": "🗳️ La Asamblea lo aprueba, con su presupuesto",
+              "description": "Aprobar el Plan de Grupo es la primera facultad de la Asamblea (4.3.1), y todos los gastos del grupo quedan sujetos al presupuesto que ella aprueba (10.18)."
+            },
+            {
+              "title": "🧭 El Jefe de Grupo lo ejecuta",
+              "description": "A nivel operativo, el jefe de Grupo es el encargado de la ejecución del Plan de Grupo (Estatuto 2025, Art. 18). Tener el plan del año por escrito —qué, cuándo y quién— es la buena práctica que lo hace posible."
+            },
+            {
+              "title": "🔎 Se verifica",
+              "description": "El Consejo lo sigue en sus reuniones de cada mes, donde aprueba las cuentas del grupo; la Asamblea, una vez al año, recibe los informes de gestión. Es el mismo patrón del Curso 7."
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver de dónde deben nacer los proyectos",
+          "text": "Es de aclarar que todos éstos se originan preferiblemente, en un proceso participativo desde las Ramas, en conjunto con los Miembros Infantiles y Juveniles como parte de su formación scout, hasta ser analizados y acogidos oficialmente en la Asamblea por los Representantes Legales de los mismos, como máximo órgano de dirección del Grupo.",
+          "source": "Reglamento Nacional de Grupos Scouts, Art. 4.3.8"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🧩 Dos veces «aprobar», y un envío.</strong> El Reglamento usa «aprobar» para los dos órganos: el Consejo aprueba la propuesta que lleva; la Asamblea, como máximo órgano de dirección, la aprueba para todo el grupo. Además, el Consejo <strong>envía</strong> el Plan de Grupo a la Región o a la Nación para su conocimiento (5.6.2); el Reglamento no dice en qué momento. Y un Plan de Grupo que nadie revisa hasta la Asamblea siguiente es el que termina en la carpeta."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Qué órgano o cargo hizo el último Plan de Grupo de tu grupo? ¿Participaron las Ramas y los jóvenes, lo aprobó la Asamblea y alguien lo revisó durante el año? Marca el paso que faltó."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "questions": [
+          {
+            "text": "El Consejo termina el Plan de Grupo, lo aprueba y lo guarda en su carpeta. ¿Qué le falta según el Reglamento de Grupos?",
+            "options": [
+              "Enviarlo al Consejo Scout Nacional, que lo aprueba antes de que el grupo pueda ejecutarlo.",
+              "Enviarlo a la Región (o a la Nación) para su conocimiento y llevarlo a la Asamblea, que lo aprueba.",
+              "Nada más: si el Consejo ya lo aprobó, el Plan queda en firme y el Jefe de Grupo lo ejecuta."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El Consejo ya tiene escrito un proyecto de servicio en el barrio y lo quiere llevar a la Asamblea la próxima semana. Nadie de las Ramas lo ha visto. ¿Qué le sugieres?",
+            "options": [
+              "Que antes lo pase por las Ramas: el proyecto debería salir de los niños, niñas y jóvenes.",
+              "Que lo lleve así: los proyectos del grupo los escribe el Consejo, y las Ramas solo los ejecutan.",
+              "Que antes lo pase por la Región, que es la que asigna a cada grupo los proyectos del año."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 7 →"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Lección 7 — 🎯 Tu aporte al Plan de Grupo",
+      "emoji": "🎯",
+      "navLabel": "L7",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>Un objetivo SMART, ligado a una prioridad, con su acción en el plan del año, su plata en el presupuesto y una fecha de revisión."
+        },
+        {
+          "type": "paragraph",
+          "text": "Volvamos al Consejo que copiaba el calendario. Un plan que no baja al calendario y a la plata es solo un deseo; ahora sabes bajarlo. En enero, en vez de copiar el año pasado, el Consejo abre el Plan de Grupo: el plan del año dice qué se hace, cuándo y quién; el presupuesto le pone plata a cada cosa; y cada mes el Consejo mira cómo va. En octubre el campamento no es una sorpresa: <strong>estaba en los tres eslabones desde enero</strong>."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "✅ Así se ve un buen aporte"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Prioridad:</strong> Crecimiento.",
+            "<strong>Objetivo SMART:</strong> pasar de 18 a 22 lobatos entre febrero y noviembre.",
+            "<strong>En el plan del año:</strong> dos jornadas de puertas abiertas (marzo y agosto), a cargo de la Jefatura de Manada.",
+            "<strong>En el presupuesto:</strong> materiales y refrigerios de las dos jornadas.",
+            "<strong>Revisión:</strong> en la reunión de Consejo de junio."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu turno:</strong> escoge una prioridad, escribe un objetivo SMART para tu grupo y ubica sus tres eslabones: qué acción del año lo mueve, qué parte del presupuesto lo sostiene y cuándo se revisa."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔜 Lo que sigue en la línea:</strong> el tercer eslabón, el presupuesto, es el tema del <strong>Curso 10 — Finanzas Sanas: Presupuesto y Tesorería</strong> (próximamente), y la administración de los recursos del grupo, del <strong>Curso 9 — Administración del Grupo</strong> (próximamente)."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu aporte al Plan de Grupo: la prioridad, el objetivo SMART, la acción del año, el recurso del presupuesto y la fecha de revisión. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista. Ojo: ese recuadro no sale en el PDF."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7 — Cierre del curso",
+        "questions": [
+          {
+            "text": "Tres adultos traen su aporte al Plan de Grupo. ¿Cuál tiene todos los eslabones que pide esta lección?",
+            "options": [
+              "Participación Juvenil: 4 de 6 Rovers presentan un proyecto antes de octubre; Ana los acompaña en 3 talleres, con $80.000 y revisión en julio.",
+              "Participación Juvenil: que los Rovers participen mucho más este año; Ana los acompaña en 3 talleres, con $80.000 y revisión en julio.",
+              "Participación Juvenil: 4 de 6 Rovers presentan un proyecto antes de octubre; Ana los acompaña en 3 talleres y se revisa en la Asamblea de marzo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Enero, en otro grupo. El tesorero propone: «Hagamos el presupuesto con las cifras del año pasado y después vemos qué actividades caben». ¿Qué le respondes?",
+            "options": [
+              "Que va al revés: primero el Plan dice qué se busca, luego el plan del año y al final el presupuesto.",
+              "Que tiene razón: el presupuesto manda, y el plan del año se ajusta a lo que ya alcanzó el año pasado.",
+              "Que va al revés: primero se arma el calendario con las familias, y el Plan de Grupo se escribe al final."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Ir al certificado →"
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Sé para qué se planea",
+      "emoji": "🎯",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Veo la cadena completa",
+      "emoji": "🔗",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Sé construir un plan",
+      "emoji": "🛠️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Conozco el plan nacional",
+      "emoji": "🇨🇴",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Sigo el Plan de Grupo",
+      "emoji": "🏕️",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Planeación en marcha",
+      "emoji": "🧭",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "PLANEACIÓN: DEL PLAN ESTRATÉGICO AL POA",
+    "description": "ha completado el Curso 8 del Nivel 2 — Profundización por ámbito de gestión de la Línea Desarrollo Institucional, reconociendo qué es planear y para qué, distinguiendo el plan estratégico, el plan operativo anual y el presupuesto, reconociendo los tres momentos de la metodología de la OMMS, formulando objetivos SMART, ubicando su grupo en el Plan Estratégico nacional 2023–2026 y siguiendo el recorrido del Plan de Grupo, con un aporte concreto a ese plan"
+  }
+}

@@ -96,5 +96,19 @@
     "status": "active",
     "file": "gobernanza-practica.html",
     "folder": "gobernanza-practica"
+  },
+  {
+    "courseId": "planeacion-plan-estrategico-poa",
+    "title": "Planeación: del Plan Estratégico al POA",
+    "description": "Un plan que no baja al calendario y a la plata es solo un deseo. En ~32 minutos vas a recorrer la cadena completa de la planeación scout: qué es planear y para qué, cómo el plan estratégico se vuelve plan operativo anual y presupuesto, cómo se construyó el Plan Estratégico nacional 2023–2026 y cómo se hace, se aprueba y se sigue el Plan de Grupo.",
+    "icon": "🧭",
+    "duration": "~32 min",
+    "level": 2,
+    "levelName": "Profundización por ámbito de gestión",
+    "order": 8,
+    "modules": 7,
+    "status": "active",
+    "file": "planeacion-plan-estrategico-poa.html",
+    "folder": "planeacion-plan-estrategico-poa"
   }
 ]

@@ -136,7 +136,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Piensa en la última decisión importante de tu grupo. ¿Quién la tomó, quién la ejecutó y quién verificó que se cumpliera? Si alguno de los tres no tiene nombre, escríbelo: ahí está tu primer hallazgo."
+        "prompt": "Piensa en la última decisión importante de tu grupo. ¿Qué órgano o cargo la tomó, cuál la ejecutó y cuál verificó que se cumpliera? Si alguno de los tres no tiene dueño, escríbelo: ahí está tu primer hallazgo. (Anota roles, no nombres de personas.)"
       },
       "quiz": {
         "title": "Mini-quiz Lección 2",
@@ -370,12 +370,12 @@
         },
         {
           "type": "paragraph",
-          "text": "Uno de los 5 elementos de la Gobernanza que viste en el Curso 4 (sus sub-ámbitos) son las <strong>Regulaciones</strong>: crear, revisar e incluso suprimir las normas internas. Para hacerlo bien hay que saber tres cosas: qué norma manda sobre cuál, quién puede dictarla y si sigue vigente."
+          "text": "Uno de los 5 elementos de la Gobernanza que viste en el Curso 4 (sus sub-ámbitos) son las <strong>Regulaciones</strong>: crear, revisar e incluso suprimir las normas internas. Para hacerlo bien hay que saber tres cosas: qué norma manda sobre cuál, quién puede dictarla y si sigue vigente. El Reglamento Nacional de 2026 ordena esa escalera en <strong>cinco niveles</strong>: si dos normas se contradicen, prevalece la de mayor jerarquía (Art. 19)."
         },
         {
           "type": "heading",
           "level": 3,
-          "text": "🪜 La escalera de las normas"
+          "text": "🪜 La escalera de las normas: cinco niveles"
         },
         {
           "type": "timeline",
@@ -385,14 +385,26 @@
               "description": "La norma de mayor rango de la Asociación. Los estatutos de las regiones deben ser coherentes, en todo, con él (Art. 26)."
             },
             {
-              "title": "2. Políticas y reglamentos nacionales",
-              "description": "Los dicta el Consejo Scout Nacional, que ejerce <strong>de manera exclusiva</strong> la facultad reglamentaria, con participación de las regiones y los grupos (Estatuto, Art. 55.1)."
+              "title": "2. Reglamento Nacional (2026)",
+              "description": "Desarrolla el Estatuto para toda la Asociación (Acuerdo C.S.N. 684 del 22 de junio de 2026)."
             },
             {
-              "title": "3. Normas de funcionamiento del Grupo",
-              "description": "Las define la Asamblea de Grupo, siempre dentro de las normas de la Asociación y de la Región (Reglamento Nacional de Grupos Scouts, 4.3.12)."
+              "title": "3. Reglamentos de Regiones y de Grupos, y Código de Honor",
+              "description": "Aquí está el Reglamento Nacional de Grupos Scouts que cita este curso: sigue vigente en lo que no contraríe a las normas de arriba."
+            },
+            {
+              "title": "4. Demás reglamentos, políticas y manuales",
+              "description": "Los aprueba el Consejo Scout Nacional: por ejemplo, las políticas nacionales y el Manual de Cargos."
+            },
+            {
+              "title": "5. Disposiciones de las asambleas regionales",
+              "description": "Acuerdos o resoluciones de cada región, siempre por debajo de todo lo anterior."
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "¿Y el grupo? Dentro de ese marco, la Asamblea de Grupo define las <strong>normas de funcionamiento del Grupo</strong>, siempre dentro de las normas de la Asociación y de la Región (Reglamento Nacional de Grupos Scouts, 4.3.12). Y las normas del segundo al cuarto nivel solo las aprueba y modifica el Consejo Scout Nacional, que es además el único que las interpreta (Reglamento Nacional, Art. 20)."
         },
         {
           "type": "policy-quote",
@@ -411,7 +423,7 @@
         },
         {
           "type": "paragraph",
-          "text": "El Reglamento Nacional de Grupos Scouts, de 2013, todavía dice que el grupo tiene un Fiscal o Revisor Fiscal. Pero en 2023 el Consejo Scout Nacional, mediante el <strong>Acuerdo 558</strong>, suspendió lo que los reglamentos dicen sobre los cargos de adultos, y el Estatuto de 2025 remite la designación de los cargos a la <strong>Política de Adultos en el Movimiento vigente</strong>, cuyo Manual de Cargos no tiene Fiscal de Grupo: el control contable lo hace el <strong>Contador de Grupo</strong>. Quien leyera solo el Reglamento buscaría un cargo que hoy ya no opera."
+          "text": "El Reglamento Nacional de Grupos Scouts, de 2013, todavía dice que el grupo tiene un Fiscal o Revisor Fiscal. Pero en 2023 el Consejo Scout Nacional, mediante el <strong>Acuerdo 558</strong>, suspendió lo que los reglamentos dicen sobre los cargos de adultos, y el Estatuto de 2025 remite la designación de los cargos a la <strong>Política de Adultos en el Movimiento vigente</strong>, cuyo Manual de Cargos no tiene Fiscal de Grupo: el control contable lo hace el <strong>Contador de Grupo</strong>. Quien leyera solo el Reglamento buscaría un cargo que hoy ya no opera. Ojo: aquí no gana el Manual por su nivel, que es más bajo que el del Reglamento. Gana porque el Estatuto (nivel 1) remite los cargos a la Política de Adultos, y porque el Consejo Scout Nacional —el único que puede cambiar las normas del tercer nivel— suspendió esas disposiciones."
         },
         {
           "type": "mission-box",
@@ -603,7 +615,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu compromiso de gobernanza: qué vas a hacer, en cuál de los 8 principios, con quién y para cuándo. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista junto a él. Ojo: ese recuadro no sale en el PDF; si quieres conservarlo, anótalo también donde lo vayas a ver."
+        "prompt": "Escribe tu compromiso de gobernanza: qué vas a hacer, en cuál de los 8 principios, con quién —su rol, no su nombre— y para cuándo. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista junto a él. Ojo: ese recuadro no sale en el PDF; si quieres conservarlo, anótalo también donde lo vayas a ver."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7 — Cierre del curso",
