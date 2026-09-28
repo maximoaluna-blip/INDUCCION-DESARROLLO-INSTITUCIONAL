@@ -154,7 +154,7 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
     - 🔴 **A-crear (3 meses):** _"Definir quién es el responsable de cada activo del grupo y de los voluntarios. Primera lista nominal del equipo + de los bienes. Es la base de cualquier administración futura."_
 9. **`heading` (nivel 3)** — _"💰 Ámbito 3 — Recursos Económicos"_
 10. **`method-grid`** — 3 metas-tipo:
-    - 🟢 **RE-doc (6 meses):** _"Escribir el plan financiero del grupo: 6 fuentes de fondos, margen mínimo (>= 17%), uso de excedentes. Compartirlo como modelo replicable con la región."_
+    - 🟢 **RE-doc (6 meses):** _"Escribir el plan financiero del grupo: de dónde entra la plata, cuánto debe dejar cada actividad según su presupuesto y en qué se usan los excedentes. Compartirlo como modelo replicable con la región."_
     - 🟡 **RE-fort (6 meses):** _"Implementar libro contable básico con conciliación mensual + diversificar al menos 2 fuentes de fondos adicionales a la cuota. Subir atributo de Sostenibilidad."_
     - 🔴 **RE-crear (3 meses):** _"Abrir cuenta bancaria del grupo si no existe + sacar la plata de cuentas personales. Cualquier cosa antes de cuenta del grupo es alto riesgo."_
 11. **`heading` (nivel 3)** — _"📣 Ámbito 4 — Comunicaciones e Interinstitucionales"_

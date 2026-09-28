@@ -138,5 +138,19 @@
     "status": "active",
     "file": "administracion-del-grupo.html",
     "folder": "administracion-del-grupo"
+  },
+  {
+    "courseId": "captacion-fondos-ciclo-proyectos",
+    "title": "Captación de Fondos y Ciclo de Proyectos",
+    "description": "Una rifa no es un proyecto. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Gestión de Recursos Económicos: cómo conseguir fondos adicionales a las cuotas, con actividades o con proyectos, cómo tratar con aliados y donantes sin comprometer al grupo, y cómo ordenar un proyecto de principio a fin.",
+    "icon": "🌱",
+    "duration": "~35 min",
+    "level": 2,
+    "levelName": "Profundización por ámbito de gestión",
+    "order": 11,
+    "modules": 7,
+    "status": "active",
+    "file": "captacion-fondos-ciclo-proyectos.html",
+    "folder": "captacion-fondos-ciclo-proyectos"
   }
 ]

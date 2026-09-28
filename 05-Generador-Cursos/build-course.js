@@ -465,7 +465,7 @@ function renderSection(section) {
             const gpMaxAdopted = section.maxAdoptedGoals || 5;
             const gpCatalogId = section.preloadFromCatalog || 'catalogo-buenas-practicas-grupo';
             return `<div class="goal-planner" id="gp-${gpId}" data-plan-id="${gpId}" data-max-adopted="${gpMaxAdopted}" data-source-catalog="${gpCatalogId}">
-                <p class="gp-intro">${section.intro || 'Elegí hasta ' + gpMaxAdopted + ' metas-tipo y completá los campos. Tu plan se guarda en tu navegador y se sincroniza al backend.'}</p>
+                <p class="gp-intro">${section.intro || 'Elige hasta ' + gpMaxAdopted + ' metas-tipo y completa los campos. Tu plan se guarda en tu navegador y se sincroniza al backend.'}</p>
                 <div class="gp-slots" id="gp-slots-${gpId}"></div>
                 <div class="goal-planner-actions">
                     <button type="button" class="btn-primary" onclick="saveGoalPlanner('${gpId}')">💾 ${section.buttonLabel || 'Guardar mi plan'}</button>

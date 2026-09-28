@@ -3,7 +3,7 @@
   "title": "Mi Aporte al Desarrollo Institucional",
   "subtitle": "Curso 6 de la Línea Desarrollo Institucional · Cierre del Nivel 1 — Fundamentación",
   "description": "Curso de cierre del Nivel 1. Convierte todo lo aprendido en un plan personal de aporte al DI, listo para firmar y compartir con el consejo. Lee automáticamente tu catálogo de buenas prácticas del Curso 5 y tu brújula personal del Curso 2, te propone metas-tipo por cada uno de los 8 ámbitos con recursos y plazos, y termina con un PDF firmable.",
-  "contentVersion": "2026-09-21",
+  "contentVersion": "2026-09-27",
   "icon": "🗺️",
   "duration": "30 minutos",
   "level": 1,
@@ -243,7 +243,7 @@
           "items": [
             {
               "title": "🟢 RE-doc · 6 meses",
-              "description": "<strong>Escribir el plan financiero del grupo</strong>: 6 fuentes de fondos, margen mínimo (≥17%), uso de excedentes. Compartirlo como modelo replicable con la región.",
+              "description": "<strong>Escribir el plan financiero del grupo</strong>: de dónde entra la plata, cuánto debe dejar cada actividad según su presupuesto y en qué se usan los excedentes. Compartirlo como modelo replicable con la región.",
               "color": "#e8f5e9",
               "borderColor": "#4caf50"
             },

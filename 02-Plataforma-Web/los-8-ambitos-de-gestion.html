@@ -2442,7 +2442,7 @@ function renderCatalogDisplays() {
         var mode = el.getAttribute('data-mode') || 'full';
         var data = getCatalogData(catalogId);
         if (!data || Object.keys(data).length === 0) {
-            el.innerHTML = '<div class="catalog-display-empty">⚠️ <strong>Aún no tienes catálogo guardado.</strong><br>Para que este componente se llene, primero completá el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong> y guardá tu catálogo.</div>';
+            el.innerHTML = '<div class="catalog-display-empty">⚠️ <strong>Aún no tienes catálogo guardado.</strong><br>Para que este componente se llene, primero completa el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong> y guardá tu catálogo.</div>';
             return;
         }
         var stateLabels = { si: '🟢 Sí', parcial: '🟡 Parcial', no: '🔴 No', 'no-se': '⚪ No sé' };
@@ -2585,13 +2585,13 @@ function renderCoursesSuggestions() {
         var catId = el.getAttribute('data-catalog-id') || 'catalogo-buenas-practicas-grupo';
         var data = getCatalogData(catId);
         if (!data || Object.keys(data).length === 0) {
-            el.innerHTML = '<div class="courses-suggestion-empty">ℹ️ Para ver sugerencias personalizadas, completá tu catálogo en el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong>.</div>';
+            el.innerHTML = '<div class="courses-suggestion-empty">ℹ️ Para ver sugerencias personalizadas, completa tu catálogo en el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong>.</div>';
             return;
         }
         var coursesByAmbito = {
             'gobernanza': '🏛️ Curso 7 — Gobernanza Práctica',
             'administracion': '🗂️ Curso 9 — Administración del Grupo',
-            'recursos-economicos': '💰 Curso 11 — Captación de Fondos y Ciclo de Proyectos',
+            'recursos-economicos': '🌱 Curso 11 — Captación de Fondos y Ciclo de Proyectos',
             'comunicaciones': '📣 Curso 12 — Comunicaciones y Relaciones Interinstitucionales',
             'relaciones-internacionales': '📣 Curso 12 — Comunicaciones y Relaciones Interinstitucionales',
             'crecimiento': '📈 Curso 13 — Crecimiento y Sistema de Información',
@@ -2848,13 +2848,13 @@ function buildPlanPrintableHTML(planId) {
             '</dl>' +
         '</div>';
     });
-    if (!goalsHTML) goalsHTML = '<p><em>Sin metas adoptadas. Volvé al plan-builder y elegí al menos una meta antes de generar el PDF.</em></p>';
+    if (!goalsHTML) goalsHTML = '<p><em>Sin metas adoptadas. Vuelve al plan-builder y elige al menos una meta antes de generar el PDF.</em></p>';
 
     // Suggested N2 courses
     var coursesByAmbito = {
         'gobernanza': '🏛️ Curso 7 — Gobernanza Práctica',
         'administracion': '🗂️ Curso 9 — Administración del Grupo',
-        'recursos-economicos': '💰 Curso 11 — Captación de Fondos y Ciclo de Proyectos',
+        'recursos-economicos': '🌱 Curso 11 — Captación de Fondos y Ciclo de Proyectos',
         'comunicaciones': '📣 Curso 12 — Comunicaciones',
         'relaciones-internacionales': '📣 Curso 12 — Comunicaciones',
         'crecimiento': '📈 Curso 13 — Crecimiento',

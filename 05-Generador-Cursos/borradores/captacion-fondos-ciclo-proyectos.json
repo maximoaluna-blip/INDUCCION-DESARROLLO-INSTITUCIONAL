@@ -1,0 +1,549 @@
+{
+  "courseId": "captacion-fondos-ciclo-proyectos",
+  "title": "Captación de Fondos y Ciclo de Proyectos",
+  "subtitle": "Curso 11 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
+  "description": "Una rifa no es un proyecto. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Gestión de Recursos Económicos: cómo conseguir fondos adicionales a las cuotas, con actividades o con proyectos, cómo tratar con aliados y donantes sin comprometer al grupo, y cómo ordenar un proyecto de principio a fin.",
+  "contentVersion": "2026-09-27",
+  "status": "active",
+  "icon": "🌱",
+  "duration": "~35 min",
+  "level": 2,
+  "levelName": "Profundización por ámbito de gestión",
+  "order": 11,
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~35 minutos · 7 lecciones.</strong><br>Al final vas a poder distinguir la captación de fondos de los ingresos ordinarios del grupo, recorrer el ciclo de un proyecto de principio a fin, montar una actividad para recaudar con la aprobación que corresponde, tratar con aliados y donantes sin comprometer al grupo, reconocer un conflicto de interés y escribir el proyecto de tu grupo en una página.<br><strong>Cada lección cierra con 2 preguntas:</strong> para avanzar hay que acertar las dos. Si fallas, el curso te muestra la correcta y lo vuelves a intentar."
+        },
+        {
+          "type": "paragraph",
+          "text": "En la reunión de Consejo alguien dice: «Necesitamos plata para ir al campamento nacional. Hagamos una rifa». Todos asienten. Nadie pregunta cuánto cuesta el campamento, cuánto deja una rifa ni cuántas boletas hay que vender. Tres meses después la rifa se hizo, dejó menos de lo esperado, y el papá que donó el premio, que es consejero, propone que el grupo le compre a su empresa las camisetas del viaje. <strong>El grupo trabajó mucho y no sabe si le alcanza.</strong>"
+        },
+        {
+          "type": "blockquote",
+          "text": "Una rifa no es un proyecto."
+        },
+        {
+          "type": "paragraph",
+          "text": "La plata del grupo —de quién es, cómo se presupuesta, cómo se rinden cuentas— tiene su propio curso, el 10 (Finanzas Sanas): te sugerimos hacerlo antes. Este curso trata de otra cosa: cómo conseguir fondos <strong>adicionales</strong> para algo que el grupo necesita, y cómo hacerlo sin comprometerlo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a practicar"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 🌱 Qué es captar fondos, y qué no.",
+            "<strong>Lección 3 —</strong> 🔄 El ciclo de un proyecto, en once pasos.",
+            "<strong>Lección 4 —</strong> 🎪 Una actividad para recaudar, bien montada.",
+            "<strong>Lección 5 —</strong> 🤝 Aliados, patrocinadores y donantes.",
+            "<strong>Lección 6 —</strong> ⚖️ Conflictos de interés y comisiones.",
+            "<strong>Lección 7 —</strong> 🧭 El proyecto de tu grupo en una página."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de empezar:</strong> piensa en algo que tu grupo necesite y no pueda pagar con sus cuotas: equipo, un viaje, un arreglo de la sede. Lo vas a usar en la última lección."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 🌱 Qué es captar fondos, y qué no",
+      "emoji": "🌱",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Captar fondos es conseguir plata <strong>adicional</strong> a las cuotas, para que el grupo se sostenga; se hace con actividades o con proyectos, y los aprueba el Consejo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Piensa en tres platas que entraron a un grupo este año: la cuota de marzo, lo que dejó el bazar de junio y las carpas que regaló una fundación. Las tres sirven, pero solo dos son lo que la Política Nacional de Desarrollo Institucional llama <strong>Gestión de Recursos Económicos</strong>. La definición lo dice en pocas líneas:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la definición de la Política",
+          "text": "Consiste en obtención de fondos adicionales, diferentes de los ingresos ordinarios. Buscando la sostenibilidad de la institución con la obtención de los mismos y generando opciones diferentes al pago de la cuota de afiliación de los miembros. Se ocupa de la generación de fondos: Diseño y ejecución de actividades benéficas y/o de formulación de proyectos para captar fondos.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, §8.2.3 Gestión de Recursos Económicos, p. 11"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tres ideas salen de ahí. Primera: son fondos <strong>adicionales</strong>; las cuotas son el ingreso ordinario y no cuentan como captación. Segunda: el fin es la <strong>sostenibilidad</strong>, que el grupo no dependa solo de lo que pagan sus familias. Tercera: hay <strong>dos vías</strong>, las actividades (un bazar, una feria, un servicio que el grupo presta) y los proyectos (una propuesta que el grupo formula para que otros lo apoyen)."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🎪 Actividades",
+              "description": "El grupo organiza algo y lo que deja va a su fondo. Ej.: un bazar, una venta de comidas, la recolección de reciclaje. (Lección 4.)",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "📝 Proyectos",
+              "description": "El grupo formula una propuesta —qué necesita, para qué, cuánto cuesta— y busca quién la apoye. Ej.: pedirle a una fundación las carpas nuevas. (Lecciones 3 y 5.)",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En las dos vías manda la misma regla: el Consejo de Grupo tiene la función de <em>«ordenar, revisar, aprobar y dirigir todos los proyectos financieros y eventos económicos»</em> del grupo (Reglamento de Grupos, 5.6.6). Y, como viste en el Curso 10, nadie puede salir a conseguir fondos o donaciones sin su aprobación previa (10.16)."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> la rifa del caso no es mala idea; lo malo es que se decidió antes de saber para qué y cuánto. Eso es lo que ordena el ciclo de la lección siguiente."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿De dónde sale hoy la plata de tu grupo, aparte de las cuotas? ¿Es algo que se repite cada año o se improvisa cuando falta? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "El Consejo quiere que el viaje de la Tropa no dependa solo de las familias. ¿Cuál de estas propuestas es captar fondos como lo entiende la Política, y el grupo la puede usar?",
+            "options": [
+              "Una venta de comidas en la sede, aprobada por el Consejo, para el fondo del viaje.",
+              "Una cuota mensual más alta este año, para cubrir también el viaje de la Tropa.",
+              "Una colecta con alcancías en el parque, aprobada por el Consejo, para el fondo del viaje."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una dirigente consigue que una fundación financie el viaje de la Tropa. Lo arregla ella sola y le avisa al Consejo cuando ya está listo. ¿Qué falló?",
+            "options": [
+              "Faltó que el Consejo lo aprobara antes: pedir plata o apoyos para el grupo lo decide él, no quien los consigue.",
+              "Faltó dejarlo en el acta del Consejo; avisarle después vale si la fundación aceptó y el apoyo es para la Tropa.",
+              "Faltó que lo aprobara la Asamblea: la plata que entra al grupo, sea de donde sea, la decide ella."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 3 →"
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🔄 El ciclo de un proyecto",
+      "emoji": "🔄",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Un proyecto empieza por la necesidad, no por la actividad: primero se sabe qué se quiere y cuánto cuesta, y después se busca la plata."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Organización Mundial del Movimiento Scout publica una hoja de actividad, <em>«Step by step for success – The project cycle»</em>, que resume el ciclo de un proyecto en once pasos. Está pensada para proyectos de servicio a la comunidad, pero sirve igual para un proyecto del grupo. No es una norma: es una herramienta. Estos son los once pasos (traducción nuestra), agrupados por nosotros en cuatro momentos:"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "🔍 Pensar — pasos 1 a 4",
+              "description": "1. Encontrar qué necesita la comunidad (o, en tu caso, el grupo). 2. Armar un equipo y repartir tareas según lo que sabe hacer cada uno. 3. Fijar metas concretas. 4. Hacer un cronograma: cuándo empieza y cuándo termina."
+            },
+            {
+              "title": "🧮 Conseguir — pasos 5 a 8",
+              "description": "5. Hacer el mapa de recursos: personas, materiales, tiempo y apoyo externo. 6. Hacer el presupuesto con todos los gastos. 7. Recaudar fondos, si hacen falta. 8. Contactar posibles aliados: donantes, organizaciones o personas de la comunidad."
+            },
+            {
+              "title": "🚀 Hacer — paso 9",
+              "description": "9. Ejecutar el plan."
+            },
+            {
+              "title": "📣 Cerrar — pasos 10 y 11",
+              "description": "10. Informar a donantes y aliados qué se logró. 11. Celebrar y compartir, para inspirar a otros."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Fíjate en el orden. Recaudar es el paso 7, <strong>después</strong> del presupuesto. En el caso de la rifa, el grupo empezó por el paso 7: no sabía cuánto costaba el campamento (paso 6), así que no podía saber cuánto tenía que dejar la rifa ni si una rifa alcanzaba. Y a veces el paso 7 sobra: la hoja trae un ejemplo, una campaña de reciclaje, en la que no hizo falta recaudar."
+        },
+        {
+          "type": "paragraph",
+          "text": "El cierre también cuenta. Informar a quienes apoyaron (paso 10) no es un favor: es lo que hace que vuelvan a apoyar."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🧠 No hace falta memorizar los once:</strong> basta con recordar el orden de los momentos —pensar, conseguir, hacer, cerrar— y que la plata va después del presupuesto."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> antes de decidir <em>cómo</em> conseguir la plata, el grupo tiene que saber <em>para qué</em> y <em>cuánto</em>. La actividad es un medio, no el punto de partida."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en la última vez que tu grupo recaudó plata para algo. ¿Por qué paso del ciclo empezó? ¿Cuál se saltó? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "Un Consejo quiere comprar una carpa comedor. Un consejero propone empezar ya con un bingo «y ver cuánto sale». Según el ciclo, ¿qué debería venir antes?",
+            "options": [
+              "Primero saber cuánto cuesta la carpa y qué otros gastos hay: así se sabe cuánta plata tiene que dejar el bingo.",
+              "Primero contactar a los aliados del grupo: con lo que ellos pongan se sabe cuánto tiene que dejar el bingo.",
+              "Primero hacer el bingo y ver cuánto deja: con esa cifra se arma después el presupuesto de la carpa."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El grupo terminó un proyecto que financió una empresa del barrio. El Consejo cree que ya no hace falta contarle nada a la empresa. ¿Qué le dices?",
+            "options": [
+              "Que le cuente qué se logró: es un paso del ciclo, y así quien puso la plata vuelve a apoyar.",
+              "Que tiene razón: una vez entregada la plata, la empresa no tiene por qué saber en qué se usó.",
+              "Que le informe cuando vuelva a pedirle apoyo: el informe se entrega junto con la nueva solicitud."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 4 →"
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 🎪 Una actividad para recaudar, bien montada",
+      "emoji": "🎪",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Una actividad para recaudar se aprueba antes, se presupuesta antes y se cierra con cuentas; si el grupo presta un servicio a un tercero, el contrato va por la Región."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Curso 10 ya te dejó el repertorio —bazares, ferias, bingos, rifas, ventas, reciclaje (Reglamento de Grupos, 10.15)— y el límite: nada de colectas en la calle ni en otros espacios públicos, sea cual sea la causa (Reglamento Nacional, Art. 80). Aquí vamos a lo que falta: cómo se monta una, con la cuenta hecha antes."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "✅ Antes — aprobación y presupuesto",
+              "description": "El Consejo la aprueba antes (Reglamento de Grupos, 5.6.6 y 10.16). Hazle un presupuesto sencillo —cuánto cuesta montarla, cuánto se espera que entre y cuánto quedaría—: todo gasto del grupo tiene que caber en el presupuesto del año (10.18). El Reglamento no fija un porcentaje mínimo de ganancia: esa cuenta la hace el Consejo."
+            },
+            {
+              "title": "🎪 Durante — un responsable",
+              "description": "Alguien dirige la actividad y lleva los soportes: lo que se compró, lo que se vendió, lo que sobró."
+            },
+            {
+              "title": "🧾 Después — cuentas en 30 días",
+              "description": "Quien la dirigió rinde cuentas al Consejo con soportes y entrega lo que sobró al Tesorero, en los 30 días siguientes (Reglamento de Grupos, 10.21)."
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🧮 La cuenta, hecha antes.</strong> Digamos que el campamento costaba $2.400.000. El premio lo donaron; imprimir las boletas y la publicidad cuesta $200.000. Con 400 boletas a $5.000 entran $2.000.000 y quedan $1.800.000. Con esa cuenta en la mano, el Consejo habría visto en la primera reunión que la rifa sola no alcanzaba: o vendían más boletas, o sumaban otra actividad o un aliado. Esa cuenta es el presupuesto de la actividad. (Cifras de ejemplo.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Algunas actividades tienen además reglas de ley propias —las rifas, por ejemplo—. Antes de organizarlas, pregunta a tu Región qué trámites piden."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay otra forma de recaudar que no es un evento: <strong>prestar un servicio</strong>. El grupo puede recibir dinero o bienes a cambio de un trabajo —apoyar la logística de una carrera, cuidar un parqueadero en una feria—, y esa plata solo puede financiar el escultismo del grupo (Reglamento de Grupos, 10.13). Si hay que firmar un contrato, va por medio del representante legal de la Región, porque el grupo actúa con su personería (Reglamento Nacional, Art. 231), como viste en el Curso 9."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> la rifa del caso tuvo aprobación, pero no presupuesto. Sin él, nadie podía saber si valía la pena ni cuánto tenía que dejar."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en una actividad para recaudar que tu grupo haya hecho. ¿Alguien supo, antes de hacerla, cuánto tenía que dejar? ¿Se rindieron cuentas después? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Un comerciante le ofrece al grupo pagarle por atender los puntos de hidratación de una carrera, con contrato firmado. El Jefe de Grupo quiere firmarlo él mismo. ¿Qué corresponde?",
+            "options": [
+              "Que el Consejo lo apruebe y el contrato se firme por medio del representante legal de la Región.",
+              "Que el Consejo lo apruebe y el contrato lo firme el Tesorero, que es quien maneja la plata del grupo.",
+              "Que el Consejo lo apruebe y el contrato lo firme el Jefe de Grupo, que responde por los jóvenes."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El Consejo necesita $1.200.000 para unas carpas y propone un bingo. Premios y tablas cuestan $500.000, y esperan vender 200 tablas a $5.000. ¿Qué le dices?",
+            "options": [
+              "Que así el bingo deja unos $500.000: no alcanza, y hay que ajustar el plan o sumar otra fuente.",
+              "Que así el bingo deja $1.000.000: casi alcanza, y lo que falta se consigue más adelante.",
+              "Que así el bingo deja $1.500.000: alcanza de sobra, y lo que sobre queda para el campamento."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 5 →"
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 🤝 Aliados, patrocinadores y donantes",
+      "emoji": "🤝",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Un aliado apoya al grupo sin comprarlo: no se acepta un aporte con condiciones contrarias a los principios ni de origen dudoso, y el nombre y los emblemas scouts no se le ceden a ninguna entidad de fuera desde el grupo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un aliado apoya al grupo; un <strong>miembro patrocinador</strong> lo hace <em>«a título gratuito»</em>, sin pedir nada a cambio (Reglamento de Grupos, 2.1.4; Estatuto, Art. 10). Pero no toda ayuda se acepta:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué donaciones no se aceptan",
+          "text": "No podrán aceptarse auxilios, subvenciones, donaciones ni legados, condicionales o modales, cuando la condición o el modo contravengan los principios que inspiran el objeto de la Asociación Scouts de Colombia.",
+          "source": "Estatuto de la Asociación Scouts de Colombia 2025, Art. 80 «Prohibición», p. 42"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Reglamento de Grupos agrega que el grupo se abstiene de recibir ayudas que comprometan su independencia, o que vengan de personas de dudosa reputación o de negocios ilícitos, o cuando haya duda razonable a juicio del Consejo (10.10)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y hay una regla que sorprende a muchos consejos. Un supermercado ofrece donar los premios de la rifa si puede imprimir en sus bolsas <em>«Patrocinador oficial de los Scouts»</em> con el emblema. El grupo puede agradecerle y contar el apoyo, pero <strong>no puede autorizarle ese uso</strong>:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver quién autoriza el uso del nombre y los emblemas",
+          "text": "Corresponde exclusivamente al Consejo Scout Nacional autorizar el uso del nombre de la Asociación, sus distintivos, emblemas y marcas por parte de entidades diferentes de las regiones y grupos scouts debidamente reconocidos, o de las personas facultadas por estos.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 233 «Autorizaciones», p. 68"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> un aporte con una condición contraria a los principios, o de origen dudoso, no se acepta; y si pide a cambio el nombre o el emblema scout, esa parte no la decide el grupo. El uso de la marca vuelve en el Curso 12."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Qué aliados tiene hoy tu grupo (sin nombrarlos: tipo de entidad)? ¿Alguno ha pedido algo a cambio? ¿Quién decidió si se aceptaba? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "Una panadería dona los refrigerios de la salida y pide poner en su vitrina «Proveedor oficial de los Scouts de Colombia», con el emblema. ¿Qué le responde el Consejo?",
+            "options": [
+              "Que le agradece y lo puede mencionar, pero ese permiso sobre el emblema está fuera de las manos del grupo.",
+              "Que le agradece el apoyo y le autoriza el aviso, siempre que el Consejo lo apruebe en acta.",
+              "Que le agradece y le propone un aviso más discreto, «Amigos de los Scouts», con el emblema pequeño."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un comerciante con fama pública de negocios ilegales ofrece pagar el arriendo de la sede sin pedir nada a cambio. Un consejero dice: «si no pone condiciones, no hay problema». ¿Qué corresponde?",
+            "options": [
+              "Que el Consejo no la acepte: aunque no ponga condiciones, el origen dudoso del aporte cuenta.",
+              "Que el Consejo no la acepte todavía: antes la Región debe darle el certificado para impuestos.",
+              "Que el Consejo la acepte: si no pone condiciones contrarias a los principios, no hay problema."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 6 →"
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — ⚖️ Conflictos de interés y comisiones",
+      "emoji": "⚖️",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Nadie gana en silencio con la plata del grupo: quien tiene un interés en una compra lo declara y no decide, y quien consigue una donación puede recibir una compensación, pero a la vista y nunca por adelantado."
+        },
+        {
+          "type": "paragraph",
+          "text": "Volvamos al papá consejero que donó el premio y ahora propone que el grupo le compre las camisetas. El Reglamento no le prohíbe expresamente cotizar. Lo que sí le exige es decirlo y no participar en la decisión, porque él se sienta en el Consejo que decide esa compra."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué es un conflicto de interés",
+          "text": "Situación en la que los intereses personales de un individuo (económicos, familiares, de amistad, entre otros.) interfieren o tienen el potencial de interferir con las decisiones y acciones en el ejercicio de sus funciones.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 68 «Conflicto de interés», p. 20"
+        },
+        {
+          "type": "paragraph",
+          "text": "La regla que sigue es sencilla: todo miembro de la Asociación debe <strong>declarar</strong> un conflicto de intereses <em>«de manera inmediata»</em>, sea propio o de otro miembro, en cuanto lo conozca (Reglamento Nacional, Art. 82). Y quien tiene el interés <strong>no participa</strong> en la discusión ni en la decisión de ese tema (Art. 83). Declararlo no es confesar una falta: es lo que permite que el Consejo decida con transparencia."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🙋 Declarar",
+              "description": "Si eres consejero y la empresa que cotiza es tuya o de tu familia, lo dices antes de que se discuta, y no participas en esa decisión (Arts. 82 y 83).",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            },
+            {
+              "title": "💸 Compensación por gestión",
+              "description": "Quien consigue una donación —un afiliado o alguien de fuera— puede recibir una comisión: hasta el 20 % si es plata y hasta el 10 % si es en especie. No la decide el grupo: el porcentaje lo fija el Consejo Scout Nacional. Si la donación es en especie, se paga cuando haya con qué; y nunca antes de que la donación llegue (Reglamento Nacional, Arts. 219 y 220). Ojo: los consejeros y el personal pagado no pueden recibirla (Art. 81).",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> el problema no es que el papá cotice; es que no lo declare como conflicto y que la compra la decida quien gana con ella."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿En qué compra, contrato o donación de tu grupo podrías tener tú un interés propio (tu empresa, tu familia, un amigo)? ¿Cómo lo dirías en el Consejo?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "questions": [
+          {
+            "text": "El Consejo va a escoger quién transporta al grupo al campamento. Una de las cotizaciones es de la empresa del hermano del Vicepresidente del Consejo. ¿Qué corresponde?",
+            "options": [
+              "Que el Vicepresidente lo declare enseguida y no participe: esa decisión la toman los demás consejeros.",
+              "Que el Vicepresidente lo declare enseguida y después vote: con el parentesco dicho, se decide con transparencia.",
+              "Que el Vicepresidente no lo mencione y vote: si esa cotización es la más barata, no hay conflicto."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una mamá del grupo, que no tiene ningún cargo, consiguió que una empresa done $10 millones para la sede, y pide que el grupo le pague ya el 20 % por su gestión, antes de que llegue la plata. ¿Qué le dices?",
+            "options": [
+              "Que existe, pero no se paga antes de que llegue la plata, y el porcentaje lo fija el CSN.",
+              "Que se le puede pagar el 20 % cuando la empresa firme la carta, sin esperar a que llegue la plata.",
+              "Que la compensación por gestión es para los consejeros que gestionan, no para las familias del grupo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 7 →"
+    },
+    {
+      "id": 7,
+      "title": "Lección 7 — 🧭 El proyecto de tu grupo en una página",
+      "emoji": "🧭",
+      "navLabel": "L7",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 8 minutos · 1 idea central:</strong><br>Un proyecto cabe en una página si responde qué, cuánto, cómo, quién aprueba y quién rinde cuentas; cinco preguntas lo revisan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una rifa no es un proyecto. Volvamos al Consejo del campamento nacional. No le faltaron ganas ni trabajo: le faltó empezar por el principio. Estas son las preguntas que se habría hecho con el ciclo de la Lección 3 y las reglas de las Lecciones 4 a 6. Mientras las lees, fíjate cuáles le fallaron: son más de una."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "¿Sabemos qué necesitamos, para cuándo y cuánto cuesta?",
+            "¿El Consejo aprobó el proyecto o la actividad antes de empezar, con un presupuesto?",
+            "¿Los aliados y donantes apoyan sin condiciones contrarias a los principios y sin pedir el nombre o el emblema scout?",
+            "¿Quien tiene un interés propio en una compra o un contrato lo declaró?",
+            "¿Sabemos quién rendirá cuentas al Consejo y quién le contará a los aliados qué se logró?"
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Compara:</strong> al Consejo de la rifa le fallaron al menos tres: la 1 (no sabía cuánto costaba el campamento), la 2 (aprobó la rifa sin presupuesto) y la 4 (el papá consejero propuso venderle las camisetas, pero nadie planteó que lo declarara y se apartara de esa decisión)."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu turno: tu proyecto en una página.</strong> Toma lo que tu grupo necesita (la misión de la bienvenida) y escribe cinco líneas: 1) qué necesitamos y para qué; 2) cuánto cuesta, aunque sea aproximado; 3) cómo pensamos conseguirlo: una actividad, un aliado o las dos; 4) quién lo aprueba y cuándo; 5) quién rinde cuentas y a quién le contamos al final. Después pásale las cinco preguntas de arriba con «sí», «no» o «no sé», escoge un «no» o un «no sé» y conviértelo en un compromiso: qué vas a proponer, a qué órgano o cargo y para cuándo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔜 Lo que sigue en la línea:</strong> el <strong>Curso 12 — Comunicaciones y Relaciones Interinstitucionales</strong> (próximamente) trata cómo el grupo cuenta lo que hace y cómo se relaciona con otras instituciones."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe aquí tu proyecto en cinco líneas y tu compromiso: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo. Al llegar al certificado, pega el compromiso en «Compromiso Personal» para tenerlo a la vista. Ojo: ese recuadro no sale en el PDF."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7 — Cierre del curso",
+        "questions": [
+          {
+            "text": "Otro grupo quiere arreglar el techo de la sede. Ya tiene tres cotizaciones y el Consejo aprobó un presupuesto. ¿Qué paso del ciclo sigue?",
+            "options": [
+              "Toca ver si hay que recaudar y con quién aliarse: ahora se sabe cuánta plata hace falta.",
+              "Toca ejecutar el arreglo: con el presupuesto aprobado, la plata se va consiguiendo en la obra.",
+              "Toca volver al principio: el ciclo es para servir a la comunidad, no para arreglar la sede."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un consejero pasó las cinco preguntas a su proyecto y le salió «no» en la 5: nadie sabe quién le contará al aliado qué se logró. ¿Qué compromiso responde a ese «no»?",
+            "options": [
+              "Proponer al Consejo de marzo quién rinde las cuentas y quién le escribe al aliado al cerrar, y revisarlo en abril.",
+              "Proponer al Consejo de marzo un presupuesto del proyecto antes de pedirle el apoyo al aliado, y revisarlo en abril.",
+              "Proponer al Consejo de marzo que al aliado se le mande el informe si lo pide, y revisar en abril si lo pidió."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Ir al certificado →"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Sé qué es captar fondos",
+      "emoji": "🌱",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Empiezo por la necesidad",
+      "emoji": "🔄",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Monto actividades con cuentas",
+      "emoji": "🎪",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Trato bien con aliados",
+      "emoji": "🤝",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Declaro mis intereses",
+      "emoji": "⚖️",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Proyecto en una página",
+      "emoji": "🧭",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "CAPTACIÓN DE FONDOS Y CICLO DE PROYECTOS",
+    "description": "ha completado el Curso 11 del Nivel 2 — Profundización por ámbito de gestión de la Línea Desarrollo Institucional, distinguiendo la captación de fondos de los ingresos ordinarios del grupo, recorriendo el ciclo de un proyecto desde la necesidad hasta el informe, reconociendo cómo se monta una actividad para recaudar con aprobación, presupuesto y rendición de cuentas, cómo se trata con aliados y donantes sin comprometer los principios ni el nombre de la Asociación y cómo se declara un conflicto de interés, con un proyecto de su grupo en una página y un compromiso concreto"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí el compromiso de tu proyecto: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo.",
+    "placeholder": "Voy a proponer…"
+  }
+}

@@ -1599,7 +1599,7 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
                 <div class="method-elements">
                     <div class="method-element" style="background: linear-gradient(135deg, #e8f5e9, #e8f5e9dd); border-color: #4caf50;">
                         <h4>🟢 RE-doc · 6 meses</h4>
-                        <p><strong>Escribir el plan financiero del grupo</strong>: 6 fuentes de fondos, margen mínimo (≥17%), uso de excedentes. Compartirlo como modelo replicable con la región.</p>
+                        <p><strong>Escribir el plan financiero del grupo</strong>: de dónde entra la plata, cuánto debe dejar cada actividad según su presupuesto y en qué se usan los excedentes. Compartirlo como modelo replicable con la región.</p>
                     </div>
                     <div class="method-element" style="background: linear-gradient(135deg, #fff9c4, #fff9c4dd); border-color: #fbc02d;">
                         <h4>🟡 RE-fort · 6 meses</h4>
@@ -2517,7 +2517,7 @@ function renderCatalogDisplays() {
         var mode = el.getAttribute('data-mode') || 'full';
         var data = getCatalogData(catalogId);
         if (!data || Object.keys(data).length === 0) {
-            el.innerHTML = '<div class="catalog-display-empty">⚠️ <strong>Aún no tienes catálogo guardado.</strong><br>Para que este componente se llene, primero completá el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong> y guardá tu catálogo.</div>';
+            el.innerHTML = '<div class="catalog-display-empty">⚠️ <strong>Aún no tienes catálogo guardado.</strong><br>Para que este componente se llene, primero completa el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong> y guardá tu catálogo.</div>';
             return;
         }
         var stateLabels = { si: '🟢 Sí', parcial: '🟡 Parcial', no: '🔴 No', 'no-se': '⚪ No sé' };
@@ -2660,13 +2660,13 @@ function renderCoursesSuggestions() {
         var catId = el.getAttribute('data-catalog-id') || 'catalogo-buenas-practicas-grupo';
         var data = getCatalogData(catId);
         if (!data || Object.keys(data).length === 0) {
-            el.innerHTML = '<div class="courses-suggestion-empty">ℹ️ Para ver sugerencias personalizadas, completá tu catálogo en el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong>.</div>';
+            el.innerHTML = '<div class="courses-suggestion-empty">ℹ️ Para ver sugerencias personalizadas, completa tu catálogo en el <strong>Curso 5 — Buenas Prácticas en Tu Grupo</strong>.</div>';
             return;
         }
         var coursesByAmbito = {
             'gobernanza': '🏛️ Curso 7 — Gobernanza Práctica',
             'administracion': '🗂️ Curso 9 — Administración del Grupo',
-            'recursos-economicos': '💰 Curso 11 — Captación de Fondos y Ciclo de Proyectos',
+            'recursos-economicos': '🌱 Curso 11 — Captación de Fondos y Ciclo de Proyectos',
             'comunicaciones': '📣 Curso 12 — Comunicaciones y Relaciones Interinstitucionales',
             'relaciones-internacionales': '📣 Curso 12 — Comunicaciones y Relaciones Interinstitucionales',
             'crecimiento': '📈 Curso 13 — Crecimiento y Sistema de Información',
@@ -2923,13 +2923,13 @@ function buildPlanPrintableHTML(planId) {
             '</dl>' +
         '</div>';
     });
-    if (!goalsHTML) goalsHTML = '<p><em>Sin metas adoptadas. Volvé al plan-builder y elegí al menos una meta antes de generar el PDF.</em></p>';
+    if (!goalsHTML) goalsHTML = '<p><em>Sin metas adoptadas. Vuelve al plan-builder y elige al menos una meta antes de generar el PDF.</em></p>';
 
     // Suggested N2 courses
     var coursesByAmbito = {
         'gobernanza': '🏛️ Curso 7 — Gobernanza Práctica',
         'administracion': '🗂️ Curso 9 — Administración del Grupo',
-        'recursos-economicos': '💰 Curso 11 — Captación de Fondos y Ciclo de Proyectos',
+        'recursos-economicos': '🌱 Curso 11 — Captación de Fondos y Ciclo de Proyectos',
         'comunicaciones': '📣 Curso 12 — Comunicaciones',
         'relaciones-internacionales': '📣 Curso 12 — Comunicaciones',
         'crecimiento': '📈 Curso 13 — Crecimiento',
