@@ -1,0 +1,546 @@
+{
+  "courseId": "gestion-del-riesgo",
+  "title": "Gestión del Riesgo",
+  "subtitle": "Curso 14 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
+  "description": "El riesgo que nadie nombra llega sin avisar. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Gestión del Riesgo: qué es gestionarlo, sus tres áreas —ambiente seguro, protección financiera y patrimonial, actividades seguras—, las reglas básicas de una actividad segura, cómo se cuida lo que el grupo tiene y su buen nombre, y cómo se arma el mapa de riesgos del grupo.",
+  "contentVersion": "2026-09-28",
+  "status": "active",
+  "icon": "🛡️",
+  "duration": "~33 min",
+  "level": 2,
+  "levelName": "Profundización por ámbito de gestión",
+  "order": 14,
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~33 minutos · 7 lecciones.</strong><br>Al final vas a poder reconocer los pasos de la gestión del riesgo que describe la Política, ubicar una amenaza en una de sus tres áreas, aplicar las reglas básicas de una actividad segura, reconocer qué bienes —tangibles e intangibles— protege el grupo, y armar el mapa de riesgos de tu grupo.<br><strong>Cada lección cierra con 2 preguntas:</strong> para avanzar hay que acertar las dos. Si fallas, el curso te muestra la correcta y lo vuelves a intentar."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el campamento de la Tropa, un scout se cae y se fractura el brazo. En el hospital descubren que su afiliación a salud estaba suspendida, y nadie en el grupo lo sabía. Esa noche una tormenta rompe dos carpas prestadas que no figuraban en ningún inventario. Y al día siguiente circula en redes la foto del accidente, con el nombre del grupo. <strong>Nadie fue descuidado a propósito. Nadie había pensado en lo que podía pasar.</strong>"
+        },
+        {
+          "type": "blockquote",
+          "text": "El riesgo que nadie nombra llega sin avisar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Este curso trata del riesgo como parte de la gestión del grupo: lo que puede salir mal, qué tan probable es y qué se hace antes. La protección de los niños, niñas y jóvenes en cada actividad de la unidad tiene su propio curso: el <a href=\"https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/02-Plataforma-Web/a-salvo-del-peligro-programa.html\" target=\"_blank\" rel=\"noopener\">Curso 25 de Programa de Jóvenes, A Salvo del Peligro aplicado al Programa</a>. Y la Política A Salvo del Peligro se trabaja en la línea Políticas Transversales, en especial en su Curso 03, «El Adulto como Garante: reportar, no investigar». Aquí se conectan, sin repetirlas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a practicar"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 🛡️ Qué es gestionar el riesgo.",
+            "<strong>Lección 3 —</strong> 🧩 Las tres áreas del riesgo en la Asociación.",
+            "<strong>Lección 4 —</strong> 🏕️ Actividades seguras: las reglas del grupo.",
+            "<strong>Lección 5 —</strong> 💼 Proteger lo que el grupo tiene, y su buen nombre.",
+            "<strong>Lección 6 —</strong> 📋 El mapa de riesgos del grupo.",
+            "<strong>Lección 7 —</strong> 🧭 La revisión de riesgos de tu grupo."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de empezar:</strong> piensa en tu grupo este año: su próxima actividad grande, la plata que maneja, lo que guarda y lo que publica. Lo vas a usar en la Lección 6."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 🛡️ Qué es gestionar el riesgo",
+      "emoji": "🛡️",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>Gestionar el riesgo es pensar antes en lo que puede salir mal: nombrar la amenaza, medirla y decidir qué hacer, no solo reaccionar cuando pasa."
+        },
+        {
+          "type": "paragraph",
+          "text": "Después del campamento, el Consejo del caso se pregunta qué hizo mal. No hubo un error grande: hubo tres cosas que nadie había pensado. La Política llama a ese pensar-antes gestión del riesgo, y la define así:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la definición de la Política",
+          "text": "La Gestión del Riesgo es el proceso sistemático en el cual se busca reducir el impacto de las probabilidades y magnitud de perdida para cualquier individuo, colectivo, organización o proceso. Consiste en la identificación y caracterización de las amenazas, las estrategias de seguimiento y control de estas, la evaluación de los efectos de la materialización de esas amenazas en riesgos en cualquiera de sus categorías. Posteriormente, las estrategias de manejo, prevención, control y mitigación de los efectos adversos.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, §8.2.7 Gestión del Riesgo, p. 12"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "🔍 Identificar",
+              "description": "Nombrar y describir las amenazas: qué puede pasar. Ej.: que alguien se lesione lejos de un hospital."
+            },
+            {
+              "title": "👀 Seguir y controlar",
+              "description": "Estar atento a esas amenazas mientras se prepara y se hace la actividad."
+            },
+            {
+              "title": "⚖️ Evaluar los efectos",
+              "description": "Si la amenaza se vuelve realidad, qué tan grave sería, y para quién."
+            },
+            {
+              "title": "🧰 Manejar",
+              "description": "Prevenir para que no pase, controlar y mitigar para que, si pasa, haga menos daño."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Los cuatro momentos son palabras de la Política, que los enumera en ese orden; en la práctica se nombra, se mide, se decide y se sigue. En Programa de Jóvenes verás cómo se hace para una actividad de la unidad, con una matriz propia (Curso 14 de Programa de Jóvenes); aquí los usamos para el grupo entero."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> el caso no falló en el campamento: falló antes, cuando nadie identificó ninguna de las tres amenazas."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en la última actividad de tu grupo. ¿Alguien se preguntó antes qué podía salir mal? ¿Quién? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "Antes de una salida al río, una dirigente dice: «primero anotemos qué puede pasar en el río y qué tan grave sería; después decidimos qué hacer». ¿Va bien?",
+            "options": [
+              "Va bien: nombrar la amenaza y medir qué tan grave sería va primero, y decidir qué hacer viene después.",
+              "Va mal: nombrar la amenaza sobra, porque en el río ya se sabe qué puede pasar; basta con decidir qué hacer.",
+              "Va al revés: la gestión del riesgo empieza en el río, cuando algo pasa y hay que ver qué tan grave es."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un consejero opina que gestionar el riesgo «es tener un botiquín». ¿Qué le respondes con la Política?",
+            "options": [
+              "Que el botiquín ayuda a mitigar, pero el proceso empieza antes: identificar las amenazas y evaluar sus efectos.",
+              "Que así es: el botiquín es la mitigación, y la mitigación es lo principal que la Política le pide al grupo.",
+              "Que el botiquín queda fuera del riesgo: la Política habla de la plata y de los bienes, no de las lesiones."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 3 →"
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🧩 Las tres áreas del riesgo en la Asociación",
+      "emoji": "🧩",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>La Asociación mira el riesgo en tres áreas —las personas, lo que se tiene y las actividades— y pide que estén en todos los planes y proyectos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Las tres cosas del campamento parecen distintas: un brazo roto, unas carpas perdidas, una foto en redes. La Política las ordena en tres áreas:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧒 Ambiente seguro",
+              "description": "Promover el bienestar, el desarrollo y la seguridad de los niños y jóvenes como prioridad en todas las actividades, previniendo en especial el maltrato y el abuso. Se trabaja con la Política A Salvo del Peligro (línea Políticas Transversales) y el Curso 25 de Programa de Jóvenes.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "💼 Protección financiera y patrimonial",
+              "description": "Resguardar los bienes tangibles —dinero, inmuebles, muebles, mercancías, derechos intelectuales— y los intangibles —imagen, prestigio, credibilidad, posicionamiento—. (Lección 5.)",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            },
+            {
+              "title": "🏕️ Actividades seguras",
+              "description": "Incluir acciones de prevención y mitigación del riesgo en las actividades del Movimiento. (Lección 4.)",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué pide la Política de las tres áreas",
+          "text": "Estos tres principios, deben ser transversales a los demás procesos llevados a cabo por las demás direcciones de la Asociación Scouts de Colombia y estar incluidos dentro de todos los planes, proyectos y gestiones que se realicen en pro del movimiento.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, §8.2.7 Gestión del Riesgo, p. 12"
+        },
+        {
+          "type": "paragraph",
+          "text": "Transversal quiere decir que el riesgo no es un tema aparte: el plan del año del grupo (Curso 8) y cualquier proyecto (Curso 11) deberían traer su parte de riesgo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> en el caso, el brazo roto es de actividades seguras, las carpas son patrimonio, y la foto en redes toca dos áreas: la intimidad del scout herido (ambiente seguro) y el buen nombre del grupo (un bien intangible)."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en algo concreto de este año en tu grupo —una salida, una compra, una publicación— que te preocupó. ¿En cuál de las tres áreas cae? ¿Qué se hizo antes, si se hizo algo? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "El grupo guarda el dinero de la rifa en la casa de un dirigente, sin recibo ni registro. ¿En qué área de riesgo cae?",
+            "options": [
+              "En la protección financiera y patrimonial: es el resguardo de un bien tangible del grupo, su dinero.",
+              "En las actividades seguras: la rifa es una actividad del grupo y su riesgo se mide como el de una salida.",
+              "En el ambiente seguro: todo lo que ocurre en la casa de un dirigente se revisa desde la protección."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El Consejo arma el plan del año y deja la gestión del riesgo «para cuando haya un campamento». ¿Qué dice la Política?",
+            "options": [
+              "Que las tres áreas deben estar incluidas en todos los planes y proyectos, no solo en los campamentos.",
+              "Que está bien: la gestión del riesgo se hace para las actividades con pernocta y no para el plan anual.",
+              "Que el riesgo se planea aparte, en un plan de seguridad del grupo, y no dentro del plan del año."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 4 →"
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 🏕️ Actividades seguras: las reglas del grupo",
+      "emoji": "🏕️",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Una actividad segura empieza en regla: todos con seguridad social vigente, un protocolo conocido y alguien que vela por él."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la regla de la seguridad social",
+          "text": "Ningún asociado podrá participar de las actividades propuestas por la Asociación, en cualquiera de sus niveles, si no cuenta con afiliación vigente y activa al sistema de seguridad social.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 78 «Prohibición», p. 22"
+        },
+        {
+          "type": "paragraph",
+          "text": "Es una regla distinta de la afiliación a la Asociación que viste en el Curso 13: aquí se trata de la salud. El scout del caso no debió salir al campamento con su afiliación suspendida, y alguien debió revisarla antes."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧑‍🤝‍🧑 Deberes de todo adulto",
+              "description": "El Estatuto le pide a cada miembro adulto procurar la seguridad y el bienestar de quienes están bajo su responsabilidad, reportar a las autoridades competentes cualquier situación de riesgo o comportamiento inapropiado, y planificar y ejecutar actividades seguras (Estatuto, Art. 15.1, pp. 13–14). Una situación que afecte a un niño, niña o joven se reporta por la ruta oficial, el botón «Me Pongo A Salvo del Peligro»: el paso a paso está en el Curso 25 de Programa de Jóvenes y en Políticas Transversales.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "🦺 Quién vela en el grupo",
+              "description": "Entre las competencias del consejero de grupo está la seguridad y el control de actividades: velar porque cumplan los protocolos de seguridad, adecuación logística y mitigación de riesgo (Manual de Cargos, ficha 2.1.1, pp. 10–11). El Jefe de Grupo responde por las acciones de seguridad del grupo y vela porque cada integrante tenga su documentación al día para las actividades (ficha 2.1.10).",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "¿Y los protocolos? A nivel nacional, el Manual de Cargos le encarga al Comisionado Nacional de Gestión del Riesgo elaborar y proponer el manual de actividades seguras de la Asociación (ficha 2.3.33), y en la Región el Comisionado Regional de Gestión del Riesgo asesora a los grupos en la mitigación del riesgo y las actividades seguras (ficha 2.2.29). Para tu actividad, pregunta en tu Región por los protocolos vigentes y deja por escrito los de tu grupo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> revisar la seguridad social antes de salir no es desconfianza: es la primera regla de una actividad segura."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿En tu grupo, quién revisa antes de una salida que cada participante tenga su seguridad social al día? ¿Tienen por escrito algún protocolo de seguridad? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Una familia avisa el viernes que la afiliación a salud de su hija está en trámite y pregunta si puede ir el sábado al campamento. ¿Qué dice el Reglamento Nacional?",
+            "options": [
+              "Que no puede participar hasta tener su afiliación a la seguridad social vigente y activa.",
+              "Que puede ir si la familia firma una carta en la que asume los gastos médicos que se presenten.",
+              "Que no puede ir, y que el grupo aplaza el campamento hasta que todos estén al día."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Antes de una salida, un dirigente de la Tropa dice: «la seguridad no es asunto mío: para eso están el Consejo y el Jefe de Grupo». ¿Qué le recuerdas?",
+            "options": [
+              "Que no puede delegarla: cuidar a quienes tiene a cargo y planear bien cada salida también es su deber de adulto.",
+              "Que tiene razón: el Estatuto le pide actividades seguras al Consejo, y cada dirigente cumple lo que este decida.",
+              "Que la seguridad le toca a la Región: ella aprueba las salidas de cada grupo y responde por lo que pase en ellas."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 5 →"
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 💼 Proteger lo que el grupo tiene, y su buen nombre",
+      "emoji": "💼",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Proteger el patrimonio es cuidar la plata y los bienes, pero también el prestigio: una foto o una mala cuenta pueden costarle más al grupo que una carpa."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política separa dos clases de bienes, y los cursos anteriores de esta línea ya te dieron herramientas para cada una:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "💵 El dinero",
+              "description": "Presupuesto, rendición de cuentas en 30 días y patrimonio indivisible (Curso 10). El Estatuto le pide a todo adulto administrar con responsabilidad los recursos y asegurar la transparencia en la gestión de fondos (Art. 15.1).",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "🏕️ Los bienes",
+              "description": "Inventario, préstamos por escrito y deuda formal por lo que se tiene en custodia (Curso 9).",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            },
+            {
+              "title": "🌟 El buen nombre",
+              "description": "La imagen, el prestigio y la credibilidad: lo que se publica en nombre del grupo (Curso 12) y de quién se aceptan aportes (Curso 11).",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lo intangible es lo que más cuesta recuperar. Con la foto del caso, lo primero es el scout y su familia: su intimidad y sus datos de salud no se publican (el Curso 25 de Programa de Jóvenes trabaja el consentimiento para las imágenes). Después viene el grupo: una familia que ve circular esa foto con el nombre del grupo puede no volver; un aliado que lee que el grupo maneja plata sin cuentas, tampoco. Por eso la Política pone la imagen y el prestigio en la misma área que el dinero."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> las carpas del caso se pierden y se reponen; la confianza de las familias después de la foto es lo difícil."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Qué bien intangible de tu grupo —su prestigio, su relación con las familias, con su entidad auspiciadora— sería más difícil de recuperar si se dañara? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "Después del accidente, un dirigente propone «no decir nada a nadie para que no se dañe la imagen del grupo». ¿Qué le respondes?",
+            "options": [
+              "Que cuidar la imagen no es ocultar: lo que protege el prestigio es haber reportado y manejado bien lo que pasó.",
+              "Que es lo prudente: la imagen es un bien intangible del grupo, y proteger el patrimonio va antes que todo lo demás.",
+              "Que da igual: la imagen del grupo no entra en el riesgo, porque lo que se protege es el dinero y los bienes."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una consejera dice que la queja pública de una familia por el manejo de las cuotas «también es un riesgo del patrimonio, aunque no se haya perdido un peso». ¿Tiene razón?",
+            "options": [
+              "Tiene razón: una cuenta que causa desconfianza ya golpea el prestigio del grupo, aunque la caja cuadre.",
+              "Tiene razón a medias: la queja es un riesgo, pero lo gestiona solo el Tesorero, que maneja las cuotas.",
+              "No tiene razón: mientras no se haya perdido un peso, una queja no es un riesgo que el grupo deba gestionar."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 6 →"
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — 📋 El mapa de riesgos del grupo",
+      "emoji": "📋",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 7 minutos · 1 idea central:</strong><br>Un mapa de riesgos pone en una hoja qué puede pasar, qué tan probable es, qué tan grave sería y qué se hace antes, con un responsable."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política habla de reducir <em>«las probabilidades y magnitud de perdida»</em>: dos preguntas para cada amenaza. La Asociación lo hace en grande: el Comisionado Nacional de Gestión del Riesgo elabora el mapa de riesgos de la Asociación en los diferentes ámbitos de gestión (Manual de Cargos, ficha 2.3.33), y el tablero de control institucional puede incorporar matrices de riesgo (Reglamento Nacional, Art. 239). Tu grupo puede hacerlo en pequeño, con cinco columnas:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>Amenaza:</strong> qué puede pasar. Ej.: un participante sin seguridad social vigente.",
+            "<strong>Área:</strong> ambiente seguro, patrimonio o actividades seguras.",
+            "<strong>Probabilidad:</strong> alta, media o baja.",
+            "<strong>Magnitud:</strong> si pasa, qué tan grave sería: alta, media o baja.",
+            "<strong>Qué hacemos y quién:</strong> lo que se hace antes para prevenir, lo que se hace si pasa para mitigar, y quién responde."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si eres dirigente de unidad, quizá ya usas la matriz de la Ficha de actividad (Curso 14 de Programa de Jóvenes): peligro, riesgo, probabilidad y consecuencia del 1 al 5, y medida de control, para una actividad. Sigue usándola: lo que aquí llamamos amenaza junta sus dos primeras palabras: el peligro (la tormenta) y el riesgo que trae (que un rayo alcance a alguien); y la magnitud es su consecuencia; si prefieres la escala del 1 al 5, sirve igual para anotar. El mapa del grupo mira otra cosa: el año entero y las tres áreas —la plata, los bienes, el buen nombre, no solo la salida—; por eso lleva la columna del área y un responsable."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🧮 Un ejemplo de fila.</strong> Amenaza: un participante sin seguridad social vigente. Área: actividades seguras. Probabilidad: media —pasa cada año con alguna familia—. Magnitud: alta —si hay un accidente, no hay cómo atenderlo—. Qué hacemos: revisar la afiliación de cada uno una semana antes de salir; responde el Jefe de Grupo, con los dirigentes de cada rama. Las amenazas de probabilidad y magnitud altas van primero; si ninguna es alta en las dos, pesa más la magnitud (es el criterio de este curso, no una norma): lo que haría más daño va antes que lo que solo es frecuente. (Ejemplo ilustrativo.)"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> con esa fila escrita, el scout del caso no habría salido al campamento sin salud."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe dos filas del mapa de tu grupo: una de actividades seguras y otra de patrimonio o buen nombre. Para cada una: la amenaza, su área, su probabilidad, su magnitud, qué harían y quién respondería. (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "questions": [
+          {
+            "text": "En el mapa de un campamento quedan tres amenazas: una tormenta eléctrica en la caminata a la cumbre (probabilidad media, magnitud alta), ampollas por botas nuevas (alta, baja) y que se pierda la vajilla (media, baja). ¿Cuál atiendes primero?",
+            "options": [
+              "La de la tormenta eléctrica: su magnitud es alta y su probabilidad no es baja, así que va primero.",
+              "La de las ampollas: es la más probable de las tres, y lo más probable siempre se atiende primero.",
+              "La de la vajilla: es un bien del grupo, y el patrimonio se protege antes que las actividades."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un consejero dice que el mapa de riesgos «lo hace la Nación, y los grupos no tienen que hacer uno». ¿Qué le respondes?",
+            "options": [
+              "Que la Nación hace el suyo, y la Política pide el riesgo en todos los planes: un mapa propio ayuda a cumplirlo.",
+              "Que en parte sí: el mapa de riesgos es tarea del Comisionado Nacional, y el grupo aplica ese mismo mapa.",
+              "Que el grupo debe hacer uno por cada rama, y que la rama que no lo tenga no puede reunirse hasta tenerlo al día."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 7 →"
+    },
+    {
+      "id": 7,
+      "title": "Lección 7 — 🧭 La revisión de riesgos de tu grupo",
+      "emoji": "🧭",
+      "navLabel": "L7",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Cinco preguntas muestran si tu grupo piensa antes en lo que puede salir mal, y cada «no» o «no sé» es un compromiso posible."
+        },
+        {
+          "type": "paragraph",
+          "text": "El riesgo que nadie nombra llega sin avisar. Volvamos al campamento del brazo roto. Estas son las cinco preguntas que habrían nombrado sus riesgos; mientras las lees, fíjate cuáles le fallaron al grupo: son más de una."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "¿El grupo tiene un mapa de sus riesgos, con probabilidad, magnitud y un responsable para cada uno?",
+            "¿Antes de cada actividad se revisa que todos los participantes tengan su seguridad social vigente?",
+            "¿Alguien vela por los protocolos de seguridad de cada actividad, y conocemos los de nuestra Región?",
+            "¿Los bienes y la plata del grupo están inventariados y con rendición de cuentas al día?",
+            "¿Sabemos cómo reportar una situación de riesgo y cuidamos lo que se publica cuando algo pasa?"
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Antes de seguir, cuenta cuántas le fallaron. ¿Listo? Compara:</strong> al grupo del campamento le fallaron al menos cuatro: la 1 (nadie había nombrado ninguna amenaza), la 2 (el scout salió sin salud vigente), la 4 (las carpas no estaban en ningún inventario) y la 5 (la foto del accidente circuló en redes)."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu turno:</strong> responde las cinco con «sí», «no» o «no sé». Escoge un «no» o un «no sé» y conviértelo en un compromiso: qué vas a proponer, a qué órgano o cargo y para cuándo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🎓 Cierre del Nivel 2:</strong> del Curso 7 al 14 recorriste cómo se gobierna, se planea, se financia, se administra, se comunica, crece y se protege un grupo. Con este curso terminas la profundización por ámbito de gestión de la línea Desarrollo Institucional; el Nivel 3, por cargo, viene después."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu resultado en las cinco preguntas y tu compromiso: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista. Ojo: ese recuadro no sale en el PDF. (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7 — Cierre del curso",
+        "questions": [
+          {
+            "text": "Un grupo de otra Región tiene su mapa de riesgos, revisa la seguridad social de todos y lleva su inventario al día, pero en una caminata nadie sabía qué hacer si alguien se perdía. ¿Cuál de las cinco le falla?",
+            "options": [
+              "La 3: nadie velaba por un protocolo de seguridad para esa actividad, que cubriera qué hacer.",
+              "La 1: si su mapa de riesgos estuviera bien hecho, perderse ya estaría resuelto sin más protocolo.",
+              "La 2: revisar la seguridad social antes de salir no alcanza, si no se revisa otra vez en la caminata."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un consejero escribe su compromiso: «Voy a proponer que se revise la seguridad social de cada participante antes de salir». Según esta revisión, ¿qué le falta?",
+            "options": [
+              "Le falta a quién se lo va a proponer y para cuándo: sin órgano ni fecha, nadie lo recibe ni lo revisa.",
+              "Le falta tener primero el mapa completo: un compromiso se escribe cuando las cinco preguntas ya dan «sí».",
+              "Le falta cubrir las tres áreas: revisar la salud es poco, y un compromiso tiene que abarcar todo el riesgo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Ir al certificado →"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Pienso antes",
+      "emoji": "🛡️",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Veo las tres áreas",
+      "emoji": "🧩",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Salgo en regla",
+      "emoji": "🏕️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Cuido el buen nombre",
+      "emoji": "💼",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Tengo mapa de riesgos",
+      "emoji": "📋",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Riesgos a la vista",
+      "emoji": "🧭",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "GESTIÓN DEL RIESGO",
+    "description": "ha completado el Curso 14 del Nivel 2 — Profundización por ámbito de gestión de la Línea Desarrollo Institucional, reconociendo los pasos de la gestión del riesgo, ubicando las amenazas en las tres áreas de riesgo de la Asociación, aplicando las reglas básicas de una actividad segura, reconociendo cómo se protegen el patrimonio y el buen nombre del grupo y construyendo un mapa de riesgos sencillo, con un compromiso concreto sobre los riesgos de su grupo"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí el compromiso de tu revisión de riesgos: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo.",
+    "placeholder": "Voy a proponer…"
+  }
+}

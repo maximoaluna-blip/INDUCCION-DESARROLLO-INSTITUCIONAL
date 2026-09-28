@@ -3,7 +3,7 @@
   "title": "Mi Aporte al Desarrollo Institucional",
   "subtitle": "Curso 6 de la Línea Desarrollo Institucional · Cierre del Nivel 1 — Fundamentación",
   "description": "Curso de cierre del Nivel 1. Convierte todo lo aprendido en un plan personal de aporte al DI, listo para firmar y compartir con el consejo. Lee automáticamente tu catálogo de buenas prácticas del Curso 5 y tu brújula personal del Curso 2, te propone metas-tipo por cada uno de los 8 ámbitos con recursos y plazos, y termina con un PDF firmable.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-09-28",
   "icon": "🗺️",
   "duration": "30 minutos",
   "level": 1,
@@ -355,7 +355,7 @@
           "items": [
             {
               "title": "🟢 GR-doc · 6 meses",
-              "description": "<strong>Escribir el manual de gestión del riesgo del grupo</strong>: protocolo de salidas, plan de manejo de incidentes, prevención de daño. Compartirlo con la región.",
+              "description": "<strong>Escribir el mapa de riesgos y los protocolos del grupo</strong>: protocolo de salidas, plan de manejo de incidentes, prevención de daño. Compartirlo con la región.",
               "color": "#e8f5e9",
               "borderColor": "#4caf50"
             },
@@ -420,7 +420,7 @@
           {
             "text": "Si en tu catálogo del Curso 5 marcaste el ámbito <strong>Gestión del Riesgo</strong> en estado <strong>NO</strong>, ¿qué meta-tipo sería más sensata para empezar (3 meses)?",
             "options": [
-              "GR-doc — escribir el manual completo de gestión del riesgo del grupo para poder compartirlo.",
+              "GR-doc — escribir el mapa de riesgos y los protocolos del grupo, completos, para poder compartirlos.",
               "GR-crear — establecer un protocolo básico y obligatorio en cada salida del grupo.",
               "Ninguna meta de Gestión del Riesgo — primero habría que resolver los otros ámbitos."
             ],

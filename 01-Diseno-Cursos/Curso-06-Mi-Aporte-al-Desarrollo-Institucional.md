@@ -174,7 +174,7 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
     - 🔴 **CR-crear (3 meses):** _"Implementar registro mensual de ingresos y salidas de membresía. Primera base de datos del grupo. Sin esto, no hay nada que medir."_
 17. **`heading` (nivel 3)** — _"🛡️ Ámbito 7 — Gestión del Riesgo"_
 18. **`method-grid`** — 3 metas-tipo:
-    - 🟢 **GR-doc (6 meses):** _"Escribir el manual de gestión del riesgo del grupo: protocolo de salidas, plan de manejo de incidentes, prevención de daño. Compartirlo con la región."_
+    - 🟢 **GR-doc (6 meses):** _"Escribir el mapa de riesgos y los protocolos del grupo: protocolo de salidas, plan de manejo de incidentes, prevención de daño. Compartirlo con la región."_
     - 🟡 **GR-fort (6 meses):** _"Lograr que el 100% de los dirigentes tenga A Salvo del Peligro vigente y registrado + implementar la Lista de Chequeo del Protocolo Nacional de Transporte. Subir atributo de Aplicabilidad."_
     - 🔴 **GR-crear (3 meses):** _"Implementar protocolo mínimo en TODAS las salidas: lista de participantes, autorización firmada, hoja de salud, contactos de emergencia. Sin atajos."_
 19. **`heading` (nivel 3)** — _"🏅 Ámbito 8 — Control y Reconocimiento"_
@@ -195,7 +195,7 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
 
 > **P2.** Si en tu catálogo del Curso 5 marcaste el ámbito **Gestión del Riesgo** en estado **NO**, ¿qué meta-tipo sería más sensata para empezar (3 meses)?
 >
-> a) _GR-doc — escribir el manual de gestión del riesgo del grupo para compartirlo._
+> a) _GR-doc — escribir el mapa de riesgos y los protocolos del grupo para compartirlo._
 > b) _GR-crear — establecer un protocolo básico y obligatorio en cada salida del grupo, sin excepciones, aunque sea mínimo._ ✅
 > c) _Ninguna meta de Gestión del Riesgo — primero los otros ámbitos._
 

@@ -180,5 +180,19 @@
     "status": "active",
     "file": "crecimiento-sistema-informacion.html",
     "folder": "crecimiento-sistema-informacion"
+  },
+  {
+    "courseId": "gestion-del-riesgo",
+    "title": "Gestión del Riesgo",
+    "description": "El riesgo que nadie nombra llega sin avisar. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Gestión del Riesgo: qué es gestionarlo, sus tres áreas —ambiente seguro, protección financiera y patrimonial, actividades seguras—, las reglas básicas de una actividad segura, cómo se cuida lo que el grupo tiene y su buen nombre, y cómo se arma el mapa de riesgos del grupo.",
+    "icon": "🛡️",
+    "duration": "~33 min",
+    "level": 2,
+    "levelName": "Profundización por ámbito de gestión",
+    "order": 14,
+    "modules": 7,
+    "status": "active",
+    "file": "gestion-del-riesgo.html",
+    "folder": "gestion-del-riesgo"
   }
 ]

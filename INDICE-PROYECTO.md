@@ -100,6 +100,7 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 | 11 | 🌱 Captación de Fondos y Ciclo de Proyectos | `captacion-fondos-ciclo-proyectos` | ~35 min · 7 lecciones | ✅ Activo (27-sep-2026, ADR-093) |
 | 12 | 📣 Comunicaciones y Relaciones Interinstitucionales | `comunicaciones-relaciones-interinstitucionales` | ~34 min · 7 lecciones | ✅ Activo (27-sep-2026, ADR-101) |
 | 13 | 📈 Crecimiento y Sistema de Información | `crecimiento-sistema-informacion` | ~31 min · 7 lecciones | ✅ Activo (27-sep-2026, ADR-102) |
+| 14 | 🛡️ Gestión del Riesgo | `gestion-del-riesgo` | ~33 min · 7 lecciones | ✅ Activo (28-sep-2026, ADR-103) |
 
 **Niveles siguientes:**
 
@@ -191,7 +192,7 @@ Detalles en [`BACKEND.md`](BACKEND.md).
 
 ## Estado actual (27-sep-2026)
 
-**Nivel 1 completo y Nivel 2 en curso: 13 cursos `active`** (Prioridad 1 del Nivel 2 cerrada: Cursos 7, 8 y 10; de la Prioridad 2, el 9, el 11, el 12 y el 13), todos con las 3 auditorías. El Curso 7 (`gobernanza-practica`, ADR-085) pasó doctrinal y pedagógica **con re-auditoría** y la suite E2E contra el build local antes de publicarse.
+**Niveles 1 y 2 completos: 14 cursos `active`** (Nivel 2: Cursos 7 a 14, cerrado el 28-sep-2026 con el ADR-103), todos con las 3 auditorías. El Curso 7 (`gobernanza-practica`, ADR-085) pasó doctrinal y pedagógica **con re-auditoría** y la suite E2E contra el build local antes de publicarse.
 
 | Auditoría | Estado | Detalle |
 |---|---|---|
@@ -207,7 +208,7 @@ Detalles en [`BACKEND.md`](BACKEND.md).
 
 ### Fase siguiente
 
-- **Nivel 2 — Profundización**: queda 1 de 8 (Curso 14 — Gestión del Riesgo).
+- **Nivel 2 — Profundización**: completo (8 de 8).
 - **Nivel 3 — Especialización por cargo** (6 cursos).
 - **Nivel 4 — Transversales** (4 cursos), priorizando el Curso 23 (Código de Honor) por su carácter universal.
 - Evaluar si separar el backend de la Línea Política de Adultos (criterios en `BACKEND.md`).
