@@ -1,0 +1,546 @@
+{
+  "courseId": "crecimiento-sistema-informacion",
+  "title": "Crecimiento y Sistema de Información",
+  "subtitle": "Curso 13 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
+  "description": "Un grupo que no se cuenta, no sabe si está creciendo. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Crecimiento y sistema de información y registro: cuándo alguien es de verdad miembro, por qué nadie participa sin afiliación vigente, qué números dicen si el grupo crece, y qué necesita un grupo para seguir existiendo.",
+  "contentVersion": "2026-09-27",
+  "status": "active",
+  "icon": "📈",
+  "duration": "~31 min",
+  "level": 2,
+  "levelName": "Profundización por ámbito de gestión",
+  "order": 13,
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~31 minutos · 7 lecciones.</strong><br>Al final vas a poder ubicar lo que tu grupo registra y cuenta en los cinco sub-ámbitos de la Política, reconocer cuándo una persona es de verdad miembro de la Asociación, aplicar la regla de que nadie participa sin afiliación vigente, calcular con tres números si tu grupo está creciendo o solo reemplazando a los que se van, y reconocer qué necesita un grupo para seguir existiendo.<br><strong>Cada lección cierra con 2 preguntas:</strong> para avanzar hay que acertar las dos. Si fallas, el curso te muestra la correcta y lo vuelves a intentar."
+        },
+        {
+          "type": "paragraph",
+          "text": "En febrero, el Consejo de un grupo dice: «Somos sesenta, como siempre». En abril llega la inscripción al campamento regional, que pide la afiliación vigente de cada uno: once no renovaron y cuatro nunca terminaron su registro. Y al revisar, alguien descubre que en la última renovación la Manada perdió la mitad de sus lobatos, y que los nuevos de la Tropa taparon el hueco. <strong>El número no cambió. El grupo sí.</strong>"
+        },
+        {
+          "type": "blockquote",
+          "text": "Un grupo que no se cuenta, no sabe si está creciendo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Este curso trata del registro de los miembros, de los números del grupo y de lo que hace falta para crecer. Los datos personales y su autorización ya los viste en el Curso 9, y el período de la afiliación, en el Curso 10."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a practicar"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 📊 Qué es el ámbito de crecimiento y registro: cinco sub-ámbitos.",
+            "<strong>Lección 3 —</strong> 🪪 Cuándo alguien es de verdad miembro.",
+            "<strong>Lección 4 —</strong> 🚫 Nadie participa sin afiliación vigente.",
+            "<strong>Lección 5 —</strong> 📈 Tres números para saber si el grupo crece.",
+            "<strong>Lección 6 —</strong> 🌱 Crecer, y seguir existiendo como grupo.",
+            "<strong>Lección 7 —</strong> 🧭 La revisión del registro de tu grupo."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de empezar:</strong> si puedes, averigua cuántos miembros tenía tu grupo el año pasado y cuántos tiene hoy, por rama. Los vas a usar en la Lección 5."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 📊 Qué es crecimiento y sistema de información",
+      "emoji": "📊",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>La Política junta en un ámbito el registro de los miembros y el crecimiento: los datos sirven para decidir, y decidir bien sirve para crecer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Piensa en tres cosas que hace un grupo cada año: renueva la afiliación de sus miembros, cuenta cuántos tiene por rama y trata de que lleguen más. La Política las pone en un mismo ámbito:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la definición de la Política",
+          "text": "Consiste en llevar el control de los datos de la membresía (inscripción, progresión de activos infantiles y juveniles, formación de adultos y registro de proyectos entre otros) y la generación de datos estadísticos correspondientes para la toma de decisiones en las diferentes instancias y niveles de la estructura.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, §8.2.6 Crecimiento y sistema de información y registro, pp. 11–12"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🗂️ Registro de la membresía",
+              "description": "Controlar y mantener las bases de datos donde se guarda la información de los miembros. En el grupo: que cada miembro esté registrado y al día. (Lecciones 3 y 4.)",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "📈 Estadística",
+              "description": "El registro histórico, para analizar y planear. En el grupo: saber cuántos entran, cuántos siguen y cuántos se van. (Lección 5.)",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            },
+            {
+              "title": "🧭 Seguimiento",
+              "description": "Acompañar a regiones y grupos con la estrategia nacional de crecimiento. Lo hace la estructura regional y nacional con el grupo. (Lección 6.)",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🤲 Apoyo",
+              "description": "Acompañar el aumento de la membresía con grupos nuevos o miembros nuevos. (Lección 6.)",
+              "color": "#fce4ec",
+              "borderColor": "#ad1457"
+            },
+            {
+              "title": "💾 Bases de datos",
+              "description": "Crear y manejar las bases de miembros activos y de los representantes legales de los niños y jóvenes. Son datos personales: lo viste en el Curso 9.",
+              "color": "#f3e5f5",
+              "borderColor": "#6a1b9a"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> el Consejo del caso tenía un número, pero no un registro ni una estadística: sabía cuántos eran, no quiénes ni cómo había cambiado."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Quién lleva hoy el registro de los miembros de tu grupo, y dónde? ¿Alguien mira los números de un año a otro? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "El Consejo compara cuántos scouts tenía cada rama en los últimos tres años para decidir dónde reforzar la jefatura. ¿Qué sub-ámbito está usando?",
+            "options": [
+              "El de estadística: usa el registro histórico de la membresía para analizar y decidir.",
+              "El de registro: mantiene al día los datos de cada miembro en la base del grupo.",
+              "El de apoyo: acompaña la llegada de miembros nuevos para que la membresía aumente."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una dirigente dice que llevar bien el registro de miembros «es papeleo que no sirve para nada». ¿Qué le responde la Política?",
+            "options": [
+              "Que esos datos son la base de las estadísticas con que se decide en todos los niveles.",
+              "Que esos datos le sirven a la Nación, y el grupo decide mejor con lo que ve en sus reuniones.",
+              "Que el registro es un requisito legal que se lleva aunque ningún nivel lo use para decidir."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 3 →"
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🪪 Cuándo alguien es de verdad miembro",
+      "emoji": "🪪",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Ser miembro no es asistir ni pagar: es completar la afiliación y quedar aprobado en la plataforma; y se renueva cada año."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una familia lleva dos meses llevando a su hija a la Manada y ya pagó la cuota del grupo. ¿La niña es miembro de la Asociación? Todavía no, si le falta algún paso. El Reglamento Nacional pide cinco:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "Firmar el <strong>Acuerdo de Voluntades</strong>; en los menores lo firma quien ejerce la autoridad parental.",
+            "Firmar la <strong>autorización de registro, afiliación y uso de imagen</strong>.",
+            "Pagar la afiliación al <strong>grupo, la región y la nación</strong>.",
+            "Hacer el <strong>registro en la plataforma de afiliaciones</strong> que disponga la Asociación.",
+            "Los adultos, además, hacer los <strong>cursos A Salvo del Peligro</strong> y presentar los certificados de antecedentes que pide la Política de Adultos."
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "(Reglamento Nacional, Art. 43.) El grupo <strong>propone</strong> el ingreso, pero no lo aprueba: lo autoriza el Presidente del Consejo Scout Nacional o su delegado (Art. 45): el ingreso a la Asociación lo aprueba la Nación, aunque el grupo reciba al joven. Y la condición de miembro queda en firme con la <strong>aprobación nacional en la plataforma</strong>, y se acredita con el carné y la cintilla de afiliación anual (Art. 46)."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🔁 Cada año",
+              "description": "Renovar oportunamente la inscripción anual es un deber de cada miembro (Reglamento de Grupos, 3.2.3), y quien no renueva pierde la condición de miembro (Reglamento Nacional, Art. 48). El período de la afiliación va de abril a marzo (lo viste en el Curso 10).",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "🖥️ La plataforma",
+              "description": "El registro vive en la plataforma de afiliaciones de la Asociación; hoy esa plataforma es SiScout. Si no está allí aprobado, para la Asociación no está afiliado.",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> los cuatro del caso que «nunca terminaron su registro» asistían y quizás pagaron, pero no eran miembros."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿En tu grupo, quién acompaña a una familia nueva hasta que su afiliación queda aprobada en la plataforma? ¿Hay alguien que asista sin haberla terminado? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "Un papá pagó la cuota del grupo y firmó el Acuerdo de Voluntades de su hijo, pero nadie hizo el registro en la plataforma. ¿Su hijo ya es miembro de la Asociación?",
+            "options": [
+              "Todavía no: le faltan pasos, como el registro, y es miembro cuando la Nación lo aprueba en la plataforma.",
+              "Todavía no del todo: le falta la cintilla, pero con el pago y el acuerdo el grupo ya lo aprobó como miembro.",
+              "Ya lo es: el registro en la plataforma es un trámite interno del grupo que no cambia su condición."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El Consejo quiere aprobar él mismo el ingreso a la Asociación de tres jóvenes nuevos «para no esperar». ¿Qué le respondes?",
+            "options": [
+              "Que el grupo propone el ingreso, pero lo autoriza el nivel nacional y queda en firme en la plataforma.",
+              "Que el grupo aprueba el ingreso con un voto del Consejo, y la plataforma lo deja registrado para la Nación.",
+              "Que el ingreso lo aprueba la Asamblea de Grupo, y luego la plataforma lo registra para la Nación."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 4 →"
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 🚫 Nadie participa sin afiliación vigente",
+      "emoji": "🚫",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Toda persona que participa en la Asociación, en cualquier nivel, necesita afiliación vigente, y quien preside o dirige responde por verificarlo."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la regla de la afiliación obligatoria",
+          "text": "Todas las personas que de manera voluntaria se vinculen a alguno de los procesos de la Asociación Scouts de Colombia, en cualquiera de sus niveles, deberán tener afiliación vigente. Se exceptúan de esta obligatoriedad a los miembros, patrocinadores y honorarios. Será responsabilidad de la persona que ejerza el cargo de presidente del estamento, jefe nacional, director/a y comisionado/a, validar que sus equipos cumplan con esta disposición, de lo contrario deberá cesar de inmediato su participación.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 47 «Obligatoriedad de la afiliación», p. 15"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tres cosas salen de ahí. La regla vale para <strong>todos</strong>: niños, jóvenes y adultos, dirigentes y consejeros. La excepción es para dos clases de miembro que define el Estatuto: los <strong>patrocinadores</strong>, que apoyan con aportes, y los <strong>honorarios</strong>, que el Consejo Scout Nacional nombra por sus servicios. Y alguien tiene que <strong>verificarlo</strong>: la norma pone esa tarea en quienes presiden o dirigen, sobre todo en el nivel nacional —el presidente del estamento, el Jefe Nacional, directores y comisionados—, y en el grupo el Manual de Cargos le pide al <strong>Jefe de Grupo</strong> velar porque cada integrante tenga su documentación al día para las actividades (ficha 2.1.10). Quien no está al día deja de participar hasta regularizarse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Por eso la afiliación no es un trámite de oficina: el día del campamento, el que no está afiliado no va."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> los once del caso que no renovaron no pueden ir al campamento regional, y no es un castigo: es la regla de todos."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Cómo verifica hoy tu grupo que quienes participan tienen la afiliación vigente? ¿Quién lo mira y cuándo? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Un papá quiere ayudar como dirigente de la Tropa desde el sábado y promete hacer la afiliación «en unos meses, cuando tenga tiempo». ¿Qué corresponde?",
+            "options": [
+              "Que complete antes su afiliación: sin afiliación vigente nadie participa en los procesos del grupo.",
+              "Que empiece el sábado: la afiliación obligatoria es de los jóvenes, y la de los adultos puede esperar.",
+              "Que el Jefe de Grupo firme un permiso provisional: esa firma reemplaza la afiliación mientras la tramita."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En la reunión del Consejo de Grupo aparece un consejero cuya afiliación venció hace tres meses. ¿Qué corresponde?",
+            "options": [
+              "Que se aparte hasta renovar: con la afiliación vencida, un consejero tampoco puede participar.",
+              "Que siga normalmente este año: la afiliación del consejero se exige cuando lo eligen, no después.",
+              "Que espere el aviso de la Región: verificar las afiliaciones de los grupos le toca a ella."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 5 →"
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 📈 Tres números para saber si el grupo crece",
+      "emoji": "📈",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>El total no basta: hay que mirar cuántos se quedaron y cuántos llegaron, y por rama."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política pide los datos para tomar decisiones, y la Asociación mide así el país: su Plan Estratégico se pone como metas un crecimiento anual de al menos el 10 % en la membresía y que al menos la mitad de los miembros tenga registro consecutivo en los últimos tres años —una retención mirada a más largo plazo— (Plan Estratégico 2023–2026, p. 8). Y el Consejo Scout Nacional presenta cada año una evaluación que incluye el crecimiento y la <strong>retención</strong> (Reglamento Nacional, Art. 238)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tu grupo puede usar la misma lógica con tres números, por rama:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🔁 Se quedaron",
+              "description": "Cuántos de los miembros del año pasado renovaron este año. Dividido por los del año pasado, es la retención.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "🆕 Llegaron",
+              "description": "Cuántos miembros nuevos se afiliaron este año.",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            },
+            {
+              "title": "📊 Somos",
+              "description": "El total de hoy: los que se quedaron más los que llegaron. Réstale el total del año pasado y divide por ese mismo total: es el crecimiento.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🧮 La cuenta, paso a paso</strong> (cifras redondas de ejemplo, no las del caso). El año pasado un grupo tenía 60 afiliados. Este año renovaron 45 y llegaron 15 nuevos.<br>• <strong>Retención:</strong> los que se quedaron, divididos por los del año pasado: 45 ÷ 60 = 0,75, o sea el 75 %. De cada cuatro, tres se quedaron y uno se fue.<br>• <strong>Crecimiento:</strong> hoy son 45 + 15 = 60. Resta los del año pasado: 60 − 60 = 0. Divide por los del año pasado: 0 ÷ 60 = 0 %.<br>Si hubieran llegado 24 nuevos, serían 69: 69 − 60 = 9, y 9 ÷ 60 = 0,15, un crecimiento del 15 %.<br>Y en la Manada del caso, de 20 lobatos renovaron 10: 10 ÷ 20 = 50 %. Ese es el dato que el total escondía."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> un grupo que retiene poco tiene que traer muchos nuevos cada año solo para quedarse igual. Mirar la retención por rama dice dónde empezar."
+        }
+      ],
+      "reflection": {
+        "prompt": "Con los números de tu grupo (la misión de la bienvenida), ¿cuántos se quedaron y cuántos llegaron? ¿En qué rama es más baja la retención? Si no los tienes, ¿quién podría dártelos? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "Un grupo tenía 40 miembros. Este año renovaron 28 y llegaron 16 nuevos. ¿Qué le dicen sus números?",
+            "options": [
+              "Que creció un 10 %, pero retuvo el 70 %: tres de cada diez se fueron, y los nuevos taparon el hueco.",
+              "Que creció un 40 %: llegaron 16 nuevos, y eso muestra que la retención del grupo es muy buena.",
+              "Que decreció un 30 %: se fueron 12 de los 40, y esa pérdida es lo que mide el crecimiento del grupo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El total del grupo lleva tres años igual y el Consejo concluye que «todo está bien». ¿Qué le propones mirar antes de darlo por bueno?",
+            "options": [
+              "La retención por rama: un total estable puede esconder que una rama pierde a la mitad cada año.",
+              "La cantidad de actividades: si el total no cambia, lo clave es confirmar que el programa se cumple.",
+              "Los que llegaron cada año: si llegan tantos como se van, el grupo está sano y así puede seguir."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 6 →"
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — 🌱 Crecer, y seguir existiendo como grupo",
+      "emoji": "🌱",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Crecer es tarea del Consejo y del Jefe de Grupo, y hay un mínimo que el grupo no puede perder: dos ramas consecutivas funcionando."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Reglamento de Grupos le da al Consejo la función de <em>«promover la realización de Acciones para el Crecimiento del Grupo y de sus Ramas»</em> (5.6.23), y el Manual de Cargos hace al Jefe de Grupo responsable, entre otras cosas, de <em>«las acciones para el crecimiento»</em> del grupo (ficha 2.1.10, p. 67). Crecer no es una campaña de un fin de semana: es decidir, con los números de la Lección 5, dónde hacen falta jóvenes, dirigentes o las dos cosas."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧱 Seguir existiendo",
+              "description": "Para ser aprobado, un grupo necesita tener en funcionamiento al menos dos ramas consecutivas, con integrantes en el número y la edad de cada una (Reglamento de Grupos, 1.6.1); y la aprobación la da el Jefe Regional mediante resolución y se renueva cada año, si el grupo mantiene las condiciones y se inscribe a tiempo (1.7; y el Reglamento Nacional, Art. 129, pide esa resolución para que el grupo vote en la Asamblea Nacional). Una rama que se vacía no es solo un problema de esa rama.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "🤝 Con quién crecer",
+              "description": "La Región acompaña: el Comisionado Regional de Crecimiento coordina y apoya las estrategias de crecimiento y analiza los datos de membresía de la Región (Manual de Cargos, ficha 2.2.28).",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            },
+            {
+              "title": "🌟 Grupos nuevos",
+              "description": "Si en tu zona hay interés en abrir un grupo nuevo, se arranca con el Jefe Regional (Reglamento de Grupos, 1.8).",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> si la Manada del caso sigue perdiendo la mitad cada año, el grupo puede quedarse sin dos ramas consecutivas. Cuidarla no era opcional."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Qué rama de tu grupo está más débil hoy, en jóvenes o en dirigentes? ¿Quién en el Consejo o la Jefatura está pensando en eso? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "questions": [
+          {
+            "text": "A un grupo solo le quedan la Tropa y el Clan: la Manada cerró por falta de dirigentes y la Comunidad nunca se abrió. ¿Qué dice el Reglamento de Grupos?",
+            "options": [
+              "Que necesita dos ramas consecutivas funcionando: Tropa y Clan no lo son, y la continuidad corre riesgo.",
+              "Que cumple con dos ramas funcionando: da igual si son consecutivas o no dentro del programa scout.",
+              "Que pierde la aprobación de inmediato: sin la Manada, el grupo tiene que cerrar ese mismo mes."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El Consejo cree que el crecimiento «le toca a la Región». ¿Qué le recuerdas?",
+            "options": [
+              "Que promover las acciones de crecimiento del grupo es función del propio Consejo, con apoyo de la Región.",
+              "Que la Región consigue los miembros nuevos del grupo, y al grupo le corresponde aplicar bien el programa.",
+              "Que el crecimiento es un indicador nacional del Plan Estratégico, y los grupos no tienen metas propias en eso."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 7 →"
+    },
+    {
+      "id": 7,
+      "title": "Lección 7 — 🧭 La revisión del registro de tu grupo",
+      "emoji": "🧭",
+      "navLabel": "L7",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Cinco preguntas muestran si tu grupo sabe quiénes son, cuántos son y hacia dónde va, y cada «no» o «no sé» es un compromiso posible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un grupo que no se cuenta, no sabe si está creciendo. Volvamos al Consejo que decía «somos sesenta». Estas son las cinco preguntas que le habrían mostrado lo que el total escondía; mientras las lees, fíjate cuáles le fallaron: son más de una."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "¿Cada miembro del grupo completó su afiliación y está aprobado en la plataforma?",
+            "¿Alguien verifica, antes de cada actividad, que quienes participan tienen la afiliación vigente?",
+            "¿Sabemos cuántos miembros renovaron este año y cuántos llegaron, por rama?",
+            "¿Tenemos dos ramas consecutivas funcionando, y sabemos cuál está en riesgo?",
+            "¿Hay una acción de crecimiento decidida por el Consejo, con alguien que responda por ella?"
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Compara:</strong> al Consejo de los «sesenta» le fallaron al menos tres: la 1 (cuatro nunca terminaron su registro), la 2 (se enteró de los once sin afiliación cuando llegó la inscripción al campamento) y la 3 (no sabía que la Manada había perdido la mitad)."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu turno:</strong> responde las cinco con «sí», «no» o «no sé». Escoge un «no» o un «no sé» y conviértelo en un compromiso: qué vas a proponer, a qué órgano o cargo y para cuándo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔜 Lo que sigue en la línea:</strong> el <strong>Curso 14 — Gestión del Riesgo</strong> (próximamente) trata cómo el grupo cuida su patrimonio y sus actividades."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu resultado en las cinco preguntas y tu compromiso: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista. Ojo: ese recuadro no sale en el PDF. (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7 — Cierre del curso",
+        "questions": [
+          {
+            "text": "Un grupo vecino tiene a todos sus miembros aprobados en la plataforma y revisa las afiliaciones antes de cada salida, pero nunca ha comparado sus números de un año a otro. ¿Cuál de las cinco le falla?",
+            "options": [
+              "La 3: tener el registro al día no alcanza si no sabe cuántos renovaron y cuántos llegaron por rama.",
+              "La 1: tener a todos aprobados no alcanza, si la plataforma solo se actualiza una vez al año en la Nación.",
+              "La 2: revisar antes de cada salida no alcanza, si la afiliación se revisa cada año en la Asamblea del grupo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "A una consejera le salió «no» en la 5. Sus números dicen además que la Manada retuvo solo la mitad. ¿Qué compromiso responde a ese «no»?",
+            "options": [
+              "Llevar al Consejo de agosto una acción para la Manada, con quien la lidere y una fecha para revisarla.",
+              "Llevar al Consejo de agosto una jornada de puertas abiertas, un sábado, para quien quiera venir.",
+              "Llevar al Consejo de agosto la revisión de afiliaciones antes de cada salida, con quien la haga."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Ir al certificado →"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Veo los cinco sub-ámbitos",
+      "emoji": "📊",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Sé quién es miembro",
+      "emoji": "🪪",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Verifico la afiliación",
+      "emoji": "🚫",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Leo los números del grupo",
+      "emoji": "📈",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Cuido la continuidad",
+      "emoji": "🌱",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Registro en orden",
+      "emoji": "🧭",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "CRECIMIENTO Y SISTEMA DE INFORMACIÓN",
+    "description": "ha completado el Curso 13 del Nivel 2 — Profundización por ámbito de gestión de la Línea Desarrollo Institucional, ubicando lo que un grupo registra y cuenta en los cinco sub-ámbitos de la Política, reconociendo cuándo una persona queda afiliada, aplicando la regla de la afiliación vigente, calculando el crecimiento y la retención del grupo por rama y reconociendo las condiciones para que un grupo siga existiendo, con un compromiso concreto sobre el registro y el crecimiento de su grupo"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí el compromiso de tu revisión del registro: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo.",
+    "placeholder": "Voy a proponer…"
+  }
+}

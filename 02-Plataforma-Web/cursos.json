@@ -166,5 +166,19 @@
     "status": "active",
     "file": "comunicaciones-relaciones-interinstitucionales.html",
     "folder": "comunicaciones-relaciones-interinstitucionales"
+  },
+  {
+    "courseId": "crecimiento-sistema-informacion",
+    "title": "Crecimiento y Sistema de Información",
+    "description": "Un grupo que no se cuenta, no sabe si está creciendo. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Crecimiento y sistema de información y registro: cuándo alguien es de verdad miembro, por qué nadie participa sin afiliación vigente, qué números dicen si el grupo crece, y qué necesita un grupo para seguir existiendo.",
+    "icon": "📈",
+    "duration": "~31 min",
+    "level": 2,
+    "levelName": "Profundización por ámbito de gestión",
+    "order": 13,
+    "modules": 7,
+    "status": "active",
+    "file": "crecimiento-sistema-informacion.html",
+    "folder": "crecimiento-sistema-informacion"
   }
 ]

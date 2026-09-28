@@ -170,7 +170,7 @@ Se enuncia en la Lección 1, se referencia al construir cada meta en las Leccion
 15. **`heading` (nivel 3)** — _"📈 Ámbito 6 — Crecimiento y Sistema de Información"_
 16. **`method-grid`** — 3 metas-tipo:
     - 🟢 **CR-doc (6 meses):** _"Escribir el método de crecimiento del grupo: estrategias de captación, seguimiento, retención. Compartirlo con grupos en formación."_
-    - 🟡 **CR-fort (6 meses):** _"Construir Plan de Captación anual (campaña de barrio, jornada de puertas abiertas, alianzas con colegios) + mantener SiScout al día. Lograr crecimiento neto >= 2%."_
+    - 🟡 **CR-fort (6 meses):** _"Construir Plan de Captación anual (campaña de barrio, jornada de puertas abiertas, alianzas con colegios) + mantener SiScout al día. Mirar cada año la retención y el crecimiento por rama."_
     - 🔴 **CR-crear (3 meses):** _"Implementar registro mensual de ingresos y salidas de membresía. Primera base de datos del grupo. Sin esto, no hay nada que medir."_
 17. **`heading` (nivel 3)** — _"🛡️ Ámbito 7 — Gestión del Riesgo"_
 18. **`method-grid`** — 3 metas-tipo:

@@ -505,7 +505,7 @@ var META_TIPO_CATALOG = [
     { id: 'RI-fort', tipologia: 'fort', ambito: 'Relaciones Internacionales', plazo: 12, label: '🟡 RI-fort · Postular el grupo a un proyecto mundial de OMMS (12 meses)' },
     { id: 'RI-crear', tipologia: 'crear', ambito: 'Relaciones Internacionales', plazo: 12, label: '🔴 RI-crear · Conectar el grupo con al menos un programa mundial (12 meses)' },
     { id: 'CR-doc', tipologia: 'doc', ambito: 'Crecimiento', plazo: 6, label: '🟢 CR-doc · Escribir el método de crecimiento del grupo (6 meses)' },
-    { id: 'CR-fort', tipologia: 'fort', ambito: 'Crecimiento', plazo: 6, label: '🟡 CR-fort · Plan de Captación anual + SiScout al día + crecimiento ≥2% (6 meses)' },
+    { id: 'CR-fort', tipologia: 'fort', ambito: 'Crecimiento', plazo: 6, label: '🟡 CR-fort · Plan de captación anual + registro al día en SiScout + mirar retención y crecimiento por rama (6 meses)' },
     { id: 'CR-crear', tipologia: 'crear', ambito: 'Crecimiento', plazo: 3, label: '🔴 CR-crear · Registro mensual de ingresos y salidas de membresía (3 meses)' },
     { id: 'GR-doc', tipologia: 'doc', ambito: 'Gestión del Riesgo', plazo: 6, label: '🟢 GR-doc · Escribir el manual de gestión del riesgo del grupo (6 meses)' },
     { id: 'GR-fort', tipologia: 'fort', ambito: 'Gestión del Riesgo', plazo: 6, label: '🟡 GR-fort · 100 % del equipo con A Salvo del Peligro + Protocolo de Transporte (6 meses)' },
@@ -548,7 +548,7 @@ function detectarPrincipioEnBrujula(txt) {
     if (!txt) return null;
     var low = txt.toLowerCase();
     var principios = [
-        { keys: ['participación juvenil', 'participacion juvenil'], name: 'Participación Juvenil', advice: 'Prioriza metas que involucren a los chicos en las decisiones. Por ejemplo: en <strong>CR-fort</strong> (Plan de Captación) involucrá al clan; en <strong>C-fort</strong> (comunicación con familias) usa un boletín hecho con los rovers.' },
+        { keys: ['participación juvenil', 'participacion juvenil'], name: 'Participación Juvenil', advice: 'Prioriza metas que involucren a los chicos en las decisiones. Por ejemplo: en <strong>CR-fort</strong> (Plan de Captación) involucra al clan; en <strong>C-fort</strong> (comunicación con familias) usa un boletín hecho con los rovers.' },
         { keys: ['normatividad'], name: 'Normatividad', advice: 'Cuida el cumplimiento del marco legal y reglamentario. <strong>CT-crear</strong> (documentación legal) y <strong>GR-crear/GR-fort</strong> (protocolos de riesgo) saltan al primer lugar de tu lista.' },
         { keys: ['coherencia'], name: 'Coherencia', advice: 'Que lo que prometemos lo cumplamos. <strong>C-fort</strong> (comunicación mensual con familias) y <strong>CT-fort</strong> (Asamblea según Reglamento) van al frente.' },
         { keys: ['colectividad', 'consenso'], name: 'Colectividad y Consenso', advice: 'Las decisiones se toman con todos los actores. <strong>G-crear/G-fort</strong> (gobernanza con actas y control colegiado) suben en prioridad.' },
@@ -612,7 +612,7 @@ function renderCoursesSuggestions() {
         var top3 = suggestions.slice(0, 3);
         if (top3.length === 0) {
             el.innerHTML = '<div class="courses-suggestion-content courses-suggestion-strong">' +
-                '<p>🌟 <strong>Tu grupo es referencia.</strong> Tu catálogo no muestra ámbitos en NO o PARCIAL — considerá tomar el <strong>Curso 22 (Buenas Prácticas Institucionales)</strong> del Nivel 4 para documentar y compartir tus prácticas con la región.</p>' +
+                '<p>🌟 <strong>Tu grupo es referencia.</strong> Tu catálogo no muestra ámbitos en NO o PARCIAL — considera tomar el <strong>Curso 22 (Buenas Prácticas Institucionales)</strong> del Nivel 4 para documentar y compartir tus prácticas con la región.</p>' +
             '</div>';
             return;
         }
@@ -873,7 +873,7 @@ function buildPlanPrintableHTML(planId) {
     sugg.sort(function (a, b) { return a.priority - b.priority; });
     var top3 = sugg.slice(0, 3);
     var coursesHTML = top3.length ? '<ul>' + top3.map(function (s) { return '<li>' + s.course + '</li>'; }).join('') + '</ul>' :
-        '<p><em>Tu grupo está sólido — considerá el Curso 22 (Buenas Prácticas Institucionales) del Nivel 4 para documentar y compartir tus prácticas.</em></p>';
+        '<p><em>Tu grupo está sólido — considera el Curso 22 (Buenas Prácticas Institucionales) del Nivel 4 para documentar y compartir tus prácticas.</em></p>';
 
     return '<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">' +
         '<title>Mi Aporte al DI — ' + escapeHtml(fullName) + '</title>' +
