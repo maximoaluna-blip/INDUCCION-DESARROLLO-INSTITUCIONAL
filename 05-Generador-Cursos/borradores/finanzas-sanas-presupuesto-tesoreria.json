@@ -1,0 +1,578 @@
+{
+  "courseId": "finanzas-sanas-presupuesto-tesoreria",
+  "title": "Finanzas Sanas: Presupuesto y Tesorería",
+  "subtitle": "Curso 10 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
+  "description": "La plata del grupo no es de nadie: por eso todos tienen que poder verla. En este curso vas a recorrer las reglas que cuidan el dinero de un grupo scout: de quién es, quién decide, quién la maneja y quién la vigila; cómo se fijan las cuotas y el presupuesto; cómo puede entrar la plata y cómo no; y cómo se rinden cuentas y qué pasa cuando no se rinden.",
+  "contentVersion": "2026-09-27",
+  "status": "active",
+  "icon": "💰",
+  "duration": "~32 min",
+  "level": 2,
+  "levelName": "Profundización por ámbito de gestión",
+  "order": 10,
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~32 minutos · 7 lecciones.</strong><br>Al final vas a poder distinguir qué le toca al Consejo, al Tesorero y al Contador, decidir quién fija una cuota, seguir la ejecución del presupuesto, reconocer una forma de recaudar que no se permite y revisar si las cuentas de tu grupo están sanas.<br><strong>Cada lección cierra con 2 preguntas:</strong> para avanzar hay que acertar las dos. Si fallas, el curso te muestra la correcta y lo vuelves a intentar."
+        },
+        {
+          "type": "paragraph",
+          "text": "En un grupo, la tesorera recibía las cuotas en su cuenta personal «para no complicarse». Nadie sospechaba de ella, y con razón: era cuidadosa. Un día se enfermó y dejó de ir. El Consejo quiso pagar el transporte del campamento y descubrió que nadie sabía cuánta plata había, dónde estaba ni qué se había gastado. <strong>No hubo robo. Hubo algo casi igual de grave: la plata del grupo solo la podía ver una persona.</strong>"
+        },
+        {
+          "type": "blockquote",
+          "text": "La plata del grupo no es de nadie: por eso todos tienen que poder verla."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Curso 8 te dejó en el tercer eslabón de la planeación: el presupuesto. Este curso entra ahí y en todo lo que cuida el dinero del grupo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a practicar"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 🏦 De quién es la plata del grupo.",
+            "<strong>Lección 3 —</strong> 🧮 Tres roles: el Consejo decide, el Tesorero maneja, el Contador vigila.",
+            "<strong>Lección 4 —</strong> 📒 Cuotas, presupuesto y año fiscal.",
+            "<strong>Lección 5 —</strong> 🎪 Cómo puede entrar la plata, y cómo no.",
+            "<strong>Lección 6 —</strong> 🧾 Rendir cuentas, y qué pasa si no se rinden.",
+            "<strong>Lección 7 —</strong> 🩺 El chequeo de salud financiera de tu grupo."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de empezar:</strong> si puedes, averigua a nombre de quién está la cuenta bancaria de tu grupo. Lo vas a usar en la última lección."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 🏦 De quién es la plata del grupo",
+      "emoji": "🏦",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>El patrimonio del grupo es indivisible y solo sirve para hacer escultismo: no es de ningún afiliado, ni del que más aporta."
+        },
+        {
+          "type": "paragraph",
+          "text": "El patrimonio de un grupo es más grande de lo que parece: no solo la plata del banco, sino las carpas y el equipo de campismo, lo que se recibe por cuotas, donaciones o actividades, y hasta el trabajo voluntario que abarata las actividades. Todo eso tiene una misma regla."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la regla del Reglamento de Grupos",
+          "text": "Todos los bienes y dineros que el Grupo obtenga a cualquier título o en desarrollo de programas de financiación serán utilizados exclusivamente para la financiación y ejecución de actividades de Escultismo dentro del Nivel de Grupo que realizó los respectivos programas de financiación. PARÁGRAFO: El Patrimonio del Grupo es indivisible y a ninguno de los afiliados le asiste derecho particular, parcial o total, sobre el mismo. Los excedentes o superávit que se obtengan de las actividades y servicios se destinarán al incremento del acervo patrimonial del Grupo y de ningún modo habrá lugar al reparto de dividendos, beneficios personales o motivo de lucro para los asociados.",
+          "source": "Reglamento Nacional de Grupos Scouts, Art. 10.2. El Art. 10.1 enumera lo que compone el patrimonio"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🎯 Solo para escultismo",
+              "description": "Lo que el grupo obtiene se usa exclusivamente en actividades scouts del propio grupo.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "🧩 Indivisible",
+              "description": "Ningún afiliado tiene derecho a una parte, ni siquiera quien más aportó.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🚫 Sin reparto",
+              "description": "Los excedentes aumentan el patrimonio del grupo: nunca se reparten como beneficio personal.",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Y tu cuota no es un ahorro:</strong> es un gasto, no un aporte que puedas reclamar. Por eso, al retirarse, ningún afiliado tiene derecho sobre el patrimonio del grupo (Reglamento de Grupos, 10.8)."
+        }
+      ],
+      "reflection": {
+        "prompt": "Haz la lista de lo que tu grupo tiene hoy: plata, equipos, un lugar, un fondo. ¿Alguna parte está en manos de una sola persona o guardada en una casa particular? Anótala: es la primera que conviene ordenar. (Anota el rol, no el nombre.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "Una familia que durante años pagó cuotas y donó carpas se retira del grupo y pide «que le devuelvan su parte». ¿Qué le responde el Consejo?",
+            "options": [
+              "Que no hay parte que devolver: el patrimonio es indivisible y las cuotas fueron gasto, no aporte.",
+              "Que sí la hay: se le devuelve lo proporcional a las cuotas que pagó durante sus años en el grupo.",
+              "Que no hay parte en dinero, pero sí puede llevarse de vuelta las carpas que el grupo recibió de ella."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un bazar deja un buen excedente y un consejero propone repartir una parte entre los dirigentes «que tanto trabajaron». ¿Qué dice la regla?",
+            "options": [
+              "Que no se puede: lo que sobra sigue siendo del grupo y solo puede volver a sus actividades scouts.",
+              "Que no se puede en plata, pero sí en especie: uniformes o insignias para los dirigentes que trabajaron.",
+              "Que se puede, siempre que la Asamblea lo apruebe y el reparto quede registrado en el acta del día."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 3 →"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🧮 Tres roles",
+      "emoji": "🧮",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>El Consejo decide y responde, el Tesorero maneja la plata y rinde cuentas, el Contador vigila y alerta. Si una sola persona hace las tres cosas, nadie verifica."
+        },
+        {
+          "type": "paragraph",
+          "text": "Es la misma lógica que viste en el Curso 7 —decidir, ejecutar, verificar—, aplicada a la plata. El Reglamento pone la responsabilidad en el Consejo, y el Manual de Cargos describe a quién le toca manejarla y a quién vigilarla."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🪑 Consejo de Grupo — decide y responde",
+              "description": "La administración y el manejo de los fondos del grupo es responsabilidad del Consejo, que vela por su correcta utilización según el presupuesto aprobado por la Asamblea (Reglamento de Grupos, 10.20). Y aprueba o imprueba, cada mes, las cuentas del grupo (5.6.8; lo viste en el Curso 7).",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "💵 Tesorero de Grupo — maneja y rinde cuentas",
+              "description": "Recauda y custodia los dineros, maneja la caja menor, hace los pagos autorizados y rinde cuentas al Consejo del saldo, los movimientos y la ejecución del presupuesto (Manual de Cargos, 2.1.7).",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🔍 Contador de Grupo — vigila y alerta",
+              "description": "Audita los asuntos contables y financieros, revisa que los libros estén al día y que cada movimiento tenga soporte, y avisa a tiempo de lo irregular (Manual de Cargos, 2.1.8).",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo define el Manual al Tesorero",
+          "text": "Es el responsable de recaudar, custodiar y supervisar el manejo de los fondos y el uso de los recursos del Grupo Scout, en coordinación con el presidente del consejo de grupo.",
+          "source": "Manual de cargos, perfiles y funciones por competencias (DNAM, ago-2020), ficha 2.1.7 «Tesorero de Grupo», p. 50. Lo nombra el Consejo Scout de Grupo y le responde de su gestión"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🏦 Una regla que protege a todos:</strong> en lo posible, las cuentas bancarias del grupo van <strong>a nombre del grupo</strong>, mediante la personería jurídica delegada de la Región o de la Nación (Reglamento de Grupos, 10.20). La plata del grupo en una cuenta personal deja sin protección al grupo… y a quien la tiene."
+        }
+      ],
+      "reflection": {
+        "prompt": "En tu grupo, ¿qué rol decide los gastos, qué rol maneja la plata y qué rol la vigila? Si dos de las tres cosas recaen en el mismo rol, anótalo: ahí nadie está verificando. (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "En un grupo pequeño, el mismo adulto aprueba los gastos, hace los pagos y revisa sus propias cuentas. «Es de confianza», dicen todos. ¿Cuál es el problema?",
+            "options": [
+              "Que nadie verifica: decide, paga y se revisa la misma persona, y nadie más puede ver si algo falla.",
+              "Que las tres cosas debería hacerlas el Presidente, que es quien responde ante la Región por el grupo.",
+              "Que no hay problema de fondo: en un grupo pequeño es lo normal, y la confianza hace las veces del control."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El Contador revisa los libros y encuentra tres pagos sin soporte. El Tesorero le dice: «Tranquilo, yo sé en qué se gastó». ¿Qué hace el Contador?",
+            "options": [
+              "Avisa a tiempo al Consejo: su papel es vigilar, y un pago sin soporte no se da por bueno por confianza.",
+              "Avisa al Consejo, pero al cerrar el año, para no entorpecer mientras tanto el trabajo del Tesorero.",
+              "Los da por buenos: si el Tesorero explica en qué se gastó, la palabra de alguien de confianza basta."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 4 →"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 📒 Cuotas, presupuesto y año fiscal",
+      "emoji": "📒",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>La plata del grupo tiene su calendario: el Consejo fija la cuota del año, lo extraordinario lo decide la Asamblea, el Consejo sigue cada mes la ejecución, y al cerrar el año se le rinde cuentas a la Asamblea."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sigue el año de plata de un grupo. En la Asamblea se aprueba el presupuesto y, con él, el Consejo fija la cuota del año. En julio se daña el techo de la sede y no hay con qué arreglarlo. Y en la Asamblea siguiente alguien pregunta: «¿en qué se nos fue la plata?». Cada uno de esos momentos tiene su regla."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🧾 Quién fija cada cuota"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "Cuotas de afiliación y de funcionamiento — el Consejo",
+              "description": "El Consejo las establece por resolución motivada, para un año, de acuerdo con los presupuestos de funcionamiento y operación (Reglamento de Grupos, 10.4 y 10.5)."
+            },
+            {
+              "title": "Cuotas extraordinarias — solo la Asamblea",
+              "description": "Para necesidades ocasionales o sobrevinientes. Su valor debe tener en cuenta las condiciones económicas de las familias para no imponer cargas desproporcionadas (10.6)."
+            }
+          ]
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📊 El presupuesto y su informe"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ya viste en el Curso 8 que el presupuesto sale del Plan de Grupo y lo aprueba la Asamblea, y en el Curso 7 que el Consejo lo revisa cada mes. Lo que se agrega aquí es <strong>qué mirar</strong>: el Tesorero no solo informa cuánto hay en la cuenta, sino cómo va el gasto frente a lo presupuestado (Manual de Cargos, 2.1.7). Y al cerrar el año, el Consejo lleva a la Asamblea un <strong>informe detallado del origen y la aplicación de los fondos</strong>, con el balance general (10.18)."
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>En la Asamblea:</strong> se aprueba el presupuesto, con base en el Plan de Grupo (lo viste en el Curso 8).",
+            "<strong>Cada mes:</strong> el Consejo aprueba o imprueba las cuentas del mes (5.6.8), y para eso el Tesorero le rinde cuentas del saldo, los movimientos y cómo va la ejecución frente al presupuesto (Manual de Cargos, 2.1.7).",
+            "<strong>Al cerrar el año:</strong> el Consejo lleva a la Asamblea el informe de dónde salió la plata y en qué se aplicó (10.18)."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>⚠️ Dato para no confundirse:</strong> el Reglamento de Grupos de 2013 pide que ese balance lo refrende el <strong>Fiscal</strong> del grupo, un cargo que ya no opera (lo viste en el Curso 7). Hoy el control contable del grupo le corresponde al <strong>Contador de Grupo</strong> (Manual de Cargos, 2.1.8)."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el año fiscal que fija el Reglamento Nacional",
+          "text": "El periodo fiscal entendido entre el 1 de enero y el 31 de diciembre del respectivo año, corresponderá para los efectos, de representación de los miembros afiliados en las Asambleas Nacionales, Regionales y de Grupo, y para la presentación de estados financieros, balances generales y demás de los tres niveles de la Asociación. Para efectos de la afiliación de los miembros, el período se considera comprendido entre el 1 de abril del año en curso y el 31 de marzo del año inmediatamente siguiente.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 228 «Período fiscal», p. 67"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> las cuentas y el balance del grupo van por año calendario —cierran el 31 de diciembre—; la afiliación va de abril a marzo. Son dos calendarios distintos: no hay que mezclarlos."
+        }
+      ],
+      "reflection": {
+        "prompt": "Recuerda el último informe de plata que llegó al Consejo de tu grupo. ¿Decía solo el saldo, o también cuánto se llevaba gastado frente a lo presupuestado? Anota qué le faltaría para que el Consejo pudiera seguir la ejecución. (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "A mitad de año se daña el techo de la sede y el Consejo decide cobrar a cada familia una cuota adicional para arreglarlo. ¿Qué dice el Reglamento?",
+            "options": [
+              "Que eso no le toca al Consejo: es una cuota extraordinaria, y esa la decreta solo la Asamblea.",
+              "Que eso no le toca al Consejo: una cuota adicional la autoriza la Región, a pedido del Consejo.",
+              "Que puede cobrarla, porque las cuotas del grupo las fija el Consejo por resolución para el año."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Es agosto. El Tesorero le informa al Consejo: «Tenemos $2.000.000 en la cuenta, vamos bien». Nadie pregunta nada más. ¿Qué le falta a ese informe?",
+            "options": [
+              "Le falta lo que importa: cuánto se lleva gastado frente a lo presupuestado, no solo cuánto hay en la cuenta.",
+              "No le falta nada de fondo: si el saldo es positivo en agosto, la ejecución del presupuesto va bien.",
+              "Le falta la firma del Fiscal del grupo, que refrenda las cuentas antes de que el Consejo las apruebe."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 5 →"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 🎪 Cómo puede entrar la plata, y cómo no",
+      "emoji": "🎪",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>El grupo se financia con su trabajo, no con limosnas; toda actividad para recaudar necesita el visto bueno previo del Consejo, y no toda donación se acepta."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Reglamento dice de dónde sale la plata del grupo: cuotas, venta de artículos scouts, rendimientos de sus bienes, donaciones, legados, subvenciones y auxilios (10.11), y actividades como bazares, ferias, bingos y rifas, ventas de comida, ventas de garaje o reciclaje (10.15). Y las normas ponen cuatro límites."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "✋ Permiso previo",
+              "description": "Ningún miembro puede hacer gestiones para obtener fondos, servicios o donaciones sin la aprobación previa del Consejo (10.16).",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "🚫 Nadie pide plata en la calle",
+              "description": "Ni el grupo ni ninguno de sus miembros pide plata en la calle —limosnas, alcancías, retenes—, sea cual sea la causa (Reglamento Nacional, Art. 80). Un scout consigue sus fondos con su trabajo (Reglamento de Grupos, 10.12).",
+              "color": "#ffebee",
+              "borderColor": "#f44336"
+            },
+            {
+              "title": "🔎 Donaciones con criterio",
+              "description": "Se rechaza toda ayuda que comprometa la independencia de la Asociación o que venga de personas de dudosa reputación o negocios ilícitos (10.10). Las que se aceptan se reciben a nombre del grupo, coordinando con la Región el trámite (10.9).",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            },
+            {
+              "title": "📝 Contratos por la Región",
+              "description": "El grupo puede usar el nombre de la Asociación, pero no contratar con terceros por su cuenta: solo a través del representante legal de su región (Reglamento Nacional, Art. 231).",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver por qué no hay colectas",
+          "text": "De acuerdo con el espíritu del Movimiento Scout en materia económica, un scout debe buscar los fondos que necesite mediante el trabajo y no mediante la búsqueda de dádivas o limosnas. En consecuencia, el Grupo no podrá organizar colectas públicas de ningún tipo para obtener fondos.",
+          "source": "Reglamento Nacional de Grupos Scouts, Art. 10.12"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔜 Para ir más a fondo:</strong> cómo conseguir recursos y armar proyectos para lograrlo es el tema del <strong>Curso 11 — Captación de Fondos y Ciclo de Proyectos</strong> (próximamente)."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en la última actividad para recoger fondos de tu grupo. ¿La aprobó antes el Consejo? ¿Hubo algo parecido a pedir dinero en la calle? Escribe qué harías distinto la próxima vez."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "Los Rovers quieren salir con alcancías a un semáforo para pagar su viaje. Dicen que es «rápido y a nadie le hace daño». ¿Qué les responde el Consejo?",
+            "options": [
+              "Que no, ni ahí ni en otro sitio: pedir limosna no es trabajo, y el grupo se financia trabajando.",
+              "Que no en un semáforo, que es peligroso; pero sí en la puerta de la iglesia, con permiso del párroco.",
+              "Que sí, siempre que el Consejo lo apruebe antes y la plata llegue completa al Tesorero del grupo scout."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una ferretería del barrio, conocida y sin líos, ofrece donar la madera para arreglar la sede. Un consejero se opone: «un scout se financia trabajando, no recibiendo regalos». ¿Qué decide el Consejo?",
+            "options": [
+              "Aceptarla: una donación legítima que no compromete al grupo se puede recibir; lo prohibido es pedir en la calle.",
+              "Rechazarla: si un scout se financia con su trabajo, el grupo no puede recibir regalos de ningún donante.",
+              "Aceptarla, pero a nombre del consejero que la consiguió, para que sea él quien responda por esa madera."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 6 →"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — 🧾 Rendir cuentas",
+      "emoji": "🧾",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Quien maneja plata de una actividad rinde cuentas con soportes en 30 días. Si el grupo no lleva sus cuentas, el nivel superior interviene y congela los fondos."
+        },
+        {
+          "type": "paragraph",
+          "text": "La excursión salió perfecta. Quien la organizó cobró a las familias, pagó el bus y guardó los $40.000 que sobraron «para la próxima». Nadie duda de él. Pero el Consejo no sabe cuánto entró, cuánto salió ni dónde está lo que sobró: otra vez, plata que solo una persona puede ver."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la regla de los 30 días",
+          "text": "Los directores de las actividades, tanto técnicas como administrativas, que impliquen el movimiento de fondos financieros del Grupo, están obligados a rendir cuentas detalladas de los gastos e ingresos generados por la actividad, acompañadas de los comprobantes y soportes contables correspondientes, ante el Consejo de Grupo y a entregar los remanentes que hubieren quedado al Tesorero. Las cuentas deberán rendirse dentro de los treinta (30) días comunes siguientes a la realización de la actividad.",
+          "source": "Reglamento Nacional de Grupos Scouts, Art. 10.21"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> quien dirige una actividad que mueve plata le muestra al Consejo, con soportes, qué entró y qué salió —a más tardar 30 días después— y le entrega al Tesorero lo que sobró."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "⚖️ Qué pasa si no"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "Para las personas — sanciones",
+              "description": "No pedir el permiso del Consejo, no rendir cuentas, no entregar a tiempo los remanentes o usar mal los fondos acarrea sanciones según la gravedad, sin perjuicio de las acciones penales y disciplinarias (10.23)."
+            },
+            {
+              "title": "Para el grupo — intervención",
+              "description": "Si el Consejo de Grupo incumple las normas de presupuesto, control presupuestal y balances, el Consejo Regional o Nacional interviene de inmediato: congela las cuentas y fondos y suspende las actividades financieras hasta que se pongan en orden (10.24)."
+            },
+            {
+              "title": "Una prohibición que no admite atajos",
+              "description": "El grupo no puede ser garante de deudas de terceros. Nadie —ni la Presidencia, ni la Tesorería, ni el Jefe de Grupo— puede comprometer al grupo con esa firma: no lo obliga, y hacerlo es falta muy grave (10.25)."
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>📐 Y con qué normas:</strong> el Consejo Scout Nacional puede emitir el Manual de Normas Contables y de Auditoría para los grupos (Reglamento Nacional, Art. 230)."
+        }
+      ],
+      "reflection": {
+        "prompt": "Toma la última actividad de tu grupo que movió plata (una salida, un evento). ¿Quién la dirigió rindió cuentas con soportes dentro de los 30 días y entregó lo que sobró? Escribe qué faltó, anotando roles, no nombres."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "questions": [
+          {
+            "text": "El Jefe de Tropa dirigió una excursión, cobró a las familias y pagó el bus. Dos meses después no ha entregado cuentas: «Todo salió bien, ¿para qué?». ¿Qué le recuerdas?",
+            "options": [
+              "Que no: que saliera bien no lo exime; tenía 30 días para mostrarle al Consejo cobros, pagos y recibos.",
+              "Que no: debía rendirlas, pero ante las familias que pagaron, que son las dueñas de esa plata del viaje.",
+              "Que tiene razón: si la actividad salió bien y nadie se quejó, no hace falta presentar cuentas."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "La Región congela las cuentas de un grupo que lleva dos años sin presentar presupuesto ni balance. El Consejo protesta: «Nadie se robó nada: esto es un castigo injusto». ¿Qué le explicas?",
+            "options": [
+              "Que no es un castigo por robo: es la medida para un grupo que no lleva sus cuentas, hasta que las ordene.",
+              "Que no es un castigo: la Región congela las cuentas de todo grupo que cambia de Consejo, hasta revisarlas.",
+              "Que tiene razón: sin una denuncia de robo, la Región no puede tocar las cuentas de ningún grupo scout."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 7 →"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Lección 7 — 🩺 El chequeo de salud financiera",
+      "emoji": "🩺",
+      "navLabel": "L7",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>Seis preguntas bastan para saber si la plata de tu grupo está sana: y cada «no» o «no sé» es un compromiso posible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Volvamos a la tesorera que recibía las cuotas en su cuenta. No hizo nada deshonesto, y aun así el grupo quedó a ciegas. La plata del grupo no es de nadie: por eso todos tienen que poder verla. Las seis preguntas de abajo son las que habrían destapado el problema a tiempo: mientras las lees, fíjate cuáles le habrían fallado a ese grupo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🩺 Las seis preguntas"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "¿La cuenta bancaria está a nombre del grupo, no de una persona?",
+            "¿El presupuesto del año lo aprobó la Asamblea?",
+            "¿El Tesorero le muestra cada mes al Consejo cómo va el gasto frente al presupuesto, y el Consejo aprueba esas cuentas?",
+            "¿Cada gasto tiene su soporte, y el Contador lo revisa?",
+            "¿Quien dirige una actividad rinde cuentas en 30 días y entrega lo que sobró?",
+            "¿La Asamblea recibe cada año el informe de en qué se gastó la plata?"
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu turno:</strong> responde las seis con «sí», «no» o «no sé». Escoge un «no» o un «no sé» y conviértelo en un compromiso: qué vas a proponer, a qué órgano y para cuándo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔜 Lo que sigue en la línea:</strong> el <strong>Curso 9 — Administración del Grupo</strong> (próximamente) cubre los bienes, los equipos y las obligaciones legales del grupo, y el <strong>Curso 11 — Captación de Fondos y Ciclo de Proyectos</strong> (próximamente), cómo conseguir recursos y armar proyectos para lograrlo."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu resultado en las seis preguntas y tu compromiso: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano y para cuándo. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista. Ojo: ese recuadro no sale en el PDF."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7 — Cierre del curso",
+        "questions": [
+          {
+            "text": "Otro grupo: la plata está en una cuenta a nombre del grupo, pero solo el Tesorero lleva las cuentas, en un cuaderno que guarda en su casa. Se muda de ciudad sin avisar. ¿Qué le faltó a ese grupo?",
+            "options": [
+              "Le faltó que otros pudieran ver la plata: el Consejo revisando las cuentas cada mes y el Contador, los soportes.",
+              "No le faltó nada de fondo: la plata estaba en una cuenta a nombre del grupo, y con eso las finanzas están sanas.",
+              "Le faltó un Tesorero más confiable: el error fue escoger a alguien que podía irse, y la próxima vez hay que elegir."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "¿Cuál de estos compromisos sale bien del chequeo de salud financiera?",
+            "options": [
+              "Proponer al Consejo de noviembre pasar la cuenta a nombre del grupo, y revisar en diciembre si se hizo.",
+              "Proponer al Consejo de noviembre que el Contador maneje también la caja, para que haya menos manos en la plata.",
+              "Proponer que el grupo cuide más su plata este año y que todos sean mucho más transparentes con ella."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Ir al certificado →"
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Sé de quién es la plata",
+      "emoji": "🏦",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Distingo los tres roles",
+      "emoji": "🧮",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Entiendo cuotas y presupuesto",
+      "emoji": "📒",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Sé cómo puede entrar la plata",
+      "emoji": "🎪",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Sé rendir cuentas",
+      "emoji": "🧾",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Finanzas sanas",
+      "emoji": "💰",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "FINANZAS SANAS: PRESUPUESTO Y TESORERÍA",
+    "description": "ha completado el Curso 10 del Nivel 2 — Profundización por ámbito de gestión de la Línea Desarrollo Institucional, reconociendo que el patrimonio del grupo es indivisible y solo sirve al escultismo, distinguiendo lo que le toca al Consejo, al Tesorero y al Contador, aplicando las reglas de las cuotas y del control del presupuesto, identificando cómo puede entrar la plata y cómo no, y reconociendo cómo se rinden cuentas y qué pasa cuando no se rinden, con un compromiso concreto sobre la salud financiera de su grupo"
+  }
+}

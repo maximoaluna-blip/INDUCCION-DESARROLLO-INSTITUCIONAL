@@ -110,5 +110,19 @@
     "status": "active",
     "file": "planeacion-plan-estrategico-poa.html",
     "folder": "planeacion-plan-estrategico-poa"
+  },
+  {
+    "courseId": "finanzas-sanas-presupuesto-tesoreria",
+    "title": "Finanzas Sanas: Presupuesto y Tesorería",
+    "description": "La plata del grupo no es de nadie: por eso todos tienen que poder verla. En este curso vas a recorrer las reglas que cuidan el dinero de un grupo scout: de quién es, quién decide, quién la maneja y quién la vigila; cómo se fijan las cuotas y el presupuesto; cómo puede entrar la plata y cómo no; y cómo se rinden cuentas y qué pasa cuando no se rinden.",
+    "icon": "💰",
+    "duration": "~32 min",
+    "level": 2,
+    "levelName": "Profundización por ámbito de gestión",
+    "order": 10,
+    "modules": 7,
+    "status": "active",
+    "file": "finanzas-sanas-presupuesto-tesoreria.html",
+    "folder": "finanzas-sanas-presupuesto-tesoreria"
   }
 ]
