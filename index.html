@@ -191,7 +191,8 @@
         }
 
         .level-chip-count {
-            opacity: 0.8;
+            /* Sin opacity: al 0.8 el azul sobre blanco caia a 3,86:1 (WCAG AA pide 4,5).
+               No se habia visto porque los chips solo aparecen con mas de un nivel. */
             font-weight: 600;
             margin-left: 4px;
         }

@@ -82,5 +82,19 @@
     "status": "active",
     "file": "mi-aporte-al-desarrollo-institucional.html",
     "folder": "mi-aporte-al-desarrollo-institucional"
+  },
+  {
+    "courseId": "gobernanza-practica",
+    "title": "Gobernanza Práctica",
+    "description": "Una decisión que nadie tomó, nadie la puede cumplir. En ~35 minutos vas a practicar cómo se decide de verdad en un grupo scout: quién decide, quién ejecuta y quién verifica; qué decide la Asamblea y qué debe decir su acta, y cómo sesiona un Consejo con quórum; de dónde salen las reglas y cuáles siguen vigentes; y cómo medir la gobernanza de tu grupo con los 8 Principios de Buena Gobernanza del Estatuto Nacional 2025.",
+    "icon": "🏛️",
+    "duration": "~35 min",
+    "level": 2,
+    "levelName": "Profundización por ámbito de gestión",
+    "order": 7,
+    "modules": 7,
+    "status": "active",
+    "file": "gobernanza-practica.html",
+    "folder": "gobernanza-practica"
   }
 ]

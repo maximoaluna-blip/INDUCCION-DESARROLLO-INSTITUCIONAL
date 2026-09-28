@@ -1,0 +1,676 @@
+{
+  "courseId": "gobernanza-practica",
+  "title": "Gobernanza Práctica",
+  "subtitle": "Curso 7 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
+  "description": "Una decisión que nadie tomó, nadie la puede cumplir. En ~35 minutos vas a practicar cómo se decide de verdad en un grupo scout: quién decide, quién ejecuta y quién verifica; qué decide la Asamblea y qué debe decir su acta, y cómo sesiona un Consejo con quórum; de dónde salen las reglas y cuáles siguen vigentes; y cómo medir la gobernanza de tu grupo con los 8 Principios de Buena Gobernanza del Estatuto Nacional 2025.",
+  "contentVersion": "2026-09-27",
+  "status": "active",
+  "icon": "🏛️",
+  "duration": "~35 min",
+  "level": 2,
+  "levelName": "Profundización por ámbito de gestión",
+  "order": 7,
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~35 minutos · 7 lecciones.</strong><br>Al final vas a saber a qué órgano le toca cada decisión, qué decide la Asamblea, cómo sesiona el Consejo y qué debe decir un acta, de dónde salen las reglas del grupo y con qué 8 principios medir si tu grupo decide bien.<br><strong>Cada lección cierra con 2 preguntas:</strong> para avanzar hay que acertar las dos. Si fallas, el curso te muestra la correcta y lo vuelves a intentar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jueves, 10 p. m. En el chat de familias de la Tropa alguien escribe: «Entonces el campamento de junio se cambia a la finca de mi cuñado, que sale más barato». Tres pulgares. En junio, la mitad de las familias no sabe del cambio, el Jefe de Tropa se entera por un papá y el tesorero no tiene cómo justificar el anticipo. Nadie hizo nada malo. <strong>Simplemente, nadie decidió</strong> — y por eso nadie pudo cumplirlo ni corregirlo."
+        },
+        {
+          "type": "blockquote",
+          "text": "Una decisión que nadie tomó, nadie la puede cumplir — y nadie la puede corregir."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el Curso 3 dibujaste el mapa de los órganos del grupo. En el Curso 4 viste que la Gobernanza es uno de los 8 ámbitos de gestión. Este curso responde la pregunta práctica: <strong>cuando hay que decidir algo, ¿cómo se hace bien?</strong>"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a practicar"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 🔀 Decidir, ejecutar, verificar: la Asamblea dirige, el Consejo administra y la Jefatura ejecuta y rinde cuentas.",
+            "<strong>Lección 3 —</strong> 🗳️ La Asamblea de Grupo: quién vota, qué decide y qué debe quedar en su acta.",
+            "<strong>Lección 4 —</strong> 🪑 El Consejo entre asambleas: reuniones, citación, quórum y actas.",
+            "<strong>Lección 5 —</strong> 📜 Las reglas del juego: qué norma manda sobre cuál, quién la dicta y si sigue vigente.",
+            "<strong>Lección 6 —</strong> ⚖️ Los 8 principios de buena gobernanza del Estatuto Nacional 2025.",
+            "<strong>Lección 7 —</strong> 🎯 Tu compromiso de gobernanza: una mejora concreta, con dueño y fecha."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de empezar:</strong> ten a mano, si puedes, la última acta del consejo de tu grupo (o recuerda la última reunión). La vas a usar como caso real a lo largo del curso."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 🔀 Decidir, ejecutar, verificar",
+      "emoji": "🔀",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>La Asamblea dirige, el Consejo administra, la Jefatura ejecuta y rinde cuentas. Mezclarlos es el error más común."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Política Nacional de Desarrollo Institucional define la Gobernanza con tres verbos: se ocupa de <strong>la toma de decisiones, su implementación y la verificación de su cumplimiento</strong>. Son tres momentos distintos. Un grupo sano sabe, para cada decisión, quién hace cada uno."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la definición oficial",
+          "text": "Se ocupa de la toma de decisiones, su implementación y la verificación del cumplimiento de las mismas dentro de la institución; lo anterior implica desarrollar una estructura de toma de decisiones definida con claridad, que sea del conocimiento de todos y cada uno de los miembros de la organización, que sea abierta, descentralizada, transparente y eficaz […]",
+          "source": "Política Nacional de Desarrollo Institucional 2017, §8.2.1 Gobernanza, p. 9"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🏛️ Tres órganos, tres papeles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Del Curso 3 ya conoces a los tres órganos del grupo. Aquí lo que importa es <strong>el verbo que le toca a cada uno</strong>:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🗳️ Dirige — Asamblea Scout de Grupo",
+              "description": "Es la máxima autoridad. Elige a las autoridades y a los delegados del grupo, y recibe los informes de gestión y financieros.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "🪑 Administra — Consejo de Grupo",
+              "description": "Es el responsable de la administración del grupo: sus recursos, su presupuesto, sus cuentas.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "🧭 Ejecuta — Jefe de Grupo y su Jefatura",
+              "description": "Ejecuta el Plan de Grupo y rinde cuentas ante el Consejo de Grupo, el Jefe Scout Regional y la Asamblea.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que dice el Estatuto",
+          "text": "El Grupo Scout es la base de nuestra organización. Su administración es responsabilidad del Consejo de Grupo. A nivel operativo, el jefe de Grupo es el encargado de la ejecución del Plan de Grupo. Su máxima autoridad será la Asamblea Scout de Grupo […]",
+          "source": "Estatuto de la Asociación Scouts de Colombia 2025, Art. 18, p. 16. La rendición de cuentas del Jefe de Grupo está en el Art. 19, p. 16"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔎 ¿Y quién verifica?</strong> Quien recibe las cuentas. Por eso la tarjeta de la Jefatura dice «rinde cuentas»: el Consejo y la Asamblea no solo deciden, también revisan que lo decidido se cumpla. (El mismo reparto se repite en la Región y en la Nación —Estatuto, Art. 20–23 y 28–30—: ya lo viste en el mapa del Curso 3.)"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "⚠️ Los tres cruces más comunes"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>El Consejo que conduce el programa:</strong> decide qué actividad hace la Manada el sábado. Eso es ejecución: le toca a la Jefatura —el órgano técnico de conducción del Programa de Jóvenes (Reglamento Nacional de Grupos Scouts, 1.19.3)—, que la decide con los niños y niñas de la Manada dentro del Plan de Grupo.",
+            "<strong>La Jefatura que administra:</strong> compromete un gasto que el Consejo no aprobó. Eso es administración — le toca al Consejo.",
+            "<strong>Nadie verifica:</strong> se aprueba, se ejecuta… y nadie vuelve a mirar si se cumplió. Sin el tercer momento, la decisión queda a la buena suerte."
+          ]
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en la última decisión importante de tu grupo. ¿Quién la tomó, quién la ejecutó y quién verificó que se cumpliera? Si alguno de los tres no tiene nombre, escríbelo: ahí está tu primer hallazgo."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "El Consejo de Grupo discute si la Tropa debe hacer su excursión en el páramo o en la costa, y termina votando el destino. Según esta lección, ¿qué pasó?",
+            "options": [
+              "El Consejo ejerció su función: toda salida del grupo es una decisión de administración.",
+              "El Consejo invadió la ejecución del programa, que le toca a la Jefatura dentro del Plan.",
+              "El Consejo actuó bien, porque la Asamblea le delega todas las decisiones del grupo scout."
+            ],
+            "correctIndex": 1
+          },
+          {
+            "text": "El Consejo aprueba comprar carpas nuevas y encarga la compra a uno de sus miembros. Seis meses después nadie sabe si llegaron completas. ¿Qué momento de la gobernanza falló?",
+            "options": [
+              "La verificación: se decidió y se ejecutó, pero nadie comprobó que la decisión se cumpliera.",
+              "La decisión: el Consejo no debía aprobar esa compra sin consultarla antes con la Asamblea de Grupo.",
+              "La ejecución: ningún miembro del Consejo debe comprar nada sin que lo apruebe la Jefatura."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 3 →"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🗳️ La Asamblea de Grupo",
+      "emoji": "🗳️",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>La máxima autoridad del grupo se reúne al menos una vez al año, y lo que no queda en su acta no existe."
+        },
+        {
+          "type": "paragraph",
+          "text": "Muchos grupos viven la Asamblea como un trámite de marzo. Es al revés: es <strong>el momento del año en que el grupo entero decide</strong>. Todo lo que el Consejo hace después, lo hace por mandato de ella."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🗳️ La Asamblea en cuatro pasos"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "📅 Cuándo",
+              "description": "<strong>Ordinaria:</strong> al menos una vez al año, dentro de los tres primeros meses. <strong>Extraordinaria:</strong> en cualquier momento, para asuntos urgentes o específicos — con puntos precisos y sin «proposiciones y varios». (Reglamento Nacional de Grupos Scouts, 4.4.2 y 4.4.3)"
+            },
+            {
+              "title": "🙋 Quién vota",
+              "description": "Los representantes legales de los niños, niñas y jóvenes, <strong>un voto por núcleo familiar</strong>; los Rovers del grupo, que por ser mayores de edad se representan a sí mismos; y el representante de la entidad auspiciadora, si la hay. Solo votan quienes estén a paz y salvo. (4.2.1 y su parágrafo primero)"
+            },
+            {
+              "title": "✅ Qué decide",
+              "description": "Aprueba el Plan de Grupo; estudia y aprueba o imprueba los informes, cuentas y estados financieros; elige a los miembros del Consejo y a los delegados a la Asamblea Regional; aprueba o imprueba proyectos y presupuestos. (4.3)"
+            },
+            {
+              "title": "📄 Qué deja",
+              "description": "Un acta numerada con lugar, fecha, asistentes, asuntos, decisiones <strong>y los votos a favor, en contra, en blanco y las abstenciones</strong>. Se envía al Consejo Regional (o al Nacional, si el grupo está adscrito a la Nación): sin esa copia, el nivel superior no reconoce a los dignatarios elegidos. (4.25 y 4.26)"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué debe decir el acta",
+          "text": "Las actas se encabezarán con su número y expresarán cuando menos: lugar, fecha y hora de la reunión; la forma y antelación de la convocatoria; la lista de los asistentes […]; los asuntos tratados; las decisiones adoptadas y el número de votos emitidos en favor, en contra, en blanco o las abstenciones […]",
+          "source": "Reglamento Nacional de Grupos Scouts, Art. 4.25"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔎 Fíjate en el detalle de los votos.</strong> Un acta que dice «se aprobó» no sirve de mucho cuando alguien lo discute dos años después. Una que dice «se aprobó con 23 votos a favor, 4 en contra y 2 abstenciones» cierra la discusión en un minuto."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Cuándo fue la última Asamblea de tu grupo? ¿Aprobó el Plan de Grupo y los estados financieros, o solo eligió Consejo? Escribe qué le faltó —o qué hizo bien— según los cuatro pasos de esta lección."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "Llegan a la Asamblea la mamá y el papá de dos hermanos de la Tropa, una Rover de 19 años del grupo y el papá de otra familia, que debe tres cuotas. ¿Quiénes votan?",
+            "options": [
+              "Votan la familia de los hermanos, con un solo voto, y la Rover; el papá con cuotas pendientes no vota.",
+              "Votan la familia de los hermanos, con un voto por cada hijo, y la Rover; el papá con cuotas pendientes no vota.",
+              "Votan la mamá y el papá de los hermanos, cada uno por su lado; la Rover y el papá con cuotas pendientes no votan."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El acta de la Asamblea dice: «Se eligió el nuevo Consejo». Dos meses después la región no reconoce a los elegidos. ¿Cuál es la causa más probable?",
+            "options": [
+              "El acta no llegó al Consejo Regional, y sin esa copia no se reconoce a los elegidos.",
+              "La región debe ratificar a cada consejero con una votación propia antes de reconocerlo.",
+              "El acta no llevaba la firma de todos los asistentes, requisito para que sea válida."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 4 →"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 🪑 El Consejo entre asambleas",
+      "emoji": "🪑",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>El Consejo gobierna por mandato de la Asamblea: se reúne cada mes, decide con quórum y deja actas."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Asamblea ordinaria se reúne una vez al año. ¿Y los otros once meses? Ahí gobierna el Consejo — pero no por derecho propio, sino porque la Asamblea le entregó esa autoridad."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver de dónde sale su autoridad",
+          "text": "La autoridad del Consejo de Grupo emana directamente de la Asamblea de Grupo y por lo tanto es la máxima autoridad legal, administrativa y financiera del Grupo y el organismo directivo del Grupo mientras la Asamblea de Grupo no se encuentre reunida.",
+          "source": "Reglamento Nacional de Grupos Scouts, Art. 5.6"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🧩 ¿No era que el Consejo solo «administra»?</strong> Entre asambleas actúa <strong>en nombre de la Asamblea</strong> —por eso el Reglamento lo llama «organismo directivo»—, pero sobre lo suyo: la administración del grupo —recursos, presupuesto, cuentas, el Plan de Grupo—. El programa sigue siendo de la Jefatura. Y aquí aparece quién <strong>verifica</strong>: el Consejo revisa cada mes las cuentas y la ejecución del presupuesto; la Asamblea, una vez al año, revisa al Consejo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📏 Las reglas mínimas de una reunión válida"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📅 Cada mes",
+              "description": "Las reuniones ordinarias se hacen como mínimo una vez al mes.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "✉️ Citación escrita",
+              "description": "Con mínimo dos días comunes de anticipación.",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            },
+            {
+              "title": "🔢 Quórum de cinco",
+              "description": "El quórum mínimo para deliberar y decidir se conforma con cinco de sus miembros.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "⚡ Urgencias",
+              "description": "Solo con la totalidad de sus miembros presentes puede autocitarse y sesionar de inmediato.",
+              "color": "#ffebee",
+              "borderColor": "#f44336"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Las cuatro reglas están en el mismo artículo del Reglamento Nacional de Grupos Scouts (5.5). No son formalidades: son lo que convierte una conversación entre amigos en una decisión del grupo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🧰 Lo que le toca al Consejo"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Ejecutar y hacer cumplir los mandatos de la Asamblea de Grupo.",
+            "Revisar y aprobar el Plan de Grupo, y enviarlo a la Región o a la Nación para su conocimiento.",
+            "Administrar los bienes y recursos financieros del grupo y fijar las cuotas de sostenimiento.",
+            "Preparar el presupuesto de cada vigencia, presentarlo a la Asamblea y vigilar su ejecución.",
+            "Aprobar o improbar las cuentas mensuales del grupo.",
+            "Brindar protección integral a los niños, niñas y jóvenes y garantizar sus derechos fundamentales."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🧑‍🤝‍🧑 Los jóvenes en la mesa.</strong> El Consejo tiene un asiento para un <strong>Rover</strong>, elegido por sus pares del grupo (el Estatuto los llama <em>Consejeros Juveniles</em>, Art. 27; Reglamento, 5.1.2). No es un gesto simbólico: la PNDI pide una estructura de decisiones que propicie la participación de los jóvenes. Si el Rover no viene o no habla, el grupo tiene un problema de gobernanza, no de asistencia."
+        },
+        {
+          "type": "paragraph",
+          "text": "Y el acta. El Reglamento se la exige a la Asamblea con todo detalle; al Consejo le aplica la misma lógica: <strong>sin acta, la decisión depende de la memoria de quien estuvo</strong>. Decisión, votos, responsable de ejecutarla y fecha para revisarla: los tres momentos de la Lección 2 en cuatro renglones."
+        }
+      ],
+      "reflection": {
+        "prompt": "Toma el acta que tienes a mano (o la última reunión de Consejo que recuerdes). ¿Hubo citación escrita, quórum de cinco y acta con responsable y fecha? Marca lo que faltó y escribe qué costaría ponerlo la próxima vez."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Un sábado se reúnen cuatro miembros del Consejo y aprueban un gasto urgente. ¿Qué dice esta lección de esa decisión?",
+            "options": [
+              "Es válida si la urgencia del gasto queda bien explicada en el acta de la reunión.",
+              "No es válida hasta que la Asamblea la ratifique en su próxima reunión.",
+              "No es válida: sin quórum, porque el Consejo decide con mínimo cinco miembros."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Llegan al Consejo las cuentas de agosto y un consejero propone «dejarlas para la Asamblea de marzo, que es la que aprueba cuentas». ¿Qué le respondes?",
+            "options": [
+              "Que no hace falta esperar: las cuentas de cada mes las aprueba el Consejo; la Asamblea ve las del año.",
+              "Que tiene razón: aprobar cuentas le toca a la Asamblea, que es la máxima autoridad del grupo.",
+              "Que tampoco le toca al Consejo: las aprueba el Jefe de Grupo, que es quien ejecuta el Plan."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 5 →"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 📜 Las reglas del juego",
+      "emoji": "📜",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Las normas tienen jerarquía, las dicta quien tiene la facultad, y una norma escrita puede no estar vigente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Uno de los 5 elementos de la Gobernanza que viste en el Curso 4 (sus sub-ámbitos) son las <strong>Regulaciones</strong>: crear, revisar e incluso suprimir las normas internas. Para hacerlo bien hay que saber tres cosas: qué norma manda sobre cuál, quién puede dictarla y si sigue vigente."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🪜 La escalera de las normas"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "1. Estatuto Nacional (2025)",
+              "description": "La norma de mayor rango de la Asociación. Los estatutos de las regiones deben ser coherentes, en todo, con él (Art. 26)."
+            },
+            {
+              "title": "2. Políticas y reglamentos nacionales",
+              "description": "Los dicta el Consejo Scout Nacional, que ejerce <strong>de manera exclusiva</strong> la facultad reglamentaria, con participación de las regiones y los grupos (Estatuto, Art. 55.1)."
+            },
+            {
+              "title": "3. Normas de funcionamiento del Grupo",
+              "description": "Las define la Asamblea de Grupo, siempre dentro de las normas de la Asociación y de la Región (Reglamento Nacional de Grupos Scouts, 4.3.12)."
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la facultad reglamentaria",
+          "text": "Ejercer de manera exclusiva la facultad reglamentaria, permitiendo la participación de las Regiones y Grupos Scout en la elaboración o modificación de sus reglamentos.",
+          "source": "Estatuto de la Asociación Scouts de Colombia 2025, Art. 55.1 (atribuciones del Consejo Scout Nacional), p. 29"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🏷️ Por eso un grupo no tiene «reglamento interno»:</strong> tiene <strong>normas de funcionamiento</strong>. El nombre importa: le recuerda al grupo que no legisla, sino que ordena su funcionamiento dentro de lo que ya está dictado."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "📌 Escrita no es lo mismo que vigente"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Reglamento Nacional de Grupos Scouts, de 2013, todavía dice que el grupo tiene un Fiscal o Revisor Fiscal. Pero en 2023 el Consejo Scout Nacional, mediante el <strong>Acuerdo 558</strong>, suspendió lo que los reglamentos dicen sobre los cargos de adultos, y el Estatuto de 2025 remite la designación de los cargos a la <strong>Política de Adultos en el Movimiento vigente</strong>, cuyo Manual de Cargos no tiene Fiscal de Grupo: el control contable lo hace el <strong>Contador de Grupo</strong>. Quien leyera solo el Reglamento buscaría un cargo que hoy ya no opera."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Regla práctica:</strong> antes de citar una norma en una reunión, pregúntate <strong>¿quién la dictó, sobre cuál se apoya y sigue vigente?</strong> Si hay dudas o vacíos, quien interpreta el marco normativo de la Asociación es el Consejo Scout Nacional (Estatuto, Art. 55.1)."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en la última vez que en tu grupo alguien dijo «el reglamento dice…» o «aquí siempre se ha hecho así». ¿Qué regla era? Aplícale las tres preguntas: ¿quién la dictó, sobre cuál se apoya y sigue vigente?"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "El Consejo quiere dejar por escrito que las salidas de más de un día se avisan a las familias con 15 días de anticipación. ¿Cómo se hace bien?",
+            "options": [
+              "Lo propone a la Asamblea de Grupo como norma de funcionamiento, dentro de lo que dictan las normas nacionales.",
+              "Lo aprueba el Consejo como reglamento interno del grupo, porque la administración del grupo le corresponde.",
+              "Lo envía al Consejo Scout Nacional, porque la facultad reglamentaria es suya y un grupo no puede escribir normas."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un consejero abre el Reglamento de Grupos de 2013 y propone elegir al Fiscal del grupo «porque ahí está escrito». ¿Qué le dirías?",
+            "options": [
+              "Que primero mire si sigue vigente: lo de cargos de adultos quedó suspendido y el control contable es del Contador.",
+              "Que tiene razón: el Reglamento es una norma nacional y está por encima de cualquier cosa que decida el grupo.",
+              "Que primero lo lleve a la Asamblea de Grupo, porque un artículo nacional solo obliga si el grupo lo ratifica."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 6 →"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — ⚖️ Los 8 principios de buena gobernanza",
+      "emoji": "⚖️",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>El Estatuto 2025 fija 8 principios; con ellos se mide si un grupo decide bien, no solo si decide."
+        },
+        {
+          "type": "paragraph",
+          "text": "Hasta aquí viste si el grupo decide <strong>conforme a las reglas</strong>. Pero se puede cumplir cada artículo y decidir mal: a puerta cerrada, sin escuchar a nadie, sin explicar nada. Para eso el Estatuto de 2025 fija ocho principios con los que la Asociación se compromete a desarrollar <strong>todas</strong> sus actividades."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el artículo del Estatuto",
+          "text": "La Asociación Scouts de Colombia desarrollará sus actividades de conformidad con los siguientes principios de buena gobernanza: Democracia y Participación · Orientación al consenso · Responsabilidad · Transparencia · Receptividad · Efectividad y eficiencia · Equidad e inclusión · Guiada por el Estado de Derecho.",
+          "source": "Estatuto de la Asociación Scouts de Colombia 2025, Art. 9 «Principios de Buena Gobernanza», p. 7. En el documento los ocho principios aparecen como lista, en este orden"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>✍️ Ojo:</strong> el Estatuto <strong>nombra</strong> los ocho principios, pero no los define. Lo que sigue es una <strong>pregunta de chequeo</strong> por principio, escrita para este curso — no es texto oficial."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🗳️ Democracia y Participación",
+              "description": "¿Votan quienes deben votar, y los jóvenes tienen voz en las decisiones que los afectan?",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "🤝 Orientación al consenso",
+              "description": "¿Se busca el acuerdo antes de ir a votar, o se vota para no conversar?",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "🧾 Responsabilidad",
+              "description": "¿Cada decisión tiene un responsable y alguien que rinde cuentas?",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🔍 Transparencia",
+              "description": "¿Las actas y las cuentas se pueden consultar?",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            },
+            {
+              "title": "👂 Receptividad",
+              "description": "¿Las familias y los dirigentes saben cómo hacer llegar una propuesta o un reclamo, y reciben respuesta?",
+              "color": "#e1f5fe",
+              "borderColor": "#03a9f4"
+            },
+            {
+              "title": "⚙️ Efectividad y eficiencia",
+              "description": "¿Lo que se decide se ejecuta, y a un costo razonable?",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "🌈 Equidad e inclusión",
+              "description": "¿Alguien queda sistemáticamente por fuera de las decisiones?",
+              "color": "#ffebee",
+              "borderColor": "#f44336"
+            },
+            {
+              "title": "⚖️ Guiada por el Estado de Derecho",
+              "description": "¿Se respetan el Estatuto, los reglamentos y la ley colombiana, incluso cuando sería más cómodo no hacerlo?",
+              "color": "#fff8e1",
+              "borderColor": "#ffa000"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔗 Vuelve a mirar las tarjetas: cinco ya los practicaste sin nombrarlos.</strong> <strong>Responsabilidad</strong> son los tres momentos (L2); <strong>Democracia y Participación</strong>, el voto por núcleo familiar (L3); <strong>Transparencia</strong>, el acta con votos (L3); <strong>Guiada por el Estado de Derecho</strong>, la escalera y la vigencia de las normas (L5); <strong>Efectividad</strong>, verificar que se cumplió (L2). Los tres nuevos son <strong>Consenso, Receptividad y Equidad</strong>: ahí vale la pena detenerse. (Esta relación es de este curso, no del Estatuto.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "La PNDI de 2017 ya pedía algo parecido con otras palabras: una estructura de decisiones <strong>definida con claridad, conocida por todos, abierta, descentralizada, transparente y eficaz</strong>, que propicie la participación de los jóvenes. El Estatuto de 2025 lo formula como principios de toda la Asociación."
+        }
+      ],
+      "reflection": {
+        "prompt": "Recorre los 8 principios pensando en tu grupo. ¿Cuál es el más fuerte y cuál el más débil? Para el más débil, anota un ejemplo concreto de los últimos meses que lo muestre."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "questions": [
+          {
+            "text": "Un consejo aprueba todo por mayoría en diez minutos, sin discusión, y nunca publica sus actas. Cumple el quórum y las citaciones. ¿Qué dice esta lección de su gobernanza?",
+            "options": [
+              "Descuida solo detalles: cumple quórum y citación, y con eso su gobernanza ya es buena.",
+              "Descuida Efectividad y eficiencia, porque diez minutos no alcanzan para decidir.",
+              "Descuida Orientación al consenso y Transparencia: no busca acuerdo ni se deja ver."
+            ],
+            "correctIndex": 2
+          },
+          {
+            "text": "Un dirigente envió al Consejo, por escrito, una propuesta para cambiar la fecha de pago de la cuota mensual. Tres reuniones después nadie le ha respondido. Las actas se publican y siempre hay quórum. ¿Qué principio está más débil?",
+            "options": [
+              "Está débil la Receptividad: la propuesta llegó por escrito y nunca tuvo respuesta, ni sí ni no.",
+              "Está débil la Transparencia: si el dirigente no sabe nada, es que las actas no sirven para nada.",
+              "Está débil la Efectividad: el Consejo se demora demasiado en ejecutar lo que ya decidió."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 7 →"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Lección 7 — 🎯 Tu compromiso de gobernanza",
+      "emoji": "🎯",
+      "navLabel": "L7",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Una mejora concreta, con dueño y fecha, en el principio más débil de tu grupo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una decisión que nadie tomó, nadie la puede cumplir — y nadie la puede corregir. Ahora tienes cuatro herramientas para que eso no pase en tu grupo: <strong>los tres momentos</strong> (decidir, ejecutar, verificar), <strong>la Asamblea y el Consejo bien llevados</strong>, <strong>la escalera de las normas</strong> y <strong>los ocho principios</strong>."
+        },
+        {
+          "type": "paragraph",
+          "text": "Volvamos al jueves a las 10 p. m. Con lo que ya sabes, ese cambio tenía dueño: la <strong>Jefatura</strong>, con los scouts de la Tropa, decide el sitio del campamento dentro del Plan de Grupo; como mueve plata —el anticipo—, el <strong>Consejo</strong> aprueba el gasto en una reunión con quórum; el <strong>acta</strong> dice quién lo ejecuta y para cuándo; y en la reunión siguiente alguien <strong>verifica</strong> que las familias se enteraron y que el anticipo quedó soportado. Cuatro renglones de acta, y el chat vuelve a ser lo que es: un chat."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "✅ Compromisos pequeños y verificables"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "Proponer al Consejo un formato de acta con decisión, votos, responsable y fecha de revisión.",
+            "Revisar que el acta de la última Asamblea llegó al Consejo Regional.",
+            "Proponer que los Rovers del grupo presenten un punto en la próxima reunión del Consejo.",
+            "Escribir las normas de funcionamiento del grupo que hoy solo existen «de palabra»."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Un buen compromiso tiene cuatro partes:</strong> qué vas a hacer, en cuál de los 8 principios, con quién y para cuándo. «Mejorar la gobernanza» no es un compromiso; «llevar al Consejo de octubre, con Marta, un formato de acta con votos y responsable, por la Transparencia» sí lo es."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔜 Lo que sigue en la línea:</strong> de los 5 elementos de la Gobernanza que viste en el Curso 4, aquí trabajaste cuatro; el quinto, la <strong>Planificación Estratégica</strong>, es el tema del <strong>Curso 8 — Planeación: del Plan Estratégico al POA</strong> (próximamente). Y si estás en el Consejo o eres tesorero, el <strong>Curso 10 — Finanzas Sanas</strong> (próximamente) aterriza lo que aquí viste de cuentas y presupuesto."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu compromiso de gobernanza: qué vas a hacer, en cuál de los 8 principios, con quién y para cuándo. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista junto a él. Ojo: ese recuadro no sale en el PDF; si quieres conservarlo, anótalo también donde lo vayas a ver."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7 — Cierre del curso",
+        "questions": [
+          {
+            "text": "En el chat de dirigentes, el Jefe de Manada propone mover la excursión del sábado del parque al bosque de al lado, sin ningún costo extra. ¿Cómo se decide bien?",
+            "options": [
+              "Lo decide la Jefatura con los lobatos, dentro del Plan: es ejecución del programa y no compromete ningún gasto.",
+              "Lo aprueba el Consejo en su próxima reunión, porque todo cambio de una actividad tiene que quedar en su acta.",
+              "Lo decide la Asamblea en sesión extraordinaria, porque cambia algo que las familias ya tenían planeado."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Tres adultos escriben su compromiso de gobernanza. ¿Cuál tiene las cuatro partes que pide esta lección?",
+            "options": [
+              "Con Julián, el Rover del Consejo, abrir en noviembre un buzón de propuestas de las familias, por la Receptividad.",
+              "Con Julián, el Rover del Consejo, abrir un buzón de propuestas de las familias, porque así nos enteramos de todo.",
+              "Abrir en noviembre un buzón de propuestas de las familias, por la Receptividad, y revisarlo cuando haya tiempo."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Ir al certificado →"
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Sé quién decide qué",
+      "emoji": "🔀",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Sé qué decide la Asamblea",
+      "emoji": "🗳️",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Sé cómo sesiona el Consejo",
+      "emoji": "🪑",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Leo las reglas del juego",
+      "emoji": "📜",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Mido la gobernanza",
+      "emoji": "⚖️",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Gobernanza en práctica",
+      "emoji": "🏛️",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "GOBERNANZA PRÁCTICA",
+    "description": "ha completado el Curso 7 del Nivel 2 — Profundización por ámbito de gestión de la Línea Desarrollo Institucional, distinguiendo quién decide, quién ejecuta y quién verifica cada decisión del grupo, reconociendo qué decide la Asamblea y qué debe quedar en su acta, cómo sesiona válidamente el Consejo, la jerarquía y la vigencia de las normas, y evaluando su grupo con los 8 Principios de Buena Gobernanza del Estatuto Nacional 2025, con un compromiso concreto de mejora"
+  }
+}

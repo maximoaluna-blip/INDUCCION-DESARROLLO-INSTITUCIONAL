@@ -87,9 +87,16 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 | 5 | 🌟 Buenas Prácticas en Tu Grupo | `buenas-practicas-en-tu-grupo` | 30 min | ✅ Activo |
 | 6 | 🗺️ Mi Aporte al Desarrollo Institucional | `mi-aporte-al-desarrollo-institucional` | 30 min | ✅ Activo |
 
+## Cursos del Nivel 2 (Profundización por ámbito de gestión) — en construcción
+
+> Abierto el 27-sep-2026 con el Curso 7 (ADR-085). 8 cursos en el plan: Gobernanza Práctica, Planeación, Administración del Grupo, Finanzas Sanas, Captación de Fondos, Comunicaciones, Crecimiento, Gestión del Riesgo.
+
+| # | Curso | courseId | Duración | Estado |
+|---|---|---|---|---|
+| 7 | 🏛️ Gobernanza Práctica | `gobernanza-practica` | ~35 min · 7 lecciones | ✅ Activo (27-sep-2026) |
+
 **Niveles siguientes:**
 
-- **Nivel 2 — Profundización por ámbito de gestión** (8 cursos): Gobernanza Práctica, Planeación, Administración del Grupo, Finanzas Sanas, Captación de Fondos, Comunicaciones, Crecimiento, Gestión del Riesgo.
 - **Nivel 3 — Especialización por cargo** (6 cursos): Cargos del Consejo, Jefe de Grupo, Presidente, Consejero, Comisionado, Vigilancia y Control.
 - **Nivel 4 — Transversales** (4 cursos): Salud Institucional, Buenas Prácticas, Código de Honor, Articulación con Plan Trienal Mundial y Regional.
 
@@ -176,9 +183,9 @@ Detalles en [`BACKEND.md`](BACKEND.md).
 
 ---
 
-## Estado actual (03-ago-2026)
+## Estado actual (27-sep-2026)
 
-**Nivel 1 completo, en producción y con las 3 auditorías pasadas.** Los 6 cursos están `active` y verificados en vivo.
+**Nivel 1 completo y Nivel 2 abierto: 7 cursos `active`**, todos con las 3 auditorías. El Curso 7 (`gobernanza-practica`, ADR-085) pasó doctrinal y pedagógica **con re-auditoría** y la suite E2E contra el build local antes de publicarse.
 
 | Auditoría | Estado | Detalle |
 |---|---|---|
@@ -194,7 +201,7 @@ Detalles en [`BACKEND.md`](BACKEND.md).
 
 ### Fase siguiente
 
-- **Nivel 2 — Profundización** (8 cursos por ámbito de gestión).
+- **Nivel 2 — Profundización**: quedan 7 de 8 (Cursos 8 a 14).
 - **Nivel 3 — Especialización por cargo** (6 cursos).
 - **Nivel 4 — Transversales** (4 cursos), priorizando el Curso 23 (Código de Honor) por su carácter universal.
 - Evaluar si separar el backend de la Línea Política de Adultos (criterios en `BACKEND.md`).

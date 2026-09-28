@@ -3,7 +3,7 @@
   "title": "Niveles y Estructura del Movimiento",
   "subtitle": "Curso 3 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Aterriza la estructura completa del Movimiento Scout: 5 niveles (Mundial, Interamericano, Nacional, Regional, Local) con su arquitectura de órganos por nivel. Importante: la estructura es asimétrica — no se replica el mismo modelo de tres órganos uniformes en cada nivel.",
-  "contentVersion": "2026-09-21",
+  "contentVersion": "2026-09-27",
   "icon": "🏗️",
   "duration": "~35 min",
   "level": 1,
@@ -479,7 +479,7 @@
           "items": [
             {
               "title": "🏛️ Dirección — Asamblea de Grupo",
-              "description": "Reúne a los asociados del grupo (familias, dirigentes, en algunos casos los jóvenes mayores con voz). Aprueba el Plan de Grupo y elige al Consejo de Grupo. Define las normas de funcionamiento del Grupo (Art. 4.3.12).",
+              "description": "Reúne a los asociados del grupo: votan los representantes legales —un voto por familia— y los Rovers del grupo; los dirigentes de la Jefatura participan con voz, pero sin voto. Aprueba el Plan de Grupo y elige al Consejo de Grupo. Define las normas de funcionamiento del Grupo (Art. 4.3.12).",
               "color": "#f3e5f5",
               "borderColor": "#9c27b0"
             },
