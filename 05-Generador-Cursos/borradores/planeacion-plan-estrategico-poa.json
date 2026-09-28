@@ -543,7 +543,7 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>🔜 Lo que sigue en la línea:</strong> el tercer eslabón, el presupuesto, es el tema del <strong>Curso 10 — Finanzas Sanas: Presupuesto y Tesorería</strong> (próximamente), y la administración de los recursos del grupo, del <strong>Curso 9 — Administración del Grupo</strong> (próximamente)."
+          "text": "<strong>🔜 Lo que sigue en la línea:</strong> el tercer eslabón, el presupuesto, es el tema del <strong>Curso 10 — Finanzas Sanas: Presupuesto y Tesorería</strong>, y la administración de los recursos del grupo, del <strong>Curso 9 — Administración del Grupo</strong>."
         }
       ],
       "reflection": {
@@ -616,5 +616,9 @@
   "certificate": {
     "courseName": "PLANEACIÓN: DEL PLAN ESTRATÉGICO AL POA",
     "description": "ha completado el Curso 8 del Nivel 2 — Profundización por ámbito de gestión de la Línea Desarrollo Institucional, reconociendo qué es planear y para qué, distinguiendo el plan estratégico, el plan operativo anual y el presupuesto, reconociendo los tres momentos de la metodología de la OMMS, formulando objetivos SMART, ubicando su grupo en el Plan Estratégico nacional 2023–2026 y siguiendo el recorrido del Plan de Grupo, con un aporte concreto a ese plan"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí tu aporte al Plan de Grupo de la Lección 7: la prioridad, el objetivo SMART, la acción del año, el recurso del presupuesto y la fecha de revisión.",
+    "placeholder": "Para la prioridad de…"
   }
 }

@@ -1,0 +1,546 @@
+{
+  "courseId": "administracion-del-grupo",
+  "title": "Administración del Grupo",
+  "subtitle": "Curso 9 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
+  "description": "Lo que no está escrito, el grupo no lo tiene. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Administración: los bienes y equipos del grupo, las personas que le sirven, sus obligaciones legales y sus datos, y el lugar donde se reúne. Con casos del día a día y las reglas que los ordenan.",
+  "contentVersion": "2026-09-27",
+  "status": "active",
+  "icon": "🗂️",
+  "duration": "~30 min",
+  "level": 2,
+  "levelName": "Profundización por ámbito de gestión",
+  "order": 9,
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~30 minutos · 7 lecciones.</strong><br>Al final vas a poder ubicar un problema del grupo en su sub-ámbito de Administración, saber cómo se inventarían, se prestan por escrito y se venden los bienes del grupo, distinguir a un voluntario de un empleado, reconocer las obligaciones legales y de datos del grupo, y revisar cómo está administrado el tuyo.<br><strong>Cada lección cierra con 2 preguntas:</strong> para avanzar hay que acertar las dos. Si fallas, el curso te muestra la correcta y lo vuelves a intentar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Antes del campamento, el Jefe de Tropa va a la bodega por las cuatro carpas grandes. Hay dos. Alguien recuerda que se prestaron hace un año «a una familia que se fue del grupo»; nadie sabe a cuál, nadie firmó nada, y las carpas no aparecen en ninguna lista. <strong>El grupo tenía esas carpas. Hoy no puede demostrar que las tuvo.</strong>"
+        },
+        {
+          "type": "blockquote",
+          "text": "Lo que no está escrito, el grupo no lo tiene."
+        },
+        {
+          "type": "paragraph",
+          "text": "La plata del grupo tiene su propio curso, el 10 (Finanzas Sanas): te sugerimos hacerlo antes, porque este se apoya en él. Este curso cuida todo lo demás: las cosas, las personas, los papeles y el lugar."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a practicar"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 🗂️ Qué es administrar un grupo: los siete sub-ámbitos.",
+            "<strong>Lección 3 —</strong> 🏕️ Los bienes del grupo: inventario, préstamos y compras.",
+            "<strong>Lección 4 —</strong> 🤝 Las personas: voluntarios, empleados y apoyo administrativo.",
+            "<strong>Lección 5 —</strong> 📑 Obligaciones legales y datos personales.",
+            "<strong>Lección 6 —</strong> 🏠 La sede y los negocios del grupo.",
+            "<strong>Lección 7 —</strong> 🔎 La revisión administrativa de tu grupo."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de empezar:</strong> si puedes, pregunta si tu grupo tiene una lista escrita de sus equipos (carpas, estufas, herramientas) y quién la lleva. La vas a usar en la última lección."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 🗂️ Qué es administrar un grupo",
+      "emoji": "🗂️",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>Administrar es planificar, organizar, dirigir y controlar los recursos del grupo —plata, cosas y personas— para sacarles el mayor provecho. La PNDI lo divide en siete sub-ámbitos."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el Curso 4 viste que la Administración es uno de los ocho ámbitos de gestión. Aquí vas a entrar en ella. La definición es sencilla, y sirve para ordenar casi cualquier problema de «logística» del grupo."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la definición de la PNDI",
+          "text": "Consiste en planificar, organizar, dirigir y controlar los recursos financieros, materiales y humanos, con el fin de obtener de ellos el máximo beneficio posible.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, §8.2.2 Administración, p. 10"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "💰 Recursos financieros",
+              "description": "Ingresos, egresos y prioridades de gasto. Ej.: la cuota que nadie sabe en qué se gastó. (Es el tema del Curso 10.)",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🏕️ Activos fijos y variables",
+              "description": "Los bienes, lo que le deben al grupo y sus inventarios. Ej.: las carpas que no aparecen. (Lección 3.)",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "🤝 Recursos humanos",
+              "description": "Las personas a las que el grupo les paga por su trabajo. Ej.: el «pago simbólico» a un dirigente. (Lección 4.)",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "📉 Pasivos y obligaciones",
+              "description": "Lo que el grupo debe, y atenderlo a tiempo. Ej.: una factura vencida. (Este curso no lo desarrolla aparte: basta con ubicarlo.)",
+              "color": "#ffebee",
+              "borderColor": "#f44336"
+            },
+            {
+              "title": "🛍️ Unidades de negocio (en el grupo: sus negocios)",
+              "description": "Negocios ligados a lo scout, sobre todo los que sostienen el programa. Ej.: la venta de pañoletas. (Lección 6.)",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            },
+            {
+              "title": "⚖️ Obligaciones legales",
+              "description": "Lo que la ley le exige al grupo. Ej.: los aportes de un empleado, los impuestos, las fotos de los niños. (Lección 5.)",
+              "color": "#fff8e1",
+              "borderColor": "#ffa000"
+            },
+            {
+              "title": "🏠 Servicios generales de la planta física",
+              "description": "El mantenimiento de las instalaciones. Ej.: el baño de la sede que no funciona. (Lección 6.)",
+              "color": "#e1f5fe",
+              "borderColor": "#03a9f4"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🧠 No hace falta memorizarlos:</strong> son un mapa. Cuando algo del grupo se enrede, pregúntate a cuál de los siete pertenece; eso ya te dice qué mirar."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en el último problema de «logística» que tuvo tu grupo (un equipo perdido, una cuenta sin pagar, la sede sin luz). ¿A cuál de los siete sub-ámbitos pertenecía? ¿Alguien del grupo tenía ese sub-ámbito a cargo? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "La sede del grupo tiene goteras desde hace meses y nadie las arregla, porque «eso no es programa». ¿En qué sub-ámbito de Administración cae ese problema?",
+            "options": [
+              "En servicios generales de la planta física: mantener las instalaciones del grupo es administración.",
+              "En ninguno: el mantenimiento de la sede es asunto de la Región, no de la administración del grupo.",
+              "En recursos financieros: el problema de fondo es que no hay plata para arreglar las goteras de la sede."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El grupo lleva seis meses sin pagarle a la ferretería del barrio la madera que le fió para arreglar la sede. ¿En qué sub-ámbito lo ubicas?",
+            "options": [
+              "En pasivos y obligaciones: es algo que el grupo debe, y atenderlo a tiempo también es administrar.",
+              "En planta física: la madera fue para arreglar la sede, así que esa deuda es parte del mantenimiento.",
+              "En ninguno: lo que se le fía a un vecino del barrio es un favor entre conocidos, no un asunto del grupo."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 3 →"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🏕️ Los bienes del grupo",
+      "emoji": "🏕️",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Los bienes del grupo se inventarían, se prestan por escrito y se compran o venden con la aprobación que corresponde."
+        },
+        {
+          "type": "paragraph",
+          "text": "Volvamos a las carpas. Para que no se pierdan hacen falta tres cosas: saber qué hay, dejar por escrito a quién se presta, y saber quién puede comprar o vender."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "📋 Saber qué hay — el inventario",
+              "description": "El Manual de Cargos le asigna al Intendente del Consejo de Grupo llevar el registro actualizado del inventario de todos los elementos, herramientas, materiales y útiles del grupo, entregarlos a quien los necesite para las actividades y procurar su arreglo o reposición (ficha 2.1.5)."
+            },
+            {
+              "title": "✍️ Prestar por escrito — la custodia",
+              "description": "Cuando un equipo se entrega en préstamo o custodia con un documento firmado, su pérdida o daño es una deuda formal, y queda consignada en la constancia de paz y salvo (Reglamento Nacional, Arts. 55 y 57). Y ningún menor de edad puede quedar como custodio de bienes sin la aceptación expresa de su representante legal (Art. 55)."
+            },
+            {
+              "title": "🛒 Comprar o vender — con aprobación",
+              "description": "El grupo puede adquirir bienes para su funcionamiento, tramitándolos con la personería jurídica delegada de su Región o la Nación. Para venderlos hace falta la aprobación del Consejo o de la Asamblea, según corresponda, por mayoría calificada —una mayoría más exigente que la mitad más uno— (Reglamento de Grupos, 10.3), y la venta se firma por medio del representante legal de la Región (Reglamento Nacional, Art. 231; por qué, en la Lección 5)."
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la regla de la deuda formal",
+          "text": "Se entiende por deuda formal toda obligación en dinero respaldada por un documento o contrato escrito, debidamente firmado por las partes, relacionada con cuotas de afiliación, adquisición de uniformes, daños o pérdidas ocasionadas a materiales entregados formalmente en custodia u otros conceptos derivados de las actividades del Grupo, la Región o la Nación. En ningún caso los menores de edad podrán ser custodios de bienes sin la aceptación expresa de su representante legal.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 55 «Deuda formal», p. 17"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> no hay cómo reclamar las carpas del caso: nadie sabe a quién se entregaron y no hay un papel que lo pruebe. Otra vez: lo que no está escrito, el grupo no lo tiene."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Tu grupo presta equipos a familias o a jóvenes para las salidas? ¿Queda algo firmado cuando se prestan, y alguien los cuenta al volver? Escribe qué cambiarías. (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "Un scout de 13 años quiere llevarse a su casa la estufa del grupo para practicar durante las vacaciones. ¿Qué dice el Reglamento Nacional?",
+            "options": [
+              "Que puede llevarla solo con la aceptación expresa de su representante legal para esa custodia.",
+              "Que puede llevarla sin más trámite, porque es un miembro del grupo y la estufa también es suya.",
+              "Que no puede llevarla nunca, porque ningún bien del grupo puede salir de la sede sin el Consejo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El Consejo vota vender un terreno que le donaron al grupo: cinco a favor, cuatro en contra. El Presidente da la venta por aprobada y se dispone a firmarla. ¿Qué le recuerdas?",
+            "options": [
+              "Que no basta la mitad más uno: pide mayoría calificada, y la venta se firma por medio de la Región.",
+              "Que está bien: con la mitad más uno, el Consejo puede aprobar cualquier decisión, también esta venta.",
+              "Que no basta con el Consejo: la venta la decide el Jefe de Grupo, que responde por los bienes del grupo."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 4 →"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 🤝 Las personas",
+      "emoji": "🤝",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Casi todos en el grupo son voluntarios, sin vínculo laboral. Si el grupo le paga a alguien, lo decide el Consejo, el contrato va por la Región y, si es empleado, llegan las obligaciones laborales."
+        },
+        {
+          "type": "paragraph",
+          "text": "Piensa en quién mueve tu grupo un sábado: dirigentes, consejeros, la mamá que lleva las listas. Casi seguro, nadie cobra. Esa condición tiene nombre y reglas."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué es un voluntario",
+          "text": "Son personas naturales, mayores de edad, que de manera libre, consciente y responsable, sin recibir remuneración ni mediar vínculo laboral alguno, con los diferentes niveles de la organización, ofrecen su tiempo, trabajo, talento, competencias y conocimientos al servicio de la Asociación Scouts de Colombia y de sus miembros, guiados por el espíritu de servicio.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 9 «Voluntarios», p. 4"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🙋 Voluntario",
+              "description": "No recibe remuneración ni tiene vínculo laboral. Es la regla en el grupo: dirigentes y consejeros.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "💼 Empleado o consultor",
+              "description": "Si el grupo necesita a alguien pagado, lo decide y lo nombra el Consejo (Reglamento de Grupos, 5.6.21) y el contrato se firma por la vía de la Región (Reglamento Nacional, Art. 231; por qué, en la Lección 5). Si es un empleado, llegan las obligaciones laborales que exige la ley.",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "¿Y el trabajo de oficina? Las actas y el registro de los miembros son tarea del <strong>Secretario del Consejo</strong> (Manual de Cargos, ficha 2.1.4). Para ayudar al Consejo y a la Jefatura con los documentos, los listados y bases de datos, las citaciones y las inscripciones, el Manual prevé el cargo de <strong>Auxiliar administrativo de Grupo</strong>, que nombra el Consejo y para el que el Manual pide formación técnica o profesional en temas administrativos (ficha 2.1.9)."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>⚠️ Ojo con el «pago simbólico»:</strong> una persona que recibe un pago fijo a cambio de trabajo deja de ser voluntaria, aunque el grupo lo llame «colaboración». Si el grupo va a pagarle a alguien, que lo decida el Consejo y que se cumpla lo que la ley exige."
+        }
+      ],
+      "reflection": {
+        "prompt": "En tu grupo, ¿hay alguien que reciba un pago regular por su trabajo? Si es así, ¿lo decidió el Consejo y está en regla? Si no, ¿qué tareas de oficina recaen hoy sobre los dirigentes y podría asumir un Auxiliar administrativo? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Nadie puede abrir y cuidar la sede entre semana. Un consejero propone pagarle a alguien; otro se opone: «En scouts todos somos voluntarios: aquí no se le paga a nadie». ¿Quién tiene razón?",
+            "options": [
+              "Se le puede pagar: lo decide el Consejo, el contrato va por la Región y se cumple lo que exige la ley.",
+              "El que se opone: en un grupo scout todos son voluntarios, así que nadie puede recibir un pago fijo.",
+              "Se le puede pagar, pero como «colaboración» y sin contrato: así sigue siendo voluntario ante la ley."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una mamá, técnica en administración, se ofrece a llevar los listados, las citaciones y las inscripciones del grupo. El Jefe de Grupo le dice: «Listo, empiezas el lunes; yo te autorizo». ¿Qué falta para que ese apoyo quede bien puesto?",
+            "options": [
+              "Que el Consejo la nombre Auxiliar administrativa de Grupo: ese cargo lo nombra el Consejo, no la Jefatura.",
+              "Que el Consejo le firme un contrato de trabajo, porque llevar listados e inscripciones es labor de oficina.",
+              "Nada más: si lo hace gratis y el Jefe de Grupo ya la autorizó, ese apoyo queda bien puesto así."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 5 →"
+      }
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 📑 Obligaciones legales y datos personales",
+      "emoji": "📑",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>El grupo no actúa solo ante la ley: lo hace con la personería de su Región o la Nación. Y los datos de sus miembros solo se tratan con autorización."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un grupo scout no tiene, por regla general, personería jurídica propia: opera con la de su Región o la de la Nación. Eso explica algo que ya te apareció dos veces en este curso."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔁 Ya te sonó dos veces:</strong> la venta del terreno (Lección 3) y el contrato de quien cuida la sede (Lección 4) pasaban por la Región. Si hiciste el Curso 10, lo viste también con las cuentas y las donaciones. <strong>Es una sola regla con muchas caras:</strong> como el grupo actúa con la personería de su Región, sus contratos con terceros pasan por el representante legal de la región (Reglamento Nacional, Art. 231). También el arriendo de una bodega, el acuerdo por el salón de un colegio o el bus del campamento."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🔒 Los datos de los miembros"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la regla del Reglamento Nacional",
+          "text": "Al firmar los documentos de solicitud de ingreso y culminado el proceso de afiliación, deberá entregar a la Asociación, por el medio que ésta determine, la autorización para el tratamiento de los datos personales y derechos de imagen, de acuerdo con la ley colombiana y las normas internas vigentes.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 44 «Autorización de tratamiento de datos personales e imagen», p. 14"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En la práctica:</strong> los listados, las fichas médicas, las hojas de vida y las fotos de los miembros se guardan con cuidado y se usan solo para lo que se autorizó. Subir la foto de un niño a una red social del grupo sin esa autorización no es un descuido menor."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Dónde guarda tu grupo los datos de sus miembros (listados, fichas médicas, fotos)? ¿Quién tiene acceso, y se pidió la autorización de datos e imagen? Escribe un cambio concreto. (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "Un consejero nuevo no entiende: para vender un terreno, contratar a alguien o arrendar una bodega, siempre hay que pasar por la Región. «¿Por qué, si son cosas tan distintas?». ¿Qué le explicas?",
+            "options": [
+              "Que el grupo, por regla general, no tiene personería propia: actúa con la de su Región, y sus contratos pasan por ella.",
+              "Que la Región le revisa las cuentas al grupo, y por eso tiene que autorizarle cada gasto, por pequeño que sea este.",
+              "Que es una costumbre para tener enterada a la Región, pero si el Consejo lo aprueba, el grupo puede firmar por su cuenta."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una dirigente quiere publicar en la página del grupo las fotos del campamento, con las caras de los niños. ¿Qué debe revisar primero?",
+            "options": [
+              "Que haya autorización para el tratamiento de los datos personales y la imagen de esos niños.",
+              "Que no salga el nombre de ningún niño: sin el nombre, una foto no cuenta como dato personal.",
+              "Que haya autorización del Jefe de Grupo, que es quien decide qué se publica sobre los jóvenes."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 6 →"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — 🏠 La sede y los negocios del grupo",
+      "emoji": "🏠",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>El lugar donde el grupo se reúne también se administra, y un negocio del grupo solo tiene sentido si sostiene el programa de jóvenes."
+        },
+        {
+          "type": "paragraph",
+          "text": "En muchos grupos la sede es un salón prestado, y la plata de la salida sale de vender algo. Las dos cosas se administran, y para la segunda hay una pregunta sencilla."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏠 La planta física",
+              "description": "Si el grupo tiene sede o bodega, su mantenimiento —que funcione, que sea segura— es un sub-ámbito de la Administración (PNDI §8.2.2). Si la sede es arrendada o prestada con un acuerdo formal, ese acuerdo es un contrato, y va por medio de la Región, como viste en la Lección 5. Y aunque sea un préstamo de confianza, conviene dejarlo por escrito.",
+              "color": "#e1f5fe",
+              "borderColor": "#03a9f4"
+            },
+            {
+              "title": "🛍️ Los negocios del grupo",
+              "description": "La PNDI habla de promover e impulsar los negocios asociados con el objeto social, «en especial aquellos que soportan el programa de jóvenes». En un grupo, el ejemplo del Reglamento es la venta de artículos scouts (10.11).",
+              "color": "#fff3e0",
+              "borderColor": "#ff9800"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver los dos sub-ámbitos en la PNDI",
+          "text": "Administración de las unidades de negocio: Promueve, administra e impulsa los negocios asociados con el objeto social y en especial aquellos que soportan el programa de jóvenes. […] Servicios Generales de la Planta Física: Mantenimiento de las instalaciones que posea para asegurar su correcto funcionamiento.",
+          "source": "Política Nacional de Desarrollo Institucional 2017, §8.2.2 Administración, p. 10"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>⚖️ La pregunta para cualquier negocio del grupo:</strong> ¿tiene que ver con lo scout, y lo que deja vuelve al programa? La PNDI da prioridad a los negocios que sostienen el programa de jóvenes, y el Reglamento de Grupos exige que todo lo que entre se use en escultismo, y que nadie pueda repartírselo (10.2), como desarrolla el Curso 10. (Las «unidades de negocio» formales de la Asociación son otra cosa: dependen de la Nación, Reglamento Nacional Art. 116.)"
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Tu grupo tiene alguna actividad que deje ingresos de forma permanente (venta de pañoletas o camisetas del grupo, una tienda de artículos scouts)? ¿Está ligada a lo scout y lo que deja vuelve al programa? Escribe tu respuesta y una mejora. Si no tiene ninguna, piensa en una que se haya propuesto o que sí encajaría. (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "questions": [
+          {
+            "text": "Un consejero propone que el grupo monte un negocio permanente de compraventa de celulares usados «porque deja buena plata». ¿Cómo lo mides?",
+            "options": [
+              "No es el negocio que la PNDI pide impulsar: no tiene que ver con lo scout, aunque deje plata.",
+              "No es problema, siempre que lo que deje se reparta entre los dirigentes que lo atiendan.",
+              "Sí encaja: cualquier negocio que deje plata para las actividades del grupo es un negocio del grupo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El grupo vende pañoletas y camisetas del grupo en la sede, y lo que queda se usa en el campamento de la Tropa. Un consejero duda: «un grupo scout no debería hacer negocios». ¿Qué le dices?",
+            "options": [
+              "Que encaja: la venta de artículos scouts está prevista, y lo que deja vuelve al programa de jóvenes.",
+              "Que tiene razón: un grupo scout no hace negocios, y se sostiene solo con cuotas y con donaciones.",
+              "Que no encaja: solo la Nación puede vender artículos scouts, porque tiene las unidades de negocio."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Continuar a Lección 7 →"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Lección 7 — 🔎 La revisión administrativa de tu grupo",
+      "emoji": "🔎",
+      "navLabel": "L7",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 4 minutos · 1 idea central:</strong><br>Cinco preguntas revelan cómo está administrado tu grupo, y cada «no» o «no sé» es un compromiso posible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lo que no está escrito, el grupo no lo tiene. Volvamos a las carpas perdidas: no faltó honradez, faltó papel. Las cinco preguntas de abajo son las que habrían evitado esa pérdida; mientras las lees, fíjate cuáles le fallaron: son más de una. (Le fallaron al menos la 1 y la 2: no había lista ni préstamo firmado.)"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "¿Hay un inventario escrito y al día de los equipos del grupo, y un responsable de llevarlo?",
+            "¿Cada préstamo de un equipo queda firmado, y ningún menor queda como custodio sin la aceptación de su representante legal?",
+            "¿Quien trabaja en el grupo es voluntario, o si recibe un pago, lo decidió el Consejo y está en regla?",
+            "¿Los contratos con terceros del grupo pasan por el representante legal de la región?",
+            "¿Hay autorización de datos e imagen de los miembros, y sus datos se guardan con cuidado?"
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu turno:</strong> responde las cinco con «sí», «no» o «no sé». Escoge un «no» o un «no sé» y conviértelo en un compromiso: qué vas a proponer, a qué órgano o cargo y para cuándo."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🔜 Lo que sigue en la línea:</strong> el <strong>Curso 11 — Captación de Fondos y Ciclo de Proyectos</strong> (próximamente) trata cómo conseguir recursos y armar proyectos para lograrlo."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escribe tu resultado en las cinco preguntas y tu compromiso: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista. Ojo: ese recuadro no sale en el PDF."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7 — Cierre del curso",
+        "questions": [
+          {
+            "text": "Otro grupo tiene un inventario impecable de sus carpas, pero las presta a las familias de palabra. Una se pierde y la familia dice que «nunca la recibió». ¿Qué le faltó?",
+            "options": [
+              "Le faltó dejar el préstamo por escrito y firmado, para que la pérdida fuera una deuda formal.",
+              "Le faltó un mejor inventario, porque con él habría sabido exactamente qué familia tenía la carpa.",
+              "Le faltó cobrar un depósito en efectivo, que es lo que exige el Reglamento para prestar equipos."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "¿Cuál de estos compromisos sale bien de la revisión administrativa?",
+            "options": [
+              "Proponerle al Consejo de noviembre revisar quién tiene las fichas médicas, y en diciembre ver si se hizo.",
+              "Proponerle al Presidente, antes de diciembre, que firme el contrato del bus a nombre propio, sin pasar por la Región.",
+              "Proponerle al grupo que este año sea más ordenado con sus cosas, para que no se vuelva a perder nada."
+            ],
+            "correctIndex": 0
+          }
+        ],
+        "nextLabel": "Ir al certificado →"
+      }
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Veo los siete sub-ámbitos",
+      "emoji": "🗂️",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Cuido los bienes del grupo",
+      "emoji": "🏕️",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Distingo voluntario de empleado",
+      "emoji": "🤝",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Conozco las obligaciones legales",
+      "emoji": "📑",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Reviso los negocios del grupo",
+      "emoji": "🏠",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Administración en orden",
+      "emoji": "🗂️",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "ADMINISTRACIÓN DEL GRUPO",
+    "description": "ha completado el Curso 9 del Nivel 2 — Profundización por ámbito de gestión de la Línea Desarrollo Institucional, ubicando problemas del grupo en los siete sub-ámbitos de la Administración, reconociendo cómo se inventarían, se prestan por escrito y se venden los bienes del grupo, distinguiendo al voluntario del empleado, reconociendo las obligaciones legales y de datos personales del grupo y revisando si un negocio del grupo tiene que ver con lo scout y sostiene el programa de jóvenes, con un compromiso concreto sobre la administración de su grupo"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí el compromiso de tu revisión administrativa: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo.",
+    "placeholder": "Voy a proponer…"
+  }
+}

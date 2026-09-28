@@ -124,5 +124,19 @@
     "status": "active",
     "file": "finanzas-sanas-presupuesto-tesoreria.html",
     "folder": "finanzas-sanas-presupuesto-tesoreria"
+  },
+  {
+    "courseId": "administracion-del-grupo",
+    "title": "Administración del Grupo",
+    "description": "Lo que no está escrito, el grupo no lo tiene. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Administración: los bienes y equipos del grupo, las personas que le sirven, sus obligaciones legales y sus datos, y el lugar donde se reúne. Con casos del día a día y las reglas que los ordenan.",
+    "icon": "🗂️",
+    "duration": "~30 min",
+    "level": 2,
+    "levelName": "Profundización por ámbito de gestión",
+    "order": 9,
+    "modules": 7,
+    "status": "active",
+    "file": "administracion-del-grupo.html",
+    "folder": "administracion-del-grupo"
   }
 ]

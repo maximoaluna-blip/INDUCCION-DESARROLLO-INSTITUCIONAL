@@ -3,7 +3,7 @@
   "title": "Los 8 Ámbitos de Gestión",
   "subtitle": "Curso 4 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Recorrido panorámico de los 8 ámbitos de gestión que la PNDI 2017 identifica como el contenido operativo del Desarrollo Institucional. Una micro-historia por ámbito (no 8 definiciones). Al final, el adulto sabe ubicar cualquier decisión cotidiana del grupo en el ámbito que le corresponde.",
-  "contentVersion": "2026-09-21",
+  "contentVersion": "2026-09-27",
   "icon": "🧭",
   "duration": "~35 min",
   "level": 1,
@@ -207,7 +207,7 @@
         },
         {
           "type": "paragraph",
-          "text": "¿Qué hizo posible eso? El grupo Coraje tenía resuelta su <strong>Administración</strong>: sabe qué tiene, qué se dañó y quién respondió. La PNDI agrupa esto en 7 sub-ámbitos: <strong>recursos financieros</strong>, <strong>activos fijos y variables</strong> (sede, carpas, equipos), <strong>recursos humanos</strong> (los dirigentes, los voluntarios), <strong>pasivos y obligaciones</strong>, <strong>unidades de negocio</strong> (si el grupo opera una cantina, una tienda scout), <strong>obligaciones legales con el Estado</strong> (cámara de comercio, retenciones, impuestos), y <strong>servicios generales de planta física</strong> (luz, agua, mantenimiento de la sede). El inventario semestral de Coraje es 'activos fijos y variables' hecho rutina."
+          "text": "¿Qué hizo posible eso? El grupo Coraje tenía resuelta su <strong>Administración</strong>: sabe qué tiene, qué se dañó y quién respondió. La PNDI agrupa esto en 7 sub-ámbitos: <strong>recursos financieros</strong>, <strong>activos fijos y variables</strong> (sede, carpas, equipos), <strong>recursos humanos</strong> (el personal que presta servicios profesionales, si el grupo lo tiene), <strong>pasivos y obligaciones</strong>, <strong>unidades de negocio</strong> (si el grupo opera una cantina, una tienda scout), <strong>obligaciones legales con el Estado</strong> (laborales, tributarias y las demás que le toquen; en un grupo, casi siempre a través de la personería de su Región), y <strong>servicios generales de planta física</strong> (luz, agua, mantenimiento de la sede). El inventario semestral de Coraje es 'activos fijos y variables' hecho rutina."
         },
         {
           "type": "heading",

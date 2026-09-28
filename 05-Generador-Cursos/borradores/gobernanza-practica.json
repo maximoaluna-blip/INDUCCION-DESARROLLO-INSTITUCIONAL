@@ -611,7 +611,7 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>🔜 Lo que sigue en la línea:</strong> de los 5 elementos de la Gobernanza que viste en el Curso 4, aquí trabajaste cuatro; el quinto, la <strong>Planificación Estratégica</strong>, es el tema del <strong>Curso 8 — Planeación: del Plan Estratégico al POA</strong> (próximamente). Y si estás en el Consejo o eres tesorero, el <strong>Curso 10 — Finanzas Sanas</strong> (próximamente) aterriza lo que aquí viste de cuentas y presupuesto."
+          "text": "<strong>🔜 Lo que sigue en la línea:</strong> de los 5 elementos de la Gobernanza que viste en el Curso 4, aquí trabajaste cuatro; el quinto, la <strong>Planificación Estratégica</strong>, es el tema del <strong>Curso 8 — Planeación: del Plan Estratégico al POA</strong>. Y si estás en el Consejo o eres tesorero, el <strong>Curso 10 — Finanzas Sanas</strong> aterriza lo que aquí viste de cuentas y presupuesto."
         }
       ],
       "reflection": {
@@ -684,5 +684,9 @@
   "certificate": {
     "courseName": "GOBERNANZA PRÁCTICA",
     "description": "ha completado el Curso 7 del Nivel 2 — Profundización por ámbito de gestión de la Línea Desarrollo Institucional, distinguiendo quién decide, quién ejecuta y quién verifica cada decisión del grupo, reconociendo qué decide la Asamblea y qué debe quedar en su acta, cómo sesiona válidamente el Consejo, la jerarquía y la vigencia de las normas, y evaluando su grupo con los 8 Principios de Buena Gobernanza del Estatuto Nacional 2025, con un compromiso concreto de mejora"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí tu compromiso de gobernanza de la Lección 7: qué vas a hacer, en cuál de los 8 principios, con quién (su rol) y para cuándo.",
+    "placeholder": "Voy a proponer…"
   }
 }

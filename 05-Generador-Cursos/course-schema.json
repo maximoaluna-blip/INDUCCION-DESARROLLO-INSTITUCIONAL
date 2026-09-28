@@ -388,6 +388,14 @@
           ]
         }
       }
+    },
+    "commitmentBox": {
+      "type": "object",
+      "description": "Opcional. Textos de la casilla del Compromiso Personal junto al certificado; misma forma que en Políticas Transversales y Programa de Jóvenes. Si falta, el motor usa los de adultos. Nació para los Cursos 7 a 10 de DI, cuya última lección pide un compromiso concreto.",
+      "properties": {
+        "prompt": { "type": "string" },
+        "placeholder": { "type": "string" }
+      }
     }
   },
   "version": "2.0"
