@@ -75,7 +75,7 @@ Resultado: cualquier persona que abra `previews/publicadas/` ve exactamente lo q
 INDUCCION-DESARROLLO-INSTITUCIONAL/
 ├── 01-Diseno-Cursos/                     ← Diseños pedagógicos (markdown) de cada curso
 │   └── Curso-NN-<nombre>.md
-├── Plan-de-Formacion-Linea-Desarrollo-Institucional.md  ← Plan completo de la línea (24 cursos)
+├── Plan-de-Formacion-Linea-Desarrollo-Institucional.md  ← Plan completo de la línea (21 cursos)
 ├── Recomendaciones-Cowork-Diseno-Cursos.md              ← Guía para Cowork
 ├── BACKEND.md                                            ← Documenta el backend (Apps Script)
 └── CREAR-CURSO.md                                        ← Este archivo
@@ -149,7 +149,7 @@ GitHub Pages redespliega automáticamente. ~1 min después el curso está vivo.
 Procedimiento universal en `../MANUAL-CREACION-CURSOS.md` §A.3-bis y `../CLAUDE.md` §7-bis. Datos propios de **Desarrollo Institucional**:
 
 14. **Raíz del repo:** verificar que `index.html` (con botón `.back-portal`) + `404.html` siguen presentes.
-15. **Portal** `../PORTAL-ADULTOS-ASC/lineas.json` → entrada `"id": "desarrollo-institucional"`: mantener `status: "active"`, `url: "https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/"`, `color: "#1565C0"`, y **actualizar `coursesActive`** al nº de cursos con `status: "active"` (`coursesPlanned: 24`; el Nivel 1 son 6 cursos). Sincronizar la tabla del `README.md` del portal.
+15. **Portal** `../PORTAL-ADULTOS-ASC/lineas.json` → entrada `"id": "desarrollo-institucional"`: mantener `status: "active"`, `url: "https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/"`, `color: "#1565C0"`, y **actualizar `coursesActive`** al nº de cursos con `status: "active"` (`coursesPlanned: 21`; el Nivel 1 son 6 cursos). Sincronizar la tabla del `README.md` del portal.
 16. Push del repo del portal + **verificar en producción** (landing 200, curso 200, tarjeta clickeable).
 
 ---
@@ -256,7 +256,7 @@ Cuando se quieren publicar varios cursos del mismo nivel a la vez.
 ## Referencias cruzadas
 
 - [`BACKEND.md`](BACKEND.md) — Detalles del Apps Script, sheet, deployment.
-- [`Plan-de-Formacion-Linea-Desarrollo-Institucional.md`](Plan-de-Formacion-Linea-Desarrollo-Institucional.md) — Los 24 cursos planeados (4 niveles).
+- [`Plan-de-Formacion-Linea-Desarrollo-Institucional.md`](Plan-de-Formacion-Linea-Desarrollo-Institucional.md) — Los 21 cursos planeados (4 niveles).
 - [`Recomendaciones-Cowork-Diseno-Cursos.md`](Recomendaciones-Cowork-Diseno-Cursos.md) — Patrones pedagógicos a seguir.
 - `01-Diseno-Cursos/Curso-01-Bienvenida-al-Desarrollo-Institucional.md` — Ejemplo canónico de diseño pedagógico.
 

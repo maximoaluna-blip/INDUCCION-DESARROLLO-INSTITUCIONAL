@@ -194,5 +194,19 @@
     "status": "active",
     "file": "gestion-del-riesgo.html",
     "folder": "gestion-del-riesgo"
+  },
+  {
+    "courseId": "conducir-el-consejo",
+    "title": "Presidente y Vicepresidente: conducir el Consejo",
+    "description": "Presidir es servir al órgano, no reemplazarlo. En este curso vas a ver qué le toca al Presidente y al Vicepresidente del Consejo y dónde terminan sus facultades, cómo se prepara una reunión del Consejo y una Asamblea, cómo se vota y qué pasa con un empate, y cómo se manejan el conflicto de interés, los vínculos familiares y los choques entre el Consejo y el Jefe de Grupo.",
+    "icon": "🪑",
+    "duration": "~39 min",
+    "level": 3,
+    "levelName": "Especialización por cargo",
+    "order": 15,
+    "modules": 7,
+    "status": "active",
+    "file": "conducir-el-consejo.html",
+    "folder": "conducir-el-consejo"
   }
 ]

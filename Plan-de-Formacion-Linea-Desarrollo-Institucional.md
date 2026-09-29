@@ -4,8 +4,9 @@
 
 **Asociación Scouts de Colombia · Plataforma de Formación de Adultos**
 
-> 4 niveles · 24 cursos · Ruta progresiva
+> 4 niveles · 21 cursos · Ruta progresiva
 >
+> Versión 1.1 — 28-09-2026 (ADR-111): Nivel 3 reducido a 3 cursos por el reparto con Política de Adultos; Nivel 3 = Cursos 15–17 y Nivel 4 = Cursos 18–21.
 > Versión inicial — 10 de mayo de 2026
 
 ---
@@ -91,10 +92,10 @@ Cuando un curso es compartido entre líneas, se consume desde una sola fuente pa
 |---|---|---|---|---|
 | 1 | Ruta de Fundamentación | 6 cursos | Todo adulto que entra a la línea | Por construir |
 | 2 | Profundización por ámbito de gestión | 8 cursos | Adultos en cargo | Por construir |
-| 3 | Especialización por cargo | 6 cursos | Adulto en cargo específico | Por construir |
+| 3 | Especialización por cargo | 3 cursos | Adulto en cargo específico | Por construir |
 | 4 | Transversales | 4 cursos | Todo adulto del movimiento | Por construir |
 
-**Total: 24 cursos.**
+**Total: 21 cursos.**
 
 ### 2.2 Recorrido del adulto a través de la Línea
 
@@ -108,13 +109,13 @@ Los Niveles 2, 3 y 4 no son secuenciales entre sí: el adulto elige según su ro
 
 ### 2.3 Cobertura conceptual de la línea
 
-Los 24 cursos cubren, sin saltos, los **8 ámbitos de gestión** definidos por la Política Nacional y las **6 áreas estratégicas** que la presentación oficial de Desarrollo Institucional opera en grupos y regiones. El Nivel 1 cierra con un **catálogo personal de buenas prácticas** (Curso 5) y un **plan de aporte personal** (Curso 6) construidos por el propio adulto.
+Los 21 cursos cubren, sin saltos, los **8 ámbitos de gestión** definidos por la Política Nacional y las **6 áreas estratégicas** que la presentación oficial de Desarrollo Institucional opera en grupos y regiones. El Nivel 1 cierra con un **catálogo personal de buenas prácticas** (Curso 5) y un **plan de aporte personal** (Curso 6) construidos por el propio adulto.
 
 ```
 8 Ámbitos PNDI 2017
 ─────────────────────────
-1. Gobernanza ────────────► Cursos 7, 17, 18
-2. Administración ────────► Cursos 9, 10, 16
+1. Gobernanza ────────────► Cursos 7, 15
+2. Administración ────────► Cursos 9, 10
 3. Recursos Económicos ───► Curso 11
 4. Comunicaciones e
    Interinstitucionales ──► Curso 12
@@ -124,7 +125,7 @@ Los 24 cursos cubren, sin saltos, los **8 ámbitos de gestión** definidos por l
    Sistema de Información ► Curso 13
 7. Gestión del Riesgo ────► Curso 14
 8. Control y
-   Reconocimiento ────────► Curso 20, 22, 23
+   Reconocimiento ────────► Cursos 17, 19, 20
 ```
 
 ---
@@ -204,12 +205,11 @@ Una vez los Niveles 1 y 2 estén operando, este nivel aterriza las funciones, co
 
 | # | Curso | Sirve a quién | Funciones / Competencias específicas |
 |---|---|---|---|
-| 15 | Cargos del Consejo (panorama institucional) | Cualquier adulto que entra al consejo | Visión general de los 11 cargos del consejo de grupo y su articulación con los niveles regional y nacional. |
-| 16 | Jefe de Grupo | Jefes de grupo | Administración y gestión del grupo, garante del debido proceso, liderazgo, articulación con el Plan de Grupo y con la región. |
-| 17 | Presidente y Vicepresidente del Consejo | Presidentes y vicepresidentes de consejos de grupo y región | Conducción del consejo, agenda, actas, votaciones, manejo de conflictos en órgano de gobierno. |
-| 18 | Consejero de Grupo y Consejero Regional | Consejeros (grupo y región) | Rol del consejero como puente entre el grupo y la región, articulación con la Política Nacional de Participación Juvenil, acompañamiento al consejo. |
-| 19 | Comisionado Regional y Nacional | Comisionados de cualquier especialidad | Funciones del comisionado, articulación entre niveles (nacional ↔ regional ↔ local), gestión de equipos, rendición de cuentas, plan de comisionado. |
-| 20 | Órganos de control y disciplina por nivel | Miembros de control y disciplina en cualquier nivel | Arquitectura asimétrica entre niveles: **Nacional** — Comisión Nacional de Vigilancia y Control (5 miembros, control social) + Corte de Honor Nacional (ética y disciplina). **Regional** — Revisor Fiscal y Suplente (control fiscal, Art. 1.20.5 Reglamento de Regiones) + Capítulo Regional de la Corte de Honor Nacional (investigación y reconocimientos, Art. 1.20.4). **Grupo** — ~~Fiscal o Revisor Fiscal y Suplente~~ **el Contador** (control fiscal-contable) + Comisión Disciplinaria Ad-hoc del Consejo de Grupo (no permanente, presidida por el Vicepresidente, Art. 1.19.4). **⚠️ ADR-022 (02-ago-2026):** el Fiscal/Revisor Fiscal de Grupo y el Revisor Fiscal Regional siguen escritos en los reglamentos (Art. 1.19.5 y 1.20.5) pero **no están vigentes/operativos** — no aparecen en el Manual de Cargos y Perfiles, el Acuerdo C.S.N. 558/2023 suspendió las disposiciones reglamentarias sobre cargos de adultos y la Jefatura Scout Nacional lo confirmó por consulta directa. Los reemplaza el **Contador**. Excepción legal: una región con personería jurídica propia sí debe tener Revisor Fiscal. Debido proceso; faltas (leves, graves, muy graves); sanciones (amonestación verbal, escrita, suspensión, expulsión); confidencialidad. |
+| 15 | Presidente y Vicepresidente del Consejo | Presidentes y vicepresidentes de consejos de grupo y región | Conducción del órgano: citación, quórum, orden del día, actas, votaciones, manejo de conflictos en el órgano de gobierno (la Función 4 de ambos cargos a fondo). Parte de lo básico del Curso 7. |
+| 16 | Comisionado Regional y Nacional | Comisionados de cualquier especialidad | Funciones del comisionado, articulación entre niveles (nacional ↔ regional ↔ local), gestión de equipos, rendición de cuentas. |
+| 17 | Órganos de control y disciplina por nivel | Miembros de control y disciplina en cualquier nivel | Arquitectura asimétrica entre niveles: **Nacional** — Comisión Nacional de Vigilancia y Control (5 miembros, control social) + Corte de Honor Nacional (ética y disciplina). **Regional** — Revisor Fiscal y Suplente (control fiscal, Art. 1.20.5 Reglamento de Regiones) + Capítulo Regional de la Corte de Honor Nacional (investigación y reconocimientos, Art. 1.20.4). **Grupo** — ~~Fiscal o Revisor Fiscal y Suplente~~ **el Contador** (control fiscal-contable) + Comisión Disciplinaria Ad-hoc del Consejo de Grupo (no permanente, presidida por el Vicepresidente, Art. 1.19.4). **⚠️ ADR-022 (02-ago-2026):** el Fiscal/Revisor Fiscal de Grupo y el Revisor Fiscal Regional siguen escritos en los reglamentos (Art. 1.19.5 y 1.20.5) pero **no están vigentes/operativos** — no aparecen en el Manual de Cargos y Perfiles, el Acuerdo C.S.N. 558/2023 suspendió las disposiciones reglamentarias sobre cargos de adultos y la Jefatura Scout Nacional lo confirmó por consulta directa. Los reemplaza el **Contador**. Excepción legal: una región con personería jurídica propia sí debe tener Revisor Fiscal. Debido proceso; faltas (leves, graves, muy graves); sanciones (amonestación verbal, escrita, suspensión, expulsión); confidencialidad. |
+
+**Reparto con Política de Adultos (decidido por el dueño, 28-09-2026; ADR-107 de PA y ADR-111 de DI).** El plan original tenía 6 cursos. Tres se cruzaban con el Nivel 3 de PA y quedan allá: el panorama de cargos (PA 11, *Los cargos del Grupo: leer una ficha*), el Consejero (PA 12, *Ser consejero de grupo*) y el Jefe de Grupo (PA 15). Cada línea mira el cargo con su lente: **PA, desde las competencias y el ciclo del adulto; DI, desde los órganos, la gestión y el Plan de Grupo.** Los cursos de DI remiten a los de PA y no los duplican. La motivación del equipo de adultos del grupo es del Curso 12 de Políticas Transversales.
 
 ### 5.2 Nota sobre la oferta del Nivel 3
 
@@ -227,14 +227,14 @@ No están atados a un ámbito ni a un cargo específico. Aplican a todo adulto d
 
 | # | Curso | Justificación |
 |---|---|---|
-| 21 | Salud Institucional: cómo evaluar tu grupo o región | Aplicación práctica del **GSAT** (Global Support Assessment Tool) como herramienta mundial de autoevaluación institucional, articulado con el ciclo "identificar → documentar → aplicar → revisar → mejorar → compartir" de buenas prácticas del Curso 5. Pendiente: cuando el CSN/DNDI publique un instrumento nacional de autoevaluación de salud institucional, integrarlo aquí. KPI Plan Regional: 24 OSN evaluadas con GSAT 2018 +. |
-| 22 | Buenas Prácticas Institucionales | Las 10 buenas prácticas del Desarrollo Institucional + sus 5 atributos (innovadoras, efectivas, sostenibles, replicables, aplicables). Aterrizadas en ejemplos colombianos. |
-| 23 | Código de Honor, Ética y Conflictos de Intereses | **Código de Honor, Disciplinario y de Conducta** (Resolución C.S.N. N° 004-22 de 12 de febrero de 2022): faltas, sanciones, debido proceso. **Política de Conflictos de Intereses** (Acuerdo C.S.N. N° 419 de 11 de junio de 2022): declarar y prevenir. **Manual de Estímulos Nacionales** (Resolución C.S.N. N° 001-22 de 28 de enero de 2022) + **Manual de la Orden al Mérito Scout**. 14 principios éticos del manejo de recursos. |
-| 24 | Articulación con Plan Trienal Mundial y Plan Regional | El **Plan Trienal Mundial 2021–2024** (6 prioridades), el **Plan Regional 2022–2025** (11 prioridades) y cómo el grupo/región alinea su Plan de Grupo con esos marcos. KPIs y metaindicadores. |
+| 18 | Salud Institucional: cómo evaluar tu grupo o región | Aplicación práctica del **GSAT** (Global Support Assessment Tool) como herramienta mundial de autoevaluación institucional, articulado con el ciclo "identificar → documentar → aplicar → revisar → mejorar → compartir" de buenas prácticas del Curso 5. Pendiente: cuando el CSN/DNDI publique un instrumento nacional de autoevaluación de salud institucional, integrarlo aquí. KPI Plan Regional: 24 OSN evaluadas con GSAT 2018 +. |
+| 19 | Buenas Prácticas Institucionales | Las 10 buenas prácticas del Desarrollo Institucional + sus 5 atributos (innovadoras, efectivas, sostenibles, replicables, aplicables). Aterrizadas en ejemplos colombianos. |
+| 20 | Código de Honor, Ética y Conflictos de Intereses | **Código de Honor, Disciplinario y de Conducta** (Resolución C.S.N. N° 004-22 de 12 de febrero de 2022): faltas, sanciones, debido proceso. **Política de Conflictos de Intereses** (Acuerdo C.S.N. N° 419 de 11 de junio de 2022): declarar y prevenir. **Manual de Estímulos Nacionales** (Resolución C.S.N. N° 001-22 de 28 de enero de 2022) + **Manual de la Orden al Mérito Scout**. 14 principios éticos del manejo de recursos. |
+| 21 | Articulación con Plan Trienal Mundial y Plan Regional | El **Plan Trienal Mundial 2021–2024** (6 prioridades), el **Plan Regional 2022–2025** (11 prioridades) y cómo el grupo/región alinea su Plan de Grupo con esos marcos. KPIs y metaindicadores. |
 
-### 6.2 Sobre el Curso 23
+### 6.2 Sobre el Curso 20
 
-El Curso 23 es de especial relevancia para los miembros de los órganos de control y disciplina —Comisión Nacional de Vigilancia y Control, Corte de Honor Nacional (con sus Capítulos Regionales), Revisorías Fiscales Regionales y de Grupo, y Comisiones Disciplinarias Ad-hoc del Consejo de Grupo (Curso 20)—, pero su material aplica a todo adulto: cada vez que un dirigente recibe un regalo, vota una decisión donde tiene un familiar implicado, o decide cómo redactar una comunicación pública delicada, está tomando una decisión ética institucional. Este curso le da el marco para hacerlo bien.
+El Curso 20 es de especial relevancia para los miembros de los órganos de control y disciplina —Comisión Nacional de Vigilancia y Control, Corte de Honor Nacional (con sus Capítulos Regionales), Revisorías Fiscales Regionales y de Grupo, y Comisiones Disciplinarias Ad-hoc del Consejo de Grupo (Curso 17)—, pero su material aplica a todo adulto: cada vez que un dirigente recibe un regalo, vota una decisión donde tiene un familiar implicado, o decide cómo redactar una comunicación pública delicada, está tomando una decisión ética institucional. Este curso le da el marco para hacerlo bien.
 
 ---
 
@@ -254,9 +254,8 @@ El Curso 23 es de especial relevancia para los miembros de los órganos de contr
 - **Hito C — Validación del Nivel 1 con piloto**: 5–10 adultos completando los 6 cursos. Aplicar ajustes derivados de la retroalimentación.
 - **Hito D — Nivel 2 Prioridad 1**: Cursos 7, 8 y 10 (Gobernanza, Planeación, Finanzas) — los más demandados en grupos y regiones.
 - **Hito E — Nivel 2 Prioridad 2**: Cursos 9, 11, 12, 13 y 14.
-- **Hito F — Iniciar Nivel 3 con curso integrador (15 — Cargos del Consejo) y los cargos más demandados (16 — Jefe de Grupo)**.
-- **Hito G — Completar Nivel 3** según demanda.
-- **Hito H — Lanzar Nivel 4** comenzando por el Curso 23 (Código de Honor, Ética y Conflictos de Intereses) por su carácter aplicable a todo adulto.
+- **Hito F — Nivel 3** (Cursos 15–17), tras el reparto con Política de Adultos (§5).
+- **Hito G — Lanzar Nivel 4** comenzando por el Curso 20 (Código de Honor, Ética y Conflictos de Intereses) por su carácter aplicable a todo adulto.
 
 ### 7.3 Criterio para avanzar entre niveles
 

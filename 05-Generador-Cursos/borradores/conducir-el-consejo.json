@@ -1,0 +1,603 @@
+{
+  "courseId": "conducir-el-consejo",
+  "title": "Presidente y Vicepresidente: conducir el Consejo",
+  "subtitle": "Curso 15 de la Línea Desarrollo Institucional · Nivel 3 — Especialización por cargo",
+  "description": "Presidir es servir al órgano, no reemplazarlo. En este curso vas a ver qué le toca al Presidente y al Vicepresidente del Consejo y dónde terminan sus facultades, cómo se prepara una reunión del Consejo y una Asamblea, cómo se vota y qué pasa con un empate, y cómo se manejan el conflicto de interés, los vínculos familiares y los choques entre el Consejo y el Jefe de Grupo.",
+  "contentVersion": "2026-09-28",
+  "status": "active",
+  "icon": "🪑",
+  "duration": "~39 min",
+  "level": 3,
+  "levelName": "Especialización por cargo",
+  "order": 15,
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~39 minutos · 7 lecciones.</strong><br>Al final vas a poder distinguir qué le toca al Presidente y al Vicepresidente del Consejo y dónde terminan sus facultades, preparar una reunión del Consejo y una Asamblea de Grupo, saber cómo se vota en cada una y qué pasa con un empate, y manejar un conflicto de interés, un vínculo familiar o un choque con el Jefe de Grupo.<br><strong>Cada lección cierra con 2 preguntas:</strong> para avanzar hay que acertar las dos. Si fallas, el curso te muestra la correcta y lo vuelves a intentar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Es marzo. La nueva Presidenta del Consejo cita la Asamblea con ocho días, sin orden del día ni estados financieros, y la conduce ella. El presupuesto empata dos veces y ella desempata con su voto. Luego firma, sin pasar por la Región, el arriendo de una finca. Y el Consejo compra las carpas a la empresa del esposo de la Tesorera, que no lo dijo. <strong>Todo con buena voluntad; casi nada bien.</strong>"
+        },
+        {
+          "type": "blockquote",
+          "text": "Presidir es servir al órgano, no reemplazarlo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Este curso mira el cargo desde los órganos: la Asamblea, el Consejo y sus reglas. La ficha del consejero y sus competencias las trabaja el Curso 12 de Política de Adultos, <em>Ser consejero de grupo</em>. Aquí partimos de lo que ya viste en el Curso 7 (cómo sesionan la Asamblea y el Consejo) y vamos un paso más allá: lo que le toca a quien los preside. Las reglas de las Lecciones 3 a 5 son las del grupo; si presides un Consejo Regional, rige el Reglamento de Regiones, que trae reglas parecidas."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a practicar"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 🧭 Lo que le toca al Presidente y al Vicepresidente.",
+            "<strong>Lección 3 —</strong> 🪑 Preparar y conducir la reunión del Consejo.",
+            "<strong>Lección 4 —</strong> 📣 Citar e instalar la Asamblea.",
+            "<strong>Lección 5 —</strong> 🗳️ Votar y decidir en la Asamblea.",
+            "<strong>Lección 6 —</strong> ⚖️ Cuando hay conflicto.",
+            "<strong>Lección 7 —</strong> ✅ La revisión de tu Consejo."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de empezar:</strong> piensa en la última Asamblea de tu grupo y en la última reunión del Consejo: quién las citó, quién las condujo y cómo se decidió. Lo vas a usar en la Lección 7."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 🧭 Lo que le toca al Presidente y al Vicepresidente",
+      "emoji": "🧭",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>El Presidente representa al grupo y coordina su administración, pero actúa dentro de lo que deciden la Asamblea y el Consejo; el Vicepresidente lo reemplaza y trae proyectos."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Presidenta de marzo firmó el arriendo de la finca convencida de que podía: el Manual dice que el Presidente suscribe a nombre del grupo. Tenía razón a medias. A los dos cargos los nombra la Asamblea y a ella le responden (Manual de Cargos, fichas 2.1.2 y 2.1.3; el Reglamento de Grupos decía que los elegía el Consejo, pero en cargos manda el Manual desde el Acuerdo C.S.N. 558 de 2023). Esta es la función propia de cada uno:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧭 Presidente",
+              "description": "Representa al grupo ante entidades de todo tipo; coordina la administración; suscribe a nombre del grupo; autoriza los gastos necesarios dentro de las cuantías que fijó el Consejo.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "🤝 Vicepresidente",
+              "description": "Reemplaza al Presidente en sus ausencias temporales o absolutas; estudia proyectos para el grupo y los lleva al Consejo con sus recomendaciones; apoya al Presidente; también representa al grupo.",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la Función 4 del Presidente",
+          "text": "Representar al Grupo ante entidades de todo tipo. Coordina la administración del Grupo. Suscribir, legalizar y ejecutar a nombre del Grupo todas las transacciones comerciales, jurídicas y de cualquiera otra índole. Autorizar los gastos necesarios para el normal funcionamiento del Grupo de acuerdo a las cuantías autorizadas por el consejo",
+          "source": "Manual de cargos, perfiles y funciones por competencias (DNAM, 2020), ficha 2.1.2 Presidente del Consejo Scout de Grupo, Función 4, p. 13"
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Tres límites que la ficha no dice"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "<strong>La máxima autoridad es la Asamblea,</strong> no el Presidente. La ficha abre con «es la máxima autoridad del grupo Scout», pero el Estatuto dice que lo es la Asamblea Scout de Grupo, y que la administración es del Consejo (Estatuto 2025, Art. 18). Manda el Estatuto.",
+            "<strong>Gasta dentro de lo que el Consejo fijó.</strong> Dentro de esa cuantía decide solo; lo que la supera vuelve al Consejo.",
+            "<strong>No contrata con terceros por su cuenta.</strong> El grupo actúa con la personería de su Región, y sus contratos con terceros pasan por el representante legal de la Región (Reglamento Nacional, Art. 231), como viste en el Curso 9."
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>📄 Un deber que llega por correo: el paz y salvo.</strong> Quien lo necesita lo pide por correo electrónico al Presidente del Consejo. La Tesorería tiene diez días hábiles para verificar las deudas y el Presidente cinco días más para expedir la constancia, que no se puede negar. Si pasan treinta días sin respuesta, se entiende expedida, y el correo enviado prueba que se pidió (Reglamento Nacional, Arts. 56 y 60)."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🏛️ Si presides un Consejo Regional:</strong> tu ficha es la 2.2.2 del Manual. Y el Presidente del Consejo Scout Nacional puede delegarte la representación legal para firmar convenios, acuerdos o contratos hasta por cincuenta salarios mínimos y por un máximo de dos años, informando de todo el proceso al Consejo Nacional (Reglamento Nacional, Art. 94)."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> autorizar un pago dentro de su cuantía sí le toca al Presidente. Pero firmar un contrato a nombre del grupo con un tercero —un arriendo, un transporte, un servicio— pasa por la Región (Reglamento Nacional, Art. 231), como viste en el Curso 9."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Qué cuantía de gasto puede autorizar hoy el Presidente de tu Consejo sin volver a él? ¿Está escrita en un acta, o nadie la fijó? (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "El Consejo dejó en el acta la cuantía de gastos que el Presidente autoriza solo. Hay que reponer el botiquín antes de la salida del sábado, por mucho menos de esa cifra, y el Consejo se reúne en tres semanas. La Secretaria le dice: «Autorízalo tú: para eso fijamos la cuantía». ¿Qué hace el Presidente?",
+            "options": [
+              "Lo autoriza él mismo, porque el gasto cabe en la cuantía que el Consejo le fijó en el acta.",
+              "Lo deja para la reunión: aunque quepa en la cuantía, un gasto del grupo pide el voto del Consejo.",
+              "Se lo pasa al Jefe de Grupo, porque el botiquín es de la salida y lo técnico lo decide él."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un papá pide por correo al Presidente del Consejo el paz y salvo para trasladar a su hijo a otro grupo. Pasan treinta días y nadie le responde. ¿Qué dice el Reglamento Nacional?",
+            "options": [
+              "Que se da por expedida, y el correo con que la pidió le sirve de prueba.",
+              "Que se da por negada, y el papá tiene que volver a pedirla desde cero.",
+              "Que se da por aplazada mientras la Tesorería termina de revisar deudas."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 3 →"
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🪑 Preparar y conducir la reunión del Consejo",
+      "emoji": "🪑",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>El Reglamento fija quién cita al Consejo, con cuánto tiempo y con cuántos decide; el orden del día, cómo se vota y qué pasa con un empate los acuerda el propio Consejo, por escrito, dentro de las normas de funcionamiento del grupo."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el Curso 7 viste las reglas mínimas: reunión cada mes, citación escrita con dos días, quórum de cinco. Ahora míralas desde quien preside. ¿Quién puede citar?"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver quién cita al Consejo",
+          "text": "Las reuniones ordinarias del Consejo de Grupo se efectuarán como mínimo una (1) vez cada mes, en el sitio, fecha y hora que determine el propio Consejo o por citación de su Presidente, del Fiscal o de la mitad más uno de sus miembros. La citación por escrito se realizará mínimo con dos (2) días comunes de anticipación.",
+          "source": "Reglamento Nacional para Grupos Scouts (2013), Art. 5.5, p. 22"
+        },
+        {
+          "type": "paragraph",
+          "text": "El Fiscal de Grupo ya no está vigente, y ninguna norma dice quién hereda su facultad de citar. Quedan tres vías: que el propio Consejo fije sus fechas, que cite el Presidente —o el Vicepresidente cuando lo reemplaza— o que cite la mitad más uno de los miembros."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "Lo que ninguna norma vigente resuelve"
+        },
+        {
+          "type": "paragraph",
+          "text": "Para el Consejo, ninguna norma vigente fija el orden del día, la mayoría con que se decide ni qué pasa con un empate. Si tu grupo tiene normas de funcionamiento aprobadas por la Asamblea (Curso 7), míralas primero: puede que ya digan cómo sesiona el Consejo. Si no lo dicen, a quien preside le toca proponer, en la primera sesión, un acuerdo de funcionamiento escrito que quepa dentro de ellas. Uno sencillo tiene tres momentos:"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "📨 Antes",
+              "description": "La citación escrita lleva el orden del día y los documentos que se van a decidir: las cuentas del mes, el proyecto, la cotización."
+            },
+            {
+              "title": "🪑 Durante",
+              "description": "Se verifica el quórum, se pregunta si alguien tiene un conflicto de interés con algún punto (Lección 6) y se cuentan los votos de cada decisión."
+            },
+            {
+              "title": "📝 Después",
+              "description": "El acta dice qué se decidió, con cuántos votos, quién lo ejecuta y para cuándo; si la reunión fue virtual, la firman el Presidente y el Secretario dentro de los treinta días, y esas reuniones no pasan del 30 % de las del período (Reglamento de Grupos, 4.4.8). En la siguiente reunión se revisa lo pendiente."
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>🪑 Si falta un consejero:</strong> entra el suplente con más votos, si la Asamblea eligió suplentes; y a quien renuncia o falta a cinco reuniones sin justa causa, los demás lo declaran insubsistente. Todo queda en el acta, con copia al nivel superior (Reglamento de Grupos, 5.1)."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> el acuerdo de funcionamiento es una herramienta de este curso, no una norma. Para el empate hay dos modelos con fuente: el de la Asamblea de Grupo (se repite la votación y, si vuelve a empatar, es un no: Lección 5) y el del Consejo Scout Nacional (se vuelve a votar en otra sesión y, si persiste, se rechaza: Estatuto, Art. 57). Un Consejo que ya escogió uno no descubre la regla en medio de una votación empatada."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Tu Consejo tiene por escrito cómo se vota y qué pasa con un empate? Si no, escribe la regla que propondrías y por qué. (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "El Presidente está de viaje un mes y hay que aprobar las cuentas mensuales. ¿Quién puede citar al Consejo mientras vuelve?",
+            "options": [
+              "El Vicepresidente, que lo reemplaza en sus ausencias, o la mitad más uno del Consejo.",
+              "El Contador, que reemplazó al Fiscal de Grupo y con él heredó la facultad de citarlo.",
+              "El Tesorero, que presenta las cuentas del mes y por eso lo cita cuando toca aprobarlas."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En la primera sesión de un Consejo nuevo, una consejera propone: «Acordemos hoy qué pasa si una votación empata». Otro consejero responde: «No hace falta: el Reglamento dice que desempata el Presidente». ¿Quién tiene razón?",
+            "options": [
+              "Tiene razón la consejera: ninguna norma vigente fija el desempate del Consejo, y conviene dejarlo en el acta.",
+              "Tiene razón el consejero: cuando hay empate, el voto del Presidente vale doble, como en una junta directiva.",
+              "No la tiene ninguno: el empate del Consejo lo decide la Asamblea en su próxima reunión ordinaria."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 4 →"
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 📣 Citar e instalar la Asamblea",
+      "emoji": "📣",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>La Asamblea se cita por escrito con quince días hábiles, orden del día, informes y estados financieros; el Presidente del Consejo la instala, pero la conduce la Mesa Directiva que ella misma elige."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el Curso 7 viste qué decide la Asamblea y qué deja en su acta. Ahora, lo que le toca al Consejo y a su Presidente antes y al comienzo:"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "📣 Citar",
+              "description": "La ordinaria, dentro de los tres primeros meses del año. Pueden convocarla el Presidente del Consejo, la mayoría de los miembros de la Asamblea o el Consejo del nivel superior. La citación es escrita, llega a todos los miembros y a la Región —para que designe su delegado— con quince días hábiles de anticipación, e indica fecha, hora, lugar y orden del día, con los informes y los estados financieros (Reglamento de Grupos, 4.5)."
+            },
+            {
+              "title": "🗂️ Preparar",
+              "description": "El Consejo se constituye como Comité Preparatorio o lo designa: arma la lista de quienes integran la Asamblea y organiza la reunión (4.7)."
+            },
+            {
+              "title": "🔢 Verificar el quórum",
+              "description": "Lo primero es la llamada a lista (4.13). La Asamblea delibera con la mitad más uno de los miembros con voz y voto (4.15). Si en la primera sesión no se reúne, el Consejo cita en segunda convocatoria, entre diez y treinta días comunes después, y esa Asamblea delibera con los que asistan (4.16)."
+            },
+            {
+              "title": "🎌 Instalar y elegir la Mesa",
+              "description": "Con quórum, el Presidente del Consejo inaugura e instala la Asamblea (4.12), y la Asamblea elige su Mesa Directiva —un Presidente y un Secretario— de entre los asistentes (4.11). Es la Mesa la que conduce."
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver quién conduce la Asamblea",
+          "text": "La Mesa Directiva de la Asamblea estará integrada por un Presidente y un Secretario quienes serán elegidos por la Asamblea de entre los asistentes.",
+          "source": "Reglamento Nacional para Grupos Scouts (2013), Art. 4.11, p. 15"
+        },
+        {
+          "type": "paragraph",
+          "text": "El orden del día lo presenta el Consejo y lo aprueba la Asamblea por mayoría absoluta; el Reglamento fija veinte puntos obligatorios, desde la llamada a lista hasta la clausura (4.13). Dos de ellos ya no aplican: el informe y la elección del Fiscal o Revisor Fiscal de Grupo, que no está vigente."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> presidir es servir al órgano, no reemplazarlo. El Presidente del Consejo abre la Asamblea y rinde su informe en ella; conducirla es de la Mesa que la Asamblea elija. Y es buena idea que no la presida quien va a rendir su propio informe."
+        }
+      ],
+      "reflection": {
+        "prompt": "En la última Asamblea de tu grupo, ¿con cuántos días se citó, llegaron los estados financieros con la citación y quién la condujo? Escribe qué cambiarías para la próxima. (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "El Presidente cita la Asamblea ordinaria por escrito, con quince días hábiles de anticipación, e indica fecha, hora, lugar y orden del día. ¿Está bien citada?",
+            "options": [
+              "No está bien citada: con la citación tienen que ir también los informes y los estados financieros.",
+              "Sí está bien citada: con quince días hábiles y el orden del día, la citación ya queda completa.",
+              "No está bien citada: la citación de la Asamblea la firma su Mesa Directiva, no el Presidente del Consejo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Instalada la Asamblea, el Presidente del Consejo dice: «Como presido el Consejo, yo dirijo la Asamblea». ¿Qué le responde el Reglamento?",
+            "options": [
+              "Que la conduce su Mesa Directiva, que la Asamblea elige de entre los asistentes.",
+              "Que la conduce el delegado de la Región, que asiste en nombre del Consejo Regional.",
+              "Que la sigue conduciendo él, porque fue quien la instaló en la ceremonia de apertura."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 5 →"
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 🗳️ Votar y decidir en la Asamblea",
+      "emoji": "🗳️",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>La Asamblea decide por mayoría absoluta de los presentes y elige con escrutadores; y en sus demás decisiones, un empate que se repite es un no: nadie desempata con su voto."
+        },
+        {
+          "type": "paragraph",
+          "text": "No todo lo que pasa en una Asamblea se vota. El Reglamento distingue cuatro formas de decidir (4.22):"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📜 Declaraciones — se votan",
+              "description": "Fijan criterios de la Asamblea sobre políticas que debe seguir el grupo, sus ramas o sus miembros.",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "✅ Acuerdos — se votan",
+              "description": "Aprueban proyectos o determinaciones concretas: el presupuesto, el Plan de Grupo, un proyecto.",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            },
+            {
+              "title": "💬 Recomendaciones — no se votan",
+              "description": "Sugieren acciones a otros estamentos de la Asociación, a sus miembros o a entidades externas, sobre las que la Asamblea no tiene autoridad.",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            },
+            {
+              "title": "🎙️ Mociones — no se votan",
+              "description": "Proposiciones de orden protocolario de los asistentes: un saludo, un reconocimiento.",
+              "color": "#fce4ec",
+              "borderColor": "#c2185b"
+            }
+          ]
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Mayoría:</strong> con quórum, se decide con la mitad más uno de los presentes; suspender o disolver el grupo exige el 80 % de los asistentes (4.18).",
+            "<strong>Elecciones:</strong> pueden ser secretas. La Asamblea nombra tres escrutadores, cada votante tiene tantos votos como dignidades se eligen, el conteo es público y, si hay empate, se vota de nuevo de inmediato (4.23).",
+            "<strong>Las demás decisiones:</strong> a mano alzada, en plenaria (4.24)."
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué pasa con un empate",
+          "text": "En el caso de que resultare un empate entre el número de votos afirmativos y negativos, la votación se realizará de nuevo por el mismo sistema. Si en la segunda ronda de votaciones persistiera el empate, la votación se considerará negativa.",
+          "source": "Reglamento Nacional para Grupos Scouts (2013), Art. 4.24, p. 18"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> en la Asamblea de Grupo, ninguna norma le da al Presidente del Consejo ni al de la Mesa un voto para desempatar: el empate que se repite es un no. En el caso, el presupuesto empató dos veces: quedaba sin aprobar, y el voto de la Presidenta no lo podía salvar."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿En la última Asamblea de tu grupo se contaron los votos de cada decisión, o se aprobó «por aclamación»? Si no se contaron, escribe cómo propondrías contarlos y dejarlos en el acta la próxima vez. (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "La Asamblea del grupo vota el presupuesto: 18 a favor y 18 en contra. Se repite la votación y vuelve a quedar 18 a 18. ¿Qué pasa con el presupuesto?",
+            "options": [
+              "Queda sin aprobar, porque si el empate persiste en la segunda ronda la votación es negativa.",
+              "Queda aprobado si el Presidente de la Mesa desempata con un voto adicional, como le corresponde.",
+              "Queda pendiente: se vota hasta que haya resultado, porque no puede quedar sin presupuesto."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Al final de la Asamblea, una delegada propone recomendarle a la Alcaldía que ilumine el parque donde se reúne la Manada, y pide que se vote. El Presidente de la Mesa responde que eso no se somete a votación. ¿Qué dice el Reglamento?",
+            "options": [
+              "Que no se vota: sugiere una acción a una entidad sobre la que la Asamblea no manda.",
+              "Que se vota a mano alzada: aprueba una determinación concreta, y así queda en el acta.",
+              "Que hay que votarla: fija un criterio que el grupo debe seguir con las entidades del barrio."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 6 →"
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — ⚖️ Cuando hay conflicto",
+      "emoji": "⚖️",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>Quien preside cuida que cada decisión la tome quien debe: sin intereses personales en la mesa, sin dos de la misma familia en el Consejo y sin que el Consejo decida lo técnico."
+        },
+        {
+          "type": "paragraph",
+          "text": "Volvamos a las carpas de marzo: la Tesorera trajo la cotización de la empresa de su esposo y no lo dijo. Nadie mintió en voz alta, y aun así la decisión quedó torcida. A quien preside le tocan tres cuidados:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🙋 El conflicto de interés",
+              "description": "Un interés personal —económico, familiar, de amistad— interfiere o puede interferir con una decisión (Reglamento Nacional, Art. 68). Todo miembro lo declara de inmediato, sea propio o de otro; el mismo órgano lo decide antes de tomar la decisión, y la persona afectada no participa ni en la discusión ni en la votación (Art. 83). No declararlo abre una investigación ante la Corte de Honor (Art. 82).",
+              "color": "#e3f2fd",
+              "borderColor": "#1565c0"
+            },
+            {
+              "title": "👪 Un solo miembro por familia",
+              "description": "En el Consejo de Grupo no puede haber más de un integrante del mismo núcleo familiar, ni como principal ni como suplente: parientes hasta el segundo grado de consanguinidad, el primero de afinidad —cónyuge o compañero, suegros— y el primero civil (Reglamento Nacional, Art. 75).",
+              "color": "#e8f5e9",
+              "borderColor": "#2e7d32"
+            },
+            {
+              "title": "🔀 El Consejo y el Jefe de Grupo",
+              "description": "En lo legal, administrativo y financiero, la autoridad es del Consejo; en lo técnico —cómo se aplica el Método Scout, el Programa de Jóvenes, la captación y formación de adultos, el crecimiento— es del Jefe de Grupo, la máxima autoridad técnica del grupo. Si chocan y no llegan a un acuerdo, lo legal, administrativo o financiero lo define el Consejo del nivel superior, y lo técnico, el Jefe Scout del nivel superior; en los dos casos, su decisión obliga (Reglamento de Grupos, 12.5; Manual de Cargos, 2.1.10).",
+              "color": "#fff8e1",
+              "borderColor": "#f9a825"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el procedimiento del conflicto de interés",
+          "text": "Recibida la petición de declaración de inhabilidad, incompatibilidad o conflicto de interés, esta deberá ser decidida por el mismo estamento o el superior jerárquico cuando se trate del área operativa, antes de que se tome la decisión en cuestión. La persona afectada no podrá participar en la discusión o toma de decisión sobre el tema.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 83, p. 23"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> la Tesorera no vota en el Consejo, pero debía declarar de inmediato que la cotización era de la empresa de su esposo: el deber de declarar es de todo miembro, vote o no. Y no hacía falta adivinar quién tenía un interés: quien preside pregunta a todos al empezar cada punto."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿En tu Consejo alguien pregunta por conflictos de interés antes de decidir una compra o un contrato? Escribe cómo lo harías en la próxima reunión. (Anota roles, no nombres.)"
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "questions": [
+          {
+            "text": "Al llegar al punto de los uniformes, el Presidente pregunta si alguien tiene un conflicto de interés. Nadie habla, pero la Secretaria sabe que la oferta más barata es de la hermana del Intendente. ¿Qué hace ella?",
+            "options": [
+              "Lo plantea ahí mismo, porque un conflicto se declara sea propio o de otro miembro, antes de decidir.",
+              "Se queda callada, porque declarar el conflicto le toca al Intendente, y él decidió no hacerlo.",
+              "Lo reporta después de votar: sobre un conflicto ajeno decide la Corte de Honor, no el Consejo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El Consejo quiere que la Tropa deje de trabajar por patrullas, y el Jefe de Grupo se opone. Lo hablan y no hay acuerdo. ¿Quién lo define?",
+            "options": [
+              "Lo define el Jefe Scout del nivel superior: es técnico, de cómo se aplica el Método Scout.",
+              "Lo define el Consejo del nivel superior: es un choque entre órganos del grupo, y lo zanja la Región.",
+              "Lo define la Asamblea de Grupo: como máxima autoridad del grupo, zanja los choques entre sus órganos."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 7 →"
+    },
+    {
+      "id": 7,
+      "title": "Lección 7 — ✅ La revisión de tu Consejo",
+      "emoji": "✅",
+      "navLabel": "L7",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Seis preguntas muestran si tu Consejo y tu Asamblea se conducen bien, y cada «no» o «no sé» es un compromiso posible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Presidir es servir al órgano, no reemplazarlo. Volvamos a la Asamblea de marzo. Estas son las seis preguntas:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "¿La Asamblea se cita por escrito, con quince días hábiles, orden del día, informes y estados financieros?",
+            "¿La Asamblea elige su Mesa Directiva, o la conduce por costumbre el Presidente del Consejo?",
+            "¿Sabemos qué pasa con un empate, en la Asamblea y en el Consejo?",
+            "¿Los gastos se autorizan dentro de la cuantía fijada, y los contratos con terceros pasan por la Región?",
+            "¿Quien tiene un interés en una decisión lo declara a tiempo y se aparta de ella?",
+            "¿El Consejo tiene por escrito cómo sesiona: orden del día, votaciones y acta?"
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de seguir:</strong> cuenta cuántas de las seis le fallaron a la Presidenta del caso. Son más de una."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Compara:</strong> le fallaron cinco: la 1 (ocho días, sin orden del día ni estados financieros), la 2 (la Presidenta condujo la Asamblea), la 3 (desempató con su voto un presupuesto que, empatado dos veces, quedaba sin aprobar), la 4 (firmó el arriendo de la finca sin pasar por la Región) y la 5 (la Tesorera calló que la cotización era de la empresa de su esposo). La 6 no se sabe: quizá ese Consejo nunca la escribió."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu turno:</strong> responde las seis con «sí», «no» o «no sé». Escoge un «no» o un «no sé» y conviértelo en un compromiso: qué regla o práctica vas a proponer, a qué órgano y para cuándo. Escríbelo en el recuadro «Compromiso Personal» del certificado."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>➡️ Lo que sigue:</strong> el Curso 16 mira otro cargo desde la gestión: el comisionado, en la Región y en la Nación."
+        }
+      ],
+      "reflection": {
+        "prompt": "Anota cuántas de las seis preguntas respondiste con «sí» y cuál escogiste para mejorar (solo el número). El compromiso completo —qué vas a proponer, a qué órgano y para cuándo— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7 — Cierre del curso",
+        "questions": [
+          {
+            "text": "En otro grupo, el Presidente firmó a nombre del grupo el alquiler de un bus con una empresa de transporte. El gasto cabía en la cuantía que le fijó el Consejo y nadie tenía interés en la empresa. ¿Cuál de las seis preguntas le falla?",
+            "options": [
+              "La 4: aunque el gasto cabía en la cuantía, un contrato con un tercero pasa por la Región.",
+              "Ninguna: cabía en la cuantía, y suscribir a nombre del grupo es función propia del Presidente.",
+              "La 6: si el Consejo no fijó por escrito cómo decide, el Presidente no podía firmar nada solo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una Presidenta hace la revisión y responde «no» a la pregunta 4: nadie ha fijado la cuantía de gastos que ella autoriza sola. ¿Qué compromiso sale bien de esta revisión?",
+            "options": [
+              "Llevar a la reunión del Consejo de febrero la cuantía que el Presidente autoriza solo, y dejarla en el acta.",
+              "Llevar al Jefe de Grupo en febrero la cuantía que el Presidente autoriza solo, para que la anote en su informe.",
+              "Fijar ella misma en febrero la cuantía que autoriza sola, y avisarle al Consejo por escrito en su reunión."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Ir al certificado →"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Sé dónde termina la firma",
+      "emoji": "🧭",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Preparo el Consejo",
+      "emoji": "🪑",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Cito bien la Asamblea",
+      "emoji": "📣",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Cuento los votos",
+      "emoji": "🗳️",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Manejo el conflicto",
+      "emoji": "⚖️",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Presido para servir",
+      "emoji": "✅",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "PRESIDENTE Y VICEPRESIDENTE: CONDUCIR EL CONSEJO",
+    "description": "ha completado el Curso 15 del Nivel 3 — Especialización por cargo de la Línea Desarrollo Institucional, distinguiendo las funciones del Presidente y del Vicepresidente del Consejo y sus límites, preparando las reuniones del Consejo y la Asamblea de Grupo, aplicando sus reglas de votación y manejando el conflicto de interés, los vínculos familiares y los conflictos con el Jefe de Grupo, con un compromiso concreto sobre cómo sesiona su Consejo"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí el compromiso de la revisión de tu Consejo: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano y para cuándo.",
+    "placeholder": "Voy a proponer…"
+  }
+}

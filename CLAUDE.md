@@ -4,11 +4,11 @@
 
 ## Qué es
 
-Línea de formación digital para adultos voluntarios de la Asociación Scouts de Colombia sobre la gestión del grupo: los 8 ámbitos de la PNDI 2017, gobernanza, planeación, administración, finanzas, captación de fondos, comunicaciones, crecimiento y gestión del riesgo. Cursos cortos, certificables y autoservicio. Plan total: 24 cursos en 4 niveles (`Plan-de-Formacion-Linea-Desarrollo-Institucional.md`).
+Línea de formación digital para adultos voluntarios de la Asociación Scouts de Colombia sobre la gestión del grupo: los 8 ámbitos de la PNDI 2017, gobernanza, planeación, administración, finanzas, captación de fondos, comunicaciones, crecimiento y gestión del riesgo. Cursos cortos, certificables y autoservicio. Plan total: 21 cursos en 4 niveles (`Plan-de-Formacion-Linea-Desarrollo-Institucional.md`).
 
 **En vivo:** https://maximoaluna-blip.github.io/INDUCCION-DESARROLLO-INSTITUCIONAL/
 
-**Cursos publicados, por nivel: ver `../ESTADO.md`** (lo genera `python generar-estado.py` en la raíz; aquí no se escriben cifras). Niveles 1 y 2 completos (28-sep-2026, ADR-103). **El Nivel 3 (por cargo) se consulta con el dueño antes de diseñarlo**: la autonomía que dio el 27-sep llegaba hasta cerrar el Nivel 2. Lo que enseñó cada curso está en su ADR y en `docs/BITACORA.md` de la raíz; los pendientes, en `INDICE-PROYECTO.md`.
+**Cursos publicados, por nivel: ver `../ESTADO.md`** (lo genera `python generar-estado.py` en la raíz; aquí no se escriben cifras). Niveles 1 y 2 completos (28-sep-2026, ADR-103). **Nivel 3 (Cursos 15–17) con autonomía del dueño desde el 28-sep-2026 hasta cerrarlo**; al cerrarlo, el Nivel 4 se vuelve a consultar. Panorama de cargos, Consejero y Jefe de Grupo son de Política de Adultos: DI remite, no duplica (Plan §5). Lo que enseñó cada curso está en su ADR y en `docs/BITACORA.md` de la raíz; los pendientes, en `INDICE-PROYECTO.md`.
 
 ## Comparte con las demás líneas
 
@@ -48,4 +48,4 @@ Línea de formación digital para adultos voluntarios de la Asociación Scouts d
 | `01-Diseno-Cursos/` | Un diseño por curso, con §0 (fuentes) y §4 (auditorías) |
 | `BACKEND.md` | Backend Apps Script |
 | `PRUEBAS-E2E/README.md` | Suite funcional (Playwright + axe), corre en CI |
-| `Plan-de-Formacion-Linea-Desarrollo-Institucional.md` | Plan de la línea (24 cursos) |
+| `Plan-de-Formacion-Linea-Desarrollo-Institucional.md` | Plan de la línea (21 cursos) |

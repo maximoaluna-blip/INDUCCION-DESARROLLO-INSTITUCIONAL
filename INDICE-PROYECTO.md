@@ -40,7 +40,7 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 ├── AUDITORIA.md                                            ← Proceso de auditoría
 ├── INDICE-PROYECTO.md                                      ← Este archivo
 ├── README.md                                               ← Para visitantes del repo
-├── Plan-de-Formacion-Linea-Desarrollo-Institucional.md    ← Plan de los 24 cursos (4 niveles)
+├── Plan-de-Formacion-Linea-Desarrollo-Institucional.md    ← Plan de los 21 cursos (4 niveles)
 ├── Recomendaciones-Cowork-Diseno-Cursos.md                ← Guía pedagógica para Cowork
 │
 ├── assets/
@@ -102,10 +102,17 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 | 13 | 📈 Crecimiento y Sistema de Información | `crecimiento-sistema-informacion` | ~31 min · 7 lecciones | ✅ Activo (27-sep-2026, ADR-102) |
 | 14 | 🛡️ Gestión del Riesgo | `gestion-del-riesgo` | ~33 min · 7 lecciones | ✅ Activo (28-sep-2026, ADR-103) |
 
+**Nivel 3 — Especialización por cargo** (3 cursos, 15–17). El panorama de cargos, el Consejero y el Jefe de Grupo son de Política de Adultos (ADR-107 de PA, ADR-111).
+
+| # | Curso | courseId | Duración | Estado |
+|---|---|---|---|---|
+| 15 | 🪑 Presidente y Vicepresidente: conducir el Consejo | `conducir-el-consejo` | ~39 min · 7 lecciones | ✅ Activo (28-sep-2026, ADR-111) |
+| 16 | 🗺️ El Comisionado: llevar la Política a los grupos | `comisionado-region-nacion` | ~37 min · 7 lecciones | 🛠️ En auditoría |
+| 17 | Órganos de control y disciplina por nivel | — | — | Por construir |
+
 **Niveles siguientes:**
 
-- **Nivel 3 — Especialización por cargo** (6 cursos): Cargos del Consejo, Jefe de Grupo, Presidente, Consejero, Comisionado, Vigilancia y Control.
-- **Nivel 4 — Transversales** (4 cursos): Salud Institucional, Buenas Prácticas, Código de Honor, Articulación con Plan Trienal Mundial y Regional.
+- **Nivel 4 — Transversales** (4 cursos, 18–21): Salud Institucional, Buenas Prácticas, Código de Honor, Articulación con Plan Trienal Mundial y Regional.
 
 Detalle completo en [`Plan-de-Formacion-Linea-Desarrollo-Institucional.md`](Plan-de-Formacion-Linea-Desarrollo-Institucional.md).
 
@@ -209,8 +216,8 @@ Detalles en [`BACKEND.md`](BACKEND.md).
 ### Fase siguiente
 
 - **Nivel 2 — Profundización**: completo (8 de 8).
-- **Nivel 3 — Especialización por cargo** (6 cursos): **se consulta con el dueño antes de diseñarlo** (la autonomía llegaba hasta cerrar el Nivel 2). Comprobar el foco de cada curso contra el corpus: en el Nivel 2, 6 de 8 no tenían fuente.
-- **Nivel 4 — Transversales** (4 cursos), priorizando el Curso 23 (Código de Honor) por su carácter universal.
+- **Nivel 3 — Especialización por cargo** (3 cursos, 15–17): **en construcción desde el 28-sep-2026, con autonomía del dueño hasta cerrarlo**. Reparto con PA en el Plan §5. Comprobar el foco de cada curso contra el corpus: en el Nivel 2, 6 de 8 no tenían fuente.
+- **Nivel 4 — Transversales** (4 cursos, 18–21), priorizando el Curso 20 (Código de Honor) por su carácter universal.
 - Evaluar si separar el backend de la Línea Política de Adultos (criterios en `BACKEND.md`).
 
 ### Consultas pendientes (al CSN o a la DNDI; ninguna cambia lo que enseñan los cursos publicados)
@@ -222,6 +229,8 @@ Detalles en [`BACKEND.md`](BACKEND.md).
 - **Documentos que no están en el corpus:** Manual de Imagen Corporativa y Reglamento de Uniformes, Insignias y Distintivos (RN 232, 235; Curso 12), Manual de Afiliaciones (RN 43; Curso 13), manuales de crecimiento de la DNDI, Protocolo Nacional de Transporte, Política de Conflictos de Intereses (Acuerdo 419), Constitución de la OMMS (cita del Curso 3).
 
 ### Tareas técnicas
+
+- **Privacidad del compromiso (hallada al auditar el Curso 16):** el aviso del registro dice que el compromiso del cierre se queda en el navegador, pero la reflexión de la L7 de los **Cursos 9 a 14** pide escribirlo, y las reflexiones viajan a la hoja. Corregido en los Cursos 15 y 16 (la reflexión pide solo el número; el compromiso va al recuadro). Falta aplicarlo a los Cursos 9–14.
 
 - Extender `checkOvejaNegra` a **prefijos** de 2–4 palabras (ver la deuda técnica de `DECISIONES.md`).
 - Variar la última pregunta de los **Cursos 9 y 10**, que comparten el molde «Proponer al Consejo de <mes>…».
