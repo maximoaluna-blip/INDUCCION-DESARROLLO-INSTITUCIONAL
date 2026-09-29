@@ -3,7 +3,7 @@
   "title": "Niveles y Estructura del Movimiento",
   "subtitle": "Curso 3 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Aterriza la estructura completa del Movimiento Scout: 5 niveles (Mundial, Interamericano, Nacional, Regional, Local) con su arquitectura de órganos por nivel. Importante: la estructura es asimétrica — no se replica el mismo modelo de tres órganos uniformes en cada nivel.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-09-28",
   "icon": "🏗️",
   "duration": "~35 min",
   "level": 1,
@@ -20,7 +20,7 @@
       "sections": [
         {
           "type": "info-box",
-          "text": "<strong>⏱️ Curso de ~30 min · 6 lecciones cortas.</strong><br>Al final vas a saber exactamente <strong>qué órganos existen en cada nivel del Movimiento Scout</strong>, en qué se diferencian, y <strong>dónde acudir</strong> cuando tengas una duda o un problema institucional."
+          "text": "<strong>⏱️ Curso de ~35 min · 7 lecciones cortas.</strong><br>Al final vas a saber exactamente <strong>qué órganos existen en cada nivel del Movimiento Scout</strong>, en qué se diferencian, y <strong>dónde acudir</strong> cuando tengas una duda o un problema institucional."
         },
         {
           "type": "paragraph",
@@ -230,7 +230,7 @@
             "text": "Un dirigente te dice: “En mi grupo el mismo Consejo aprueba el presupuesto, lo ejecuta y además audita si se gastó bien.” ¿Qué está pasando ahí, según los 5 tipos de órganos que viste?",
             "options": [
               "Es normal: el Consejo administra y también puede controlarse a sí mismo, porque conoce sus propias cuentas.",
-              "Se están mezclando administración y control: el control necesita un órgano independiente, el Contador.",
+              "Se están mezclando administración y control: revisar las cuentas le toca a otra persona, el Contador.",
               "Se están mezclando dirección y técnico: el Consejo no debería ejecutar nada operativo, eso es tarea exclusiva de la Asamblea."
             ],
             "correctIndex": 1
@@ -267,7 +267,7 @@
           "items": [
             {
               "title": "🏛️ Dirección — Asamblea Scout Nacional",
-              "description": "La máxima autoridad de la ASC. Reúne a delegados de todas las regiones y aprueba el Estatuto, el Plan Estratégico, los Reglamentos y elige al Consejo Scout Nacional. Se reúne ordinariamente cada 2 años.",
+              "description": "La máxima autoridad de la ASC. Reúne a delegados de todas las regiones y aprueba el Estatuto, el Plan Estratégico, los Reglamentos y elige al Consejo Scout Nacional. Se reúne en forma ordinaria una vez al año, en marzo (Estatuto, Art. 37).",
               "color": "#f3e5f5",
               "borderColor": "#9c27b0"
             },
@@ -304,7 +304,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Hay una cadena natural: la <strong>Asamblea</strong> delega en el <strong>Consejo Scout Nacional</strong> durante los 2 años entre reuniones; el CSN delega lo operativo en la <strong>Jefatura Scout Nacional</strong>; la <strong>Comisión Nacional de Vigilancia y Control</strong> vigila que CSN y Jefatura cumplan; la <strong>Corte de Honor Nacional</strong> entra cuando hay faltas éticas o disciplinarias formales. Las dos últimas no le obedecen al CSN — son independientes para poder controlar."
+          "text": "Hay una cadena natural: la <strong>Asamblea</strong> delega en el <strong>Consejo Scout Nacional</strong> mientras no está reunida; el CSN delega lo operativo en la <strong>Jefatura Scout Nacional</strong>; la <strong>Comisión Nacional de Vigilancia y Control</strong> vigila que CSN y Jefatura cumplan; la <strong>Corte de Honor Nacional</strong> entra cuando hay faltas éticas o disciplinarias formales. Las dos últimas no le obedecen al CSN — son independientes para poder controlar."
         },
         {
           "type": "info-box",
@@ -485,7 +485,7 @@
             },
             {
               "title": "⚙️ Administración — Consejo de Grupo",
-              "description": "El Consejo de Grupo tiene 4 cargos fijos (presidente, vicepresidente, secretario, tesorero), puede sumar un intendente, y el resto de sus integrantes son vocales — cada grupo les reparte tareas según lo que necesite (contabilidad, cancillería, etc.). Es la administración del día a día.",
+              "description": "Es la administración del día a día. Sus cargos los define el Manual de Cargos, que en esta materia manda (Acuerdo CSN 558/2023): al Presidente, al Vicepresidente, al Secretario y al Intendente del Consejo los nombra la <strong>Asamblea Scout de Grupo</strong> (fichas 2.1.2–2.1.5). El <strong>Tesorero</strong> es distinto: lo nombra el Consejo, le rinde cuentas y <strong>no forma parte de él</strong> (ficha 2.1.7). El Reglamento de Grupos (Art. 5.7) dice otra cosa, pero lo que regula sobre cargos de adultos está suspendido.",
               "color": "#e8f5e9",
               "borderColor": "#4caf50"
             },
@@ -497,7 +497,7 @@
             },
             {
               "title": "⚖️ Investigación — Comisión Disciplinaria Ad-hoc (Art. 1.19.4)",
-              "description": "⚠️ Importante: NO es permanente. Se convoca solo cuando hay un caso que tratar. Es presidida por el <strong>Vicepresidente del Consejo de Grupo</strong> (Art. 5.10.4). NO existe en la normatividad vigente una “Corte de Honor de Grupo” formal.",
+              "description": "⚠️ Importante: NO es permanente. El Consejo la forma para cada caso con tres de sus miembros, elegidos por votación simple: uno es el <strong>Vicepresidente</strong>, que la preside; ni el Presidente del Consejo ni el Jefe de Grupo pueden estar en ella (Art. 8.2 y 8.5). Juzga las faltas graves y muy graves de los <strong>niños y jóvenes</strong>. Las faltas de los <strong>adultos</strong> van a la Corte de Honor Nacional, salvo las muy leves, que sanciona el Jefe de Grupo (Art. 8.7). NO existe en la normatividad vigente una “Corte de Honor de Grupo” formal.",
               "color": "#fce4ec",
               "borderColor": "#e91e63"
             },
@@ -511,7 +511,7 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>Por nivel, el órgano de control y el órgano de disciplina son distintos:</strong><br>🏛️ <strong>Nacional</strong> → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ <strong>Regional</strong> → Contador Regional (control), salvo región con personería jurídica propia (ahí, Revisor Fiscal) + Capítulo Regional de la Corte de Honor Nacional (disciplina).<br>🏠 <strong>Grupo</strong> → Contador de Grupo (control) + Comisión Disciplinaria Ad-hoc (disciplina, solo cuando se convoca)."
+          "text": "<strong>Por nivel, el órgano de control y el órgano de disciplina son distintos:</strong><br>🏛️ <strong>Nacional</strong> → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ <strong>Regional</strong> → Contador Regional (control), salvo región con personería jurídica propia (ahí, Revisor Fiscal) + Capítulo Regional de la Corte de Honor Nacional (disciplina).<br>🏠 <strong>Grupo</strong> → Contador de Grupo (control) + Comisión Disciplinaria Ad-hoc (disciplina de niños y jóvenes, solo cuando se convoca; las faltas de los adultos van a la Corte de Honor Nacional)."
         },
         {
           "type": "heading",
@@ -535,11 +535,11 @@
         "title": "Mini-quiz Lección 6",
         "questions": [
           {
-            "text": "En un grupo se necesita investigar formalmente una conducta de un dirigente. El Vicepresidente del Consejo dice: “tengo que convocar al órgano disciplinario”. ¿Qué procedimiento corresponde según el Art. 1.19.4 del Reglamento Nacional de Grupos Scouts?",
+            "text": "Un scout de la Tropa cometió una falta grave en un campamento, y el Jefe de Grupo pide por escrito que se estudie el caso. ¿Qué corresponde según el Reglamento Nacional de Grupos Scouts?",
             "options": [
-              "Convocar la Corte de Honor permanente del grupo, que sesiona una vez al mes y es la que estudia estos casos.",
-              "Convocar la Comisión Disciplinaria Ad-hoc (no permanente), que él mismo preside como Vicepresidente del Consejo.",
-              "Esperar a la próxima asamblea anual para tratar el tema en pleno."
+              "Que la sancionen el Jefe de Grupo y el Jefe de Rama, porque el scout es de su rama.",
+              "Que el Consejo forme una Comisión Disciplinaria Ad-hoc de tres miembros para este caso.",
+              "Que pase directo a la Corte de Honor Nacional, que es la que juzga toda falta grave."
             ],
             "correctIndex": 1
           },
@@ -585,7 +585,7 @@
         },
         {
           "type": "mission-box",
-          "text": "<strong>📌 Tu mapa institucional — Nivel Grupo:</strong><br>• Jefe de Grupo: __________<br>• Presidente del Consejo Scout de Grupo: __________<br>• Vicepresidente del Consejo: __________<br>• Tesorero: __________<br>• Contador (control fiscal-contable): __________<br>• Canciller del Grupo: __________<br>• Secretario: __________<br>• Consejero Juvenil del Grupo: __________"
+          "text": "<strong>📌 Tu mapa institucional — Nivel Grupo:</strong><br>• Jefe de Grupo: __________<br>• Presidente del Consejo Scout de Grupo: __________<br>• Vicepresidente del Consejo: __________<br>• Intendente del Consejo: __________<br>• Tesorero: __________<br>• Contador (control fiscal-contable): __________<br>• Canciller del Grupo: __________<br>• Secretario: __________<br>• Consejero Juvenil del Grupo: __________"
         },
         {
           "type": "mission-box",
@@ -611,7 +611,7 @@
             },
             {
               "title": "⚖️ Conflicto entre personas o falta disciplinaria",
-              "description": "Comisión Disciplinaria Ad-hoc (grupo) → Capítulo Regional de la Corte de Honor (región) → Corte de Honor Nacional (nacional).",
+              "description": "Si la falta es de un niño o joven: las leves las resuelve su rama, con el Jefe de Rama y el Jefe de Grupo; las graves y muy graves, la Comisión Disciplinaria Ad-hoc del grupo (y si se apela su fallo, la Corte de Honor Nacional). Si es de un adulto: la Corte de Honor Nacional; solo las faltas muy leves las sanciona el Jefe de Grupo (Reglamento de Grupos, Art. 8.7).",
               "color": "#fce4ec",
               "borderColor": "#e91e63"
             },
@@ -652,9 +652,9 @@
           {
             "text": "Un padre de familia denuncia que un dirigente se llevó una plata del grupo sin reportarla. ¿A qué órgano debería escalarse primero el caso en un grupo?",
             "options": [
-              "A la Comisión Nacional de Vigilancia y Control directamente, porque es un asunto bastante serio.",
-              "Al Contador del Grupo y, si amerita sanción, a la Comisión Disciplinaria Ad-hoc.",
-              "Directo a la Corte de Honor Nacional, porque el caso es disciplinario."
+              "A la Comisión Nacional de Vigilancia y Control, que es la que sanciona a los dirigentes.",
+              "Al Contador, que revisa las cuentas; si hay falta, la queja va a la Corte de Honor Nacional.",
+              "Al Jefe de Grupo, que sanciona él mismo las faltas leves y graves de sus dirigentes."
             ],
             "correctIndex": 1
           },

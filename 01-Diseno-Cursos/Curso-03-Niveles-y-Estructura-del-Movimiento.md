@@ -14,7 +14,7 @@
 | Título | Niveles y Estructura del Movimiento |
 | Subtítulo | Curso 3 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación |
 | Icono | 🏗️ |
-| Duración | ~30 min |
+| Duración | ~35 min |
 | Lecciones de contenido | 7 + intro + certificado |
 | Audiencia primaria | La misma de la Línea. En especial: jefes de grupo, miembros del consejo, consejeros regionales, miembros de órganos de control y disciplina (Comisión Nacional de Vigilancia y Control, Contadores de Grupo/Región, Comisiones Disciplinarias Ad-hoc). |
 | Pre-requisitos | Curso 1 y Curso 2 (recomendados). |
@@ -69,7 +69,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 
 **Secciones (en orden):**
 
-1. **`info-box`** — Tiempo estimado (~30 min) y promesa: _"Al final vas a saber exactamente qué órganos existen en cada nivel del Movimiento Scout, en qué se diferencian, y dónde acudir cuando tengas una duda o un problema institucional."_
+1. **`info-box`** — Tiempo estimado (~35 min · 7 lecciones) y promesa: _"Al final vas a saber exactamente qué órganos existen en cada nivel del Movimiento Scout, en qué se diferencian, y dónde acudir cuando tengas una duda o un problema institucional."_
 2. **`paragraph`** — Apertura con caso real: _"En una jefatura regional me contaron esta historia. Una mamá llegó al grupo a reclamar por una decisión que afectó a su hijo en una salida. Habló con el jefe. El jefe la mandó al consejo. El consejo le dijo 'eso lo decidió el comisionado regional'. El comisionado le dijo 'eso lo regula la Jefatura Scout Nacional'. La mamá se cansó, escribió a la Oficina Scout Mundial — y la queja terminó devuelta al grupo, al jefe, donde había empezado. **Tres meses perdidos**. Si alguien hubiera sabido el mapa institucional, la queja se atendía bien en el primer nivel."_
 3. **`paragraph`** — Hook enunciado: _"En una institución sana sabes a quién acudir **antes** de que pase algo. En una débil, te das cuenta cuando ya pasó — como le pasó a esa mamá."_
 4. **`paragraph`** — Promesa: _"Este curso es ese mapa. Pero antes, una advertencia: la estructura del Movimiento no es un organigrama empresarial perfectamente simétrico. Es una **federación** — y eso significa que cada nivel tiene su propia arquitectura. Ver eso es la primera lección del curso."_
@@ -155,7 +155,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 > **P1.** Un dirigente te dice: "En mi grupo el mismo Consejo aprueba el presupuesto, lo ejecuta y además audita si se gastó bien." ¿Qué está pasando ahí, según los 5 tipos de órganos que viste?
 >
 > a) _Es normal: el Consejo administra y también puede controlarse a sí mismo, porque conoce sus propias cuentas._
-> b) _Se están mezclando administración y control: el Consejo debería administrar, pero el control fiscal necesita ser un órgano independiente (el Contador) para que nadie audite su propia gestión._ ✅
+> b) _Se están mezclando administración y control: revisar las cuentas le toca a otra persona, el Contador, para que nadie audite su propia gestión._ ✅
 > c) _Se están mezclando dirección y técnico: el Consejo no debería ejecutar nada operativo, eso es tarea exclusiva de la Asamblea._
 
 > **P2.** La estructura de órganos entre los niveles Nacional, Regional y de Grupo de la ASC es…
@@ -177,13 +177,13 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 1. **`info-box`** — Idea central de la lección.
 2. **`paragraph`** — _"Empecemos por el nivel donde la nomenclatura es más completa y más fácil de aprender: el Nacional. Si entiendes este, vas a leer mejor los otros dos."_
 3. **`method-grid`** — 5 tarjetas, una por tipo de órgano, con el nombre del órgano a nivel nacional:
-    - 🏛️ **Dirección — Asamblea Scout Nacional** → _"La máxima autoridad de la ASC. Reúne a delegados de todas las regiones y aprueba el Estatuto, el Plan Estratégico, los Reglamentos y elige al Consejo Scout Nacional. Se reúne ordinariamente cada 2 años."_ (color morado)
+    - 🏛️ **Dirección — Asamblea Scout Nacional** → _"La máxima autoridad de la ASC. Reúne a delegados de todas las regiones y aprueba el Estatuto, el Plan Estratégico, los Reglamentos y elige al Consejo Scout Nacional. Se reúne en forma ordinaria una vez al año, en marzo (Estatuto, Art. 37)."_ (color morado)
     - ⚙️ **Administración — Consejo Scout Nacional (CSN)** → _"En receso de la Asamblea, es la autoridad máxima. Dirige la asociación según los reglamentos y las decisiones de la Asamblea. Emite los Acuerdos y Resoluciones que rigen la ASC entre una Asamblea y la siguiente — por ejemplo, los reglamentos operativos y las políticas nacionales que no requieren pasar por la Asamblea."_ (color verde)
     - 🛠️ **Técnico — Jefatura Scout Nacional** → _"Equipo ejecutivo. Encabezado por el Jefe Scout Nacional. Ejecuta las decisiones del CSN, coordina las Direcciones Nacionales (DNAM, DNDI, DNPJ) y atiende el día a día operativo."_ (color azul)
     - ⚖️ **Investigación/Disciplina — Corte de Honor Nacional** → _"Órgano ético-disciplinario. Investiga conductas que afecten el honor scout y las normas. Tramita los procesos disciplinarios formales del nivel nacional. Aplica el Código de Honor, Disciplinario y de Conducta (Resolución C.S.N. N° 004-22)."_ (color rojo)
     - 👁️ **Control — Comisión Nacional de Vigilancia y Control** → _"7 miembros (elegidos de forma escalonada cada 2 años). Ejerce el control social de la ASC: vigila la administración, vela por el cumplimiento de obligaciones estatutarias y reglamentarias por parte de los asociados. (Nota: la PNDI 2017 todavía lo nombra 'Comité de Control y Vigilancia'; la nomenclatura vigente es 'Comisión'.)"_ (color amarillo)
 4. **`heading` (nivel 3)** — _"Cómo se relacionan entre sí"_
-5. **`paragraph`** — _"Hay una cadena natural: la **Asamblea** delega en el **Consejo Scout Nacional** durante los 2 años entre reuniones; el CSN delega lo operativo en la **Jefatura Scout Nacional**; la **Comisión Nacional de Vigilancia y Control** vigila que CSN y Jefatura cumplan; la **Corte de Honor Nacional** entra cuando hay faltas éticas o disciplinarias formales. Las dos últimas no le obedecen al CSN — son independientes para poder controlar."_
+5. **`paragraph`** — _"Hay una cadena natural: la **Asamblea** delega en el **Consejo Scout Nacional** mientras no está reunida; el CSN delega lo operativo en la **Jefatura Scout Nacional**; la **Comisión Nacional de Vigilancia y Control** vigila que CSN y Jefatura cumplan; la **Corte de Honor Nacional** entra cuando hay faltas éticas o disciplinarias formales. Las dos últimas no le obedecen al CSN — son independientes para poder controlar."_
 6. **`info-box`** — Importante: _"Las Direcciones Nacionales — **DNAM** (Dirección Nacional de Adultos en el Movimiento), **DNDI** (Dirección Nacional de Desarrollo Institucional) y **DNPJ** (Dirección Nacional de Programa de Jóvenes) — dependen de la Jefatura Scout Nacional. Son los equipos técnicos que conducen cada línea estratégica. Esta línea formativa que estás haciendo se construye desde la DNDI."_
 7. **`policy-quote`**:
     - `label`: "📋 Ver definición oficial del CSN"
@@ -265,11 +265,11 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 3. **`heading` (nivel 3)** — _"🏠 Nivel Grupo — según Art. 1.19 del Reglamento Nacional de Grupos Scouts"_
 4. **`method-grid`** — 5 tarjetas:
     - 🏛️ **Dirección — Asamblea de Grupo** → _"Reúne a los asociados del grupo: votan los representantes legales —un voto por familia— y los Rovers del grupo; los dirigentes de la Jefatura participan con voz, pero sin voto (Reglamento 4.2.1 y 4.2.2; corregido el 27-sep-2026). Aprueba el Plan de Grupo y elige al Consejo de Grupo. Define las normas de funcionamiento del Grupo (Art. 4.3.12)."_ (color morado)
-    - ⚙️ **Administración — Consejo de Grupo** → _"El Consejo de Grupo tiene 4 cargos fijos (presidente, vicepresidente, secretario, tesorero), puede sumar un intendente, y el resto de sus integrantes son vocales — cada grupo les reparte tareas según lo que necesite (contabilidad, cancillería, etc.). Es la administración del día a día."_ (color verde)
+    - ⚙️ **Administración — Consejo de Grupo** → _"Es la administración del día a día. Sus cargos los define el Manual de Cargos, que en esta materia manda (Acuerdo CSN 558/2023): al Presidente, al Vicepresidente, al Secretario y al Intendente del Consejo los nombra la **Asamblea Scout de Grupo** (fichas 2.1.2–2.1.5). El **Tesorero** es distinto: lo nombra el Consejo, le rinde cuentas y **no forma parte de él** (ficha 2.1.7). El Reglamento de Grupos (Art. 5.7) dice otra cosa, pero lo que regula sobre cargos de adultos está suspendido."_ (Corregido el 28-sep-2026, ADR-109: antes enseñaba los «4 cargos fijos» del RG 5.7 elegidos por el Consejo de entre sus miembros.) (color verde)
     - 🛠️ **Técnico — Equipo de Jefatura del Grupo** → _"Encabezado por el Jefe de Grupo. Son los dirigentes que efectivamente trabajan con los chicos en cada rama (Familia, Manada, Tropa, Comunidad, Clan)."_ (color azul)
-    - ⚖️ **Investigación — Comisión Disciplinaria Ad-hoc (Art. 1.19.4)** → _"⚠️ Importante: NO es permanente. Se convoca solo cuando hay un caso que tratar. Es presidida por el **Vicepresidente del Consejo de Grupo** (Art. 5.10.4). NO existe en la normatividad vigente una 'Corte de Honor de Grupo' formal."_ (color rojo)
+    - ⚖️ **Investigación — Comisión Disciplinaria Ad-hoc (Art. 1.19.4)** → _"⚠️ Importante: NO es permanente. El Consejo la forma para cada caso con tres de sus miembros, elegidos por votación simple: uno es el **Vicepresidente**, que la preside; ni el Presidente del Consejo ni el Jefe de Grupo pueden estar en ella (Art. 8.2 y 8.5). Juzga las faltas graves y muy graves de los **niños y jóvenes**. Las faltas de los **adultos** van a la Corte de Honor Nacional, salvo las muy leves, que sanciona el Jefe de Grupo (Art. 8.7). NO existe en la normatividad vigente una 'Corte de Honor de Grupo' formal."_ (Corregido el 28-sep-2026, ADR-109, en dos vueltas: la presidencia del Vicepresidente se ancla en el Cap. 8 del RG —el órgano, vigente— y no en el 5.10.4, facultad de cargo suspendida; y se dice qué juzga, RG 8.7.1–8.7.2.)
     - 👁️ **Control — Contador de Grupo** → _"Ejerce el control fiscal-contable del grupo: auditoría, seguimiento y control de los asuntos contables, fiscales y financieros (Manual de Cargos y Perfiles). El cargo de Fiscal/Revisor Fiscal que menciona el Reglamento de 2013 (Art. 1.19.5) no está vigente/operativo — confirmado por la Jefatura Scout Nacional."_ (color amarillo)
-5. **`info-box`** — Tabla resumen (síntesis de los 3 niveles ya vistos): _"**Por nivel, el órgano de control y el órgano de disciplina son distintos:**<br>🏛️ **Nacional** → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ **Regional** → Contador Regional (control), salvo región con personería jurídica propia (ahí, Revisor Fiscal) + Capítulo Regional de la Corte de Honor Nacional (disciplina).<br>🏠 **Grupo** → Contador de Grupo (control) + Comisión Disciplinaria Ad-hoc (disciplina, solo cuando se convoca)."_ (ADR-022, 02-ago-2026.)
+5. **`info-box`** — Tabla resumen (síntesis de los 3 niveles ya vistos): _"**Por nivel, el órgano de control y el órgano de disciplina son distintos:**<br>🏛️ **Nacional** → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ **Regional** → Contador Regional (control), salvo región con personería jurídica propia (ahí, Revisor Fiscal) + Capítulo Regional de la Corte de Honor Nacional (disciplina).<br>🏠 **Grupo** → Contador de Grupo (control) + Comisión Disciplinaria Ad-hoc (disciplina de niños y jóvenes, solo cuando se convoca; las faltas de los adultos van a la Corte de Honor Nacional)."_ (ADR-022, 02-ago-2026.)
 6. **`heading` (nivel 3)** — _"Un error institucional típico del nivel Grupo"_
 7. **`timeline`** — 1 micro-historia:
     - **Grupo — No convocar al Contador a las reuniones del Consejo:** _"El Consejo de Grupo decide la asignación de los recursos del año sin que el Contador esté presente o haya sido convocado. Cuando el Contador pide los soportes 6 meses después, el Consejo no los tiene completos y firma a la carrera. **Prevención:** convocar al Contador a todas las reuniones donde haya temas financieros relevantes evita problemas a fin de año."_
@@ -278,11 +278,13 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 
 **Quiz (2 preguntas):**
 
-> **P1.** En un grupo se necesita investigar formalmente una conducta de un dirigente. El Vicepresidente del Consejo dice: _"tengo que convocar al órgano disciplinario"_. ¿Qué procedimiento corresponde según el Art. 1.19.4 del Reglamento Nacional de Grupos Scouts?
+> **P1.** Un scout de la Tropa cometió una falta grave en un campamento, y el Jefe de Grupo pide por escrito que se estudie el caso. ¿Qué corresponde según el Reglamento Nacional de Grupos Scouts?
 >
-> a) _Convocar la Corte de Honor permanente del grupo, que sesiona una vez al mes y es la que estudia estos casos._
-> b) _Convocar la Comisión Disciplinaria Ad-hoc (no permanente), que él mismo preside como Vicepresidente del Consejo._ ✅
-> c) _Esperar a la próxima asamblea anual para tratar el tema en pleno._
+> a) _Que la sancionen el Jefe de Grupo y el Jefe de Rama, porque el scout es de su rama._
+> b) _Que el Consejo forme una Comisión Disciplinaria Ad-hoc de tres miembros para este caso._ ✅
+> c) _Que pase directo a la Corte de Honor Nacional, que es la que juzga toda falta grave._
+>
+> _(Reescrita el 28-sep-2026, ADR-109: la versión anterior mandaba a la Comisión la conducta de un **dirigente**; según el RG 8.7.2 las faltas de adultos, salvo las muy leves, son de la Corte de Honor Nacional. La Comisión juzga las faltas graves y muy graves de niños y jóvenes, a solicitud del Jefe de Grupo, 8.7.1.)_
 
 > **P2.** El Consejo de Grupo decide la asignación de los recursos del año sin convocar al Contador ni haberle avisado. Seis meses después, cuando el Contador pide los soportes, el Consejo no los tiene completos. ¿Qué falló?
 >
@@ -305,13 +307,13 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 3. **`paragraph`** — _"Te acuerdas del cuento del Curso 1 — 'Todo el mundo, Alguien, Cualquiera y Nadie'? La versión institucional de ese cuento es: **cuando no sabes a quién acudir, terminas escribiéndole a 'Alguien' que nunca responde**. Vamos a evitarlo."_
 4. **`heading` (nivel 3)** — _"📝 Llena tu mapa institucional"_
 5. **`paragraph`** — _"En la siguiente hoja vas a anotar quién es la persona concreta —con nombre completo— que ocupa cada cargo en tu grupo y tu región hoy. Si no lo sabes, anótalo como 'pendiente averiguar'. La hoja es para ti."_
-6. **`mission-box`** — _"**📌 Tu mapa institucional — Nivel Grupo:**<br>• Jefe de Grupo: __________<br>• Presidente del Consejo Scout de Grupo: __________<br>• Vicepresidente del Consejo: __________<br>• Tesorero: __________<br>• Contador (control fiscal-contable): __________<br>• Secretario: __________<br>• Consejero Juvenil del Grupo: __________"_
+6. **`mission-box`** — _"**📌 Tu mapa institucional — Nivel Grupo:**<br>• Jefe de Grupo: __________<br>• Presidente del Consejo Scout de Grupo: __________<br>• Vicepresidente del Consejo: __________<br>• Intendente del Consejo: __________<br>• Tesorero: __________<br>• Contador (control fiscal-contable): __________<br>• Secretario: __________<br>• Consejero Juvenil del Grupo: __________"_
 7. **`mission-box`** — _"**📌 Tu mapa institucional — Nivel Regional:**<br>• Jefe Scout Regional: __________<br>• Presidente del Consejo Regional: __________<br>• Contador Regional (o Revisor Fiscal, si tu región tiene personería jurídica propia): __________<br>• Comisionado Regional de Desarrollo Institucional: __________<br>• Tu consejero regional (si aplica): __________"_
 8. **`mission-box`** — _"**📌 Tu mapa institucional — Nivel Nacional:**<br>• Jefe Scout Nacional: __________<br>• Director Nacional de Desarrollo Institucional (DNDI): __________<br>• Director Nacional de Adultos (DNAM): __________<br>• Director Nacional de Programa de Jóvenes (DNPJ): __________"_
 9. **`heading` (nivel 3)** — _"💡 Cuándo acudir a quién"_
 10. **`method-grid`** — 4 tarjetas con guía práctica:
     - 🛠️ **Pregunta operativa** (cómo se hace un trámite, plantilla de un formato) → _"Equipo de Jefatura del nivel correspondiente: Jefatura del Grupo, Jefatura Regional o la Dirección Nacional respectiva."_ (color azul)
-    - ⚖️ **Conflicto entre personas o falta disciplinaria** → _"Comisión Disciplinaria Ad-hoc (grupo) → Capítulo Regional de la Corte de Honor (región) → Corte de Honor Nacional (nacional)."_ (color rojo)
+    - ⚖️ **Conflicto entre personas o falta disciplinaria** → _"Si la falta es de un niño o joven: las leves las resuelve su rama, con el Jefe de Rama y el Jefe de Grupo; las graves y muy graves, la Comisión Disciplinaria Ad-hoc del grupo (y si se apela su fallo, la Corte de Honor Nacional). Si es de un adulto: la Corte de Honor Nacional; solo las faltas muy leves las sanciona el Jefe de Grupo (Reglamento de Grupos, Art. 8.7)."_ (color rojo)
     - 👁️ **Sospecha de irregularidad financiera o administrativa** → _"Contador del nivel (grupo o región) → Comisión Nacional de Vigilancia y Control (nivel nacional)."_ (color amarillo)
     - 🏛️ **Propuesta política o cambio de fondo** → _"Asamblea o Consejo del nivel — depende de la magnitud. Las políticas las define el CSN; los planes operativos los aprueba el Consejo correspondiente."_ (color morado)
 11. **`heading` (nivel 3)** — _"Lo que viene"_
@@ -324,9 +326,9 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 
 > **P1.** Un padre de familia denuncia que un dirigente se llevó una plata del grupo sin reportarla. ¿A qué órgano debería escalarse primero el caso en un grupo?
 >
-> a) _A la Comisión Nacional de Vigilancia y Control directamente, porque es asunto serio._
-> b) _Al Contador del Grupo (para auditar) y, si la conducta amerita sanción, convocar la Comisión Disciplinaria Ad-hoc del Consejo de Grupo._ ✅
-> c) _A la Corte de Honor Nacional, porque es un asunto disciplinario._
+> a) _A la Comisión Nacional de Vigilancia y Control, que es la que sanciona a los dirigentes._
+> b) _Al Contador, que revisa las cuentas; si hay falta, la queja va a la Corte de Honor Nacional._ ✅
+> c) _Al Jefe de Grupo, que sanciona él mismo las faltas leves y graves de sus dirigentes._
 
 > **P2.** Si quieres proponer una modificación al Plan de Grupo, ¿a quién acudes primero?
 >
@@ -397,7 +399,7 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 
 | Criterio | Cumplimiento |
 |---|---|
-| Curso entre 20 y 40 min | ✅ ~30 min |
+| Curso entre 20 y 40 min | ✅ ~35 min |
 | Lecciones de 3–8 min | ✅ rango 3–6 min |
 | Cada lección termina independiente | ✅ |
 | Lenguaje conversacional, tutea | ✅ |
@@ -431,3 +433,5 @@ Se enuncia en la Lección 1, se referencia al introducir cada nivel y se cierra 
 ---
 
 _Documento de diseño del Curso 3, versión inicial — 18 de mayo de 2026. Diseñado por Cowork siguiendo el patrón del Curso 1 y las pautas del documento `Recomendaciones-Cowork-Diseno-Cursos.md`. Incluye la arquitectura asimétrica vigente según Estatuto Nacional 2025, Reglamento Nacional de Regiones (Art. 1.20) y Reglamento Nacional de Grupos (Art. 1.19)._
+
+_**Revisión doctrinal del 28-sep-2026** (`contentVersion` 2026-09-28, ADR-109). La Lección 6 enseñaba el Consejo de Grupo según el Reglamento de Grupos 5.7 (cuatro cargos fijos elegidos por el Consejo) y atribuía al Vicepresidente la presidencia de la Comisión Disciplinaria Ad-hoc (RG 5.10.4). En cargos de adultos manda el *Manual de Cargos* (Acuerdo CSN 558/2023): la Asamblea Scout de Grupo nombra a Presidente, Vicepresidente, Secretario e Intendente (fichas 2.1.2–2.1.5), y el Tesorero lo nombra el Consejo y no forma parte de él (ficha 2.1.7), como ya enseña el Curso 10. La Comisión se describe ahora por su capítulo de órgano (RG Cap. 8), que sigue vigente. Se reescribió la P1 del quiz de la L6. **Segunda vuelta, tras la auditoría doctrinal del mismo día:** (1) el Vicepresidente **sí** preside la Comisión, pero por el RG 8.2 y 8.5 (capítulo del órgano, vigente), no por el 5.10.4; (2) la Comisión juzga las faltas graves y muy graves de **niños y jóvenes** (8.7.1); las de **adultos**, salvo las muy leves que sanciona el Jefe de Grupo, son de la Corte de Honor Nacional (8.7.2). Por eso se reescribieron las P1 de la L6 y de la L7 y la ruta disciplinaria de la L7; (3) la Asamblea Scout Nacional se reúne **una vez al año, en marzo** (Estatuto Art. 37), no «cada 2 años»; (4) el Contador ya no se llama «órgano independiente»: lo nombra el Consejo y le responde (ficha 2.1.8); (5) tercera vuelta, tras la re-auditoría: la ruta disciplinaria de la L7 separa las faltas leves de niños y jóvenes (su rama) de las graves (la Comisión), y se cambiaron los distractores de las dos P1 porque se descartaban sin leer la lección (fuga de conjunto); (6) el Intendente entra al mapa de la L7, y la duración se unifica en ~35 min y 7 lecciones. **Remitido al DI 17 (ADR-113):** el RN 2026, Art. 187, llama «sala auxiliar de la Corte de Honor» al órgano regional que el curso, el GLOSARIO y el CLAUDE.md §5.1 llaman «Capítulo Regional»._
