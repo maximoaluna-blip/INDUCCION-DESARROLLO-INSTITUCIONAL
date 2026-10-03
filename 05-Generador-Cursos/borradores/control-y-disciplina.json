@@ -3,7 +3,7 @@
   "title": "Control y disciplina: quién vigila y quién juzga",
   "subtitle": "Curso 17 de la Línea Desarrollo Institucional · Nivel 3 — Especialización por cargo",
   "description": "Vigilar no es juzgar, y juzgar no le toca a cualquiera. En este curso vas a distinguir los órganos de control de los de disciplina, ubicarlos en la Nación, la Región y el grupo, saber quién decide sobre la falta de un adulto y la de un joven, reconocer las garantías de un proceso disciplinario y saber qué hacer cuando conoces una falta.",
-  "contentVersion": "2026-10-02",
+  "contentVersion": "2026-10-03",
   "icon": "⚖️",
   "duration": "~36 min",
   "level": 3,
@@ -429,7 +429,7 @@
           "items": [
             {
               "title": "📝 Quién puede quejarse",
-              "description": "Cualquier miembro de la Asociación plenamente identificado, el representante legal de un miembro juvenil o el de una entidad patrocinadora. La Corte también puede actuar de oficio (Código, Art. 23).",
+              "description": "Cualquier miembro de la Asociación plenamente identificado, el representante legal de un miembro juvenil o el de una entidad patrocinadora. La Corte también puede actuar de oficio (Código, Art. 23). El formato oficial de queja de la Corte (versión 2024) trae además casillas para quejas a nombre de un tercero y anónimas.",
               "color": "#e3f2fd",
               "borderColor": "#2196f3"
             },
@@ -452,6 +452,10 @@
               "borderColor": "#fbc02d"
             }
           ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>📮 Dónde se presenta:</strong> en la <a href=\"https://scout.org.co/quienes-somos/corte-de-honor-nacional/\" target=\"_blank\" rel=\"noopener\">página de la Corte de Honor Nacional</a>, que explica el paso a paso y publica el formato de queja, o al correo <strong>corte.honor@scout.org.co</strong>."
         },
         {
           "type": "info-box",

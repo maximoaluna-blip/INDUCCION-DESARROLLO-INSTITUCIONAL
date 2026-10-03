@@ -236,5 +236,47 @@
     "status": "active",
     "file": "control-y-disciplina.html",
     "folder": "control-y-disciplina"
+  },
+  {
+    "courseId": "etica-e-integridad",
+    "title": "Ética e integridad: cuando lo personal entra en la decisión",
+    "description": "La integridad no es no tener intereses: es ponerlos sobre la mesa antes de decidir. En este curso vas a distinguir una inhabilidad, una incompatibilidad y un conflicto de interés, reconocer qué impide llegar a un cargo y qué impide sumar otro, decidir si un regalo o una ventaja se puede recibir, y declarar un conflicto ante quien debe decidirlo.",
+    "icon": "🧭",
+    "duration": "~35 min",
+    "level": 4,
+    "levelName": "Transversales",
+    "order": 19,
+    "modules": 7,
+    "status": "active",
+    "file": "etica-e-integridad.html",
+    "folder": "etica-e-integridad"
+  },
+  {
+    "courseId": "salud-institucional-gsat",
+    "title": "Salud institucional: el GSAT y la mejora continua",
+    "description": "Una evaluación que no cambia nada no es una evaluación: es una lista. En este curso vas a conocer el GSAT, el estándar de calidad de la Organización Mundial con el que se evalúa la Asociación; sus diez dimensiones; cómo lo usa la Asociación; qué puede tomar de él un grupo o una Región; y cómo se pasa de una evaluación a un plan de acción.",
+    "icon": "🩺",
+    "duration": "~34 min",
+    "level": 4,
+    "levelName": "Transversales",
+    "order": 18,
+    "modules": 7,
+    "status": "active",
+    "file": "salud-institucional-gsat.html",
+    "folder": "salud-institucional-gsat"
+  },
+  {
+    "courseId": "planes-mundial-regional",
+    "title": "Planes mundial y regional: del mundo a tu grupo",
+    "description": "Un plan del mundo no se copia ni se ignora: se lee, y se baja por su camino. En este curso vas a distinguir la Estrategia para el Movimiento Scout 2024–2033, el Plan Trienal Mundial 2024–2027 y el Plan Trienal Regional Interamericano 2025–2028; reconocer sus impactos y prioridades; explicar qué le pide cada plan a la Asociación y ubicar a qué prioridad nacional aporta una acción de tu plan.",
+    "icon": "🌎",
+    "duration": "~33 min",
+    "level": 4,
+    "levelName": "Transversales",
+    "order": 20,
+    "modules": 7,
+    "status": "active",
+    "file": "planes-mundial-regional.html",
+    "folder": "planes-mundial-regional"
   }
 ]

@@ -3,7 +3,7 @@
   "title": "Los 8 Ámbitos de Gestión",
   "subtitle": "Curso 4 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Recorrido panorámico de los 8 ámbitos de gestión que la PNDI 2017 identifica como el contenido operativo del Desarrollo Institucional. Una micro-historia por ámbito (no 8 definiciones). Al final, el adulto sabe ubicar cualquier decisión cotidiana del grupo en el ámbito que le corresponde.",
-  "contentVersion": "2026-09-28",
+  "contentVersion": "2026-10-03",
   "icon": "🧭",
   "duration": "~35 min",
   "level": 1,
@@ -326,11 +326,11 @@
         },
         {
           "type": "paragraph",
-          "text": "¿Qué hizo posible pasar de 28 a 65 chicos en 3 años? Pisamadores trabajó su <strong>Crecimiento y Sistema de Información</strong>: cómo crece la membresía (cuántos chicos y adultos entran y salen cada año), cómo se registra y se hace seguimiento (la base de datos del grupo, el sistema de identificación scout, los carnés), las estadísticas básicas, el apoyo a la membresía existente. La plataforma <strong>SiScout</strong> y el <strong>Modelo de Servicios OMMS</strong> entran acá. El <strong>Plan Regional Interamericano 2022-2025</strong> espera que al menos 17 países de la región reporten un crecimiento de membresía de al menos 2 % en todo el período (no por año) — no es una meta anual para tu grupo, pero sí una señal de qué tan ambicioso debería ser tu plan de crecimiento, como el de Pisamadores."
+          "text": "¿Qué hizo posible pasar de 28 a 65 chicos en 3 años? Pisamadores trabajó su <strong>Crecimiento y Sistema de Información</strong>: cómo crece la membresía (cuántos chicos y adultos entran y salen cada año), cómo se registra y se hace seguimiento (la base de datos del grupo, el sistema de identificación scout, los carnés), las estadísticas básicas, el apoyo a la membresía existente. La plataforma <strong>SiScout</strong> y el <strong>Modelo de Servicios OMMS</strong> entran acá. El <strong>Plan Regional Interamericano 2022-2025</strong> (ya vencido; el vigente es el 2025–2028, Curso 20) esperaba que al menos 17 países de la región reporten un crecimiento de membresía de al menos 2 % en todo el período (no por año) — no es una meta anual para tu grupo, pero sí una señal de qué tan ambicioso debería ser tu plan de crecimiento, como el de Pisamadores."
         },
         {
           "type": "info-box",
-          "text": "<strong>🔗 Conexión:</strong> Estos tres ámbitos se ven en detalle en los Cursos 12 (Comunicaciones y Relaciones Interinstitucionales) y 13 (Crecimiento y Sistema de Información) del Nivel 2. Y en el Curso 24 del Nivel 4 (Articulación con Plan Trienal Mundial y Plan Regional) verás cómo se traduce este nivel a estrategia."
+          "text": "<strong>🔗 Conexión:</strong> Estos tres ámbitos se ven en detalle en los Cursos 12 (Comunicaciones y Relaciones Interinstitucionales) y 13 (Crecimiento y Sistema de Información) del Nivel 2. Y en el Curso 20 del Nivel 4 (Planes mundial y regional) verás cómo se conectan los planes del mundo y de la Región con los de la Asociación."
         }
       ],
       "reflection": {
@@ -352,7 +352,7 @@
             "text": "Un comisionado regional le dice a un grupo pequeño: 'Este año tienen que crecer mínimo 2%, es la meta del Plan Regional Interamericano.' ¿Qué le corriges?",
             "options": [
               "Nada, tiene razón: todo grupo scout del país tiene que crecer un 2% cada año, sin excepción alguna.",
-              "La meta es regional y de todo el período 2022-2025: al menos 17 países creciendo 2% en total.",
+              "La meta era regional y de todo el período 2022-2025: al menos 17 países creciendo 2% en total.",
               "Tiene razón, aunque la meta en realidad es de 2% mensual y no anual."
             ],
             "correctIndex": 1
@@ -413,7 +413,7 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>🔗 Conexión:</strong> El ámbito de Gestión del Riesgo se desarrolla en el Curso 14 del Nivel 2. El de Control y Reconocimiento se cruza con el Curso 20 del Nivel 3 (Órganos de control y disciplina) y el Curso 22 del Nivel 4 (Buenas Prácticas Institucionales) y el Curso 23 (Código de Honor, Ética y Conflictos de Intereses)."
+          "text": "<strong>🔗 Conexión:</strong> El ámbito de Gestión del Riesgo se desarrolla en el Curso 14 del Nivel 2. El de Control y Reconocimiento se cruza con el Curso 17 del Nivel 3 (Control y disciplina) y el Curso 19 del Nivel 4 (Ética e integridad)."
         }
       ],
       "reflection": {

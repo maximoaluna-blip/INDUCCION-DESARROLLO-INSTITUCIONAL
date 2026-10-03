@@ -40,7 +40,7 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 ├── AUDITORIA.md                                            ← Proceso de auditoría
 ├── INDICE-PROYECTO.md                                      ← Este archivo
 ├── README.md                                               ← Para visitantes del repo
-├── Plan-de-Formacion-Linea-Desarrollo-Institucional.md    ← Plan de los 21 cursos (4 niveles)
+├── Plan-de-Formacion-Linea-Desarrollo-Institucional.md    ← Plan de los 20 cursos (4 niveles)
 ├── Recomendaciones-Cowork-Diseno-Cursos.md                ← Guía pedagógica para Cowork
 │
 ├── assets/
@@ -112,7 +112,7 @@ INDUCCION-DESARROLLO-INSTITUCIONAL/
 
 **Niveles siguientes:**
 
-- **Nivel 4 — Transversales** (4 cursos, 18–21): Salud Institucional, Buenas Prácticas, Código de Honor, Articulación con Plan Trienal Mundial y Regional.
+- **Nivel 4 — Transversales** (3 cursos, 18–20): Salud institucional y GSAT, Ética e integridad en el cargo, Planes mundial y regional.
 
 Detalle completo en [`Plan-de-Formacion-Linea-Desarrollo-Institucional.md`](Plan-de-Formacion-Linea-Desarrollo-Institucional.md).
 
@@ -217,7 +217,9 @@ Detalles en [`BACKEND.md`](BACKEND.md).
 
 - **Nivel 2 — Profundización**: completo (8 de 8).
 - **Nivel 3 — Especialización por cargo** (3 cursos, 15–17): **cerrado el 02-oct-2026** (ADR-111, 112, 113).
-- **Nivel 4 — Transversales** (4 cursos, 18–21), **con autonomía del dueño desde el 02-oct-2026**, priorizando el Curso 20 (Código de Honor). El Código de Honor, Disciplinario y de Conducta (2022) **sí está en el corpus** (`DOCUMENTOS BASE/SCOUTS/BIBLIOTECA-CSN/`); ojo: dice que la Corte tiene 5 miembros y el Estatuto 2025, 9.
+- **Nivel 4 — Transversales** (3 cursos, 18–20): **cerrado el 03-oct-2026** (ADR-122 a 125). La línea está completa.
+- **Revisar cuando la Asamblea apruebe el plan nacional siguiente** (RN Art. 26; el 2023–2026 vence el 31-dic-2026): L5, L6 y L7 del Curso 20 lo citan como vigente.
+- **Revisar hacia julio de 2027** lo que los cursos citan del Reglamento de Grupos (RN Art. 246).
 - Evaluar si separar el backend de la Línea Política de Adultos (criterios en `BACKEND.md`).
 
 ### Consultas pendientes (al CSN o a la DNDI; ninguna cambia lo que enseñan los cursos publicados)
@@ -241,7 +243,7 @@ Detalles en [`BACKEND.md`](BACKEND.md).
 
 Los **talleres Flor de Lis II 2026** (Sesiones 2 y 3, dictados por dirigentes de la Regional Valle del Cauca) son una fuente importante de testimonios y ejemplos para esta línea. Los segmentos transcritos y cortados están en `../FLOR DE LIS 2 SESIONES 2 Y 3/` (fuera del repo).
 
-Las definiciones doctrinales provienen de los documentos oficiales de la ASC: **PNDI 2017, Estatuto Nacional 2025, Plan Estratégico 2023-2026**, complementados con el **Plan Trienal Mundial 2021-2024 (OMMS)** y el **Plan Regional Interamericano 2022-2025**.
+Las definiciones doctrinales provienen de los documentos oficiales de la ASC: **PNDI 2017, Estatuto Nacional 2025, Plan Estratégico 2023-2026**, complementados con la **Estrategia para el Movimiento Scout 2024–2033**, el **Plan Trienal Mundial 2024–2027** y el **Plan Trienal Regional Interamericano 2025–2028** (los de 2021–2024 y 2022–2025 ya vencieron).
 
 ---
 

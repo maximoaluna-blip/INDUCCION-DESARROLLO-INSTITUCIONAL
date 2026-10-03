@@ -1,0 +1,568 @@
+{
+  "courseId": "etica-e-integridad",
+  "title": "Ética e integridad: cuando lo personal entra en la decisión",
+  "subtitle": "Curso 19 de la Línea Desarrollo Institucional · Nivel 4 — Transversales",
+  "description": "La integridad no es no tener intereses: es ponerlos sobre la mesa antes de decidir. En este curso vas a distinguir una inhabilidad, una incompatibilidad y un conflicto de interés, reconocer qué impide llegar a un cargo y qué impide sumar otro, decidir si un regalo o una ventaja se puede recibir, y declarar un conflicto ante quien debe decidirlo.",
+  "contentVersion": "2026-10-03",
+  "icon": "🧭",
+  "duration": "~35 min",
+  "level": 4,
+  "levelName": "Transversales",
+  "order": 19,
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~35 minutos · 7 lecciones.</strong><br>Al final vas a poder distinguir una inhabilidad, una incompatibilidad y un conflicto de interés; reconocer qué impide llegar a un cargo y qué impide sumar otro; decidir si un regalo o una ventaja se puede recibir; y declarar un conflicto ante quien debe decidirlo.<br><strong>Cada lección cierra con 2 preguntas:</strong> para avanzar hay que acertar las dos. Si fallas, el curso te muestra la correcta y lo vuelves a intentar."
+        },
+        {
+          "type": "paragraph",
+          "text": "En la Región de Leonor pasaron cuatro cosas el mismo mes: la imprenta de una comisionada regional cotizó los afiches del evento; la esposa del Jefe Scout Regional se postuló al Consejo Regional; un proveedor de carpas le ofreció a un consejero un fin de semana en su finca; y la prima de una consejera de grupo pidió entrar al mismo Consejo. <strong>Nadie hizo trampa a propósito. ¿En cuáles había un problema?</strong>"
+        },
+        {
+          "type": "blockquote",
+          "text": "La integridad no es no tener intereses: es ponerlos sobre la mesa antes de decidir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Este curso es para todo adulto, tenga o no un cargo directivo. Los Cursos 11 y 15 de esta línea aplican el conflicto de interés a las compras y a las sesiones del Consejo; aquí se ven las tres figuras completas y las reglas que valen en cualquier nivel. Las faltas y las sanciones las enseña el Curso 17, y los estímulos y reconocimientos, el Curso 13 de Política de Adultos."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a practicar"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 🧭 Tres palabras que no son lo mismo.",
+            "<strong>Lección 3 —</strong> 🚪 Antes de llegar al cargo.",
+            "<strong>Lección 4 —</strong> 🔀 Mientras estás en el cargo.",
+            "<strong>Lección 5 —</strong> 🎁 Regalos, información y política.",
+            "<strong>Lección 6 —</strong> 🙋 Declarar y decidir.",
+            "<strong>Lección 7 —</strong> ✅ La revisión de tu cargo."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de empezar:</strong> piensa en tu cargo o en el que te ofrecieron, y en las decisiones que tomas en él. Lo vas a usar en la Lección 7."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 🧭 Tres palabras que no son lo mismo",
+      "emoji": "🧭",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>La inhabilidad pesa antes del nombramiento, la incompatibilidad después, y el conflicto de interés aparece en una decisión concreta. Cada una tiene su regla."
+        },
+        {
+          "type": "paragraph",
+          "text": "Las cuatro situaciones de la Región de Leonor no son del mismo tipo. El Reglamento Nacional distingue tres figuras, y confundirlas lleva a soluciones que no sirven: declarar un conflicto no cura una inhabilidad, y renunciar a votar no resuelve una incompatibilidad."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué es una inhabilidad y qué es una incompatibilidad",
+          "text": "Se entiende como la situación previa al nombramiento o designación, que impide a una persona ejercer un cargo o función, o participar en contratos. […] Se entiende como una situación posterior al nombramiento o al ejercicio de un cargo o función, que genera la imposibilidad de realizar de manera simultánea otras actividades o funciones que entren en conflicto con las responsabilidades propias del cargo que actualmente ejerce.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Arts. 66 y 67, p. 20"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🚪 Inhabilidad",
+              "description": "Algo previo impide llegar al cargo o firmar un contrato: una sanción en firme, una condena, un vínculo familiar con la Jefatura de ese nivel. No se arregla declarándola: impide el nombramiento.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "🔀 Incompatibilidad",
+              "description": "Ya en el cargo, no puedes sumar otra función que choque con él: por ejemplo, ser a la vez dirigente de rama y consejero de tu nivel. Se resuelve escogiendo uno de los dos.",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "⚖️ Conflicto de interés",
+              "description": "En una decisión concreta, un interés tuyo —económico, familiar, de amistad— puede pesar. No te saca del cargo: te saca de esa decisión, y se declara antes de que se tome (Arts. 68 y 82–83).",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> pregúntate cuándo aparece el problema. Si existe antes de nombrarte, es inhabilidad; si nace de juntar dos funciones, es incompatibilidad; si nace de una decisión puntual, es conflicto de interés."
+        }
+      ],
+      "reflection": {
+        "prompt": "En tu cargo, ¿cuál de las tres figuras te parece más probable que se presente alguna vez: inhabilidad, incompatibilidad o conflicto de interés? Anota solo una."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "A mitad de su periodo, a una consejera regional la nombran también comisionada regional de la Rama Manada. ¿Cómo se resuelve?",
+            "options": [
+              "Puede tener solo uno: o sigue en el Consejo o asume la comisión.",
+              "Puede tener los dos, y no vota en el Consejo los temas que toquen a la Manada.",
+              "Puede tener los dos si el Consejo Regional lo aprueba y lo deja en el acta."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Al hijo del Jefe Scout Regional lo postulan al Consejo Regional para el mismo periodo de su papá. ¿Qué figura es?",
+            "options": [
+              "Una inhabilidad.",
+              "Un conflicto de interés.",
+              "Una incompatibilidad."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 3 →"
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🚪 Antes de llegar al cargo",
+      "emoji": "🚪",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Hay situaciones que impiden llegar a cualquier cargo, y otras que impiden llegar a uno en particular. Quien nombra tiene que revisarlas antes, no después."
+        },
+        {
+          "type": "paragraph",
+          "text": "La esposa del Jefe Scout Regional no hizo nada malo al postularse. Pero hay vínculos y antecedentes que el Reglamento pone antes de cualquier elección o nombramiento, para que nadie tenga que resolverlos cuando ya es tarde. Para cualquier cargo, en cualquier nivel:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver las inhabilidades para cualquier cargo",
+          "text": "a. Personas que hayan sido sancionadas mediante fallo disciplinario debidamente ejecutoriado. b. Personas que hayan sido condenadas con sentencia judicial en firme por la comisión de delitos, y que se encuentren en libertad, privados de su libertad o con orden de captura vigente. c. Persona que se niegue o esté imposibilitada para cumplir el propósito de la Asociación, su estatuto o normas vigentes.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 70, p. 20"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📜 Paz y salvo y antecedentes",
+              "description": "Quien recibe a un adulto que viene de otro grupo o estamento le pide los paz y salvos de los últimos tres años (Art. 65), solicita sus antecedentes al nivel de origen y consulta las bases de datos de agresores sexuales, deudores alimentarios y antecedentes penales (Art. 60).",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "👪 La familia de la Jefatura",
+              "description": "El cónyuge o compañero permanente, los padres, hijos, abuelos, nietos y suegros, y los hijos o padres adoptivos de quienes integran la Jefatura Nacional o Regional no pueden ser elegidos al Consejo de ese nivel para el mismo periodo (Art. 77). En el grupo, el Reglamento de Grupos pone la misma regla para la familia del Equipo de Jefatura (5.1, parágrafo cuarto).",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "⏳ El que acaba de salir",
+              "description": "Quien estuvo en la Jefatura Nacional o Regional necesita seis meses fuera del cargo para ser elegido al Consejo Scout Nacional o a un Consejo Regional (Art. 76).",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> una inhabilidad no se maneja con buena voluntad ni declarándola en la sesión: impide el nombramiento. Por eso quien nombra o quien organiza la elección la revisa primero. La norma no dice por cuánto tiempo pesa un fallo ejecutoriado; ante un caso así, consulta antes de nombrar."
+        }
+      ],
+      "reflection": {
+        "prompt": "Cuando en tu grupo o tu Región llega un adulto nuevo, ¿se le piden los paz y salvos y se consultan sus antecedentes? Anota sí, no o no sé."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "Llega a tu grupo un dirigente que los últimos dos años estuvo en un equipo regional, no en otro grupo. ¿Qué le toca al Jefe de Grupo antes de recibirlo?",
+            "options": [
+              "Pedirle los paz y salvos de esos años, solicitar sus antecedentes a la Región y consultar las bases de datos.",
+              "Consultar las bases de datos y pedir antecedentes a la Región; el paz y salvo lo da un grupo, y él no viene de uno.",
+              "Pedirle paz y salvos, antecedentes y consulta de bases de datos, y además el aval del Consejo Regional para recibirlo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una Jefa Scout Regional renunció en septiembre. Al año siguiente, la Región elige consejeros en abril y en octubre, y ella quiere postularse. ¿Desde cuál de esas elecciones puede ser elegida?",
+            "options": [
+              "Desde la de abril: para entonces ya lleva más de seis meses fuera de la Jefatura.",
+              "Desde la de octubre: en abril sigue corriendo el periodo para el que la nombraron Jefa.",
+              "Desde ninguna: quien integró la Jefatura no entra al Consejo de ese mismo periodo."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 4 →"
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 🔀 Mientras estás en el cargo",
+      "emoji": "🔀",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Un cargo no se suma con cualquier otro: hay funciones que no se juntan, órganos donde no caben dos de la misma familia y cargos que no se pueden cobrar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Las incompatibilidades no hablan de la persona sino de la combinación. Ser dirigente de rama está bien, y ser consejero también; lo que no cabe es ser las dos cosas en el mismo nivel. El Reglamento Nacional fija estas:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏕️ Operativo o Consejo",
+              "description": "Quien tiene un cargo operativo en una rama, en la Región o en la Nación no integra el Consejo de su nivel (Art. 71), salvo el Jefe de ese nivel, que lo integra por derecho propio (Estatuto 2025; Reglamento de Grupos, 5.1.4).",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🗺️ Un nivel a la vez",
+              "description": "Nadie ocupa más de un cargo en la Nación, ni cargos de dirección en la Nación y en la Región a la vez; se exceptúan el cargo en el grupo y los equipos (Art. 72).",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "👪 Un solo miembro por familia",
+              "description": "En el Consejo Scout Nacional, la Corte de Honor, la Comisión de Vigilancia y en cada Consejo Regional o de Grupo, no más de un integrante del mismo núcleo familiar, ni como principal ni como suplente (Art. 75).",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "💼 Cargos y contratos pagados",
+              "description": "Los miembros del Consejo Scout Nacional, de la Corte de Honor y de la Comisión de Vigilancia no pueden tener vínculo laboral o contractual pagado con la Asociación (Art. 73), y nadie puede tener más de un cargo remunerado (Art. 74).",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué es el núcleo familiar",
+          "text": "Como núcleo familiar se entienden parientes hasta el segundo grado de consanguinidad (padres, hijos, abuelos o nietos), primero de afinidad (cónyuge o compañero/a permanente, suegros) o primero civil (hijos adoptivos o padres adoptantes).",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 75, p. 21"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> el núcleo familiar del Reglamento es acotado. Una prima, un tío o un cuñado están fuera de él: pueden coincidir en el mismo Consejo, y cuando se decida algo que los toque, cada uno declara su conflicto de interés. En el grupo hay un límite más: el Presidente, el Tesorero y el Jefe de Grupo no pueden ser parientes entre sí, ni siquiera primos o cuñados (Reglamento de Grupos, 5.7, parágrafo tercero)."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Para ti:</strong> si tienes más de un cargo, revisa en silencio si alguno es de rama y otro del Consejo del mismo nivel. Si es así, ya sabes qué figura es y cómo se resuelve."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Cuántos cargos tienes hoy en la Asociación? Anota solo el número."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Un miembro de la Comisión Nacional de Vigilancia y Control, contador de profesión, ofrece llevar la contabilidad de la Oficina Nacional cobrando sus honorarios. ¿Puede?",
+            "options": [
+              "Le está prohibido: los miembros de la Comisión no pueden tener vínculo contractual pagado con la Asociación.",
+              "Le está permitido si declara el conflicto de interés y otro miembro de la Comisión revisa esas cuentas.",
+              "Le está permitido: lo que el Reglamento prohíbe es tener más de un cargo pagado, y este sería el único."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una consejera de grupo quiere que una pariente suya entre como consejera principal del mismo Consejo, sin cargo directivo. ¿Cuál de estas tres puede?",
+            "options": [
+              "Su cuñada, la esposa de su hermano.",
+              "Su suegra, la mamá de su esposo.",
+              "Su nieta, que ya es mayor de edad."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 5 →"
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 🎁 Regalos, información y política",
+      "emoji": "🎁",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>Quien tiene un cargo no recibe ventajas por él, no usa lo que sabe por él y no hace política con él. Un detalle simbólico no es lo mismo que un regalo que busca influir."
+        },
+        {
+          "type": "paragraph",
+          "text": "El proveedor que le ofreció la finca al consejero de la Región de Leonor esperaba una decisión. Para consejeros, miembros de la Corte de Honor y de la Comisión de Vigilancia y personal pagado, el Reglamento lo prohíbe expresamente:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver las prácticas prohibidas",
+          "text": "a. Recibir remuneración, dádivas, o cualquier otro tipo de compensación en dinero o especie por parte de cualquier persona jurídica o natural, en razón del trabajo, remuneración, honorarios o servicios prestados a la Asociación. b. Utilizar indebidamente la información privilegiada o confidencial para obtener provecho o salvaguardar intereses individuales o de terceros. c. Realizar proselitismo político aprovechando cargo, posición o relaciones con la sociedad.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 81, pp. 22–23"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧑 Para todo miembro",
+              "description": "Aprovechar la investidura para obtener o tratar de obtener beneficios indebidos para sí o para otros es una falta muy grave, tenga el cargo que tenga (Código de Honor, Art. 4, literal h). Y usar el nombre de la Asociación sin autorización se sanciona con expulsión (Reglamento Nacional, Art. 79).",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "🎁 Lo simbólico",
+              "description": "Como orientación —el Código de Conducta de la OMMS se escribió para quienes tienen cargos en la Organización Mundial—, pide que ningún regalo se pueda interpretar como un intento de influir en una decisión, y que todos sean «simbólicos y reflejar el espíritu del Movimiento Scout» (§3.8.2). Una taza firmada por los lobatos no compra nada; un fin de semana pagado por quien espera un contrato, sí.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> antes de aceptar algo, mira quién lo da y si espera de ti una decisión a cambio. Si no espera nada y el detalle es simbólico, no hay problema; si busca una decisión tuya, no se recibe. Y si eres consejero, de la Corte o de la Comisión, o tienes un cargo pagado, el Art. 81 no hace excepciones: ante la duda, consulta."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Para ti:</strong> si alguna vez te ofrecieron algo por tu cargo, piensa qué hiciste. ¿Quién lo daba y qué esperaba de ti a cambio?"
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Alguna vez te ofrecieron algo por tu cargo en la Asociación? Sin contar qué ni quién: anota sí, no o no recuerdo."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "Mientras el Consejo Regional evalúa su cotización, un proveedor de carpas le ofrece a un consejero un fin de semana gratis en su finca. ¿Qué corresponde?",
+            "options": [
+              "Rechazarlo: es una ventaja que le llega por su cargo, y un consejero no puede recibirla.",
+              "Rechazarlo y renunciar al Consejo: haber recibido esa oferta ya lo inhabilita para el cargo.",
+              "Declararlo en la sesión y no votar la cotización de las carpas; así puede aceptar la invitación."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Al terminar un campamento, las familias de la Manada le regalan a la Jefa de Manada una taza firmada por los lobatos. ¿Qué corresponde?",
+            "options": [
+              "Recibirla: es un detalle simbólico, y nadie espera de ella una decisión a cambio.",
+              "Recibirla solo si la deja en la sede, para todo el equipo de la Manada.",
+              "Agradecerla y devolverla: un dirigente no recibe nada por el servicio que presta."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 6 →"
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — 🙋 Declarar y decidir",
+      "emoji": "🙋",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>Todo miembro declara un conflicto en cuanto lo conoce, sea suyo o de otro; lo decide el mismo órgano o, en el área operativa, el superior jerárquico, antes de la decisión; y el afectado no participa."
+        },
+        {
+          "type": "paragraph",
+          "text": "La comisionada cuya imprenta cotizó los afiches no tenía que retirar su cotización. Tenía que decirlo antes, y apartarse de esa decisión. El Reglamento no deja esa responsabilidad en el aire:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la obligación de declarar",
+          "text": "Los miembros de la Asociación deberán declarar la existencia de un conflicto de intereses de manera inmediata, en cuanto tengan conocimiento de cualquier situación en la que sus intereses personales u otros intereses puedan influir, o parecer influir, en la toma de decisiones.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 82, p. 23"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "1. 🙋 Declarar",
+              "description": "En cuanto lo sabes, sea tuyo o de otro miembro. Basta con que pueda «parecer influir» (Art. 82)."
+            },
+            {
+              "title": "2. ⚖️ ¿Quién decide?",
+              "description": "En un Consejo o un estamento, el mismo órgano, sin ti. En un cargo operativo —comisionado, coordinador, jefatura—, tu superior jerárquico, no tú. Siempre antes de la decisión de fondo (Art. 83)."
+            },
+            {
+              "title": "3. 🚪 Apartarse",
+              "description": "Quien tiene el conflicto no participa ni en la discusión ni en la decisión sobre ese tema (Art. 83)."
+            },
+            {
+              "title": "4. 📋 Dejar constancia",
+              "description": "Conviene que quede en el acta o en el registro. Callarlo abre una investigación ante la Corte de Honor (Art. 82)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cuando no estés seguro, el Código de Honor da cuatro preguntas para mirarte: ¿está en sintonía con el código?, ¿es legal y ético?, ¿se identifica con mis valores y los de la Asociación?, ¿me sentiría feliz si apareciera como titular en las redes o en los medios? Y si queda la duda, recomienda abstenerse (Código de Honor, Preámbulo, p. 3)."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> declarar no es confesar una falta: es lo que permite decidir limpio. La falta es callarlo. Cómo se maneja en una sesión del Consejo lo practica el Curso 15; en las compras del grupo, el Curso 11."
+        }
+      ],
+      "reflection": {
+        "prompt": "En tu cargo, ¿sabes quién decide cuando declaras un conflicto: el mismo órgano o tu superior jerárquico? Anota sí, no o no sé, y el cargo o el órgano si lo sabes."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "questions": [
+          {
+            "text": "Una comisionada regional tiene que escoger la imprenta del evento, y una de las cotizaciones es de su propia imprenta. ¿Quién decide sobre ese conflicto?",
+            "options": [
+              "Su superior jerárquico, y ella no participa en esa escogencia.",
+              "El equipo de la comisión que ella coordina, y ella no participa en esa escogencia.",
+              "La Asamblea Regional, y ella no participa en esa escogencia."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En una sesión del Consejo de Grupo, un consejero declara que una de las cotizaciones de transporte es de su hermano. ¿Quién decide cómo se maneja ese conflicto?",
+            "options": [
+              "El mismo Consejo de Grupo, sin ese consejero.",
+              "El Jefe de Grupo, sin ese consejero.",
+              "La Corte de Honor Nacional, a la que el Consejo le envía la declaración."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 7 →"
+    },
+    {
+      "id": 7,
+      "title": "Lección 7 — ✅ La revisión de tu cargo",
+      "emoji": "✅",
+      "navLabel": "L7",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Seis preguntas muestran si tu cargo está limpio de inhabilidades, incompatibilidades y conflictos, y cada «no» o «no sé» es un compromiso posible."
+        },
+        {
+          "type": "paragraph",
+          "text": "La integridad no es no tener intereses: es ponerlos sobre la mesa antes de decidir. En la Región de Leonor nadie hizo trampa a propósito; a tres de las cuatro situaciones les faltó que alguien conociera la regla a tiempo. Estas son las seis preguntas:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "¿Sé si alguna inhabilidad me impide el cargo que tengo o el que me ofrecen?",
+            "¿Ejerzo a la vez funciones que el Reglamento no deja juntar?",
+            "¿Hay alguien de mi núcleo familiar en el mismo órgano, o en la Jefatura de mi nivel si soy consejero?",
+            "¿Rechazo los regalos y ventajas que me llegan por el cargo, y solo recibo detalles simbólicos?",
+            "¿Declaro de inmediato un conflicto, mío o de otro, antes de que se decida?",
+            "¿Sé quién decide en mi cargo cuando declaro un conflicto?"
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de seguir:</strong> vuelve a las cuatro situaciones de la Región de Leonor. ¿En cuál no había ningún problema?"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Compara:</strong> en la de la prima de la consejera de grupo: está fuera del núcleo familiar del Reglamento. La imprenta de la comisionada era un conflicto de interés (declarar y apartarse); la esposa del Jefe Scout Regional, una inhabilidad para el Consejo de ese periodo; y la finca del proveedor, un regalo que un consejero no puede recibir."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu turno:</strong> responde las seis pensando en tu cargo. Escoge un «no» o un «no sé» y conviértelo en un compromiso: qué vas a revisar o preguntar, a qué cargo o instancia y para cuándo. Escríbelo en el recuadro «Compromiso Personal» del certificado."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>➡️ En este nivel:</strong> el Curso 18 enseña qué es el GSAT y cómo pasar de una evaluación a un plan, y el Curso 20, a leer los planes mundial y regional que orientan el de la Asociación."
+        }
+      ],
+      "reflection": {
+        "prompt": "Anota cuántas de las seis preguntas respondiste con «sí» y cuál escogiste para mejorar (solo el número). El compromiso completo —qué vas a revisar o preguntar, a qué cargo o instancia y para cuándo— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7 — Cierre del curso",
+        "questions": [
+          {
+            "text": "Te ofrecen ser comisionado regional y no sabes si una sanción que te impuso la Corte hace unos años te inhabilita. ¿Qué haces?",
+            "options": [
+              "Aceptar solo después de consultarlo: puede ser una inhabilidad, y la norma no dice cuánto dura.",
+              "Aceptar y pedirle a tu superior que decida, en cada caso, si debes apartarte.",
+              "Aceptar y contárselo a quien te nombró en la primera reunión, para que quede en el acta."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un adulto responde «no sé» a «¿sé quién decide en mi cargo cuando declaro un conflicto?». ¿Qué compromiso sale bien?",
+            "options": [
+              "Averiguar, antes de su próxima decisión, si en su caso decide su Consejo o su superior jerárquico.",
+              "Preguntarle a la Corte de Honor, este mes, si puede ser ella la que decida sus futuros conflictos.",
+              "Releer esta semana los Arts. 82 y 83 y decidir él mismo, en su próximo conflicto, si se aparta."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Ir al certificado →"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Distingo las tres figuras",
+      "emoji": "🧭",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Reviso antes de nombrar",
+      "emoji": "🚪",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Sé qué no se junta",
+      "emoji": "🔀",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Reconozco una dádiva",
+      "emoji": "🎁",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Declaro y me aparto",
+      "emoji": "🙋",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Cargo íntegro",
+      "emoji": "✅",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "ÉTICA E INTEGRIDAD: CUANDO LO PERSONAL ENTRA EN LA DECISIÓN",
+    "description": "ha completado el Curso 19 del Nivel 4 — Transversales de la Línea Desarrollo Institucional, distinguiendo inhabilidades, incompatibilidades y conflictos de interés, reconociendo los límites de los cargos y las prácticas prohibidas, y declarando un conflicto ante quien debe decidirlo, con un compromiso concreto sobre su cargo"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí el compromiso de tu revisión: el «no» o «no sé» que escogiste, qué vas a revisar o preguntar, a qué cargo o instancia y para cuándo.",
+    "placeholder": "Voy a preguntar…"
+  }
+}

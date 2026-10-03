@@ -3,7 +3,7 @@
   "title": "La Política PNDI: Marco y Principios",
   "subtitle": "Curso 2 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Una política no es un papel para enmarcar — es la brújula que usas cuando el camino se bifurca. En ~30 minutos vas a recorrer los 4 fundamentos, los 7 principios y los 3 sujetos de la Política Nacional de Desarrollo Institucional con casos concretos del grupo scout, no con definiciones de manual. Al final saldrás con una brújula personal: un principio elegido por ti para guiar tu próximo dilema institucional.",
-  "contentVersion": "2026-09-21",
+  "contentVersion": "2026-10-03",
   "icon": "📜",
   "duration": "30 minutos",
   "level": 1,
@@ -119,7 +119,7 @@
             },
             {
               "title": "🔗 Articular",
-              "description": "Conectar lo que hacemos con el plan de la región, el nacional y el mundial. <em>Ejemplo: “nuestro campamento alinea con la prioridad 3 del Plan Regional 2022-2025”.</em>",
+              "description": "Conectar lo que hacemos con el plan de la región, el nacional y el mundial. <em>Ejemplo: “nuestro campamento aporta a una prioridad del plan nacional”.</em>",
               "color": "#e8f5e9",
               "borderColor": "#4caf50"
             },

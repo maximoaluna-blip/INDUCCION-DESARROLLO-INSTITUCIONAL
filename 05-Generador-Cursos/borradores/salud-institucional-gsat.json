@@ -1,0 +1,602 @@
+{
+  "courseId": "salud-institucional-gsat",
+  "title": "Salud institucional: el GSAT y la mejora continua",
+  "subtitle": "Curso 18 de la Línea Desarrollo Institucional · Nivel 4 — Transversales",
+  "description": "Una evaluación que no cambia nada no es una evaluación: es una lista. En este curso vas a conocer el GSAT, el estándar de calidad de la Organización Mundial con el que se evalúa la Asociación; sus diez dimensiones; cómo lo usa la Asociación; qué puede tomar de él un grupo o una Región; y cómo se pasa de una evaluación a un plan de acción.",
+  "contentVersion": "2026-10-03",
+  "icon": "🩺",
+  "duration": "~34 min",
+  "level": 4,
+  "levelName": "Transversales",
+  "order": 18,
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~34 minutos · 7 lecciones.</strong><br>Al final vas a poder explicar qué es el GSAT y para quién es, ubicar sus diez dimensiones, saber cómo lo usa la Asociación, qué puede tomar de él un grupo o una Región, y cómo se pasa de una evaluación a un plan de acción.<br><strong>Cada lección cierra con 2 preguntas:</strong> para avanzar hay que acertar las dos. Si fallas, el curso te muestra la correcta y lo vuelves a intentar."
+        },
+        {
+          "type": "paragraph",
+          "text": "En la reunión regional, el Jefe Scout Regional contó que la Asociación había pasado por la auditoría del GSAT. Un consejero de grupo preguntó: «¿Y eso qué tiene que ver con mi grupo?». Nadie supo responder. <strong>Ese mismo consejero llevaba tres años «evaluando» su grupo con una lista: cada diciembre anotaba las quejas de las familias, sin haber decidido antes qué mirar, y nadie volvía a abrirla.</strong>"
+        },
+        {
+          "type": "blockquote",
+          "text": "Una evaluación que no cambia nada no es una evaluación: es una lista."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Curso 5 de esta línea te mostró qué es una institución saludable y cómo se identifica una buena práctica. Este curso sube un nivel: cómo se mide la salud de una organización scout con el estándar de calidad de la Organización Mundial, y qué se hace con lo que sale."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a practicar"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 🌍 Qué es el GSAT, y para quién.",
+            "<strong>Lección 3 —</strong> 🧩 Las diez dimensiones.",
+            "<strong>Lección 4 —</strong> 🇨🇴 Cómo lo usa la Asociación.",
+            "<strong>Lección 5 —</strong> 🏠 Qué puede tomar un grupo o una Región.",
+            "<strong>Lección 6 —</strong> 🔁 De la evaluación al plan de acción.",
+            "<strong>Lección 7 —</strong> ✅ La revisión de tu grupo o tu Región."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de empezar:</strong> piensa en cómo se evalúa hoy tu grupo o tu Región: quién lo hace, con qué y qué pasa después. Lo vas a usar en la Lección 7."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 🌍 Qué es el GSAT, y para quién",
+      "emoji": "🌍",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>El GSAT es el estándar de calidad de la Organización Mundial para las organizaciones scouts nacionales: la Asociación se evalúa con él, no cada grupo."
+        },
+        {
+          "type": "paragraph",
+          "text": "El estándar dice que está «destinada al uso exclusivo de las OSN como miembros de la OMMS» (§1.2): en Colombia, la OSN es la Asociación Scouts de Colombia. Por eso el consejero de la reunión regional no podía «hacerle el GSAT» a su grupo. Lo que sí puede es entender qué mide y aprovecharlo, como verás en la Lección 5."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué es el GSAT",
+          "text": "La Herramienta de Evaluación de Apoyo Global (GSAT) es un estándar de calidad de la Organización Mundial del Movimiento Scout (OMMS). El objetivo de este estandar es ser usado como referencia de buena práctica por las Organizaciones Scout Nacionales (OSN).",
+          "source": "Herramienta de Evaluación del Apoyo Global (GSAT), versión 3.0 (Oficina Scout Mundial, junio de 2023), §1.1, p. 5"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧩 10 dimensiones",
+              "description": "Cada una mira una faceta de la organización: gobernanza, estrategia, integridad, comunicación, adultos, finanzas, programa, crecimiento, mejora continua y los requisitos con la OMMS.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "✅ 105 criterios",
+              "description": "Verificables con documentos. Cada uno se califica de 0 a 3 en una auditoría, y cuenta lo que se demuestra en ella: lo que se entrega después no se tiene en cuenta (§1.5).",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "❗ 20 esenciales",
+              "description": "Son el mínimo de una organización que funciona bien. Si no se cumplen, son «no conformidades mayores» y pasan a ser prioridad en la evaluación de seguimiento (§1.3).",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> el GSAT no es un formulario de grupo: es la auditoría de calidad de la Asociación ante la Organización Mundial. Para tu grupo sirve de espejo, no de examen. La Política A Salvo del Peligro la llama «Herramienta de Autoevaluación GSAT»."
+        }
+      ],
+      "reflection": {
+        "prompt": "Si mañana alguien en tu Consejo propusiera «hagámosle el GSAT al grupo», ¿qué le responderías? Escríbelo en una frase, sin nombres."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "En la auditoría, el equipo nacional asegura que sí tiene una política de denuncias, pero ese día no logra mostrarla y promete enviarla la semana siguiente. ¿Con qué se califica ese criterio?",
+            "options": [
+              "Con lo que se demostró en la auditoría: la política que llegue la semana siguiente no cambia esa calificación.",
+              "Con la política que llegue después, si el equipo la envía antes de que el auditor cierre y firme su informe final.",
+              "Con la palabra del equipo, porque el estándar es una referencia de buena práctica y no una inspección."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En la auditoría, la Asociación no logra demostrar uno de los 20 criterios esenciales. ¿Qué pasa con ese criterio?",
+            "options": [
+              "Queda como no conformidad mayor y pasa a ser prioridad en la evaluación de seguimiento.",
+              "Queda como no conformidad mayor, pero un puntaje total alto la compensa en el resultado.",
+              "Queda como no conformidad mayor, y se cierra enviando después los documentos que faltaron."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 3 →"
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🧩 Las diez dimensiones",
+      "emoji": "🧩",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Las diez dimensiones cubren toda la organización, y cinco son clave: las dos que son el corazón del Movimiento y las tres de gestión que sostienen todo lo demás."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "⭐ Clave: Adultos en el Movimiento (6)",
+              "description": "Cómo se capta, forma, acompaña y evalúa a los adultos.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "⭐ Clave: Programa de Jóvenes (8)",
+              "description": "La propuesta educativa y cómo se aplica.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "⭐ Clave: Marco de gobernanza (2)",
+              "description": "Quién decide, cómo se elige, cómo se rinden cuentas.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "⭐ Clave: Marco estratégico (3)",
+              "description": "El plan estratégico, los planes operativos y su seguimiento.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "⭐ Clave: Estabilidad financiera y movilización de recursos (7)",
+              "description": "Control financiero, presupuesto y fuentes de recursos.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "Gestión de la integridad (4)",
+              "description": "A Salvo del Peligro, ética, conflictos de intereses y obsequios, denuncias.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "Comunicación, apoyo e imagen pública (5)",
+              "description": "Cómo se comunica y se relaciona hacia afuera.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "Crecimiento (9)",
+              "description": "Membresía, retención y expansión.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "Mejora continua (10)",
+              "description": "Evaluar, aprender y corregir.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "Requisitos con la OMMS (1)",
+              "description": "Lo que la OMMS pide a cada organización miembro.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El estándar lo explica así: las dimensiones 6 y 8 «constituyen la actividad principal del Movimiento Scout», y la 2, la 3 y la 7 «son áreas de gestión fundamentales de cualquier organización» (GSAT 3.0, §1.3, p. 6). Varias se parecen a los ámbitos de la PNDI que viste en el Curso 4, pero no son lo mismo: el GSAT es una auditoría de la organización nacional, y la PNDI, una política para todos los niveles."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> dos dimensiones son el corazón del Movimiento —los jóvenes y los adultos— y tres son la gestión que lo sostiene: quién decide, hacia dónde va y con qué recursos. Lo que le faltaba a la lista del consejero cae en la mejora continua."
+        }
+      ],
+      "reflection": {
+        "prompt": "De las diez dimensiones, ¿cuál crees que tu grupo o tu Región cuida menos hoy? Anota cuál; el nombre basta."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "La Asociación revisa si su código de ética cubre la política de obsequios y la conducta de dirigentes y voluntarios frente a la discriminación y el acoso. ¿En qué dimensión del GSAT cae?",
+            "options": [
+              "En la gestión de la integridad, la dimensión 4.",
+              "En el marco de gobernanza, que es la dimensión 2.",
+              "En la estabilidad financiera, la dimensión 7."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "La Asociación solo puede reforzar dos dimensiones este año, y quiere que una sea del corazón del Movimiento y la otra de la gestión fundamental. ¿Qué par cumple?",
+            "options": [
+              "Programa de Jóvenes y Estabilidad financiera.",
+              "Adultos en el Movimiento y Crecimiento de la membresía.",
+              "Gestión de la integridad y Marco estratégico."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 4 →"
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 🇨🇴 Cómo lo usa la Asociación",
+      "emoji": "🇨🇴",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>En la Asociación, el GSAT alimenta el Plan Estratégico, lo lleva una Comisión Nacional de Calidad y se conecta con el control interno; para los grupos, todavía es una meta."
+        },
+        {
+          "type": "paragraph",
+          "text": "El GSAT no es un trámite externo: la Asociación lo metió en su planeación y en su estructura. El Plan Estratégico 2023–2026 se armó revisando «los resultados de la última evaluación GSAT» (p. 2), y el Reglamento Nacional le dio dueño:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver quién lleva el sistema de calidad",
+          "text": "Comisión responsable de liderar la implementación, seguimiento y mejora continua del Sistema de Calidad de la Asociación Scouts de Colombia, asegurando el cumplimiento de los estándares institucionales, las políticas globales de la OMMS, del GSAT y los procesos de evaluación interna y externa asociados; trabaja en coordinación con la Dirección de Control Interno de la Asociación Scouts de Colombia.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 117, p. 37"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🎯 Metas del Plan",
+              "description": "Lograr en 2024 al menos 70 % en la auditoría interna del GSAT, sin no conformidades mayores, y elaborar en 2023 un plan de acción para 2024–2025 con sus resultados, aprobado por el Consejo Scout Nacional y cumplido en al menos 80 % (Plan Estratégico, p. 7).",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "🏠 Para los grupos, una meta",
+              "description": "El Plan se propone desarrollar «un sistema de medición de calidad para grupos scouts basado en la herramienta GSAT», incorporado a SiScout durante el trienio (p. 12). Es una meta del Plan: este curso no la encontró publicada. Pregunta en tu Región si ya está en SiScout.",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "🤝 Acompañamiento",
+              "description": "La misma Comisión «acompaña a las regiones y grupos scout en el uso de herramientas de autoevaluación y fortalecimiento organizacional» (RN, Art. 117).",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🔗 Control interno",
+              "description": "El sistema de control interno debe enlazarse con las dimensiones del GSAT, para una evaluación integral de la Asociación (RN, Art. 108, literal g).",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> la respuesta al consejero de la reunión regional era esta: la auditoría es de la Asociación, sus resultados guían el Plan Estratégico, y para su grupo la Asociación se propuso una herramienta propia basada en el GSAT, que este curso no encontró publicada. Mientras tanto, hay quién lo acompañe."
+        }
+      ],
+      "reflection": {
+        "prompt": "Si tu Región pidiera acompañamiento a la Comisión Nacional de Calidad, ¿qué le pedirías primero? Anota una sola cosa —una dimensión o una tarea—, sin nombres."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Un Consejo Regional nota que sus grupos no saben por dónde empezar a revisarse, y quiere ayuda del nivel nacional. ¿Qué camino tiene?",
+            "options": [
+              "Pedírsela a la Comisión Nacional de Calidad: el Reglamento le encarga acompañar a regiones y grupos en su autoevaluación.",
+              "Pedirle a la Dirección de Control Interno que les haga a los grupos de la Región la auditoría del GSAT.",
+              "Esperar a que la herramienta para grupos esté en SiScout: mientras tanto, nadie en el nivel nacional tiene ese encargo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "En la auditoría interna de 2024, la Asociación saca 82 %, pero queda una no conformidad mayor. Frente a la meta del Plan Estratégico 2023–2026, ¿cómo le fue?",
+            "options": [
+              "No cumplió la meta: pedía al menos 70 % y, además, ninguna no conformidad mayor.",
+              "Cumplió la meta: pedía al menos 70 %, y la no conformidad pasa luego al seguimiento.",
+              "Aún no se sabe: la meta se cumple cuando el plan de acción llegue al 80 %."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 5 →"
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 🏠 Qué puede tomar un grupo o una Región",
+      "emoji": "🏠",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Mientras no haya una herramienta de calidad para grupos basada en el GSAT, las dimensiones pueden servir de espejo, la protección tiene su propia autoevaluación y la Comisión de Calidad acompaña. Lo que no se vale es llamar «GSAT» a un puntaje casero."
+        },
+        {
+          "type": "paragraph",
+          "text": "Que el GSAT sea de la organización nacional no quiere decir que un grupo no pueda aprender de él. La línea está en cómo se usa:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🪞 Las dimensiones como espejo",
+              "description": "Te sugerimos tomar las preguntas de una dimensión —por ejemplo, la de mejora continua— y conversarlas en el Consejo sin calificar ni comparar. No es hacer el GSAT: es usarlo para ver qué falta.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🛡️ La protección tiene su herramienta",
+              "description": "Para revisar cómo cuida a niños y jóvenes, el grupo tiene la autoevaluación de A Salvo del Peligro, el semáforo, que enseña el Curso 6 de Políticas Transversales.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "🤝 Pedir acompañamiento",
+              "description": "La Comisión Nacional de Calidad acompaña a regiones y grupos en la autoevaluación (RN, Art. 117).",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "🚫 Lo que no",
+              "description": "Presentar un puntaje casero como «el GSAT del grupo» o compararlo con otros grupos: el estándar no está hecho para eso, y el número no significaría lo mismo.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> la autoevaluación de A Salvo del Peligro está en la <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/\" target=\"_blank\" rel=\"noopener\">línea de Políticas Transversales</a>. La definición de institución saludable de la PNDI la viste en el Curso 5."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Tu grupo o tu Región ha hecho alguna autoevaluación en los últimos dos años? Anota sí, no o no sé, y con qué herramienta, si la conoces (sin nombres de personas)."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "Un Consejo de Grupo va a usar la dimensión de mejora continua del GSAT para revisar su año. ¿Cuál de estos usos convertiría su revisión en un falso «GSAT del grupo»?",
+            "options": [
+              "Ponerle un puntaje al grupo y compararlo en la reunión regional con el de los demás grupos.",
+              "Conversar solo esa dimensión este año y dejar las otras nueve dimensiones para el año siguiente.",
+              "Pedirle a la Comisión Nacional de Calidad que acompañe la conversación del Consejo."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un grupo quiere revisar cómo protege a sus niños y jóvenes. ¿Qué autoevaluación hecha para grupos tiene hoy?",
+            "options": [
+              "La autoevaluación de A Salvo del Peligro, el semáforo, que enseña el Curso 6 de Políticas Transversales.",
+              "Ninguna hecha para grupos: mientras no la haya en SiScout, usa como espejo la dimensión de integridad.",
+              "La que aplica la Comisión Nacional de Calidad cuando una Región le pide acompañamiento para sus grupos."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 6 →"
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — 🔁 De la evaluación al plan de acción",
+      "emoji": "🔁",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>Evaluar sirve si lo que sale se convierte en un plan, se cumple y se vuelve a revisar. Eso es lo que el GSAT llama mejora continua."
+        },
+        {
+          "type": "paragraph",
+          "text": "La lista de quejas del consejero no era una evaluación porque no llevaba a nada. La dimensión 10 del GSAT dice qué hace distinta a una organización que sí mejora:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué pide la mejora continua",
+          "text": "Todas las OSN deben someterse a una auditoría de sus sistemas de gestión, dar a conocer sus conclusiones a todas las partes interesadas, implementar acciones correctivas o preventivas y hacer un balance de las lecciones aprendidas. Este es un requisito previo para la mejora continua de la OSN.",
+          "source": "Herramienta de Evaluación del Apoyo Global (GSAT), versión 3.0 (Oficina Scout Mundial, junio de 2023), Dimensión 10, p. 25"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "1. 🔎 Evaluar",
+              "description": "Con un instrumento, no con impresiones: el Consejo evalúa cada año su propio funcionamiento, y se evalúan las actividades y proyectos que se escogieron desde la planeación."
+            },
+            {
+              "title": "2. 📝 Registrar",
+              "description": "Los resultados y las lecciones aprendidas quedan escritos y archivados, para poder usarlos después."
+            },
+            {
+              "title": "3. 🛠️ Actuar",
+              "description": "Lo que sale se vuelve un plan de acción con responsables. La Asociación lo hizo con su GSAT: un plan aprobado por el Consejo Scout Nacional con meta de cumplimiento (Plan Estratégico, p. 7)."
+            },
+            {
+              "title": "4. 🔁 Volver a usarlo",
+              "description": "Las lecciones de una actividad se usan al preparar la siguiente, y la satisfacción de voluntarios y jóvenes se mide cada cierto tiempo. (todo esto, Dimensión 10 del GSAT)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si hiciste el Curso 5, recuerdas un ciclo de seis pasos para cuidar una buena práctica: era un modelo práctico de ese curso. Estos cuatro pasos los armamos con los criterios de la Dimensión 10 del GSAT —el GSAT no los numera así— y miran la evaluación, no una práctica. Se tocan: documentar se parece a registrar; revisar, a evaluar; y mejorar, a actuar."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> una evaluación se reconoce por lo que deja: un registro, un plan con responsables y un cambio que se puede ver en la siguiente. Si no deja eso, era una lista."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en la última actividad grande de tu grupo o tu Región. ¿Quedó escrito qué se aprendió de ella? Anota sí, no o no sé, y si es «no», una lección que recuerdes, sin nombres ni situaciones de personas."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "questions": [
+          {
+            "text": "Al planear el año, una comisión regional decide evaluar todas sus actividades «por si acaso», y en diciembre no ha evaluado ninguna a fondo. ¿Qué pide la mejora continua del GSAT?",
+            "options": [
+              "Evaluar a fondo las actividades y proyectos escogidos desde la planeación, y dejar escrito lo que se aprenda de ellos.",
+              "Evaluar todas las actividades del año, aunque sea con una pregunta corta para cada una, y archivar las respuestas.",
+              "Evaluar al cierre del año solo la gestión del Consejo, en vez de las actividades: esa evaluación ya las recoge todas."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una Región evaluó en 2025, dejó escrito el resultado, hizo un plan con responsables y lo cumplió. En 2026 volvió a evaluar desde cero, sin mirar lo que había aprendido. ¿Cuál de los cuatro pasos de esta lección se saltó?",
+            "options": [
+              "Volver a usarlo: lo aprendido en 2025 tenía que ser el punto de partida de 2026.",
+              "Registrar: dejar escrito el resultado no basta si no se archiva también el plan.",
+              "Actuar: un plan con responsables no basta si no lo aprueba el Consejo Scout Nacional."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 7 →"
+    },
+    {
+      "id": 7,
+      "title": "Lección 7 — ✅ La revisión de tu grupo o tu Región",
+      "emoji": "✅",
+      "navLabel": "L7",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Seis preguntas muestran si tu grupo o tu Región evalúa para mejorar, y cada «no» o «no sé» es un compromiso posible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una evaluación que no cambia nada no es una evaluación: es una lista. Estas son las seis preguntas: cinco tomadas de la mejora continua del GSAT y llevadas a tu nivel, y una de la protección:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "¿El Consejo evalúa al menos una vez al año cómo cumple sus funciones?",
+            "¿Al planear el año, se escogen las actividades y proyectos que se van a evaluar?",
+            "¿Queda escrito lo que se aprende de cada uno, y se usa al preparar el siguiente?",
+            "¿Se ha preguntado a los adultos y a los jóvenes qué tan satisfechos están, en los últimos tres años?",
+            "¿Lo que sale de una evaluación se convierte en un plan con responsables y fechas?",
+            "¿El grupo revisa la protección de niños y jóvenes con su autoevaluación de A Salvo del Peligro?"
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de seguir:</strong> piensa en el consejero de la reunión regional y su lista de quejas. ¿Cuántas de las seis le faltaban?"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Compara:</strong> le faltaban por lo menos cuatro. La 1: su lista recogía quejas sobre el grupo, no cómo el Consejo cumplía sus funciones. La 2: nunca decidió antes qué mirar. La 3 y la 5: nadie volvía a abrirla, así que nada se usaba ni se volvía un plan. Las otras dos, el caso no las cuenta."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu turno:</strong> responde las seis pensando en tu grupo o tu Región. Escoge un «no» o un «no sé» y conviértelo en un compromiso: qué vas a proponer, a qué órgano o cargo y para cuándo. Escríbelo en el recuadro «Compromiso Personal» del certificado."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>➡️ Lo que sigue:</strong> el Curso 19 trata la ética y la integridad en los cargos, y el Curso 20, cómo leer los planes mundial y regional que orientan el Plan Estratégico de la Asociación."
+        }
+      ],
+      "reflection": {
+        "prompt": "Anota cuántas de las seis preguntas respondiste con «sí» y cuál escogiste para mejorar (solo el número). El compromiso completo —qué vas a proponer, a qué órgano o cargo y para cuándo— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7 — Cierre del curso",
+        "questions": [
+          {
+            "text": "Un grupo convierte cada evaluación en un plan con responsables y fechas, y lo revisa en la siguiente. Pero en cuatro años nunca ha preguntado a jóvenes ni adultos qué tan satisfechos están. ¿Cuál de las seis responde «no»?",
+            "options": [
+              "La 4: no se ha medido en los últimos tres años qué tan satisfechos están adultos y jóvenes.",
+              "La 5: un plan con responsables no alcanza si no incluye lo que piensan los jóvenes del grupo.",
+              "La 3: si no se pregunta a nadie, lo que se aprende de cada actividad no queda por escrito."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Una consejera responde «no sé» a «¿queda escrito lo que se aprende de cada actividad?». ¿Qué compromiso responde a esa pregunta?",
+            "options": [
+              "Proponer en el próximo Consejo averiguar dónde queda lo que dejaron las actividades y, si no hay nada, una hoja breve.",
+              "Proponer en el próximo Consejo una encuesta corta a jóvenes y adultos sobre qué tan satisfechos están con el grupo.",
+              "Proponer en el próximo Consejo que cada evaluación termine en un plan con responsables, fechas y una revisión final."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Ir al certificado →"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Sé qué es el GSAT",
+      "emoji": "🌍",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Ubico las dimensiones",
+      "emoji": "🧩",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Sé cómo lo usa la Asociación",
+      "emoji": "🇨🇴",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Lo uso como espejo",
+      "emoji": "🏠",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Evalúo para mejorar",
+      "emoji": "🔁",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Salud institucional",
+      "emoji": "✅",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "SALUD INSTITUCIONAL: EL GSAT Y LA MEJORA CONTINUA",
+    "description": "ha completado el Curso 18 del Nivel 4 — Transversales de la Línea Desarrollo Institucional, reconociendo el GSAT como estándar de calidad de la Asociación, sus diez dimensiones y su uso en la planeación nacional, y llevando la mejora continua a su grupo o su Región, con un compromiso concreto"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí el compromiso de tu revisión: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo.",
+    "placeholder": "Voy a proponer…"
+  }
+}

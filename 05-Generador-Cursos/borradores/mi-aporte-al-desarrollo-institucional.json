@@ -86,7 +86,7 @@
           "items": [
             "🔴 <strong>Ámbitos en NO:</strong> son las <strong>brechas a construir</strong>. Tu grupo todavía no tiene una práctica en ese ámbito. Estas son tus primeras candidatas — el curso te propondrá metas tipo <em>“crear primera práctica”</em>.",
             "🟡 <strong>Ámbitos en PARCIAL o en SÍ con 1-3 atributos:</strong> son las <strong>oportunidades de madurez</strong>. Hay materia prima. El curso te propondrá metas tipo <em>“fortalecer atributos”</em> para subir el número cumplido.",
-            "🟢 <strong>Ámbitos en SÍ con 4-5 atributos:</strong> son las <strong>fortalezas documentables</strong>. El curso te propondrá metas tipo <em>“documentar y compartir”</em> — porque lo que ya hace bien tu grupo merece ser sistematizado para otros (puente hacia el Curso 22 del Nivel 4).",
+            "🟢 <strong>Ámbitos en SÍ con 4-5 atributos:</strong> son las <strong>fortalezas documentables</strong>. El curso te propondrá metas tipo <em>“documentar y compartir”</em> — porque lo que ya hace bien tu grupo merece ser sistematizado para otros.",
             "⚪ <strong>Ámbitos marcados como 'No sé':</strong> son <strong>oportunidades de averiguar</strong>. Antes de hacer plan, vale conversar con el consejo — quizá la práctica existe pero tú no la conoces."
           ]
         },
@@ -549,7 +549,7 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>📅 Disclaimer:</strong> los Cursos 7-14 del Nivel 2 están actualmente en construcción. Esta sugerencia te orienta para cuando estén disponibles. Por ahora, los materiales fuente (PNDI 2017, Plan Regional 2022-2025, Manual de Estímulos, etc.) están en <a href=\"https://scout.org.co/biblioteca\" target=\"_blank\" rel=\"noopener\">scout.org.co/biblioteca</a>."
+          "text": "<strong>📅 Disclaimer:</strong> los materiales fuente (PNDI 2017, Manual de Estímulos, etc.) están en <a href=\"https://scout.org.co/biblioteca\" target=\"_blank\" rel=\"noopener\">scout.org.co/biblioteca</a>."
         }
       ],
       "reflection": {

@@ -612,7 +612,7 @@ function renderCoursesSuggestions() {
         var top3 = suggestions.slice(0, 3);
         if (top3.length === 0) {
             el.innerHTML = '<div class="courses-suggestion-content courses-suggestion-strong">' +
-                '<p>🌟 <strong>Tu grupo es referencia.</strong> Tu catálogo no muestra ámbitos en NO o PARCIAL — considera tomar el <strong>Curso 22 (Buenas Prácticas Institucionales)</strong> del Nivel 4 para documentar y compartir tus prácticas con la región.</p>' +
+                '<p>🌟 <strong>Tu grupo es referencia.</strong> Tu catálogo no muestra ámbitos en NO o PARCIAL — considera tomar el <strong>Curso 18 (Salud institucional)</strong> del Nivel 4 para evaluar y mejorar con método, y compartir tus prácticas con la región.</p>' +
             '</div>';
             return;
         }
@@ -873,7 +873,7 @@ function buildPlanPrintableHTML(planId) {
     sugg.sort(function (a, b) { return a.priority - b.priority; });
     var top3 = sugg.slice(0, 3);
     var coursesHTML = top3.length ? '<ul>' + top3.map(function (s) { return '<li>' + s.course + '</li>'; }).join('') + '</ul>' :
-        '<p><em>Tu grupo está sólido — considera el Curso 22 (Buenas Prácticas Institucionales) del Nivel 4 para documentar y compartir tus prácticas.</em></p>';
+        '<p><em>Tu grupo está sólido — considera el Curso 18 (Salud institucional) del Nivel 4 para evaluar y mejorar con método.</em></p>';
 
     return '<!DOCTYPE html><html lang="es"><head><meta charset="utf-8">' +
         '<title>Mi Aporte al DI — ' + escapeHtml(fullName) + '</title>' +

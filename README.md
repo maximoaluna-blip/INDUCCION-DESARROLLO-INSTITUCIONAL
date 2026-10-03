@@ -6,7 +6,7 @@ Plataforma de formación online de la **Línea Desarrollo Institucional** de la 
 
 ## Estado actual
 
-**Niveles 1 y 2 completos**, con las tres auditorías (doctrinal, pedagógica y funcional). El detalle por curso y por nivel lo genera el repo raíz en `ESTADO.md` (`python generar-estado.py`); la lista de cursos, con su ADR, está en `INDICE-PROYECTO.md`. El Nivel 3 (por cargo, 3 cursos) está en construcción; el reparto con Política de Adultos está en el Plan §5.
+**Línea completa: los cuatro niveles**, cada curso con las tres auditorías (doctrinal, pedagógica y funcional). El detalle por curso y por nivel lo genera el repo raíz en `ESTADO.md` (`python generar-estado.py`); la lista de cursos, con su ADR, está en `INDICE-PROYECTO.md`. El reparto del Nivel 3 con Política de Adultos está en el Plan §5.
 
 ## Estructura del proyecto
 

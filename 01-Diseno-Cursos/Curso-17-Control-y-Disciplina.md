@@ -64,3 +64,5 @@ Todo aplicado; el motor se corrigió y se reconstruyó la línea.
 **Dos vueltas más de regla ciega, con evaluadores nuevos: 12 de 12 las dos.** Las tres opciones de cada pregunta comparten estructura y no hay dos defendibles, pero el curso tiene una tesis única («vigilar no es juzgar», «el adulto va a la Corte») y una vez descartado el que sanciona sin poder, se descarta en todas. Se aplicaron los arreglos baratos (Q5, Q8, Q9) y se publica con la fuga registrada: es estructural de los cursos por cargo (ADR-112, ADR-113).
 
 **Verificación doctrinal final:** ver el ADR-113.
+
+_**Canal de quejas (03-oct-2026, con el Nivel 4).** La L6 suma el canal oficial de la Corte (su página y corte.honor@scout.org.co) y que el formato oficial de queja (versión 2024, descargado al corpus) admite quejas anónimas y a nombre de un tercero. El Art. 23 del Código sigue citado tal cual; la Corte también actúa de oficio._

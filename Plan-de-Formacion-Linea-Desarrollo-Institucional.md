@@ -4,8 +4,9 @@
 
 **Asociación Scouts de Colombia · Plataforma de Formación de Adultos**
 
-> 4 niveles · 21 cursos · Ruta progresiva
+> 4 niveles · 20 cursos · Ruta progresiva
 >
+> Versión 1.2 — 03-10-2026 (ADR-122): Nivel 4 reducido a 3 cursos (18–20). Buenas prácticas ya vive en el Curso 5; Ética absorbe el Código de Honor sin repetir el Curso 17; los planes mundial y regional se actualizan a los vigentes.
 > Versión 1.1 — 28-09-2026 (ADR-111): Nivel 3 reducido a 3 cursos por el reparto con Política de Adultos; Nivel 3 = Cursos 15–17 y Nivel 4 = Cursos 18–21.
 > Versión inicial — 10 de mayo de 2026
 
@@ -93,9 +94,9 @@ Cuando un curso es compartido entre líneas, se consume desde una sola fuente pa
 | 1 | Ruta de Fundamentación | 6 cursos | Todo adulto que entra a la línea | Por construir |
 | 2 | Profundización por ámbito de gestión | 8 cursos | Adultos en cargo | Por construir |
 | 3 | Especialización por cargo | 3 cursos | Adulto en cargo específico | Por construir |
-| 4 | Transversales | 4 cursos | Todo adulto del movimiento | Por construir |
+| 4 | Transversales | 3 cursos | Todo adulto del movimiento | Por construir |
 
-**Total: 21 cursos.**
+**Total: 20 cursos.**
 
 ### 2.2 Recorrido del adulto a través de la Línea
 
@@ -109,7 +110,7 @@ Los Niveles 2, 3 y 4 no son secuenciales entre sí: el adulto elige según su ro
 
 ### 2.3 Cobertura conceptual de la línea
 
-Los 21 cursos cubren, sin saltos, los **8 ámbitos de gestión** definidos por la Política Nacional y las **6 áreas estratégicas** que la presentación oficial de Desarrollo Institucional opera en grupos y regiones. El Nivel 1 cierra con un **catálogo personal de buenas prácticas** (Curso 5) y un **plan de aporte personal** (Curso 6) construidos por el propio adulto.
+Los 20 cursos cubren, sin saltos, los **8 ámbitos de gestión** definidos por la Política Nacional y las **6 áreas estratégicas** que la presentación oficial de Desarrollo Institucional opera en grupos y regiones. El Nivel 1 cierra con un **catálogo personal de buenas prácticas** (Curso 5) y un **plan de aporte personal** (Curso 6) construidos por el propio adulto.
 
 ```
 8 Ámbitos PNDI 2017
@@ -223,18 +224,19 @@ Cuando un curso del Nivel 3 ya existe en la Línea Política de Adultos (por eje
 
 No están atados a un ámbito ni a un cargo específico. Aplican a todo adulto del movimiento de manera continua y se actualizan según las directrices nacionales y mundiales.
 
-### 6.1 Cursos del Nivel 4
+### 6.1 Cursos del Nivel 4 (v1.2, ADR-122)
 
 | # | Curso | Justificación |
 |---|---|---|
-| 18 | Salud Institucional: cómo evaluar tu grupo o región | Aplicación práctica del **GSAT** (Global Support Assessment Tool) como herramienta mundial de autoevaluación institucional, articulado con el ciclo "identificar → documentar → aplicar → revisar → mejorar → compartir" de buenas prácticas del Curso 5. Pendiente: cuando el CSN/DNDI publique un instrumento nacional de autoevaluación de salud institucional, integrarlo aquí. KPI Plan Regional: 24 OSN evaluadas con GSAT 2018 +. |
-| 19 | Buenas Prácticas Institucionales | Las 10 buenas prácticas del Desarrollo Institucional + sus 5 atributos (innovadoras, efectivas, sostenibles, replicables, aplicables). Aterrizadas en ejemplos colombianos. |
-| 20 | Código de Honor, Ética y Conflictos de Intereses | **Código de Honor, Disciplinario y de Conducta** (Resolución C.S.N. N° 004-22 de 12 de febrero de 2022): faltas, sanciones, debido proceso. **Política de Conflictos de Intereses** (Acuerdo C.S.N. N° 419 de 11 de junio de 2022): declarar y prevenir. **Manual de Estímulos Nacionales** (Resolución C.S.N. N° 001-22 de 28 de enero de 2022) + **Manual de la Orden al Mérito Scout**. 14 principios éticos del manejo de recursos. |
-| 21 | Articulación con Plan Trienal Mundial y Plan Regional | El **Plan Trienal Mundial 2021–2024** (6 prioridades), el **Plan Regional 2022–2025** (11 prioridades) y cómo el grupo/región alinea su Plan de Grupo con esos marcos. KPIs y metaindicadores. |
+| 18 | Salud institucional: el GSAT y tu grupo | Qué es el **GSAT 3.0** (10 dimensiones, 105 criterios, 20 esenciales, escala 0–3), por qué es de **uso exclusivo de las organizaciones nacionales** (§1.2) y qué le toca al grupo o a la Región: usar sus dimensiones como espejo, la autoevaluación de A Salvo del Peligro (PT 06) y el acompañamiento de la Comisión Nacional de Calidad (RN Art. 117). La Dimensión 10 lleva el paso de la evaluación al plan. DI lo enseña; Políticas Transversales remite. |
+| 19 | Ética e integridad en el cargo | Inhabilidades, incompatibilidades y conflictos de interés del **Reglamento Nacional 2026** (Arts. 60, 65–83) y el **Reglamento de Grupos 5.7**, con las cuatro preguntas del **Código de Honor 2022**. No repite el proceso disciplinario del Curso 17. |
+| 20 | Planes mundial y regional: del mundo a tu grupo | La **Estrategia para el Movimiento Scout 2024–2033**, el **Plan Trienal Mundial 2024–2027** y el **Plan Trienal Regional Interamericano 2025–2028**; qué le pide cada uno a la Asociación y cómo llegan al grupo por el plan nacional (RN Arts. 26 y 31). Cierra la línea. |
 
-### 6.2 Sobre el Curso 20
+### 6.2 Lo que salió del Nivel 4
 
-El Curso 20 es de especial relevancia para los miembros de los órganos de control y disciplina —Comisión Nacional de Vigilancia y Control, Corte de Honor Nacional (con sus Capítulos Regionales), Revisorías Fiscales Regionales y de Grupo, y Comisiones Disciplinarias Ad-hoc del Consejo de Grupo (Curso 17)—, pero su material aplica a todo adulto: cada vez que un dirigente recibe un regalo, vota una decisión donde tiene un familiar implicado, o decide cómo redactar una comunicación pública delicada, está tomando una decisión ética institucional. Este curso le da el marco para hacerlo bien.
+- **Buenas Prácticas Institucionales** (antes Curso 19): su contenido ya está en el Curso 5; un curso aparte lo duplicaba.
+- **Manual de Estímulos y Orden al Mérito** (antes en el Curso 20): no es ética del cargo; queda fuera de la línea.
+- **Plan Trienal Mundial 2021–2024 y Plan Regional 2022–2025**: vencidos; el Curso 20 usa los vigentes.
 
 ---
 
@@ -255,7 +257,7 @@ El Curso 20 es de especial relevancia para los miembros de los órganos de contr
 - **Hito D — Nivel 2 Prioridad 1**: Cursos 7, 8 y 10 (Gobernanza, Planeación, Finanzas) — los más demandados en grupos y regiones.
 - **Hito E — Nivel 2 Prioridad 2**: Cursos 9, 11, 12, 13 y 14.
 - **Hito F — Nivel 3** (Cursos 15–17), tras el reparto con Política de Adultos (§5).
-- **Hito G — Lanzar Nivel 4** comenzando por el Curso 20 (Código de Honor, Ética y Conflictos de Intereses) por su carácter aplicable a todo adulto.
+- **Hito G — Nivel 4** (Cursos 18–20), publicado el 03-10-2026 (ADR-122 a 125): cierra la línea.
 
 ### 7.3 Criterio para avanzar entre niveles
 

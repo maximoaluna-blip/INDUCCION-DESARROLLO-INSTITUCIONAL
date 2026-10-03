@@ -1,0 +1,552 @@
+{
+  "courseId": "planes-mundial-regional",
+  "title": "Planes mundial y regional: del mundo a tu grupo",
+  "subtitle": "Curso 20 de la Línea Desarrollo Institucional · Nivel 4 — Transversales",
+  "description": "Un plan del mundo no se copia ni se ignora: se lee, y se baja por su camino. En este curso vas a distinguir la Estrategia para el Movimiento Scout 2024–2033, el Plan Trienal Mundial 2024–2027 y el Plan Trienal Regional Interamericano 2025–2028; reconocer sus impactos y prioridades; explicar qué le pide cada plan a la Asociación y ubicar a qué prioridad nacional aporta una acción de tu plan.",
+  "contentVersion": "2026-10-03",
+  "icon": "🌎",
+  "duration": "~33 min",
+  "level": 4,
+  "levelName": "Transversales",
+  "order": 20,
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~33 minutos · 7 lecciones.</strong><br>Al final vas a poder distinguir la Estrategia para el Movimiento Scout, el Plan Trienal Mundial y el Plan Trienal Regional Interamericano; reconocer las prioridades y las declaraciones de impacto; saber qué le piden esos planes a la Asociación y cómo llegan hasta el plan de tu grupo o tu Región.<br><strong>Cada lección cierra con 2 preguntas:</strong> para avanzar hay que acertar las dos. Si fallas, el curso te muestra la correcta y lo vuelves a intentar."
+        },
+        {
+          "type": "paragraph",
+          "text": "Una consejera regional vuelve de un evento interamericano con el plan regional nuevo y propone que cada grupo copie sus objetivos en el plan del año. Otro consejero responde que eso «es cosa de la Organización Mundial» y no les toca. <strong>Discuten media sesión. Ninguno de los dos había leído qué dice el plan sobre sí mismo.</strong>"
+        },
+        {
+          "type": "blockquote",
+          "text": "Un plan del mundo no se copia ni se ignora: se lee, y se baja por su camino."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Curso 8 de esta línea te enseñó a construir el plan de tu grupo y a leer el Plan Estratégico de la Asociación. Este curso sube dos niveles: los planes de la Organización Mundial y de la Región Interamericana, qué dicen de sí mismos y cómo llegan, a través de la Asociación, hasta tu grupo."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a practicar"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 🗂️ Tres documentos, tres horizontes.",
+            "<strong>Lección 3 —</strong> 🌍 La Estrategia para el Movimiento Scout.",
+            "<strong>Lección 4 —</strong> 🤝 Qué le piden los planes a la Asociación.",
+            "<strong>Lección 5 —</strong> 🪜 La cadena hasta tu grupo.",
+            "<strong>Lección 6 —</strong> 🔎 Leer un plan sin perderse.",
+            "<strong>Lección 7 —</strong> ✅ La revisión de tu plan."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de empezar:</strong> piensa en el plan de tu grupo o tu Región para este año: ¿sabes a qué prioridad de la Asociación aporta? Lo vas a usar en la Lección 7."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 🗂️ Tres documentos, tres horizontes",
+      "emoji": "🗂️",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>La Estrategia fija el rumbo por nueve años; el Plan Trienal Mundial la parte en tramos de tres; el Plan Trienal Regional dice cómo apoyará la Región a las organizaciones nacionales."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧭 Estrategia para el Movimiento Scout 2024–2033",
+              "description": "El rumbo del Movimiento por nueve años: una visión, tres declaraciones de impacto y siete prioridades. La aprobó la Conferencia Scout Mundial.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "🌍 Plan Trienal Mundial 2024–2027",
+              "description": "El primer tramo de tres años de la Estrategia, en 11 áreas de trabajo. Lo aprobó el Comité Scout Mundial.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "🌎 Plan Trienal Regional Interamericano 2025–2028",
+              "description": "Cómo apoyará la Región Interamericana a las organizaciones nacionales para avanzar en la Estrategia. Prioriza nueve objetivos. Lo aprobó el Comité Scout Interamericano.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver cómo se relacionan la Estrategia y el plan trienal",
+          "text": "El plan desglosa la Estrategia para el Movimiento Scout, de nueve años de duración, en tres segmentos accionables de tres años de duración.",
+          "source": "Plan Trienal Mundial 2024-2027 (Comité Scout Mundial, 2024), p. 13"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> si la pregunta es «hacia dónde va el Movimiento», es la Estrategia; si es «qué se hará estos tres años en el mundo», el Plan Trienal Mundial; si es «qué apoyo dará la Región a las organizaciones nacionales», el Plan Regional. Los planes anteriores —el Trienal 2021–2024 y el Regional 2022–2025— ya vencieron. Y ojo con la palabra «Región»: la «Región Interamericana» es el nivel de la Organización Mundial para América; «tu Región scout» es la de la Asociación en tu territorio. Por eso, en este curso «Plan Regional» es siempre el Interamericano; tu Región scout tiene su plan operativo anual."
+        }
+      ],
+      "reflection": {
+        "prompt": "Antes de este curso, ¿habías leído alguno de estos tres documentos? Anota cuál, o ninguno."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "Una consejera quiere saber en qué áreas de trabajo concretas se ocupará el Movimiento en este tramo, no el rumbo de fondo. ¿Qué documento abre?",
+            "options": [
+              "El Plan Trienal Mundial 2024–2027.",
+              "El Plan Trienal Regional Interamericano 2025–2028.",
+              "La Estrategia para el Movimiento Scout 2024–2033."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "¿Cuál de estas frases describe bien cómo se relacionan los tres documentos?",
+            "options": [
+              "La Estrategia fija el rumbo por nueve años; el Plan Trienal Mundial la parte en tramos; el Regional dice cómo apoyará la Región a los países.",
+              "La Estrategia fija el rumbo por nueve años; el Plan Trienal Mundial la parte en tramos; el Regional la reparte entre los países de América.",
+              "La Estrategia fija el rumbo por nueve años; el Plan Trienal Mundial la parte en tramos; el Regional dice qué objetivos debe incluir cada país."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 3 →"
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🌍 La Estrategia para el Movimiento Scout",
+      "emoji": "🌍",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>La Estrategia tiene una visión, tres declaraciones de impacto —el cambio que el Movimiento quiere en el mundo— y siete prioridades estratégicas: cuatro para el Movimiento y tres para la organización."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la visión",
+          "text": "Ser a nivel mundial el movimiento juvenil más inspirador e integrador al crear experiencias de aprendizaje transformadoras para cada persona joven, en todas partes.",
+          "source": "Plan Trienal Mundial 2024-2027 (Comité Scout Mundial, 2024), p. 11"
+        },
+        {
+          "type": "paragraph",
+          "text": "Piensa en un campamento donde la Tropa limpia y cuida la quebrada de la vereda con la comunidad. El cambio que eso busca en el mundo es una <strong>declaración de impacto</strong>: «un mundo sostenible». En qué se concentra el Movimiento para lograrlo —por ejemplo, probar una actividad educativa nueva— es una <strong>prioridad</strong>: «Innovar la educación». Mismo campamento, dos piezas distintas."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🌐 Declaraciones de impacto",
+              "description": "El cambio en el mundo: un mundo pacífico e inclusivo; un mundo modelado por jóvenes; un mundo sostenible.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🏕️ Prioridades para el Movimiento",
+              "description": "Innovar la educación · Fortalecer la diversidad y la inclusión · Garantizar la seguridad y valorar el bienestar · Valorar el voluntariado.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "🏛️ Prioridades para la organización",
+              "description": "Una organización apta para su propósito · Una organización adaptable · Una organización influyente.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Las declaraciones de impacto dicen qué cambio busca el Movimiento en el mundo; las prioridades, en qué se concentra para lograrlo. Por eso una frase como «un mundo sostenible» no es una prioridad sino un impacto, y «valorar el voluntariado» no es un impacto sino una prioridad."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> visión, impacto, prioridad. Cuando leas el Plan Regional o el próximo plan de la Asociación, busca a cuál de estas piezas dice aportar cada objetivo."
+        }
+      ],
+      "reflection": {
+        "prompt": "De las siete prioridades, ¿cuál esperarías encontrar en el próximo plan nacional? Anota solo una."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "El Plan Regional Interamericano 2025–2028 se propone ayudar a los países a cumplir sus obligaciones de A Salvo del Peligro. ¿A qué prioridad de la Estrategia aporta?",
+            "options": [
+              "La prioridad «Garantizar la seguridad y valorar el bienestar».",
+              "La prioridad «Fortalecer la diversidad y la inclusión».",
+              "La prioridad «Innovar la educación»."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un objetivo del borrador del próximo plan nacional dice: «Aporta a: un mundo modelado por jóvenes». Una consejera pregunta en qué se va a concentrar el trabajo para lograrlo. ¿Qué le falta al objetivo?",
+            "options": [
+              "Nombrar la prioridad: esa frase dice el cambio que se busca en el mundo, no en qué se concentra el trabajo.",
+              "Nombrar el impacto: esa frase dice en qué se concentra el trabajo, no el cambio que se busca en el mundo.",
+              "Nombrar el área de trabajo: esa frase es una prioridad, y las áreas del trienal son las que dicen qué se hace."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 4 →"
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — 🤝 Qué le piden los planes a la Asociación",
+      "emoji": "🤝",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>Los planes del mundo y de la Región no se copian: la Asociación adapta los objetivos globales a su contexto y participa en lo que la Región ofrece. Las líneas de acción del Plan Regional las ejecuta la Región, no cada país."
+        },
+        {
+          "type": "paragraph",
+          "text": "La consejera del caso quería que los grupos copiaran; el consejero, ignorar. El Plan Regional habla de las organizaciones nacionales —la Asociación—, no de cada grupo, y aun así ya les contesta a los dos:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué espera el Plan Regional de las organizaciones nacionales",
+          "text": "Esto significa que, si bien las OSN no necesariamente deben incluir los mismos objetivos del plan regional en sus propios planes estratégicos nacionales, sí se espera que participen activamente en los eventos, talleres, capacitaciones y otras actividades desarrolladas bajo este plan, ya que estas contribuirán a fortalecer el Movimiento Scout en sus territorios y a alcanzar nuestra visión colectiva.",
+          "source": "Plan Trienal Regional Interamericano 2025-2028 (Comité Scout Interamericano, 2025), p. 6"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🌍 Del Plan Mundial",
+              "description": "Las organizaciones nacionales dan vida al plan «al adaptar los objetivos globales a los contextos locales» (Plan Trienal Mundial, p. 13).",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "🌎 De las líneas de acción regionales",
+              "description": "«No están concebidas como actividades que deban ejecutar directamente las OSN, sino como aportaciones desde el nivel regional» (Plan Regional, p. 7).",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🇨🇴 De la Asociación",
+              "description": "El Consejo Scout Nacional formula los planes estratégicos nacionales una vez establecidos los de la Organización Mundial y la Región Interamericana, cada cuatro años como máximo, y la Asamblea los aprueba (Reglamento Nacional, Art. 26).",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> copiar los objetivos regionales no es lo que se pide, e ignorarlos tampoco. La Asociación adapta lo mundial en su plan nacional y aprovecha lo que la Región ofrece."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en la última vez que en tu Consejo se habló de algo «de la Región Interamericana» o «del mundo». ¿Qué postura ganó: copiarlo, ignorarlo o leerlo? Anota una palabra."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Al preparar el próximo plan nacional, el Consejo Scout Nacional repasa qué espera de la Asociación el Plan Trienal Mundial 2024–2027. ¿Qué dice ese plan?",
+            "options": [
+              "Que las organizaciones nacionales adapten a su contexto los objetivos globales.",
+              "Que participen en sus eventos y capacitaciones, aunque no incluyan sus objetivos.",
+              "Que incluyan en su plan nacional las 11 áreas de trabajo del trienal."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "¿Y qué espera de la Asociación el Plan Trienal Regional Interamericano 2025–2028?",
+            "options": [
+              "Que participe en sus eventos y capacitaciones, aunque no incluya sus objetivos.",
+              "Que adapte sus nueve objetivos al país y los ponga en el plan nacional.",
+              "Que ejecute en el país las líneas de acción del plan regional."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 5 →"
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 🪜 La cadena hasta tu grupo",
+      "emoji": "🪜",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Lo mundial llega al grupo por escalones: la Asociación lo adapta en su plan nacional, la Región arma su plan operativo para aportar al nacional, y el grupo planea su año. El grupo no se alinea directamente con el plan del mundo."
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "1. 🌍 Estrategia y Plan Trienal Mundial",
+              "description": "El rumbo y los tramos de tres años del Movimiento."
+            },
+            {
+              "title": "2. 🌎 Plan Trienal Regional",
+              "description": "Los apoyos de la Región Interamericana a las organizaciones nacionales."
+            },
+            {
+              "title": "3. 🇨🇴 Plan Estratégico de la Asociación",
+              "description": "Lo formula el Consejo Scout Nacional después de los planes mundial y regional, y lo aprueba la Asamblea (Reglamento Nacional, Art. 26; lo viste en el Curso 8)."
+            },
+            {
+              "title": "4. 🏘️ Plan operativo de tu Región scout",
+              "description": "El Jefe Scout Regional lo arma con el Jefe Scout Nacional, para que aporte al plan operativo anual nacional (Reglamento Nacional, Art. 31; también en el Curso 8)."
+            },
+            {
+              "title": "5. 🏠 Plan del grupo",
+              "description": "El grupo planea su año mirando las prioridades de la Asociación y de su Región (Curso 8)."
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Hay un desfase que conviene saber: el Plan Estratégico 2023–2026 de la Asociación se construyó antes de la Estrategia 2024–2033. Por eso se apoya en las seis prioridades estratégicas que tenía entonces la Organización Mundial (Plan Estratégico, p. 5). El siguiente plan nacional se formulará con los planes mundial y regional vigentes, como pide el Reglamento."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> tu grupo no copia el plan del mundo: aporta a la Asociación y a su Región, que son las que lo adaptan. Si quieres saber qué del mundo toca a tu grupo, búscalo en el plan nacional."
+        }
+      ],
+      "reflection": {
+        "prompt": "Escoge una acción del plan de tu grupo o tu Región scout para este año (solo el tipo: campamento, capacitación, campaña…). Anota a qué prioridad del plan nacional aporta, o «no sé»."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "Un Consejo de Grupo arma su plan del año y quiere anotar a qué aporta cada acción. ¿Qué mira?",
+            "options": [
+              "Mirando las prioridades del plan nacional y del de su Región scout, y escogiendo a cuál aporta cada acción.",
+              "Mirando las siete prioridades de la Estrategia mundial 2024–2033, y escogiendo a cuál aporta cada acción.",
+              "Mirando los objetivos del Plan Trienal Regional Interamericano, y escogiendo a cuál aporta cada acción."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un consejero busca en el Plan Estratégico 2023–2026 de la Asociación las siete prioridades de la Estrategia mundial, y no las encuentra. ¿Qué pasó?",
+            "options": [
+              "Que el plan nacional es anterior a la Estrategia y se apoya en las prioridades mundiales de entonces.",
+              "Que el plan nacional las fundió en sus propias prioridades, adaptándolas al contexto del país, como pide el Plan Mundial.",
+              "Que el plan nacional sí las recoge todas, pero repartidas en sus once prioridades y con otros nombres."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 6 →"
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — 🔎 Leer un plan sin perderse",
+      "emoji": "🔎",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>Para leer un plan hay que mirar tres cosas: su vigencia, qué tipo de pieza es cada número y cómo se va a medir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vuelve a la sesión del caso: alguien cita «las 11 prioridades» y nadie pregunta de qué documento ni de qué año. Media discusión sale de ahí."
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📅 La vigencia",
+              "description": "Mira las fechas en la portada. Hoy rigen la Estrategia 2024–2033, el Plan Trienal Mundial 2024–2027 y el Plan Regional 2025–2028; el Trienal 2021–2024 y el Regional 2022–2025 ya vencieron. Y el Plan Estratégico de la Asociación es de 2023–2026.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "🔢 Los números que se parecen",
+              "description": "El Plan Estratégico de la Asociación tiene 11 prioridades; el Plan Trienal Mundial, 11 áreas de trabajo; la Estrategia, 7 prioridades; el Plan Regional prioriza 9 objetivos. Que dos digan «11» no los hace iguales.",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "📊 Cómo se mide",
+              "description": "El Plan Trienal Mundial usa indicadores tomados de fuentes que ya existen —la plataforma de servicios, el portal de datos de las organizaciones nacionales, el GSAT, el censo de miembros y las evaluaciones de A Salvo del Peligro— para no cargar de más a las organizaciones nacionales; solo si esos datos no alcanzan, usa encuestas a las organizaciones nacionales (p. 15).",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "El Plan Regional mide en dos niveles: el estratégico, que mira lo que aporta a la Estrategia, al Plan Trienal Mundial y a sus propios objetivos, y el operativo, que mira los planes operativos anuales, los servicios y los eventos (Plan Regional, p. 11)."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> antes de discutir un plan, pregunta de qué año es, qué es cada número y con qué se va a medir. La mitad de las discusiones se acaban ahí."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en el último plan que se citó en tu Consejo. Anota su periodo (por ejemplo, 2022–2025) y si sigue vigente: sí, no o no sé."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "questions": [
+          {
+            "text": "En una reunión alguien dice: «Las 11 áreas del Plan Trienal Mundial son las mismas 11 prioridades de nuestro plan nacional». ¿Qué le respondes?",
+            "options": [
+              "Que no son las mismas: coinciden en el número, y el plan nacional es anterior al trienal.",
+              "Que sí son las mismas: el plan nacional adaptó al país, una por una, cada área del trienal.",
+              "Que son las mismas en parte: el plan nacional tomó siete de la Estrategia y sumó cuatro."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "¿Qué trabajo le trae a la Asociación medir el avance del Plan Trienal Mundial 2024–2027?",
+            "options": [
+              "Un trabajo extra menor: los indicadores salen de datos que ya existen, y solo si no alcanzan hay encuestas.",
+              "Un informe anual: cada organización nacional reporta, una por una, el avance de las 11 áreas de trabajo.",
+              "Un informe al cierre: cada organización nacional reporta a la Región, una sola vez, el avance del trienio."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 7 →"
+    },
+    {
+      "id": 7,
+      "title": "Lección 7 — ✅ La revisión de tu plan",
+      "emoji": "✅",
+      "navLabel": "L7",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Seis preguntas muestran si el plan de tu grupo o tu Región está conectado con lo que viene de arriba, y cada «no» o «no sé» es un compromiso posible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un plan del mundo no se copia ni se ignora: se lee, y se baja por su camino. Estas son las seis preguntas:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "¿Sé qué plan estratégico nacional está vigente y hasta cuándo?",
+            "¿El plan de mi grupo o mi Región dice a qué prioridades de la Asociación aporta?",
+            "¿Distingo una declaración de impacto de una prioridad estratégica?",
+            "¿Reviso la vigencia antes de citar un plan del mundo o de la Región?",
+            "¿Sé qué ofrece la Región Interamericana —eventos, talleres, capacitaciones— y cómo aprovecharlo?",
+            "¿Sé con qué indicadores se mide lo que planeamos?"
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de seguir:</strong> vuelve a la discusión de la consejera y el consejero. ¿Qué le habría contestado cada uno el propio Plan Regional?"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Compara:</strong> a la consejera, que el Plan Regional ni siquiera le pide a la Asociación copiar sus objetivos, menos a cada grupo; al consejero, que tampoco son «cosa de otros»: se espera que la Asociación participe en lo que la Región ofrece. Y a los dos, que lo mundial le llega al grupo por el plan nacional, no directo."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu turno:</strong> responde las seis pensando en tu grupo o tu Región. Escoge un «no» o un «no sé» y conviértelo en un compromiso: qué vas a revisar o proponer, a qué órgano o cargo y para cuándo. Escríbelo en el recuadro «Compromiso Personal» del certificado."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>➡️ En este nivel:</strong> el Curso 18 enseña qué es el GSAT y cómo pasar de una evaluación a un plan, y el Curso 19, la ética y la integridad en los cargos."
+        }
+      ],
+      "reflection": {
+        "prompt": "Anota cuántas de las seis preguntas respondiste con «sí» y cuál escogiste para mejorar (solo el número). El compromiso completo —qué vas a revisar o proponer, a qué órgano o cargo y para cuándo— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7 — Cierre del curso",
+        "questions": [
+          {
+            "text": "El informe anual de la Jefatura Scout Regional cita tres documentos como guía: la Estrategia 2024–2033, el Plan Trienal Mundial 2021–2024 y el Plan Estratégico 2023–2026 de la Asociación. ¿Cuál de las tres citas hay que cambiar?",
+            "options": [
+              "La del Plan Trienal Mundial: ese tramo ya venció, y el vigente es el de 2024–2027, que lo reemplazó.",
+              "La del Plan Estratégico de la Asociación: dejó de regir cuando se aprobó la Estrategia 2024–2033.",
+              "La de la Estrategia: en América la reemplaza el Plan Trienal Regional Interamericano 2025–2028."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Un Jefe de Grupo responde «no sé» a la pregunta 2 de la revisión. ¿Cuál de estos compromisos responde a ese «no sé»?",
+            "options": [
+              "Revisar con el Consejo de Grupo, antes de aprobar el plan del año, a cuál prioridad del plan nacional apunta cada acción.",
+              "Revisar con el Consejo de Grupo, antes de aprobar el plan del año, a cuál prioridad de la Estrategia mundial apunta cada acción.",
+              "Revisar con el Consejo de Grupo, antes de aprobar el plan del año, qué talleres de la Región Interamericana puede aprovechar."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Ir al certificado →"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Distingo los tres documentos",
+      "emoji": "🗂️",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Leo la Estrategia",
+      "emoji": "🌍",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Sé qué se pide",
+      "emoji": "🤝",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Conozco la cadena",
+      "emoji": "🪜",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Leo sin perderme",
+      "emoji": "🔎",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Del mundo a mi grupo",
+      "emoji": "✅",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "PLANES MUNDIAL Y REGIONAL: DEL MUNDO A TU GRUPO",
+    "description": "ha completado el Curso 20 del Nivel 4 — Transversales de la Línea Desarrollo Institucional, distinguiendo la Estrategia para el Movimiento Scout, el Plan Trienal Mundial y el Plan Trienal Regional Interamericano, y llevando lo que piden hasta el plan de su grupo o su Región, con un compromiso concreto"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí el compromiso de tu revisión: el «no» o «no sé» que escogiste, qué vas a revisar o proponer, a qué órgano o cargo y para cuándo.",
+    "placeholder": "Voy a revisar…"
+  }
+}
