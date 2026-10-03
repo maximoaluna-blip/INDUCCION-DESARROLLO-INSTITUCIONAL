@@ -518,6 +518,8 @@ var META_TIPO_CATALOG = [
 // --- Brujula display (lee reflexion del Curso 2 L6 desde localStorage cross-curso) ---
 function getBrujulaText(sourceCourseId, sourceModule) {
     try {
+        var compromiso = localStorage.getItem('commitment_' + sourceCourseId);
+        if (compromiso && compromiso.trim()) return compromiso;
         var raw = localStorage.getItem('courseProgress_' + sourceCourseId);
         if (!raw) return null;
         var p = JSON.parse(raw);
