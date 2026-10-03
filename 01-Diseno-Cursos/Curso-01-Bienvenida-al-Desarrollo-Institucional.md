@@ -389,3 +389,5 @@ Este hook se enuncia explícitamente en la Lección 1 (Bienvenida) al abrir el c
 ---
 
 _Documento de diseño del Curso 1, versión inicial — 10 de mayo de 2026. Validado contra el marco metodológico de la plataforma y la biblioteca oficial de la ASC (scout.org.co/biblioteca, revisada el mismo día)._
+
+_**Privacidad del compromiso (02-oct-2026, ADR-116).** El registro promete que el compromiso del cierre se queda en el navegador, pero la reflexión lo pedía completo, y las reflexiones viajan a la hoja de la Asociación. Ahora la reflexión pide lo mínimo y sin nombres, y el compromiso completo va al recuadro «Compromiso Personal» (`commitmentBox`). Además se quitó la promesa de enviar el compromiso por correo, que el backend no cumple, y se declaró el `commitmentBox`. `contentVersion` 2026-10-02._

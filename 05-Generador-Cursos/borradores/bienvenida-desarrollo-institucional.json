@@ -3,7 +3,7 @@
   "title": "Bienvenida al Desarrollo Institucional",
   "subtitle": "Curso 1 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Si crees que el Desarrollo Institucional es asunto de comisionados nacionales, este curso es para ti. En 25 minutos vas a entender por qué te aplica, vas a desarmar los 5 mitos más comunes, vas a ubicar los órganos de la ASC y, sobre todo, vas a salir con un primer compromiso chico, concreto y tuyo. Sin tecnicismos. Sin papeleo. Solo claridad sobre lo que ya estás haciendo y lo que sigue.",
-  "contentVersion": "2026-09-21",
+  "contentVersion": "2026-10-02",
   "icon": "🏛️",
   "duration": "25 minutos",
   "level": 1,
@@ -592,7 +592,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe AQUÍ tu compromiso completo siguiendo la plantilla: “Esta semana voy a ___. Lo voy a hacer con ___. Y la señal de que se cumplió será ___.” Esto te lo enviaremos por correo cuando descargues tu certificado para que lo recuerdes en una semana."
+        "prompt": "Anota en pocas palabras qué vas a hacer esta semana, sin nombres de personas. El compromiso completo, con la plantilla «Esta semana voy a ___. Lo voy a hacer con ___. Y la señal de que se cumplió será ___», escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5 — Cierre del curso",
@@ -655,5 +655,9 @@
   "certificate": {
     "courseName": "BIENVENIDA AL DESARROLLO INSTITUCIONAL",
     "description": "ha completado el Curso 1 del Nivel 1 — Fundamentación de la Línea Desarrollo Institucional, reconociendo que el DI atraviesa todas las prácticas de cuidado de la institución scout, desarmando los 5 mitos más comunes, ubicando los órganos de gobierno, operación y control de la Asociación Scouts de Colombia, y formulando un primer compromiso concreto desde su rol actual"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí tu compromiso de la semana con la plantilla: «Esta semana voy a ___. Lo voy a hacer con ___. Y la señal de que se cumplió será ___».",
+    "placeholder": "Esta semana voy a…"
   }
 }

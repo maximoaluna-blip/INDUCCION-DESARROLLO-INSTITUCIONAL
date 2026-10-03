@@ -3,7 +3,7 @@
   "title": "Planeación: del Plan Estratégico al POA",
   "subtitle": "Curso 8 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
   "description": "Un plan que no baja al calendario y a la plata es solo un deseo. En ~32 minutos vas a recorrer la cadena completa de la planeación scout: qué es planear y para qué, cómo el plan estratégico se vuelve plan operativo anual y presupuesto, cómo se construyó el Plan Estratégico nacional 2023–2026 y cómo se hace, se aprueba y se sigue el Plan de Grupo.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "status": "active",
   "icon": "🧭",
   "duration": "~32 min",
@@ -547,7 +547,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu aporte al Plan de Grupo: la prioridad, el objetivo SMART, la acción del año, el recurso del presupuesto y la fecha de revisión. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista. Ojo: ese recuadro no sale en el PDF."
+        "prompt": "Anota cuál de las prioridades escogiste para tu aporte al Plan de Grupo (solo la prioridad). El aporte completo —el objetivo SMART, la acción del año, el recurso del presupuesto y la fecha de revisión— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7 — Cierre del curso",

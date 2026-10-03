@@ -3,7 +3,7 @@
   "title": "Finanzas Sanas: Presupuesto y Tesorería",
   "subtitle": "Curso 10 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
   "description": "La plata del grupo no es de nadie: por eso todos tienen que poder verla. En este curso vas a recorrer las reglas que cuidan el dinero de un grupo scout: de quién es, quién decide, quién la maneja y quién la vigila; cómo se fijan las cuotas y el presupuesto; cómo puede entrar la plata y cómo no; y cómo se rinden cuentas y qué pasa cuando no se rinden.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "status": "active",
   "icon": "💰",
   "duration": "~32 min",
@@ -505,7 +505,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu resultado en las seis preguntas y tu compromiso: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano y para cuándo. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista. Ojo: ese recuadro no sale en el PDF."
+        "prompt": "Anota cuántas de las seis preguntas respondiste con «sí» y cuál escogiste para mejorar (solo el número). El compromiso completo —qué vas a proponer, a qué órgano y para cuándo— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7 — Cierre del curso",

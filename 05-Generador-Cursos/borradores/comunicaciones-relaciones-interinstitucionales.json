@@ -3,7 +3,7 @@
   "title": "Comunicaciones y Relaciones Interinstitucionales",
   "subtitle": "Curso 12 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
   "description": "Lo que el grupo dice en público, lo dice en nombre de los Scouts. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Comunicaciones y Relaciones Interinstitucionales, y su ámbito internacional: cómo se informa el grupo hacia adentro y hacia afuera, qué se publica y qué no, quién habla por el grupo, y cómo se cuidan sus alianzas aquí y en el mundo.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "status": "active",
   "icon": "📣",
   "duration": "~34 min",
@@ -485,7 +485,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu resultado en las cinco preguntas y tu compromiso: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista. Ojo: ese recuadro no sale en el PDF. (Anota roles, no nombres.)"
+        "prompt": "Anota cuántas de las cinco preguntas respondiste con «sí» y cuál escogiste para mejorar (solo el número). El compromiso completo —qué vas a proponer, a qué órgano o cargo y para cuándo— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7 — Cierre del curso",

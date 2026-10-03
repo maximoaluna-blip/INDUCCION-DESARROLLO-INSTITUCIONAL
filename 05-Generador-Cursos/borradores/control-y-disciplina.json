@@ -1,0 +1,615 @@
+{
+  "courseId": "control-y-disciplina",
+  "title": "Control y disciplina: quién vigila y quién juzga",
+  "subtitle": "Curso 17 de la Línea Desarrollo Institucional · Nivel 3 — Especialización por cargo",
+  "description": "Vigilar no es juzgar, y juzgar no le toca a cualquiera. En este curso vas a distinguir los órganos de control de los de disciplina, ubicarlos en la Nación, la Región y el grupo, saber quién decide sobre la falta de un adulto y la de un joven, reconocer las garantías de un proceso disciplinario y saber qué hacer cuando conoces una falta.",
+  "contentVersion": "2026-10-02",
+  "icon": "⚖️",
+  "duration": "~36 min",
+  "level": 3,
+  "levelName": "Especialización por cargo",
+  "order": 17,
+  "totalContentModules": 6,
+  "modules": [
+    {
+      "id": 1,
+      "title": "Bienvenida",
+      "emoji": "👋",
+      "navLabel": "Inicio",
+      "isIntro": true,
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ Curso de ~36 minutos · 7 lecciones.</strong><br>Al final vas a poder distinguir a quien vigila de quien juzga, ubicar los órganos de control y de disciplina de cada nivel, saber quién decide sobre la falta de un adulto y la de un joven, reconocer las garantías de un proceso disciplinario y saber qué hacer cuando conoces una falta.<br><strong>Cada lección cierra con 2 preguntas:</strong> para avanzar hay que acertar las dos. Si fallas, el curso te muestra la correcta y lo vuelves a intentar."
+        },
+        {
+          "type": "paragraph",
+          "text": "En el grupo de Gloria pasaron dos cosas el mismo mes: del bingo faltó dinero —y los soportes nunca le llegaron al Contador—, y una mamá se quejó de que un dirigente humilló a su hijo en una salida; el caso ya corría por el chat de familias. El Consejo armó una «Corte de Honor del grupo», suspendió al dirigente y le pidió al Contador que «investigara y sancionara». <strong>Tres meses después, nada de lo actuado se sostenía.</strong>"
+        },
+        {
+          "type": "blockquote",
+          "text": "Vigilar no es juzgar, y juzgar no le toca a cualquiera."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Curso 3 te mostró el mapa: en cada nivel hay un órgano que controla y otro que juzga, y no son iguales en los tres niveles. Este curso entra al detalle, para quien hace parte de esos órganos o tiene que acudir a ellos: qué hace cada uno, a quién juzga cada cual, qué garantías tiene quien es investigado y qué te toca a ti cuando conoces una falta. La protección de niños, niñas y jóvenes frente al abuso tiene su propia ruta, que enseñan el Curso 25 de Programa de Jóvenes y la línea de Políticas Transversales; aquí se nombra y se remite."
+        },
+        {
+          "type": "heading",
+          "level": 3,
+          "text": "🎯 Lo que vas a practicar"
+        },
+        {
+          "type": "list",
+          "ordered": false,
+          "items": [
+            "<strong>Lección 2 —</strong> 👁️ Vigilar no es juzgar.",
+            "<strong>Lección 3 —</strong> 🗺️ Quién controla en cada nivel.",
+            "<strong>Lección 4 —</strong> ⚖️ Quién juzga a quién.",
+            "<strong>Lección 5 —</strong> 📜 Faltas, sanciones y garantías.",
+            "<strong>Lección 6 —</strong> 🙋 Cuando conoces una falta.",
+            "<strong>Lección 7 —</strong> ✅ La revisión de tu grupo o tu Región."
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de empezar:</strong> piensa en tu grupo o tu Región. ¿Sabes quién revisa las cuentas y ante quién se presenta una queja contra un dirigente? Lo vas a usar en la Lección 7."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Lección 2 — 👁️ Vigilar no es juzgar",
+      "emoji": "👁️",
+      "navLabel": "L2",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Los órganos de control vigilan, alertan y recomiendan correctivos; los de disciplina investigan y sancionan. Son dos funciones distintas, y ninguna hace el trabajo de la otra."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Consejo de Gloria le pidió al Contador que «sancionara». Pero el Contador no está para eso. El control mira que las cuentas, las decisiones y los procesos se ajusten a las normas, y cuando algo no cuadra, alerta y recomienda cómo corregirlo. El Reglamento Nacional lo dice así:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué es vigilar y qué es controlar",
+          "text": "Vigilancia: es la facultad que se le otorga a la Comisión para hacer seguimiento a los procesos y las actuaciones de la Asociación y sus miembros, con el fin de velar por el cumplimiento de la normatividad vigente. Control: es la facultad que se le otorga a la Comisión para recomendar los correctivos necesarios, a fin de subsanar situaciones de orden jurídico, contable, financiero, administrativo, social y de resultados de la Asociación, como producto del ejercicio de la vigilancia.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 197, p. 59"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "👁️ Controlar",
+              "description": "Vigilar, revisar, alertar y recomendar correctivos. Lo hacen la Comisión Nacional de Vigilancia y Control (control social), la Revisoría Fiscal (el control que exige la ley) y los Contadores de Región y de Grupo (control fiscal-contable).",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "⚖️ Juzgar",
+              "description": "Investigar una conducta, oír al investigado, valorar las pruebas e imponer una sanción o absolver. En la Asociación lo hace la Corte de Honor Nacional; en el grupo, para los niños y jóvenes, la Comisión Disciplinaria Ad-hoc.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Por eso el Contador de Grupo, según su ficha, revisa los libros, verifica que cada movimiento tenga soporte y genera <em>«las alertas de manera oportuna de las situaciones irregulares que pudieran presentarse»</em> (Manual de Cargos, ficha 2.1.8, Función 1). Su trabajo termina en la alerta y el informe: lo que se haga con una conducta irregular lo decide otro órgano."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> si un órgano de control descubre algo, alerta y recomienda; si hay una posible falta de una persona, eso va al órgano que juzga. Pedirle al Contador que sancione es tan errado como pedirle a la Corte de Honor que revise los libros."
+        }
+      ],
+      "reflection": {
+        "prompt": "En tu grupo o tu Región, ¿qué cargo o instancia revisa hoy las cuentas? Anota solo el cargo y si ese control lo hace alguien distinto de quien maneja el dinero (sí, no o no sé)."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 2",
+        "questions": [
+          {
+            "text": "La Comisión Nacional de Vigilancia y Control revisa una Región y encuentra gastos sin soportes. ¿Qué le toca hacer a la Comisión?",
+            "options": [
+              "Recomendar cómo subsanar los soportes que faltan y hacer seguimiento a que esa corrección se cumpla.",
+              "Abrirle un proceso disciplinario a quien autorizó los gastos, para decidir si se le sanciona.",
+              "Suspender los pagos de la Región hasta que aparezcan los soportes, para que no se pierda más dinero."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "El Contador de tu grupo ve que la caja de una actividad no cuadra. Nadie ha presentado todavía una queja. ¿Qué le toca hacer?",
+            "options": [
+              "Informarle al Consejo qué no cuadra y qué soportes faltan, sin esperar a que haya una queja.",
+              "Acordar con quien manejó la caja que reponga la diferencia y, si lo hace, no informarle al Consejo.",
+              "Esperar al cierre del período por si la diferencia se corrige, y reportarla en su informe anual."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 3 →"
+    },
+    {
+      "id": 3,
+      "title": "Lección 3 — 🗺️ Quién controla en cada nivel",
+      "emoji": "🗺️",
+      "navLabel": "L3",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>El control y la disciplina tienen nombre propio en cada nivel, y no se repiten iguales: en la Nación hay comisión, revisoría fiscal y corte; en la Región, contador y sala auxiliar; en el grupo, contador y comisión ad-hoc."
+        },
+        {
+          "type": "paragraph",
+          "text": "Esta cuadrícula ya la viste en el Curso 3. Lo nuevo de esta lección está en dos lugares: quién integra cada órgano nacional y el cambio de capítulo a sala auxiliar en la Región."
+        },
+        {
+          "type": "paragraph",
+          "text": "En la Nación, el control social lo ejerce la Comisión Nacional de Vigilancia y Control: siete integrantes elegidos por la Asamblea Scout Nacional (Estatuto, Art. 70). Al lado está la Revisoría Fiscal, el control que exige la ley, que puede revisar cualquier nivel cuando lo vea necesario (Art. 77). Y la disciplina está a cargo de la Corte de Honor Nacional, de nueve miembros (Art. 63), que se organiza en salas para garantizar la doble instancia."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver qué es la Comisión Nacional de Vigilancia y Control",
+          "text": "La Comisión Nacional de Vigilancia y Control es el estamento encargado de ejercer el control social de la Asociación Scouts de Colombia, y velar por el correcto y eficiente funcionamiento de la administración y de los deberes y obligaciones normativas por parte de sus miembros. La función de vigilancia y control se ejercerá de forma preventiva, concomitante y posterior.",
+          "source": "Estatuto de la Asociación Scouts de Colombia (2025), Art. 69, p. 37"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🏛️ Nación",
+              "description": "Control: Comisión Nacional de Vigilancia y Control y Revisoría Fiscal. Disciplina: Corte de Honor Nacional.",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "🏘️ Región",
+              "description": "Control fiscal-contable: el Contador Regional, que nombra el Consejo Regional y que le responde (Manual 2.2.7). Si la Región tiene personería jurídica propia, tiene además Revisor Fiscal (Reglamento Nacional, Art. 130). Disciplina: la sala auxiliar de la Corte de Honor.",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🏠 Grupo",
+              "description": "Control fiscal-contable: el Contador de Grupo, que nombra el Consejo de Grupo y que le responde (Manual 2.1.8). Disciplina: la Comisión Disciplinaria Ad-hoc, que no es permanente.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En la Región cambió el nombre del órgano disciplinario. El Reglamento de Regiones (Art. 1.20.4), el Manual de Cargos (fichas 2.2.11 y 2.2.12) y el Código de Honor hablan del <em>«Capítulo Regional de la Corte de Honor»</em>, cuyos miembros escoge la Corte de una terna del Consejo Regional. El Reglamento Nacional de 2026, que está por encima de todos ellos (Art. 19) y deja sin efectos lo que lo contraríe (Art. 246), lo organiza de otra forma:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la sala auxiliar de la Región",
+          "text": "En cada región del país existirá una sala auxiliar de la Corte de Honor conformada por (3) adultos voluntarios, elegidos para un periodo de 2 años por la asamblea regional respectiva, quienes deberán acreditar los mismos requisitos que para ser elegido miembro de la Corte de Honor Nacional.",
+          "source": "Reglamento Nacional (Acuerdo C.S.N. 684 de 2026), Art. 187, p. 56"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> en ningún nivel el que maneja el dinero se revisa a sí mismo, y en ningún nivel hay una «Corte de Honor de Grupo». Si en tu Región todavía se habla de «capítulo», es el nombre anterior: el Reglamento Nacional dio un año para poner al día los manuales."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Tu Región tiene ya su sala auxiliar de la Corte de Honor, o todavía funciona como capítulo? Anota sí, no o no sé, y a qué cargo o instancia le preguntarías para saberlo."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 3",
+        "questions": [
+          {
+            "text": "En el Consejo de Grupo alguien propone elegir en Asamblea «a los tres de la sala auxiliar del grupo», para tener quién juzgue a los scouts. ¿Qué le respondes?",
+            "options": [
+              "Que no: la sala auxiliar es de la Región; en el grupo se forma una Comisión Ad-hoc por caso.",
+              "Que no: en el grupo esa tarea es del Consejo de Grupo en pleno, que decide cada caso.",
+              "Que no: en el grupo nadie juzga a los scouts; cada caso va a la sala auxiliar de la Región."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Tu Región quiere poner al día su órgano disciplinario conforme al Reglamento Nacional de 2026. ¿Qué corresponde?",
+            "options": [
+              "Que la Asamblea Regional elija a tres adultos con los requisitos de la Corte, por dos años.",
+              "Que el Consejo Regional elija a tres adultos con los requisitos de la Corte, por dos años.",
+              "Que el Consejo Regional presente una terna y la Corte escoja a los tres de la sala auxiliar."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 4 →"
+    },
+    {
+      "id": 4,
+      "title": "Lección 4 — ⚖️ Quién juzga a quién",
+      "emoji": "⚖️",
+      "navLabel": "L4",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>La falta de un adulto la investiga y la sanciona la Corte de Honor Nacional. La falta grave o muy grave de un niño o un joven la juzga, en su grupo, la Comisión Disciplinaria Ad-hoc, y la leve la resuelve su rama. Fuera de eso, nadie más sanciona."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Consejo de Gloria suspendió a un dirigente. No podía hacerlo: el Estatuto le da esa tarea, para toda persona mayor de edad, a un solo órgano."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver a quién juzga la Corte de Honor Nacional",
+          "text": "La Corte de Honor Nacional será la encargada de adelantar las investigaciones disciplinarias e imponer las sanciones por las faltas cometidas contra la Ley y Promesa Scout, el presente Estatuto, los reglamentos y resoluciones o acuerdos de la Asamblea Scout Nacional y del Consejo Scout Nacional que desarrollen los anteriores, cometidos por las personas mayores de edad que estén o hayan estado inscritos a la Asociación Scouts de Colombia, en cualquiera de sus niveles.",
+          "source": "Estatuto de la Asociación Scouts de Colombia (2025), Art. 62, p. 33"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🧑 Falta de un adulto",
+              "description": "La investiga y la decide la Corte de Honor Nacional. La sala auxiliar no actúa por su cuenta: apoya a la Corte en lo que esta le comisione, como recoger pruebas o adelantar una conciliación (RN Art. 188; Código, Arts. 17 y 31), y lo que se decida se decide como Corte de Honor Nacional. El Reglamento de Grupos de 2013 le dejaba al Jefe de Grupo las faltas «muy leves»; el Código de Honor de 2022 ya no tiene esa categoría, y el Estatuto de 2025 le da todo a la Corte.",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            },
+            {
+              "title": "🧒 Falta grave de un niño o un joven",
+              "description": "El Jefe de Grupo pide, con sus razones, que se estudie, y el Consejo de Grupo forma una Comisión Disciplinaria Ad-hoc con tres de sus miembros: la preside el Vicepresidente, y no pueden estar el Presidente del Consejo ni el Jefe de Grupo (Reglamento de Grupos, Art. 8.2, 8.5 y 8.7.1). Si se apela su fallo, decide la Corte de Honor Nacional.",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "🧒 Falta leve de un niño o un joven",
+              "description": "La resuelve su rama, con el Jefe de Rama y el Jefe de Grupo, a la luz de la Promesa y la Ley. La sanción más alta es la suspensión por tres meses (Reglamento de Grupos, Art. 8.7.1).",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            }
+          ]
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver lo que decía el Código sobre el capítulo regional",
+          "text": "El Capítulo no estará autorizado para decretar sanciones a los investigados, pues ello estará reservado a la decisión de la Corte de Honor Nacional.",
+          "source": "Código de Honor, Disciplinario y de Conducta (Acuerdo C.S.N. 510 de 2022, Resolución C.S.N. 004-22), Art. 31, parágrafo segundo, p. 17"
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> un Rover mayor de edad, para el Estatuto, es una persona mayor de edad: su falta va a la Corte de Honor Nacional, aunque el Reglamento de Grupos de 2013 hable de «miembros de rama» y el Código de 2022 lo limite a quienes tienen cargo: manda el Estatuto. Si tienes dudas sobre un caso, consúltalo con la Corte antes de actuar en el grupo."
+        }
+      ],
+      "reflection": {
+        "prompt": "Piensa en la última posible falta que conociste en tu grupo, sin nombres. ¿Lo trató el órgano que correspondía según esta lección? No describas el caso: anota solo sí, no o no sé, y qué órgano habría correspondido."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 4",
+        "questions": [
+          {
+            "text": "Un Rover de 19 años, Consejero Juvenil Regional, se quedó con parte de la plata de un evento regional que manejaba por su cargo. ¿Quién decide la falta?",
+            "options": [
+              "La Corte de Honor Nacional: es mayor de edad, y el Estatuto le da a la Corte toda falta de un adulto.",
+              "La Comisión Disciplinaria Ad-hoc de su grupo: es mayor de edad, pero sigue siendo miembro del Clan.",
+              "La sala auxiliar de su Región: es mayor de edad, y la falta ocurrió en un evento de la Región."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Para la falta grave de un scout de 14 años, el Consejo propone formar la Comisión Ad-hoc con el Vicepresidente, el Secretario y el Jefe de Grupo. ¿Está bien formada?",
+            "options": [
+              "No: el Jefe de Grupo no puede integrarla; hay que poner en su lugar a otro miembro del Consejo.",
+              "No: la debe presidir el Presidente del Consejo, no el Vicepresidente, y el Secretario sobra.",
+              "Sí: son tres miembros del Consejo, la preside el Vicepresidente y el Jefe de Grupo conoce al scout."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 5 →"
+    },
+    {
+      "id": 5,
+      "title": "Lección 5 — 📜 Faltas, sanciones y garantías",
+      "emoji": "📜",
+      "navLabel": "L5",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 6 minutos · 1 idea central:</strong><br>El Código de Honor clasifica las faltas de los adultos en leves, graves y muy graves, y a quien es investigado le garantiza conocer los cargos, defenderse y apelar."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Código de Honor, Disciplinario y de Conducta es la norma que aplica la Corte. Clasifica las faltas y les pone a cada una su sanción:"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "🟢 Leves",
+              "description": "Conductas que afectan en menor medida los principios y valores, cometidas por primera vez. Se sancionan con amonestación verbal o escrita; la escrita queda en la hoja de vida (Código, Arts. 2 y 7).",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🟠 Graves",
+              "description": "Conductas que los afectan de manera significativa: por ejemplo, apropiarse de fondos, no rendir las cuentas a tiempo u ocultar una falta. Se sancionan con suspensión de tres meses a dos años (Art. 3).",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            },
+            {
+              "title": "🔴 Muy graves",
+              "description": "Conductas que desconocen abiertamente los principios o atentan contra la integridad de las personas o contra la Asociación. Se sancionan con suspensión de uno a dos años o con expulsión (Art. 4).",
+              "color": "#fce4ec",
+              "borderColor": "#e91e63"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Una investigación tiene reglas. La Corte le notifica al investigado qué conductas se le imputan y qué normas habría vulnerado, y desde ahí corren sus garantías:"
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver el derecho a defenderse",
+          "text": "El investigado dispone de diez (10) días hábiles, contados a partir del día siguiente a la notificación, para presentar sus descargos y aportar o solicitar las pruebas que considere necesarias para su defensa. Igualmente tiene derecho a solicitar, a su costa, copia de toda la actuación.",
+          "source": "Código de Honor, Disciplinario y de Conducta (Acuerdo C.S.N. 510 de 2022, Resolución C.S.N. 004-22), Art. 27, p. 15"
+        },
+        {
+          "type": "timeline",
+          "items": [
+            {
+              "title": "🧑‍⚖️ Defensor",
+              "description": "Puede designar un defensor que lo acompañe o lo represente (Art. 27)."
+            },
+            {
+              "title": "🔁 Recursos",
+              "description": "Contra la resolución que lo sanciona puede pedir reposición ante la Corte y apelación, dentro de los cinco días hábiles siguientes a la notificación (Arts. 20 a 22)."
+            },
+            {
+              "title": "⏸️ Suspensión provisional",
+              "description": "La Corte puede suspenderlo mientras investiga, solo si su presencia puede interferir o seguir causando daño. No es una sanción: si al final lo sancionan con suspensión, ese tiempo se le descuenta, y si lo absuelven queda constancia (Art. 7)."
+            },
+            {
+              "title": "🤝 Conciliación",
+              "description": "En los asuntos que lo admiten, la Corte puede citar a las partes a conciliar, en cualquier etapa (Art. 13)."
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> si ves que el Código habla de una Corte de cinco miembros: hoy son nueve, según el Estatuto de 2025. Lo demás de esta lección sigue igual."
+        }
+      ],
+      "reflection": {
+        "prompt": "Si mañana un adulto de tu grupo o tu Región recibiera cargos de la Corte, ¿cuál de estas garantías no sabrías explicarle hoy: conocer los cargos, defenderse en diez días hábiles, tener defensor o apelar? Anota solo esa."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 5",
+        "questions": [
+          {
+            "text": "A una dirigente le entregan en persona la resolución con los cargos, y al día siguiente sale de viaje dos semanas por trabajo. ¿Qué le conviene saber?",
+            "options": [
+              "Que los diez días hábiles corren desde el día siguiente a la notificación, aunque esté de viaje.",
+              "Que tiene cinco días hábiles para sus descargos, contados desde el día siguiente a la notificación.",
+              "Que los diez días hábiles empiezan a contar cuando la Corte confirme que leyó la notificación."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "A un dirigente lo suspendieron provisionalmente dos meses mientras la Corte investigaba. Al final lo sancionan con seis meses de suspensión. ¿Cuánto le falta cumplir?",
+            "options": [
+              "Cuatro meses: los dos de la suspensión provisional se le descuentan de la sanción de seis.",
+              "Seis meses: la suspensión provisional no es una sanción, así que no se le descuenta.",
+              "Ocho meses: la provisional y la sanción se suman, porque son por la misma falta."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 6 →"
+    },
+    {
+      "id": 6,
+      "title": "Lección 6 — 🙋 Cuando conoces una falta",
+      "emoji": "🙋",
+      "navLabel": "L6",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Quien conoce una falta no la juzga ni la tapa: la lleva al órgano que corresponde, con una queja bien hecha, y guarda reserva."
+        },
+        {
+          "type": "paragraph",
+          "text": "El Consejo de Gloria quería «arreglarlo en casa». El Código de Honor no deja esa salida: ocultar una falta también es una falta."
+        },
+        {
+          "type": "policy-quote",
+          "label": "📋 Ver la falta de ocultar",
+          "text": "Ocultar, no informar o inducir a otros a no informar las faltas contra la Promesa, la Ley Scout, los Estatutos o los Reglamentos, cometidas por miembros de la Asociación Scouts de Colombia.",
+          "source": "Código de Honor, Disciplinario y de Conducta (Acuerdo C.S.N. 510 de 2022, Resolución C.S.N. 004-22), Art. 3, literal g (faltas graves), p. 7"
+        },
+        {
+          "type": "method-grid",
+          "items": [
+            {
+              "title": "📝 Quién puede quejarse",
+              "description": "Cualquier miembro de la Asociación plenamente identificado, el representante legal de un miembro juvenil o el de una entidad patrocinadora. La Corte también puede actuar de oficio (Código, Art. 23).",
+              "color": "#e3f2fd",
+              "borderColor": "#2196f3"
+            },
+            {
+              "title": "📎 Qué lleva la queja",
+              "description": "Los datos de quien la presenta y de la persona señalada, un relato claro de los hechos —qué, cuándo, dónde, en qué actividad—, los testigos posibles y las pruebas que se tengan (Art. 23).",
+              "color": "#e8f5e9",
+              "borderColor": "#4caf50"
+            },
+            {
+              "title": "🤐 Reserva",
+              "description": "Lo que se conoce de un caso no se comenta en el grupo ni en redes: mientras se investiga hay reserva, y romperla también puede ser falta (Reglamento Nacional, Art. 58). Y hacer o divulgar comentarios infundados que dañen el buen nombre de alguien o de la Asociación es una falta muy grave (Código, Art. 4, literal b).",
+              "color": "#f3e5f5",
+              "borderColor": "#9c27b0"
+            },
+            {
+              "title": "🤝 Colaborar",
+              "description": "Todo estamento y todo afiliado debe dar la información que la Corte o la Comisión de Vigilancia le pidan; negarse es una falta (Estatuto, Arts. 68 y 75).",
+              "color": "#fff9c4",
+              "borderColor": "#fbc02d"
+            }
+          ]
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>⚠️ Si lo que conoces es un posible abuso contra un niño, una niña, un joven o un adulto,</strong> no esperes a la queja disciplinaria: el Código pide informarlo de inmediato para que se active la ruta de protección y se acuda a las autoridades (Código de Honor, Provisiones generales, 1.3). Esa ruta la enseñan el <a href=\"https://maximoaluna-blip.github.io/INDUCCION-PROGRAMA-JOVENES/\" target=\"_blank\" rel=\"noopener\">Curso 25 de Programa de Jóvenes</a> y la <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/\" target=\"_blank\" rel=\"noopener\">línea de Políticas Transversales</a>."
+        },
+        {
+          "type": "paragraph",
+          "text": "Al final, el Consejo de Gloria hizo lo que tocaba: la Presidenta reunió con el Contador los soportes del bingo y envió la queja a la Corte, sin comentarla en el grupo, y la queja por el trato al niño se llevó primero a la ruta de protección."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 En corto:</strong> el Consejo no investiga ni sanciona a un adulto, y tampoco calla. Si la conducta tiene que ver con dinero, el Contador alerta y la queja va a la Corte; si tiene que ver con el trato a un niño, primero la ruta de protección."
+        }
+      ],
+      "reflection": {
+        "prompt": "¿Sabrías hoy cómo hacerle llegar una queja a la Corte de Honor Nacional desde tu grupo o tu Región? Anota sí, no o no sé, y qué dato te faltaría."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 6",
+        "questions": [
+          {
+            "text": "El Contador le informa al Consejo que faltan $400.000 de la salida, y los soportes apuntan a que un dirigente los usó para sí. ¿Qué hace el Consejo?",
+            "options": [
+              "Pedirle a la Presidenta que presente la queja a la Corte con los hechos y los soportes, y guardar reserva.",
+              "Suspender al dirigente mientras la Corte decide, sin comentarlo en el grupo, para proteger los fondos.",
+              "Pedirle al Contador que establezca si hubo falta, y presentar la queja solo si él lo confirma."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "La mamá de un lobato quiere quejarse ante la Corte de Honor por cómo un dirigente manejó la plata de una salida. ¿Puede hacerlo?",
+            "options": [
+              "Sí: como representante legal de un miembro juvenil, identificándose y aportando sus pruebas.",
+              "Sí, pero a través del Consejo de Grupo, que es quien representa al grupo ante la Corte.",
+              "Sí, pero la debe firmar el Jefe de Grupo, porque la queja la presenta un miembro afiliado."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Continuar a Lección 7 →"
+    },
+    {
+      "id": 7,
+      "title": "Lección 7 — ✅ La revisión de tu grupo o tu Región",
+      "emoji": "✅",
+      "navLabel": "L7",
+      "sections": [
+        {
+          "type": "info-box",
+          "text": "<strong>⏱️ 5 minutos · 1 idea central:</strong><br>Seis preguntas muestran si el control y la disciplina de tu grupo o tu Región están en su lugar, y cada «no» o «no sé» es un compromiso posible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vigilar no es juzgar, y juzgar no le toca a cualquiera: al grupo de Gloria le faltó saber quién hace qué. No tenía mala intención: quería resolver rápido. Estas son las seis preguntas:"
+        },
+        {
+          "type": "list",
+          "ordered": true,
+          "items": [
+            "¿El control fiscal-contable lo hace alguien distinto de quien maneja el dinero —el Contador, nombrado por el Consejo—?",
+            "¿El Contador recibe a tiempo los soportes y lo citan cuando el Consejo trata temas financieros?",
+            "¿El Consejo sabe que no existe una «Corte de Honor de Grupo», y cómo se forma una Comisión Disciplinaria Ad-hoc?",
+            "¿Los adultos saben que la falta de un adulto la decide la Corte de Honor Nacional, y cómo se le presenta una queja?",
+            "¿Los casos se manejan con reserva, sin comentarios en el grupo ni en redes?",
+            "¿Todos saben que un posible abuso activa primero la ruta de protección?"
+          ]
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Antes de seguir:</strong> cuenta cuántas de las seis le fallaron al grupo de Gloria."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>💡 Compara:</strong> le fallaron cinco: la 2 (los soportes del bingo nunca le llegaron al Contador), la 3 (armó una «Corte de Honor del grupo»), la 4 (el Consejo suspendió a un dirigente, cuando eso es de la Corte de Honor Nacional), la 5 (el caso corría por el chat de familias) y la 6 (ante la humillación de un niño solo se pensó en sancionar, no en la ruta de protección). La 1, hasta donde cuenta el caso, sí: tenía Contador."
+        },
+        {
+          "type": "mission-box",
+          "text": "<strong>📌 Tu turno:</strong> responde las seis pensando en tu grupo o tu Región. Escoge un «no» o un «no sé» y conviértelo en un compromiso: qué vas a proponer o revisar, con qué cargo o instancia y para cuándo. Escríbelo en el recuadro «Compromiso Personal» del certificado."
+        },
+        {
+          "type": "info-box",
+          "text": "<strong>➡️ Lo que sigue:</strong> con este curso se cierra el Nivel 3. El Nivel 4 trae los cursos transversales, entre ellos el del Código de Honor, la ética y los conflictos de intereses."
+        }
+      ],
+      "reflection": {
+        "prompt": "Anota cuántas de las seis preguntas respondiste con «sí» y cuál escogiste para mejorar (solo el número). El compromiso completo —qué vas a proponer, con qué cargo o instancia y para cuándo— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
+      },
+      "quiz": {
+        "title": "Mini-quiz Lección 7 — Cierre del curso",
+        "questions": [
+          {
+            "text": "El Consejo formó una Comisión Ad-hoc por la falta grave de un scout. La mamá del scout pide que esa misma Comisión estudie también la conducta del dirigente que estaba a cargo ese día. ¿Qué corresponde?",
+            "options": [
+              "Que la conducta del dirigente vaya en queja a la Corte; la Comisión decide solo sobre el scout.",
+              "Que la Comisión estudie los dos casos: los hechos son los mismos y así no se parten las pruebas.",
+              "Que la Comisión decida sobre el scout y le pida al Consejo suspender al dirigente si ve responsabilidad."
+            ],
+            "correctIndex": 0
+          },
+          {
+            "text": "Al hacer la revisión, una consejera responde «no sé» a si el Contador recibe a tiempo los soportes. ¿Qué compromiso sale bien?",
+            "options": [
+              "Revisar con el Contador, antes del próximo Consejo, qué soportes le faltan y cómo le llegarán a tiempo.",
+              "Responder «sí» sin preguntarle al Contador, porque nadie se ha quejado nunca de los soportes.",
+              "Proponer en el próximo Consejo que quien maneja la caja revise él mismo sus propios soportes."
+            ],
+            "correctIndex": 0
+          }
+        ]
+      },
+      "nextLabel": "Ir al certificado →"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "achievement-1",
+      "name": "Distingo vigilar de juzgar",
+      "emoji": "👁️",
+      "unlockOnModule": 2
+    },
+    {
+      "id": "achievement-2",
+      "name": "Conozco el mapa",
+      "emoji": "🗺️",
+      "unlockOnModule": 3
+    },
+    {
+      "id": "achievement-3",
+      "name": "Sé quién juzga a quién",
+      "emoji": "⚖️",
+      "unlockOnModule": 4
+    },
+    {
+      "id": "achievement-4",
+      "name": "Conozco las garantías",
+      "emoji": "📜",
+      "unlockOnModule": 5
+    },
+    {
+      "id": "achievement-5",
+      "name": "Sé qué hacer",
+      "emoji": "🙋",
+      "unlockOnModule": 6
+    },
+    {
+      "id": "achievement-final",
+      "name": "Control y disciplina en su lugar",
+      "emoji": "✅",
+      "unlockOnModule": -1
+    }
+  ],
+  "certificate": {
+    "courseName": "CONTROL Y DISCIPLINA: QUIÉN VIGILA Y QUIÉN JUZGA",
+    "description": "ha completado el Curso 17 del Nivel 3 — Especialización por cargo de la Línea Desarrollo Institucional, distinguiendo los órganos de control de los de disciplina en la Nación, la Región y el grupo, reconociendo quién juzga la falta de un adulto y la de un joven, las garantías del proceso disciplinario y lo que le toca a quien conoce una falta, con un compromiso concreto para su grupo o su Región"
+  },
+  "commitmentBox": {
+    "prompt": "Pega aquí el compromiso de tu revisión: el «no» o «no sé» que escogiste, qué vas a proponer o revisar, con qué cargo o instancia y para cuándo.",
+    "placeholder": "Voy a revisar…"
+  }
+}

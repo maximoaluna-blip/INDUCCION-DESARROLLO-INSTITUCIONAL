@@ -208,5 +208,33 @@
     "status": "active",
     "file": "conducir-el-consejo.html",
     "folder": "conducir-el-consejo"
+  },
+  {
+    "courseId": "comisionado-region-nacion",
+    "title": "El Comisionado: llevar la Política a los grupos",
+    "description": "Un comisionado no manda en los grupos: hace que la Política llegue a ellos. En este curso vas a ver quién nombra a un comisionado de la Jefatura y a quién responde, cómo está armada la comisión de Desarrollo Institucional, cómo el comisionado lleva la Política a los grupos dentro del plan de la Región, qué pide la afiliación de su equipo, y qué límites tiene el cargo: el Consejo, los dos niveles y las cuentas.",
+    "icon": "🗺️",
+    "duration": "~37 min",
+    "level": 3,
+    "levelName": "Especialización por cargo",
+    "order": 16,
+    "modules": 7,
+    "status": "active",
+    "file": "comisionado-region-nacion.html",
+    "folder": "comisionado-region-nacion"
+  },
+  {
+    "courseId": "control-y-disciplina",
+    "title": "Control y disciplina: quién vigila y quién juzga",
+    "description": "Vigilar no es juzgar, y juzgar no le toca a cualquiera. En este curso vas a distinguir los órganos de control de los de disciplina, ubicarlos en la Nación, la Región y el grupo, saber quién decide sobre la falta de un adulto y la de un joven, reconocer las garantías de un proceso disciplinario y saber qué hacer cuando conoces una falta.",
+    "icon": "⚖️",
+    "duration": "~36 min",
+    "level": 3,
+    "levelName": "Especialización por cargo",
+    "order": 17,
+    "modules": 7,
+    "status": "active",
+    "file": "control-y-disciplina.html",
+    "folder": "control-y-disciplina"
   }
 ]

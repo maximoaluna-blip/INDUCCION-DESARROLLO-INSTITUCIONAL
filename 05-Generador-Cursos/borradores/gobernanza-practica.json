@@ -3,7 +3,7 @@
   "title": "Gobernanza Práctica",
   "subtitle": "Curso 7 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
   "description": "Una decisión que nadie tomó, nadie la puede cumplir. En ~35 minutos vas a practicar cómo se decide de verdad en un grupo scout: quién decide, quién ejecuta y quién verifica; qué decide la Asamblea y qué debe decir su acta, y cómo sesiona un Consejo con quórum; de dónde salen las reglas y cuáles siguen vigentes; y cómo medir la gobernanza de tu grupo con los 8 Principios de Buena Gobernanza del Estatuto Nacional 2025.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "status": "active",
   "icon": "🏛️",
   "duration": "~35 min",
@@ -615,7 +615,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu compromiso de gobernanza: qué vas a hacer, en cuál de los 8 principios, con quién —su rol, no su nombre— y para cuándo. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista junto a él. Ojo: ese recuadro no sale en el PDF; si quieres conservarlo, anótalo también donde lo vayas a ver."
+        "prompt": "Anota en cuál de los 8 principios vas a trabajar (solo el principio). El compromiso completo —qué vas a hacer, con quién (su rol, no su nombre) y para cuándo— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7 — Cierre del curso",

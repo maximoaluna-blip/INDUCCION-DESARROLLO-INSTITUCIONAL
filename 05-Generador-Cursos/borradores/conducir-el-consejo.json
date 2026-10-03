@@ -526,7 +526,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Anota cuántas de las seis preguntas respondiste con «sí» y cuál escogiste para mejorar (solo el número). El compromiso completo —qué vas a proponer, a qué órgano y para cuándo— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF."
+        "prompt": "Anota cuántas de las seis preguntas respondiste con «sí» y cuál escogiste para mejorar (solo el número). El compromiso completo —qué vas a proponer, a qué órgano y para cuándo— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7 — Cierre del curso",

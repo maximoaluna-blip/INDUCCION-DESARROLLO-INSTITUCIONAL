@@ -1921,7 +1921,7 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Escribe tu compromiso final en una frase: <em>“Yo, ___, me comprometo con estas ___ metas en los próximos 12 meses por la salud institucional de ___ (mi grupo / mi región / mi consejo).”</em> Esta frase queda guardada en tu certificado del Nivel 1.</p>
+                    <p>Anota con cuántas metas te comprometes en los próximos 12 meses y para qué nivel (tu grupo, tu región o tu consejo). La frase completa de tu compromiso escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas.</p>
                     <textarea id="reflection-6" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(6, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
@@ -2044,8 +2044,8 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <div class="reflection-area">
                     <h4>🎯 Compromiso Personal</h4>
-                    <p>Escribe tu compromiso como adulto certificado para servir a tu grupo scout y al movimiento:</p>
-                    <textarea id="commitment" placeholder="Mi compromiso como adulto del movimiento es..." onchange="saveCommitment(this.value)"></textarea>
+                    <p>Escribe tu compromiso en una frase: con cuántas metas te comprometes en los próximos 12 meses y por la salud institucional de qué nivel (tu grupo, tu región o tu consejo).</p>
+                    <textarea id="commitment" placeholder="Me comprometo con…" onchange="saveCommitment(this.value)"></textarea>
                 </div>
             </div>
         </div>
@@ -2671,7 +2671,7 @@ function renderCoursesSuggestions() {
             'relaciones-internacionales': '📣 Curso 12 — Comunicaciones y Relaciones Interinstitucionales',
             'crecimiento': '📈 Curso 13 — Crecimiento y Sistema de Información',
             'gestion-del-riesgo': '🛡️ Curso 14 — Gestión del Riesgo',
-            'control-y-reconocimiento': '🏅 Curso 20 — Órganos de control y disciplina (Nivel 3)'
+            'control-y-reconocimiento': '🏅 Curso 17 — Control y disciplina (Nivel 3)'
         };
         var suggestions = [];
         Object.keys(data).forEach(function (aid) {
@@ -2934,7 +2934,7 @@ function buildPlanPrintableHTML(planId) {
         'relaciones-internacionales': '📣 Curso 12 — Comunicaciones',
         'crecimiento': '📈 Curso 13 — Crecimiento',
         'gestion-del-riesgo': '🛡️ Curso 14 — Gestión del Riesgo',
-        'control-y-reconocimiento': '🏅 Curso 20 — Órganos de control y disciplina'
+        'control-y-reconocimiento': '🏅 Curso 17 — Control y disciplina'
     };
     var sugg = [];
     Object.keys(catalog).forEach(function (aid) {

@@ -216,21 +216,21 @@ Detalles en [`BACKEND.md`](BACKEND.md).
 ### Fase siguiente
 
 - **Nivel 2 — Profundización**: completo (8 de 8).
-- **Nivel 3 — Especialización por cargo** (3 cursos, 15–17): **en construcción desde el 28-sep-2026, con autonomía del dueño hasta cerrarlo**. Reparto con PA en el Plan §5. Comprobar el foco de cada curso contra el corpus: en el Nivel 2, 6 de 8 no tenían fuente.
-- **Nivel 4 — Transversales** (4 cursos, 18–21), priorizando el Curso 20 (Código de Honor) por su carácter universal.
+- **Nivel 3 — Especialización por cargo** (3 cursos, 15–17): **cerrado el 02-oct-2026** (ADR-111, 112, 113).
+- **Nivel 4 — Transversales** (4 cursos, 18–21), **con autonomía del dueño desde el 02-oct-2026**, priorizando el Curso 20 (Código de Honor). El Código de Honor, Disciplinario y de Conducta (2022) **sí está en el corpus** (`DOCUMENTOS BASE/SCOUTS/BIBLIOTECA-CSN/`); ojo: dice que la Corte tiene 5 miembros y el Estatuto 2025, 9.
 - Evaluar si separar el backend de la Línea Política de Adultos (criterios en `BACKEND.md`).
 
 ### Consultas pendientes (al CSN o a la DNDI; ninguna cambia lo que enseñan los cursos publicados)
 
 - **RN Art. 231, literal d:** el texto se corta en el PDF oficial (Cursos 9, 10 y 11 citan la regla principal, que está completa).
-- **Acuerdo CSN 558/2023:** su texto no está en el corpus; se aplica por lo que dicen el ADR-022 y el glosario.
+- **Acuerdo CSN 558/2023:** su texto no está en el corpus; se aplica por lo que dicen el ADR-022 y el glosario. De su redacción depende si la presidencia del Vicepresidente en la Comisión Ad-hoc (RG 8.2 y 8.5) sigue citable (ADR-109).
 - **RN Art. 81:** si «consejeros» incluye a los del Consejo de Grupo (compensación por gestión de donaciones, Curso 11; el curso toma la lectura prudente).
 - **RN Art. 47:** si a la excepción («los miembros, patrocinadores y honorarios») le falta «colaboradores», como en el RG 4.2.3 (Curso 13).
 - **Documentos que no están en el corpus:** Manual de Imagen Corporativa y Reglamento de Uniformes, Insignias y Distintivos (RN 232, 235; Curso 12), Manual de Afiliaciones (RN 43; Curso 13), manuales de crecimiento de la DNDI, Protocolo Nacional de Transporte, Política de Conflictos de Intereses (Acuerdo 419), Constitución de la OMMS (cita del Curso 3).
 
 ### Tareas técnicas
 
-- **Privacidad del compromiso (hallada al auditar el Curso 16):** el aviso del registro dice que el compromiso del cierre se queda en el navegador, pero la reflexión de la L7 de los **Cursos 9 a 14** pide escribirlo, y las reflexiones viajan a la hoja. Corregido en los Cursos 15 y 16 (la reflexión pide solo el número; el compromiso va al recuadro). Falta aplicarlo a los Cursos 9–14.
+- ~~Privacidad del compromiso en los Cursos 9 a 14~~: corregida el 02-oct-2026 en once cursos (ADR-116), junto con dos promesas que el sistema no cumplía (correo en el Curso 1, «queda en tu certificado» en el 6).
 
 - Extender `checkOvejaNegra` a **prefijos** de 2–4 palabras (ver la deuda técnica de `DECISIONES.md`).
 - Variar la última pregunta de los **Cursos 9 y 10**, que comparten el molde «Proponer al Consejo de <mes>…».

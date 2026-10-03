@@ -3,7 +3,7 @@
   "title": "Niveles y Estructura del Movimiento",
   "subtitle": "Curso 3 de la Línea Desarrollo Institucional · Nivel 1 — Fundamentación",
   "description": "Aterriza la estructura completa del Movimiento Scout: 5 niveles (Mundial, Interamericano, Nacional, Regional, Local) con su arquitectura de órganos por nivel. Importante: la estructura es asimétrica — no se replica el mismo modelo de tres órganos uniformes en cada nivel.",
-  "contentVersion": "2026-09-28",
+  "contentVersion": "2026-10-02",
   "icon": "🏗️",
   "duration": "~35 min",
   "level": 1,
@@ -195,7 +195,7 @@
             },
             {
               "title": "⚖️ Investigación / Disciplina",
-              "description": "Vela por la ética, el debido proceso y las sanciones cuando hay faltas. En la ASC son la Corte de Honor Nacional con sus Capítulos Regionales y, en el grupo, la Comisión Disciplinaria Ad-hoc. No deciden el rumbo del grupo, pero protegen su integridad.",
+              "description": "Vela por la ética, el debido proceso y las sanciones cuando hay faltas. En la ASC son la Corte de Honor Nacional, con su sala auxiliar en cada Región, y, en el grupo, la Comisión Disciplinaria Ad-hoc. No deciden el rumbo del grupo, pero protegen su integridad.",
               "color": "#fce4ec",
               "borderColor": "#e91e63"
             },
@@ -213,7 +213,7 @@
         },
         {
           "type": "info-box",
-          "text": "⚠️ <strong>La estructura es asimétrica entre niveles.</strong> No esperes encontrar los 5 órganos con los mismos nombres en cada nivel. En la práctica vigente:<br>• <strong>Nacional:</strong> los 5 tipos están todos representados con nombre propio, incluida la Comisión Nacional de Vigilancia y Control.<br>• <strong>Regional:</strong> el de investigación es el “Capítulo Regional de la Corte de Honor Nacional”; el control fiscal-contable lo ejerce el <strong>Contador Regional</strong> (el cargo de Revisor Fiscal no está vigente en el manual de cargos actual — salvo que la región tenga personería jurídica propia, caso en el que la ley exige uno elegido por la asamblea).<br>• <strong>Grupo:</strong> la “investigación” es la Comisión Disciplinaria Ad-hoc (no permanente); el control fiscal-contable lo ejerce el <strong>Contador de Grupo</strong> (el cargo de Fiscal tampoco está vigente hoy)."
+          "text": "⚠️ <strong>La estructura es asimétrica entre niveles.</strong> No esperes encontrar los 5 órganos con los mismos nombres en cada nivel. En la práctica vigente:<br>• <strong>Nacional:</strong> los 5 tipos están todos representados con nombre propio, incluida la Comisión Nacional de Vigilancia y Control.<br>• <strong>Regional:</strong> el de disciplina es la “sala auxiliar de la Corte de Honor” (Reglamento Nacional 2026, Art. 187; antes se llamaba Capítulo Regional); el control fiscal-contable lo ejerce el <strong>Contador Regional</strong> (el cargo de Revisor Fiscal no está vigente en el manual de cargos actual — salvo que la región tenga personería jurídica propia: entonces tiene Revisor Fiscal, Reglamento Nacional, Art. 130).<br>• <strong>Grupo:</strong> la “investigación” es la Comisión Disciplinaria Ad-hoc (no permanente); el control fiscal-contable lo ejerce el <strong>Contador de Grupo</strong> (el cargo de Fiscal tampoco está vigente hoy)."
         },
         {
           "type": "paragraph",
@@ -395,8 +395,8 @@
               "borderColor": "#2196f3"
             },
             {
-              "title": "⚖️ Investigación — Capítulo Regional de la Corte de Honor Nacional (Art. 1.20.4)",
-              "description": "⚠️ Importante: NO es una “Corte de Honor Regional” autónoma. Es un Capítulo regional que depende doctrinalmente de la Corte de Honor Nacional. Investiga, recibe pruebas y propone reconocimientos a nivel regional.",
+              "title": "⚖️ Disciplina — Sala auxiliar de la Corte de Honor (RN 2026, Art. 187)",
+              "description": "⚠️ Importante: NO es una “Corte de Honor Regional” autónoma. Son tres adultos que elige la Asamblea Regional por dos años, y apoyan a la Corte de Honor Nacional en lo que esta les comisione, como recoger pruebas o adelantar una conciliación (RN Art. 188; Código de Honor, Arts. 17 y 31). Antes se llamaba Capítulo Regional (Reglamento de Regiones, Art. 1.20.4); el Reglamento Nacional de 2026 dio un año para poner al día esa norma.",
               "color": "#fce4ec",
               "borderColor": "#e91e63"
             },
@@ -421,14 +421,14 @@
           "type": "timeline",
           "items": [
             {
-              "title": "Regional — Confundir Capítulo Regional con Corte autónoma",
-              "description": "Un comisionado regional convoca al “Capítulo Regional de la Corte de Honor” para que dicte sentencia disciplinaria a un dirigente. <strong>Error.</strong> El Capítulo investiga y recoge pruebas, pero la sentencia formal la dicta la Corte de Honor Nacional. <strong>Prevención:</strong> trabajar siempre con un cronograma articulado entre Capítulo regional y CHN nacional, no como órganos paralelos."
+              "title": "Regional — Confundir la sala auxiliar con una Corte autónoma",
+              "description": "Un comisionado regional convoca a la sala auxiliar de la Corte de Honor para que dicte sentencia disciplinaria a un dirigente. <strong>Error.</strong> La sala apoya a la Corte en lo que esta le comisione, pero la sanción a un adulto la decide la Corte de Honor Nacional. <strong>Prevención:</strong> llevar la queja a la Corte y dejar que ella decida qué le comisiona a la sala."
             }
           ]
         }
       ],
       "reflection": {
-        "prompt": "En tu región, ¿se reúne el Capítulo Regional de la Corte de Honor cuando se necesita, sabiendo que no dicta sentencia por sí solo? ¿Está presente el Contador Regional en las decisiones del consejo con temas financieros? ¿Sabes si tu región tiene personería jurídica propia? Anota qué pasa hoy."
+        "prompt": "En tu región, ¿sabes si ya funciona la sala auxiliar de la Corte de Honor, o todavía se habla de capítulo? ¿Está presente el Contador Regional en las decisiones del consejo con temas financieros? ¿Sabes si tu región tiene personería jurídica propia? Anota sí, no o no sé en cada una."
       },
       "quiz": {
         "title": "Mini-quiz Lección 5",
@@ -443,11 +443,11 @@
             "correctIndex": 1
           },
           {
-            "text": "Un comisionado regional convoca al Capítulo Regional de la Corte de Honor para que dicte sentencia disciplinaria a un dirigente. ¿Qué le corriges?",
+            "text": "Un comisionado regional convoca a la sala auxiliar de la Corte de Honor para que dicte sentencia disciplinaria a un dirigente. ¿Qué le corriges?",
             "options": [
-              "Nada, está bien — el Capítulo Regional puede investigar y también dictar sentencia de forma autónoma.",
-              "El Capítulo Regional investiga, pero la sentencia la dicta la Corte de Honor Nacional.",
-              "Debió convocar directamente a la Comisión Nacional de Vigilancia y Control, no al Capítulo."
+              "Nada, está bien — la sala auxiliar puede investigar y también dictar sentencia de forma autónoma.",
+              "La sala auxiliar apoya a la Corte, pero la sanción a un dirigente la decide la Corte de Honor Nacional.",
+              "Debió convocar directamente a la Comisión Nacional de Vigilancia y Control, no a la sala auxiliar."
             ],
             "correctIndex": 1
           }
@@ -497,7 +497,7 @@
             },
             {
               "title": "⚖️ Investigación — Comisión Disciplinaria Ad-hoc (Art. 1.19.4)",
-              "description": "⚠️ Importante: NO es permanente. El Consejo la forma para cada caso con tres de sus miembros, elegidos por votación simple: uno es el <strong>Vicepresidente</strong>, que la preside; ni el Presidente del Consejo ni el Jefe de Grupo pueden estar en ella (Art. 8.2 y 8.5). Juzga las faltas graves y muy graves de los <strong>niños y jóvenes</strong>. Las faltas de los <strong>adultos</strong> van a la Corte de Honor Nacional, salvo las muy leves, que sanciona el Jefe de Grupo (Art. 8.7). NO existe en la normatividad vigente una “Corte de Honor de Grupo” formal.",
+              "description": "⚠️ Importante: NO es permanente. El Consejo la forma para cada caso con tres de sus miembros, elegidos por votación simple: uno es el <strong>Vicepresidente</strong>, que la preside; ni el Presidente del Consejo ni el Jefe de Grupo pueden estar en ella (Art. 8.2 y 8.5). Juzga las faltas graves y muy graves de los <strong>niños y jóvenes</strong>. Las faltas de los <strong>adultos</strong> —de toda persona mayor de edad— las investiga y sanciona la Corte de Honor Nacional (Estatuto, Art. 62). NO existe en la normatividad vigente una “Corte de Honor de Grupo” formal.",
               "color": "#fce4ec",
               "borderColor": "#e91e63"
             },
@@ -511,7 +511,7 @@
         },
         {
           "type": "info-box",
-          "text": "<strong>Por nivel, el órgano de control y el órgano de disciplina son distintos:</strong><br>🏛️ <strong>Nacional</strong> → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ <strong>Regional</strong> → Contador Regional (control), salvo región con personería jurídica propia (ahí, Revisor Fiscal) + Capítulo Regional de la Corte de Honor Nacional (disciplina).<br>🏠 <strong>Grupo</strong> → Contador de Grupo (control) + Comisión Disciplinaria Ad-hoc (disciplina de niños y jóvenes, solo cuando se convoca; las faltas de los adultos van a la Corte de Honor Nacional)."
+          "text": "<strong>Por nivel, el órgano de control y el órgano de disciplina son distintos:</strong><br>🏛️ <strong>Nacional</strong> → Comisión Nacional de Vigilancia y Control (control) + Corte de Honor Nacional (disciplina).<br>🏘️ <strong>Regional</strong> → Contador Regional (control), salvo región con personería jurídica propia (ahí, Revisor Fiscal) + sala auxiliar de la Corte de Honor (disciplina, en apoyo de la Corte de Honor Nacional).<br>🏠 <strong>Grupo</strong> → Contador de Grupo (control) + Comisión Disciplinaria Ad-hoc (disciplina de niños y jóvenes, solo cuando se convoca; las faltas de los adultos van a la Corte de Honor Nacional)."
         },
         {
           "type": "heading",
@@ -611,7 +611,7 @@
             },
             {
               "title": "⚖️ Conflicto entre personas o falta disciplinaria",
-              "description": "Si la falta es de un niño o joven: las leves las resuelve su rama, con el Jefe de Rama y el Jefe de Grupo; las graves y muy graves, la Comisión Disciplinaria Ad-hoc del grupo (y si se apela su fallo, la Corte de Honor Nacional). Si es de un adulto: la Corte de Honor Nacional; solo las faltas muy leves las sanciona el Jefe de Grupo (Reglamento de Grupos, Art. 8.7).",
+              "description": "Si la falta es de un niño o joven: las leves las resuelve su rama, con el Jefe de Rama y el Jefe de Grupo; las graves y muy graves, la Comisión Disciplinaria Ad-hoc del grupo (y si se apela su fallo, la Corte de Honor Nacional). Si es de un adulto: la Corte de Honor Nacional, que investiga y sanciona las faltas de toda persona mayor de edad (Estatuto, Art. 62).",
               "color": "#fce4ec",
               "borderColor": "#e91e63"
             },
@@ -644,7 +644,7 @@
         }
       ],
       "reflection": {
-        "prompt": "De los cargos que listaste, ¿cuántos pudiste nombrar sin investigar? Si quedaron varios “pendiente averiguar”, escribe un compromiso: “¿A quién voy a preguntarle esta semana para completarlo?”"
+        "prompt": "De los cargos que listaste, ¿cuántos pudiste nombrar sin investigar? Anota solo los números: cuántos sabías y cuántos quedaron «pendiente averiguar». El compromiso —a qué cargo o instancia vas a preguntar y para cuándo— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7 — Cierre del curso",
@@ -719,5 +719,9 @@
   "certificate": {
     "courseName": "NIVELES Y ESTRUCTURA DEL MOVIMIENTO",
     "description": "ha completado el Curso 3 del Nivel 1 — Fundamentación de la Línea Desarrollo Institucional, reconociendo los 5 niveles del Movimiento Scout (Mundial, Interamericano, Nacional, Regional y Local), los 5 tipos genéricos de órganos en una institución sana, la arquitectura asimétrica vigente de la Asociación Scouts de Colombia según el Estatuto Nacional 2025, el Reglamento Nacional de Regiones Scout (Art. 1.20) y el Reglamento Nacional de Grupos Scouts (Art. 1.19), y construyendo su mapa institucional personal con los nombres concretos de cada órgano en su grupo y región"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe tu compromiso para completar tu mapa institucional: a qué cargo o instancia vas a preguntar por los que quedaron «pendiente averiguar», y para cuándo.",
+    "placeholder": "Esta semana voy a preguntarle al…"
   }
 }

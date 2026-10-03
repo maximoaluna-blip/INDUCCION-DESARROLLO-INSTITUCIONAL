@@ -1924,7 +1924,7 @@ html[data-theme="dark"] .courses-suggestion-empty { color: #e8c766; }
 
                 <div class="reflection-area">
                     <h4>🤔 Reflexión Personal</h4>
-                    <p>Escribe tu aporte al Plan de Grupo: la prioridad, el objetivo SMART, la acción del año, el recurso del presupuesto y la fecha de revisión. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista. Ojo: ese recuadro no sale en el PDF.</p>
+                    <p>Anota cuál de las prioridades escogiste para tu aporte al Plan de Grupo (solo la prioridad). El aporte completo —el objetivo SMART, la acción del año, el recurso del presupuesto y la fecha de revisión— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas.</p>
                     <textarea id="reflection-7" placeholder="Escribe tu reflexión aquí..." onchange="saveReflection(7, this.value)"></textarea>
                 </div>
                 <div class="quiz-container">
@@ -2674,7 +2674,7 @@ function renderCoursesSuggestions() {
             'relaciones-internacionales': '📣 Curso 12 — Comunicaciones y Relaciones Interinstitucionales',
             'crecimiento': '📈 Curso 13 — Crecimiento y Sistema de Información',
             'gestion-del-riesgo': '🛡️ Curso 14 — Gestión del Riesgo',
-            'control-y-reconocimiento': '🏅 Curso 20 — Órganos de control y disciplina (Nivel 3)'
+            'control-y-reconocimiento': '🏅 Curso 17 — Control y disciplina (Nivel 3)'
         };
         var suggestions = [];
         Object.keys(data).forEach(function (aid) {
@@ -2937,7 +2937,7 @@ function buildPlanPrintableHTML(planId) {
         'relaciones-internacionales': '📣 Curso 12 — Comunicaciones',
         'crecimiento': '📈 Curso 13 — Crecimiento',
         'gestion-del-riesgo': '🛡️ Curso 14 — Gestión del Riesgo',
-        'control-y-reconocimiento': '🏅 Curso 20 — Órganos de control y disciplina'
+        'control-y-reconocimiento': '🏅 Curso 17 — Control y disciplina'
     };
     var sugg = [];
     Object.keys(catalog).forEach(function (aid) {

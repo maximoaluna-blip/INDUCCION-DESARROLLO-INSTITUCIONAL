@@ -3,7 +3,7 @@
   "title": "Captación de Fondos y Ciclo de Proyectos",
   "subtitle": "Curso 11 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
   "description": "Una rifa no es un proyecto. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Gestión de Recursos Económicos: cómo conseguir fondos adicionales a las cuotas, con actividades o con proyectos, cómo tratar con aliados y donantes sin comprometer al grupo, y cómo ordenar un proyecto de principio a fin.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "status": "active",
   "icon": "🌱",
   "duration": "~35 min",
@@ -472,7 +472,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe aquí tu proyecto en cinco líneas y tu compromiso: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo. Al llegar al certificado, pega el compromiso en «Compromiso Personal» para tenerlo a la vista. Ojo: ese recuadro no sale en el PDF."
+        "prompt": "Escribe aquí tu proyecto en cinco líneas, con roles y no nombres. El compromiso —el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7 — Cierre del curso",

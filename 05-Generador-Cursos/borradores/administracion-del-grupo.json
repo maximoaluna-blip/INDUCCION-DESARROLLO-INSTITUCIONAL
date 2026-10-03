@@ -3,7 +3,7 @@
   "title": "Administración del Grupo",
   "subtitle": "Curso 9 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
   "description": "Lo que no está escrito, el grupo no lo tiene. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Administración: los bienes y equipos del grupo, las personas que le sirven, sus obligaciones legales y sus datos, y el lugar donde se reúne. Con casos del día a día y las reglas que los ordenan.",
-  "contentVersion": "2026-09-27",
+  "contentVersion": "2026-10-02",
   "status": "active",
   "icon": "🗂️",
   "duration": "~30 min",
@@ -469,7 +469,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu resultado en las cinco preguntas y tu compromiso: el «no» o «no sé» que escogiste, qué vas a proponer, a qué órgano o cargo y para cuándo. Al llegar al certificado, pégalo en «Compromiso Personal» para tenerlo a la vista. Ojo: ese recuadro no sale en el PDF."
+        "prompt": "Anota cuántas de las cinco preguntas respondiste con «sí» y cuál escogiste para mejorar (solo el número). El compromiso completo —qué vas a proponer, a qué órgano o cargo y para cuándo— escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 7 — Cierre del curso",

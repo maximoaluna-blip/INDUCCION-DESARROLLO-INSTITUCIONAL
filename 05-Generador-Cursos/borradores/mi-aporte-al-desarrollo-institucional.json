@@ -3,7 +3,7 @@
   "title": "Mi Aporte al Desarrollo Institucional",
   "subtitle": "Curso 6 de la Línea Desarrollo Institucional · Cierre del Nivel 1 — Fundamentación",
   "description": "Curso de cierre del Nivel 1. Convierte todo lo aprendido en un plan personal de aporte al DI, listo para firmar y compartir con el consejo. Lee automáticamente tu catálogo de buenas prácticas del Curso 5 y tu brújula personal del Curso 2, te propone metas-tipo por cada uno de los 8 ámbitos con recursos y plazos, y termina con un PDF firmable.",
-  "contentVersion": "2026-09-28",
+  "contentVersion": "2026-10-02",
   "icon": "🗺️",
   "duration": "30 minutos",
   "level": 1,
@@ -636,7 +636,7 @@
         }
       ],
       "reflection": {
-        "prompt": "Escribe tu compromiso final en una frase: <em>“Yo, ___, me comprometo con estas ___ metas en los próximos 12 meses por la salud institucional de ___ (mi grupo / mi región / mi consejo).”</em> Esta frase queda guardada en tu certificado del Nivel 1."
+        "prompt": "Anota con cuántas metas te comprometes en los próximos 12 meses y para qué nivel (tu grupo, tu región o tu consejo). La frase completa de tu compromiso escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
       },
       "quiz": {
         "title": "Mini-quiz Lección 6 — Cierre del curso y del Nivel 1",
@@ -705,5 +705,9 @@
   "certificate": {
     "courseName": "MI APORTE AL DESARROLLO INSTITUCIONAL",
     "description": "ha completado el Curso 6 y cierre del Nivel 1 — Fundamentación de la Línea Desarrollo Institucional, convirtiendo el aprendizaje teórico de los cinco cursos previos en un plan personal de aporte firmado, con metas concretas extraídas del catálogo de buenas prácticas de su grupo, plazos y primeros pasos definidos, listo para llevar al consejo de grupo o región como compromiso público con la salud institucional de la Asociación Scouts de Colombia"
+  },
+  "commitmentBox": {
+    "prompt": "Escribe tu compromiso en una frase: con cuántas metas te comprometes en los próximos 12 meses y por la salud institucional de qué nivel (tu grupo, tu región o tu consejo).",
+    "placeholder": "Me comprometo con…"
   }
 }
