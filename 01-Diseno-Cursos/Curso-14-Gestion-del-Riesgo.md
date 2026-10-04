@@ -43,3 +43,14 @@
 **Segunda y tercera vuelta.** Doctrinal: 1 mayor nuevo (el puente decía «amenaza = peligro»; en la ASP y en PJ el peligro no se puntúa, se puntúa el riesgo) → corregido → verificación acotada APTO CON CORRECCIONES MENORES (lista completa de la matriz de PJ; «sirve igual para anotar»; L7 P1 sin dato extra; el quiz del Curso 6 aún decía «manual» de gestión del riesgo). Pedagógica: APTO CON MEJORAS MENORES (el personaje que opina casi siempre se equivocaba; «otro se encarga» siempre falso) → aplicadas. Suite local 192 (189 + 3).
 
 _**Privacidad del compromiso (02-oct-2026, ADR-116).** El registro promete que el compromiso del cierre se queda en el navegador, pero la reflexión lo pedía completo, y las reflexiones viajan a la hoja de la Asociación. Ahora la reflexión pide lo mínimo y sin nombres, y el compromiso completo va al recuadro «Compromiso Personal» (`commitmentBox`). `contentVersion` 2026-10-02._
+
+
+## Adenda (04-oct-2026): remisión a los protocolos nacionales
+
+Decisión del dueño. La L4 decía «pregunta en tu Región por los protocolos vigentes». Ahora nombra los cuatro protocolos nacionales de la biblioteca (DNDI › Gestión del Riesgo), con su código verificado en la primera página de cada PDF:
+- transporte, CNGR-022;
+- contratación de alimentación, CNGR-091;
+- combustibles y equipos químicos, CNGR-092;
+- aviso de accidentes de la póliza, CNGR-093.
+
+Remite al Curso 09 de PT (`actividades-seguras-y-datos`), que los enseña. La pregunta 3 de la revisión pasa a «los nacionales que le aplican». No se dice quién arma el plan A Salvo del Peligro de un evento: lo arma la Comisión Nacional ASP para los nacionales y regionales (Política 2025, p. 33), y es de PT. `contentVersion` 2026-10-04.

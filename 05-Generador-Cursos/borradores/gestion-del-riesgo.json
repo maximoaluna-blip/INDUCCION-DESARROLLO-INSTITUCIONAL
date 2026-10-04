@@ -3,7 +3,7 @@
   "title": "Gestión del Riesgo",
   "subtitle": "Curso 14 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
   "description": "El riesgo que nadie nombra llega sin avisar. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Gestión del Riesgo: qué es gestionarlo, sus tres áreas —ambiente seguro, protección financiera y patrimonial, actividades seguras—, las reglas básicas de una actividad segura, cómo se cuida lo que el grupo tiene y su buen nombre, y cómo se arma el mapa de riesgos del grupo.",
-  "contentVersion": "2026-10-02",
+  "contentVersion": "2026-10-04",
   "status": "active",
   "icon": "🛡️",
   "duration": "~33 min",
@@ -255,7 +255,7 @@
         },
         {
           "type": "paragraph",
-          "text": "¿Y los protocolos? A nivel nacional, el Manual de Cargos le encarga al Comisionado Nacional de Gestión del Riesgo elaborar y proponer el manual de actividades seguras de la Asociación (ficha 2.3.33), y en la Región el Comisionado Regional de Gestión del Riesgo asesora a los grupos en la mitigación del riesgo y las actividades seguras (ficha 2.2.29). Para tu actividad, pregunta en tu Región por los protocolos vigentes y deja por escrito los de tu grupo."
+          "text": "¿Y los protocolos? A nivel nacional, el Manual de Cargos le encarga al Comisionado Nacional de Gestión del Riesgo elaborar y proponer el manual de actividades seguras de la Asociación (ficha 2.3.33), y en la Región el Comisionado Regional de Gestión del Riesgo asesora a los grupos en la mitigación del riesgo y las actividades seguras (ficha 2.2.29). Para tu actividad ya hay cuatro protocolos nacionales, en la biblioteca de la Asociación (Desarrollo Institucional › Gestión del Riesgo): el de transporte (CNGR-022), el de contratación de alimentación (CNGR-091), el de combustibles y equipos químicos (CNGR-092) y el de aviso de accidentes de la póliza (CNGR-093). Cómo aplicarlos lo enseña el curso <a href=\"https://maximoaluna-blip.github.io/INDUCCION-POLITICAS-TRANSVERSALES/02-Plataforma-Web/actividades-seguras-y-datos.html\" target=\"_blank\" rel=\"noopener\">Actividades seguras</a> de Políticas Transversales. Pregunta además en tu Región qué agrega para su territorio, y deja por escrito los de tu grupo."
         },
         {
           "type": "info-box",
@@ -450,7 +450,7 @@
           "items": [
             "¿El grupo tiene un mapa de sus riesgos, con probabilidad, magnitud y un responsable para cada uno?",
             "¿Antes de cada actividad se revisa que todos los participantes tengan su seguridad social vigente?",
-            "¿Alguien vela por los protocolos de seguridad de cada actividad, y conocemos los de nuestra Región?",
+            "¿Alguien vela por los protocolos de seguridad de cada actividad, y conocemos los nacionales que le aplican?",
             "¿Los bienes y la plata del grupo están inventariados y con rendición de cuentas al día?",
             "¿Sabemos cómo reportar una situación de riesgo y cuidamos lo que se publica cuando algo pasa?"
           ]
