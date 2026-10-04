@@ -54,7 +54,7 @@
     },
     {
       "id": 2,
-      "title": "Lección 1 — ¿Qué es Desarrollo Institucional, en realidad?",
+      "title": "Lección 2 — ¿Qué es Desarrollo Institucional, en realidad?",
       "emoji": "🏛️",
       "navLabel": "L1",
       "sections": [
@@ -139,7 +139,7 @@
         "prompt": "Mira tu grupo o región. Escribe DOS cosas que ya están haciendo bien en términos de DI (cualquiera de los 6 ejemplos del grid sirve) y UNA cosa que sospechas que está floja. Sé específico — no “mejorar finanzas” sino “no tenemos libro contable al día”."
       },
       "quiz": {
-        "title": "Mini-quiz Lección 1",
+        "title": "Mini-quiz Lección 2",
         "questions": [
           {
             "text": "El papá de un lobato te dice: “A mí no me interesa el Desarrollo Institucional, yo solo vengo a ayudar en las actividades de la manada.” Según lo que viste en esta lección, ¿qué le respondes?",
@@ -160,12 +160,12 @@
             "correctIndex": 2
           }
         ],
-        "nextLabel": "Continuar a Lección 2 →"
+        "nextLabel": "Continuar a Lección 3 →"
       }
     },
     {
       "id": 3,
-      "title": "Lección 2 — Los 5 mitos del DI (y cómo desarmarlos)",
+      "title": "Lección 3 — Los 5 mitos del DI (y cómo desarmarlos)",
       "emoji": "🧨",
       "navLabel": "L2",
       "sections": [
@@ -239,7 +239,7 @@
         "prompt": "Piensa en una persona concreta de tu grupo o región (puedes usar solo su rol o iniciales) que alguna vez dijo o pensó algo parecido a uno de estos 5 mitos — y en qué momento fue (una reunión, una salida, una conversación de pasillo). Escribe qué dijo y qué le responderías hoy, con tus propias palabras."
       },
       "quiz": {
-        "title": "Mini-quiz Lección 2",
+        "title": "Mini-quiz Lección 3",
         "questions": [
           {
             "text": "Un dirigente nuevo te dice: “yo solo quiero estar con los chicos, no me metas en cosas administrativas.” ¿Cuál es la mejor respuesta según esta lección?",
@@ -260,12 +260,12 @@
             "correctIndex": 1
           }
         ],
-        "nextLabel": "Continuar a Lección 3 →"
+        "nextLabel": "Continuar a Lección 4 →"
       }
     },
     {
       "id": 4,
-      "title": "Lección 3 — Tu institución en una página",
+      "title": "Lección 4 — Tu institución en una página",
       "emoji": "🏛️",
       "navLabel": "L3",
       "sections": [
@@ -357,7 +357,7 @@
         "prompt": "En tu grupo o región, ¿sabrías nombrar a la persona que hoy preside el Consejo? ¿Y al jefe? ¿Y a la persona que ejerce el control de las cuentas (el Contador de tu grupo)? Anota lo que sepas y lo que no — eso vale más que adivinar."
       },
       "quiz": {
-        "title": "Mini-quiz Lección 3",
+        "title": "Mini-quiz Lección 4",
         "questions": [
           {
             "text": "El plan anual de actividades y el presupuesto del grupo los <strong>prepara</strong> el Consejo de Grupo. ¿Quién los <strong>aprueba</strong>?",
@@ -378,12 +378,12 @@
             "correctIndex": 1
           }
         ],
-        "nextLabel": "Continuar a Lección 4 →"
+        "nextLabel": "Continuar a Lección 5 →"
       }
     },
     {
       "id": 5,
-      "title": "Lección 4 — Por qué un grupo saludable cambia la vida de los chicos",
+      "title": "Lección 5 — Por qué un grupo saludable cambia la vida de los chicos",
       "emoji": "💡",
       "navLabel": "L4",
       "sections": [
@@ -454,7 +454,7 @@
         "prompt": "De las tres historias, ¿cuál se parece más a algo que has visto en un grupo cercano (no necesariamente el tuyo)? Escribe en una frase qué falló institucionalmente y, en otra, qué pudo haberlo prevenido."
       },
       "quiz": {
-        "title": "Mini-quiz Lección 4",
+        "title": "Mini-quiz Lección 5",
         "questions": [
           {
             "text": "En la historia del Grupo A, lo que falló fue principalmente…",
@@ -475,12 +475,12 @@
             "correctIndex": 2
           }
         ],
-        "nextLabel": "Continuar a Lección 5 →"
+        "nextLabel": "Continuar a Lección 6 →"
       }
     },
     {
       "id": 6,
-      "title": "Lección 5 — Tu primer compromiso",
+      "title": "Lección 6 — Tu primer compromiso",
       "emoji": "✍️",
       "navLabel": "L5",
       "sections": [
@@ -595,7 +595,7 @@
         "prompt": "Anota en pocas palabras qué vas a hacer esta semana, sin nombres de personas. El compromiso completo, con la plantilla «Esta semana voy a ___. Lo voy a hacer con ___. Y la señal de que se cumplió será ___», escríbelo en el recuadro «Compromiso Personal» del certificado: ese se queda en tu navegador y no sale en el PDF que descargas."
       },
       "quiz": {
-        "title": "Mini-quiz Lección 5 — Cierre del curso",
+        "title": "Mini-quiz Lección 6 — Cierre del curso",
         "questions": [
           {
             "text": "¿Cuál de estos compromisos cumple mejor el criterio “chico, concreto y tuyo”?",
