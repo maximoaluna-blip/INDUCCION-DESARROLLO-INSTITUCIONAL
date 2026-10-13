@@ -3,7 +3,7 @@
   "title": "Planes mundial y regional: del mundo a tu grupo",
   "subtitle": "Curso 20 de la Línea Desarrollo Institucional · Nivel 4 — Transversales",
   "description": "Un plan del mundo no se copia ni se ignora: se lee, y se baja por su camino. En este curso vas a distinguir la Estrategia para el Movimiento Scout 2024–2033, el Plan Trienal Mundial 2024–2027 y el Plan Trienal Regional Interamericano 2025–2028; reconocer sus impactos y prioridades; explicar qué le pide cada plan a la Asociación y ubicar a qué prioridad nacional aporta una acción de tu plan.",
-  "contentVersion": "2026-10-03",
+  "contentVersion": "2026-10-12",
   "icon": "🌎",
   "duration": "~33 min",
   "level": 4,
@@ -422,7 +422,7 @@
             "text": "¿Qué trabajo le trae a la Asociación medir el avance del Plan Trienal Mundial 2024–2027?",
             "options": [
               "Un trabajo extra menor: los indicadores salen de datos que ya existen, y solo si no alcanzan hay encuestas.",
-              "Un informe anual: cada organización nacional reporta, una por una, el avance de las 11 áreas de trabajo.",
+              "Un trabajo extra grande: cada organización nacional reporta cada año, una por una, el avance de las 11 áreas de trabajo.",
               "Un informe al cierre: cada organización nacional reporta a la Región, una sola vez, el avance del trienio."
             ],
             "correctIndex": 0

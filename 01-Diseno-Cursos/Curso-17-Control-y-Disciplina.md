@@ -66,3 +66,5 @@ Todo aplicado; el motor se corrigió y se reconstruyó la línea.
 **Verificación doctrinal final:** ver el ADR-113.
 
 _**Canal de quejas (03-oct-2026, con el Nivel 4).** La L6 suma el canal oficial de la Corte (su página y corte.honor@scout.org.co) y que el formato oficial de queja (versión 2024, descargado al corpus) admite quejas anónimas y a nombre de un tercero. El Art. 23 del Código sigue citado tal cual; la Corte también actúa de oficio._
+
+_**Fuga de apertura (12-oct-2026, deuda del ADR-102).** `checkOvejaNegra` pasó a medir hasta 4 palabras y marcó L3P2 y L7P1: los dos distractores compartían la apertura y la correcta no. Se reescribió un distractor por pregunta para que arranque como la correcta; las correctas no cambiaron, y `contentVersion` pasó a 2026-10-12. En L3P2, el distractor anterior (la terna del Consejo Regional) era el procedimiento del antiguo Capítulo Regional y tenía respaldo en el Manual (2.2.11–12); el nuevo (terna de la Asamblea) no lo tiene en ninguna norma. Re-auditoría doctrinal acotada de los distractores nuevos: OK._

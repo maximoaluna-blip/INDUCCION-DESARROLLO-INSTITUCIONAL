@@ -3,7 +3,7 @@
   "title": "Control y disciplina: quién vigila y quién juzga",
   "subtitle": "Curso 17 de la Línea Desarrollo Institucional · Nivel 3 — Especialización por cargo",
   "description": "Vigilar no es juzgar, y juzgar no le toca a cualquiera. En este curso vas a distinguir los órganos de control de los de disciplina, ubicarlos en la Nación, la Región y el grupo, saber quién decide sobre la falta de un adulto y la de un joven, reconocer las garantías de un proceso disciplinario y saber qué hacer cuando conoces una falta.",
-  "contentVersion": "2026-10-03",
+  "contentVersion": "2026-10-12",
   "icon": "⚖️",
   "duration": "~36 min",
   "level": 3,
@@ -213,7 +213,7 @@
             "options": [
               "Que la Asamblea Regional elija a tres adultos con los requisitos de la Corte, por dos años.",
               "Que el Consejo Regional elija a tres adultos con los requisitos de la Corte, por dos años.",
-              "Que el Consejo Regional presente una terna y la Corte escoja a los tres de la sala auxiliar."
+              "Que la Asamblea Regional presente una terna y la Corte escoja a los tres de la sala auxiliar."
             ],
             "correctIndex": 0
           }
@@ -551,7 +551,7 @@
             "text": "El Consejo formó una Comisión Ad-hoc por la falta grave de un scout. La mamá del scout pide que esa misma Comisión estudie también la conducta del dirigente que estaba a cargo ese día. ¿Qué corresponde?",
             "options": [
               "Que la conducta del dirigente vaya en queja a la Corte; la Comisión decide solo sobre el scout.",
-              "Que la Comisión estudie los dos casos: los hechos son los mismos y así no se parten las pruebas.",
+              "Que la conducta del dirigente también la estudie la Comisión: los hechos son los mismos y así no se parten las pruebas.",
               "Que la Comisión decida sobre el scout y le pida al Consejo suspender al dirigente si ve responsabilidad."
             ],
             "correctIndex": 0

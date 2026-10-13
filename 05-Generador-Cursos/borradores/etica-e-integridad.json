@@ -3,7 +3,7 @@
   "title": "Ética e integridad: cuando lo personal entra en la decisión",
   "subtitle": "Curso 19 de la Línea Desarrollo Institucional · Nivel 4 — Transversales",
   "description": "La integridad no es no tener intereses: es ponerlos sobre la mesa antes de decidir. En este curso vas a distinguir una inhabilidad, una incompatibilidad y un conflicto de interés, reconocer qué impide llegar a un cargo y qué impide sumar otro, decidir si un regalo o una ventaja se puede recibir, y declarar un conflicto ante quien debe decidirlo.",
-  "contentVersion": "2026-10-03",
+  "contentVersion": "2026-10-12",
   "icon": "🧭",
   "duration": "~35 min",
   "level": 4,
@@ -116,7 +116,7 @@
             "options": [
               "Puede tener solo uno: o sigue en el Consejo o asume la comisión.",
               "Puede tener los dos, y no vota en el Consejo los temas que toquen a la Manada.",
-              "Puede tener los dos si el Consejo Regional lo aprueba y lo deja en el acta."
+              "Puede tener solo uno, salvo que el Consejo Regional apruebe los dos."
             ],
             "correctIndex": 0
           },
@@ -277,7 +277,7 @@
             "text": "Un miembro de la Comisión Nacional de Vigilancia y Control, contador de profesión, ofrece llevar la contabilidad de la Oficina Nacional cobrando sus honorarios. ¿Puede?",
             "options": [
               "Le está prohibido: los miembros de la Comisión no pueden tener vínculo contractual pagado con la Asociación.",
-              "Le está permitido si declara el conflicto de interés y otro miembro de la Comisión revisa esas cuentas.",
+              "Le está prohibido solo si no declara el conflicto de interés; si lo declara, otro miembro de la Comisión revisa esas cuentas.",
               "Le está permitido: lo que el Reglamento prohíbe es tener más de un cargo pagado, y este sería el único."
             ],
             "correctIndex": 0

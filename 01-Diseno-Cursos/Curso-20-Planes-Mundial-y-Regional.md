@@ -60,3 +60,5 @@ Tres vueltas (02 y 03-oct-2026), todas con agentes nuevos:
 **Convención de páginas:** Plan Trienal Mundial y RN, página impresa = página PDF. Plan Estratégico, página impresa. Plan Regional, página del PDF (pliegos dobles).
 
 **Revisar** cuando la Asamblea apruebe el plan nacional siguiente (RN Art. 26): L5, L6 y L7 citan el 2023–2026 como vigente, y la opción del Plan Estratégico de L7Q1 pasa a ser también una cita por cambiar.
+
+_**Fuga de apertura (12-oct-2026, deuda del ADR-102).** `checkOvejaNegra` pasó a medir hasta 4 palabras y marcó L6P2: los dos distractores compartían la apertura y la correcta no. Se reescribió un distractor por pregunta para que arranque como la correcta; las correctas no cambiaron, y `contentVersion` pasó a 2026-10-12. Re-auditoría doctrinal acotada de los distractores nuevos: OK._

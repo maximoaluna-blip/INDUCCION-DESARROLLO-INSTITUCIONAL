@@ -3,7 +3,7 @@
   "title": "El Comisionado: llevar la Política a los grupos",
   "subtitle": "Curso 16 de la Línea Desarrollo Institucional · Nivel 3 — Especialización por cargo",
   "description": "Un comisionado no manda en los grupos: hace que la Política llegue a ellos. En este curso vas a ver quién nombra a un comisionado de la Jefatura y a quién responde, cómo está armada la comisión de Desarrollo Institucional, cómo el comisionado lleva la Política a los grupos dentro del plan de la Región, qué pide la afiliación de su equipo, y qué límites tiene el cargo: el Consejo, los dos niveles y las cuentas.",
-  "contentVersion": "2026-10-02",
+  "contentVersion": "2026-10-12",
   "status": "active",
   "icon": "🗺️",
   "duration": "~37 min",
@@ -119,7 +119,7 @@
             "text": "El Consejo Regional le pide al comisionado regional de Desarrollo Institucional un informe de su gestión. En la Jefatura discuten si debe entregarlo. ¿Qué dice su ficha?",
             "options": [
               "Que el Consejo sí puede pedírselo: su ficha dice que responde al Consejo Regional y al Jefe Scout Regional.",
-              "Que no tiene por qué: al Consejo solo le responde el comisionado administrativo, que es cargo del Consejo.",
+              "Que el Consejo sí puede pedírselo, pero solo al final del periodo, cuando el comisionado deja el cargo.",
               "Que no: responde al Jefe Scout Regional, que es quien lo nombra; el Consejo puede opinar, pero no pedirle informes."
             ],
             "correctIndex": 0
@@ -410,7 +410,7 @@
             "options": [
               "El consejero, porque la regla de los dos niveles exceptúa el cargo que se ejerce en el grupo.",
               "Ella, porque la regla de los dos niveles cuenta el grupo como un nivel más, igual que la Región y la Nación.",
-              "Ella, porque la regla de los dos niveles no deja dirigir en la Región y en el grupo a la vez."
+              "El consejero, porque el Consejo Regional puede dispensar la regla de los dos niveles."
             ],
             "correctIndex": 0
           },
@@ -418,7 +418,7 @@
             "text": "El comisionado regional de crecimiento quiere llegar al Consejo Regional en la Asamblea de dentro de ocho meses, así que deja la comisión esta semana. Un consejero le dice que ya es tarde. ¿Tiene razón el consejero?",
             "options": [
               "No: si deja la comisión ahora, llegará a esa elección con más de medio año fuera del cargo.",
-              "Sí: quien ejerció un cargo operativo en la Región ya no puede integrar el Consejo de ese nivel.",
+              "No: los cargos operativos de la Región no tienen ninguna inhabilidad para llegar al Consejo de ese nivel.",
               "Sí: para llegar al Consejo hay que llevar dos años fuera de cualquier cargo directivo."
             ],
             "correctIndex": 0
@@ -485,7 +485,7 @@
             "options": [
               "La 5: no podía esperar a la sesión del Consejo: tenía treinta días desde el curso.",
               "Ninguna aún: los treinta días se cuentan desde que la Región le pide las cuentas.",
-              "Ninguna aún: los treinta días son hábiles, y cuarenta días comunes no alcanzan a ser treinta hábiles."
+              "La 4: al cobrar la inscripción, dirigió la gestión de los grupos en vez de acompañarla."
             ],
             "correctIndex": 0
           },

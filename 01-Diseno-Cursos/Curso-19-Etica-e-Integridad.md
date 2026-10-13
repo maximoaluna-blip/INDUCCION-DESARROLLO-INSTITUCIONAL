@@ -58,3 +58,5 @@ Cuatro vueltas (02 y 03-oct-2026), todas con agentes nuevos:
 3. **Acotada final (03-oct):** 0 críticos y 0 mayores. Las 14 claves quedan sostenidas, y el Art. 60 se comprobó por posición en el PDF. Los menores son de cita (5.7 parágrafo tercero; la excepción del Jefe va al Estatuto y al RG 5.1.4).
    - Nota: el RG 5.1, parágrafo tercero, permite al cónyuge ser suplente, y el RN 75 lo prohíbe. El curso sigue al RN, que es posterior y nacional (RN 19).
 4. **Compuertas del build:** sin avisos tras reabrir tres opciones con apertura distinta.
+
+_**Fuga de apertura (12-oct-2026, deuda del ADR-102).** `checkOvejaNegra` pasó a medir hasta 4 palabras y marcó L2P1 y L4P1: los dos distractores compartían la apertura y la correcta no. Se reescribió un distractor por pregunta para que arranque como la correcta; las correctas no cambiaron, y `contentVersion` pasó a 2026-10-12. En L2P1 se comprobó el RN Art. 71 (sin salvedad) y en L4P1 el Art. 73 (prohibición sin condición). Re-auditoría doctrinal acotada de los distractores nuevos: OK._
