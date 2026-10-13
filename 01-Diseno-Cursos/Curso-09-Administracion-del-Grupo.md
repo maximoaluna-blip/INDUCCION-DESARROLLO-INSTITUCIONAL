@@ -42,3 +42,5 @@
 **Fuera del curso:** el **Curso 4 publicado** tenía dos ejemplos que no cuadraban con la PNDI —«recursos humanos (los dirigentes, los voluntarios)» y «cámara de comercio» como obligación legal de un grupo—; corregidos (ADR-092).
 
 _**Privacidad del compromiso (02-oct-2026, ADR-116).** El registro promete que el compromiso del cierre se queda en el navegador, pero la reflexión lo pedía completo, y las reflexiones viajan a la hoja de la Asociación. Ahora la reflexión pide lo mínimo y sin nombres, y el compromiso completo va al recuadro «Compromiso Personal» (`commitmentBox`). `contentVersion` 2026-10-02._
+
+_**Molde compartido con el Curso 10 (12-oct-2026, deuda del ADR-102).** La L7 P2 de este curso y la del Curso 10 tenían la correcta como la única con el molde «Consejo de noviembre… revisar en diciembre», que se acertaba por patrón al venir de un curso al otro. Un distractor tomó el mismo molde con contenido falso: «…que el Presidente firme a su nombre el contrato del bus, y en diciembre ver si se hizo» (RN Art. 231 d; RG 5.8: firma por delegación, nunca a título personal). `contentVersion` 2026-10-12. Re-auditoría doctrinal acotada: OK._

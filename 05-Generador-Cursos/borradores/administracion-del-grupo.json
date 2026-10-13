@@ -3,7 +3,7 @@
   "title": "Administración del Grupo",
   "subtitle": "Curso 9 de la Línea Desarrollo Institucional · Nivel 2 — Profundización por ámbito de gestión",
   "description": "Lo que no está escrito, el grupo no lo tiene. En este curso vas a recorrer lo que la Política Nacional de Desarrollo Institucional llama Administración: los bienes y equipos del grupo, las personas que le sirven, sus obligaciones legales y sus datos, y el lugar donde se reúne. Con casos del día a día y las reglas que los ordenan.",
-  "contentVersion": "2026-10-02",
+  "contentVersion": "2026-10-12",
   "status": "active",
   "icon": "🗂️",
   "duration": "~30 min",
@@ -487,7 +487,7 @@
             "text": "¿Cuál de estos compromisos sale bien de la revisión administrativa?",
             "options": [
               "Proponerle al Consejo de noviembre revisar quién tiene las fichas médicas, y en diciembre ver si se hizo.",
-              "Proponerle al Presidente, antes de diciembre, que firme el contrato del bus a nombre propio, sin pasar por la Región.",
+              "Proponerle al Consejo de noviembre que el Presidente firme a su nombre el contrato del bus, y en diciembre ver si se hizo.",
               "Proponerle al grupo que este año sea más ordenado con sus cosas, para que no se vuelva a perder nada."
             ],
             "correctIndex": 0
